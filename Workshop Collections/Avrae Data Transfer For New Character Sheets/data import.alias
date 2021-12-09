@@ -1,0 +1,60 @@
+multiline
+<drac2>
+pc = character()
+args = &ARGS&
+
+data_export = load_json(get('data_export', '{}'))
+
+if not args or args[0] not in data_export:
+	err(f"You didn't specify a character for whom data has been exported. You must use the exact command you were given by `{ctx.prefix}{ctx.alias} export`.")
+
+exported_data = load_json(data_export[args[0]])
+
+for counter in load_json(''.join([get(uvar_name) for uvar_name in exported_data.cc])):
+	pc.create_cc(counter.name, counter.min, counter.max, counter.reset_on, counter.display_type, counter.reset_to, counter.reset_by, counter.title, counter.desc)
+	pc.set_cc(counter.name, counter.value)
+
+delete_uvar(exported_data.cc)
+
+for i, cvar in enumerate(exported_data.cvars):
+	uvar_name = f'{args[0]}_c_{i}'
+	pc.set_cvar(cvar, get(uvar_name))
+	delete_uvar(uvar_name)
+
+commands = [f'{ctx.prefix}echo Counters and cvars have been imported!']
+
+weapons_to_add = []
+for weapon_uvar in exported_data.weapons:
+	weapon = load_json(get(weapon_uvar))
+	if not any([attack.name == weapon.name for attack in pc.attacks]):
+		weapons_to_add.append(weapon)
+	delete_uvar(weapon_uvar)
+
+if weapons_to_add:
+	commands.append(f'{ctx.prefix}a import {dump_json(weapons_to_add)}')
+
+all_spells = load_json(''.join([get(uvar_name) for uvar_name in exported_data.spells]))
+
+for spell_name in all_spells:
+	if spell_name not in pc.spellbook:
+		commands.append(f'{ctx.prefix}sb add "{spell_name}" {all_spells[spell_name]}')
+
+for csetting_name, csetting_value in load_json(get(exported_data.csettings)).items():
+	if csetting_name == 'color':
+		commands.append(f'{ctx.prefix}csettings color {csetting_value:X}')
+	else:
+		commands.append(f'{ctx.prefix}csettings {csetting_name} {csetting_value}')
+
+data_export.pop(args[0])
+
+if not data_export:
+	delete_uvar('data_export')
+else:
+	set_uvar('data_export', dump_json(data_export))
+
+if len(commands) > 20:
+	set_uvar('data_export_commands', dump_json(commands[19:]))
+	commands = commands[:19] + [f"{ctx.prefix}echo :warning: Data import could not be finished yet! Please run `{ctx.prefix}{ctx.alias} continue`"]
+
+return '\n'.join(commands)
+</drac2>
