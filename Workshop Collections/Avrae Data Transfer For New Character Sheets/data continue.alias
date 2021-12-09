@@ -1,0 +1,14 @@
+multiline
+<drac2>
+exists('data_export_commands') or err('No unfinished import process found.')
+commands = load_json(data_export_commands)
+
+if len(commands) > 20:
+	set_uvar('data_export_commands', dump_json(commands[19:]))
+	commands = commands[:19] + [f"{ctx.prefix}echo :warning: Data import could not be finished yet! Please run `{ctx.prefix}{ctx.alias} continue`"]
+else:
+	delete_uvar('data_export_commands')
+
+return '\n'.join(commands)
+set_uvar('data_export_commands', dump_json(commands[19:]))
+</drac2>
