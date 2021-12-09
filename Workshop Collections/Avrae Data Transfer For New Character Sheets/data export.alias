@@ -1,0 +1,60 @@
+embed
+<drac2>
+pc = character()
+
+char_id = pc.upstream.replace('-', '_')
+
+data_export = load_json(get('data_export', '{}'))
+
+counters = [{
+	'desc': counter.desc,
+	'display_type': counter.display_type,
+	'max': counter.max,
+	'min': counter.min,
+	'name': counter.name,
+	'reset_by': counter.reset_by,
+	'reset_on': counter.reset_on,
+	'reset_to': counter.reset_to,
+	'title': counter.title,
+	'value': counter.value
+} for counter in pc.consumables]
+
+uvars = {'csettings': f'{char_id}_csettings', 'cc':[], 'cvars':[], 'weapons':[], 'spells':[]}
+
+set_uvar(f'{char_id}_csettings', dump_json(pc.csettings))
+
+all_counters = dump_json(counters)
+
+for i in range(0, len(all_counters), 10000):
+	export_uvar_name = f'{char_id}_cc_{i//10000}'
+	set_uvar(export_uvar_name, all_counters[i:i+10000])
+	uvars.cc.append(export_uvar_name)
+
+all_spells = dump_json({spell.name: f'{["", f"-mod {spell.mod}"][spell.mod != None]} {["", f"-b {spell.sab}"][spell.sab != None]} f{["", "-dc {spell.dc}"][spell.dc != None]}'.strip() for spell in pc.spellbook.spells})
+
+for i in range(0, len(all_spells), 10000):
+	export_uvar_name = f'{char_id}_spells_{i//10000}'
+	set_uvar(export_uvar_name, all_spells[i:i+10000])
+	uvars.spells.append(export_uvar_name)
+
+for i, cvar in enumerate(pc.cvars):
+	export_uvar_name = f'{char_id}_c_{i}'
+	set_uvar(export_uvar_name, pc.cvars[cvar])
+	uvars.cvars.append(cvar)
+
+for weapon in pc.attacks:
+	export_uvar_name = f'{char_id}_w_{"".join([valid if valid.isalnum() else "_" for valid in weapon.name])}'
+	set_uvar(export_uvar_name, dump_json(weapon.raw))
+	uvars.weapons.append(export_uvar_name)
+
+data_export[char_id] = dump_json(uvars)
+set_uvar('data_export', dump_json(data_export))
+</drac2>
+-title "Exported Avrae's data for {{pc.name}}!"
+-desc "All cvars, csettings, attacks, spells and custom counters have been saved within your uvars and are ready for transfer.
+
+Make sure to import your new character sheet into Avrae, select the right character, and then use `{{ctx.prefix+ctx.alias}} import <char_id>` to import the data.
+
+After the import, the data will be erased from your uvars.."
+-color <color>
+-thumb <image>
