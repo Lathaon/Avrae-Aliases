@@ -7,3 +7,6 @@ Pronouns are saved to the cvars `ungendered`, `they`, `them`, `their` and `their
 `!test <name> (<they>/<them>) can now be referred to using <their> correct pronouns! Victory is <theirs>!`
 
 If you find any issues or would like to request additional variables or features, please feel free to ping me on the Avrae Development Discord server.
+
+Source code available on my [GitHub](https://github.com/Lathaon/Avrae-Aliases).
+I don't like coffee, but feel free to support me on [Ko-Fi](https://ko-fi.com/lathaon).
