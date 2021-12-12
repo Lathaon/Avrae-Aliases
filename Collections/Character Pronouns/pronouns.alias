@@ -1,0 +1,18 @@
+embed <drac2>
+a,c,v=&ARGS&,character(),True
+if '&1&'!='&1'+'&':
+    p=[['gender-neutral','they','them','their','theirs'],['male','he','him','his','his'],['female','she','her','her','hers']]
+    pn=p[1] if not [x for x in a if x not in p[1]] else p[2] if not [x for x in a if x not in p[2]] else p[0] if not [x for x in a if x not in p[0]] else ['custom']+&ARGS&
+    v=len(pn)>3
+    if v:
+        c.set_cvar('ungendered',pn[0])
+        c.set_cvar('they',pn[1])
+        c.set_cvar('them',pn[2])
+        c.set_cvar('their',pn[3])
+        c.set_cvar('theirs',pn[4])
+</drac2>
+-title "<name> (<they>/<them>)"
+-desc "<name> uses <ungendered> pronouns and <they> would like you to respect <their> gender identity by referring to <them> with the pronouns that are <theirs>."
+-footer "{{ctx.prefix}}{{ctx.alias}} [they] [them] [their] [theirs]"
+-thumb <image> -color <color>
+{{'' if v else f'''-title "You're doing it wrong!" -desc "If you'd like to use custom pronouns, please list all of them like so:\n`{ctx.prefix}{ctx.alias} they them their theirs`" -footer ""'''}}

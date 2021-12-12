@@ -1,0 +1,11 @@
+{
+  "collection": "605d4cb0ce32c967d32b08b5", 
+  "snippets": {}, 
+  "aliases": {
+    "data import": "605d4e701e2241970bbf0fa6", 
+    "data continue": "61382a360c965093d826bba7", 
+    "data export": "605d4e1ece32c967d32b08b8", 
+    "data": "605d4cb8ce32c967d32b08b6"
+  }, 
+  "name": "Avrae Data Transfer For New Character Sheets"
+}
