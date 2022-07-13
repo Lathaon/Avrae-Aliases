@@ -19,7 +19,7 @@
 
 def ordinal(number):
     """
-    Constructs an ordinal ("1st", "2nd", "3rd" etc.) string representation of a number.
+    Returns the ordinal ("1st", "2nd", "3rd" etc.) string representation of a number.
     """
     match abs(number) % 100:
         case 1 | 21 | 31 | 41 | 51 | 61 | 71 | 81 | 91:
