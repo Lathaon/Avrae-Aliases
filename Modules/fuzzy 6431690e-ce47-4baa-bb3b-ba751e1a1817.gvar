@@ -1,0 +1,86 @@
+# fuzzy='6431690e-ce47-4baa-bb3b-ba751e1a1817'
+#
+# A module to help with fuzzy matching.
+#
+# ===== Functions =====
+#
+# get_matches(search, iterable): Returns a list of matching values from iterable.
+#     If exact matches are available, then partial matches will be excluded.
+#
+# get_matches_ignoring_punctuation(search, iterable):
+#     As get_matches, but punctuation is ignored for purposes of partial matching.
+#
+# get_matches_with_function(search, iterable, function):
+#     As get_matches, but applies a given function to each item in the iterable to
+#     determine the string to match with.
+#
+# ===== Constants =====
+#
+# NO_PUNCTUATION_TABLE: A str.translate() table that removes most punctuation.
+
+
+NO_PUNCTUATION_TABLE = str.maketrans(
+    "", "", """﹄’《‟»」«'『‚‘「﹁›”〞｢‛"“〝』〉﹂﹃〈„＂‹⹂｣》 ,.‐−–—()+=_*#@<>/\\&^%$£!?~;:"""
+)
+
+
+def get_matches(search, iterable):
+    """
+    Returns a list of matching values from iterable.
+
+    If exact matches are available, then partial matches will be excluded.
+    """
+    search_lower = search.lower()
+    if partial_matches := [x for x in iterable if search_lower in x.lower()]:
+        if exact_matches := [x for x in partial_matches if search_lower == x.lower()]:
+            return exact_matches
+        else:
+            return partial_matches
+    else:
+        return []
+
+
+def get_matches_ignoring_punctuation(search, iterable):
+    """
+    Returns a list of matching values from iterable, ignoring punctuation
+    for purposes of partial matching.
+
+    If exact matches are available, then partial matches will be excluded.
+    """
+    search_lower = search.lower()
+    search_no_punctuation = search_lower.translate(NO_PUNCTUATION_TABLE)
+    if partial_matches := [
+        x
+        for x in iterable
+        if search_no_punctuation in x.lower().translate(NO_PUNCTUATION_TABLE)
+    ]:
+        if exact_matches := [x for x in partial_matches if search_lower == x.lower()]:
+            return exact_matches
+        else:
+            return partial_matches
+    else:
+        return []
+
+
+def get_matches_with_function(search, iterable, function):
+    """
+    Returns a list of matching values from iterable, applying a given function
+    to each item in the iterable to get the string to match with.
+
+    If exact matches are available, then partial matches will be excluded.
+
+    Example:
+    get_matches_with_function(
+        search = 'foo',
+        iterable = [{'name': 'foo'}, {'name': 'bar'}],
+        function = lambda x: x.name.lower()
+    ) == [{'name': 'foo'}]
+    """
+    search_lower = search.lower()
+    if partial_matches := [x for x in iterable if search_lower in function(x)]:
+        if exact_matches := [x for x in partial_matches if search_lower == function(x)]:
+            return exact_matches
+        else:
+            return partial_matches
+    else:
+        return []

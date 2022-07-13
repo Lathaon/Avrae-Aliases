@@ -1,0 +1,53 @@
+# int_lib='b7c014b7-e267-463c-bc60-8cf9651031fb'
+#
+# A module to help with rounding and displaying integers.
+#
+# ===== Functions =====
+#
+# ordinal(number): Returns the ordinal ("1st", "2nd", "3rd" etc.) string
+#     representation of a number.
+#
+# round_to_multiple(number, step): Rounds a number to the nearest multiple
+#     of step.
+#
+# floor_to_multiple(number, step): Rounds a number DOWN to the nearest
+#     multiple of step.
+#
+# ceil_to_multiple(number, step): Rounds a number UP to the nearest
+#     multiple of step.
+
+
+def ordinal(number):
+    """
+    Constructs an ordinal ("1st", "2nd", "3rd" etc.) string representation of a number.
+    """
+    match abs(number) % 100:
+        case 1 | 21 | 31 | 41 | 51 | 61 | 71 | 81 | 91:
+            return f"{number:,}st"
+        case 2 | 22 | 32 | 42 | 52 | 62 | 72 | 82 | 92:
+            return f"{number:,}nd"
+        case 3 | 23 | 33 | 43 | 53 | 63 | 73 | 83 | 93:
+            return f"{number:,}rd"
+        case _:
+            return f"{number:,}th"
+
+
+def round_to_multiple(number, step):
+    """
+    Rounds a number to the nearest multiple of step.
+    """
+    return round(number / step) * step
+
+
+def floor_to_multiple(number, step):
+    """
+    Rounds a number DOWN to the nearest multiple of step.
+    """
+    return floor(number / step) * step
+
+
+def ceil_to_multiple(number, step):
+    """
+    Rounds a number UP to the nearest multiple of step.
+    """
+    return ceil(number / step) * step
