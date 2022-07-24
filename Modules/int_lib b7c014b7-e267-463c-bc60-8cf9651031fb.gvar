@@ -15,11 +15,14 @@
 #
 # ceil_to_multiple(number, step): Rounds a number UP to the nearest
 #     multiple of step.
+#
+# english(number): Returns a textual (e.g. "twenty-three") representation
+#     of an integer.
 
 
 def ordinal(number):
     """
-    Returns the ordinal ("1st", "2nd", "3rd" etc.) string representation of a number.
+    Returns the ordinal ("1st", "2nd", "3rd" etc.) string representation of an integer.
     """
     match abs(number) % 100:
         case 1 | 21 | 31 | 41 | 51 | 61 | 71 | 81 | 91:
@@ -51,3 +54,41 @@ def ceil_to_multiple(number, step):
     Rounds a number UP to the nearest multiple of step.
     """
     return ceil(number / step) * step
+
+
+# For internal use only; Not guaranteed to be initialised.
+_ENGLISH_NUMBERS = None
+_ENGLISH_BIG_NUMBERS = None
+
+
+def english(number):
+    """
+    Returns a textual (e.g. "twenty-three") representation of an integer.
+    """
+    if _ENGLISH_NUMBERS is None:
+        _ENGLISH_NUMBERS = load_yaml(get_gvar('fa41ae1c-0bc2-4127-863c-0c642c018b8f'))
+        _ENGLISH_BIG_NUMBERS = load_yaml(get_gvar('3083722a-a911-4f80-b5e1-6ea5abb917cb'))
+    out = []
+    sign = 'minus ' if number < 0 else ''
+    unprocessed = abs(number)
+    if unprocessed > 999_999_999_999_999_999_999_999_999_999_999_999_999_999_999_999_999_999_999_999_999:
+        return sign + 'a REALLY big number'
+    for big_number in _ENGLISH_BIG_NUMBERS:
+        if unprocessed:
+            hundreds = (unprocessed % 1000) // 100
+            tens_and_units = unprocessed % 100
+            unprocessed //= 1000
+            if tens_and_units:
+                if hundreds:
+                    out.insert(0, f'{_ENGLISH_NUMBERS[hundreds]} hundred and {_ENGLISH_NUMBERS[tens_and_units]}{big_number}')
+                elif big_number:
+                    out.insert(0, f'{_ENGLISH_NUMBERS[tens_and_units]}{big_number}')
+                else:
+                    out.insert(0, f'and {_ENGLISH_NUMBERS[tens_and_units]}')
+            elif hundreds:
+                out.insert(0, f'{_ENGLISH_NUMBERS[hundreds]} hundred{big_number}')
+        else:
+            break
+    if out and out[0].startswith('and '):
+        out[0] = out[0][4:]
+    return sign + (', '.join(out) or 'zero')
