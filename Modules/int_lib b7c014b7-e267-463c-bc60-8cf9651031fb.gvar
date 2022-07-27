@@ -57,17 +57,17 @@ def ceil_to_multiple(number, step):
 
 
 # For internal use only; Not guaranteed to be initialised.
-_ENGLISH_NUMBERS = None
-_ENGLISH_BIG_NUMBERS = None
+_ENGLISH_NUMBERS = []
+_ENGLISH_BIG_NUMBERS = []
 
 
 def english(number):
     """
     Returns a textual (e.g. "twenty-three") representation of an integer.
     """
-    if _ENGLISH_NUMBERS is None:
-        _ENGLISH_NUMBERS = load_yaml(get_gvar('fa41ae1c-0bc2-4127-863c-0c642c018b8f'))
-        _ENGLISH_BIG_NUMBERS = load_yaml(get_gvar('3083722a-a911-4f80-b5e1-6ea5abb917cb'))
+    if not _ENGLISH_NUMBERS:
+        _ENGLISH_NUMBERS.extend(load_yaml(get_gvar('fa41ae1c-0bc2-4127-863c-0c642c018b8f')))
+        _ENGLISH_BIG_NUMBERS.extend(load_yaml(get_gvar('3083722a-a911-4f80-b5e1-6ea5abb917cb')))
     out = []
     sign = 'minus ' if number < 0 else ''
     unprocessed = abs(number)
