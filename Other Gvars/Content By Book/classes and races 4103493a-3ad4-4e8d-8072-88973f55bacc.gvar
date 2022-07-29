@@ -1,0 +1,532 @@
+# Classes and Races by Book
+# load_yaml(get_gvar('4103493a-3ad4-4e8d-8072-88973f55bacc'))
+- name: Basic Rules
+  free: true
+  proper: false
+  races:
+    Dragonborn: []
+    Dwarf:
+    - Hill
+    - Mountain
+    Elf:
+    - High
+    - Wood
+    Gnome:
+    - Rock
+    Half-Elf: []
+    Half-Orc: []
+    Halfling:
+    - Lightfoot
+    - Stout
+    Human: []
+    Tiefling: []
+  classes:
+    Barbarian:
+    - Path of the Berserker
+    Bard:
+    - College of Lore
+    Cleric:
+    - Life Domain
+    Druid:
+    - Circle of the Land
+    Fighter:
+    - Champion
+    Monk:
+    - Way of the Open Hand
+    Paladin:
+    - Oath of Devotion
+    Ranger:
+    - Hunter
+    Rogue:
+    - Thief
+    Sorcerer:
+    - Draconic Bloodline
+    Warlock:
+    - The Fiend
+    Wizard:
+    - School of Evocation
+- name: Elemental Evil Player's Companion
+  free: true
+  proper: false
+  races:
+    Aarakocra (Legacy): []
+    Genasi (Legacy):
+    - Air
+    - Earth
+    - Fire
+    - Water
+    Gnome (Legacy):
+    - Deep
+    Goliath (Legacy): []
+- name: Player's Handbook
+  proper: false
+  races:
+    Elf:
+    - Dark
+    Gnome:
+    - Forest
+    Human:
+    - Variant
+  classes:
+    Barbarian:
+    - Path of the Totem Warrior
+    Bard:
+    - College of Valor
+    Cleric:
+    - Knowledge Domain
+    - Light Domain
+    - Nature Domain
+    - Tempest Domain
+    - Trickery Domain
+    - War Domain
+    Druid:
+    - Circle of the Moon
+    Fighter:
+    - Battle Master
+    - Eldritch Knight
+    Monk:
+    - Way of Shadow
+    - Way of the Four Elements
+    Paladin:
+    - Oath of the Ancients
+    - Oath of Vengeance
+    Ranger:
+    - Beast Master
+    Rogue:
+    - Arcane Trickster
+    - Assassin
+    Sorcerer:
+    - Wild Magic
+    Warlock:
+    - The Archfey
+    - The Great Old One
+    Wizard:
+    - School of Abjuration
+    - School of Conjuration
+    - School of Divination
+    - School of Enchantment
+    - School of Illusion
+    - School of Necromancy
+    - School of Transmutation
+- name: Dungeon Master's Guide
+  proper: false
+  races:
+    Aasimar:
+    - Variant
+    Elf:
+    - Variant Eladrin
+  classes:
+    Cleric:
+    - Death Domain
+    Paladin:
+    - Oathbreaker
+- name: "Mordenkainen Presents: Monsters of the Multiverse"
+  proper: true
+  races:
+    Aarakocra: []
+    Aasimar: []
+    Bugbear: []
+    Centaur: []
+    Changeling: []
+    Deep Gnome: []
+    Duergar: []
+    Eladrin: []
+    Fairy: []
+    Firbolg: []
+    Genasi:
+    - Air
+    - Earth
+    - Fire
+    - Water
+    Githyanki: []
+    Githzerai: []
+    Goblin: []
+    Goliath: []
+    Harengon: []
+    Hobgoblin: []
+    Kenku: []
+    Kobold: []
+    Lizardfolk: []
+    Minotaur: []
+    Orc: []
+    Satyr: []
+    Sea Elf: []
+    Shadar-Kai: []
+    Shifter: []
+    Tabaxi: []
+    Tortle: []
+    Triton: []
+    Yuan-Ti: []
+- name: Tasha's Cauldron of Everything
+  proper: true
+  races:
+    Custom Lineage: []
+  classes:
+    Artificer:
+    - Alchemist
+    - Armorer
+    - Artillerist
+    - Battle Smith
+    Barbarian:
+    - Path of the Beast
+    - Path of Wild Magic
+    Bard:
+    - College of Creation
+    - College of Eloquence
+    Cleric:
+    - Order Domain
+    - Peace Domain
+    - Twilight Domain
+    Druid:
+    - Circle of Spores
+    - Circle of Stars
+    - Cirlce of Wildfire
+    Fighter:
+    - Psi Warrior
+    - Rune Knight
+    Monk:
+    - Way of Mercy
+    - Way of the Astral Self
+    Paladin:
+    - Oath of Glory
+    - Oath of the Watchers
+    Ranger:
+    - Fey Wanderer
+    - Swarmkeeper
+    Rogue:
+    - Phantom
+    - Soulknife
+    Sorcerer:
+    - Aberrant Mind
+    - Clockwork Soul
+    Warlock:
+    - The Fathomless
+    - The Genie
+    Wizard:
+    - Bladesinging
+    - Order of Scribes
+    Sidekick - Expert:
+    - ''
+    Sidekick - Spellcaster:
+    - Healer
+    - Mage
+    - Prodigy
+    Sidekick - Warrior:
+    - Attacker
+    - Defender
+- name: Xanathar's Guide to Everything
+  proper: true
+  classes:
+    Barbarian:
+    - Path of the Ancestral Guardian
+    - Path of the Storm Herald
+    - Path of the Zealot
+    Bard:
+    - College of Glamour
+    - College of Swords
+    - College of Whispers
+    Cleric:
+    - Forge Domain
+    - Grave Domain
+    Druid:
+    - Circle of Dreams
+    - Circle of the Shepherd
+    Fighter:
+    - Arcane Archer
+    - Cavalier
+    - Samurai
+    Monk:
+    - Way of the Drunken Master
+    - Way of the Kensei
+    - Way of the Sun Soul
+    Paladin:
+    - Oath of Conquest
+    - Oath of Redemption
+    Ranger:
+    - Gloom Stalker
+    - Horizon Walker
+    - Monster Slayer
+    Rogue:
+    - Inquisitive
+    - Mastermind
+    - Scout
+    - Swashbuckler
+    Sorcerer:
+    - Divine Soul
+    - Shadow Magic
+    - Storm Sorcery
+    Warlock:
+    - The Celestial
+    - The Hexblade
+    Wizard:
+    - War Magic
+- name: Fizban's Treasury of Dragons
+  proper: true
+  races:
+    Dragonborn:
+    - Chromatic
+    - Gem
+    - Metallic
+  classes:
+    Monk:
+    - Way of the Ascendant Dragon
+    Ranger:
+    - Drakewarden
+- name: Volo's Guide to Monsters
+  proper: true
+  races:
+    Aasimar (Legacy):
+    - Fallen
+    - Protector
+    - Scourge
+    Bugbear (Legacy): []
+    Firbolg (Legacy): []
+    Goblin (Legacy): []
+    Hobgoblin (Legacy): []
+    Kenku (Legacy): []
+    Kobold (Legacy): []
+    Lizardfolk (Legacy): []
+    Orc (Legacy): []
+    Tabaxi (Legacy): []
+    Triton (Legacy): []
+    Yuan-ti Pureblood (Legacy): []
+- name: Mordenkainen's Tome of Foes
+  proper: true
+  races:
+    Dwarf (Legacy):
+    - Duergar
+    Elf (Legacy):
+    - Eladrin
+    - Sea
+    - Shadar-Kai
+    Gith (Legacy):
+    - Githyanki
+    - Githzerai
+    Tiefling (Legacy):
+    - Baalzebul
+    - Dispater
+    - Fierna
+    - Glasya
+    - Levistus
+    - Mammon
+    - Mephistopheles
+    - Zariel
+- name: Sword Coast Adventurer's Guide
+  proper: false
+  races:
+    Dwarf:
+    - Duergar
+    Half-Elf:
+    - Aquatic
+    - Drow
+    - High
+    - Wood
+    Halfling:
+    - Ghostwise
+    Tiefling:
+    - Variant
+  classes:
+    Barbarian:
+    - Path of the Battlerager
+    Cleric:
+    - Arcana Domain
+    Fighter:
+    - Banneret
+    - Purple Dragon Knight
+    Monk:
+    - Way of the Long Death
+    - Way of the Sun Soul
+    Paladin:
+    - Oath of the Crown
+    Rogue:
+    - Mastermind
+    - Swashbuckler
+    Sorcerer:
+    - Storm Sorcery
+    Warlock:
+    - The Undying
+    Wizard:
+    - Bladesinging
+- name: Van Richten's Guide to Ravenloft
+  proper: true
+  races:
+    Dhampir: []
+    Hexblood: []
+    Reborn: []
+  classes:
+    Bard:
+    - College of Spirits
+    Warlock:
+    - The Undead
+- name: Explorer's Guide to Wildemount
+  proper: false
+  races:
+    Aasimar (Legacy):
+    - Fallen
+    - Protector
+    - Scourge
+    Dragonborn:
+    - Draconblood
+    - Ravenite
+    Firbolg (Legacy): []
+    Bugbear (Legacy): []
+    Elf:
+    - Pallid
+    Elf (Legacy):
+    - Sea
+    Goblin (Legacy): []
+    Halfling:
+    - Lotusden
+    Hobgoblin (Legacy): []
+    Kenku (Legacy): []
+    Orc of Exandria: []
+    Tabaxi (Legacy): []
+    Tortle (Legacy): []
+  classes:
+    Fighter:
+    - Echo Knight
+    Wizard:
+    - Chronurgy Magic
+    - Graviturgy Magic
+- name: 'Eberron: Rising from the Last War'
+  proper: true
+  races:
+    Bugbear (Legacy): []
+    Changeling (Legacy): []
+    Dwarf:
+    - Mark of Warding
+    Elf:
+    - Mark of Shadow
+    Gnome:
+    - Mark of Scribing
+    Goblin (Legacy): []
+    Half-Elf:
+    - Mark of Detection
+    - Mark of Storm
+    Half-Orc:
+    - Mark of Finding
+    Halfling:
+    - Mark of Healing
+    - Mark of Hospitality
+    Hobgoblin (Legacy): []
+    Human:
+    - Mark of Finding
+    - Mark of Handling
+    - Mark of Making
+    - Mark of Passage
+    - Mark of Sentinel
+    Kalashtar: []
+    Orc of Eberron: []
+    Shifter (Legacy):
+    - Beasthide
+    - Longtooth
+    - Swiftstride
+    - Wildhunt
+    Warforged: []
+  classes:
+    Artificer:
+    - Alchemist
+    - Artillerist
+    - Battle Smith
+- name: Wayfinder's Guide to Eberron
+  proper: false
+  races:
+    Changeling (Legacy): []
+    Dwarf:
+    - Mark of Warding
+    Elf:
+    - Aereni High
+    - Aereni Wood
+    - Mark of Shadow
+    - Valenar High
+    - Valenar Wood
+    Gnome:
+    - Mark of Scribing
+    Half-Elf:
+    - Mark of Detection
+    - Mark of Storm
+    Half-Orc:
+    - Mark of Finding
+    Halfling:
+    - Mark of Healing
+    - Mark of Hospitality
+    Human:
+    - Mark of Finding
+    - Mark of Handling
+    - Mark of Making
+    - Mark of Passage
+    - Mark of Sentinel
+    Kalashtar: []
+    Shifter (Legacy):
+    - Beasthide
+    - Longtooth
+    - Swiftstride
+    - Wildhunt
+    Warforged: []
+- name: Mythic Odysseys of Theros
+  proper: true
+  races:
+    Centaur (Legacy): []
+    Leonin: []
+    Minotaur (Legacy): []
+    Satyr (Legacy): []
+    Triton (Legacy): []
+  classes:
+    Bard:
+    - College of Eloquence
+    Paladin:
+    - Oath of Glory
+- name: Guildmasters' Guide to Ravnica
+  proper: false
+  races:
+    Centaur (Legacy): []
+    Goblin (Legacy): []
+    Loxodon: []
+    Minotaur (Legacy): []
+    Simic Hybrid: []
+    Vedalken: []
+  classes:
+    Cleric:
+    - Order Domain
+    Druid:
+    - Circle of Spores
+- name: 'Strixhaven: A Curriculum of Chaos'
+  proper: true
+  races:
+    Owlin: []
+- name: Acquisitions Incorporated
+  proper: true
+  races:
+    Verdan: []
+- name: The Wild Beyond the Witchlight
+  proper: true
+  races:
+    Fairy: []
+    Harengon: []
+- name: The Tortle Package
+  proper: true
+  races:
+    Tortle (Legacy): []
+- name: One Grung Above
+  proper: true
+  races:
+    Grung: []
+- name: Locathah Rising
+  proper: true
+  races:
+    Locathah: []
+- name: Critical Role
+  free: true
+  proper: true
+  classes:
+    Blood Hunter:
+    - Order of the Ghostslayer
+    - Order of the Lycan
+    - Order of the Mutant
+    - Order of the Profane Soul
+    Fighter:
+    - Gunslinger
+    Monk:
+    - Way of the Cobalt Soul
+    Paladin:
+    - Oath of the Open Sea

@@ -1,0 +1,2702 @@
+# Monsters by Book
+# load_yaml(get_gvar('1c5e178c-0dec-40c2-870f-3588bab013f7'))
+- name: Basic Rules
+  free: true
+  proper: false
+  monsters:
+  - Aboleth
+  - Acolyte
+  - Adult Black Dragon
+  - Adult Blue Dragon
+  - Adult Brass Dragon
+  - Adult Bronze Dragon
+  - Adult Copper Dragon
+  - Adult Gold Dragon
+  - Adult Green Dragon
+  - Adult Red Dragon
+  - Adult Silver Dragon
+  - Adult White Dragon
+  - Air Elemental
+  - Allosaurus
+  - Ancient Black Dragon
+  - Ancient Blue Dragon
+  - Ancient Brass Dragon
+  - Ancient Bronze Dragon
+  - Ancient Copper Dragon
+  - Ancient Gold Dragon
+  - Ancient Green Dragon
+  - Ancient Red Dragon
+  - Ancient Silver Dragon
+  - Ancient White Dragon
+  - Androsphinx
+  - Animated Armor
+  - Ankheg
+  - Ankylosaurus
+  - Ape
+  - Archmage
+  - Assassin
+  - Awakened Shrub
+  - Awakened Tree
+  - Axe Beak
+  - Azer
+  - Baboon
+  - Badger
+  - Balor
+  - Bandit
+  - Bandit Captain
+  - Banshee
+  - Barbed Devil
+  - Basilisk
+  - Bat
+  - Bearded Devil
+  - Behir
+  - Berserker
+  - Black Bear
+  - Black Dragon Wyrmling
+  - Black Pudding
+  - Blink Dog
+  - Blood Hawk
+  - Blue Dragon Wyrmling
+  - Boar
+  - Bone Devil
+  - Brass Dragon Wyrmling
+  - Bronze Dragon Wyrmling
+  - Brown Bear
+  - Bugbear
+  - Bulette
+  - Camel
+  - Cat
+  - Centaur
+  - Chain Devil
+  - Chimera
+  - Chuul
+  - Clay Golem
+  - Cloaker
+  - Cloud Giant
+  - Cockatrice
+  - Commoner
+  - Constrictor Snake
+  - Copper Dragon Wyrmling
+  - Couatl
+  - Crab
+  - Crocodile
+  - Cult Fanatic
+  - Cultist
+  - Cyclops
+  - Darkmantle
+  - Death Dog
+  - Deep Gnome (Svirfneblin)
+  - Deer
+  - Deva
+  - Dire Wolf
+  - Diseased Giant Rat
+  - Djinni
+  - Doppelganger
+  - Draft Horse
+  - Dragon Turtle
+  - Dretch
+  - Drider
+  - Drow
+  - Druid
+  - Dryad
+  - Duergar
+  - Dust Devil
+  - Dust Mephit
+  - Eagle
+  - Earth Elemental
+  - Efreeti
+  - Elephant
+  - Elk
+  - Erinyes
+  - Ettercap
+  - Ettin
+  - Fire Elemental
+  - Fire Giant
+  - Flameskull
+  - Flesh Golem
+  - Flying Snake
+  - Flying Sword
+  - Frog
+  - Frost Giant
+  - Gargoyle
+  - Gelatinous Cube
+  - Ghast
+  - Ghost
+  - Ghoul
+  - Giant Ape
+  - Giant Badger
+  - Giant Bat
+  - Giant Boar
+  - Giant Centipede
+  - Giant Constrictor Snake
+  - Giant Crab
+  - Giant Crocodile
+  - Giant Eagle
+  - Giant Elk
+  - Giant Fire Beetle
+  - Giant Frog
+  - Giant Goat
+  - Giant Hyena
+  - Giant Lizard
+  - Giant Octopus
+  - Giant Owl
+  - Giant Poisonous Snake
+  - Giant Rat
+  - Giant Scorpion
+  - Giant Sea Horse
+  - Giant Shark
+  - Giant Spider
+  - Giant Toad
+  - Giant Vulture
+  - Giant Wasp
+  - Giant Weasel
+  - Giant Wolf Spider
+  - Gibbering Mouther
+  - Glabrezu
+  - Gladiator
+  - Gnoll
+  - Goat
+  - Goblin
+  - Gold Dragon Wyrmling
+  - Gorgon
+  - Gray Ooze
+  - Green Dragon Wyrmling
+  - Green Hag
+  - Grick
+  - Griffon
+  - Grimlock
+  - Guard
+  - Guardian Naga
+  - Guardian Wolf
+  - Gynosphinx
+  - Half-Red Dragon Veteran
+  - Harpy
+  - Hawk
+  - Hell Hound
+  - Hezrou
+  - Hill Giant
+  - Hippogriff
+  - Hobgoblin
+  - Homunculus
+  - Homunculus Servant
+  - Horned Devil
+  - Hunter Shark
+  - Hydra
+  - Hyena
+  - Ice Devil
+  - Ice Mephit
+  - Imp
+  - Improved Steel Defender
+  - Incubus
+  - Invisible Stalker
+  - Iron Golem
+  - Jackal
+  - Killer Whale
+  - Knight
+  - Kobold
+  - Kraken
+  - Lamia
+  - Lemure
+  - Lich
+  - Lion
+  - Lizard
+  - Lizardfolk
+  - Mage
+  - Magma Mephit
+  - Magmin
+  - Mammoth
+  - Manticore
+  - Marilith
+  - Mastiff
+  - Medusa
+  - Merfolk
+  - Merrow
+  - Mimic
+  - Minotaur
+  - Minotaur Skeleton
+  - Mule
+  - Mummy
+  - Mummy Lord
+  - Nalfeshnee
+  - Night Hag
+  - Nightmare
+  - Noble
+  - Nothic
+  - Nyxborn lynx
+  - Ochre Jelly
+  - Octopus
+  - Ogre
+  - Ogre Zombie
+  - Oni
+  - Orc
+  - Otyugh
+  - Owl
+  - Owlbear
+  - Panther
+  - Pegasus
+  - Phase Spider
+  - Pit Fiend
+  - Planetar
+  - Plesiosaurus
+  - Poisonous Snake
+  - Polar Bear
+  - Pony
+  - Priest
+  - Pseudodragon
+  - Pteranodon
+  - Purple Worm
+  - Quasit
+  - Quipper
+  - Rakshasa
+  - Rat
+  - Raven
+  - Red Dragon Wyrmling
+  - Reef Shark
+  - Remorhaz
+  - Rhinoceros
+  - Riding Horse
+  - Roc
+  - Roper
+  - Rug of Smothering
+  - Rust Monster
+  - Saber-Toothed Tiger
+  - Sahuagin
+  - Salamander
+  - Satyr
+  - Scorpion
+  - Scout
+  - Sea Hag
+  - Sea Horse
+  - Shadow
+  - Shambling Mound
+  - Shield Guardian
+  - Shrieker
+  - Silver Dragon Wyrmling
+  - Skeleton
+  - Solar
+  - Spectator
+  - Specter
+  - Spider
+  - Spirit Naga
+  - Sprite
+  - Spy
+  - Steam Mephit
+  - Steel Defender
+  - Stirge
+  - Stone Giant
+  - Stone Golem
+  - Storm Giant
+  - Succubus
+  - Swarm of Bats
+  - Swarm of Insects
+  - Swarm of Insects (Beetles)
+  - Swarm of Insects (Centipedes)
+  - Swarm of Insects (Spiders)
+  - Swarm of Insects (Wasps)
+  - Swarm of Poisonous Snakes
+  - Swarm of Quippers
+  - Swarm of Rats
+  - Swarm of Ravens
+  - Tarrasque
+  - Thug
+  - Tiger
+  - Treant
+  - Tribal Warrior
+  - Triceratops
+  - Troll
+  - Twig Blight
+  - Tyrannosaurus Rex
+  - Unicorn
+  - Vampire
+  - Vampire Spawn
+  - Veteran
+  - Violet Fungus
+  - Vox Seeker
+  - Vrock
+  - Vulture
+  - Warhorse
+  - Warhorse Skeleton
+  - Water Elemental
+  - Weasel
+  - Werebear
+  - Wereboar
+  - Wererat
+  - Weretiger
+  - Werewolf
+  - White Dragon Wyrmling
+  - Wight
+  - Will-o'-Wisp
+  - Winter Wolf
+  - Wolf
+  - Worg
+  - Wraith
+  - Wyvern
+  - Xorn
+  - Yeti
+  - Young Black Dragon
+  - Young Blue Dragon
+  - Young Brass Dragon
+  - Young Bronze Dragon
+  - Young Copper Dragon
+  - Young Gold Dragon
+  - Young Green Dragon
+  - Young Red Dragon
+  - Young Silver Dragon
+  - Young White Dragon
+  - Zombie
+- name: Monster Manual
+  proper: false
+  monsters:
+  - Aarakocra
+  - Abominable Yeti
+  - Adult Blue Dracolich
+  - Arcanaloth
+  - Arcanaloth (summoner variant)
+  - Balor (Summoner Variant)
+  - Barbed Devil (Summoner Variant)
+  - Barlgura
+  - Barlgura (summoner variant)
+  - Bearded Devil (Summoner Variant)
+  - Beholder
+  - Beholder Zombie
+  - Blue Slaad
+  - Blue Slaad (control gem variant)
+  - Bone Devil (Polearm Variant)
+  - Bone Devil (Summoner Variant)
+  - Bone Naga
+  - Bugbear Chief
+  - Bullywug
+  - Cambion
+  - Carrion Crawler
+  - Cave Bear
+  - Chasme
+  - Chasme (summoner variant)
+  - Crawling Claw
+  - Dao
+  - Death Knight
+  - Death Slaad
+  - Death Slaad (control gem variant)
+  - Death Tyrant
+  - Demilich
+  - Displacer Beast
+  - Drider (variant)
+  - Drow Elite Warrior
+  - Drow Mage
+  - Drow Priestess of Lolth
+  - Duodrone
+  - Dust Mephit (Summoner Variant)
+  - Empyrean
+  - Erinyes (Rope Variant)
+  - Erinyes (Summoner Variant)
+  - Ettercap (variant)
+  - Faerie Dragon (Older)
+  - Faerie Dragon (Younger)
+  - Fire Snake
+  - Flumph
+  - Fomorian
+  - Galeb Duhr
+  - Gas Spore
+  - Giant Lizard (variant)
+  - Githyanki Knight
+  - Githyanki Warrior
+  - Githzerai Monk
+  - Githzerai Zerth
+  - Glabrezu (summoner variant)
+  - Gnoll Fang of Yeenoghu
+  - Gnoll Pack Lord
+  - Goblin Boss
+  - Goristro
+  - Gray Slaad
+  - Gray Slaad (control gem variant)
+  - Green Hag (Coven Variant)
+  - Green Slaad
+  - Green Slaad (control gem variant)
+  - Grell
+  - Grick Alpha
+  - Half-Ogre
+  - Helmed Horror
+  - Hezrou (Summoner Variant)
+  - Hobgoblin Captain
+  - Hobgoblin Warlord
+  - Hook Horror
+  - Horned Devil (Summoner Variant)
+  - Ice Devil (Spear Variant)
+  - Ice Devil (Summoner Variant)
+  - Ice Mephit (Summoner Variant)
+  - Imp (Familiar Variant)
+  - Intellect Devourer
+  - Jackalwere
+  - Kenku
+  - Kuo-toa
+  - Kuo-toa Archpriest
+  - Kuo-toa Monitor
+  - Kuo-toa Whip
+  - Lizard King/Queen
+  - Lizardfolk Shaman
+  - Magma Mephit (Summoner Variant)
+  - Manes
+  - Marid
+  - Marilith (Summoner Variant)
+  - Mezzoloth
+  - Mezzoloth (summoner variant)
+  - Mind Flayer
+  - Mind Flayer Arcanist
+  - Monodrone
+  - Mud Mephit
+  - Mud Mephit (Summoner Variant)
+  - Myconid Adult
+  - Myconid Sovereign
+  - Myconid Sprout
+  - Nalfeshnee (Summoner Variant)
+  - Needle Blight
+  - Night Hag (Coven Variant)
+  - Nycaloth
+  - Nycaloth (summoner variant)
+  - Orc Eye of Gruumsh
+  - Orc War Chief
+  - Orog
+  - Pentadrone
+  - Peryton
+  - Piercer
+  - Pit Fiend (Summoner Variant)
+  - Pixie
+  - Poltergeist
+  - Pseudodragon (familiar variant)
+  - Psychic Gray Ooze
+  - Quadrone
+  - Quaggoth
+  - Quaggoth Spore Servant
+  - Quaggoth Thonot
+  - Quasit (familiar variant)
+  - Red Slaad
+  - Red Slaad (control gem variant)
+  - Revenant
+  - Sahuagin Baron
+  - Sahuagin Priestess
+  - Satyr (Variant)
+  - Scarecrow
+  - Sea Hag (Coven Variant)
+  - Shadow Demon
+  - Slaad Tadpole
+  - Smoke Mephit
+  - Smoke Mephit (Summoner Variant)
+  - Spined Devil
+  - Steam Mephit (Summoner Variant)
+  - Thri-kreen
+  - Thri-kreen (psionics variant)
+  - Thri-kreen (weapons variant)
+  - Tridrone
+  - Troglodyte
+  - Troll (variant)
+  - Ultroloth
+  - Ultroloth (summoner variant)
+  - Umber Hulk
+  - Vampire Spellcaster
+  - Vampire Warrior
+  - Vine Blight
+  - Vrock (Summoner Variant)
+  - Water Weird
+  - Winged Kobold
+  - Yochlol
+  - Yochlol (Summoner Variant)
+  - Young Red Shadow Dragon
+  - Young Remorhaz
+  - Yuan-ti Abomination
+  - Yuan-ti Malison
+  - Yuan-ti Malison (Type 1)
+  - Yuan-ti Malison (Type 2)
+  - Yuan-ti Malison (Type 3)
+  - Yuan-ti Pureblood
+- name: "Mordenkainen Presents: Monsters of the Multiverse"
+  proper: true
+  monsters:
+  - Abjurer Wizard
+  - Adult Kruthik
+  - Adult Oblex
+  - Air Elemental Myrmidon
+  - Alhoon
+  - Alkilith
+  - Allip
+  - Amnizu
+  - Angry Sorrowsworn
+  - Annis Hag
+  - Apprentice Wizard
+  - Archdruid
+  - Archer
+  - Armanite
+  - Astral Dreadnought
+  - Aurochs
+  - Autumn Eladrin
+  - Babau
+  - Bael
+  - Balhannoth
+  - Banderhobb
+  - Baphomet
+  - Bard
+  - Barghest
+  - Berbalang
+  - Bheur Hag
+  - Black Abishai
+  - Blackguard
+  - Blue Abishai
+  - Bodak
+  - Boggle
+  - Boneclaw
+  - Brontosaurus
+  - Bulezau
+  - Cadaver Collector
+  - Canoloth
+  - Catoblepas
+  - Cave Fisher
+  - Champion
+  - Chitine
+  - Choker
+  - Choldrith
+  - Clockwork Bronze Scout
+  - Clockwork Iron Cobra
+  - Clockwork Oaken Bolter
+  - Clockwork Stone Defender
+  - Cloud Giant Smiling One
+  - Conjurer Wizard
+  - Corpse Flower
+  - Cranium Rat
+  - Darkling
+  - Darkling Elder
+  - Death Kiss
+  - Deathlock
+  - Deathlock Mastermind
+  - Deathlock Wight
+  - Deep Rothé
+  - Deep Scion
+  - Deinonychus
+  - Demogorgon
+  - Derro
+  - Derro Savant
+  - Devourer
+  - Dhergoloth
+  - Dimetrodon
+  - Dire Troll
+  - Diviner Wizard
+  - Dolphin
+  - Dolphin Delighter
+  - Draegloth
+  - Drow Arachnomancer
+  - Drow Favored Consort
+  - Drow House Captain
+  - Drow Inquisitor
+  - Drow Matron Mother
+  - Drow Shadowblade
+  - Duergar Despot
+  - Duergar Hammerer
+  - Duergar Kavalrachni
+  - Duergar Mind Master
+  - Duergar Screamer
+  - Duergar Soulblade
+  - Duergar Stone Guard
+  - Duergar Warlord
+  - Duergar Xarrorn
+  - Dybbuk
+  - Earth Elemental Myrmidon
+  - Eidolon
+  - Elder Brain
+  - Elder Oblex
+  - Elder Tempest
+  - Enchanter Wizard
+  - Evoker Wizard
+  - Female Steeder
+  - Fire Elemental Myrmidon
+  - Fire Giant Dreadnought
+  - Firenewt Warlock of Imix
+  - Firenewt Warrior
+  - Flail Snail
+  - Flind
+  - Fraz-Urb'luu
+  - Froghemoth
+  - Frost Giant Everlasting One
+  - Frost Salamander
+  - Gauth
+  - Gazer
+  - Geryon
+  - Giant Strider
+  - Giff
+  - Girallon
+  - Githyanki Gish
+  - Githyanki Kith'rak
+  - Githyanki Supreme Commander
+  - Githzerai Anarch
+  - Githzerai Enlightened
+  - Gnoll Flesh Gnawer
+  - Gnoll Hunter
+  - Gnoll Witherling
+  - Gray Render
+  - Graz'zt
+  - Green Abishai
+  - Grung
+  - Grung Elite Warrior
+  - Grung Wildling
+  - Guard Drake
+  - Hadrosaurus
+  - Hellfire Engine
+  - Hobgoblin Devastator
+  - Hobgoblin Iron Shadow
+  - Howler
+  - Hungry Sorrowsworn
+  - Hutijin
+  - Hydroloth
+  - Illusionist Wizard
+  - Juiblex
+  - Ki-rin
+  - Kobold Dragonshield
+  - Kobold Inventor
+  - Kobold Scale Sorcerer
+  - Korred
+  - Kraken Priest
+  - Kruthik Hive Lord
+  - Leucrotta
+  - Leviathan
+  - Lonely Sorrowsworn
+  - Lost Sorrowsworn
+  - Male Steeder
+  - Martial Arts Adept
+  - Marut
+  - Master Thief
+  - Maurezhi
+  - Maw Demon
+  - Meazel
+  - Meenlock
+  - Merregon
+  - Merrenoloth
+  - Mindwitness
+  - Moloch
+  - Molydeus
+  - Morkoth
+  - Mouth of Grolantor
+  - Nabassu
+  - Nagpa
+  - Narzugon
+  - Necromancer Wizard
+  - Neogi
+  - Neogi Hatchling
+  - Neogi Master
+  - Neothelid
+  - Nightwalker
+  - Nilbog
+  - Nupperibo
+  - Oblex Spawn
+  - Ogre Battering Ram
+  - Ogre Bolt Launcher
+  - Ogre Chain Brute
+  - Ogre Howdah
+  - Oinoloth
+  - Orcus
+  - Orthon
+  - Ox
+  - Phoenix
+  - Quetzalcoatlus
+  - Quickling
+  - Red Abishai
+  - Redcap
+  - Retriever
+  - Rot Troll
+  - Rutterkin
+  - Sacred Statue
+  - Sea Spawn
+  - Shadar-kai Gloom Weaver
+  - Shadar-kai Shadow Dancer
+  - Shadar-kai Soul Monger
+  - Shadow Mastiff
+  - Shadow Mastiff Alpha
+  - Shoosuva
+  - Sibriex
+  - Skulk
+  - Skull Lord
+  - Slithering Tracker
+  - Spawn of Kyuss
+  - Spirit Troll
+  - Spring Eladrin
+  - Star Spawn Grue
+  - Star Spawn Hulk
+  - Star Spawn Larva Mage
+  - Star Spawn Mangler
+  - Star Spawn Seer
+  - Steel Predator
+  - Stegosaurus
+  - Stench Kow
+  - Stone Cursed
+  - Stone Giant Dreamwalker
+  - Storm Giant Quintessent
+  - Summer Eladrin
+  - Swarm of Cranium Rats
+  - Swarm of Rot Grubs
+  - Swashbuckler
+  - Sword Wraith Commander
+  - Sword Wraith Warrior
+  - Tanarukk
+  - Thorny Vegepygmy
+  - Titivilus
+  - Tlincalli
+  - Tortle
+  - Tortle Druid
+  - Transmuter Wizard
+  - Trapper
+  - Ulitharid
+  - Vampiric Mist
+  - Vargouille
+  - Vegepygmy
+  - Vegepygmy Chief
+  - Velociraptor
+  - Venom Troll
+  - War Priest
+  - Warlock of the Archfey
+  - Warlock of the Fiend
+  - Warlock of the Great Old One
+  - Warlord
+  - Wastrilith
+  - Water Elemental Myrmidon
+  - White Abishai
+  - Winter Eladrin
+  - Wood Woad
+  - Wretched Sorrowsworn
+  - Xvart
+  - Xvart Warlock of Raxivort
+  - Yagnoloth
+  - Yeenoghu
+  - Yeth Hound
+  - Young Kruthik
+  - Yuan-ti Anathema
+  - Yuan-ti Broodguard
+  - Yuan-ti Mind Whisperer
+  - Yuan-ti Nightmare Speaker
+  - Yuan-ti Pit Master
+  - Zaratan
+  - Zariel
+  - Zuggtmoy
+- name: Dungeon Master's Guide
+  proper: false
+  monsters:
+  - Avatar of Death
+  - Giant Fly
+  - Larva
+- name: Tasha's Cauldron of Everything
+  proper: true
+  monsters:
+  - Juvenile Mimic
+  - Mighty Servant of Leuk-o
+  - Reflections
+- name: Xanathar's Guide to Everything
+  proper: true
+  monsters:
+  - Tiny Servant
+- name: Fizban's Treasury of Dragons
+  proper: true
+  monsters:
+  - Adult Amethyst Dragon
+  - Adult Crystal Dragon
+  - Adult Deep Dragon
+  - Adult Emerald Dragon
+  - Adult Moonstone Dragon
+  - Adult Sapphire Dragon
+  - Adult Topaz Dragon
+  - Amethyst Dragon Wyrmling
+  - Amethyst Greatwyrm
+  - Ancient Amethyst Dragon
+  - Ancient Crystal Dragon
+  - Ancient Deep Dragon
+  - Ancient Dragon Turtle
+  - Ancient Emerald Dragon
+  - Ancient Moonstone Dragon
+  - Ancient Sapphire Dragon
+  - Ancient Sea Serpent
+  - Ancient Topaz Dragon
+  - Animated Breath
+  - Animated Breath (Acid Form)
+  - Animated Breath (Cold Form)
+  - Animated Breath (Fire Form)
+  - Animated Breath (Lightning Form)
+  - Animated Breath (Poison Form)
+  - Aspect of Bahamut
+  - Aspect of Tiamat
+  - Black Greatwyrm
+  - Blue Greatwyrm
+  - Brass Greatwyrm
+  - Bronze Greatwyrm
+  - Copper Greatwyrm
+  - Crystal Dragon Wyrmling
+  - Crystal Greatwyrm
+  - Deep Dragon Wyrmling
+  - Dracohydra
+  - Draconian Dreadnought
+  - Draconian Foot Soldier
+  - Draconian Infiltrator
+  - Draconian Mage
+  - Draconian Mastermind
+  - Draconic Shard
+  - Dragon Blessed
+  - Dragon Chosen
+  - Dragon Speaker
+  - Dragon Turtle Wyrmling
+  - Dragonblood Ooze
+  - Dragonbone Golem
+  - Dragonborn of Bahamut
+  - Dragonborn of Sardior
+  - Dragonborn of Tiamat
+  - Dragonflesh Abomination
+  - Dragonflesh Grafter
+  - Dragonnel
+  - Egg Hunter Adult
+  - Egg Hunter Hatchling
+  - Elder Brain Dragon
+  - Emerald Dragon Wyrmling
+  - Emerald Greatwyrm
+  - Eyedrake
+  - Gem Stalker
+  - Ghost Dragon
+  - Giant Canary
+  - Gold Greatwyrm
+  - Green Greatwyrm
+  - Hoard Mimic
+  - Hoard Scarab
+  - Hollow Dragon
+  - Liondrake
+  - Metallic Peacekeeper
+  - Metallic Warbler
+  - Moonstone Dragon Wyrmling
+  - Red Greatwyrm
+  - Sapphire Dragon Wyrmling
+  - Sapphire Greatwyrm
+  - Silver Greatwyrm
+  - Swarm of Hoard Scarabs
+  - Topaz Dragon Wyrmling
+  - Topaz Greatwyrm
+  - White Greatwyrm
+  - Young Amethyst Dragon
+  - Young Crystal Dragon
+  - Young Deep Dragon
+  - Young Dragon Turtle
+  - Young Emerald Dragon
+  - Young Moonstone Dragon
+  - Young Sapphire Dragon
+  - Young Sea Serpent
+  - Young Topaz Dragon
+- name: Volo's Guide to Monsters
+  proper: true
+  monsters:
+  - Abjurer (Legacy)
+  - Alhoon (Legacy)
+  - Annis Hag (Legacy)
+  - Apprentice Wizard (Legacy)
+  - Archdruid (Legacy)
+  - Archer (Legacy)
+  - Aurochs (Legacy)
+  - Babau (Legacy)
+  - Banderhobb (Legacy)
+  - Bard (Legacy)
+  - Barghest (Legacy)
+  - Bheur Hag (Legacy)
+  - Black Guard Drake (Legacy)
+  - Blackguard (Legacy)
+  - Blue Guard Drake (Legacy)
+  - Bodak (Legacy)
+  - Boggle (Legacy)
+  - Brontosaurus (Legacy)
+  - Catoblepas (Legacy)
+  - Cave Fisher (Legacy)
+  - Champion (Legacy)
+  - Chitine (Legacy)
+  - Choldrith (Legacy)
+  - Cloud Giant Smiling One (Legacy)
+  - Conjurer (Legacy)
+  - Cow (Legacy)
+  - Cranium Rat (Legacy)
+  - Darkling (Legacy)
+  - Darkling Elder (Legacy)
+  - Death Kiss (Legacy)
+  - "Deep Roth\xE9 (Legacy)"
+  - Deep Scion (Legacy)
+  - Deinonychus (Legacy)
+  - Devourer (Legacy)
+  - Dimetrodon (Legacy)
+  - Diviner (Legacy)
+  - Dolphin (Legacy)
+  - Draegloth (Legacy)
+  - Elder Brain (Legacy)
+  - Enchanter (Legacy)
+  - Evoker (Legacy)
+  - Fire Giant Dreadnought (Legacy)
+  - Firenewt Warlock of Imix (Legacy)
+  - Firenewt Warrior (Legacy)
+  - Flail Snail (Legacy)
+  - Flind (Legacy)
+  - Froghemoth (Legacy)
+  - Frost Giant Everlasting One (Legacy)
+  - Gauth (Legacy)
+  - Gazer (Legacy)
+  - Gazer Familiar (Legacy)
+  - Giant Strider (Legacy)
+  - Girallon (Legacy)
+  - Gnoll Flesh Gnawer (Legacy)
+  - Gnoll Hunter (Legacy)
+  - Gnoll Witherling (Legacy)
+  - Green Guard Drake (Legacy)
+  - Grung (Legacy)
+  - Grung Elite Warrior (Legacy)
+  - Grung Wildling (Legacy)
+  - Guard Drake (Legacy)
+  - Hadrosaurus (Legacy)
+  - Hobgoblin Devastator (Legacy)
+  - Hobgoblin Iron Shadow (Legacy)
+  - Illusionist (Legacy)
+  - Ki-rin (Legacy)
+  - Kobold Dragonshield (Legacy)
+  - Kobold Inventor (Legacy)
+  - Kobold Scale Sorcerer (Legacy)
+  - Korred (Legacy)
+  - Kraken Priest (Legacy)
+  - Leucrotta (Legacy)
+  - Martial Arts Adept (Legacy)
+  - Master Thief (Legacy)
+  - Maw Demon (Legacy)
+  - Meenlock (Legacy)
+  - Mind Flayer Lich (Illithilich) (Legacy)
+  - Mind Flayer Psion (Legacy)
+  - Mindwitness (Legacy)
+  - Morkoth (Legacy)
+  - Mouth of Grolantor (Legacy)
+  - Necromancer (Legacy)
+  - Neogi (Legacy)
+  - Neogi Hatchling (Legacy)
+  - Neogi Master (Legacy)
+  - Neothelid (Legacy)
+  - Nilbog (Legacy)
+  - Orc Blade of Ilneval (Legacy)
+  - Orc Claw of Luthic (Legacy)
+  - Orc Hand of Yurtrus (Legacy)
+  - Orc Nurtured One of Yurtrus (Legacy)
+  - Orc Red Fang of Shargaas (Legacy)
+  - Ox (Legacy)
+  - Quetzalcoatlus (Legacy)
+  - Quickling (Legacy)
+  - Red Guard Drake (Legacy)
+  - Redcap (Legacy)
+  - "Roth\xE9 (Legacy)"
+  - Sea Spawn (Legacy)
+  - Shadow Mastiff (Legacy)
+  - Shadow Mastiff Alpha (Legacy)
+  - Shoosuva (Legacy)
+  - Slithering Tracker (Legacy)
+  - Spawn of Kyuss (Legacy)
+  - Stegosaurus (Legacy)
+  - Stench Kow (Legacy)
+  - Stone Giant Dreamwalker (Legacy)
+  - Storm Giant Quintessent (Legacy)
+  - Swarm of Cranium Rats (Legacy)
+  - Swarm of Rot Grubs (Legacy)
+  - Swashbuckler (Legacy)
+  - Tanarukk (Legacy)
+  - Thorny (Legacy)
+  - Tlincalli (Legacy)
+  - Transmuter (Legacy)
+  - Trapper (Legacy)
+  - Ulitharid (Legacy)
+  - Vargouille (Legacy)
+  - Vegepygmy (Legacy)
+  - Vegepygmy Chief (Legacy)
+  - Velociraptor (Legacy)
+  - War Priest (Legacy)
+  - Warlock of the Archfey (Legacy)
+  - Warlock of the Fiend (Legacy)
+  - Warlock of the Great Old One (Legacy)
+  - Warlord (Legacy)
+  - White Guard Drake (Legacy)
+  - Wood Woad (Legacy)
+  - Xvart (Legacy)
+  - Xvart Speaker (Legacy)
+  - Xvart Warlock of Raxivort (Legacy)
+  - Yeth Hound (Legacy)
+  - Yuan-ti Anathema (Legacy)
+  - Yuan-ti Broodguard (Legacy)
+  - Yuan-ti Malison (Type 4) (Legacy)
+  - Yuan-ti Malison (Type 5) (Legacy)
+  - Yuan-ti Mind Whisperer (Legacy)
+  - Yuan-ti Nightmare Speaker (Legacy)
+  - Yuan-ti Pit Master (Legacy)
+- name: Mordenkainen's Tome of Foes
+  proper: true
+  monsters:
+  - Abyssal Wretch (Legacy)
+  - Adult Kruthik (Legacy)
+  - Adult Oblex (Legacy)
+  - Alkilith (Legacy)
+  - Allip (Legacy)
+  - Amnizu (Legacy)
+  - Amnizu (Summoner Variant) (Legacy)
+  - Armanite (Legacy)
+  - Astral Dreadnought (Legacy)
+  - Autumn Eladrin (Legacy)
+  - Bael (Legacy)
+  - Balhannoth (Legacy)
+  - Berbalang (Legacy)
+  - Black Abishai (Legacy)
+  - Blue Abishai (Legacy)
+  - Boneclaw (Legacy)
+  - Bronze Scout (Legacy)
+  - Bulezau (Legacy)
+  - Cadaver Collector (Legacy)
+  - Canoloth (Legacy)
+  - Corpse Flower (Legacy)
+  - Deathlock (Legacy)
+  - Deathlock Mastermind (Legacy)
+  - Dhergoloth (Legacy)
+  - Dire Troll (Legacy)
+  - Drow Arachnomancer (Legacy)
+  - Drow Favored Consort (Legacy)
+  - Drow House Captain (Legacy)
+  - Drow Inquisitor (Legacy)
+  - Drow Inquisitor (Summoner Variant) (Legacy)
+  - Drow Matron Mother (Legacy)
+  - Drow Shadowblade (Legacy)
+  - Drow Shadowblade (Summoner Variant) (Legacy)
+  - Duergar Despot (Legacy)
+  - Duergar Hammerer (Legacy)
+  - Duergar Mind Master (Legacy)
+  - Duergar Screamer (Legacy)
+  - Duergar Warlord (Legacy)
+  - Dybbuk (Legacy)
+  - Eidolon (Legacy)
+  - Elder Oblex (Legacy)
+  - Elder Tempest (Legacy)
+  - Frost Salamander (Legacy)
+  - Geryon (Legacy)
+  - Geryon (Summoner Variant) (Legacy)
+  - Giff (Legacy)
+  - Githyanki Gish (Legacy)
+  - Githyanki Kith'rak
+  - Githyanki Supreme Commander (Legacy)
+  - Githzerai Anarch (Legacy)
+  - Githzerai Enlightened (Legacy)
+  - Gloom Weaver (Legacy)
+  - Gray Render (Legacy)
+  - Green Abishai (Legacy)
+  - Hellfire Engine (Legacy)
+  - Howler (Legacy)
+  - Hutijin (Legacy)
+  - Hydroloth (Legacy)
+  - Iron Cobra (Legacy)
+  - Kruthik Hive Lord (Legacy)
+  - Leviathan (Legacy)
+  - Marut (Legacy)
+  - Maurezhi (Legacy)
+  - Meazel (Legacy)
+  - Merregon (Legacy)
+  - Merrenoloth (Legacy)
+  - Moloch (Legacy)
+  - Molydeus (Legacy)
+  - Molydeus (Summoner Variant) (Legacy)
+  - Nabassu (Legacy)
+  - Nagpa (Legacy)
+  - Narzugon (Legacy)
+  - Nightwalker (Legacy)
+  - Nupperibo (Legacy)
+  - Oaken Bolter (Legacy)
+  - Oblex Spawn (Legacy)
+  - Ogre Battering Ram (Legacy)
+  - Ogre Bolt Launcher (Legacy)
+  - Ogre Chain Brute (Legacy)
+  - Ogre Howdah (Legacy)
+  - Oinoloth (Legacy)
+  - Orthon (Legacy)
+  - Phoenix (Legacy)
+  - Red Abishai (Legacy)
+  - Retriever (Legacy)
+  - Rot Troll (Legacy)
+  - Rutterkin (Legacy)
+  - Sacred Statue (Legacy)
+  - Shadow Dancer (Legacy)
+  - Sibriex (Legacy)
+  - Skulk (Legacy)
+  - Skull Lord (Legacy)
+  - Soul Monger (Legacy)
+  - Spirit Troll (Legacy)
+  - Spring Eladrin (Legacy)
+  - Star Spawn Grue (Legacy)
+  - Star Spawn Hulk (Legacy)
+  - Star Spawn Larva Mage (Legacy)
+  - Star Spawn Mangler (Legacy)
+  - Star Spawn Seer (Legacy)
+  - Steel Predator (Legacy)
+  - Stone Cursed (Legacy)
+  - Stone Defender (Legacy)
+  - Summer Eladrin (Legacy)
+  - Sword Wraith Commander (Legacy)
+  - Sword Wraith Warrior (Legacy)
+  - The Angry (Legacy)
+  - The Hungry (Legacy)
+  - The Lonely (Legacy)
+  - The Lost (Legacy)
+  - The Wretched (Legacy)
+  - Titivilus (Legacy)
+  - Venom Troll (Legacy)
+  - Wastrilith (Legacy)
+  - White Abishai (Legacy)
+  - Winter Eladrin (Legacy)
+  - Yagnoloth (Legacy)
+  - Young Kruthik (Legacy)
+  - Zaratan (Legacy)
+  - Zariel (Legacy)
+- name: Mordenkainen's Fiendish Folio Volume 1
+  proper: true
+  monsters:
+  - Assassin Bug
+  - Blindheim
+  - Crab Folk
+  - Dire Corby
+  - Fog Giant
+  - Forlarren
+  - Jermlaine
+  - Khargra
+  - Killmoulis
+  - Mite
+  - Needle Lord
+  - Needle Spawn
+  - Norker
+  - Norker War Leader
+  - Screaming Devilkin
+  - Xill
+  - Ygorl, Lord of Entropy
+- name: 'Monstrous Compendium Vol 1: Spelljammer Creatures'
+  proper: false
+  monsters:
+  - Asteroid Spider
+  - Clockwork Horror
+  - Eldritch Lich
+  - Fractine
+  - Gadabout
+  - Goon Balloon
+  - Nightmare Beast
+  - Puppeteer Parasite
+  - Star Lancer
+  - Yggdrasti
+- name: Explorer's Guide to Wildemount
+  proper: false
+  monsters:
+  - Abominable Yeti (Allowak variant)
+  - Aeorian Absorber
+  - Aeorian Nullifier
+  - Aeorian Reverser
+  - Animated Tree
+  - Blood Hunter
+  - Bol'bara
+  - Bristled Moorbounder
+  - Core Spawn Crawler
+  - Core Spawn Emissary
+  - Core Spawn Seer
+  - Core Spawn Worm
+  - Frost Giant Zombie
+  - Frost Worm
+  - Gearkeeper Construct
+  - Gloomstalker
+  - Horizonback Tortoise
+  - Husk Zombie
+  - Husk Zombie Burster
+  - Ishel
+  - Karkethzerethzerus, the Sable Despoiler
+  - Kobold Underling
+  - Merrow Shallowpriest
+  - Moorbounder
+  - Mossback Steward
+  - Nergaliid
+  - Ogre Lord Buhfal II
+  - Oracs the Enduring
+  - Parson Pellinost
+  - Sahuagin Warlock of Uk'otoa
+  - Sahuagin Warlock of Uk'otoa (variant)
+  - Sea Fury
+  - Shadowghast
+  - Sharkbody Abomination
+  - Sken Zabriss
+  - Skr'a S'orsk
+  - Swavain Basilisk
+  - Three Earrings
+  - Udaak
+  - Yeti (Allowak variant)
+  - Yinra Emberwind
+- name: 'Explorer''s Guide to Wildemount: Frozen Sick'
+  free: true
+  proper: true
+  monsters:
+  - Animated Knife
+  - Damaged Flesh Golem
+  - Faerie Dragon (Older)
+  - Ferol Sal
+  - Hulil Lutan
+  - Old Croaker
+  - Raegrin Mau
+  - Revenant
+  - Swarm of Undead Snakes
+  - Young Remorhaz
+- name: 'Critical Role: Call of the Netherdeep'
+  proper: true
+  monsters:
+  - Aboleth Spawn
+  - Alyxian Aboleth
+  - Alyxian the Absolved
+  - Alyxian the Callous
+  - Alyxian the Dispossessed
+  - Alyxian the Hunter
+  - Alyxian the Tormented
+  - Animated Glass Statue
+  - Ayo Jabe (Tier 1)
+  - Ayo Jabe (Tier 2)
+  - Ayo Jabe (Tier 3)
+  - Bristled Moorbounder
+  - Corrupted Giant Shark
+  - Dancing Flame
+  - Death Embrace
+  - Dermot Wurder (Tier 1)
+  - Dermot Wurder (Tier 2)
+  - Dermot Wurder (Tier 3)
+  - Fiendish Orc
+  - Galeokaerda
+  - Galsariad Ardyth (Tier 1)
+  - Galsariad Ardyth (Tier 2)
+  - Galsariad Ardyth (Tier 3)
+  - Gloomstalker
+  - Horizonback Tortoise
+  - Insight Acuere
+  - Irvan Wastewalker (Tier 1)
+  - Irvan Wastewalker (Tier 2)
+  - Irvan Wastewalker (Tier 3)
+  - Laurin Ophidas
+  - Light Devourer
+  - Maggie Keeneyes (Tier 1)
+  - Maggie Keeneyes (Tier 2)
+  - Maggie Keeneyes (Tier 3)
+  - Monastic High Curator
+  - Monastic Infiltrator
+  - Monastic Operative
+  - Moonshark
+  - Moorbounder
+  - Occult Extollant
+  - Occult Initiate
+  - Occult Silvertongue
+  - Olara
+  - Ruidium Elephant
+  - Scholarly Agent
+  - Scholarly Excavator
+  - Scholarly Mastermind
+  - Scuttling Serpentmaw
+  - Shira
+  - Skeletal Bloodfin
+  - Slithering Bloodfin
+  - Sorrowfish
+  - Swarm of Sorrowfish
+  - Sword Wraith Commander (Variant)
+  - Sword Wraith Warrior (Variant)
+  - Verin Thelyss
+  - Young Horizonback Tortoise
+- name: Van Richten's Guide to Ravenloft
+  proper: true
+  monsters:
+  - Bodytaker Plant
+  - Boneless
+  - Brain in a Jar
+  - Carrion Stalker
+  - Carrionette
+  - Death's Head
+  - Dullahan
+  - Elise
+  - Gallows Speaker
+  - Greater Star Spawn Emissary
+  - Gremishka
+  - Inquisitor of the Mind Fire
+  - Inquisitor of the Sword
+  - Inquisitor of the Tome
+  - Isolde
+  - Jiangshi
+  - Lesser Star Spawn Emissary
+  - Loup Garou
+  - Necrichor
+  - Nosferatu
+  - Podling
+  - Priest of Osybus
+  - Priest of Osybus (Blazing)
+  - Priest of Osybus (Deathly)
+  - Priest of Osybus (Dread)
+  - Priest of Osybus (Ectoplasmic)
+  - Priest of Osybus (Spectral)
+  - Priest of Osybus (Vampiric)
+  - Relentless Juggernaut
+  - Relentless Slasher
+  - Star Spawn Emissary
+  - Strigoi
+  - Swarm of Gremishkas
+  - Swarm of Maggots
+  - Swarm of Scarabs
+  - Swarm of Zombie Limbs
+  - Unspeakable Horror
+  - Unspeakable Horror (Aberrant Armor)
+  - Unspeakable Horror (Loathsome Limbs)
+  - Unspeakable Horror (Malleable Mass)
+  - Unspeakable Horror (Oozing Organs)
+  - Vampiric Mind Flayer
+  - Wereraven
+  - Zombie Clot
+  - Zombie Plague Speader
+- name: 'Eberron: Rising from the Last War'
+  proper: true
+  monsters:
+  - Belashyrra
+  - Bone Knight
+  - Changeling
+  - Clawfoot
+  - Corrin Delmaco
+  - Dolgaunt
+  - Dolgrim
+  - Dusk Hag
+  - Dyrrn
+  - Expeditious Messenger
+  - Fastieth
+  - Garra
+  - Hashalaq Quori
+  - Inspired
+  - Inspired (Hashalaq variant)
+  - Inspired (Kalaraq variant)
+  - Inspired (Tsucora variant)
+  - Iron Defender
+  - Kalaraq Quori
+  - Kalashtar
+  - Karrnathi Undead Soldier
+  - Lady Illmarrow
+  - Living Burning Hands
+  - Living Cloudkill
+  - Living Lightning Bolt
+  - Magewright
+  - Mordakhesh
+  - Radiant Idol
+  - Rak Tulkhesh
+  - Shifter
+  - Sul Khatesh
+  - Tarkanan Assassin
+  - The Lord of Blades
+  - Tsucora Quori
+  - Undying Councilor
+  - Undying Soldier
+  - Valenar Hawk
+  - Valenar Hound
+  - Valenar Steed
+  - Warforged Colossus
+  - Warforged Soldier
+  - Warforged Titan
+  - Zakya Rakshasa
+- name: Wayfinder's Guide to Eberron
+  proper: false
+  monsters:
+  - Clawfoot Raptor
+- name: Mythic Odysseys of Theros
+  proper: true
+  monsters:
+  - Abhorrent Overlord
+  - Akroan Hoplite
+  - Alseid
+  - Anvilwrought Raptor
+  - Aphemia
+  - Arasta
+  - Archon of Falling Stars
+  - Ashen Rider
+  - Blood-Toll Harpy
+  - Broken King Antigonos
+  - Bronze Sable
+  - Burnished Hart
+  - Colossus of Akros
+  - Doomwake Giant
+  - Eater of Hope
+  - Fleecemane Lion
+  - Flitterstep Eidolon
+  - Ghostblade Eidolon
+  - Gold-Forged Sentinel
+  - Hippocamp
+  - Hundred-Handed One
+  - Hythonia
+  - Ironscale Hydra
+  - Lampad
+  - Leonin Iconoclast
+  - Medusa (Theran variant)
+  - Meletian Hoplite
+  - Naiad
+  - Nightmare Shepherd
+  - Nyx-Fleece Ram
+  - Oracle
+  - Oread
+  - Phylaskia
+  - Polukranos
+  - Returned Drifter
+  - Returned Kakomantis
+  - Returned Palamnite
+  - Returned Sentry
+  - Satyr Reveler
+  - Satyr Thornbearer
+  - Setessan Hoplite
+  - Theran Chimera
+  - Triton Master of Waves
+  - Triton Shorestalker
+  - Tromokratis
+  - Two-Headed Cerberus
+  - Typhon
+  - Underworld Cerberus
+  - Winged Bull
+  - Winged Lion
+  - Woe Strider
+- name: Guildmasters' Guide to Ravnica
+  proper: false
+  monsters:
+  - Anarch
+  - Archon of the Triumvirate
+  - Arclight Phoenix
+  - Aurelia
+  - Battleforce Angel
+  - Biomancer
+  - Blistercoil Weird
+  - Blood Drinker Vampire
+  - Blood Witch
+  - Bloodfray Giant
+  - Borborygmos
+  - Cackler
+  - Category 1 Krasis
+  - Category 2 Krasis
+  - Category 3 Krasis
+  - Conclave Dryad
+  - Cosmotronic Blastseeker
+  - Counterflux Blastseeker
+  - Deathpact Angel
+  - Devkarin Lich
+  - Druid of the Old Ways
+  - Felidar
+  - Firefist
+  - Firemane Angel
+  - Flux Blastseeker
+  - Fluxcharger
+  - Flying Horror
+  - Frontline Medic
+  - Galvanic Blastseeker
+  - Galvanice Weird
+  - Gloamwing
+  - Goblin Gang Member
+  - Golgari Shaman
+  - Guardian Giant
+  - Horncaller
+  - Hybrid Brute
+  - Hybrid Flier
+  - Hybrid Poisoner
+  - Hybrid Shocker
+  - Hybrid Spy
+  - Indentured Spirit
+  - Isperia
+  - Jarad Vod Savo
+  - Kraul Death Priest
+  - Kraul Warrior
+  - Krenko
+  - Lawmage
+  - Lazav
+  - Loading Rig
+  - Master of Cruelties
+  - Mind Drinker Vampire
+  - Mind Mage
+  - Nightveil Specter
+  - Niv-Mizzet
+  - Nivix Cyclops
+  - Obzedat Ghost
+  - Orzhov Giant
+  - Precognitive Mage
+  - Rakdos
+  - Rakdos Lampooner
+  - Rakdos Performer
+  - Reckoner
+  - Rubblebelt Stalker
+  - Scorchbringer Guard
+  - Servitor Thrull
+  - Shadow Horror
+  - Sire of Insanity
+  - Skittering Horror
+  - Skyjek Roc
+  - Skyswimmer
+  - Soldier
+  - Sphinx of Judgment
+  - Sunder Shaman
+  - Thought Spy
+  - Trostani
+  - Undercity Medusa
+  - Winged Thrull
+  - Wurm
+  - Zegana
+- name: 'Strixhaven: A Curriculum of Chaos'
+  proper: true
+  monsters:
+  - Archaic
+  - Art Elemental Mascot
+  - Beledros Witherbloom
+  - Brackish Trudge
+  - Cogwork Archivist
+  - Daemogoth
+  - Daemogoth Titan
+  - First-Year Student
+  - Fractal Mascot
+  - Galazeth Prismari
+  - Groff
+  - Inkling Mascot
+  - Lorehold Apprentice
+  - Lorehold Pledgemage
+  - Lorehold Professor of Chaos
+  - Lorehold Professor of Order
+  - Mage Hunter
+  - Murgaxor
+  - Oracle of Strixhaven
+  - Oriq Blood Mage
+  - Oriq Recruiter
+  - Pest Mascot
+  - Prismari Apprentice
+  - Prismari Pledgemage
+  - Prismari Professor of Expression
+  - Prismari Professor of Perfection
+  - Quandrix Apprentice
+  - Quandrix Pledgemage
+  - Quandrix Professor of Substance
+  - Quandrix Professor of Theory
+  - Relic Sloth
+  - Ruin Grinder
+  - Scufflecup Teacup
+  - Shadrix Silverquill
+  - Silverquill Apprentice
+  - Silverquill Pledgemage
+  - Silverquill Professor of Radiance
+  - Silverquill Professor of Shadow
+  - Spirit Statue Mascot
+  - Strixhaven Campus Guide
+  - Tanazir Quandrix
+  - Velomachus Lorehold
+  - Witherbloom Apprentice
+  - Witherbloom Pledgemage
+  - Witherbloom Professor of Decay
+  - Witherbloom Professor of Growth
+  - "Y\u2019demi"
+- name: Acquisitions Incorporated
+  proper: true
+  monsters:
+  - Ancient Deep Crow
+  - Auspicia Dran
+  - Brahma Lutier
+  - Chaos Quadrapod
+  - Clockwork Behir
+  - Clockwork Dragon
+  - Dagdra Deepforge
+  - Deep Crow
+  - Devil Dog
+  - Donaar Blit'zen
+  - Enormous Tentacle
+  - Flabbergast
+  - Gildha Duhn
+  - Grunka
+  - Jelayne
+  - Jim Darkmagic
+  - K'thriss Drow'b
+  - Keg Robot
+  - Ligotti
+  - Mechachimera
+  - "M\xF4rg\xE6n"
+  - Oak Truestrike
+  - Omin Dran
+  - Onyx
+  - Pendragon Beestinger
+  - Phoenix Anvil
+  - Portentia Dran
+  - Prophetess Dran
+  - Replica Duodrone
+  - Replica Monodrone
+  - Replica Pentadrone
+  - Replica Quadrone
+  - Replica Tridrone
+  - Rosie Beestinger
+  - Splugoth the Returned
+  - Stomping Foot
+  - Two Dry Cloaks
+  - Undead Cockatrice
+  - Viari
+  - Walnut Dankgrass
+- name: The Tortle Package
+  proper: true
+  monsters:
+  - Decapus
+  - Geonid
+  - Giant Slug
+  - Topi
+  - Tortle (Legacy)
+  - Tortle Druid (Legacy)
+  - Two-Headed Plesiosaurus
+- name: 'Essentials Kit: Dragon of Icespire Peak'
+  proper: true
+  monsters:
+  - Anchorite of Talos
+  - Don-Jon Raskin
+  - Expert
+  - Expert (level 2)
+  - Expert (level 3)
+  - Expert (level 4)
+  - Expert (level 5)
+  - Expert (level 6)
+  - Falcon the Hunter
+  - Gorthok the Thunder Boar
+  - Rock Gnome Recluse
+  - Spellcaster - Healer
+  - Spellcaster - Healer (level 2)
+  - Spellcaster - Healer (level 3)
+  - Spellcaster - Healer (level 4)
+  - Spellcaster - Healer (level 5)
+  - Spellcaster - Healer (level 6)
+  - Spellcaster - Mage
+  - Spellcaster - Mage (level 2)
+  - Spellcaster - Mage (level 3)
+  - Spellcaster - Mage (level 4)
+  - Spellcaster - Mage (level 5)
+  - Spellcaster - Mage (level 6)
+  - Warrior
+  - Warrior (level 2)
+  - Warrior (level 3)
+  - Warrior (level 4)
+  - Warrior (level 5)
+  - Warrior (level 6)
+- name: 'Essentials Kit: Storm Lord''s Wrath'
+  proper: false
+  monsters:
+  - Expert (level 7)
+  - Expert (level 8)
+  - Skull Flier
+  - Spellcaster - Healer (level 7)
+  - Spellcaster - Healer (level 8)
+  - Spellcaster - Mage (level 7)
+  - Spellcaster - Mage (level 8)
+  - Statue of Talos
+  - Tooth-N-Claw
+  - Warrior (level 7)
+  - Warrior (level 8)
+- name: 'Essentials Kit: Sleeping Dragon''s Wake'
+  proper: false
+  monsters:
+  - Expert (level 10)
+  - Expert (level 9)
+  - Giant Shark Skeleton
+  - Lhammaruntosz
+  - Spellcaster - Healer (level 10)
+  - Spellcaster - Healer (level 9)
+  - Spellcaster - Mage (level 10)
+  - Spellcaster - Mage (level 9)
+  - Warrior (level 10)
+  - Warrior (level 9)
+- name: 'Essentials Kit: Divine Contention'
+  proper: false
+  monsters:
+  - Claugiyliamatar (possessed)
+  - Ebondeath
+  - Expert (level 11)
+  - Expert (level 12)
+  - Spellcaster - Healer (level 11)
+  - Spellcaster - Healer (level 12)
+  - Spellcaster - Mage (level 11)
+  - Spellcaster - Mage (level 12)
+  - Warrior (level 11)
+  - Warrior (level 12)
+- name: 'Tales from the Yawning Portal: The Sunless Citadel'
+  proper: true
+  monsters:
+  - Belak the Outcast
+  - Durnn
+  - Erky Timbers
+  - Failed Dragonpriest
+  - Goblin Commoner
+  - Grenl
+  - Guthash
+  - Kobold Commoner
+  - Sharwyn Hucrele
+  - Sir Braford
+  - Yusdrayl
+- name: 'Tales from the Yawning Portal: The Forge of Fury'
+  proper: true
+  monsters:
+  - Animated Table
+  - Duergar Spy
+  - Giant Subterranean Lizard
+  - Kaarghaz
+  - Nimira
+  - Ogre Skeleton
+  - Snurrevin
+- name: 'Tales from the Yawning Portal: The Hidden Shrine of Tamoachan'
+  proper: true
+  monsters:
+  - Amphisbaena
+  - Centaur Mummy
+  - Giant Crayfish
+  - Giant Lightning Eel
+  - Kalka-Kylla
+  - Nereid
+  - Swarm of Rats (Diseased Variant)
+  - Tecuziztecatl
+  - Thorn Slinger
+  - Tloques-Popolocas
+  - Xipe
+- name: 'Tales from the Yawning Portal: White Plume Mountain'
+  proper: true
+  monsters:
+  - Huge Giant Crab
+  - Kelpie
+  - Sea Lion
+  - Snarla
+- name: 'Tales from the Yawning Portal: Dead in Thay'
+  proper: true
+  monsters:
+  - Choker (Legacy)
+  - Deathlock Wight (Legacy)
+  - Dread Warrior
+  - Elder Black Pudding
+  - Four-Armed Gargoyle
+  - Lacedon
+  - Malformed Kraken
+  - Ooze Master
+  - Reduced-threat Aboleth
+  - Reduced-threat Basilisk
+  - Reduced-threat Behir
+  - Reduced-threat Black Pudding
+  - Reduced-threat Carrion Crawler
+  - Reduced-threat Clay Golem
+  - Reduced-threat Darkmantle
+  - Reduced-threat Displacer Beast
+  - Reduced-threat Dragon Turtle
+  - Reduced-threat Ettercap
+  - Reduced-threat Flesh Golem
+  - Reduced-threat Glabrezu
+  - Reduced-threat Gray Ooze
+  - Reduced-threat Helmed Horror
+  - Reduced-threat Hezrou
+  - Reduced-threat Hook Horror
+  - Reduced-threat Ochre Jelly
+  - Reduced-threat Otyugh
+  - Reduced-threat Owlbear
+  - Reduced-threat Peryton
+  - Reduced-threat Remorhaz
+  - Reduced-threat Stone Golem
+  - Reduced-threat Vrock
+  - Reduced-threat Wight
+  - Reduced-threat Wyvern
+  - Sentient Gray Ooze
+  - Sentient Ochre Jelly
+  - Tarul Var
+  - Thaxalia
+  - Thayan Apprentice
+  - Thayan Warrior
+  - Vampiric Mist (Legacy)
+  - White Maw
+- name: 'Tales from the Yawning Portal: Against the Giants'
+  proper: true
+  monsters:
+  - Chief Nosnra
+  - Estia
+  - Giant Ice Toad
+  - Hill Giant Sergeant
+  - Hill Giant Subchief
+  - Jarl Grugnur
+  - King Snurre
+  - Large Subterranean Lizard
+  - Obmi
+  - The Keeper
+- name: 'Tales from the Yawning Portal: Tomb of Horrors'
+  proper: true
+  monsters:
+  - Giant Skeleton
+  - Greater Zombie
+  - Siren
+- name: 'Baldur''s Gate: Descent into Avernus'
+  proper: true
+  monsters:
+  - Abyssal Chicken
+  - Amrik Vanthampur
+  - Archduke Zariel of Avernus
+  - Arkhan the Cruel
+  - Bel
+  - Black Gauntlet of Bane
+  - Bone Whelk
+  - Crokek'toeck
+  - Death's Head of Bhaal
+  - Duke Thalamra Vanthampur
+  - Fiendish Flesh Golem
+  - Fist of Bane
+  - Flying Dagger
+  - Gideon Lightward
+  - Hellwasp
+  - Hollyphant
+  - Iron Consul
+  - Kostchtchie
+  - Krull
+  - Madcap
+  - Mahadi the Rakshasa
+  - Master of Souls
+  - Mortlock Vanthampur
+  - Necromite of Myrkul
+  - Necrotic Centipede
+  - Night Blade
+  - Nine-Fingers Keene
+  - Reaper of Bhaal
+  - Rilsa Rael
+  - Skull Lasher of Myrkul
+  - Smiler the Defiler
+  - Sylvira Savikas
+  - Thavius Kreeg
+  - Thurstwell Vanthampur
+  - Torogar Steelfist
+  - Traxigor
+  - Tressym (Monstrosity)
+  - Ulder Ravengard
+- name: Candlekeep Mysteries
+  proper: true
+  monsters:
+  - Animated Broom
+  - Animated Chained Library
+  - Arrant Quill
+  - Bak Mei
+  - Canopic Golem
+  - Cloud Giant Ghost
+  - Constructed Commoner
+  - Corrupted Avatar of Lurue
+  - Dragon Tortoise
+  - Faerl
+  - Fungal Servant
+  - Gingwatzim
+  - Grippli Warrior
+  - Hag of the Fetid Gaze
+  - Immortal Lotus Monk
+  - Jade Tigress
+  - K'Tulah
+  - Kiddywidget
+  - Lichen Lich
+  - Lightning Golem
+  - Master Sage
+  - Miirym
+  - Mimic Chair
+  - Nintra Siotta
+  - Parasite-infested Behir
+  - Ram Sugar
+  - Sage
+  - Sapphire Sentinel
+  - Shemshime
+  - Skitterwidget
+  - Steel Crane
+  - Storm Giant Skeleton
+  - Swarm of Animated Books
+  - Valin Sarnaster
+  - Varnyr
+  - Wood Elf Wizard
+  - Zikran
+  - Zikzokrishka
+- name: 'Icewind Dale: Rime of the Frostmaiden'
+  proper: true
+  monsters:
+  - Aruk Thundercaller Thuunlakalaga
+  - Auril (First Form)
+  - Auril (Second Form)
+  - Auril (Third Form)
+  - Avarice
+  - Awakened White Moose
+  - Battlehammer Dwarf
+  - Bjornhild Solvigsdottir
+  - Brain in a Jar
+  - Chardalyn Berserker
+  - Chardalyn Dragon
+  - Chimeric Baboon
+  - Chimeric Cat
+  - Chimeric Fox
+  - Chimeric Hare
+  - Chimeric Rat
+  - Chimeric Weasel
+  - Coldlight Walker
+  - Cult Fanatic (Knights of the Black Sword)
+  - Cultist (Knights of the Black Sword)
+  - Demos Magen
+  - Dzaan
+  - Dzaan's Simulacrum
+  - Fox
+  - Frost Druid
+  - Frost Giant Skeleton
+  - Galvan Magen
+  - Giant Walrus
+  - Gnoll Vampire
+  - Gnome Ceremorph
+  - Gnome Squidling
+  - Goliath Warrior
+  - Goliath Werebear
+  - Grandolpha Muzgardt
+  - Gunvald Halraggson
+  - Hare
+  - Headless Iron Golem
+  - Hengar Aesnvaard
+  - Hypnos Magen
+  - Ice Troll
+  - Icewind Kobold
+  - Icewind Kobold Zombie
+  - Isarr Kronenstrom
+  - Jarund Elkhardt
+  - Kadroth
+  - Kingsport
+  - Knucklehead Trout
+  - Kobold Vampire Spawn
+  - Living Bigby's Hand
+  - Living Blade of Disaster
+  - Living Demiplane
+  - Lonelywood Banshee
+  - Mjenir
+  - Mountain Goat
+  - Nass Lantomir's Ghost
+  - Piercer (Ice variant)
+  - Prisoner 237
+  - Reghed Chieftain
+  - Reghed Great Warrior
+  - Reghed Shaman
+  - Reghed Warrior
+  - Seal
+  - Sephek Kaltro
+  - Snow Golem
+  - Snowy Owlbear
+  - Spellix Romwod
+  - Sperm Whale
+  - Spitting Mimic
+  - Telepathic Pentacle
+  - Tomb Tapper
+  - Tribal Warrior Spore Servants
+  - Vellynne Harpell
+  - Verbeeg Longstrider
+  - Verbeeg Marauder
+  - Walrus
+  - Xardorok Sunblight
+  - Yeti Tyke
+  - Young Griffon (Medium)
+  - Young Griffon (Small)
+  - Young Griffon (Tiny)
+- name: 'Waterdeep: Dragon Heist'
+  proper: true
+  monsters:
+  - Ahmaergo
+  - Ammalia Cassalanter
+  - Avi
+  - Barnibus Blastwind
+  - Black Viper
+  - Davil Starsong
+  - Drow Gunslinger
+  - Durnan
+  - Embric
+  - Fala Lefaliir
+  - Floon Blagmaar
+  - Giant Mimic
+  - Griffon Cavalry Rider
+  - Grum'shar
+  - Halfling Wererat
+  - Havia Quickknife
+  - Hester Barch
+  - Hlam
+  - Hrabbaz
+  - Istrid Horn
+  - Jalester Silvermane
+  - Jarlaxle Baenre
+  - Kaevja Cynavern
+  - Kalain
+  - Lady Gondafrey
+  - Laeral Silverhand
+  - Losser Mirklav
+  - Magister Umbero Zastro
+  - Manafret Cherryport
+  - Manshoon
+  - Manshoon's Simulacrum
+  - Melannor Fellbranch
+  - Meloon Wardragon
+  - Mirt
+  - Mookie Plush
+  - Nimblewright
+  - Noska Ur'gray
+  - Obliteros
+  - Orond Gralhund
+  - Ott Steeltoes
+  - Remallia Haventree
+  - Rishaal
+  - Roscoe Underbough
+  - Saeth Cromley
+  - Samara Strongbones
+  - Skeemo Weirdbottle
+  - Soluun Xibrindas
+  - Swarm of Mechanical Spiders
+  - Talisolvanar "Tally" Fellbranch
+  - Tashlyn Yafeera
+  - Thorvin Twinbeard
+  - Urstul Floxin
+  - Vajra Safahr
+  - Valetta
+  - Victoro Cassalanter
+  - Walking Statue of Waterdeep
+  - Yalah Gralhund
+  - Yorn the Terror
+  - Ziraj the Hunter
+- name: 'Waterdeep: Dungeon of the Mad Mage'
+  proper: true
+  monsters:
+  - Animated Ballista
+  - Animated Staff of Frost
+  - Animated Statue
+  - Animated Stove
+  - Arcturia
+  - Armored Troglodyte
+  - Astyrranthor
+  - Berlain Shadowdusk
+  - Big Xorn
+  - Bore Worm
+  - Carrion Ogre
+  - Cassiok Shadowdusk
+  - Copper Stormforge
+  - Crystal Golem
+  - Darribeth Meltimer
+  - Deformed Duergar
+  - Derrion Shadowdusk
+  - Dezmyr Shadowdusk
+  - Drivvin Freth
+  - Drow Assassin
+  - Emberosa
+  - Fazrian
+  - Five-armed Troll
+  - Gelatinous Cube (Giant Ooze variant)
+  - Gorka Tharn
+  - Halaster Blackcloak
+  - Halfling Musician
+  - Hammer-handed Golem
+  - Harria Valashtar
+  - Haungharassk
+  - Huge Gray Ooze
+  - Intelligent Black Pudding
+  - Keresta Delvingstone
+  - Lava Child
+  - Left Hand of Manshoon
+  - Living Unseen Servant
+  - Mad Golem
+  - Maddgoth's Homunculus
+  - Marta Moonshadow
+  - Melissara Shadowdusk
+  - Metal Wasp
+  - Muiral
+  - Mutated Drow
+  - Nerozar the Defeated
+  - Nester
+  - Otto
+  - Poison Weird
+  - Preeta Kreepa
+  - Scaladar
+  - Shadow Assassin
+  - Shadowy Duplicate
+  - Shunn Shurreth
+  - Stalagma Steelshadow
+  - Statue of Lolth
+  - Stonecloak
+  - Sundeth
+  - Thwad Underbrew
+  - Torbit
+  - Trenzia
+  - Trobriand
+  - Turbulence
+  - Uktarl Krannoc
+  - Umbraxakar
+  - Undead Bulette
+  - Undead Shambling Mound
+  - Valtagar Steelshadow
+  - Vertrand Shadowdusk
+  - Violence
+  - Werebat
+  - Wooden Donkey
+  - Wyllow
+  - Zalthar Shadowdusk
+  - Zorak Lightdrinker
+  - Zox Clammersham
+  - Zress Orlezziir
+- name: Storm King's Thunder
+  proper: true
+  monsters:
+  - Aarakocra Simulacrum
+  - Augrek Brighthelm
+  - Axe of Mirabar Veteran
+  - Beldora
+  - Black Earth Cultist
+  - Chief Guh
+  - Chief Kartha-Kaya
+  - Cinderhild
+  - Claugiyliamatar
+  - Cloud Giant (variant)
+  - Cloud Giant Child
+  - Count Thullen
+  - Countess Sansuri
+  - Crag Cat
+  - Cressaro
+  - Darathra Shendrel
+  - Darz Helgar
+  - Duchess Brimskarda
+  - Duke Zalto
+  - Duvessa Shane
+  - Eigeron's Spirit
+  - Elister Noggins
+  - Felbarren Dwarf
+  - Fire Giant (variant)
+  - Frost Giant (variant)
+  - Ghelryn Foehammer
+  - Great Chief Halric Bonesnapper
+  - Harshnag the Grim
+  - Hill Giant (variant)
+  - Hulking Crab
+  - Ice Spider
+  - Ice Spider Queen
+  - Imperator Uthor
+  - Iymrith
+  - Jarl Storvald
+  - Jasper Dimmerchasm
+  - Kayalithica
+  - King Hekaton
+  - Klauth
+  - Knight of the Mithral Shield
+  - Lifferlas
+  - Lord Khaspere Drylund
+  - Maegera the Dawn Titan
+  - Markham Southwell
+  - Miros Xelbrin
+  - Narth Tezrin
+  - Naxene Drathkala
+  - Nimir
+  - Oren Yogilvy
+  - Orlekto
+  - Orok
+  - Othovir
+  - Pig
+  - Pow Ming
+  - Princess Serissa
+  - Purple Wormling
+  - Sea Elf
+  - Shaldoor
+  - Shalvus Martholio
+  - Sheep
+  - Shield Dwarf
+  - Sir Baric Nylef
+  - Sirac of Suzail
+  - Slarkrethel
+  - Stone Giant (variant)
+  - Stone Giant Statue
+  - Stone Giant of Deadstone Cleft
+  - Storm Giant (variant)
+  - Storm Giant Princess
+  - Thunderbeast Skeleton
+  - Tressym
+  - Turlang
+  - Urgala Meltimer
+  - Uthgardt Shaman
+  - Uthgardt barbarian leader
+  - Vaasha
+  - Wiri Fleagol
+  - Wood Elf Scout
+  - Worvil "the Weevil" Forkbeard
+  - Yakfolk Priest
+  - Yakfolk Warrior
+  - Young Cloud Giant
+  - Zaltember
+  - Zephyros
+  - Zi Liang
+- name: Princes of the Apocalypse
+  proper: true
+  monsters:
+  - Aerisi Kalinoth
+  - Air Elemental Myrmidon (Legacy)
+  - Ancient Construct
+  - Bastian Thermandar
+  - Black Earth Guard
+  - Black Earth Priest
+  - Bronzefume
+  - Burrowshark
+  - Crushing Wave Priest
+  - Crushing Wave Reaver
+  - Dark Tide Knight
+  - Drannin Splithelm
+  - Earth Elemental Myrmidon (Legacy)
+  - Elizar Dryflagon
+  - Eternal Flame Guardian
+  - Eternal Flame Priest
+  - Fathomer
+  - Feathergale Knight
+  - Fennor
+  - Fire Elemental Myrmidon (Legacy)
+  - Flamewrath
+  - Gar Shatterkeel
+  - Ghald
+  - Grumink the Renegade
+  - Hellenrae
+  - Howling Hatred Initiate
+  - Howling Hatred Priest
+  - Hurricane
+  - Imix
+  - Marlos Urnrayle
+  - Miraj Vizann
+  - Molten Magma Roper
+  - Nurvureem
+  - "Ogr\xE9moch"
+  - Olhydra
+  - One-Eyed Shiver
+  - Oreioth
+  - Padraich
+  - Razerblast
+  - Rhundorth
+  - Sacred Stone Monk
+  - Shoalar Quanderil
+  - Skyweaver
+  - Stonemelder
+  - Thurl Merosska
+  - Umber Hulk, modified variant
+  - Vanifer
+  - Water Elemental Myrmidon (Legacy)
+  - Wiggan Nettlebee
+  - Windharrow
+  - Yan-C-Bin
+  - Young Purple Worm
+  - Zegdar
+- name: Out of the Abyss
+  proper: true
+  monsters:
+  - Amarith Coppervein
+  - Asha Vandree
+  - Awakened Zurkhwood
+  - Baphomet (Legacy)
+  - Bridesmaid of Zuggtmoy
+  - Cave Badger
+  - Chamberlain of Zuggtmoy
+  - Chuul Spore Servant
+  - Demogorgon (Legacy)
+  - Derro (Legacy)
+  - Derro Savant (Legacy)
+  - Droki
+  - Drow Spore Servant
+  - Duergar Alchemist
+  - Duergar Darkhaft
+  - Duergar Kavalrachni (Legacy)
+  - Duergar Keeper of the Flame
+  - Duergar Soulblade (Legacy)
+  - Duergar Spore Servant
+  - Duergar Stone Guard (Legacy)
+  - Duergar Xarrorn (Legacy)
+  - Emerald Enclave Scout
+  - Female Steeder (Legacy)
+  - Fiendish Giant Spider
+  - Fraz-Urb'luu
+  - Gash the Gnoll
+  - Giant Riding Lizard
+  - Giant Rocktopus
+  - Glabbagool
+  - Graz'zt
+  - Grisha
+  - Hanne Hallen
+  - Hook Horror Spore Servant
+  - Horgar Steelshadow V
+  - Ixitxachitl
+  - Ixitxachitl Cleric
+  - Jade Spider
+  - Juiblex (Legacy)
+  - Khalessa Draga
+  - Lords' Alliance Guard
+  - Lords' Alliance Spy
+  - Lorthuun
+  - Male Steeder (Legacy)
+  - Mev Flintknapper
+  - Narrak
+  - Orcus (Legacy)
+  - Prince Livid
+  - Princess Ebonmire
+  - Pudding King
+  - Quenthel Baenre
+  - Regenerating Black Pudding
+  - Rihuud
+  - Shedrak of the Eyes
+  - Sladis Vadir
+  - Spider King
+  - Spiderbait
+  - Svirfneblin Wererat
+  - Szashune
+  - Troglodyte Champion of Laogzed
+  - Two-Headed Troll
+  - Vampiric Ixitxachitl
+  - Veteran of the Gauntlet
+  - Viln Tirin
+  - Vizeran DeVir
+  - Yantha Coaxrock
+  - Yeenoghu (Legacy)
+  - Yestabrod
+  - Yuk Yuk
+  - Zhentarim Thug
+  - Zuggtmoy (Legacy)
+- name: Tomb of Annihilation
+  proper: true
+  monsters:
+  - Acererak
+  - Albino Dwarf Spirit Warrior
+  - Albino Dwarf Warrior
+  - Aldani (Lobsterfolk)
+  - Almiraj
+  - Ankylosaurus Zombie
+  - Artus Cimber
+  - Asharra
+  - Assassin Vine
+  - Atropal
+  - Bag of Nails
+  - Chwinga
+  - Clay Gladiator
+  - Dragonbait
+  - Eblis
+  - Flying Monkey
+  - Giant Four-Armed Gargoyle
+  - Giant Snapping Turtle
+  - Girallon Zombie
+  - Hew Hackinstone
+  - Jaculi
+  - Kamadan
+  - King of Feathers
+  - Liara Portyr
+  - Mantrap
+  - "Mwaxanar\xE9"
+  - Orvex Ocrammas
+  - Pterafolk
+  - Ras Nsi
+  - Salida
+  - Sekelok
+  - Shago
+  - Skeleton Key
+  - Stone Juggernaut
+  - Su-monster
+  - Syndra Silvane
+  - Tabaxi Hunter
+  - Tabaxi Minstrel
+  - Terracotta Warrior
+  - Tomb Guardian
+  - Tri-flower Frond
+  - Tyrannosaurus Zombie
+  - Valindra Shadowmantle
+  - Volothamp "Volo" Geddarm
+  - Withers
+  - Xandala
+  - Yellow Musk Creeper
+  - Yellow Musk Zombie
+  - Yuan-ti Priest
+  - Zindar
+  - Zorbo
+- name: Lost Mine of Phandelver
+  proper: true
+  monsters:
+  - Ash Zombie
+  - Brughor Axe-Biter
+  - Evil Mage
+  - King Grol
+  - Lhupo
+  - Mormesk the Wraith
+  - Nezznar the Black Spider
+  - Redbrand Ruffian
+  - Sildar Hallwinter
+  - Snarl
+  - Targor Bloodsword
+  - Yeemik
+  - Yegg
+- name: Hoard of the Dragon Queen
+  proper: true
+  monsters:
+  - Ambush Drake
+  - Azbara Jos
+  - Blagothkus
+  - Captain Othelstan
+  - Dragonclaw
+  - Dralmorrer Borngray
+  - Four-Armed Troll
+  - Frulam Mondath
+  - Jamna Gleamsilver
+  - Langdedrosa Cyanwrath
+  - Linan Swift
+  - Pharblex Spattergoo
+  - Raggnar Redtooth
+  - Rath Modar
+  - Rezmir
+  - Talis the White
+- name: Rise of Tiamat
+  proper: true
+  monsters:
+  - Diderius
+  - Dragonfang
+  - Dragonsoul
+  - Dragonwing
+  - Half-Blue Dragon Gladiator
+  - Half-Green Dragon Assassin
+  - Half-Red Dragon Gladiator
+  - Ice Toad
+  - Naergoth Bladelord
+  - Neronvain
+  - Scrag
+  - Severin
+  - Tiamat
+  - Tile Chimera
+  - Troll (Ice Troll variant)
+- name: Locathah Rising
+  proper: true
+  monsters:
+  - Amble
+  - Fhenimore (Kraken Priest Variant)
+  - Gar Shatterkeel (Noncore)
+  - Shoalar Quanderil (Noncore)
+  - Whymsee (Kraken Priest Variant)
+  - Young Kraken
+- name: Ghosts of Saltmarsh
+  proper: true
+  monsters:
+  - Amphisbaena (Monstrosity)
+  - Barnacle Bess
+  - Bullywug Croaker
+  - Bullywug Royal
+  - Drowned Ascetic
+  - Drowned Assassin
+  - Drowned Blade
+  - Drowned Master
+  - Giant Coral Snake
+  - Giant Sea Eel
+  - Giant White Moray Eel
+  - Harpy Matriarch
+  - Juvenile Kraken
+  - Koalinth
+  - Koalinth Sergeant
+  - Krell Grohlg
+  - Kysh
+  - Living Iron Statue
+  - Lizardfolk Commoner
+  - Lizardfolk Render
+  - Lizardfolk Scaleshield
+  - Lizardfolk Subchief
+  - Locathah
+  - Locathah Hunter
+  - Maw of Sekolah
+  - Merfolk Salvager
+  - Merfolk Scout
+  - Minotaur Living Crystal Statue
+  - Monstrous Peryton
+  - Mr. Dory
+  - Oceanus
+  - Othokent
+  - Pirate Bosun
+  - Pirate Captain
+  - Pirate Deck Wizard
+  - Pirate First Mate
+  - Refrum
+  - Rip Tide Priest
+  - Sahuagin Blademaster
+  - Sahuagin Champion
+  - Sahuagin Coral Smasher
+  - Sahuagin Deep Diver
+  - Sahuagin Hatchling Swarm
+  - Sahuagin High Priestess
+  - Sahuagin Wave Shaper
+  - Sanbalet
+  - Sauriv
+  - Shell Shark
+  - Skeletal Alchemist
+  - Skeletal Juggernaut
+  - Skeletal Swarm
+  - Skum
+  - Thousand Teeth
+  - Vampiric Jade Statue
+  - Yalaga Maladwyn
+- name: Lost Laboratory of Kwalish
+  proper: true
+  monsters:
+  - Brain in a Jar (Noncore)
+  - Clockwork Kraken
+  - East Wind
+  - Enhanced Sphinx
+  - Garret Levistusson
+  - Gloine Nathair-Nathair
+  - Immured One
+  - Mary Greymalkin
+  - Monastery of the Distressed Body, Elder Monk
+  - Monastery of the Distressed Body, Grand Master
+  - Monastery of the Distressed Body, Monk
+  - Ooze-Folk
+  - West Wind
+- name: Infernal Machine Rebuild
+  proper: true
+  monsters:
+  - '"The Demogorgon"'
+  - Andras
+  - Barbatos
+  - Brain in Iron
+  - Dwarven Worker
+  - Enhanced Medusa
+  - Eye of Fear and Flame
+  - Grandfather Oak
+  - Lynx Creatlach
+  - Moghadam
+  - Neo-Otyugh
+  - Seodra
+  - Sir Ursas
+  - Skeletal Giant Owl
+  - Skeletal Owlbear
+  - Skeletal Polar Bear
+  - Skeletal Two-Headed Owlbear
+  - Stolos
+  - Tarnhem
+  - Thessalar
+  - Thessalar's Homunculus
+  - Thessalheart Construct
+  - Thessalkraken
+  - Tiefling Muralist
+  - Two-Headed Crocodile
+  - Two-Headed Owlbear
+- name: Curse of Strahd
+  proper: true
+  monsters:
+  - Animated Halberd
+  - Baba Lysaga
+  - Baba Lysaga's Creeping Hut
+  - Barovian Witch
+  - Broom of Animated Attack
+  - Ezmerelda d'Avenir
+  - Guardian Portrait
+  - Izek Strazni
+  - Kasimir Velikov
+  - Kiril Stoyanovich
+  - Madam Eva
+  - Milivoj
+  - Mongrelfolk
+  - Phantom Warrior
+  - Pidlwick II
+  - Rahadin
+  - Rictavio
+  - Rose Durst
+  - Sangzor
+  - Sir Godfrey Gwilym
+  - Snow Maiden
+  - Strahd Zombie
+  - Strahd von Zarovich
+  - Strahd's Animated Armor
+  - The Abbot
+  - Thorn Durst
+  - Tree Blight
+  - Vladimir Horngaard
+  - Wereraven
+- name: The Wild Beyond the Witchlight
+  proper: true
+  monsters:
+  - Agdon Longscarf
+  - Alagarthas
+  - Amidor the Dandelion
+  - Bavlorna Blightstraw
+  - Boggle (Legacy)
+  - Brigganock
+  - Bullywug Knight
+  - Bullywug Royal
+  - Campestri
+  - Clapperclaw the Scarecrow
+  - Darkling (Legacy)
+  - Darkling Elder (Legacy)
+  - Displacer Beast Kitten
+  - Elkhorn
+  - Endelyn Moongrave
+  - Envy
+  - Flying Rocking Horse
+  - Giant Dragonfly
+  - Giant Snail
+  - Giant Swan
+  - Glass Pegasus
+  - Glasswork Golem
+  - Gloam
+  - Harengon Brigand
+  - Harengon Sniper
+  - Iggwilv the Witch Queen
+  - Jabberwock
+  - Jingle Jangle
+  - Kelek
+  - Kettlesteam the Kenku
+  - Korred (Legacy)
+  - Living Doll
+  - Mercion
+  - Mister Light
+  - Mister Witch
+  - Molliver
+  - Paper Bird
+  - Pollenella the Honeybee
+  - Quickling (Legacy)
+  - Raezil
+  - Redcap (Legacy)
+  - Ringlerun
+  - Selenelion Twin
+  - Sir Talavar
+  - Skabatha Nightshade
+  - Skylla
+  - Squirt the Oilcan
+  - Strongheart
+  - Swarm of Campestris
+  - Tin Soldier
+  - Treant Sapling
+  - Warduke
+  - Will-o'-Wisp (Variant)
+  - Witchlight Hand
+  - Zarak
+  - Zargash
+- name: Journeys through the Radiant Citadel
+  proper: true
+  monsters:
+  - Aurumvorax
+  - Aurumvorax Den Leader
+  - Bakunawa
+  - Dinosaur Skeleton
+  - Dragon Hunter
+  - Haint
+  - Jijibisha Manivarshi
+  - Nightsea chil-liren
+  - Pari
+  - Riverine
+  - Sensa Prince
+  - Soul Shaker
+  - Tlacatecolo
+  - Tlexolotl
+  - Whistler
+  - Wynling
+- name: Spelljammer Academy
+  proper: true
+  monsters:
+  - Apprentice Wizard
+  - Clockwork Horror
+  - Giff
+  - Neogi Hatchling
+- name: Dungeons & Dragons vs. Rick and Morty
+  proper: true
+  monsters:
+  - Billy Beaver
+  - Buster the Bear
+  - Layla the Lizard
+  - Lycanthropickle
+  - Piggy Wiggle Butt
+  - Thomas T. Toad
+- name: Hunt for the Thessalhydra
+  proper: true
+  monsters:
+  - Demogorgon (Monstrosity)
+  - Thessalhydra
+- name: Rrakkma
+  proper: true
+  monsters:
+  - Duergar Stone Guard (Legacy)
+  - Duergar Warlord (Legacy)
+  - Elder Oblex (Legacy)
+  - Star Spawn Mangler (Legacy)
+  - Eidolon (Legacy)
+  - Sacred Statue (Legacy)
+  - Allip (Legacy)
+  - Mind Flayer
+  - Star Spawn Hulk (Legacy)
+  - Star Spawn Seer (Legacy)
+- name: Vecna Dossier
+  proper: false
+  monsters:
+  - Vecna the Archlich
