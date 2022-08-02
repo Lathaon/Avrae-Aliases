@@ -2667,8 +2667,12 @@
   monsters:
   - Apprentice Wizard
   - Clockwork Horror
+  - Gazer
   - Giff
+  - Giff Shipmate
+  - Githyanki Warrior
   - Neogi Hatchling
+  - Star Lancer
 - name: Dungeons & Dragons vs. Rick and Morty
   proper: true
   monsters:
