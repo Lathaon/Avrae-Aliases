@@ -99,7 +99,10 @@ def args_to_str(args_list):
     """
     Reads a list of args (like &ARGS&) and converts it into a string (like &*&).
     """
-    return ' '.join(str([arg])[1:-1] for arg in args_list)
+    ESC_OPENING = '\\〈'
+    ESC_CLOSING = '\\〉'
+
+    return ' '.join(f'〈{arg.replace("〈", ESC_OPENING).replace("〉", ESC_CLOSING)}〉' for arg in args_list)
 
 
 def split_arg(arg):
