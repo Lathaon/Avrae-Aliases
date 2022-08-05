@@ -1,0 +1,282 @@
+# embeds = '72fea181-ba03-4cb4-8edf-1f3bc5a49578'
+#
+# A module for managing the output of aliases based on !embed, performing
+# pagination where necessary to avoid breaking Discord's limits.
+#
+# The expectation is that the alias author will build their output as a
+# dict in the specified format, and then let get_output(embed) generate
+# the actual commands and arguments to pass to Avrae.
+#
+# ===== Data Structures =====
+#
+# An Embed should be stored in the following format:
+# {
+#     title?: string;
+#     desc?: string;
+#     fields?: Field[];
+#     footer?: string;
+#     thumb?: string;
+#     image?: string;
+#     color?: string;
+#     timeout?: int;
+# }
+#
+# A Field should be stored in the following format:
+# {
+#     title?: string;
+#     body?: string;
+#     inline?: boolean;
+# }
+#
+# ===== Functions =====
+#
+# get_output(embed): Builds paginated alias output from an Embed, keeping
+#     within Discord's limits.
+#
+# paginate_embed(embed): Returns a paginated list of Embeds, keeping within
+#     Discord's limits.
+#
+# paginate_field(field): Returns a paginated list of Fields, keeping within
+#     Discord's limits.
+#
+# embed_len(embed): Returns the number of characters an Embed has towards
+#     the limits.
+#
+# field_len(field): Returns the number of characters a Field has towards
+#     the limits.
+#
+# field_to_arg(field): Converts a Field to an arg. Does not include quotes
+#     nor the -f flag.
+#
+# slice_text(text, start, end): Chops a string in two. The cutoff point
+#     will be somewhere between the start and end indices.
+#
+# ===== Constants =====
+#
+# MAX_TOTAL_CHARACTERS = Max total number of characters in an Embed.
+# MAX_TITLE_CHARACTERS: Max number of characters in an Embed's title.
+# MAX_DESC_CHARACTERS: Max number of characters in an Embed's description.
+# MAX_FOOTER_CHARACTERS: Max number of characters in an Embed's footer.
+# MAX_FIELDS: Max number of Fields in an Embed.
+#
+# MAX_FIELD_TITLE_CHARACTERS: Max number of characters in a Field's title.
+# MAX_FIELD_BODY_CHARACTERS: Max number of characters in a Field's body.
+#
+# TITLE_CUTOFF_START, DESC_CUTOFF_START, FOOTER_CUTOFF_START,
+# FIELD_TITLE_CUTOFF_START, FIELD_BODY_CUTOFF_START:
+#     Arbitrary limits to how far the functions will search through text
+#     while looking for a convenient line break or space to split around.
+#
+# ZERO_WIDTH_SPACE: An invisible character which can be used to
+#     prevent errors from Embed/Field properties being empty.
+
+using(
+    arg_lib = '0a015433-288e-441e-b0ec-1d5b905c9646'
+)
+
+# Limits imposed by Discord.
+MAX_TITLE_CHARACTERS       =    256
+MAX_DESC_CHARACTERS        =  4_096
+MAX_FOOTER_CHARACTERS      =  2_048
+MAX_FIELD_TITLE_CHARACTERS =    256
+MAX_FIELD_BODY_CHARACTERS  =  1_024
+MAX_FIELDS                 =     25
+# Subtracting characters taken up by display name since we can't control those.
+MAX_TOTAL_CHARACTERS = 6_000 - min(len(ctx.author.display_name), 256)
+
+# Arbitrary values set by module author.
+TITLE_CUTOFF_START         =    216
+DESC_CUTOFF_START          =  3_876
+FOOTER_CUTOFF_START        =  1_928
+FIELD_TITLE_CUTOFF_START   =    216
+FIELD_BODY_CUTOFF_START    =    904
+
+# Prevents empty titles and field bodies causing errors.
+ZERO_WIDTH_SPACE = "\u200c"
+
+
+def get_output(embed):
+    """
+    Builds paginated alias output from an Embed, keeping within Discord's limits.
+    """
+    out = []
+    for current_embed in paginate_embed(embed):
+        args = []
+
+        for key in ("title", "desc", "footer", "color", "thumb", "image"):
+            if key in current_embed:
+                args.extend([f"-{key}", current_embed[key]])
+
+        for field in current_embed.get("fields", []):
+            args.extend(["-f", field_to_arg(field)])
+
+        if "timeout" in current_embed:
+            args.extend(["-t", str(current_embed.timeout)])
+
+        out.append(arg_lib.args_to_str(args))
+
+    if out:
+        cmd = f"\n{ctx.prefix}embed "
+        if len(out) == 1:
+            return f"embed {out[0]}"
+        else:
+            return f"multiline{cmd}{cmd.join(out)}"
+    else:
+        return "echo No output was generated."
+
+
+def paginate_embed(embed):
+    """
+    Returns a paginated list of Embeds, keeping within Discord's limits.
+    """
+    embeds = [
+        embed.copy() | {
+            "fields": [
+                p
+                for f in embed.get("fields", [])
+                for p in paginate_field(f)
+            ]
+        }
+    ]
+
+    default_embed = {key: embed[key] for key in ("color", "timeout") if key in embed}
+
+    new_embed = True
+
+    while new_embed:
+        current_embed = embeds[-1]
+        new_embed = False
+        args = []
+
+        characters_left = MAX_TOTAL_CHARACTERS
+
+        if "title" in current_embed:
+            current_embed["title"], excess = slice_text(
+                current_embed.title,
+                TITLE_CUTOFF_START,
+                MAX_TITLE_CHARACTERS
+            )
+            characters_left -= len(current_embed.title)
+            if excess:
+                current_embed["desc"] = f"**{excess}**\n\n{current_embed.desc}"
+
+        if "desc" in current_embed:
+            current_embed["desc"], excess = slice_text(
+                current_embed.desc,
+                DESC_CUTOFF_START,
+                MAX_DESC_CHARACTERS
+            )
+            characters_left -= len(current_embed.desc)
+            if excess:
+                current_embed["fields"] = paginate_field({"body": excess}) + current_embed.get("fields", [])
+
+        for i, field in enumerate(current_embed.fields[:MAX_FIELDS]):
+            if characters_left >= (length := field_len(field)):
+                characters_left -= length
+            else:
+                break
+        else:
+            i += 1
+        if i < len(current_embed.fields):
+            embeds.append(default_embed | {"fields": current_embed.fields[i:]})
+            current_embed["fields"] = current_embed.fields[:i]
+            new_embed = True
+
+    if "image" in embeds[0]:
+        embeds[-1]["image"] = embeds[0].pop("image")
+
+    if "footer" in embeds[0]:
+        truncated, excess = slice_text(
+            embeds[0].pop("footer"),
+            min(characters_left, FOOTER_CUTOFF_START),
+            min(characters_left, MAX_FOOTER_CHARACTERS)
+        )
+
+        if truncated:
+            embeds[-1]["footer"] = truncated
+
+        while excess:
+            truncated, excess = slice_text(
+                excess,
+                FOOTER_CUTOFF_START,
+                MAX_FOOTER_CHARACTERS
+            )
+            embeds.append({"footer": truncated})
+
+    return embeds
+
+
+def paginate_field(field):
+    """
+    Returns a paginated list of Fields, keeping within Discord's limits.
+    """
+    current_field = {"inline": field.get("inline", False)}
+    current_field["title"], excess = slice_text(
+        field.get("title") or ZERO_WIDTH_SPACE,
+        FIELD_TITLE_CUTOFF_START,
+        MAX_FIELD_TITLE_CHARACTERS
+    )
+    if excess:
+        current_field["body"] = f'**{excess}**\n\n{field.get("body", "")}'
+    else:
+        current_field["body"] = field.get("body") or ZERO_WIDTH_SPACE
+    
+    fields = [current_field]
+    while len(current_field.body) > MAX_FIELD_BODY_CHARACTERS:
+        next_field = {
+            "title": ZERO_WIDTH_SPACE,
+            "inline": current_field.inline
+        }
+        current_field["body"], next_field["body"] = slice_text(
+            current_field.body,
+            FIELD_BODY_CUTOFF_START,
+            MAX_FIELD_BODY_CHARACTERS
+        )
+        fields.append(current_field := next_field)
+    return fields
+
+
+def embed_len(embed):
+    """
+    Returns the number of characters an Embed has towards the limits.
+    """
+    return sum(
+        [
+            len(embed.get(key, ""))
+            for key in ("title", "desc", "footer")
+        ] + [
+            field_len(field)
+            for field in embed.get("fields", [])
+        ]
+    )
+
+
+def field_len(field):
+    """
+    Returns the number of characters a Field has towards the limits.
+    """
+    return len(field.get("title") or "a") + len(field.get("body") or "a")
+
+
+def field_to_arg(field):
+    """
+    Converts a Field to an arg. Does not include quotes nor the -f flag.
+    """
+    return f'{field.get("title") or ZERO_WIDTH_SPACE}|{field.get("body") or ZERO_WIDTH_SPACE}{"|inline" if field.get("inline") else ""}'
+
+
+def slice_text(text, start, end):
+    """
+    Chops a string in two. The cutoff point will be somewhere between the start and end indices.
+    """
+    if ((cutoff_point := text.rfind('\n', start, end)) >= 0
+        or (cutoff_point := text.rfind(' ', start, end)) >= 0):
+        return (
+            text[:cutoff_point].strip(),
+            text[cutoff_point:].strip()
+        )
+    else:
+        return (
+            text[:end].strip(),
+            text[end:].strip()
+        )
