@@ -40,7 +40,7 @@ for spell_name in all_spells:
 		commands.append(f'{ctx.prefix}sb add "{spell_name}" {all_spells[spell_name]}')
 
 for csetting_name, csetting_value in load_json(get(exported_data.csettings)).items():
-	if csetting_value is not None:
+	if csetting_value != pc.csettings[csetting_name]:
 		if csetting_name == 'color':
 			commands.append(f'{ctx.prefix}csettings color {csetting_value:X}')
 		else:
