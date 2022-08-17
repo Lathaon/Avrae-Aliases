@@ -1342,6 +1342,86 @@
   - Wereraven
   - Zombie Clot
   - Zombie Plague Speader
+- name: 'Spelljammer: Adventures in Space'
+  proper: true
+  monsters:
+  - Aarakocra Spelljammer
+  - Aartuk Elder
+  - Aartuk Priest
+  - Aartuk Warrior
+  - Adult Lunar Dragon
+  - Adult Solar Dragon
+  - Agony the Ghost
+  - Ancient Lunar Dragon
+  - Ancient Solar Dragon
+  - Astral Blight
+  - Astral Elf Aristocrat
+  - Astral Elf Commander
+  - Astral Elf Honor Guard
+  - Astral Elf Star Priest
+  - Astral Elf Warrior
+  - Autognome
+  - B’rohg
+  - Braxat
+  - Brown Scavver
+  - Chwinga Astronaut
+  - Cosmic Horror
+  - Dohwar
+  - Esthetic
+  - Eye Monger
+  - Feyr
+  - Flapjack the Flumph
+  - Gaj
+  - Giant Space Hamster
+  - Giff Shipmate
+  - Giff Shock Trooper
+  - Giff Warlord
+  - Githyanki Buccaneer
+  - Githyanki Star Seer
+  - Githyanki Xenomancer
+  - Gray Scavver
+  - Hadozee Explorer
+  - Hadozee Shipmate
+  - Hadozee Warrior
+  - Hook Horror
+  - Jammer Leech
+  - Kindori
+  - Lunar Dragon Wyrmling
+  - Megapede
+  - Mercane
+  - Murder Comet
+  - Neh-thalggu
+  - Neogi Hatchling Swarm
+  - Neogi Pirate
+  - Neogi Void Hunter
+  - Night Scavver
+  - Plasmoid Boss
+  - Plasmoid Explorer
+  - Plasmoid Warrior
+  - Psurlon
+  - Psurlon Leader
+  - Psurlon Ringer
+  - Reigar
+  - Solar Dragon Wyrmling
+  - Space Clown
+  - Space Eel
+  - Space Guppy
+  - Space Hamster
+  - Space Mollymawk
+  - Space Swine
+  - Ssurran Defiler
+  - Ssurran Poisoner
+  - Starlight Apparition
+  - Thri-kreen Gladiator
+  - Thri-kreen Hunter
+  - Thri-kreen Mystic
+  - Vampirate
+  - Vampirate Captain
+  - Vampirate Mage
+  - Void Scavver
+  - Young Lunar Dragon
+  - Young Solar Dragon
+  - Zodar
 - name: 'Eberron: Rising from the Last War'
   proper: true
   monsters:
