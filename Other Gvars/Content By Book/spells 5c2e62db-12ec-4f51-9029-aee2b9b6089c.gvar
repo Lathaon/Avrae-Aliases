@@ -530,6 +530,11 @@
   - Green-Flame Blade
   - Lightning Lure
   - Sword Burst
+- name: 'Spelljammer: Adventures in Space'
+  proper: true
+  spells:
+  - Air Bubble
+  - Create Spelljamming Helm
 - name: Explorer's Guide to Wildemount
   proper: false
   spells:
