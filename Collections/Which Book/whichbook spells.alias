@@ -1,0 +1,63 @@
+<drac2>
+using(
+    embeds = '72fea181-ba03-4cb4-8edf-1f3bc5a49578',
+    pronouns = '2c4012a3-accd-4fcf-a5e2-30bb51800c4e',
+    fuzzy = '6431690e-ce47-4baa-bb3b-ba751e1a1817'
+)
+
+spell_db = load_yaml(get_gvar('5c2e62db-12ec-4f51-9029-aee2b9b6089c'))
+homebrew_db = [spell.name for spell in load_json(get_gvar(extraSpells))] if exists('extraSpells') else []
+
+if args := &ARGS&:
+    embed = {
+        "title": f"{ctx.author.display_name} checks the books...",
+        "desc": f"Here's where you can find spells matching {', '.join(f'`{arg}`' for arg in args)}:",
+        "footer": f"{ctx.prefix}{ctx.alias} spells [search terms] | @Lathaon#6649",
+        "fields": [
+            {
+                'title': sourcebook.name,
+                'body': ', '.join(spells)
+            }
+            for sourcebook in spell_db
+            if (spells := [
+                spell
+                for arg in args
+                for spell in fuzzy.get_matches(arg, sourcebook.spells)
+            ])
+        ]
+    }
+else:
+    spellbook = character().spellbook
+    embed = {
+        "title": f"{name} checks {pronouns.their()} spellbook...",
+        "desc": f"Here's where you can find {pronouns.their()} spells:",
+        "color": color,
+        "thumb": image,
+        "footer": f"{ctx.prefix}{ctx.alias} spells [search terms] | @Lathaon#6649",
+        "fields": [
+            {
+                'title': sourcebook.name,
+                'body': ', '.join(spells)
+            }
+            for sourcebook in spell_db
+            if (spells := [spell for spell in sourcebook.spells if spell in spellbook])
+        ]
+    }
+    if homebrew_spells := [spell.name for spell in spellbook.spells if spell.name in homebrew_db]:
+        embed.fields.append({
+            'title': 'Homebrew :beer:',
+            'body': ', '.join(homebrew_spells)
+        })
+    if unrecognised_spells := [
+        spell.name for spell in spellbook.spells
+        if spell.name not in homebrew_spells and all(
+            spell.name not in sourcebook.spells for sourcebook in spell_db
+        )
+    ]:
+        embed.fields.append({
+            'title': 'Unrecognized Spells :question:',
+            'body': ', '.join(unrecognised_spells)
+        })
+
+return embeds.get_output(embed)
+</drac2>

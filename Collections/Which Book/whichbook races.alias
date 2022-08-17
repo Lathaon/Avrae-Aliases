@@ -1,0 +1,39 @@
+<drac2>
+using(
+    embeds = '72fea181-ba03-4cb4-8edf-1f3bc5a49578',
+    fuzzy = '6431690e-ce47-4baa-bb3b-ba751e1a1817'
+)
+
+args = &ARGS& or [""]
+
+race_db = load_yaml(get_gvar('4103493a-3ad4-4e8d-8072-88973f55bacc'))
+
+def stringify_race(race, subraces):
+	if subraces:
+		return f'**{race}** ({", ".join(subraces)})'
+	else:
+		return f'**{race}**'
+
+embed = {
+    "title": "Wondering what character to play?",
+    "desc": "Here's where you can find some race and subrace options.",
+    "footer": f"{ctx.prefix}{ctx.alias} races [search terms] | @Lathaon#6649",
+	"fields": [
+		{
+			'title': sourcebook.name,
+			'body': '\n'.join(
+				stringify_race(race, sourcebook.races[race])
+				for race in races
+			)
+		}
+		for sourcebook in race_db
+		if 'races' in sourcebook and (races := [
+			race
+			for arg in args
+			for race in fuzzy.get_matches(arg, sourcebook.races)
+		])
+	]
+}
+
+return embeds.get_output(embed)
+</drac2>

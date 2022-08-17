@@ -1,0 +1,17 @@
+{
+  "collection": "5f8672ddbbee1bca82ad3487", 
+  "aliases": {
+    "contents": "61af36412b6f629b63ba1e86", 
+    "whichbook spells": "5f86733ef2d59b2718721887", 
+    "whichbook classes": "5fe41d11032beeab19695227", 
+    "contents spells": "61af364b5c51fd18fe536ee4", 
+    "whichbook monsters": "5fa2ba9f181a164697a743a3", 
+    "whichbook": "5f867311bbee1bca82ad3488", 
+    "contents classes": "61af36b05c51fd18fe536ee6", 
+    "whichbook races": "5fe41a0fadefbcb30a943937", 
+    "contents races": "61af36a92b6f629b63ba1e87", 
+    "contents monsters": "61af366e5c51fd18fe536ee5"
+  }, 
+  "snippets": {}, 
+  "name": "Which Book?"
+}
