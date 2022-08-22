@@ -197,6 +197,7 @@ def paginate_embed(embed):
             if excess:
                 current_embed["fields"] = paginate_field({"body": excess}) + current_embed.get("fields", [])
 
+        i = 0
         for i, field in enumerate(current_embed.fields[:MAX_FIELDS]):
             if characters_left >= (length := field_len(field)):
                 characters_left -= length
