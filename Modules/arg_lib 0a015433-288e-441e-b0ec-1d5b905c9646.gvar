@@ -17,6 +17,10 @@
 # join_arg(main_arg, specific_args): Returns a string joining the main arg
 #     and any specific args into one string separated by a pipe character (|).
 #
+# unparse(args): Reads a ParsedArguments and returns a list of args (like
+#     &ARGS&). NOTE: You MUST do argparse(args, parse_ephem = False) as
+#     ephemeral arguments cannot currently be supported by this.
+#
 # ===== Constants =====
 #
 # QUOTE_PAIRS: A dict with valid opening quotes as keys, and their matching
@@ -131,3 +135,18 @@ def join_arg(main_arg, specific_args):
         return f'{main_arg}|{args_to_str(specific_args)}'
     else:
         return main_arg
+
+
+def unparse(args):
+    """
+    Reads a ParsedArguments and returns a list of args (like &ARGS&).
+
+    NOTE: You MUST do argparse(args, parse_ephem = False) as ephemeral
+    arguments cannot currently be supported.
+    """
+    dontcare = lambda x: x
+    return sum([
+        [arg] if val is True else [f'-{arg}', val]
+        for arg in args
+        for val in args.get(arg, type_ = dontcare)
+    ], [])
