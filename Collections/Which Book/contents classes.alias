@@ -1,0 +1,45 @@
+<drac2>
+using(
+    embeds = '72fea181-ba03-4cb4-8edf-1f3bc5a49578',
+    fuzzy = '6431690e-ce47-4baa-bb3b-ba751e1a1817'
+)
+
+args = &ARGS& or ["Basic Rules"]
+
+class_db = load_yaml(get_gvar('4103493a-3ad4-4e8d-8072-88973f55bacc'))
+
+def stringify_class(clas, subclasses):
+	if subclasses:
+		return f'**{clas}** ({", ".join(subclasses)})'
+	else:
+		return f'**{clas}**'
+
+def stringify_book(book):
+	return f'{["which require access to","freely available from"][book.get("free", False)]} {"the " * (not book.get("proper", True))}*{book.name}*'
+
+match [
+	sourcebook
+	for arg in args
+	for sourcebook in fuzzy.get_matches_with_function(arg, class_db, lambda x: x.name.lower())
+	if 'classes' in sourcebook
+]:
+	case []:
+		err(f"Could not find any books matching `{' '.join(args)}` that contain classes or subclasses.")
+	case [sourcebook, *_]:
+		embed = {
+		    "title": "Wondering what classes and subclasses a book contains?",
+		    "desc": f"Here's the list of subclasses {stringify_book(sourcebook)}.",
+		    "footer": f"{ctx.prefix}{ctx.alias} classes <book name> | @Lathaon#6649",
+			"fields": [
+				{
+					'title': sourcebook.name,
+					'body': '\n'.join(
+						stringify_class(clas, sourcebook.classes[clas])
+						for clas in sourcebook.classes
+					)
+				}
+			]
+		}
+
+		return embeds.get_output(embed)
+</drac2>

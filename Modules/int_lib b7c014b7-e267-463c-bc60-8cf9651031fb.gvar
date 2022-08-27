@@ -1,4 +1,4 @@
-# int_lib='b7c014b7-e267-463c-bc60-8cf9651031fb'
+# int_lib = 'b7c014b7-e267-463c-bc60-8cf9651031fb'
 #
 # A module to help with rounding and displaying integers.
 #

@@ -1,0 +1,35 @@
+<drac2>
+using(
+    embeds = '72fea181-ba03-4cb4-8edf-1f3bc5a49578',
+    fuzzy = '6431690e-ce47-4baa-bb3b-ba751e1a1817'
+)
+
+args = &ARGS& or ["Basic Rules"]
+
+monster_db = load_yaml(get_gvar('1c5e178c-0dec-40c2-870f-3588bab013f7'))
+
+def stringify_book(book):
+	return f'{["which require access to","freely available from"][book.get("free", False)]} {"the " * (not book.get("proper", True))}*{book.name}*'
+
+match [
+	sourcebook
+	for arg in args
+	for sourcebook in fuzzy.get_matches_with_function(arg, monster_db, lambda x: x.name.lower())
+]:
+	case []:
+		err(f"Could not find any books matching `{' '.join(args)}` that contain monsters.")
+	case [sourcebook, *_]:
+		embed = {
+		    "title": "Wondering what monsters a book contains?",
+		    "desc": f"Here's the list of monsters {stringify_book(sourcebook)}.",
+		    "footer": f"{ctx.prefix}{ctx.alias} monsters <book name> | @Lathaon#6649",
+			"fields": [
+				{
+					'title': sourcebook.name,
+					'body': '\n'.join(sourcebook.monsters)
+				}
+			]
+		}
+
+		return embeds.get_output(embed)
+</drac2>

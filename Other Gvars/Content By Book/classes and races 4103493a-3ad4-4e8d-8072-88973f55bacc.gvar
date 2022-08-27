@@ -205,8 +205,7 @@
     Wizard:
     - Bladesinging
     - Order of Scribes
-    Sidekick - Expert:
-    - ''
+    Sidekick - Expert: []
     Sidekick - Spellcaster:
     - Healer
     - Mage
@@ -358,6 +357,15 @@
     - College of Spirits
     Warlock:
     - The Undead
+- name: 'Spelljammer: Adventures in Space'
+  proper: true
+  races:
+    Astral Elf: []
+    Autognome: []
+    Giff: []
+    Hadozee: []
+    Plasmoid: []
+    Thri-kreen: []
 - name: Explorer's Guide to Wildemount
   proper: false
   races:
