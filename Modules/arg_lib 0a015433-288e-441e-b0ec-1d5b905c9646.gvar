@@ -99,14 +99,15 @@ def args_to_list(raw_args):
     return out
 
 
+# Because backspaces aren't allowed in f-strings
+_ESC_QUOTE = '\\"'
+
+
 def args_to_str(args_list):
     """
     Reads a list of args (like &ARGS&) and converts it into a string (like &*&).
     """
-    ESC_OPENING = '\\〈'
-    ESC_CLOSING = '\\〉'
-
-    return ' '.join(f'〈{arg.replace("〈", ESC_OPENING).replace("〉", ESC_CLOSING)}〉' for arg in args_list)
+    return ' '.join(f'''"{arg.replace('"', _ESC_QUOTE)}"''' for arg in args_list)
 
 
 def split_arg(arg):
