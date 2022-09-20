@@ -21,8 +21,14 @@ exported_data = load_json(data_export[upstream])
 
 commands = []
 
+uvars_to_delete = [exported_data.csettings]
+
 if 'nocc' not in args:
-	counters = load_json(''.join([get(uvar_name) for uvar_name in exported_data.cc]))
+	counters = ""
+	for uvar_name in exported_data.cc:
+		counters += get(uvar_name, "")
+		uvars_to_delete.append(uvar_name)
+	counters = load_json(counters)
 	for counter in counters:
 		pc.create_cc(
 			counter.name,
@@ -38,28 +44,41 @@ if 'nocc' not in args:
 		)
 	commands.append(f'{ctx.prefix}echo A total of {len(counters)} counters have been imported!')
 
-delete_uvar(exported_data.cc)
-
-if 'nocvars' not in args:
+if 'nocvars' in args:
+	for i, cvar in enumerate(exported_data.cvars):
+		uvar_name = f'{upstream}_c_{i}'
+		uvars_to_delete.append(uvar_name)
+else:
 	for i, cvar in enumerate(exported_data.cvars):
 		uvar_name = f'{upstream}_c_{i}'
 		pc.set_cvar(cvar, get(uvar_name))
-		delete_uvar(uvar_name)
+		uvars_to_delete.append(uvar_name)
 	commands.append(f'{ctx.prefix}echo A total of {len(exported_data.cvars)} cvars have been imported!')
 
-if 'noattacks' not in args:
+if 'noattacks' in args:
+	for weapon_uvar in exported_data.weapons:
+		uvars_to_delete.append(weapon_uvar)
+else:
 	weapons_to_add = []
 	for weapon_uvar in exported_data.weapons:
 		weapon = load_json(get(weapon_uvar))
 		if not any([attack.name == weapon.name for attack in pc.attacks]):
 			weapons_to_add.append(weapon)
-		delete_uvar(weapon_uvar)
+		uvars_to_delete.append(weapon_uvar)
 
 	if weapons_to_add:
 		commands.append(f'{ctx.prefix}a import {dump_json(weapons_to_add)}')
 
-if 'nospells' not in args:
-	all_spells = load_json(''.join([get(uvar_name) for uvar_name in exported_data.spells]))
+if 'nospells' in args:
+	for uvar_name in exported_data.spells:
+		uvars_to_delete.append(uvar_name)
+else:
+	all_spells = ""
+	for uvar_name in exported_data.spells:
+		all_spells += get(uvar_name, '')
+		uvars_to_delete.append(uvar_name)
+	
+	all_spells = load_json(all_spells)
 
 	for spell_name in all_spells:
 		if spell_name not in pc.spellbook:
@@ -74,6 +93,9 @@ if 'nocsettings' not in args:
 				commands.append(f'{ctx.prefix}csettings color {csetting_value:X}')
 			else:
 				commands.append(f'{ctx.prefix}csettings {csetting_name} {csetting_value}')
+
+for uvar_name in uvars_to_delete:
+	delete_uvar(uvar_name)
 
 data_export.pop(upstream)
 
