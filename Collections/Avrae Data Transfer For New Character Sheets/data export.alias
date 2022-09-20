@@ -55,6 +55,6 @@ set_uvar('data_export', dump_json(data_export))
 
 Make sure to import your new character sheet into Avrae, select the right character, and then use `{{ctx.prefix+ctx.alias}} import <char_id>` to import the data.
 
-After the import, the data will be erased from your uvars.."
+After the import, the data will be erased from your uvars."
 -color <color>
 -thumb <image>

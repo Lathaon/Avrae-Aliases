@@ -1,52 +1,81 @@
 multiline
 <drac2>
 pc = character()
-args = &ARGS&
 
 data_export = load_json(get('data_export', '{}'))
 
-if not args or args[0] not in data_export:
-	err(f"You didn't specify a character for whom data has been exported. You must use the exact command you were given by `{ctx.prefix}{ctx.alias} export`.")
+match &ARGS&:
+	case [upstream, *args]:
+		if upstream not in data_export:
+			err(f"You didn't specify a character for whom data has been exported. You must use the exact command you were given by `{ctx.prefix}{ctx.alias} export`.")
+	case []:
+		err(f"You didn't specify a character for whom data has been exported. You must use the exact command you were given by `{ctx.prefix}{ctx.alias} export`.")
 
-exported_data = load_json(data_export[args[0]])
+# The value of counter.min if there is no user-set minimum.
+NO_MIN = -2_147_483_648
 
-for counter in load_json(''.join([get(uvar_name) for uvar_name in exported_data.cc])):
-	pc.create_cc(counter.name, counter.min, counter.max, counter.reset_on, counter.display_type, counter.reset_to, counter.reset_by, counter.title, counter.desc)
-	pc.set_cc(counter.name, counter.value)
+# The value of counter.max if there is no user-set maximum.
+NO_MAX =  2_147_483_647
+
+exported_data = load_json(data_export[upstream])
+
+commands = []
+
+if 'nocc' not in args:
+	counters = load_json(''.join([get(uvar_name) for uvar_name in exported_data.cc]))
+	for counter in counters:
+		pc.create_cc(
+			counter.name,
+			minVal = None if counter.min == NO_MIN else counter.min,
+			maxVal = None if counter.max == NO_MAX else counter.max,
+			reset = counter.reset_on,
+			dispType = counter.display_type,
+			reset_to = counter.reset_to,
+			reset_by = counter.reset_by,
+			title = counter.title,
+			desc = counter.desc,
+			initial_value = counter.value
+		)
+	commands.append(f'{ctx.prefix}echo A total of {len(counters)} counters have been imported!')
 
 delete_uvar(exported_data.cc)
 
-for i, cvar in enumerate(exported_data.cvars):
-	uvar_name = f'{args[0]}_c_{i}'
-	pc.set_cvar(cvar, get(uvar_name))
-	delete_uvar(uvar_name)
+if 'nocvars' not in args:
+	for i, cvar in enumerate(exported_data.cvars):
+		uvar_name = f'{upstream}_c_{i}'
+		pc.set_cvar(cvar, get(uvar_name))
+		delete_uvar(uvar_name)
+	commands.append(f'{ctx.prefix}echo A total of {len(exported_data.cvars)} cvars have been imported!')
 
-commands = [f'{ctx.prefix}echo Counters and cvars have been imported!']
+if 'noattacks' not in args:
+	weapons_to_add = []
+	for weapon_uvar in exported_data.weapons:
+		weapon = load_json(get(weapon_uvar))
+		if not any([attack.name == weapon.name for attack in pc.attacks]):
+			weapons_to_add.append(weapon)
+		delete_uvar(weapon_uvar)
 
-weapons_to_add = []
-for weapon_uvar in exported_data.weapons:
-	weapon = load_json(get(weapon_uvar))
-	if not any([attack.name == weapon.name for attack in pc.attacks]):
-		weapons_to_add.append(weapon)
-	delete_uvar(weapon_uvar)
+	if weapons_to_add:
+		commands.append(f'{ctx.prefix}a import {dump_json(weapons_to_add)}')
 
-if weapons_to_add:
-	commands.append(f'{ctx.prefix}a import {dump_json(weapons_to_add)}')
+if 'nospells' not in args:
+	all_spells = load_json(''.join([get(uvar_name) for uvar_name in exported_data.spells]))
 
-all_spells = load_json(''.join([get(uvar_name) for uvar_name in exported_data.spells]))
+	for spell_name in all_spells:
+		if spell_name not in pc.spellbook:
+			commands.append(f'{ctx.prefix}sb add "{spell_name}" {all_spells[spell_name]}')
 
-for spell_name in all_spells:
-	if spell_name not in pc.spellbook:
-		commands.append(f'{ctx.prefix}sb add "{spell_name}" {all_spells[spell_name]}')
+if 'nocsettings' not in args:
+	for csetting_name, csetting_value in load_json(get(exported_data.csettings)).items():
+		if csetting_value != pc.csettings[csetting_name]:
+			if csetting_value is None:
+				commands.append(f'{ctx.prefix}csettings {csetting_name} reset')
+			elif csetting_name == 'color':
+				commands.append(f'{ctx.prefix}csettings color {csetting_value:X}')
+			else:
+				commands.append(f'{ctx.prefix}csettings {csetting_name} {csetting_value}')
 
-for csetting_name, csetting_value in load_json(get(exported_data.csettings)).items():
-	if csetting_value != pc.csettings[csetting_name]:
-		if csetting_name == 'color':
-			commands.append(f'{ctx.prefix}csettings color {csetting_value:X}')
-		else:
-			commands.append(f'{ctx.prefix}csettings {csetting_name} {csetting_value}')
-
-data_export.pop(args[0])
+data_export.pop(upstream)
 
 if not data_export:
 	delete_uvar('data_export')
