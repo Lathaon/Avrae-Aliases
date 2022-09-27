@@ -53,29 +53,43 @@ if 'ungendered' in _pc.cvars:
 # Had to make it a list because for some reason it didn't work as a bool.
 _was_plural = [False]
 
+_plural_pronouns = ["they"] + load_yaml(get("plural_pronouns", "[]"))
+
 def _capitalize(txt):
     return txt[:1].upper() + txt[1:]
 
 def they(default = "they"):
     """
-    Returns a subject pronoun (he/she/they).
+    Returns a subject pronoun (he/she/they) for the active character.
+    This is randomly chosen from the `/`-separated pronouns in the `they` cvar.
+    :arg str default: the default, if the active character has no pronoun settings. default: "they"
+    :return: a subject pronoun.
+    :rtype: str
     """
     if "they" in _pronouns:
         out = randchoice(_pronouns.they)
     else:
         out = default
-    _was_plural[0] = out == 'they'
+    _was_plural[0] = out in _plural_pronouns
     return out
 
 def They(default = "They"):
     """
-    Returns a capitalized subject pronoun (He/She/They).
+    Returns a capitalized subject pronoun (He/She/They) for the active character.
+    This is randomly chosen from the `/`-separated pronouns in the `they` cvar.
+    :arg str default: the default, if the active character has no pronoun settings. default: "They"
+    :return: a capitalized subject pronoun.
+    :rtype: str
     """
     return _capitalize(they(default))
 
 def them(default = "them"):
     """
-    Returns an object pronoun (her/him/them).
+    Returns an object pronoun (her/him/them) for the active character.
+    This is randomly chosen from the `/`-separated pronouns in the `them` cvar.
+    :arg str default: the default, if the active character has no pronoun settings. default: "them"
+    :return: an object pronoun.
+    :rtype: str
     """
     if "them" in _pronouns:
         out = randchoice(_pronouns.them)
@@ -85,13 +99,21 @@ def them(default = "them"):
 
 def Them(default = "Them"):
     """
-    Returns a capitalized object pronoun (Her/Him/Them).
+    Returns a capitalized object pronoun (Her/Him/Them) for the active character.
+    This is randomly chosen from the `/`-separated pronouns in the `them` cvar.
+    :arg str default: the default, if the active character has no pronoun settings. default: "Them"
+    :return: a capitalized object pronoun.
+    :rtype: str
     """
     return _capitalize(them(default))
 
 def their(default = "their"):
     """
-    Returns a possessive determiner (her/his/their).
+    Returns a possessive determiner (her/his/their) for the active character.
+    This is randomly chosen from the `/`-separated pronouns in the `their` cvar.
+    :arg str default: the default, if the active character has no pronoun settings. default: "their"
+    :return: a possessive determiner.
+    :rtype: str
     """
     if "their" in _pronouns:
         out = randchoice(_pronouns.their)
@@ -101,13 +123,21 @@ def their(default = "their"):
 
 def Their(default = "Their"):
     """
-    Returns a possessive determiner (Her/His/Their).
+    Returns a possessive determiner (Her/His/Their) for the active character.
+    This is randomly chosen from the `/`-separated pronouns in the `their` cvar.
+    :arg str default: the default, if the active character has no pronoun settings. default: "Their"
+    :return: a capitalized possessive determiner.
+    :rtype: str
     """
     return _capitalize(their(default))
 
 def theirs(default = "theirs"):
     """
-    Returns an independent possessive pronoun (hers/his/theirs).
+    Returns an independent possessive pronoun (hers/his/theirs) for the active character.
+    This is randomly chosen from the `/`-separated pronouns in the `theirs` cvar.
+    :arg str default: the default, if the active character has no pronoun settings. default: "theirs"
+    :return: an independent possessive pronoun.
+    :rtype: str
     """
     if "theirs" in _pronouns:
         out = randchoice(_pronouns.theirs)
@@ -117,26 +147,41 @@ def theirs(default = "theirs"):
 
 def Theirs(default = "Theirs"):
     """
-    Returns a capitalized independent possessive pronoun (Hers/His/Theirs).
+    Returns a capitalized independent possessive pronoun (Hers/His/Theirs) for the active character.
+    This is randomly chosen from the `/`-separated pronouns in the `theirs` cvar.
+    :arg str default: the default, if the active character has no pronoun settings. default: "Theirs"
+    :return: a capitalized independent possessive pronoun.
+    :rtype: str
     """
     return _capitalize(theirs(default))
 
 def gendered(default = "gender-neutral"):
     """
-    Returns an adjective describing the pronouns (female, male, gender-neutral).
+    Returns an adjective describing the pronouns (female, male, gender-neutral) for the active character.
+    This is randomly chosen from the `/`-separated pronouns in the `gendered` cvar.
+    :arg str default: the default, if the active character has no pronoun settings. default: "gender-neutral"
+    :return: an adjective describing the character's pronouns.
+    :rtype: str
     """
     return _pronouns.get("gendered", default)
 
 def Gendered(default = "Gender-neutral"):
     """
-    Returns a capitalized adjective describing the pronouns (female, male,
-    gender-neutral).
+    Returns an adjective describing the pronouns (Female, Male, Gender-neutral) for the active character.
+    This is randomly chosen from the `/`-separated pronouns in the `gendered` cvar.
+    :arg str default: the default, if the active character has no pronoun settings. default: "Gender-neutral"
+    :return: an adjective describing the character's pronouns.
+    :rtype: str
     """
     return _capitalize(gendered(default))
 
 def verb(singular, plural):
     """
-    Returns the plural text if the last pronoun returned was "they", or the
-    singular text otherwise.
+    Returns the plural text if the most recent pronoun returned by `they()` was "they", or the singular text otherwise.
+    The user can also define custom plural pronouns with the `plural_pronouns` cvar/uvar, which should be a YAML list.
+    :arg str singular: the string to return for a singular pronoun.
+    :arg str plural: the string to return for a plural pronoun.
+    :return: the appropriate input string.
+    :rtype: str
     """
     return plural if _was_plural[0] else singular
