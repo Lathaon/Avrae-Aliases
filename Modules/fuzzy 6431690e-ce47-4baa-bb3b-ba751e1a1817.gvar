@@ -1,4 +1,4 @@
-# fuzzy='6431690e-ce47-4baa-bb3b-ba751e1a1817'
+# fuzzy = '6431690e-ce47-4baa-bb3b-ba751e1a1817'
 #
 # A module to help with fuzzy matching.
 #
@@ -27,8 +27,11 @@ NO_PUNCTUATION_TABLE = str.maketrans(
 def get_matches(search, iterable):
     """
     Returns a list of matching values from iterable.
-
     If exact matches are available, then partial matches will be excluded.
+    :arg str search: the string to match against.
+    :arg list|generator|tuple iterable: the iterable to search for matching strings.
+    :return: a list of matching strings.
+    :rtype: list
     """
     search_lower = search.lower()
     if partial_matches := [x for x in iterable if search_lower in x.lower()]:
@@ -44,8 +47,11 @@ def get_matches_ignoring_punctuation(search, iterable):
     """
     Returns a list of matching values from iterable, ignoring punctuation
     for purposes of partial matching.
-
     If exact matches are available, then partial matches will be excluded.
+    :arg str search: the string to match against.
+    :arg list|generator|tuple iterable: the iterable to search for matching strings.
+    :return: a list of matching strings.
+    :rtype: list
     """
     search_lower = search.lower()
     search_no_punctuation = search_lower.translate(NO_PUNCTUATION_TABLE)
@@ -75,6 +81,12 @@ def get_matches_with_function(search, iterable, function):
         iterable = [{'name': 'foo'}, {'name': 'bar'}],
         function = lambda x: x.name.lower()
     ) == [{'name': 'foo'}]
+
+    :arg str search: the string to match against.
+    :arg list|generator|tuple iterable: the iterable to search for matching values.
+    :arg value->str function: the function to apply to each value in the iterable.
+    :return: a list of matching values.
+    :rtype: list
     """
     search_lower = search.lower()
     if partial_matches := [x for x in iterable if search_lower in function(x)]:
