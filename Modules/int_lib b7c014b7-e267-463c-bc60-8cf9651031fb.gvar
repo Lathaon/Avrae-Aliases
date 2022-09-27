@@ -25,7 +25,10 @@
 
 def ordinal(number):
     """
-    Returns the ordinal ("1st", "2nd", "3rd" etc.) string representation of an integer.
+    Returns the ordinal ("1st", "2nd", "3rd" etc.) representation of an integer.
+    :arg int number: the integer.
+    :return: the ordinal for that integer.
+    :rtype: str
     """
     match abs(number) % 100:
         case 1 | 21 | 31 | 41 | 51 | 61 | 71 | 81 | 91:
@@ -41,6 +44,11 @@ def ordinal(number):
 def round_to_multiple(number, step):
     """
     Rounds a number to the nearest multiple of step.
+    The return type will be the same type as the step arg.
+    :arg int|float number: the number to round.
+    :arg int|float step: the type of multiple to round to.
+    :return: the number rounded to the nearest multiple of step.
+    :rtype: int|float
     """
     return round(number / step) * step
 
@@ -48,6 +56,11 @@ def round_to_multiple(number, step):
 def floor_to_multiple(number, step):
     """
     Rounds a number DOWN to the nearest multiple of step.
+    The return type will be the same type as the step arg.
+    :arg int|float number: the number to round.
+    :arg int|float step: the type of multiple to round to.
+    :return: the number rounded down to the nearest multiple of step.
+    :rtype: int|float
     """
     return floor(number / step) * step
 
@@ -55,6 +68,11 @@ def floor_to_multiple(number, step):
 def ceil_to_multiple(number, step):
     """
     Rounds a number UP to the nearest multiple of step.
+    The return type will be the same type as the step arg.
+    :arg int|float number: the number to round.
+    :arg int|float step: the type of multiple to round to.
+    :return: the number rounded up to the nearest multiple of step.
+    :rtype: int|float
     """
     return ceil(number / step) * step
 
@@ -66,6 +84,9 @@ _ENGLISH_BIG_NUMBERS = load_yaml(get_gvar('3083722a-a911-4f80-b5e1-6ea5abb917cb'
 def english(number):
     """
     Returns a textual (e.g. "twenty-three") representation of an integer.
+    :arg int number: the integer.
+    :return: the textual representation of the integer.
+    :rtype: str
     """
     out = []
     sign = 'minus ' if number < 0 else ''
@@ -96,6 +117,9 @@ def english(number):
 def iterative(number):
     """
     Returns a corresponding iterative numeral (e.g. "twice") for an integer.
+    :arg int number: the integer.
+    :return: the iterative numeral of the integer.
+    :rtype: str
     """
     match number:
         case 1:
