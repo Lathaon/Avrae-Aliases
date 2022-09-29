@@ -125,11 +125,13 @@ def start_cooldown(num_commands):
     )
 
 
-def get_output(embed):
+def get_output(embed, prefix_cmds = [], suffix_cmds = []):
     """
     Builds paginated alias output from an Embed, keeping within Discord's limits.
     See module comments for specification on Embeds.
     :arg Embed embed: a raw Embed which might not conform to Discord's limits.
+    :kwarg list prefix_cmds: a list of command strings to run BEFORE the embed(s). Don't include the prefix. default: []
+    :kwarg list suffix_cmds: a list of command strings to run AFTER the embed(s). Don't include the prefix. default: []
     :return: command(s) and args for the alias to return.
     :rtype: str
     """
@@ -147,15 +149,17 @@ def get_output(embed):
         if "timeout" in current_embed:
             args.extend(["-t", str(current_embed.timeout)])
 
-        out.append(arg_lib.args_to_str(args))
+        out.append("embed " + arg_lib.args_to_str(args))
+
+    out = prefix_cmds + out + suffix_cmds
 
     if out:
-        cmd = f"\n{ctx.prefix}embed "
+        prefix = f"\n{ctx.prefix}"
         if len(out) == 1:
-            return f"embed {out[0]}"
+            return f"{out[0]}"
         else:
             start_cooldown(len(out))
-            return f"multiline{cmd}{cmd.join(out)}"
+            return f"multiline{prefix}{prefix.join(out)}"
     else:
         return "echo No output was generated."
 
