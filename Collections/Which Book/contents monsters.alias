@@ -4,6 +4,9 @@ using(
     fuzzy = '6431690e-ce47-4baa-bb3b-ba751e1a1817'
 )
 
+if embeds.on_cooldown():
+	err("A multiline alias you ran is currently still resolving. Please try again after it completes.")
+
 args = &ARGS& or ["Basic Rules"]
 
 monster_db = load_yaml(get_gvar('1c5e178c-0dec-40c2-870f-3588bab013f7'))
