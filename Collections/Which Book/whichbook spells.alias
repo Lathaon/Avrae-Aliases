@@ -5,6 +5,9 @@ using(
     fuzzy = '6431690e-ce47-4baa-bb3b-ba751e1a1817'
 )
 
+if embeds.on_cooldown():
+    err("A multiline alias you ran is currently still resolving. Please try again after it completes.")
+
 spell_db = load_yaml(get_gvar('5c2e62db-12ec-4f51-9029-aee2b9b6089c'))
 homebrew_db = [spell.name for spell in load_json(get_gvar(extraSpells))] if exists('extraSpells') else []
 
