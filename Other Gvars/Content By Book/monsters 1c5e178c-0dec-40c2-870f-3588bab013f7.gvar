@@ -1711,6 +1711,16 @@
   - Tortle (Legacy)
   - Tortle Druid (Legacy)
   - Two-Headed Plesiosaurus
+- name: Dragons of Stormwreck Isle
+  proper: true
+  monsters:
+  - Fume Drake
+  - Kobold Tinkerer
+  - Runara
+  - Sinensa
+  - Spore Servant Octopus
+  - Tarak
+  - Varnoth
 - name: 'Essentials Kit: Dragon of Icespire Peak'
   proper: true
   monsters:
