@@ -25,16 +25,20 @@
 # Gendered(default="Gender-neutral"): Capitalized version of the above.
 #
 # verb(singular, plural): Returns the plural text if the last pronoun returned was
-#     "they", or the singular text otherwise.
+#     "they" or a user-defined equivalent, or the singular text otherwise.
+#
+# summary(): Returns pronouns to put in brackets after a character's name.
 # 
 # ===== Notes =====
 #
 # A character's pronouns are stored in the following cvars:
-# - they
-# - them
-# - their
-# - theirs
-# - ungendered
+# - they:              a subject pronoun
+# - them:              an object pronoun
+# - their:             a possessive determiner
+# - theirs:            an independent possessive pronoun
+# - ungendered:        an adjective describing the pronouns (e.g. "male")
+# - pronouns_summary:  something to put in the brackets (e.g. "she/they")
+# - plural_pronouns:   a YAML list of any user-defined plural pronouns (like "they")
 #
 # A character with multiple possible pronouns should separate them with a forward slash.
 # Example: !cvar they he/they
@@ -185,3 +189,20 @@ def verb(singular, plural):
     :rtype: str
     """
     return plural if _was_plural[0] else singular
+
+def summary():
+    """
+    Tries to find at least two different pronouns to put in brackets after the character's name.
+    Can be overridden with the pronouns_summary cvar.
+    :return: pronouns to put in brackets after the character's name.
+    :rtype: str
+    """
+    if exists("pronouns_summary"):
+        return pronouns_summary
+    
+    out = {}
+    for cvar in ("they", "them", "their", "theirs"):
+        out |= dict.fromkeys(get(cvar, cvar).split("/"))
+        if len(out) > 1:
+            break
+    return "/".join(out.keys())
