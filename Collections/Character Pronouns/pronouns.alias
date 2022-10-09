@@ -1,18 +1,55 @@
-embed <drac2>
-a,c,v=&ARGS&,character(),True
-if '&1&'!='&1'+'&':
-    p=[['gender-neutral','they','them','their','theirs'],['male','he','him','his','his'],['female','she','her','her','hers']]
-    pn=p[1] if not [x for x in a if x not in p[1]] else p[2] if not [x for x in a if x not in p[2]] else p[0] if not [x for x in a if x not in p[0]] else ['custom']+&ARGS&
-    v=len(pn)>3
-    if v:
-        c.set_cvar('ungendered',pn[0])
-        c.set_cvar('they',pn[1])
-        c.set_cvar('them',pn[2])
-        c.set_cvar('their',pn[3])
-        c.set_cvar('theirs',pn[4])
+<drac2>
+using(embeds = '72fea181-ba03-4cb4-8edf-1f3bc5a49578')
+
+if embeds.on_cooldown():
+    err("A multiline alias you ran is currently still resolving. Please try again after it completes.")
+
+pc = character()
+args = &ARGS&
+
+if args:
+    GENDER_NEUTRAL = ['gender-neutral','they','them','their','theirs']
+    MALE           = ['male','he','him','his','his']
+    FEMALE         = ['female','she','her','her','hers']
+
+    for preset in (GENDER_NEUTRAL, MALE, FEMALE):
+        if all(x in preset for x in args):
+            pc_pronouns = preset
+            break
+    else:
+        if len(args) < 4:
+            # Complain at the user
+            return embeds.get_output({
+                "title": "You're doing it wrong!",
+                "desc": f"If you'd like to use custom pronouns, please list all of them like so:\n`{ctx.prefix}{ctx.alias} they them their theirs`",
+                "thumb": image,
+                "color": color
+            })
+        else:
+            pc_pronouns = ["custom"] + args
+
+    for i, cvar in enumerate(["ungendered", "they", "them", "their", "theirs", "pronouns_summary"]):
+        if i < len(pc_pronouns):
+            pc.set_cvar(cvar, pc_pronouns[i])
+        else:
+            pc.delete_cvar(cvar)
+
+# Just to make things a bit more readable...
+def p(cvar):
+    return get(cvar, cvar)
+
+# Needs to be loaded *AFTER* changes to the cvars.
+using(pronouns = '2c4012a3-accd-4fcf-a5e2-30bb51800c4e')
+
+return embeds.get_output({
+    "title": f"{name} ({pronouns.summary()})",
+    "desc": (
+        f"{name} uses {p('ungendered')} pronouns and {p('they')} would like you to respect {p('their')} gender identity "
+        f"by referring to {p('them')} with the pronouns that are {p('theirs')}."
+    ),
+    "fields": [{"body": f"*Now supports multiple pronouns! See `{ctx.prefix}help {ctx.alias}` for how to use and support these!*"}],
+    "footer": f"{ctx.prefix}{ctx.alias} [they] [them] [their] [theirs] [they/them]",
+    "thumb": image,
+    "color": color
+})
 </drac2>
--title "<name> (<they>/<them>)"
--desc "<name> uses <ungendered> pronouns and <they> would like you to respect <their> gender identity by referring to <them> with the pronouns that are <theirs>."
--footer "{{ctx.prefix}}{{ctx.alias}} [they] [them] [their] [theirs]"
--thumb <image> -color <color>
-{{'' if v else f'''-title "You're doing it wrong!" -desc "If you'd like to use custom pronouns, please list all of them like so:\n`{ctx.prefix}{ctx.alias} they them their theirs`" -footer ""'''}}

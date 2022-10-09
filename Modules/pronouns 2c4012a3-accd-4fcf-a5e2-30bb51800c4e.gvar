@@ -197,12 +197,12 @@ def summary():
     :return: pronouns to put in brackets after the character's name.
     :rtype: str
     """
-    if exists("pronouns_summary"):
-        return pronouns_summary
+    if "pronouns_summary" in _pc.cvars:
+        return _pc.get_cvar("pronouns_summary")
     
     out = {}
     for cvar in ("they", "them", "their", "theirs"):
-        out |= dict.fromkeys(get(cvar, cvar).split("/"))
+        out |= dict.fromkeys(_pronouns.get(cvar, [cvar]))
         if len(out) > 1:
             break
     return "/".join(out.keys())
