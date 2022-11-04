@@ -57,7 +57,7 @@ if 'ungendered' in _pc.cvars:
 # Had to make it a list because for some reason it didn't work as a bool.
 _was_plural = [False]
 
-_plural_pronouns = ["they"] + load_yaml(get("plural_pronouns", "[]"))
+_plural_pronouns = ["they"] + load_yaml(_pc.get_cvar("plural_pronouns", "[]"))
 
 def _capitalize(txt):
     return txt[:1].upper() + txt[1:]
