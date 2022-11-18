@@ -125,6 +125,28 @@ def start_cooldown(num_commands):
     )
 
 
+def get_embed_args(embed):
+    """
+    Builds args for a single Embed with no automatic pagination.
+    See module comments for specification on Embeds.
+    :arg Embed embed: a Embed which already conforms to Discord's limits.
+    :return: args for the embed or tembed command.
+    :rtype: str
+    """
+    out = []
+    for key in ("title", "desc", "footer", "color", "thumb", "image"):
+        if key in embed:
+            out.extend([f"-{key}", embed[key]])
+
+    for field in embed.get("fields", []):
+        out.extend(["-f", field_to_arg(field)])
+
+    if "timeout" in embed:
+        out.extend(["-t", str(embed.timeout)])
+
+    return arg_lib.args_to_str(out)
+
+
 def get_output(embed, prefix_cmds = [], suffix_cmds = []):
     """
     Builds paginated alias output from an Embed, keeping within Discord's limits.
@@ -135,23 +157,10 @@ def get_output(embed, prefix_cmds = [], suffix_cmds = []):
     :return: command(s) and args for the alias to return.
     :rtype: str
     """
-    out = []
-    for current_embed in paginate_embed(embed):
-        args = []
-
-        for key in ("title", "desc", "footer", "color", "thumb", "image"):
-            if key in current_embed:
-                args.extend([f"-{key}", current_embed[key]])
-
-        for field in current_embed.get("fields", []):
-            args.extend(["-f", field_to_arg(field)])
-
-        if "timeout" in current_embed:
-            args.extend(["-t", str(current_embed.timeout)])
-
-        out.append("embed " + arg_lib.args_to_str(args))
-
-    out = prefix_cmds + out + suffix_cmds
+    out = prefix_cmds + [
+        "embed " + get_embed_args(current_embed)
+        for current_embed in paginate_embed(embed)
+    ] + suffix_cmds
 
     if out:
         prefix = f"\n{ctx.prefix}"
