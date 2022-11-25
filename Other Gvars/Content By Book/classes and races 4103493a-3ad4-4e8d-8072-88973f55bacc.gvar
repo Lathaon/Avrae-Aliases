@@ -511,6 +511,13 @@
   races:
     Fairy: []
     Harengon: []
+- name: 'Dragonlance: Shadow of the Dragon Queen'
+  proper: true
+  races:
+    Kender: []
+  classes:
+    Sorcerer:
+    - Lunar Sorcery
 - name: The Tortle Package
   proper: true
   races:

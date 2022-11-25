@@ -2764,6 +2764,48 @@
   - Githyanki Warrior
   - Neogi Hatchling
   - Star Lancer
+- name: 'Dragonlance: Shadow of the Dragon Queen'
+  proper: true
+  monsters:
+  - Anhkolox
+  - Aurak Draconian
+  - Baaz Draconian
+  - Bone Naga
+  - Bozak Draconian
+  - Caradoc
+  - Death Slaad
+  - Dracophage Subject
+  - Dragon Army Dragonnel
+  - Dragon Army Officer
+  - Dragon Army Soldier
+  - Fewmaster Gholcag
+  - Greater Death Dragon
+  - Green Slaad
+  - Grick Alpha
+  - Half-Ogre
+  - Hobgoblin Captain
+  - Hobgoblin Warlord
+  - Incomplete Dragon Skeleton
+  - Istarian Drone
+  - Kalaman Soldier
+  - Kansaldi Fire-Eyes
+  - Kapak Draconian
+  - Kender Skirmisher
+  - Leedara
+  - Lesser Death Dragon
+  - Lohezet
+  - Lord Soth
+  - Marid
+  - Red Ruin
+  - Red Slaad
+  - Sea Elf Scout
+  - Sivak Draconian
+  - Skeletal Knight
+  - Slaad Tadpole
+  - Virruza
+  - Wasteland Dragonnel
+  - Water Weird
+  - Wersten Kern
 - name: Dungeons & Dragons vs. Rick and Morty
   proper: true
   monsters:
