@@ -34,22 +34,40 @@ if args:
         else:
             pc.delete_cvar(cvar)
 
-# Just to make things a bit more readable...
-def p(cvar):
-    return get(cvar, cvar)
+    # Just to make things a bit more readable...
+    def p(cvar):
+        return get(cvar, cvar)
 
-# Needs to be loaded *AFTER* changes to the cvars.
-using(pronouns = '2c4012a3-accd-4fcf-a5e2-30bb51800c4e')
+    # Needs to be loaded *AFTER* changes to the cvars.
+    using(pronouns = '2c4012a3-accd-4fcf-a5e2-30bb51800c4e')
 
-return embeds.get_output({
-    "title": f"{name} ({pronouns.summary()})",
-    "desc": (
-        f"{name} uses {p('ungendered')} pronouns and {p('they')} would like you to respect {p('their')} gender identity "
-        f"by referring to {p('them')} with the pronouns that are {p('theirs')}."
-    ),
-    "fields": [{"body": f"*Now supports multiple pronouns! See `{ctx.prefix}help {ctx.alias}` for how to use and support these!*"}],
-    "footer": f"{ctx.prefix}{ctx.alias} [they] [them] [their] [theirs] [they/them]",
-    "thumb": image,
-    "color": color
-})
+    # Display ALL pronouns if any changes might have been made.
+    return embeds.get_output({
+        "title": f"{name} ({pronouns.summary()})",
+        "desc": (
+            f"{name} uses {p('ungendered')} pronouns and {p('they')} would like you to respect {p('their')} gender identity "
+            f"by referring to {p('them')} with the pronouns that are {p('theirs')}."
+        ),
+        "fields": [{"body": f"*Now supports multiple pronouns! See `{ctx.prefix}help {ctx.alias}` for how to use and support these!*"}],
+        "footer": f"{ctx.prefix}{ctx.alias} [they] [them] [their] [theirs] [they/them]",
+        "thumb": image,
+        "color": color
+    })
+
+else:
+    using(pronouns = '2c4012a3-accd-4fcf-a5e2-30bb51800c4e')
+
+    # If nothing is changing, just display a random selection of pronouns as normal.
+    return embeds.get_output({
+        "title": f"{name} ({pronouns.summary()})",
+        "desc": (
+            f"{name} uses {pronouns.gendered()} pronouns and {pronouns.they()} would like you to respect {pronouns.their()} gender identity "
+            f"by referring to {pronouns.them()} with the pronouns that are {pronouns.theirs()}."
+        ),
+        "fields": [{"body": f"*Now supports multiple pronouns! See `{ctx.prefix}help {ctx.alias}` for how to use and support these!*"}],
+        "footer": f"{ctx.prefix}{ctx.alias} [they] [them] [their] [theirs] [they/them]",
+        "thumb": image,
+        "color": color
+    })
+
 </drac2>
