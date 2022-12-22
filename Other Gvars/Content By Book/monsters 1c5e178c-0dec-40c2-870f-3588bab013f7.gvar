@@ -1177,6 +1177,20 @@
   - Puppeteer Parasite
   - Star Lancer
   - Yggdrasti
+- name: 'Monstrous Compendium Vol 2: Dragonlance Creatures'
+  proper: false
+  monsters:
+  - Dream Eater
+  - Ember
+  - Forest Master
+  - Foresworn
+  - Irda Seeker
+  - Irda Veil Keeper
+  - Nevermind Gnome Inventor
+  - Nevermind Gnome Mastermind
+  - Thanoi Hunter
+  - Traag Draconian
+  - Verminaard
 - name: Explorer's Guide to Wildemount
   proper: false
   monsters:
@@ -2479,6 +2493,7 @@
   - Zindar
   - Zorbo
 - name: Lost Mine of Phandelver
+  free: true
   proper: true
   monsters:
   - Ash Zombie
