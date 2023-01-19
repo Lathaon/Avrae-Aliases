@@ -1,3 +1,4 @@
+# SPELL_LEVELS = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
 Abi-Dalzim's Horrid Wilting: 8
 Absorb Elements: 1
 Acid Arrow: 2
