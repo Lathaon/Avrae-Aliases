@@ -2852,3 +2852,7 @@
   proper: false
   monsters:
   - Vecna the Archlich
+- name: Prisoner 13
+  proper: true
+  monsters:
+  - Prisoner 13
