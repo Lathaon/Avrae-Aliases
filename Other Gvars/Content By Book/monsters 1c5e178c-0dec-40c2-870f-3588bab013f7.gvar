@@ -538,8 +538,10 @@
   - Berbalang
   - Bheur Hag
   - Black Abishai
+  - Black Guard Drake
   - Blackguard
   - Blue Abishai
+  - Blue Guard Drake
   - Bodak
   - Boggle
   - Boneclaw
@@ -586,6 +588,7 @@
   - Drow House Captain
   - Drow Inquisitor
   - Drow Matron Mother
+  - Drow Mother of Rebellion
   - Drow Shadowblade
   - Duergar Despot
   - Duergar Hammerer
@@ -632,10 +635,10 @@
   - Gray Render
   - Graz'zt
   - Green Abishai
+  - Green Guard Drake
   - Grung
   - Grung Elite Warrior
   - Grung Wildling
-  - Guard Drake
   - Hadrosaurus
   - Hellfire Engine
   - Hobgoblin Devastator
@@ -697,6 +700,7 @@
   - Quickling
   - Red Abishai
   - Redcap
+  - Red Guard Drake
   - Retriever
   - Rot Troll
   - Rutterkin
@@ -755,6 +759,7 @@
   - Wastrilith
   - Water Elemental Myrmidon
   - White Abishai
+  - White Guard Drake
   - Winter Eladrin
   - Wood Woad
   - Wretched Sorrowsworn
@@ -1356,7 +1361,7 @@
   - Vampiric Mind Flayer
   - Wereraven
   - Zombie Clot
-  - Zombie Plague Speader
+  - Zombie Plague Spreader
 - name: 'Spelljammer: Adventures in Space'
   proper: true
   monsters:
@@ -2372,6 +2377,8 @@
   - Asha Vandree
   - Awakened Zurkhwood
   - Baphomet (Legacy)
+  - Basilisk (Infant)
+  - Basilisk (Young)
   - Bridesmaid of Zuggtmoy
   - Cave Badger
   - Chamberlain of Zuggtmoy
@@ -2400,6 +2407,9 @@
   - Graz'zt
   - Grisha
   - Hanne Hallen
+  - Hook Horror (Infant)
+  - Hook Horror (Juvenile)
+  - Hook Horror (Young)
   - Hook Horror Spore Servant
   - Horgar Steelshadow V
   - Ixitxachitl
