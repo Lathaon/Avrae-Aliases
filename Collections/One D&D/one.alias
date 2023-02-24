@@ -1,0 +1,90 @@
+<drac2>
+using(
+	embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
+	int_lib = "b7c014b7-e267-463c-bc60-8cf9651031fb",
+	fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817"
+)
+
+if embeds.on_cooldown():
+	err("A multiline command is already in progress. Please try again after it finishes.")
+
+GLOSSARY = load_yaml(get_gvar("361956a4-3284-4066-a037-cadcd5c15a83"))
+
+if search := """&*&""":
+	match fuzzy.get_matches_ignoring_punctuation(search, GLOSSARY):
+		# No matches.
+		case []:
+			err(f"`{search}` did not match any terms. See `{ctx.prefix}{ctx.alias}` for a list of supported terms.")
+
+		# Matches a rules term.
+		case [term]:
+			out = GLOSSARY[term] | {
+				"title": term,
+				"color": "C50009"
+			}
+
+			if term.endswith(" Spell List"):
+				spellcaster = term[:-11]
+				CLASS_SPELL_LISTS = load_yaml(get_gvar("a3c6caee-2ea0-4c63-bb3c-23cae9f273f5"))
+				SPELL_LEVELS = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
+				out["fields"] = [
+					{
+						"title": int_lib.ordinal(i) + " Level",
+						"body": ",\n".join(i_level_spells),
+						"inline": True
+					}
+					for i in range(10)
+					if (i_level_spells := [
+						x
+						for x in CLASS_SPELL_LISTS[spellcaster]
+						if SPELL_LEVELS.get(x) == i
+					])
+				]
+			elif term in ("Arcane Spell", "Divine Spell", "Primal Spell"):
+				category = term[:-6]
+				SPELL_CATEGORIES = load_yaml(get_gvar("11d32d4a-9d62-4411-aa82-3711b3944b55"))
+				SPELL_LEVELS = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
+				SPELLS_BY_SCHOOL = load_yaml(get_gvar("5a794008-0adc-41c2-9de5-7fb7a9ff7f67"))
+				NEW_SCHOOL = load_yaml(get_gvar("c2472a43-15fc-44da-9e54-bf32f0c7af90"))
+				RITUALS = load_yaml(get_gvar("9b015cdc-45e0-4bc6-8574-f0c3f96e6015"))
+
+				def spell_details(spell_name):
+					details = [
+						school + "\\*" * (spell_name in NEW_SCHOOL)
+						for school, spells in SPELLS_BY_SCHOOL.items()
+						if spell_name in spells
+					]
+					if spell_name in RITUALS:
+						details.append("Ritual")
+					if details:
+						return f"**{spell_name}** ({' '.join(details)})"
+					else:
+						return f"**{spell_name}**"
+
+				out["fields"] = [
+					{
+						"title": int_lib.ordinal(i) + " Level",
+						"body": "\n".join(i_level_spells),
+						"inline": True
+					}
+					for i in range(10)
+					if (i_level_spells := [
+						spell_details(x)
+						for x in SPELL_CATEGORIES[category]
+						if SPELL_LEVELS.get(x) == i
+					])
+				]
+
+		# Matches multiple things.
+		case terms:
+			err("\n".join(["Matched multiple terms. Which of the following did you mean?"] + terms))
+else:
+	# No arguments.
+	out = {
+		"title": "One D&D Rules Lookup",
+		"desc": "The following rules terms are supported:\n\n" + ",\n".join(list(GLOSSARY)),
+		"color": "C50009"
+	}
+
+return embeds.get_output(out)
+</drac2>
