@@ -20,7 +20,8 @@ if search := """&*&""":
 		case [term]:
 			out = GLOSSARY[term] | {
 				"title": term,
-				"color": "C50009"
+				"color": "C50009",
+				"footer": f"{ctx.prefix}{ctx.alias} [rules term] | @Lathaon#6649"
 			}
 
 			if term.endswith(" Spell List"):
@@ -83,7 +84,8 @@ else:
 	out = {
 		"title": "One D&D Rules Lookup",
 		"desc": "The following rules terms are supported:\n\n" + ",\n".join(list(GLOSSARY)),
-		"color": "C50009"
+		"color": "C50009",
+		"footer": f"{ctx.prefix}{ctx.alias} [rules term] | @Lathaon#6649"
 	}
 
 return embeds.get_output(out)
