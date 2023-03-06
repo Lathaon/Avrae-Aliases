@@ -2918,3 +2918,13 @@
   - Tixie Tockworth
   - Tridrone
   - Zorhanna's Simulacrum
+- name: Thieves' Gallery
+  proper: false
+  monsters:
+  - Doric
+  - Edgin Darvis
+  - Forge Fitzwilliam
+  - Holga Kilgore
+  - Simon Aumar
+  - Sofina
+  - Xenk Yendar
