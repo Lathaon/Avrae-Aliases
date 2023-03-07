@@ -1,0 +1,39 @@
+<drac2>
+using(
+	embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
+	fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817"
+)
+
+if embeds.on_cooldown():
+	err("A multiline command is already in progress. Please try again after it finishes.")
+
+FEATS = load_yaml(get_gvar("0a7a9e38-a642-4681-9b4a-7f0e7c13e854"))
+
+if search := """&*&""":
+	match fuzzy.get_matches_ignoring_punctuation(search, FEATS):
+		# No matches.
+		case []:
+			err(f"`{search}` did not match any Feats. See `{ctx.prefix}{ctx.alias} feat` for a list of supported Feats. For 5e Feats, use `/lookup feat` instead.")
+
+		# Matches a rules term.
+		case [feat]:
+			out = FEATS[feat] | {
+				"title": feat,
+				"color": "C50009",
+				"footer": f"{ctx.prefix}{ctx.alias} feat [feat] | @Lathaon#6649"
+			}
+
+		# Matches multiple things.
+		case terms:
+			err("\n".join(["Matched multiple Feats. Which of the following did you mean?"] + terms))
+else:
+	# No arguments.
+	out = {
+		"title": "One D&D Feat Lookup",
+		"desc": "The following Feats are supported:\n\n" + ",\n".join(list(FEATS)),
+		"color": "C50009",
+		"footer": f"{ctx.prefix}{ctx.alias} feat [feat] | @Lathaon#6649"
+	}
+
+return embeds.get_output(out)
+</drac2>
