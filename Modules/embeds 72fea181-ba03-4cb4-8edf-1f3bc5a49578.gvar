@@ -287,8 +287,14 @@ def paginate_field(field):
         current_field["body"], next_field["body"] = slice_text(
             current_field.body,
             FIELD_BODY_CUTOFF_START,
-            MAX_FIELD_BODY_CHARACTERS
+            MAX_FIELD_BODY_CHARACTERS - 3 * ("```" in current_field.body)
         )
+        # Preserve code blocks.
+        if current_field.body.count("```") % 2 and next_field.body.count("```") % 2:
+            code_start = current_field.body.rfind("```")
+            code_start = current_field.body[code_start:].split()[0] + "\n"
+            current_field["body"] = current_field.body + "```"
+            next_field["body"] = code_start + next_field.body
         fields.append(current_field := next_field)
     return fields
 
