@@ -1,0 +1,127 @@
+# Guinea Pigs of Neverwinter
+# One D&D Species
+# load_yaml(get_gvar("e9d6bb9b-5bd1-4143-b6dc-0e9d9325b285"))
+Human:
+  desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this Race\n**Speed**: 30 feet\n**Life Span**: 80 years on average\n\nAs a Human, you have these special traits."
+  fields:
+  - title: Resourceful
+    body: You gain Inspiration whenever you finish a Long Rest.
+  - title: Skillful
+    body: You gain Proficiency in one Skill of your choice.
+  - title: Versatile
+    body: You gain the Skilled Feat or another 1st-level Feat of your choice.
+  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+Dragonborn:
+  desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 5–7 feet tall)\n**Speed**: 30 feet\n**Life Span**: 80 years on average\n\nAs a Dragonborn adventurer, you have the following special traits."
+  fields:
+  - title: Draconic Ancestry
+    body: "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestor table. Your choice affects your Breath Weapon and Damage Resistance traits, as well as the look of your Draconic Flight. The chosen dragon also affects your appearance, with you displaying coloration and other features reminiscent of that dragon."
+  - title: Draconic Ancestor
+    body: "```| Dragon | Damage Type\n|--------+-------------\n| Black  | Acid\n| Blue   | Lightning\n| Brass  | Fire\n| Bronze | Lightning\n| Copper | Acid\n| Gold   | Fire\n| Green  | Poison\n| Red    | Fire\n| Silver | Cold\n| White  | Cold```"
+  - title: Breath Weapon
+    body: "When you take the Attack Action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot cone or a 30-foot line that is 5 feet wide. Each creature in that area must make a Dexterity Saving Throw against a DC equal to 8 + your Constitution modifier + your Proficiency Bonus. On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach the following character levels: 5th level (2d10), 11th level (3d10), and 17th level (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  - title: Damage Resistance
+    body: You have Resistance to the damage type determined by your Draconic Ancestry trait.
+  - title: Darkvision
+    body: You have Darkvision with a range of 60 feet.
+  - title: Draconic Flight
+    body: When you reach 5th level, you learn how to channel the magical energy of your Draconic Ancestry to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you are Incapacitated or you retract the wings as a Bonus Action. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the energy used by your Breath Weapon. Once you use this trait, you can’t use it again until you finish a Long Rest.
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+Dwarf:
+  desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 4–5 feet tall)\n**Speed**: 30 feet\n**Life Span**: 350 years on average\n\nAs a Dwarf, you have these special traits."
+  fields:
+  - title: Darkvision
+    body: You have Darkvision with a range of 60 feet.
+  - title: Dwarven Resilience
+    body: You have Resistance to Poison Damage. You also have Advantage on saving throws you make to avoid or end the Poisoned Condition on yourself.
+  - title: Dwarven Toughness
+    body: Your Hit Point Maximum increases by 1, and it increases by 1 again whenever you gain a level.
+  - title: Forge Wise
+    body: "Your divine creator gave you an uncanny affinity for working with stone or metal. You gain Tool Proficiency with two of the following options of your choice: Jeweler’s Tools, Mason’s Tools, Smith’s Tools, or Tinker’s Tools."
+  - title: Stonecunning
+    body: "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching such a surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+Elf:
+  desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 5–6 feet tall)\n**Speed**: 30 feet\n**Life Span**: 750 years on average\n\nAs an Elf, you have these special traits."
+  fields:
+  - title: Darkvision
+    body: You have Darkvision with a range of 60 feet.
+  - title: Elven Lineage
+    body: "You are part of an elven lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table: Drow, the lineage of the Underdark; High Elf, the lineage of fey crossings and other magical locations; or Wood Elf, the lineage of primeval forests. You gain the 1st-level benefit of that lineage.\n\nStarting at 3rd level and again at 5th level, you also gain the ability to cast a Spell with this trait. Once you cast the Spell with this trait, you can’t cast that Spell with it again until you finish a Long Rest*; however, you can cast the Spell using any Spell Slots you have of the appropriate level.\n\n Intelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage)."
+  - title: "Elven Lineage: Drow"
+    body: "**1st Level**. The range of your Darkvision increases to 120 feet. You also know the *Dancing Lights* cantrip.\n**3rd Level**. *Faerie Fire*\n**5th Level**. *Darkness*"
+  - title: "Elven Lineage: High Elf"
+    body: "**1st Level**. You know the *Prestidigitation* cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Arcane Spell List.\n**3rd Level**. *Detect Magic*\n**5th Level**. *Misty Step*"
+  - title: "Elven Lineage: Wood Elf"
+    body: "**1st Level**. Your Speed increases to 35 feet. You also know the *Druidcraft* cantrip.\n**3rd Level**. *Longstrider*\n**5th Level**. *Pass without Trace*"
+  - title: Fey Ancestry
+    body: You have Advantage on saving throws you make to avoid or end the Charmed Condition on yourself.
+  - title: Keen Senses
+    body: You have Proficiency in the Perception Skill.
+  - title: Trance
+    body: You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.
+  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+Gnome:
+  desc: "**Creature Type**: Humanoid\n**Size**: Small (about 3–4 feet tall)\n**Speed**: 30 feet\n**Life Span**: 425 years on average\n\nAs a Gnome, you have these special traits."
+  fields:
+  - title: Darkvision
+    body: You have Darkvision with a range of 60 feet.
+  - title: Gnomish Cunning
+    body: You have Advantage on Intelligence, Wisdom, and Charisma saving throws.
+  - title: Gnomish Lineage
+    body: "You are part of a gnomish lineage that grants you supernatural abilities. Choose a lineage from the Gnomish Lineages table: Forest Gnome, the lineage of magic-filled forests, or Rock Gnome, the lineage of primeval mountains. You gain the benefits of that lineage.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage)."
+  - title: "Gnomish Lineage: Forest Gnome"
+    body: "You know the *Minor Illusion* cantrip.\n\nYou can also cast the *Speak with Animals* Spell with this trait. You can cast it with the trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any Spell Slots you have to cast the Spell."
+  - title: "Gnomish Lineage: Rock Gnome"
+    body: "You know the *Mending* and *Prestidigitation* cantrips.\n\nIn addition, you can spend 10 minutes casting *Prestidigitation* to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, a fire starter, or a music box. Casting the Spell in this way consumes 10 GP worth of raw material (string, gears, and the like), which you provide during the casting.\n\nWhen you create the device, you determine its function by choosing one effect from *Prestidigitation*; the device produces that effect whenever you or another creature takes a Bonus Action to touch the device and activate it. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell’s ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn’t do both.\n\nYou can have three such devices in existence at a time, and each one dismantles itself 8 hours after its creation. You can also touch one of your devices and dismantle it as an Action. After a device is dismantled, the 10 GP of materials used to create it can be reclaimed."
+  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+Goliath:
+  desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 7–8 feet tall)\n**Speed**: 35 feet\n**Life Span**: 80 years on average\n\nAs a Goliath adventurer, you have the following special traits."
+  fields:
+  - title: Giant Ancestry
+    body: "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n**Cloud’s Jaunt (Cloud Giant)**. As a Bonus Action, you magically Teleport up to 30 feet to an unoccupied space you can see.\n\n**Fire’s Burn (Fire Giant)**. When you hit a target with an Attack Roll and deal damage to it, you can also deal 1d10 Fire Damage to that target.\n\n**Frost’s Chill (Frost Giant)**. When you hit a target with an Attack Roll and deal damage to it, you can also deal 1d6 Cold Damage to that target and reduce its Speed by 10 feet until the start of your next turn.\n\n**Hill’s Tumble (Hill Giant)**. When you hit a Large or smaller creature with an Attack Roll and deal damage to it, you can knock that target Prone.\n\n**Stone’s Endurance (Stone Giant)**. When you take damage, you can use your Reaction to roll a d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.\n\n**Storm’s Thunder (Storm Giant)**. When you take damage from a creature within 60 feet of you, you can use your Reaction to deal 1d8 Thunder Damage to that creature."
+  - title: Large Form
+    body: Starting at 5th level, you gain the ability to supernaturally grow. As a Bonus Action, you change your Size to Large, provided you’re in a big enough space. This transformation lasts for 10 minutes or until you end it as a Bonus Action. During that duration, you have Advantage on Strength Checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.
+  - title: Powerful Build
+    body: You have Advantage on any Saving Throw you make to end the Grappled condition on yourself. You also count as one Size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+Halfling:
+  desc: "**Creature Type**: Humanoid\n**Size**: Small (about 2–3 feet tall)\n**Speed**: 30 feet\n**Life Span**: 150 years on average\n\nAs a Halfling, you have these special traits."
+  fields:
+  - title: Brave
+    body: You have Advantage on saving throws you make to avoid or end the Frightened Condition on yourself.
+  - title: Halfling Nimbleness
+    body: You can move through the space of any creature that is of a Size larger than yours, but you can’t stop there.
+  - title: Luck
+    body: When you roll a 1 on the d20 of a d20 Test, you can reroll the die, and you must use the new roll.
+  - title: Naturally Stealthy
+    body: You have Proficiency in the Stealth Skill.
+  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+Orc:
+  desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 6–7 feet tall)\n**Speed**: 30 feet\n**Life Span**: 80 years on average\n\nAs an Orc, you have these special traits."
+  fields:
+  - title: Adrenaline Rush
+    body: You can take the Dash Action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+  - title: Darkvision
+    body: You have Darkvision with a range of 60 feet.
+  - title: Powerful Build
+    body: You count as one Size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+  - title: Relentless Endurance
+    body: When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can’t do so again until you finish a Long Rest.
+  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+Tiefling:
+  desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this Race\n**Speed**: 30 feet\n**Life Span**: 100 years on average\n\nAs a Tiefling, you have these special traits."
+  fields:
+  - title: Darkvision
+    body: You have Darkvision with a range of 60 feet.
+  - title: Fiendish Legacy
+    body: "You are the recipient of a fiendish legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table: Abyssal, associated with Chaotic Evil planes; Chthonic, associated with Neutral Evil planes; or Infernal, associated with Lawful Evil planes. You gain the 1st-level benefit of the chosen legacy.\n\nStarting at 3rd level and again at 5th level, you gain the ability to cast a higher-level Spell with this trait, as shown on the table. Once you cast the Spell with this trait, you can’t cast that Spell with it again until you finish a Long Rest; however, you can cast the Spell using any Spell Slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the Spells you cast with this trait (choose the ability when you select the lineage)."
+  - title: Otherworldly Presence
+    body: You know the Thaumaturgy cantrip. When you cast it with this trait, the Spell uses the same spellcasting ability you use for your Fiendish Legacy trait.
+  - title: "Fiendish Legacy: Abyssal"
+    body: "**1st Level**. You have Resistance to Poison Damage. You also know the *Poison Spray* cantrip.\n**3rd Level**. *Ray of Sickness*\n**5th Level**. *Hold Person*"
+  - title: "Fiendish Legacy: Chthonic"
+    body: "**1st Level**. You have Resistance to Necrotic Damage. You also know the *Chill Touch* cantrip.\n**3rd Level**. *False Life*\n**5th Level**. *Ray of Enfeeblement*"
+  - title: "Fiendish Legacy: Infernal"
+    body: "**1st Level**. You have Resistance to Fire Damage. You also know the *Fire Bolt* cantrip.\n**3rd Level**. *Hellish Rebuke*\n**5th Level**. *Darkness*"
+  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"

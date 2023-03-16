@@ -1,0 +1,39 @@
+<drac2>
+using(
+	embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
+	fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817"
+)
+
+if embeds.on_cooldown():
+	err("A multiline command is already in progress. Please try again after it finishes.")
+
+SPECIES = load_yaml(get_gvar("e9d6bb9b-5bd1-4143-b6dc-0e9d9325b285"))
+
+if search := """&*&""":
+	match fuzzy.get_matches_ignoring_punctuation(search, SPECIES):
+		# No matches.
+		case []:
+			err(f"`{search}` did not match any Species. See `{ctx.prefix}{ctx.alias} species` for a list of supported Species. For 5e Races, use `/lookup race` instead.")
+
+		# Matches a rules term.
+		case [species]:
+			out = SPECIES[species] | {
+				"title": species,
+				"color": "C50009",
+				"footer": f"{ctx.prefix}{ctx.alias} species [species] | @Lathaon#6649"
+			}
+
+		# Matches multiple things.
+		case terms:
+			err("\n".join(["Matched multiple Species. Which of the following did you mean?"] + terms))
+else:
+	# No arguments.
+	out = {
+		"title": "One D&D Species Lookup",
+		"desc": "The following Species are supported:\n\n" + ",\n".join(list(SPECIES)),
+		"color": "C50009",
+		"footer": f"{ctx.prefix}{ctx.alias} species [species] | @Lathaon#6649"
+	}
+
+return embeds.get_output(out)
+</drac2>
