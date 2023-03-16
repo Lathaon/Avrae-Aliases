@@ -65,7 +65,7 @@ Epic Boon of Fortitude:
   desc: "*20th-Level Feat*\n\n**Prerequisite**: None\n**Repeatable**: No\n\nYour Hit Point Maximum increases by 40. In addition, whenever you regain Hit Points, you regain additional Hit Points equal to your Constitution Modifier. You can regain these additional Hit Points no more than once per round."
   fields:
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
-Epic Boon of Irresistible offense:
+Epic Boon of Irresistible Offense:
   desc: "*20th-Level Feat*\n\n**Prerequisite**: Expert or Warrior Group\n**Repeatable**: No\n\nThe damage you deal always ignores Resistance."
   fields:
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
@@ -238,7 +238,7 @@ Spell Sniper:
   fields:
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
 Tavern Brawler:
-  desc: "*1st-Level Feat*\n\n**Prerequisite**: None\n\n**Repeatable**: No\n\nAccustomed to brawling, you gain the following benefits:\n\n**Enhanced Unarmed Strike**. When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning Damage equal to 1d4 + your Strength modifier, instead of the normal damage of an Unarmed Strike.\n\n**Damage Rerolls**. Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.\n\n**Shove**. When you hit a creature with an Unarmed Strike as part of the Attack Action on your turn, you can deal damage to the target and also push it 5 feet away. You can use this benefit only once per turn.\n\n**Furniture as Weapons**. You can wield furniture as a Weapon, using the rules of the Greatclub for Small or Medium furniture and the rules of the Club for Tiny furniture."
+  desc: "*1st-Level Feat*\n\n**Prerequisite**: None\n**Repeatable**: No\n\nAccustomed to brawling, you gain the following benefits:\n\n**Enhanced Unarmed Strike**. When you hit with your Unarmed Strike and deal damage, you can deal Bludgeoning Damage equal to 1d4 + your Strength modifier, instead of the normal damage of an Unarmed Strike.\n\n**Damage Rerolls**. Whenever you roll a damage die for your Unarmed Strike, you can reroll the die if it rolls a 1, and you must use the new roll.\n\n**Shove**. When you hit a creature with an Unarmed Strike as part of the Attack Action on your turn, you can deal damage to the target and also push it 5 feet away. You can use this benefit only once per turn.\n\n**Furniture as Weapons**. You can wield furniture as a Weapon, using the rules of the Greatclub for Small or Medium furniture and the rules of the Club for Tiny furniture."
   fields:
   - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
 Tough:
