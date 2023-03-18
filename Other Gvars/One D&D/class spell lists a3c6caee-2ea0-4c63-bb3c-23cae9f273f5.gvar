@@ -281,11 +281,11 @@ Cleric:
 - Augury
 - Blindness/Deafness
 - Borrowed Knowledge
-- Branding Smite
 - Calm Emotions
 - Find Steed
 - Find Traps
 - Gentle Repose
+- Glimmering Smite
 - Hold Person
 - Lesser Restoration
 - Locate Object
@@ -674,7 +674,9 @@ Ranger:
 - Shillelagh
 - Spare the Dying
 - Thorn Whip
+- Absorb Elements
 - Animal Friendship
+- Beast Bond
 - Create or Destroy Water
 - Cure Wounds
 - Detect Magic
@@ -689,8 +691,13 @@ Ranger:
 - Jump
 - Longstrider
 - Purify Food and Drink
+- Searing Smite
+- Snare
 - Speak with Animals
 - Thunderwave
+- Zephyr Strike
+- Aid
+- Air Bubble
 - Animal Messenger
 - Augury
 - Barkskin
@@ -701,20 +708,26 @@ Ranger:
 - Enlarge/Reduce
 - Find Traps
 - Gentle Repose
+- Gust of Wind
+- Healing Spirit
 - Heat Metal
 - Lesser Restoration
 - Locate Animals or Plants
 - Locate Object
+- Magic Weapon
 - Pass without Trace
 - Protection from Poison
 - Silence
 - Spike Growth
+- Summon Beast
+- Ashardalon's Stride
 - Call Lightning
 - Conjure Animals
 - Conjure Barrage
 - Dispel Magic
 - Elemental Weapon
 - Feign Death
+- Flame Arrows
 - Lightning Arrow
 - Mass Healing Word
 - Meld into Stone
@@ -724,6 +737,7 @@ Ranger:
 - Revivify
 - Sleet Storm
 - Speak with Plants
+- Summon Fey
 - Water Breathing
 - Water Walk
 - Conjure Minor Elementals
@@ -733,10 +747,12 @@ Ranger:
 - Freedom of Movement
 - Giant Insect
 - Grasping Vine
+- Guardian of Nature
 - Locate Creature
 - Polymorph
 - Stone Shape
 - Stoneskin
+- Summon Elemental
 - Antilife Shell
 - Awaken
 - Commune with Nature
@@ -747,8 +763,10 @@ Ranger:
 - Mass Cure Wounds
 - Reincarnate
 - Scrying
+- Steel Wind Strike
 - Swift Quiver
 - Tree Stride
+- Wrath of Nature
 - Conjure Fey
 - Find the Path
 - Move Earth
@@ -1398,6 +1416,7 @@ Wizard:
 - Mass Suggestion
 - Mental Prison
 - Move Earth
+- Otiluke's Freezing Sphere
 - Otto's Irresistible Dance
 - Programmed Illusion
 - Scatter
