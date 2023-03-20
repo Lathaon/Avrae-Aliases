@@ -379,6 +379,7 @@
   - Death Slaad (control gem variant)
   - Death Tyrant
   - Demilich
+  - Demilich (Variant)
   - Displacer Beast
   - Drider (variant)
   - Drow Elite Warrior
@@ -519,6 +520,7 @@
   - Alkilith
   - Allip
   - Amnizu
+  - Amnizu (Summoner Variant)
   - Angry Sorrowsworn
   - Annis Hag
   - Apprentice Wizard
@@ -587,9 +589,11 @@
   - Drow Favored Consort
   - Drow House Captain
   - Drow Inquisitor
+  - Drow Inquisitor (Summoner Variant)
   - Drow Matron Mother
   - Drow Mother of Rebellion
   - Drow Shadowblade
+  - Drow Shadowblade (Summoner Variant)
   - Duergar Despot
   - Duergar Hammerer
   - Duergar Kavalrachni
@@ -620,9 +624,12 @@
   - Frost Salamander
   - Gauth
   - Gazer
+  - Gazer (Familiar Variant)
   - Geryon
+  - Geryon (Variant)
   - Giant Strider
   - Giff
+  - Giff (Gunpowder Keg Variant)
   - Girallon
   - Githyanki Gish
   - Githyanki Kith'rak
@@ -639,6 +646,7 @@
   - Grung
   - Grung Elite Warrior
   - Grung Wildling
+  - Guard Drake
   - Hadrosaurus
   - Hellfire Engine
   - Hobgoblin Devastator
@@ -673,6 +681,7 @@
   - Mindwitness
   - Moloch
   - Molydeus
+  - Molydeus (Summoner Variant)
   - Morkoth
   - Mouth of Grolantor
   - Nabassu
@@ -1677,7 +1686,7 @@
   - Witherbloom Pledgemage
   - Witherbloom Professor of Decay
   - Witherbloom Professor of Growth
-  - "Y\u2019demi"
+  - Y'demi
 - name: Acquisitions Incorporated
   proper: true
   monsters:
@@ -2302,8 +2311,8 @@
   - Tressym
   - Turlang
   - Urgala Meltimer
+  - Uthgardt Leader
   - Uthgardt Shaman
-  - Uthgardt barbarian leader
   - Vaasha
   - Wiri Fleagol
   - Wood Elf Scout
@@ -2555,7 +2564,7 @@
   - Severin
   - Tiamat
   - Tile Chimera
-  - Troll (Ice Troll variant)
+  - Troll (Ice Troll Variant)
 - name: Locathah Rising
   proper: true
   monsters:
@@ -2676,6 +2685,7 @@
   - Baba Lysaga's Creeping Hut
   - Barovian Witch
   - Broom of Animated Attack
+  - Exethanter
   - Ezmerelda d'Avenir
   - Guardian Portrait
   - Izek Strazni
@@ -2699,6 +2709,7 @@
   - Thorn Durst
   - Tree Blight
   - Vladimir Horngaard
+  - Walking Corpse
   - Wereraven
 - name: The Wild Beyond the Witchlight
   proper: true
@@ -2746,6 +2757,7 @@
   - Redcap (Legacy)
   - Ringlerun
   - Selenelion Twin
+  - Shadow (Variant)
   - Sir Talavar
   - Skabatha Nightshade
   - Skylla
@@ -2757,6 +2769,7 @@
   - Warduke
   - Will-o'-Wisp (Variant)
   - Witchlight Hand
+  - Witchlight Hand (Small)
   - Zarak
   - Zargash
 - name: Journeys through the Radiant Citadel
