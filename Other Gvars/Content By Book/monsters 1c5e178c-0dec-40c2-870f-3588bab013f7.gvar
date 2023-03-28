@@ -1205,6 +1205,14 @@
   - Thanoi Hunter
   - Traag Draconian
   - Verminaard
+- name: 'Monstrous Compendium Vol 3: Minecraft Creatures'
+  proper: false
+  monsters:
+  - Blaze
+  - Creeper
+  - Ender Dragon
+  - Enderman
+  - Wolf of the Overworld
 - name: Explorer's Guide to Wildemount
   proper: false
   monsters:
