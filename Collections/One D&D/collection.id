@@ -1,11 +1,12 @@
 {
-  "snippets": {}, 
   "collection": "63f8ca3ccaaad20bc4902ed6", 
   "aliases": {
     "one species": "641144e2ad25e15fb42bb862", 
-    "one": "63f8cb37caaad20bc4902ed7", 
     "one feat": "6406a93c500a7852c2b9f411", 
-    "one tome": "63f8cdfecaaad20bc4902ed8"
+    "one class": "64230e57175690cc901fcc38", 
+    "one tome": "63f8cdfecaaad20bc4902ed8", 
+    "one": "63f8cb37caaad20bc4902ed7"
   }, 
+  "snippets": {}, 
   "name": "One D&D"
 }
