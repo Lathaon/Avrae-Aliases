@@ -1,13 +1,14 @@
 {
-  "collection": "63f8ca3ccaaad20bc4902ed6", 
+  "name": "One D&D", 
   "aliases": {
-    "one classfeat": "6423103c175690cc901fcc41", 
     "one feat": "6406a93c500a7852c2b9f411", 
     "one": "63f8cb37caaad20bc4902ed7", 
+    "one classfeat": "6423103c175690cc901fcc41", 
     "one tome": "63f8cdfecaaad20bc4902ed8", 
+    "one class": "64230e57175690cc901fcc38", 
     "one species": "641144e2ad25e15fb42bb862", 
-    "one class": "64230e57175690cc901fcc38"
+    "one subclass": "6423d32b175690cc901fccc8"
   }, 
-  "snippets": {}, 
-  "name": "One D&D"
+  "collection": "63f8ca3ccaaad20bc4902ed6", 
+  "snippets": {}
 }

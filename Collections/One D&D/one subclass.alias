@@ -1,0 +1,39 @@
+<drac2>
+using(
+	embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
+	fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817"
+)
+
+if embeds.on_cooldown():
+	err("A multiline command is already in progress. Please try again after it finishes.")
+
+SUBCLASSES = load_yaml(get_gvar("e5f527ce-2ee7-4710-a219-042f0da00e74"))
+
+if search := """&*&""":
+	match fuzzy.get_matches_ignoring_punctuation(search, SUBCLASSES):
+		# No matches.
+		case []:
+			err(f"`{search}` did not match any Subclasses. See `{ctx.prefix}{ctx.alias} subclass` for a list of supported Subclasses. For 5e Subclasses, use `/lookup subclass` instead.")
+
+		# Matches a rules term.
+		case [subclass]:
+			out = SUBCLASSES[subclass] | {
+				"title": subclass,
+				"color": "C50009",
+				"footer": f"{ctx.prefix}{ctx.alias} subclass [subclass] | @Lathaon#6649"
+			}
+
+		# Matches multiple things.
+		case terms:
+			err("\n".join(["Matched multiple Subclasses. Which of the following did you mean?"] + terms))
+else:
+	# No arguments.
+	out = {
+		"title": "One D&D Subclass Lookup",
+		"desc": "The following Subclass are supported:\n\n" + ",\n".join(list(SUBCLASSES)),
+		"color": "C50009",
+		"footer": f"{ctx.prefix}{ctx.alias} subclass [subclass] | @Lathaon#6649"
+	}
+
+return embeds.get_output(out)
+</drac2>

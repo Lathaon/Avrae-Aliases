@@ -1,0 +1,93 @@
+# Guinea Pigs of Neverwinter
+# One D&D Subclasses
+# load_yaml(get_gvar("e5f527ce-2ee7-4710-a219-042f0da00e74"))
+
+"Bard: College of Lore":
+  desc: "Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or performing elaborate compositions in royal courts, these Bards use their gifts to hold audiences spellbound.\n\nThe college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at selfimportant figures of authority."
+  fields:
+  - title: "3rd Level: Bonus Proficiencies"
+    body: "You gain three Skill Proficiencies: Arcana, History, and Nature. If you already have one of these Proficiencies, choose a Skill Proficiency you lack, and gain that Proficiency."
+  - title: "3rd Level: Cutting Words"
+    body: "You learn how to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself succeeds on an Ability Check or an Attack Roll, you can use your Reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll, potentially turning it into a failure."
+  - title: "6th Level: Cunning Inspiration (6th Level)"
+    body: "Through your studies and your cunning, you've learned to inspire others exceptionally well. When any creature rolls your Bardic Inspiration die, that creature can roll the die twice and use the higher of the two rolls."
+  - title: "10th Level: Improved Cutting Words (10th Level)"
+    body: "Whenever you use your Cutting Words feature on a creature, you can deal Psychic Damage to that creature equal to the number rolled on the Bardic Inspiration die plus your Charisma modifier."
+  - title: "14th Level: Peerless Skill (14th Level)"
+    body: "When you make an Ability Check and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the Ability Check, potentially turning it into a success. If the check still fails, the Bardic Inspiration isn't expended."
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Cleric: Life Domain":
+  desc: "The Life Domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The Clerics who tap into this domain are masters of healing, using that force of life to cure many hurts.\n\nExistence itself relies on the positive energy associated with this domain, so a Cleric of any religious tradition might choose it. This domain is associated with agricultural deities, sun gods, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the powers of this domain."
+  fields:
+  - title: "3rd Level: Domain Spells"
+    body: "Your connection to this divine domain ensures you always have certain Spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed Spells prepared. These Spells don't count against the number of Spells you can prepare, and they follow the rules of this Class's Spellcasting feature."
+  - title: Life Domain Spells
+    body: "```\n| Cleric | Prepared Spells\n| Level  |\n|--------+-----------------\n| 3rd    | Lesser Restoration, Prayer of Healing\n| 5th    | Mass Healing Word, Revivify\n| 7th    | Aura of Life, Death Ward\n| 9th    | Greater Restoration, Mass Cure Wounds\n```"
+  - title: "3rd Level: Disciple of Life"
+    body: "Your healing Spells are empowered by life itself. When a Spell you cast with a Spell Slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the Spell. The additional Hit Points equal 2 plus the Spell's level."
+  - title: "6th Level: Preserve Life"
+    body: "You can use your Channel Divinity to heal a group of the critically injured. As an Action, you expend one use of your Channel Divinity and present your Holy Symbol, restoring a number of Hit Points equal to 5 times your Cleric level. Choose any creatures within 30 feet of yourself (you can choose yourself), and divide those Hit Points among the chosen creatures. This feature can bring a creature's current Hit Points to no more than half its Hit Point Maximum."
+  - title: "10th Level: Blessed Healer"
+    body: "The healing spells you cast on others heal you as well. When you cast a spell with a Spell Slot on another creature that restores Hit Points to it, you regain Hit Points equal to 2 plus the Spell's level on the turn you cast the Spell."
+  - title: "14th Level: Supreme Healing"
+    body: "When you would normally roll one or more dice to restore Hit Points to a creature with a Spell that you cast with a Spell Slot, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a Spell, you restore 12."
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Druid: Circle of the Moon":
+  desc: "Druids of the Circle of the Moon draw on the magic of the moon to transform themselves and to guard the wilds. Their order gathers under the full moon to share news and perform rituals. They wander the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another person, let alone another Druid.\n\nChangeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the Druid's blood."
+  fields:
+  - title: "3rd Level: Combat Wild Shape"
+    body: "You have learned magical techniques that allow you to transform quickly and to channel magical protection while transformed, giving you these benefits:\n\n**Abjuration Spells**. While you're in a Wild Shape form, you can cast any spell you currently have prepared from the Abjuration School, provided the spell doesn't require a material component.\n\n**Quick Attack**. You can use Unarmed Strike as a Bonus Action.\n\n**Swift Transformation**. You can use your Wild Shape as a Bonus Action or Magic action, but no more than once on a turn."
+  - title: "6th Level: Elemental Wild Shape"
+    body: "Channeling ancient lunar magic, you imbue your Wild Shape forms with power from the Elemental Planes. Whenever you assume a Wild Shape form, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder.\n\nWhile in that form, you have Resistance to the chosen damage type, and the form's Bestial Strike can deal damage of that type rather than its normal type—with you choosing between the types when you hit.\n\nYour form also displays signs of the chosen damage type. For example, if you choose Fire, your fur in Wild Shape might flicker with harmless flames. You choose the details."
+  - title: "10th Level: Elemental Strike"
+    body: "Elemental forces imbue your attacks. When you deal damage with your Bestial Strike, the target takes an extra 1d6 damage of the type you chose from Elemental Wild Shape. This extra damage increases to 2d6 when you reach 17th level in this class."
+  - title: "14th Level: Thousand Forms"
+    body: "You have learned to use lunar magic to alter your physical form in innumerable ways. You always have the Alter Self spell prepared, and you can cast it without expending a Spell Slot. It also doesn't count against the number of spells you have prepared."
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Oath of Devotion":
+  desc: "The Oath of Devotion binds a Paladin to the loftiest ideals of justice and order. These Paladins meet the ideal of the knight in shining armor. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.\n\n> **TENETS OF DEVOTION**\n> \n> Though the exact words and strictures of the Oath of Devotion vary, Paladins of this oath share these tenets.\n> \n> **Honesty**. Don't lie or cheat. Let your word be your promise.\n> \n> **Courage**. Never fear to act, though caution is wise.\n> \n> **Compassion**. Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.\n> \n> **Honor**. Treat others with fairness, and let your honorable deeds be an example to them.\n> \n> **Duty**. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you."
+  fields:
+  - title: "3rd Level: Oath Spells"
+    body: "The magic of your oath gives you the following benefits:\n\n**Prepared Spells**. You always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared. These spells don't count against the number of spells you can prepare, and they follow the rules of this class's Spellcasting feature.\n\n**Free Casting**. You can cast one of your prepared spells from this feature without expending a Spell Slot, and you must finish a Long Rest before you use this benefit again."
+  - title: Oath of Devotion Spells
+    body: "```\n| Paladin | Spells\n| Level   |\n|---------+--------\n| 3rd     | Protection from Evil And Good, Shield of Faith\n| 5th     | Aid, Zone of Truth\n| 9th     | Aura of Vitality, Blinding Smite\n| 13th    | Guardian of Faith, Staggering Smite\n| 17th    | Commune, Flame Strike\n```"
+  - title: "3rd Level: Sacred Weapon"
+    body: "As a Bonus Action, you can expend one use of your Channel Divinity to imbue one Simple or Martial weapon that you are holding with positive energy. For 1 minute, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.\n\nThe weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that.\n\nYou can end this effect as a Bonus Action. This effect also ends if you aren't holding or carrying the weapon or if you have the Incapacitated condition."
+  - title: "6th Level: Smite of Protection"
+    body: "Your Divine Smite now radiates protective energy that allows you and your allies to stay in the fight. Whenever you use your Divine Smite, choose yourself or an ally within 30 feet of yourself. The chosen creature gains Temporary Hit Points equal to 1d8 plus the level of the Spell Slot used for the Divine Smite."
+  - title: "10th Level: Aura of Devotion"
+    body: "You and your allies are immune to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition is suppressed while the ally is there."
+  - title: "14th Level: Holy Nimbus"
+    body: "As a Bonus Action, you can imbue your Aura of Protection with holy power. The aura gains the following benefits for 1 minute or until you end them as a Bonus Action:\n\n**Radiant Damage**. Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Proficiency Bonus plus your Charisma modifier.\n\n**Sunlight**. The aura is filled with bright light that is sunlight.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again."
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Ranger: Hunter":
+  desc: "You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them."
+  fields:
+  - title: "3rd Level: Hunter's Prey"
+    body: "Your tenacity can wear down even the most resilient foes. When you hit a creature with a Weapon or an narmed Strike as part of the Attack Action on your turn, the Weapon or Unarmed Strike deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn."
+  - title: "6th Level: Hunter's Lore"
+    body: "You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your Hunter's Mark, you know whether that creature has any Immunities, Resistances, and Vulnerabilities, and if the creature has any, you know what they are."
+  - title: "10th Level: Multiattack"
+    body: "You now always have Conjure Barrage prepared, and it doesn't count against the number of Spells you can prepare.\n\nYou can also cast the Spell with 1st- and 2nd level Spell Slots. When you do so, the Spell's damage is reduced by 1d8 for each slot level below 3rd."
+  - title: "14th Level: Superior Hunter's Defense"
+    body: "When you are hit by an Attack Roll, you can use your Reaction to halve the attack's damage against yourself, and you can redirect the other half of the damage to one creature (other than the attacker) that you can see within 5 feet of yourself."
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Thief":
+  desc: "You have honed your larcenous arts. Burglars, bandits, cutpurses, and other criminals typically adopt this Subclass, but so do Rogues who prefer to think of themselves as treasure seekers, explorers, delvers, and investigators.\n\nIn addition to improving your agility and stealthiness, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there."
+  fields:
+  - title: "3rd Level: Fast Hands"
+    body: "You have additional options for the Bonus Action of your Cunning Action, with which you can do the following:\n\n**Search**. Take the Search Action.\n\n**Sleight of Hand**. Make a Dexterity Check (Sleight of Hand) to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket."
+  - title: "3rd Level: Second-Story Work"
+    body: "You have trained to reach especially hard-to-reach places, granting you these benefits:\n\n**Climb Speed**. You gain a Climb Speed equal to your Speed.\n\n**Jump Distance**. When you take the Jump Action, you can make a Dexterity Check, instead of a Strength Check."
+  - title: "6th Level: Supreme Sneak"
+    body: "You have Advantage on every Dexterity Check (Stealth) you make, provided you aren't wearing Medium or Heavy Armor."
+  - title: "10th Level: Use Magic Device"
+    body: "In your treasure hunting, you have learned how to maximize use of magic items, granting you the following benefits:\n\n**Attunement**. You can attune to up to four magic items at once.\n\n**Charges**. Whenever you use a magic item property that expends charges, roll a d6. On a roll of 6, you use the property without expending the charges.\n\n**Scrolls**. You can use any Spell Scroll that bears a cantrip or a 1st-level Spell. You can also try to use any Spell Scroll that contains a higher-level Spell, but you must first succeed on an Intelligence Check (Arcana) with a DC equal to 10 + the Spell's level. On a successful check, you cast the Spell from the scroll, and you use Intelligence as your Spellcasting Ability for this casting. On a failed check, the scroll disintegrates."
+  - title: "14th Level: Thief's Reflexes"
+    body: "You can now take a second Bonus Action on your turn, provided it is the Bonus Action from Cunning Action. You can use this feature on a number of turns equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
