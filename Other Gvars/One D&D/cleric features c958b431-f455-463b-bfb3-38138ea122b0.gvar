@@ -100,7 +100,7 @@
   desc: "Your connection to this divine domain ensures you always have certain Spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed Spells prepared. These Spells don't count against the number of Spells you can prepare, and they follow the rules of this Class's Spellcasting feature."
   fields:
   - title: Life Domain Spells
-    body: "```\n| Cleric Level | Prepared Spells\n|--------------+-----------------\n| 3rd          | Lesser Restoration, Prayer of Healing\n| 5th          | Mass Healing Word, Revivify\n| 7th          | Aura of Life, Death Ward\n| 9th          | Greater Restoration, Mass Cure Wounds\n```"
+    body: "```\n| Cleric | Prepared Spells\n| Level  |\n|--------+-----------------\n| 3rd    | Lesser Restoration, Prayer of Healing\n| 5th    | Mass Healing Word, Revivify\n| 7th    | Aura of Life, Death Ward\n| 9th    | Greater Restoration, Mass Cure Wounds\n```"
   - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
 
 "Life Domain: Disciple of Life":

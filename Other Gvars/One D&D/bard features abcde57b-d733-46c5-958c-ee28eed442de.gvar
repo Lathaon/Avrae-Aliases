@@ -128,9 +128,3 @@
   desc: "When you make an Ability Check and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the Ability Check, potentially turning it into a success. If the check still fails, the Bardic Inspiration isn't expended."
   fields:
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
-
-"College of Lore: Peerless Skill":
-  title: "College of Lore: Peerless Skill (14th Level)"
-  desc: "When you make an Ability Check and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the Ability Check, potentially turning it into a success. If the check still fails, the Bardic Inspiration isn't expended."
-  fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"

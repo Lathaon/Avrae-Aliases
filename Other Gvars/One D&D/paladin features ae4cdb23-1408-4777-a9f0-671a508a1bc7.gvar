@@ -134,7 +134,7 @@
   desc: "The magic of your oath gives you the following benefits:\n\n**Prepared Spells**. You always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared. These spells don't count against the number of spells you can prepare, and they follow the rules of this class's Spellcasting feature.\n\n**Free Casting**. You can cast one of your prepared spells from this feature without expending a Spell Slot, and you must finish a Long Rest before you use this benefit again."
   fields:
   - title: Oath of Devotion Spells
-    body: "```\n| Paladin Level | Spells\n|---------------+--------\n| 3rd           | Protection from Evil And Good, Shield of Faith\n| 5th           | Aid, Zone of Truth\n| 9th           | Aura of Vitality, Blinding Smite\n| 13th          | Guardian of Faith, Staggering Smite\n| 17th          | Commune, Flame Strike\n```"
+    body: "```\n| Paladin | Spells\n| Level   |\n|---------+--------\n| 3rd     | Protection from Evil And Good, Shield of Faith\n| 5th     | Aid, Zone of Truth\n| 9th     | Aura of Vitality, Blinding Smite\n| 13th    | Guardian of Faith, Staggering Smite\n| 17th    | Commune, Flame Strike\n```"
   - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
 
 "Oath of Devotion: Sacred Weapon":
