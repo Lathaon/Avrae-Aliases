@@ -1,0 +1,38 @@
+<drac2>
+using(
+	embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
+	fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817"
+)
+
+if embeds.on_cooldown():
+	err("A multiline command is already in progress. Please try again after it finishes.")
+
+CLASSFEAT_INDEX = load_yaml(get_gvar("039a19a8-d815-4d48-aeaa-d3a0e8c7505f"))
+
+if search := """&*&""":
+	match fuzzy.get_matches_ignoring_punctuation(search, CLASSFEAT_INDEX):
+		# No matches.
+		case []:
+			err(f"`{search}` did not match any Class Features. See `{ctx.prefix}{ctx.alias} classfeat` for a list of supported Class Features. For 5e Class Features, use `/lookup classfeat` instead.")
+
+		# Matches a rules term.
+		case [classfeat]:
+			out = load_yaml(get_gvar(CLASSFEAT_INDEX[classfeat]))[classfeat] | {
+				"color": "C50009",
+				"footer": f"{ctx.prefix}{ctx.alias} classfeat [classfeat] | @Lathaon#6649"
+			}
+
+		# Matches multiple things.
+		case terms:
+			err("\n".join(["Matched multiple Class Features. Which of the following did you mean?"] + terms))
+else:
+	# No arguments.
+	out = {
+		"title": "One D&D Class Feature Lookup",
+		"desc": "The following Class Features are supported:\n\n" + ",\n".join(list(CLASSFEAT_INDEX)),
+		"color": "C50009",
+		"footer": f"{ctx.prefix}{ctx.alias} classfeat [classfeat] | @Lathaon#6649"
+	}
+
+return embeds.get_output(out)
+</drac2>

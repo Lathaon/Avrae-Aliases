@@ -1,0 +1,170 @@
+# Guinea Pigs of Neverwinter
+# One D&D Druid Class Features
+# load_yaml(get_gvar("335f0ef4-2f39-47a8-a90c-9181f9843efb"))
+
+"Druid: Channel Nature":
+  title: "Druid: Channel Nature (1st Level)"
+  desc: "The magic of nature infuses you. Tapping into that power, you can create various magical effects. You start with one such effect: Wild Shape, which is described below. Other Druid features give additional Channel Nature effect options. Each time you use this Channel Nature, you choose which effect to create from among those you have from this class.\n\nYou can use Channel Nature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain additional uses when you reach certain Druid levels, as shown in the Channel Nature column of the Druid table.\n\nIf a Channel Nature effect requires a saving throw, the DC equals the Spell Save DC from this class's Spellcasting feature."
+  fields:
+  - title: "Channel Nature: Wild Shape"
+    body: "As a Magic action, you transform into a form that you have learned for this feature. You start knowing one form, Animal of the Land, which is detailed in the “Wild Shapes” section later in this class's description. You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also end Wild Shape early as a Bonus Action.\n\nWhile in a form, its game statistics replace yours, and your ability to handle objects is determined by the form's limbs, rather than your own. You retain your personality, memories, ability to speak, and Wild Shape. You lose access to all your other features, such as the ability to cast spells (you can continue to concentrate on one).\n\nWhen you transform, you choose whether your equipment falls to the ground in your space or merges into your new form. Equipment that merges with the form has no effect until you leave the form."
+  - title: "Druid Table: Channel Nature Uses"
+    body: "```\n| Druid Level | Channel Nature\n|-------------+----------------\n| 1st         | 2\n| 2nd         | 2\n| 3rd         | 2\n| 4th         | 2\n| 5th         | 3\n| 6th         | 3\n| 7th         | 3\n| 8th         | 3\n| 9th         | 4\n| 10th        | 4\n| 11th        | 4\n| 12th        | 4\n| 13th        | 4\n| 14th        | 4\n| 15th        | 4\n| 16th        | 4\n| 17th        | 4\n| 18th        | 4\n| 19th        | 4\n| 20th        | 4\n```"
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Channel Nature: Wild Shape":
+  title: "Druid Channel Nature: Wild Shape (1st Level)"
+  desc: "As a Magic action, you transform into a form that you have learned for this feature. You start knowing one form, Animal of the Land, which is detailed in the “Wild Shapes” section later in this class's description. You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also end Wild Shape early as a Bonus Action.\n\nWhile in a form, its game statistics replace yours, and your ability to handle objects is determined by the form's limbs, rather than your own. You retain your personality, memories, ability to speak, and Wild Shape. You lose access to all your other features, such as the ability to cast spells (you can continue to concentrate on one).\n\nWhen you transform, you choose whether your equipment falls to the ground in your space or merges into your new form. Equipment that merges with the form has no effect until you leave the form."
+  fields:
+  - title: "Animal of the Land"
+    body: "*Small, Medium, or Large Terrestrial Animal (Your Creature Type Doesn't Change)*\n\n**Armor Class** 10 + your Wisdom modifier\n**Hit Points** you continue to use your Hit Points and Hit Dice\n**Speed** 40 ft., Climb 40 ft. (requires 5th+ level)\n\n**STR**, **DEX** equal your Wisdom score\n**CON**, **INT**, **WIS**, **CHA** use your scores\n\n**Senses** Darkvision 60 ft.\n**Languages** the languages you know\n**Proficiency Bonus** equals your Proficiency Bonus\n\n***Keen Senses***. You have Advantage on Wisdom (Perception) checks.\n\n**ACTIONS**\n***Bestial Strike***. *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage.\n\n***Multiattack (Requires 5th+ Level)***. You make two Bestial Strike attacks."
+  - title: "Animal of the Sea (7th Level)"
+    body: "*Small, Medium, or Large Aquatic or Semiaquatic Animal (Your Creature Type Doesn't Change)*\n\n**Armor Class** 10 + your Wisdom modifier\n**Hit Points** you continue to use your Hit Points and Hit Dice\n**Speed** 20 ft., Swim 40 ft.\n\n**DEX** equals your Wisdom score\n**STR**, **CON**, **INT**, **WIS**, **CHA** use your scores\n\n**Senses** Darkvision 90 ft.\n**Languages** the languages you know\n**Proficiency Bonus** equals your Proficiency Bonus\n\n***Amphibious***. You can breathe air and water.\n\n**ACTIONS**\n***Multiattack***. You make two Bestial Strike attacks.\n\n***Bestial Strike***. *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d6 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+  - title: "Animal of the Sky (9th Level)"
+    body: "*Small, Medium, or Large Winged Animal (Your Creature Type Doesn't Change)*\n\n**Armor Class** 8 + your Wisdom modifier\n**Hit Points** you continue to use your Hit Points and Hit Dice\n**Speed** 20 ft., Fly 40 ft.\n\n**DEX** equals your Wisdom score\n**STR**, **CON**, **INT**, **WIS**, **CHA** use your scores\n\n**Senses** Darkvision 120 ft.\n**Languages** the languages you know\n**Proficiency Bonus** equals your Proficiency Bonus\n\n***Flyby***. You don't provoke Opportunity Attacks when you fly out of an enemy's reach.\n\n***Keen Senses***. You have Advantage on Wisdom (Perception) checks.\n\n**ACTIONS**\n***Multiattack***. You make two Bestial Strike attacks.\n\n***Bestial Strike***. *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d4 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Druidic":
+  title: "Druid: Druidic (1st Level)"
+  desc: "You know Druidic, the secret language of Druids. You can speak the language and use it to leave hidden messages.\n\nYou and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Spellcasting":
+  title: "Druid: Spellcasting (1st Level)"
+  desc: "You have learned to cast spells through studying the mystical forces of nature. See the [Player's Handbook](https://www.dndbeyond.com/sources/phb) for the rules on spellcasting. The information below details how you use those rules as a Druid."
+  fields:
+  - title: Prepared Spells
+    body: "You have the following spells prepared: Cure Wounds, Druidcraft, Produce Flame, and Thunderwave. Alternatively, you can prepare two 0-level spells (also known as cantrips) and two 1st-level spells of your choice from the Primal spell list.\n\nWhenever you finish a Long Rest, you can meditate and replace any spell you have prepared for this class with another Primal spell of the same level.\n\nAt higher levels in this class, you can prepare more spells, as shown on the Druid table. The numbers there determine the number of different spells you can prepare of each level. For example, as a 4th-level Druid, you can prepare three different 0-level spells, four different 1stlevel spells, and three different 2nd-level spells."
+  - title: Spell Slots
+    body: "When you cast a prepared Druid spell, you expend a Spell Slot. The number of Spell Slots you have of 1st-level and higher is the same as the number of different spells you can prepare of each level, as shown on the Druid table. For example, as a 5th-level Druid, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+  - title: Spellcasting Ability
+    body: "Wisdom is your Spellcasting Ability for your Druid spells."
+  - title: Spellcasting Focus
+    body: "You can use a Druidic Focus as a Spellcasting Focus for the spells you prepare for this class."
+  - title: "Druid Table: Prepared Spells"
+    body: "```\n| Level | Cantrips | 1st 2nd 3rd 4th 5th 6th 7th 8th 9th\n|-------+----------+-------------------------------------\n| 1st   |    2     |  2   —   —   —   —   —   —   —   —\n| 2nd   |    2     |  3   —   —   —   —   —   —   —   —\n| 3rd   |    2     |  4   2   —   —   —   —   —   —   —\n| 4th   |    2     |  4   3   —   —   —   —   —   —   —\n| 5th   |    2     |  4   3   2   —   —   —   —   —   —\n| 6th   |    2     |  4   3   3   —   —   —   —   —   —\n| 7th   |    2     |  4   3   3   1   —   —   —   —   —\n| 8th   |    2     |  4   3   3   2   —   —   —   —   —\n| 9th   |    2     |  4   3   3   3   1   —   —   —   —\n| 10th  |    3     |  4   3   3   3   2   —   —   —   —\n| 11th  |    3     |  4   3   3   3   2   1   —   —   —\n| 12th  |    3     |  4   3   3   3   2   1   —   —   —\n| 13th  |    3     |  4   3   3   3   2   1   1   —   —\n| 14th  |    3     |  4   3   3   3   2   1   1   —   —\n| 15th  |    3     |  4   3   3   3   2   1   1   1   —\n| 16th  |    3     |  4   3   3   3   2   1   1   1   —\n| 17th  |    3     |  4   3   3   3   2   1   1   1   1\n| 18th  |    3     |  4   3   3   3   3   1   1   1   1\n| 19th  |    3     |  4   3   3   3   3   2   1   1   1\n| 20th  |    3     |  4   3   3   3   3   2   2   1   1\n```"
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Nature's Aid":
+  title: "Druid: Nature's Aid (2nd Level)"
+  desc: "You learn two more ways to use your Channel Nature—Healing Blossoms and Wild Companion—each of which is described below."
+  fields:
+  - title: "Channel Nature: Healing Blossoms"
+    body: "As a Magic action, you channel healing energy that appears as blooming flowers. Choose a point within 30 feet of yourself, and spectral flowers appear for a moment in a 10-foot-radius sphere centered on that point. Then roll a number of d4s equal to your Wisdom modifier (minimum of one die), and add the dice together. The total is the number of Hit Points you can distribute to creatures in that sphere. You decide the number of Hit Points that are restored to each of those creatures, deducting the healing from the total."
+  - title: "Channel Nature: Wild Companion"
+    body: "You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a use of your Channel Nature and cast the Find Familiar spell without material components.\n\nWhen you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a Long Rest."
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Channel Nature: Healing Blossoms":
+  title: "Druid Channel Nature: Healing Blossoms (2nd Level)"
+  desc: "As a Magic action, you channel healing energy that appears as blooming flowers. Choose a point within 30 feet of yourself, and spectral flowers appear for a moment in a 10-foot-radius sphere centered on that point. Then roll a number of d4s equal to your Wisdom modifier (minimum of one die), and add the dice together. The total is the number of Hit Points you can distribute to creatures in that sphere. You decide the number of Hit Points that are restored to each of those creatures, deducting the healing from the total."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Channel Nature: Wild Companion":
+  title: "Druid Channel Nature: Wild Companion (2nd Level)"
+  desc: "You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a use of your Channel Nature and cast the Find Familiar spell without material components.\n\nWhen you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a Long Rest."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Druid Subclass":
+  title: "Druid: Druid Subclass (3rd Level)"
+  desc: "You gain the Circle of the Moon subclass or another Druid subclass of your choice. The Circle of the Moon is detailed after the Druid's class description, and other subclasses will appear in future Unearthed Arcana articles.\n\nA subclass is a specialization that grants you special abilities at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level and lower. This class's description tells you the levels when your subclass provides features."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Feat":
+  title: "Druid: Feat (4th, 8th, 12th, 16th and 19th Level)"
+  desc: "You gain the Ability Score Improvement Feat or another Feat of your choice for which you qualify."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Might of the Land":
+  title: "Druid: Might of the Land (5th Level)"
+  desc: "Your connection to the land deepens, empowering the Animal of the Land form of your Wild Shape; you unlock that form's Climb Speed and Multiattack."
+  fields:
+  - title: "Animal of the Land"
+    body: "*Small, Medium, or Large Terrestrial Animal (Your Creature Type Doesn't Change)*\n\n**Armor Class** 10 + your Wisdom modifier\n**Hit Points** you continue to use your Hit Points and Hit Dice\n**Speed** 40 ft., Climb 40 ft.\n\n**STR**, **DEX** equal your Wisdom score\n**CON**, **INT**, **WIS**, **CHA** use your scores\n\n**Senses** Darkvision 60 ft.\n**Languages** the languages you know\n**Proficiency Bonus** equals your Proficiency Bonus\n\n***Keen Senses***. You have Advantage on Wisdom (Perception) checks.\n\n**ACTIONS**\n***Multiattack***. You make two Bestial Strike attacks.\n\n***Bestial Strike***. *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Aquatic Form":
+  title: "Druid: Aquatic Form (7th Level)"
+  desc: "You learn a new form for your Wild Shape: Animal of the Sea, which is described in the “Wild Shapes” section later in this class's description."
+  fields:
+  - title: "Animal of the Sea"
+    body: "*Small, Medium, or Large Aquatic or Semiaquatic Animal (Your Creature Type Doesn't Change)*\n\n**Armor Class** 10 + your Wisdom modifier\n**Hit Points** you continue to use your Hit Points and Hit Dice\n**Speed** 20 ft., Swim 40 ft.\n\n**DEX** equals your Wisdom score\n**STR**, **CON**, **INT**, **WIS**, **CHA** use your scores\n\n**Senses** Darkvision 90 ft.\n**Languages** the languages you know\n**Proficiency Bonus** equals your Proficiency Bonus\n\n***Amphibious***. You can breathe air and water.\n\n**ACTIONS**\n***Multiattack***. You make two Bestial Strike attacks.\n\n***Bestial Strike***. *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d6 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Aerial Form":
+  title: "Druid: Aerial Form (9th Level)"
+  desc: "You learn a new form for your Wild Shape: Animal of the Sky, which is described in the “Wild Shapes” section later in this class's description."
+  fields:
+  - title: "Animal of the Sky"
+    body: "*Small, Medium, or Large Winged Animal (Your Creature Type Doesn't Change)*\n\n**Armor Class** 8 + your Wisdom modifier\n**Hit Points** you continue to use your Hit Points and Hit Dice\n**Speed** 20 ft., Fly 40 ft.\n\n**DEX** equals your Wisdom score\n**STR**, **CON**, **INT**, **WIS**, **CHA** use your scores\n\n**Senses** Darkvision 120 ft.\n**Languages** the languages you know\n**Proficiency Bonus** equals your Proficiency Bonus\n\n***Flyby***. You don't provoke Opportunity Attacks when you fly out of an enemy's reach.\n\n***Keen Senses***. You have Advantage on Wisdom (Perception) checks.\n\n**ACTIONS**\n***Multiattack***. You make two Bestial Strike attacks.\n\n***Bestial Strike***. *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d4 + your Wisdom modifier Bludgeoning, Piercing, or Slashing damage."
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Tiny Critter":
+  title: "Druid: Tiny Critter (11th Level)"
+  desc: "You gain the ability to become a Tiny creature. When you transform into a Wild Shape form, you can make it Tiny. If you do so, you can stay in that form no longer than 10 minutes, and the damage you deal in that form is halved."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Alternating Forms":
+  title: "Druid: Alternating Forms (13th Level)"
+  desc: "You can now rapidly shift between a Wild Shape form and your normal form. If you're in a Wild Shape form, you can switch to your normal form as a Bonus Action, and you can then switch back into that Wild Shape form within the next minute as a Bonus Action. Neither switch expends a use of Wild Shape."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Wild Resurgence":
+  title: "Druid: Wild Resurgence (15th Level)"
+  desc: "When you use your Wild Shape, primal magic radiates from you, allowing you to use Healing Blossoms as part of the same use of Channel Nature."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Beast Spells":
+  title: "Druid: Beast Spells (17th Level)"
+  desc: "You can cast spells in any Wild Shape form. While in such a form, you can perform Somatic and Verbal Components, and you don't need to provide free Material Components. If a spell consumes its Material Component, you can't cast that spell while in a Wild Shape form."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Archdruid":
+  title: "Druid: Archdruid (18th Level)"
+  desc: "Whenever you roll Initiative, you regain one use of your Channel Nature.\n\nIn addition, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Druid: Epic Boon":
+  title: "Druid: Epic Boon (20th Level)"
+  desc: "You gain the following benefits:\n\n**Ability Score Increase**. Choose one of your ability scores. That score increases by 2, and this increase can raise the score above 20 but not above 30.\n\n**Epic Boon Feat**. You gain the Epic Boon of Spell Recall or another Epic Boon feat of your choice."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+
+# ===================================
+# DRUID: CIRCLE OF THE MOON FEATURES
+# ===================================
+
+"Circle of the Moon: Combat Wild Shape":
+  title: "Circle of the Moon: Combat Wild Shape (3rd Level)"
+  desc: "You have learned magical techniques that allow you to transform quickly and to channel magical protection while transformed, giving you these benefits:\n\n**Abjuration Spells**. While you're in a Wild Shape form, you can cast any spell you currently have prepared from the Abjuration School, provided the spell doesn't require a material component.\n\n**Quick Attack**. You can use Unarmed Strike as a Bonus Action.\n\n**Swift Transformation**. You can use your Wild Shape as a Bonus Action or Magic action, but no more than once on a turn."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Circle of the Moon: Elemental Wild Shape":
+  title: "Circle of the Moon: Elemental Wild Shape (6th Level)"
+  desc: "Channeling ancient lunar magic, you imbue your Wild Shape forms with power from the Elemental Planes. Whenever you assume a Wild Shape form, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder.\n\nWhile in that form, you have Resistance to the chosen damage type, and the form's Bestial Strike can deal damage of that type rather than its normal type—with you choosing between the types when you hit.\n\nYour form also displays signs of the chosen damage type. For example, if you choose Fire, your fur in Wild Shape might flicker with harmless flames. You choose the details."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Circle of the Moon: Elemental Strike":
+  title: "Circle of the Moon: Elemental Strike (10th Level)"
+  desc: "Elemental forces imbue your attacks. When you deal damage with your Bestial Strike, the target takes an extra 1d6 damage of the type you chose from Elemental Wild Shape. This extra damage increases to 2d6 when you reach 17th level in this class."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Circle of the Moon: Thousand Forms":
+  title: "Circle of the Moon: Thousand Forms (14th Level)"
+  desc: "You have learned to use lunar magic to alter your physical form in innumerable ways. You always have the Alter Self spell prepared, and you can cast it without expending a Spell Slot. It also doesn't count against the number of spells you have prepared."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"

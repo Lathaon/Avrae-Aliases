@@ -1,0 +1,162 @@
+# Guinea Pigs of Neverwinter
+# One D&D Paladin Class Features
+# load_yaml(get_gvar("ae4cdb23-1408-4777-a9f0-671a508a1bc7"))
+
+"Paladin: Lay on Hands":
+  title: "Paladin: Lay on Hands (1st Level)"
+  desc: "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.\n\nAs a Magic action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.\n\nIn addition, you can expend 5 Hit Points from the pool of healing to remove the Poisoned condition from the creature, rather than using those points to restore Hit Points."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Spellcasting":
+  title: "Paladin: Spellcasting (1st Level)"
+  desc: "You have learned to cast spells through prayer, meditation, and devotion. See the [Player's Handbook](https://www.dndbeyond.com/sources/phb) for the rules on spellcasting. The information below details how you use those rules as a Paladin."
+  fields:
+  - title: Prepared Spells
+    body: "You have the following spells prepared: Heroism, Resistance, Spare the Dying, and Thunderous Smite. Alternatively, you can prepare two 0-level spells (also known as cantrips) and two 1st-level spells of your choice from the Divine spell list.\n\nWhenever you finish a Long Rest, you can meditate and replace any spell you have prepared for this class with another Divine spell of the same level.\n\nAt higher levels in this class, you can prepare more spells, as shown on the Paladin table. The numbers there determine the number of different spells you can prepare of each level. For example, as a 4th-level Paladin, you can prepare two different 0-level spells and three different 1st-level spells."
+  - title: Spell Slots
+    body: "When you cast a prepared Paladin spell, you expend a Spell Slot. The number of Spell Slots you have of 1st-level and higher is the same as the number of different spells you can prepare of each level, as shown on the Paladin table. For example, as a 5th-level Paladin, you have four 1st-level Spell Slots and two 2nd-level Spell Slots."
+  - title: Spellcasting Ability
+    body: "Charisma is your Spellcasting Ability for your Paladin spells."
+  - title: Spellcasting Focus
+    body: "You can use a Holy Symbol as a Spellcasting Focus for the spells you prepare for this class."
+  - title: "Paladin Table: Prepared Spells"
+    body: "```\n| Level | Cantrips | 1st 2nd 3rd 4th 5th\n|-------+----------+---------------------\n| 1st   |    2     |  2   —   —   —   —\n| 2nd   |    2     |  2   —   —   —   —\n| 3rd   |    2     |  3   —   —   —   —\n| 4th   |    2     |  3   —   —   —   —\n| 5th   |    2     |  4   2   —   —   —\n| 6th   |    2     |  4   2   —   —   —\n| 7th   |    2     |  4   3   —   —   —\n| 8th   |    2     |  4   3   —   —   —\n| 9th   |    2     |  4   3   2   —   —\n| 10th  |    3     |  4   3   2   —   —\n| 11th  |    3     |  4   3   3   —   —\n| 12th  |    3     |  4   3   3   —   —\n| 13th  |    3     |  4   3   3   1   —\n| 14th  |    3     |  4   3   3   1   —\n| 15th  |    3     |  4   3   3   2   —\n| 16th  |    3     |  4   3   3   2   —\n| 17th  |    3     |  4   3   3   3   1\n| 18th  |    3     |  4   3   3   3   1\n| 19th  |    3     |  4   3   3   3   2\n| 20th  |    3     |  4   3   3   3   2\n```"
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Divine Smite":
+  title: "Paladin: Divine Smite (2nd Level)"
+  desc: "When you strike a target, you can channel divine energy to smite it. Immediately after you hit a target with an attack roll using a weapon or an Unarmed Strike, you can expend one Spell Slot to deal Radiant damage to the target. The damage is 2d8 for a 1st-level Spell Slot, plus 1d8 for each slot level higher than 1st.\n\nYou can use Divine Smite no more than once during a turn, and you can't use it on the same turn that you cast a spell."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Fighting Style":
+  title: "Paladin: Fighting Style (2nd Level)"
+  desc: "You have honed your martial prowess and gain the Fighting Style: Defense feat, or you gain another Fighting Style feat of your choice.\n\nWhenever you gain a feat at later levels, Fighting Style feats are among your options, even though you aren't a member of the Warrior group."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Channel Divinity":
+  title: "Paladin: Channel Divinity (3rd Level)"
+  desc: "You can channel divine energy directly from the Outer Planes, using that energy to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this Channel Divinity, you choose which effect to create from among those you have from this class.\n\nYou can use Channel Divinity twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain additional uses when you reach certain Paladin levels, as shown in the Channel Divinity column of the Paladin table.\n\nIf a Channel Divinity effect requires a saving throw, the DC equals the Spell Save DC from this class's Spellcasting feature."
+  fields:
+  - title: "Channel Divinity: Divine Sense"
+    body: "As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell."
+  - title: "Paladin Table: Channel Divinity Uses"
+    body: "```\n| Paladin Level | Channel Divinity\n|---------------+------------------\n| 1st           | —\n| 2nd           | —\n| 3rd           | 2\n| 4th           | 2\n| 5th           | 3\n| 6th           | 3\n| 7th           | 3\n| 8th           | 3\n| 9th           | 4\n| 10th          | 4\n| 11th          | 4\n| 12th          | 4\n| 13th          | 4\n| 14th          | 4\n| 15th          | 4\n| 16th          | 4\n| 17th          | 4\n| 18th          | 4\n| 19th          | 4\n| 20th          | 4\n```"
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Channel Divinity: Divine Sense":
+  title: "Paladin Channel Divinity: Divine Sense (3rd Level)"
+  desc: "As a Bonus Action, you can open your awareness to detect Celestials, Fiends, and Undead. For the next 10 minutes or until you have the Incapacitated condition, you know the location of any creature of those types within 60 feet of yourself, and you know its creature type. Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the Hallow spell."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Paladin Subclass":
+  title: "Paladin: Paladin Subclass (3rd Level)"
+  desc: "You gain the Oath of Devotion subclass or another Paladin subclass of your choice. The Oath of Devotion is detailed after the Paladin's class description, and other subclasses will appear in future Unearthed Arcana articles.\n\nA subclass is a specialization that grants you special abilities at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level and lower. This class's description tells you the levels when your subclass provides features."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Feat":
+  title: "Paladin: Feat (4th, 8th, 12th, 16th and 19th Level)"
+  desc: "You gain the Ability Score Improvement Feat or another Feat of your choice for which you qualify."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Extra Attack":
+  title: "Paladin: Extra Attack (5th Level)"
+  desc: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Faithful Steed":
+  title: "Paladin: Faithful Steed (5th Level)"
+  desc: "You can easily call on the aid of an otherworldly steed. You always have the Find Steed spell prepared, and it doesn't count against the number of spells you can prepare.\n\nWhen you cast this spell, its casting time is an action. You can also cast the spell once without expending a Spell Slot, and you regain the ability to do so when you finish a Long Rest."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Aura of Protection":
+  title: "Paladin: Aura of Protection (7th Level)"
+  desc: "You radiate a protective, invisible aura that extends 10 feet from you in every direction, but it doesn't extend through Total Cover.\n\nYou and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).\n\nIf another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which one when entering the auras."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Abjure Foes":
+  title: "Paladin: Abjure Foes (9th Level)"
+  desc: "As a Magic action, you can expend one use of your Channel Divinity to overwhelm foes with divine awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself.\n\nEach target must make a Wisdom saving throw. On a failed save, the target has the Dazed and Frightened conditions for 1 minute or until it takes any damage. On a successful save, the target has the Dazed condition for 1 minute or until it takes any damage."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Radiant Strikes":
+  title: "Paladin: Radiant Strikes (11th Level)"
+  desc: "You are so suffused with divine might that your weapon strikes carry supernatural power with them. When you hit a target with an attack roll using a Simple or Martial weapon, the target takes an extra 1d8 Radiant damage."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Aura of Courage":
+  title: "Paladin: Aura of Courage (13th Level)"
+  desc: "You and your allies are immune to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition is suppressed while the ally is there."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Restoring Touch":
+  title: "Paladin: Restoring Touch (15th Level)"
+  desc: "When you use Lay on Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Dazed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay on Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Aura Expansion":
+  title: "Paladin: Aura Expansion (17th Level)"
+  desc: "Your Aura of Protection now extends 30 feet from you rather than 10 feet."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Divine Conduit":
+  title: "Paladin: Divine Conduit (18th Level)"
+  desc: "Whenever you roll Initiative, you regain one use of this class's Channel Divinity."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Paladin: Epic Boon":
+  title: "Paladin: Epic Boon (20th Level)"
+  desc: "You gain the following benefits:\n\n**Ability Score Increase**. Choose one of your ability scores. That score increases by 2, and this increase can raise the score above 20 but not above 30.\n\n**Epic Boon Feat**. You gain the Epic Boon of Truesight or another Epic Boon feat of your choice."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+
+# ===================================
+# PALADIN: OATH OF DEVOTION FEATURES
+# ===================================
+
+"Oath of Devotion: Oath Spells":
+  title: "Oath of Devotion: Oath Spells (3rd Level)"
+  desc: "The magic of your oath gives you the following benefits:\n\n**Prepared Spells**. You always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared. These spells don't count against the number of spells you can prepare, and they follow the rules of this class's Spellcasting feature.\n\n**Free Casting**. You can cast one of your prepared spells from this feature without expending a Spell Slot, and you must finish a Long Rest before you use this benefit again."
+  fields:
+  - title: Oath of Devotion Spells
+    body: "```\n| Paladin Level | Spells\n|---------------+--------\n| 3rd           | Protection from Evil And Good, Shield of Faith\n| 5th           | Aid, Zone of Truth\n| 9th           | Aura of Vitality, Blinding Smite\n| 13th          | Guardian of Faith, Staggering Smite\n| 17th          | Commune, Flame Strike\n```"
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Oath of Devotion: Sacred Weapon":
+  title: "Oath of Devotion: Sacred Weapon (3rd Level)"
+  desc: "As a Bonus Action, you can expend one use of your Channel Divinity to imbue one Simple or Martial weapon that you are holding with positive energy. For 1 minute, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.\n\nThe weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that.\n\nYou can end this effect as a Bonus Action. This effect also ends if you aren't holding or carrying the weapon or if you have the Incapacitated condition."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Oath of Devotion: Smite of Protection":
+  title: "Oath of Devotion: Smite of Protection (6th Level)"
+  desc: "Your Divine Smite now radiates protective energy that allows you and your allies to stay in the fight. Whenever you use your Divine Smite, choose yourself or an ally within 30 feet of yourself. The chosen creature gains Temporary Hit Points equal to 1d8 plus the level of the Spell Slot used for the Divine Smite."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Oath of Devotion: Aura of Devotion":
+  title: "Oath of Devotion: Aura of Devotion (10th Level)"
+  desc: "You and your allies are immune to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition is suppressed while the ally is there."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+
+"Oath of Devotion: Holy Nimbus":
+  title: "Oath of Devotion: Holy Nimbus (14th Level)"
+  desc: "As a Bonus Action, you can imbue your Aura of Protection with holy power. The aura gains the following benefits for 1 minute or until you end them as a Bonus Action:\n\n**Radiant Damage**. Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Proficiency Bonus plus your Charisma modifier.\n\n**Sunlight**. The aura is filled with bright light that is sunlight.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again."
+  fields:
+  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"

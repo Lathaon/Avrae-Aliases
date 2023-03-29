@@ -1,0 +1,128 @@
+# Guinea Pigs of Neverwinter
+# One D&D Cleric Class Features
+# load_yaml(get_gvar("c958b431-f455-463b-bfb3-38138ea122b0"))
+
+"Cleric: Channel Divinity":
+  title: "Cleric: Channel Divinity (1st Level)"
+  desc: "You gain the ability to channel divine energy directly from the Outer Planes, using that energy to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use your Channel Divinity, you choose which effect to create, and you gain additional effect options at higher levels in this Class.\n\nYou can use your Channel Divinity a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.\n\nSome Channel Divinity effects require Saving Throws. When you use such an effect from this Class, the DC equals the Spell Save DC from this Class's Spellcasting feature."
+  fields:
+  - title: "Channel Divinity: Divine Spark"
+    body: "As a Magic Action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at them. Roll a number of d8s equal to your Proficiency Bonus and add the rolls together. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution Saving Throw. On a failed save, the creature takes Radiant Damage equal to the total, and on a successful save, the creature takes half as much damage (rounded down)."
+  - title: "Channel Divinity: Turn Undead"
+    body: "As a Magic Action, you present your Holy Symbol and speak a prayer censuring Undead creatures. Each Undead within 30 feet of you must make a Wisdom Saving Throw. If the creature fails its Saving Throw, it is Dazed for 1 minute or until it takes any damage or you are Incapacitated or die. While Dazed in this way, the only Action the creature can take is the Dash Action, and if it Moves, it must end that Move farther from you than where it started."
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Channel Divinity: Divine Spark":
+  title: "Cleric Channel Divinity: Divine Spark (1st Level)"
+  desc: "As a Magic Action, you point your Holy Symbol at another creature you can see within 30 feet of yourself and focus divine energy at them. Roll a number of d8s equal to your Proficiency Bonus and add the rolls together. You either restore Hit Points to the creature equal to that total or force the creature to make a Constitution Saving Throw. On a failed save, the creature takes Radiant Damage equal to the total, and on a successful save, the creature takes half as much damage (rounded down)."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Channel Divinity: Turn Undead":
+  title: "Cleric Channel Divinity: Turn Undead (1st Level)"
+  desc: "As a Magic Action, you present your Holy Symbol and speak a prayer censuring Undead creatures. Each Undead within 30 feet of you must make a Wisdom Saving Throw. If the creature fails its Saving Throw, it is Dazed for 1 minute or until it takes any damage or you are Incapacitated or die. While Dazed in this way, the only Action the creature can take is the Dash Action, and if it Moves, it must end that Move farther from you than where it started."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Spellcasting":
+  title: "Cleric: Spellcasting (1st Level)"
+  desc: "You have learned to cast Spells through prayer, meditation, and devotion. See the [Player's Handbook](https://www.dndbeyond.com/sources/phb) for the rules on spellcasting. The information below details how you use those rules as a Cleric."
+  fields:
+  - title: Prepared Spells
+    body: "You have the following Spells prepared: Cure Wounds, Sacred Flame, Shield of Faith, Spare the Dying, and Thaumaturgy. Alternatively, you can prepare three 0-level Spells (also known as cantrips) and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be a Divine Spell.\n\nWhenever you finish a Long Rest, you can pray or meditate and replace any Spell you have prepared for this Class with another Divine Spell of the same level.\n\nAt higher levels in this Class, you can prepare more Spells, as shown on the Cleric table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 4th-level Cleric, you can prepare four different 0-level Spells, four different 1st-level Spells, and three different 2nd-level Spells.\n\nConsult the “Prepared Cleric Spells” section for recommendations on which spells to prepare at higher levels."
+  - title: Spell Slots
+    body: "The Cleric table shows how many Spell Slots you have at each level to cast your Cleric Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Cleric, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+  - title: Spellcasting Ability
+    body: "Wisdom is your Spellcasting Ability for your Cleric Spells."
+  - title: Spellcasting Focus
+    body: "You can use a Holy Symbol as a Spellcasting Focus for the Spells you prepare for this Class."
+  - title: "Cleric Table: Prepared Spells"
+    body: "```\n| Level | Cantrips | 1st 2nd 3rd 4th 5th 6th 7th 8th 9th\n|-------+----------+-------------------------------------\n| 1st   |    3     |  2   —   —   —   —   —   —   —   —\n| 2nd   |    3     |  3   —   —   —   —   —   —   —   —\n| 3rd   |    3     |  4   2   —   —   —   —   —   —   —\n| 4th   |    4     |  4   3   —   —   —   —   —   —   —\n| 5th   |    4     |  4   3   2   —   —   —   —   —   —\n| 6th   |    4     |  4   3   3   —   —   —   —   —   —\n| 7th   |    4     |  4   3   3   1   —   —   —   —   —\n| 8th   |    4     |  4   3   3   2   —   —   —   —   —\n| 9th   |    4     |  4   3   3   3   1   —   —   —   —\n| 10th  |    5     |  4   3   3   3   2   —   —   —   —\n| 11th  |    5     |  4   3   3   3   2   1   —   —   —\n| 12th  |    5     |  4   3   3   3   2   1   —   —   —\n| 13th  |    5     |  4   3   3   3   2   1   1   —   —\n| 14th  |    5     |  4   3   3   3   2   1   1   —   —\n| 15th  |    5     |  4   3   3   3   2   1   1   1   —\n| 16th  |    5     |  4   3   3   3   2   1   1   1   —\n| 17th  |    5     |  4   3   3   3   2   1   1   1   1\n| 18th  |    5     |  4   3   3   3   3   1   1   1   1\n| 19th  |    5     |  4   3   3   3   3   2   1   1   1\n| 20th  |    5     |  4   3   3   3   3   2   2   1   1\n```"
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Holy Order":
+  title: "Cleric: Holy Order (2nd Level)"
+  desc: "You have dedicated yourself to one of the following sacred roles, either on your own or as part of a religious order. Choose one of the following options:\n\n**Protector**. Trained for battle, you gain Martial Weapon Proficiency and Heavy Armor Training.\n\n**Scholar**. Studying and teaching about lore of the gods and the multiverse, you gain Proficiency in two of the following Skills of your choice: Arcana, History, Nature, Persuasion, and Religion. Whenever you make an Ability Check using either Skill, you gain a bonus to the check equal to your Wisdom Modifier.\n\n**Thaumaturge**. Delving deeper into your divine magical abilities, you can prepare one extra 0-level Spell from the Divine Spell list. See your Spellcasting feature for more information on preparing Spells. In addition, you regain one expended use of your Channel Divinity whenever you finish a Short Rest."
+  fields:
+  - title: At 9th Level
+    body: "Your sacred duties have expanded, allowing you to choose a second option from the Holy Order feature."
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Cleric Subclass":
+  title: "Cleric: Cleric Subclass (3rd Level)"
+  desc: "You gain the Life Domain Subclass or another Cleric Subclass of your choice. The Life Domain is detailed after the Cleric's Class description, and other Subclasses will appear in future Unearthed Arcana articles.\n\nA Subclass is a specialization that grants you special abilities at certain Cleric levels. For the rest of your career, you gain each of your Subclass's features that are of your Cleric level and lower. This Class's description tells you the levels when your Subclass provides features."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Feat":
+  title: "Cleric: Feat (4th, 8th, 12th, 16th and 19th Level)"
+  desc: "You gain the Ability Score Improvement Feat or another Feat of your choice for which you qualify."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Smite Undead":
+  title: "Cleric: Smite Undead (5th Level)"
+  desc: "You can cause your Turn Undead feature to smite the undying; whenever you use Turn Undead, you can roll a number of d8s equal to your Proficiency Bonus and add the rolls together. Each Undead that fails its Saving Throw against that use of Turn Undead takes Radiant Damage equal to the roll's total."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Blessed Strikes":
+  title: "Cleric: Blessed Strikes (7th Level)"
+  desc: "Divine power infuses you in battle. When a creature takes damage from one of your 0-level Spells or your attacks with Weapons, you can also deal 1d8 Radiant Damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Divine Intervention":
+  title: "Cleric: Divine Intervention (11th Level)"
+  desc: "You can call on your deity or pantheon to intervene on your behalf when your need is great.\n\nAs an Action, describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your Cleric level, the divine power intervenes. The DM chooses the nature of the intervention; the effect of any Divine Spell is appropriate.\n\nIf the intervention occurs, you can't use this feature again for 2d6 days. Otherwise, you can use it again after you finish a Long Rest."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Greater Divine Intervention":
+  title: "Cleric: Greater Divine Intervention (18th Level)"
+  desc: "When you use your Divine Intervention feature, it succeeds automatically—no roll required—and you can use it again after 2d4 days."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Cleric: Epic Boon":
+  title: "Cleric: Epic Boon (20th Level)"
+  desc: "You gain the Epic Boon of Fate or another Epic Boon Feat of your choice."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+
+# ===================================
+# CLERIC: LIFE DOMAIN FEATURES
+# ===================================
+
+"Life Domain: Domain Spells":
+  title: "Life Domain: Domain Spells (3rd Level)"
+  desc: "Your connection to this divine domain ensures you always have certain Spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed Spells prepared. These Spells don't count against the number of Spells you can prepare, and they follow the rules of this Class's Spellcasting feature."
+  fields:
+  - title: Life Domain Spells
+    body: "```\n| Cleric Level | Prepared Spells\n|--------------+-----------------\n| 3rd          | Lesser Restoration, Prayer of Healing\n| 5th          | Mass Healing Word, Revivify\n| 7th          | Aura of Life, Death Ward\n| 9th          | Greater Restoration, Mass Cure Wounds\n```"
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Life Domain: Disciple of Life":
+  title: "Life Domain: Disciple of Life (3rd Level)"
+  desc: "Your healing Spells are empowered by life itself. When a Spell you cast with a Spell Slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the Spell. The additional Hit Points equal 2 plus the Spell's level."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Life Domain: Preserve Life":
+  title: "Life Domain: Preserve Life (6th Level)"
+  desc: "You can use your Channel Divinity to heal a group of the critically injured. As an Action, you expend one use of your Channel Divinity and present your Holy Symbol, restoring a number of Hit Points equal to 5 times your Cleric level. Choose any creatures within 30 feet of yourself (you can choose yourself), and divide those Hit Points among the chosen creatures. This feature can bring a creature's current Hit Points to no more than half its Hit Point Maximum."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Life Domain: Blessed Healer":
+  title: "Life Domain: Blessed Healer (10th Level)"
+  desc: "The healing spells you cast on others heal you as well. When you cast a spell with a Spell Slot on another creature that restores Hit Points to it, you regain Hit Points equal to 2 plus the Spell's level on the turn you cast the Spell."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+
+"Life Domain: Supreme Healing":
+  title: "Life Domain: Supreme Healing (14th Level)"
+  desc: "When you would normally roll one or more dice to restore Hit Points to a creature with a Spell that you cast with a Spell Slot, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a Spell, you restore 12."
+  fields:
+  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"

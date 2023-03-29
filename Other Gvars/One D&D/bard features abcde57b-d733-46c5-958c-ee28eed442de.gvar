@@ -1,0 +1,136 @@
+# Guinea Pigs of Neverwinter
+# One D&D Bard Class Features
+# load_yaml(get_gvar("abcde57b-d733-46c5-958c-ee28eed442de"))
+
+"Bard: Bardic Inspiration":
+  title: "Bard: Bardic Inspiration (1st Level)"
+  desc: "You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6."
+  fields:
+  - title: Using Bardic Inspiration
+    body: "You can use your Bardic Inspiration die in the following ways:\n\n**Boost a d20 Test**. When another creature within 60 feet of you that you can see or hear fails a d20 Test, you can use your Reaction to give the creature a Bardic Inspiration die. The creature rolls that die and adds the number rolled to the d20, potentially turning the failure into a success.\n\n**Heal**. Immediately after another creature within 60 feet of you that you can see or hear takes damage, you can use your Reaction to roll your Bardic Inspiration die and restore a number of Hit Points to the creature equal to the number rolled."
+  - title: Number of Uses
+    body: "A Bardic Inspiration die is expended when it's rolled. You can confer a Bardic Inspiration die a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  - title: At Higher Levels
+    body: "Your Bardic Inspiration die changes when you reach certain levels in this Class, as shown in the Bardic Die column of the Bard table. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level."
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Spellcasting":
+  title: "Bard: Spellcasting (1st Level)"
+  desc: "You have learned to cast Spells through your bardic arts. See the [Player's Handbook](https://www.dndbeyond.com/sources/phb) for the rules on spellcasting. The information below details how you use those rules as a Bard."
+  fields:
+  - title: Prepared Spells
+    body: "You have the following Spells prepared: Color Spray, Disguise Self, Prestidigitation, and Vicious Mockery. \n\nAlternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be an Arcane Spell, and it must be from one of the following Schools of Magic: Divination, Enchantment, Illusion, or Transmutation.\n\nWhenever you finish a Long Rest, you can practice your bardic arts and replace any Spell you have prepared for this Class with another Arcane Spell of the same level, abiding by the school restriction above.\n\nAt higher levels in this Class, you can prepare more Spells, as shown on the Bard table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Bard, you can prepare two different 0-level Spells, four different 1st-level Spells, and two different 2ndlevel Spells.\n\nConsult the “Prepared Bard Spells” section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells."
+  - title: Spell Slots
+    body: "The Bard table shows how many Spell Slots you have at each level to cast your Bard Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Bard, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+  - title: Spellcasting Ability
+    body: "Charisma is your Spellcasting Ability for your Bard Spells."
+  - title: Spellcasting Focus
+    body: "You can use a Musical Instrument as a Spellcasting Focus for the Spells you prepare for this Class."
+  - title: "Bard Table: Prepared Spells"
+    body: "```\n| Level | Cantrips | 1st 2nd 3rd 4th 5th 6th 7th 8th 9th\n|-------+----------+-------------------------------------\n| 1st   |    2     |  2   —   —   —   —   —   —   —   —\n| 2nd   |    2     |  3   —   —   —   —   —   —   —   —\n| 3rd   |    2     |  4   2   —   —   —   —   —   —   —\n| 4th   |    2     |  4   3   —   —   —   —   —   —   —\n| 5th   |    2     |  4   3   2   —   —   —   —   —   —\n| 6th   |    2     |  4   3   3   —   —   —   —   —   —\n| 7th   |    2     |  4   3   3   1   —   —   —   —   —\n| 8th   |    2     |  4   3   3   2   —   —   —   —   —\n| 9th   |    2     |  4   3   3   3   1   —   —   —   —\n| 10th  |    3     |  4   3   3   3   2   —   —   —   —\n| 11th  |    3     |  4   3   3   3   2   1   —   —   —\n| 12th  |    3     |  4   3   3   3   2   1   —   —   —\n| 13th  |    3     |  4   3   3   3   2   1   1   —   —\n| 14th  |    3     |  4   3   3   3   2   1   1   —   —\n| 15th  |    3     |  4   3   3   3   2   1   1   1   —\n| 16th  |    3     |  4   3   3   3   2   1   1   1   —\n| 17th  |    3     |  4   3   3   3   2   1   1   1   1\n| 18th  |    3     |  4   3   3   3   3   1   1   1   1\n| 19th  |    3     |  4   3   3   3   3   2   1   1   1\n| 20th  |    3     |  4   3   3   3   3   2   2   1   1\n```"
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Expertise":
+  title: "Bard: Expertise (2nd Level)"
+  desc: "You gain Expertise in two of your Skill Proficiencies of your choice.\n\nPerformance and Persuasion are iconic choices for a Bard if you have Proficiency in them."
+  fields:
+  - title: "At 9th Level"
+    body: "You gain Expertise in two of your Skill Proficiencies of your choice."
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Songs of Restoration":
+  title: "Bard: Songs of Restoration (2nd Level)"
+  desc: "You have learned how to use music, poetry, and dance to heal wounds and maladies. When you reach certain levels in this Class, you add a specific Spell to your Songs of Restoration repertoire, as shown on the Songs of Restoration Repertoire table. You always have that Spell prepared, and it doesn't count against the number of Spells you can prepare."
+  fields:
+  - title: Songs of Restoration Repertoire
+    body: "```\n| Bard Level | Spell\n|------------+-----------\n| 2nd        | Healing Word\n| 4th        | Lesser Restoration\n| 6th        | Mass Healing Word\n| 8th        | Freedom of Movement\n| 10th       | Greater Restoration\n```"
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Bard Subclass":
+  title: "Bard: Bard Subclass (3rd Level)"
+  desc: "You gain the College of Lore Subclass or another Bard Subclass of your choice. The College of Lore is detailed after the Bard's Class description, and other Subclasses will appear in future Unearthed Arcana articles.\n\nA Subclass is a specialization that grants you special abilities at certain Bard levels. For the rest of your career, you gain each of your Subclass's features that are of your Bard level and lower. This Class's description tells you the levels when your Subclass provides features."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Feat":
+  title: "Bard: Feat (4th, 8th, 12th, 16th and 19th Level)"
+  desc: "You gain the Ability Score Improvement Feat or another Feat of your choice."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Jack of All Trades":
+  title: "Bard: Jack of All Trades (5th Level)"
+  desc: "You can add half your Proficiency Bonus (round down) to any Ability Check you make that uses a Skill Proficiency you lack and that doesn't otherwise use your Proficiency Bonus. For example, if you make a Strength Check (Athletics) and lack Athletics Proficiency, you can add half your Proficiency Bonus to the check."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Font of Bardic Inspiration":
+  title: "Bard: Font of Bardic Inspiration (7th Level)"
+  desc: "You now regain all your expended uses of Bardic Inspiration when you finish a Short Rest or a Long Rest.\n\nIn addition, if a creature rolls your Bardic Inspiration die and gets a 1 (after any rerolls you might have), that use of your Bardic Inspiration isn't expended."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Magical Secrets":
+  title: "Bard: Magical Secrets (11th Level)"
+  desc: "You have collected magical knowledge from a wide spectrum of disciplines. Choose a Spell List: Arcane, Divine, or Primal. Whenever you prepare Spells for this Class, up to two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Further Magical Secrets":
+  title: "Bard: Further Magical Secrets (25th Level)"
+  desc: "Your understanding of magic has grown even broader. Choose a Spell List—Arcane, Divine, or Primal—that you didn't choose for your Magical Secrets feature. Whenever you prepare your Bard Spells, two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Superior Bardic Inspiration":
+  title: "Bard: Superior Bardic Inspiration (18th Level)"
+  desc: "When you roll Initiative, you regain two expended uses of your Bardic Inspiration."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Bard: Epic Boon":
+  title: "Bard: Epic Boon (20th Level)"
+  desc: "You gain the Epic Boon of Luck Feat or another Epic Boon Feat of your choice."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+
+# ===================================
+# BARD: COLLEGE OF LORE FEATURES
+# ===================================
+
+"College of Lore: Bonus Proficiencies":
+  title: "College of Lore: Bonus Proficiencies (3rd Level)"
+  desc: "You gain three Skill Proficiencies: Arcana, History, and Nature. If you already have one of these Proficiencies, choose a Skill Proficiency you lack, and gain that Proficiency."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"College of Lore: Cutting Words":
+  title: "College of Lore: Cutting Words (3rd Level)"
+  desc: "You learn how to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself succeeds on an Ability Check or an Attack Roll, you can use your Reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll, potentially turning it into a failure."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"College of Lore: Cunning Inspiration":
+  title: "College of Lore: Cunning Inspiration (6th Level)"
+  desc: "Through your studies and your cunning, you've learned to inspire others exceptionally well. When any creature rolls your Bardic Inspiration die, that creature can roll the die twice and use the higher of the two rolls."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"College of Lore: Improved Cutting Words":
+  title: "College of Lore: Improved Cutting Words (10th Level)"
+  desc: "Whenever you use your Cutting Words feature on a creature, you can deal Psychic Damage to that creature equal to the number rolled on the Bardic Inspiration die plus your Charisma modifier."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"College of Lore: Peerless Skill":
+  title: "College of Lore: Peerless Skill (14th Level)"
+  desc: "When you make an Ability Check and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the Ability Check, potentially turning it into a success. If the check still fails, the Bardic Inspiration isn't expended."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"College of Lore: Peerless Skill":
+  title: "College of Lore: Peerless Skill (14th Level)"
+  desc: "When you make an Ability Check and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the Ability Check, potentially turning it into a success. If the check still fails, the Bardic Inspiration isn't expended."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"

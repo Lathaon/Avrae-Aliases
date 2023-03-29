@@ -1,0 +1,130 @@
+# Guinea Pigs of Neverwinter
+# One D&D Rogue Class Features
+# load_yaml(get_gvar("3d6b87f5-53d8-4083-90d8-1e8086d3c878"))
+
+"Rogue: Expertise":
+  title: "Rogue: Expertise (1st Level)"
+  desc: "You gain Expertise in two of your Skill Proficiencies of your choice.\n\nSleight of Hand and Stealth are iconic choices for a Rogue if you have Proficiency in them."
+  fields:
+  - title: "At 7th Level"
+    body: "You gain Expertise in two of your Skill Proficiencies of your choice."
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Sneak Attack":
+  title: "Rogue: Sneak Attack (1st Level)"
+  desc: "You know how to turn a subtle attack into a deadly one. Once on each of your turns when you take the Attack Action, you can deal extra damage to one creature you hit with an Attack Roll if you're attacking with a Finesse Weapon or a Ranged Weapon and if at least one of the following requirements is met:\n\n**Advantage**. You have Advantage on the Attack Roll.\n\n**Ally Adjacent to Target**. At least one of your allies is within 5 feet of the target, the ally isn't Incapacitated, and you don't have Disadvantage on the Attack Roll.\n\nTo determine the extra damage, roll a number of d6s equal to half your Rogue level (round up), and add the dice together (the Rogue table shows the number of Sneak Attack dice you get at each Rogue level). The extra damage's type is the same as the weapon's Damage Type."
+  fields:
+  - title: "Rogue Table: Sneak Attack Damage"
+    body: "```\n| Level | Sneak Attack\n|-------+--------------\n| 1th   | 1d6\n| 2th   | 1d6\n| 3th   | 2d6\n| 4th   | 2d6\n| 5th   | 3d6\n| 6th   | 3d6\n| 7th   | 4d6\n| 8th   | 4d6\n| 9th   | 5d6\n| 10th  | 5d6\n| 11th  | 6d6\n| 12th  | 6d6\n| 13th  | 7d6\n| 14th  | 7d6\n| 15th  | 8d6\n| 16th  | 8d6\n| 17th  | 9d6\n| 18th  | 9d6\n| 19th  | 10d6\n| 20th  | 10d6\n```"
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Thieves' Cant":
+  title: "Rogue: Thieves' Cant (1st Level)"
+  desc: "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the Standard Languages and Rare Languages tables."
+  fields:
+  - title: "Standard Languages"
+    body: "```\n| Language             | Typical Users\n|----------------------+---------------\n| Common               | Anyone\n| Common Sign Language | Anyone\n| Dwarvish             | Dwarves\n| Elvish               | Elves\n| Giant                | Giants\n| Gnomish              | Gnomes\n| Goblin               | Goblinoids\n| Halfling             | Halflings\n| Orc                  | Orcs\n```"
+  - title: "Rare Languages"
+    body: "```\n| Language             | Typical Users\n|----------------------+---------------\n| Abyssal              | Demons\n| Celestial            | Celestials\n| Deep Speech          | Aberrations\n| Draconic             | Dragons\n| Druidic              | Druids\n| Infernal             | Devils\n| Primordial†          | Elementals\n| Sylvan               | Fey\n| Thieves' Cant        | Rogues\n| Undercommon          | Underdark folk\n``` ```\n† includes the Aquan, Auran, Ignan, and Terran dialects\n```"
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Cunning Action":
+  title: "Rogue: Cunning Action (2nd Level)"
+  desc: "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following Actions as a Bonus Action: Dash, Disengage, or Hide."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Rogue Subclass":
+  title: "Rogue: Rogue Subclass (3rd Level)"
+  desc: "You gain the Thief Subclass or another Rogue Subclass of your choice. The Thief is detailed after the Rogue's Class description, and other Subclasses will appear in future Unearthed Arcana articles.\n\nA Subclass is a specialization that grants you special abilities at certain Rogue levels. For the rest of your career, you gain each of your Subclass's features that are of your Rogue level and lower. This Class's description tells you the levels when your Subclass provides features."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Feat":
+  title: "Rogue: Feat (4th, 8th, 10th, 12th, 16th and 19th Level)"
+  desc: "You gain the Ability Score Improvement Feat or another Feat of your choice."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Uncanny Dodge":
+  title: "Rogue: Uncanny Dodge (5th Level)"
+  desc: "When an attacker that you can see hits you with an Attack Roll, you can use your Reaction to halve the attack's damage against you (round down)."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Evasion":
+  title: "Rogue: Evasion (9th Level)"
+  desc: "You can nimbly dodge out of the way of certain dangers. When you are subjected to an effect that allows you to make a Dexterity Saving Throw to take only half damage, you instead take no damage if you succeed on the Saving Throw and only half damage if you fail. You can't use this feature if you're Incapacitated."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Reliable Talent":
+  title: "Rogue: Reliable Talent (11th Level)"
+  desc: "You have refined your talents until they approach perfection. Whenever you make an Ability Check that uses one of your Skill or Tool Proficiencies, you can treat a d20 roll of 9 or lower as a 10."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Subtle Strikes":
+  title: "Rogue: Subtle Strikes (13th Level)"
+  desc: "When you attack, you know how to exploit a target's distraction. You have Advantage on any Attack Roll that targets a creature that is within 5 feet of at least one of your allies who isn't Incapacitated."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Slippery Mind":
+  title: "Rogue: Slippery Mind (15th Level)"
+  desc: "Your cunning mind is exceptionally difficult to control. You gain Proficiency in Wisdom and Charisma Saving Throws."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Elusive":
+  title: "Rogue: Elusive (17th Level)"
+  desc: "You are so evasive that attackers rarely gain the upper hand against you. No Attack Roll has Advantage against you while you aren't Incapacitated."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Stroke of Luck":
+  title: "Rogue: Stroke of Luck (18th Level)"
+  desc: "You have an uncanny knack for succeeding when you need to. If you fail a d20 Test, you can turn the roll into a 20.\n\nOnce you use this feature, you can't use it again until you finish a Short Rest or a Long Rest."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Rogue: Epic Boon":
+  title: "Rogue: Epic Boon (20th Level)"
+  desc: "You gain the Epic Boon of Undetectability Feat or another Epic Boon Feat of your choice."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+
+# ===================================
+# ROGUE: THIEF FEATURES
+# ===================================
+
+"Thief: Fast Hands":
+  title: "Thief: Fast Hands (3rd Level)"
+  desc: "You have additional options for the Bonus Action of your Cunning Action, with which you can do the following:\n\n**Search**. Take the Search Action.\n\n**Sleight of Hand**. Make a Dexterity Check (Sleight of Hand) to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Thief: Second-Story Work":
+  title: "Thief: Second-Story Work (3rd Level)"
+  desc: "You have trained to reach especially hard-to-reach places, granting you these benefits:\n\n**Climb Speed**. You gain a Climb Speed equal to your Speed.\n\n**Jump Distance**. When you take the Jump Action, you can make a Dexterity Check, instead of a Strength Check."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Thief: Supreme Sneak":
+  title: "Thief: Supreme Sneak (6th Level)"
+  desc: "You have Advantage on every Dexterity Check (Stealth) you make, provided you aren't wearing Medium or Heavy Armor."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Thief: Use Magic Device":
+  title: "Thief: Use Magic Device (10th Level)"
+  desc: "In your treasure hunting, you have learned how to maximize use of magic items, granting you the following benefits:\n\n**Attunement**. You can attune to up to four magic items at once.\n\n**Charges**. Whenever you use a magic item property that expends charges, roll a d6. On a roll of 6, you use the property without expending the charges.\n\n**Scrolls**. You can use any Spell Scroll that bears a cantrip or a 1st-level Spell. You can also try to use any Spell Scroll that contains a higher-level Spell, but you must first succeed on an Intelligence Check (Arcana) with a DC equal to 10 + the Spell's level. On a successful check, you cast the Spell from the scroll, and you use Intelligence as your Spellcasting Ability for this casting. On a failed check, the scroll disintegrates."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Thief: Thief's Reflexes":
+  title: "Thief: Thief's Reflexes (14th Level)"
+  desc: "You can now take a second Bonus Action on your turn, provided it is the Bonus Action from Cunning Action. You can use this feature on a number of turns equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
