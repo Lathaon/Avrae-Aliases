@@ -21,6 +21,8 @@
 #
 # iterative(number): Returns a corresponding iterative numeral
 #     (e.g. "twice") for an integer.
+#
+# median(*values): Returns the median of the args.
 
 
 def ordinal(number):
@@ -128,3 +130,19 @@ def iterative(number):
             return "twice"
         case _:
             return english(number) + " times"
+
+
+def median(*values):
+    """
+    Returns the median of the given values.
+    :arg int|float *values: the values to find the median of.
+    :return: the median.
+    :rtype: int|float
+    """
+    lyst = list(values)
+    lyst.sort()
+    i = len(lyst) // 2
+    if len(lyst) % 2:
+        return lyst[i]
+    else:
+        return sum(lyst[i-1:i+1]) / 2
