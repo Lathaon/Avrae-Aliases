@@ -91,8 +91,10 @@ def get_chance(d20_str, bonus_str, dc):
                         for j in range(i+1, i+bonus.size+1):
                             prob_table[j] += chance_divided
 
-    target_index = dc - lowest
-    return sum(prob_table[target_index:])
+    if lowest >= dc:
+        return 1
+    else:
+        return sum(prob_table[dc - lowest:])
 
 
 def _extract_bonuses(node, sign = 1):
