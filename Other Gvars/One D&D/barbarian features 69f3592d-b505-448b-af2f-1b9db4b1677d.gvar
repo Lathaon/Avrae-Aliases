@@ -1,0 +1,134 @@
+# Guinea Pigs of Neverwinter
+# One D&D Barbarian Class Features
+# load_yaml(get_gvar("69f3592d-b505-448b-af2f-1b9db4b1677d"))
+
+"Barbarian: Rage":
+  title: "Barbarian: Rage (1st Level)"
+  desc: "You can imbue yourself with a primal power that is called your Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action, provided you aren't wearing Heavy Armor.\n\nWhile active, your Rage has the following effects:\n\n**Damage Resistance**. You have resistance to Bludgeoning, Piercing, and Slashing damage.\n\n**Rage Damage**. When you make an attack with a weapon or an Unarmed Strike using Strengthand deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian table.\n\n**Strength Advantage**. You have advantage on Strength checks and Strength saving throws.\n\n**No Concentration or Spells**. You can't maintain Concentration, and you can't cast spells.\n\nThe Rage lasts until the end of your next turn, and it ends early if you don Heavy Armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one or more of the following:\n- Make an attack roll against an enemy.\n- Force an enemy to make a saving throw.\n- Take a Bonus Action to extend your Rage.\n\nEach time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.\n\nYou can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table, and you regain all expended uses when you finish a Long Rest."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Unarmored Defense":
+  title: "Barbarian: Unarmored Defense (1st Level)"
+  desc: "While you aren't wearing any armor, your base Armor Class equals 10 + your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Weapon Mastery":
+  title: "Barbarian: Weapon Mastery (1st Level)"
+  desc: "Your training with weapons allows you to use the Mastery property of two kinds of Simple or Martial melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change the kinds of melee weapons you chose.\n\nWhen you reach certain levels in this class, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian table."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Primal Knowledge":
+  title: "Barbarian: Primal Knowledge (2nd Level)"
+  desc: "You gain proficiency in another skill of your choice from the list of skills available to Barbarians at 1st level.\n\nIn addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through and around you."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Reckless Attack":
+  title: "Barbarian: Reckless Attack (2nd Level)"
+  desc: "You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength during this turn, but attack rolls against you have Advantage until the start of your next turn."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Barbarian Subclass":
+  title: "Barbarian: Barbarian Subclass (3rd Level)"
+  desc: "You gain the Berserker subclass or another Barbarian subclass of your choice. The Berserker is detailed after the class's description, and other subclasses will appear in future Unearthed Arcana articles.\n\nA subclass is a specialization that grants you special abilities at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level and lower. This class's description tells you the levels when your subclass provides features."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Feat":
+  title: "Barbarian: Feat (4th, 8th, 12th, 16th and 19th Level)"
+  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Extra Attack":
+  title: "Barbarian: Extra Attack (5th Level)"
+  desc: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Fast Movement":
+  title: "Barbarian: Fast Movement (5th Level)"
+  desc: "Your speed increases by 10 feet while you aren't wearing Heavy Armor."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Feral Instinct":
+  title: "Barbarian: Feral Instinct (7th Level)"
+  desc: "Your instincts are so honed that you have Advantage on Initiative rolls and Dexterity saving throws."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Indomitable Might":
+  title: "Barbarian: Indomitable Might (9th Level)"
+  desc: "If your total for a Strength check is less than your Strength score, you can use that score in place of the total."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Brutal Critical":
+  title: "Barbarian: Brutal Critical (11th Level)"
+  desc: "When you score a critical hit with a weapon or an Unarmed Strike using Strength, the target takes extra damage equal to your Barbarian level. That damage is the same type dealt by the weapon or Unarmed Strike."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Persistent Rage":
+  title: "Barbarian: Persistent Rage (13th Level)"
+  desc: "Your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage still ends if you have the Incapacitated condition or don Heavy Armor."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Relentless Rage":
+  title: "Barbarian: Relentless Rage (15th Level)"
+  desc: "Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.\n\nEach time you use this feature after the first, the DC increases by 5. When you finish a Short Rest or Long Rest, the DC resets to 10."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Rage Resurgence":
+  title: "Barbarian: Rage Resurgence (17th Level)"
+  desc: "Whenever you roll Initiative, you regain one expended use of your Rage."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Primal Champion":
+  title: "Barbarian: Primal Champion (18th Level)"
+  desc: "You embody primal power. Your Strength and Constitution scores increase by 2, and their maximum is now 22."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Barbarian: Epic Boon":
+  title: "Barbarian: Epic Boon (20th Level)"
+  desc: "You gain the following benefits:\n\n**Ability Score Increase**. Choose your Strength or Constitution score. That score increases by 2, and its maximum is now 30.\n\n**Epic Boon Feat**. You gain the Epic Boon of Irresistible Offense or another Epic Boon feat of your choice."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+
+# =========================================
+# BARBARIAN: PATH OF THE BERSERKER FEATURES
+# =========================================
+
+"Path of the Berserker: Frenzy":
+  title: "Path of the Berserker: Frenzy (3rd Level)"
+  desc: "You can go into a frenzy in battle. If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Path of the Berserker: Mindless Rage":
+  title: "Path of the Berserker: Mindless Rage (6th Level)"
+  desc: "You have immunity to the Charmed and Frightened conditions while your Rage is active. If you are Charmed or Frightened when you enter your Rage, that condition ends on you."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Path of the Berserker: Retaliation":
+  title: "Path of the Berserker: Retaliation (10th Level)"
+  desc: "When you take damage from a creature that is within 5 feet of you, you can use your Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Path of the Berserker: Intimidating Presence":
+  title: "Path of the Berserker: Intimidating Presence (14th Level)"
+  desc: "As an action, you can strike terror into others with your menacing presence, as you swell with primal power. When you do so, each creature of your choice within 30 feet of you—or 60 feet of you if your Rage is active—must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier), provided the creature isn't behind Total Cover. On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the saving throw, ending the effect on itself on a successful save.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. If you've run out of uses of this feature, you can expend a use of your Rage, choosing not to activate the Rage and activating Intimidating Presence instead."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"

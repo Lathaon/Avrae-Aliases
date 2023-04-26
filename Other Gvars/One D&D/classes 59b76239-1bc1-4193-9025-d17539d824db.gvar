@@ -1,6 +1,21 @@
 # Guinea Pigs of Neverwinter
 # One D&D Classes
 # load_yaml(get_gvar("59b76239-1bc1-4193-9025-d17539d824db"))
+Barbarian:
+  desc: "**Class Group**: Warrior\n**Primary Ability**: Strength\n\n`1` Rage, Unarmored Defense, Weapon Mastery\n`2` Primal Knowledge, Reckless Attack\n`3` Barbarian Subclass\n`4` Feat\n`5` Extra Attack, Fast Movement\n`6` Subclass Feature\n`7` Feral Instinct\n`8` Feat\n`9` Indomitable Might\n`10` Subclass Feature\n`11` Brutal Critical\n`12` Feat\n`13` Persistent Rage\n`14` Subclass Feature\n`15` Relentless Rage\n`16` Feat\n`17` Rage Resurgence\n`18` Primal Champion\n`19` Feat\n`20` Epic Boon"
+  fields:
+  - title: Hit Points
+    body: "**Hit Dice**: 1d12 per Barbarian level\n**Hit Points at 1st Level**: 8 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d12 (or 7) + your Constitution modifier"
+  - title: Proficiencies
+    body: "**Saving Throws**: Strength, Constitution\n**Skills [Choose 2]**: Animal Handling, Athletics, Intimidation, Nature, Perception, Survival\n**Weapons**: Simple Weapons, Martial Weapons\n**Tools**: None"
+  - title: Armor Training
+    body: "Light Armor, Medium Armor, Shields"
+  - title: Starting Equipment
+    body: "As a 1st-level character,  you start with the following equipment,  or you can forgo it and spend 75 GP on equipment of your choice.\n\Explorer's Pack\n(a) Greataxe or (b) Battleaxe, Shield, and 10 GP\nHandaxe (4)\n15 GP"
+  - title: Multiclassing and the Barbarian
+    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Barbarian as one of your classes.\n\n***Ability Score Minimum***. As a multiclass character,  you must have a score of at least 13 in the Barbarian's primary ability,  Strength, to take a level in this class or to take a level in another class if you are already a Barbarian.\n\n***Proficiencies Gained***. If Barbarian isn't your initial class, you gain proficiency with Martial Weapons when you take your first Barbarian level.\n\n***Armor Training***. When you gain your first Barbarian level,  you gain armor training with Shields."
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
 Bard:
   desc: "**Class Group**: Expert\n**Primary Ability**: Charisma\n\n`1` Bardic Inspiration, Spellcasting\n`2` Expertise, Songs of Restoration\n`3` Bard Subclass\n`4` Feat\n`5` Jack of All Trades\n`6` Subclass Feature\n`7` Font of Bardic Inspiration\n`8` Feat\n`9` Expertise\n`10` Subclass Feature\n`11` Magical Secrets\n`12` Feat\n`13` —\n`14` Subclass Feature\n`15` Further Magical Secrets\n`16` Feat\n`17` —\n`18` Superior Bardic Inspiration\n`19` Feat\n`20` Epic Boon"
   fields:
