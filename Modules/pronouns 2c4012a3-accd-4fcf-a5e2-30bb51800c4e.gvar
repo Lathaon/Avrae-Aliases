@@ -66,7 +66,7 @@ def they(default = "they"):
     """
     Returns a subject pronoun (he/she/they) for the active character.
     This is randomly chosen from the `/`-separated pronouns in the `they` cvar.
-    :arg str default: the default, if the active character has no pronoun settings. default: "they"
+    :kwarg str default: the default, if the active character has no pronoun settings. default: "they"
     :return: a subject pronoun.
     :rtype: str
     """
@@ -81,7 +81,7 @@ def They(default = "They"):
     """
     Returns a capitalized subject pronoun (He/She/They) for the active character.
     This is randomly chosen from the `/`-separated pronouns in the `they` cvar.
-    :arg str default: the default, if the active character has no pronoun settings. default: "They"
+    :kwarg str default: the default, if the active character has no pronoun settings. default: "They"
     :return: a capitalized subject pronoun.
     :rtype: str
     """
@@ -91,7 +91,7 @@ def them(default = "them"):
     """
     Returns an object pronoun (her/him/them) for the active character.
     This is randomly chosen from the `/`-separated pronouns in the `them` cvar.
-    :arg str default: the default, if the active character has no pronoun settings. default: "them"
+    :kwarg str default: the default, if the active character has no pronoun settings. default: "them"
     :return: an object pronoun.
     :rtype: str
     """
@@ -105,7 +105,7 @@ def Them(default = "Them"):
     """
     Returns a capitalized object pronoun (Her/Him/Them) for the active character.
     This is randomly chosen from the `/`-separated pronouns in the `them` cvar.
-    :arg str default: the default, if the active character has no pronoun settings. default: "Them"
+    :kwarg str default: the default, if the active character has no pronoun settings. default: "Them"
     :return: a capitalized object pronoun.
     :rtype: str
     """
@@ -115,7 +115,7 @@ def their(default = "their"):
     """
     Returns a possessive determiner (her/his/their) for the active character.
     This is randomly chosen from the `/`-separated pronouns in the `their` cvar.
-    :arg str default: the default, if the active character has no pronoun settings. default: "their"
+    :kwarg str default: the default, if the active character has no pronoun settings. default: "their"
     :return: a possessive determiner.
     :rtype: str
     """
@@ -129,7 +129,7 @@ def Their(default = "Their"):
     """
     Returns a possessive determiner (Her/His/Their) for the active character.
     This is randomly chosen from the `/`-separated pronouns in the `their` cvar.
-    :arg str default: the default, if the active character has no pronoun settings. default: "Their"
+    :kwarg str default: the default, if the active character has no pronoun settings. default: "Their"
     :return: a capitalized possessive determiner.
     :rtype: str
     """
@@ -139,7 +139,7 @@ def theirs(default = "theirs"):
     """
     Returns an independent possessive pronoun (hers/his/theirs) for the active character.
     This is randomly chosen from the `/`-separated pronouns in the `theirs` cvar.
-    :arg str default: the default, if the active character has no pronoun settings. default: "theirs"
+    :kwarg str default: the default, if the active character has no pronoun settings. default: "theirs"
     :return: an independent possessive pronoun.
     :rtype: str
     """
@@ -153,7 +153,7 @@ def Theirs(default = "Theirs"):
     """
     Returns a capitalized independent possessive pronoun (Hers/His/Theirs) for the active character.
     This is randomly chosen from the `/`-separated pronouns in the `theirs` cvar.
-    :arg str default: the default, if the active character has no pronoun settings. default: "Theirs"
+    :kwarg str default: the default, if the active character has no pronoun settings. default: "Theirs"
     :return: a capitalized independent possessive pronoun.
     :rtype: str
     """
@@ -163,7 +163,7 @@ def gendered(default = "gender-neutral"):
     """
     Returns an adjective describing the pronouns (female, male, gender-neutral) for the active character.
     This is randomly chosen from the `/`-separated pronouns in the `gendered` cvar.
-    :arg str default: the default, if the active character has no pronoun settings. default: "gender-neutral"
+    :kwarg str default: the default, if the active character has no pronoun settings. default: "gender-neutral"
     :return: an adjective describing the character's pronouns.
     :rtype: str
     """
@@ -173,7 +173,7 @@ def Gendered(default = "Gender-neutral"):
     """
     Returns an adjective describing the pronouns (Female, Male, Gender-neutral) for the active character.
     This is randomly chosen from the `/`-separated pronouns in the `gendered` cvar.
-    :arg str default: the default, if the active character has no pronoun settings. default: "Gender-neutral"
+    :kwarg str default: the default, if the active character has no pronoun settings. default: "Gender-neutral"
     :return: an adjective describing the character's pronouns.
     :rtype: str
     """
