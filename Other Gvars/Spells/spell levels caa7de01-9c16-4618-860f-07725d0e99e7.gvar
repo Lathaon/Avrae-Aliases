@@ -1,4 +1,5 @@
 # SPELL_LEVELS = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
+
 Abi-Dalzim's Horrid Wilting: 8
 Absorb Elements: 1
 Acid Arrow: 2
@@ -16,6 +17,7 @@ Animate Objects: 5
 Antilife Shell: 5
 Antimagic Field: 8
 Antipathy/Sympathy: 8
+Arcane Eruption: 4
 Arcane Eye: 4
 Arcane Gate: 6
 Arcane Hand: 5
@@ -42,8 +44,8 @@ Bestow Curse: 3
 Bigby's Hand: 5
 Black Tentacles: 4
 Blade Barrier: 6
-Blade Ward: 0
 Blade of Disaster: 9
+Blade Ward: 0
 Bless: 1
 Blight: 4
 Blinding Smite: 3
@@ -51,8 +53,9 @@ Blindness/Deafness: 2
 Blink: 3
 Blur: 2
 Bones of the Earth: 6
-Borrowed Knowledge: 2
+Book of Shadows: 0
 Booming Blade: 0
+Borrowed Knowledge: 2
 Branding Smite: 2
 Burning Hands: 1
 Call Lightning: 3
@@ -104,9 +107,10 @@ Create Bonfire: 0
 Create Food and Water: 3
 Create Homunculus: 6
 Create Magen: 7
+Create or Destroy Water: 1
+Create Spell: 5
 Create Spelljamming Helm: 5
 Create Undead: 6
-Create or Destroy Water: 1
 Creation: 5
 Crown of Madness: 2
 Crown of Stars: 7
@@ -180,8 +184,8 @@ Feign Death: 3
 Find Familiar: 1
 Find Greater Steed: 4
 Find Steed: 2
-Find Traps: 2
 Find the Path: 6
+Find Traps: 2
 Finger of Death: 7
 Fire Bolt: 0
 Fire Shield: 4
@@ -320,6 +324,7 @@ Maze: 8
 Meld into Stone: 3
 Melf's Acid Arrow: 2
 Melf's Minute Meteors: 3
+Memorize Spell: 3
 Mending: 0
 Mental Prison: 6
 Message: 0
@@ -334,6 +339,7 @@ Mirror Image: 2
 Mislead: 5
 Misty Step: 2
 Modify Memory: 5
+Modify Spell: 4
 Mold Earth: 0
 Moonbeam: 2
 Mordenkainen's Faithful Hound: 4
@@ -349,6 +355,8 @@ Nystul's Magic Aura: 2
 Otiluke's Freezing Sphere: 6
 Otiluke's Resilient Sphere: 4
 Otto's Irresistible Dance: 6
+Pact Familiar: 0
+Pact Weapon: 0
 Pass without Trace: 2
 Passwall: 5
 Phantasmal Force: 2
@@ -383,11 +391,11 @@ Purify Food and Drink: 1
 Pyrotechnics: 2
 Raise Dead: 5
 Rary's Telepathic Bond: 5
+Raulothim's Psychic Lance: 4
 Ravenous Void: 9
 Ray of Enfeeblement: 2
 Ray of Frost: 0
 Ray of Sickness: 1
-Raulothim's Psychic Lance: 4
 Reality Break: 8
 Regenerate: 7
 Reincarnate: 5
@@ -404,6 +412,7 @@ Sanctuary: 1
 Sapping Sting: 0
 Scatter: 6
 Scorching Ray: 2
+Scribe Spell: 1
 Scrying: 5
 Searing Smite: 1
 Secret Chest: 4
@@ -432,6 +441,9 @@ Sleet Storm: 3
 Slow: 3
 Snare: 1
 Snilloc's Snowball Swarm: 2
+Sorcerous Burst: 0
+Sorcerous Vitality: 3
+Sorcery Incarnate: 5
 Soul Cage: 6
 Spare the Dying: 0
 Speak with Animals: 1
@@ -447,8 +459,8 @@ Steel Wind Strike: 5
 Stinking Cloud: 3
 Stone Shape: 4
 Stoneskin: 4
-Storm Sphere: 4
 Storm of Vengeance: 9
+Storm Sphere: 4
 Suggestion: 2
 Summon Aberration: 4
 Summon Beast: 2

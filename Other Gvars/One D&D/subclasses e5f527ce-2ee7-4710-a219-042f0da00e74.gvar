@@ -2,6 +2,19 @@
 # One D&D Subclasses
 # load_yaml(get_gvar("e5f527ce-2ee7-4710-a219-042f0da00e74"))
 
+"Barbarian: Path of the Berserker":
+  desc: "For some barbarians, rage is a means to an end—that end being violence. The Path of the Berserker is a path of untrammeled fury. As you enter the berserker’s rage, you thrill in the chaos of battle."
+  fields:
+  - title: "3rd Level: Frenzy"
+    body: "You can go into a frenzy in battle. If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack."
+  - title: "6th Level: Mindless Rage"
+    body: "You have immunity to the Charmed and Frightened conditions while your Rage is active. If you are Charmed or Frightened when you enter your Rage, that condition ends on you."
+  - title: "10th Level: Retaliation"
+    body: "When you take damage from a creature that is within 5 feet of you, you can use your Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike."
+  - title: "14th Level: Intimidating Presence"
+    body: "As an action, you can strike terror into others with your menacing presence, as you swell with primal power. When you do so, each creature of your choice within 30 feet of you—or 60 feet of you if your Rage is active—must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier), provided the creature isn't behind Total Cover. On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the saving throw, ending the effect on itself on a successful save.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. If you've run out of uses of this feature, you can expend a use of your Rage, choosing not to activate the Rage and activating Intimidating Presence instead."
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
 "Bard: College of Lore":
   desc: "Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or performing elaborate compositions in royal courts, these Bards use their gifts to hold audiences spellbound.\n\nThe college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at selfimportant figures of authority."
   fields:
@@ -47,6 +60,23 @@
     body: "You have learned to use lunar magic to alter your physical form in innumerable ways. You always have the Alter Self spell prepared, and you can cast it without expending a Spell Slot. It also doesn't count against the number of spells you have prepared."
   - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
 
+"Fighter: Champion":
+  desc: "A Champion focuses on the development of martial prowess honed to deadly perfection. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory."
+  fields:
+  - title: "3rd Level: Adaptable Victor"
+    body: "You've studied your friends and foes alike and learned that victory relies on adaptability. Whenever you finish a Long Rest, you can gain proficiency in one skill from those available to this class at 1st level, as you remind yourself of past lessons. This proficiency lasts until the end of your next Long Rest."
+  - title: "3rd Level: Improved Critical"
+    body: "Your attack rolls with weapons and Unarmed Strikes can score a critical hit on a roll of 19 or 20."
+  - title: "6th Level: Additional Fighting Style"
+    body: "You gain another Fighting Style feat of your choice."
+  - title: "6th Level: Heroic Warrior"
+    body: "The thrill of battle drives you toward victory. Once per combat, you can give yourself Heroic Advantage if you start your turn without it."
+  - title: "10th Level: Superior Critical"
+    body: "Your attack rolls with weapons and Unarmed Strikes can now score a critical hit on a roll of 18–20."
+  - title: "14th Level: Survivor"
+    body: "You attain the pinnacle of resilience in battle, giving you these benefits:\n\n**Defy Death**. You have Advantage on death saving throws. Moreover, when you roll an 18–20 on a death save, you gain the benefit of rolling a 20.\n\n**Heroic Rally**. At the start of each of your turns, you regain Hit Points equal to 5 + your Constitution modifier if you have no more than half your Hit Points left. You don't gain this benefit if you have 0 Hit Points."
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
 "Paladin: Oath of Devotion":
   desc: "The Oath of Devotion binds a Paladin to the loftiest ideals of justice and order. These Paladins meet the ideal of the knight in shining armor. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.\n\n> **TENETS OF DEVOTION**\n> \n> Though the exact words and strictures of the Oath of Devotion vary, Paladins of this oath share these tenets.\n> \n> **Honesty**. Don't lie or cheat. Let your word be your promise.\n> \n> **Courage**. Never fear to act, though caution is wise.\n> \n> **Compassion**. Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.\n> \n> **Honor**. Treat others with fairness, and let your honorable deeds be an example to them.\n> \n> **Duty**. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you."
   fields:
@@ -91,3 +121,52 @@
   - title: "14th Level: Thief's Reflexes"
     body: "You can now take a second Bonus Action on your turn, provided it is the Bonus Action from Cunning Action. You can use this feature on a number of turns equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+
+"Sorcerer: Draconic Sorcery":
+  desc: "Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power, perhaps the location where a great dragon was slain. Or perhaps you handled a treasure taken from a dragon's hoard, some precious item that was infused with draconic power. Or you might even claim a dragon for an ancestor or wield draconic magic by virtue of your Dragonborn heritage."
+  fields:
+  - title: "3rd Level: Draconic Resilience"
+    body: "The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3 and increases by 1 again whenever you gain another Sorcerer level.\n\nParts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 + your Dexterity modifier + your Charisma modifier."
+  - title: "3rd Level: Dragon Speech"
+    body: "Your draconic gift causes your speech to be understood by all creatures of the Dragon type, and you understand their communication."
+  - title: "6th Level: Elemental Affinity"
+    body: "Your draconic magic has an affinity with one of the damage types associated with dragons. Choose one of those types: Acid, Cold, Fire, Poison, or Lightning.\n\nYou have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell."
+  - title: "6th Level: Heroic Warrior"
+    body: "The thrill of battle drives you toward victory. Once per combat, you can give yourself Heroic Advantage if you start your turn without it."
+  - title: "10th Level: Draconic Exhalation"
+    body: "Once per turn when you cast *Sorcerous Burst*, you can exhale it in a 15-foot cone rather than selecting a target within range. To cast the spell in this way, you must choose the damage type associated with your Elemental Affinity feature. When you do so, you make separate attack and damage rolls against each creature in the spell's cone."
+  - title: "14th Level: Dragon Wings"
+    body: "Your innate magic can now manifest as spectral draconic wings on your back. While your *Sorcery Incarnate* spell is active, you sprout those wings, gain a Fly Speed equal to your Speed, and can hover. In addition, at the end of each of your turns, you can flap the wings to unleash magical energy, dealing damage to each creature of your choice within 15 feet of yourself. The damage equals your Charisma modifier, and it is the damage type of your Elemental Affinity feature."
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Warlock: Fiend Patron":
+  desc: "Your pact draws on the power of the Lower Planes of existence—the homes of demons, devils, yugoloths, and other Fiends. When you choose this subclass, you might forge a bargain with a demon lord such as Demogorgon, Orcus, Fraz'Urb-luu, or Baphomet; an archdevil such as Asmodeus, Dispater, Mephistopheles, or Belial; a pit fiend or balor that is especially mighty; or an ultroloth or some other lord of the yugoloths. Alternatively, you might call on a varied array of Fiends without binding yourself to the service of one. In any case, your patron’s aims are evil—the corruption or destruction of all things, ultimately including you—and your path will be defined by the extent to which you strive against those aims."
+  fields:
+  - title: "3rd Level: Patron Spells"
+    body: "The magic of your otherworldly patron grants you the following benefits:\n\n**Prepared Spells**. You always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.\n\n**Free Casting**. You can cast one of your prepared spells from this feature without expending a Spell Slot, and you must finish a Long Rest before you use this benefit again."
+  - title: "Fiend Spells Table"
+    body: "```\n| Warlock Level | Spells\n|---------------+-------------------------------\n| 3rd           | Burning Hands, Command\n| 5th           | Scorching Ray, Suggestion\n| 9th           | Fear, Stinking Cloud\n| 13th          | Blight, Wall of Fire\n| 17th          | Flame Strike, Insect Plague\n```"
+  - title: "3rd Level: Dark One's Blessing"
+    body: "When you reduce an enemy to 0 Hit Points or an enemy drops to 0 Hit Points within 5 feet of you, you gain Temporary Hit Points equal to your spellcasting ability modifier + your Warlock level (minimum of 1)."
+  - title: "6th Level: Dark One's Own Luck"
+    body: "You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.\n\nYou can use this feature a number of times equal to your spellcasting ability modifier (minimum of once), and you regain all uses when you finish a Long Rest."
+  - title: "10th Level: Fiendish Resilience"
+    body: "Channeling the preternatural resilience of Fiends, you can choose one damage type, other than Force, whenever you finish a Short Rest or Long Rest. You gain Resistance to that damage type until you choose a different one with this feature."
+  - title: "14th Level: Hurl through Hell"
+    body: "When you hit a creature with an attack roll, you can use this feature to instantly transport the target through the Lower Planes. The creature disappears and hurtles through a nightmare landscape.\n\nAt the end of your next turn, the target returns to the space it previously occupied or the nearest unoccupied space. If the target is not a Fiend, it must make a Wisdom saving throw against your Spell Save Dc upon its return. On a failed save, the target takes 10d10 Psychic damage. On a successful save, it takes half as much damage.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again. You can use this feature only once per turn."
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+
+"Wizard: Evoker":
+  desc: "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as adventurers."
+  fields:
+  - title: "3rd Level: Evocation Savant"
+    body: "Choose two Evocation spells from the Arcane spell list, each of which must be no higher than 2nd level. You add those spells to your spellbook without needing to cast Scribe Spell.\n\nIn addition, whenever you cast *Scribe Spell* to add a spell to your spellbook, the gold cost and casting time you must spend to add an Evocation spell to your spellbook is halved."
+  - title: "3rd Level: Sculpt Spells"
+    body: "You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+  - title: "6th Level: Potent Cantrip"
+    body: "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
+  - title: "10th Level: Empowered Evocation"
+    body: "Whenever you cast an Evocation spell from the Arcane spell list, you can add your Intelligence modifier to one damage roll of that spell."
+  - title: "14th Level: Overchannel"
+    body: "You can increase the power of your spells. When you cast an Arcane or a Wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.\n\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12. This damage ignores Resistance and Immunity."
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"

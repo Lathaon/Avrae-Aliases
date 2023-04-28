@@ -50,13 +50,13 @@ Epic Boon of Combat Prowess:
   fields:
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
 Epic Boon of Dimensional Travel:
-  desc: "*20th-Level Feat*\n\n**Prerequisite**: Expert or Mage Group\n**Repeatable**: No\n\nYou can cast the Misty Step Spell without expending a Spell Slot. Once you use this benefit, you can’t use it again until you roll Initiative or finish a Short Rest or a Long Rest."
+  desc: "*Prerequisite: 20th Level, Expert or Mage Group*\n\nYou gain the following benefits:\n\n**Ability Score Increase**. Increase your Dexterity, Intelligence, Wisdom, or Charisma by 1, to a maximum of 30.\n\n**Blink Steps**. Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
 Epic Boon of Energy Resistance:
-  desc: "*20th-Level Feat*\n\n**Prerequisite**: Expert or Mage Group\n**Repeatable**: No\n\nYou gain Resistance to one of the following Damage Types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder. Whenever you finish a Short Rest or a Long Rest, you can meditate and change that Damage Type choice."
+  desc: "*Prerequisite: 20th Level, Expert or Mage Group*\n\nYou gain the following benefits:\n\n**Ability Score Increase**. Increase your Constitution, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.\n\n**Energy Resistances**. You gain Resistance to two of the following damage types of your choice: Acid, Cold, Fire, Lightning, Necrotic, Poison, Psychic, Radiant, or Thunder. Whenever you finish a Long Rest, you can meditate and change those choices.\n\n**Energy Redirection**. When you take damage of a type to which you have Resistance, you can use your Reaction to direct damage of the same type toward another creature you can see within 60 feet of yourself that isn’t behind Total Cover. If you do so, that creature must succeed on a Dexterity saving throw (Dc equals 8 + your Proficiency Bonus + the ability modifier of the score increased by this feat) or take damage equal to 2d12 + your Constitution modifier."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
 Epic Boon of Fate:
   desc: "*Prerequisite: 20th Level, Mage or Priest Group*\n\nYou gain the following benefits:\n\n**Ability Score Increase**. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.\n\n**Improve Fate**. When another creature within 60 feet of you fails a d20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. You can use this benefit no more than once per turn. You have 8 uses of this benefit, and whenever you finish a Long Rest, you regain 2d4 expended uses."
   fields:
@@ -66,33 +66,33 @@ Epic Boon of Fortitude:
   fields:
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
 Epic Boon of Irresistible Offense:
-  desc: "*20th-Level Feat*\n\n**Prerequisite**: Expert or Warrior Group\n**Repeatable**: No\n\nThe damage you deal always ignores Resistance."
+  desc: "*Prerequisite: 20th Level, Expert or Warrior Group*\n\nYou gain the following benefits:\n\n**Ability Score Increase**. Increase your Strength or Dexterity score by 1, to a maximum of 30.\n\n**Overcome Defenses**. The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance.\n\n**Overwhelming Strike**. When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage’s type is the same as the attack’s type. You can use this benefit only once per turn."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
 Epic Boon of Luck:
   desc: "*20th-Level Feat*\n\n**Prerequisite**: Expert Group\n**Repeatable**: No\n\nImmediately after you roll a d20 for a d20 Test, you can roll a d10 and add the number rolled to the test. Once you use this benefit, you can’t use it again until you roll Initiative or finish a Short Rest or a Long Rest."
   fields:
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
 Epic Boon of the Night Spirit:
-  desc: "*20th-Level Feat*\n\n**Prerequisite**: Expert or Mage Group\n**Repeatable**: No\n\nWhile within Dim Light or Darkness, you can become Invisible as an Action. You remain Invisible until immediately after you take an Action or a Reaction."
+  desc: "*Prerequisite: 20th Level, Expert or Mage Group*\n\nYou gain the following benefits:\n\n**Ability Score Increase**. Increase your Dexterity, Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.\n\n**Merge with Shadows**. While entirely within Dim Light or Darkness, you can give yourself the Invisible condition as a Magic action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.\n\n**Shadowy Form**. While entirely within Dim Light or Darkness, you have Resistance to all damage except Force, Psychic, and Radiant."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
 Epic Boon of Peerless Aim:
   desc: "*20th-Level Feat*\n\n**Prerequisite**: Expert or Warrior Group\n**Repeatable**: No\n\nIf you make a Ranged Attack against a target in range and miss, you can cause the attack to hit instead. Once you use this benefit, you can’t use it again until you roll Initiative."
   fields:
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
 Epic Boon of Recovery:
-  desc: "*20th-Level Feat*\n\n**Prerequisite**: None\n**Repeatable**: No\n\nYou can use a Bonus Action to regain a number of Hit Points equal to half your Hit Point Maximum. Once you use this benefit, you can’t use it again until you finish a Long Rest.\n\nIn addition, you succeed on every Death Saving Throw that isn’t a roll of 1."
+  desc: "*Prerequisite: 20th Level*\n\nYou gain the following benefits:\n\n**Ability Score Increase**. Increase your Constitution score by 1, to a maximum of 30.\n\n**Last Stand**. When you would be reduced to 0 Hit Points, you can drop to 1 Hit Point instead and regain a number of Hit Points equal to half your Hit Point Maximum. Once you use this benefit, you can’t use it again until you finish a Long Rest.\n\n**Death Defiant**. When you take damage while you have 0 Hit Points, you can make a death saving throw instead of suffering a death saving throw failure."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
 Epic Boon of Skill Proficiency:
   desc: "*20th-Level Feat*\n\n**Prerequisite**: None\n**Repeatable**: No\n\nYou gain Proficiency in all Skills."
   fields:
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
 Epic Boon of Speed:
-  desc: "*20th-Level Feat*\n\n**Prerequisite**: Expert or Warrior Group\n**Repeatable**: No\n\nYour Speed increases by 30 feet."
+  desc: "*Prerequisite: 20th Level, Expert or Warrior Group*\n\nYou gain the following benefits:\n\n**Ability Score Increase**. Increase your Dexterity score by 1, to a maximum of 30.\n\n**Escape Artist**. As a Bonus Action, you can take the Disengage Action, which also ends the Grappled and Restrained conditions on you.\n\n**Quickness**. Your Speed increases by 30 feet."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
 Epic Boon of Spell Recall:
   desc: "*Prerequisite: 20th Level, Mage or Priest Group*\n\nYou gain the following benefits:\n\n**Ability Score Increase**. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30.\n\n**Free Casting**. Whenever you cast a spell with a Spell Slot of 1st, 2nd, 3rd, or 4th level, roll a d4. If the number you roll equals the slot’s level, the slot isn’t expended."
   fields:
@@ -249,5 +249,11 @@ War Caster:
   desc: "*4th-Level Feat*\n\n**Prerequisite**: Spellcasting or Pact Magic Feature\n**Repeatable**: No\n\nYou have practiced casting spells in the midst of combat, granting you the following benefits:\n\n**Ability Score Increase**. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.\n\n**Concentration**. You have Advantage on Constitution Saving Throws that you make to maintain your Concentration.\n\n**Reactive Spell**. When a creature provokes an Opportunity Attack from you by moving out of your Reach, you can use your Reaction to cast a Spell at the creature, rather than making an Opportunity Attack. The Spell must have a casting time of one Action and must target only that creature.\n\n**Somatic Components**. You can perform the Somatic Components of Spells even when you have Weapons or a Shield in one or both hands."
   fields:
   - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+Weapon Master:
+  desc: "*Prerequisite: 4th+ Level*\n\nYou gain the following benefits:\n\n**Ability Score Increase**. Increase your Strength, or Dexterity score by 1, to a maximum of 20.\n\n**Mastery Property**. Your training with weapons allows you to use the Mastery property of one kind of Simple or Martial weapon of your choice, provided you are proficient with it. Whenever you finish a Long Rest, you can change the kind of weapon you chose to another eligible kind."
+  fields:
+  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
 Weapon Training:
   desc: "*4th-Level Feat*\n\n**Prerequisite**: None\n**Repeatable**: No\n\nYou have practiced extensively with a variety of weapons, gaining the following benefits:\n\n**Ability Score Increase**. Increase your Strength or Dexterity score by 1, to a maximum of 20.\n\n**Weapon Proficiency**. You gain Martial Weapon Proficiency."
+  fields:
+  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"

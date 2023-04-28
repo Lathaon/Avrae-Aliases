@@ -1,0 +1,48 @@
+# Guinea Pigs of Neverwinter
+# One D&D Item Catalog for !inv and !bag
+# load_yaml(get_gvar("835a94e2-7324-42dc-b3f7-6fbd0f8a286e"))
+
+
+# REVERTED IN PACKET 5
+# =======================================
+# All Artisans' Tools are now 15gp
+# alchemistssupplies: {name: Alchemist's Supplies, weight: 8, cost: 15gp}
+# brewerssupplies: {name: Brewer's Supplies, weight: 9, cost: 15gp}
+# calligrapherssupplies: {name: Calligrapher's Supplies, weight: 5, cost: 15gp}
+# carpenterstools: {name: Carpenter's Tools, weight: 6, cost: 15gp}
+# cartographerstools: {name: Cartographer's Tools, weight: 6, cost: 15gp}
+# cobblerstools: {name: Cobbler's Tools, weight: 5, cost: 15gp}
+# cooksutensils: {name: Cook's Utensils, weight: 8, cost: 15gp}
+# glassblowerstools: {name: Glassblower's Tools, weight: 5, cost: 15gp}
+# jewelerstools: {name: Jeweler's Tools, weight: 2, cost: 15gp}
+# leatherworkerstools: {name: Leatherworker's Tools, weight: 5, cost: 15gp}
+# masonstools: {name: Mason's Tools, weight: 8, cost: 15gp}
+# painterssupplies: {name: Painter's Supplies, weight: 5, cost: 15gp}
+# potterstools: {name: Potter's Tools, weight: 3, cost: 15gp}
+# smithstools: {name: Smith's Tools, weight: 8, cost: 15gp}
+# tinkerstools: {name: Tinker's Tools, weight: 10, cost: 15gp}
+# weaverstools: {name: Weaver's Tools, weight: 5, cost: 15gp}
+# woodcarverstools: {name: Woodcarver's Tools, weight: 5, cost: 15gp}
+
+# REVERTED IN PACKET 5
+# =======================================
+# All Gaming Sets are now 1gp
+# diceset: {name: Dice Set, weight: 0, cost: 1gp}
+# dragonchessset: {name: Dragonchess Set, weight: 0.5, cost: 1gp}
+# playingcardset: {name: Playing Card Set, weight: 0, cost: 1gp}
+# threedragonanteset: {name: Three-Dragon Ante Set, weight: 0, cost: 1gp}
+
+# REVERTED IN PACKET 5
+# =======================================
+# All Musical Instruments are now 20gp
+# bagpipes: {name: Bagpipes, weight: 6, cost: 20gp}
+# drum: {name: Drum, weight: 3, cost: 20gp}
+# dulcimer: {name: Dulcimer, weight: 10, cost: 20gp}
+# flute: {name: Flute, weight: 1, cost: 20gp}
+# horn: {name: Horn, weight: 2, cost: 20gp}
+# lute: {name: Lute, weight: 2, cost: 20gp}
+# lyre: {name: Lyre, weight: 2, cost: 20gp}
+# panflute: {name: Pan flute, weight: 2, cost: 20gp}
+# shawm: {name: Shawm, weight: 1, cost: 20gp}
+# viol: {name: Viol, weight: 1, cost: 20gp}
+# =======================================

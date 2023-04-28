@@ -111,14 +111,12 @@ Bard:
 - Prestidigitation
 - Thunderclap
 - True Strike
-- Vicious Mockery
 - Charm Person
 - Color Spray
 - Command
 - Comprehend Languages
 - Detect Magic
 - Disguise Self
-- Dissonant Whispers
 - Distort Value
 - Earth Tremor
 - Expeditious Retreat
@@ -810,10 +808,14 @@ Sorcerer:
 - Ray of Frost
 - Shape Water
 - Shocking Grasp
+- Sorcerous Burst
 - Sword Burst
 - Thunderclap
 - True Strike
 - Absorb Elements
+- Alarm
+- Armor of Agathys
+- Arms of Hadar
 - Burning Hands
 - Catapult
 - Chaos Bolt
@@ -828,26 +830,39 @@ Sorcerer:
 - Expeditious Retreat
 - False Life
 - Feather Fall
+- Find Familiar
 - Fog Cloud
 - Grease
+- Hellish Rebuke
+- Hex
 - Ice Knife
+- Identify
+- Illusory Script
 - Jump
+- Longstrider
 - Mage Armor
 - Magic Missile
+- Protection from Evil and Good
 - Ray of Sickness
 - Shield
 - Silent Image
 - Silvery Barbs
 - Sleep
 - Tasha's Caustic Brew
+- Tasha's Hideous Laughter
+- Tenser's Floating Disk
 - Thunderwave
+- Unseen Servant
 - Witch Bolt
 - Aganazzar's Scorcher
 - Air Bubble
 - Alter Self
+- Arcane Lock
 - Blindness/Deafness
 - Blur
+- Calm Emotions
 - Cloud of Daggers
+- Continual Flame
 - Crown of Madness
 - Darkness
 - Darkvision
@@ -857,6 +872,7 @@ Sorcerer:
 - Earthbind
 - Enhance Ability
 - Enlarge/Reduce
+- Enthrall
 - Flame Blade
 - Flaming Sphere
 - Gust of Wind
@@ -865,15 +881,21 @@ Sorcerer:
 - Kinetic Jaunt
 - Knock
 - Levitate
+- Locate Object
+- Magic Mouth
 - Magic Weapon
 - Maximilian's Earthen Grasp
+- Melf's Acid Arrow
 - Mind Spike
 - Mirror Image
 - Misty Step
 - Nathair's Mischief
+- Nystul's Magic Aura
 - Phantasmal Force
 - Pyrotechnics
+- Ray of Enfeeblement
 - Rime's Binding Ice
+- Rope Trick
 - Scorching Ray
 - See Invisibility
 - Shadow Blade
@@ -886,7 +908,9 @@ Sorcerer:
 - Warding Wind
 - Web
 - Wither and Bloom
+- Animate Dead
 - Ashardalon's Stride
+- Bestow Curse
 - Blink
 - Catnap
 - Clairvoyance
@@ -900,16 +924,25 @@ Sorcerer:
 - Flame Arrows
 - Fly
 - Gaseous Form
+- Glyph of Warding
 - Haste
+- Hunger of Hadar
 - Hypnotic Pattern
 - Incite Greed
 - Intellect Fortress
+- Leomund's Tiny Hut
 - Lightning Bolt
+- Magic Circle
 - Major Image
 - Melf's Minute Meteors
+- Nondetection
+- Phantom Steed
 - Protection from Energy
+- Remove Curse
+- Sending
 - Sleet Storm
 - Slow
+- Sorcerous Vitality
 - Stinking Cloud
 - Thunder Step
 - Tidal Wave
@@ -918,18 +951,33 @@ Sorcerer:
 - Wall of Water
 - Water Breathing
 - Water Walk
+- Arcane Eruption
+- Arcane Eye
 - Banishment
 - Blight
 - Charm Monster
+- Compulsion
 - Confusion
+- Conjure Minor Elementals
+- Control Water
 - Dimension Door
 - Dominate Beast
+- Evard's Black Tentacles
+- Fabricate
 - Fire Shield
 - Greater Invisibility
+- Hallucinatory Terrain
 - Ice Storm
+- Leomund's Secret Chest
+- Locate Creature
+- Mordenkainen's Faithful Hound
+- Mordenkainen's Private Sanctum
+- Otiluke's Resilient Sphere
+- Phantasmal Killer
 - Polymorph
 - Raulothim's Psychic Lance
 - Sickening Radiance
+- Stone Shape
 - Stoneskin
 - Storm Sphere
 - Vitriolic Sphere
@@ -939,42 +987,63 @@ Sorcerer:
 - Bigby's Hand
 - Cloudkill
 - Cone of Cold
+- Conjure Elemental
+- Contact Other Plane
 - Control Winds
 - Creation
 - Dominate Person
+- Dream
 - Enervation
 - Far Step
+- Geas
 - Hold Monster
 - Immolation
 - Insect Plague
+- Legend Lore
+- Mislead
+- Modify Memory
+- Passwall
+- Planar Binding
+- Rary's Telepathic Bond
+- Scrying
 - Seeming
 - Skill Empowerment
+- Sorcery Incarnate
 - Summon Draconic Spirit
 - Synaptic Static
 - Telekinesis
 - Teleportation Circle
+- Wall of Force
 - Wall of Light
 - Wall of Stone
 - Arcane Gate
 - Chain Lightning
 - Circle of Death
+- Contingency
+- Create Undead
 - Disintegrate
+- Drawmij's Instant Summons
 - Eyebite
 - Fizban's Platinum Shield
 - Flesh to Stone
 - Globe of Invulnerability
+- Guards and Wards
 - Investiture of Flame
 - Investiture of Ice
 - Investiture of Stone
 - Investiture of Wind
+- Magic Jar
 - Mass Suggestion
 - Mental Prison
 - Move Earth
 - Otiluke's Freezing Sphere
+- Otto's Irresistible Dance
+- Programmed Illusion
 - Scatter
 - Sunbeam
 - Tasha's Otherworldly Guise
 - True Seeing
+- Wall of Ice
 - Crown of Stars
 - Delayed Blast Fireball
 - Draconic Transformation
@@ -982,92 +1051,189 @@ Sorcerer:
 - Etherealness
 - Finger of Death
 - Fire Storm
+- Forcecage
+- Mirage Arcane
+- Mordenkainen's Magnificent Mansion
+- Mordenkainen's Sword
 - Plane Shift
 - Power Word Pain
 - Prismatic Spray
+- Project Image
 - Reverse Gravity
+- Sequester
+- Simulacrum
+- Symbol
 - Teleport
 - Whirlwind
 - Abi-Dalzim's Horrid Wilting
+- Antimagic Field
+- Antipathy/Sympathy
+- Clone
+- Control Weather
 - Demiplane
 - Dominate Monster
 - Earthquake
+- Feeblemind
+- Glibness
 - Incendiary Cloud
+- Maze
+- Mind Blank
 - Power Word Stun
 - Sunburst
+- Telepathy
+- Astral Projection
 - Blade of Disaster
+- Foresight
 - Gate
+- Imprisonment
 - Mass Polymorph
 - Meteor Swarm
 - Power Word Kill
+- Prismatic Wall
 - Psychic Scream
+- Shapechange
 - Time Stop
+- True Polymorph
+- Weird
 - Wish
 Warlock:
+- Acid Splash
 - Blade Ward
+- Book of Shadows
 - Booming Blade
 - Chill Touch
 - Create Bonfire
+- Dancing Lights
 - Eldritch Blast
+- Fire Bolt
 - Friends
 - Frostbite
 - Green-Flame Blade
 - Infestation
+- Light
 - Lightning Lure
 - Mage Hand
 - Magic Stone
+- Mending
+- Message
 - Mind Sliver
 - Minor Illusion
+- Pact Familiar
+- Pact Weapon
 - Poison Spray
 - Prestidigitation
+- Ray of Frost
+- Shocking Grasp
 - Sword Burst
 - Thunderclap
 - Toll the Dead
 - True Strike
+- Alarm
 - Armor of Agathys
 - Arms of Hadar
+- Burning Hands
 - Cause Fear
 - Charm Person
+- Chromatic Orb
+- Color Spray
 - Comprehend Languages
+- Detect Magic
+- Disguise Self
 - Distort Value
 - Expeditious Retreat
+- False Life
+- Feather Fall
+- Find Familiar
+- Fog Cloud
+- Grease
 - Hellish Rebuke
 - Hex
+- Identify
 - Illusory Script
+- Jump
+- Longstrider
+- Mage Armor
+- Magic Missile
 - Protection from Evil and Good
+- Ray of Sickness
+- Shield
+- Silent Image
+- Sleep
+- Tasha's Hideous Laughter
+- Tenser's Floating Disk
+- Thunderwave
 - Unseen Servant
 - Witch Bolt
+- Alter Self
+- Arcane Lock
+- Blindness/Deafness
+- Blur
 - Borrowed Knowledge
+- Calm Emotions
 - Cloud of Daggers
+- Continual Flame
 - Crown of Madness
 - Darkness
+- Darkvision
+- Detect Thoughts
 - Earthbind
+- Enlarge/Reduce
 - Enthrall
+- Flaming Sphere
 - Flock of Familiars
+- Gust of Wind
 - Hold Person
 - Invisibility
+- Knock
+- Levitate
+- Locate Object
+- Magic Mouth
+- Magic Weapon
+- Melf's Acid Arrow
 - Mind Spike
 - Mirror Image
 - Misty Step
+- Nystul's Magic Aura
+- Phantasmal Force
 - Ray of Enfeeblement
+- Rope Trick
+- Scorching Ray
+- See Invisibility
 - Shadow Blade
 - Shatter
 - Spider Climb
 - Suggestion
+- Web
+- Animate Dead
+- Bestow Curse
+- Blink
+- Clairvoyance
 - Counterspell
 - Dispel Magic
 - Enemies Abound
 - Fear
+- Fireball
 - Fly
 - Gaseous Form
+- Glyph of Warding
+- Haste
 - Hunger of Hadar
 - Hypnotic Pattern
 - Incite Greed
 - Intellect Fortress
+- Leomund's Tiny Hut
+- Lightning Bolt
 - Magic Circle
 - Major Image
+- Nondetection
+- Phantom Steed
+- Protection from Energy
 - Remove Curse
+- Sending
+- Sleet Storm
+- Slow
 - Spirit Shroud
+- Stinking Cloud
 - Summon Fey
 - Summon Lesser Demons
 - Summon Shadowspawn
@@ -1075,71 +1241,146 @@ Warlock:
 - Thunder Step
 - Tongues
 - Vampiric Touch
+- Water Breathing
+- Arcane Eye
 - Banishment
 - Blight
 - Charm Monster
+- Compulsion
+- Confusion
+- Conjure Minor Elementals
+- Control Water
 - Dimension Door
 - Elemental Bane
+- Evard's Black Tentacles
+- Fabricate
+- Fire Shield
 - Galder's Speedy Courier
+- Greater Invisibility
 - Hallucinatory Terrain
+- Ice Storm
+- Leomund's Secret Chest
+- Locate Creature
+- Mordenkainen's Faithful Hound
+- Mordenkainen's Private Sanctum
+- Otiluke's Resilient Sphere
+- Phantasmal Killer
+- Polymorph
 - Raulothim's Psychic Lance
 - Shadow of Moil
 - Sickening Radiance
+- Stone Shape
+- Stoneskin
 - Summon Aberration
 - Summon Greater Demon
+- Wall of Fire
+- Animate Objects
+- Bigby's Hand
+- Cloudkill
+- Cone of Cold
+- Conjure Elemental
 - Contact Other Plane
+- Creation
 - Danse Macabre
+- Dominate Person
 - Dream
 - Enervation
 - Far Step
+- Geas
 - Hold Monster
 - Infernal Calling
+- Legend Lore
 - Mislead
+- Modify Memory
 - Negative Energy Flood
+- Passwall
 - Planar Binding
+- Rary's Telepathic Bond
 - Scrying
+- Seeming
 - Synaptic Static
+- Telekinesis
 - Teleportation Circle
+- Wall of Force
 - Wall of Light
+- Wall of Stone
 - Arcane Gate
+- Chain Lightning
 - Circle of Death
 - Conjure Fey
+- Contingency
 - Create Undead
+- Disintegrate
+- Drawmij's Instant Summons
 - Eyebite
 - Flesh to Stone
+- Globe of Invulnerability
+- Guards and Wards
 - Investiture of Flame
 - Investiture of Ice
 - Investiture of Stone
 - Investiture of Wind
+- Magic Jar
 - Mass Suggestion
 - Mental Prison
+- Move Earth
+- Otiluke's Freezing Sphere
+- Otto's Irresistible Dance
+- Programmed Illusion
 - Scatter
 - Soul Cage
 - Summon Fiend
+- Sunbeam
 - Tasha's Otherworldly Guise
 - True Seeing
+- Wall of Ice
 - Crown of Stars
+- Delayed Blast Fireball
 - Dream of the Blue Veil
 - Etherealness
 - Finger of Death
 - Forcecage
+- Mirage Arcane
+- Mordenkainen's Magnificent Mansion
+- Mordenkainen's Sword
 - Plane Shift
 - Power Word Pain
+- Prismatic Spray
+- Project Image
+- Reverse Gravity
+- Sequester
+- Simulacrum
+- Symbol
+- Teleport
+- Antimagic Field
+- Antipathy/Sympathy
+- Clone
+- Control Weather
 - Demiplane
 - Dominate Monster
 - Feeblemind
 - Glibness
+- Incendiary Cloud
 - Maddening Darkness
+- Maze
+- Mind Blank
 - Power Word Stun
+- Sunburst
+- Telepathy
 - Astral Projection
 - Blade of Disaster
 - Foresight
 - Gate
 - Imprisonment
+- Meteor Swarm
 - Power Word Kill
+- Prismatic Wall
 - Psychic Scream
+- Shapechange
+- Time Stop
 - True Polymorph
 - Weird
+- Wish
 Wizard:
 - Acid Splash
 - Blade Ward
@@ -1173,6 +1414,8 @@ Wizard:
 - True Strike
 - Absorb Elements
 - Alarm
+- Armor of Agathys
+- Arms of Hadar
 - Burning Hands
 - Catapult
 - Cause Fear
@@ -1191,6 +1434,8 @@ Wizard:
 - Fog Cloud
 - Frost Fingers
 - Grease
+- Hellish Rebuke
+- Hex
 - Ice Knife
 - Identify
 - Illusory Script
@@ -1201,6 +1446,7 @@ Wizard:
 - Magic Missile
 - Protection from Evil and Good
 - Ray of Sickness
+- Scribe Spell
 - Shield
 - Silent Image
 - Silvery Barbs
@@ -1220,6 +1466,7 @@ Wizard:
 - Blindness/Deafness
 - Blur
 - Borrowed Knowledge
+- Calm Emotions
 - Cloud of Daggers
 - Continual Flame
 - Crown of Madness
@@ -1231,6 +1478,7 @@ Wizard:
 - Earthbind
 - Enhance Ability
 - Enlarge/Reduce
+- Enthrall
 - Flaming Sphere
 - Flock of Familiars
 - Gentle Repose
@@ -1290,6 +1538,7 @@ Wizard:
 - Gaseous Form
 - Glyph of Warding
 - Haste
+- Hunger of Hadar
 - Hypnotic Pattern
 - Incite Greed
 - Intellect Fortress
@@ -1299,6 +1548,7 @@ Wizard:
 - Magic Circle
 - Major Image
 - Melf's Minute Meteors
+- Memorize Spell
 - Nondetection
 - Phantom Steed
 - Protection from Energy
@@ -1325,6 +1575,7 @@ Wizard:
 - Banishment
 - Blight
 - Charm Monster
+- Compulsion
 - Confusion
 - Conjure Minor Elementals
 - Control Water
@@ -1340,6 +1591,7 @@ Wizard:
 - Ice Storm
 - Leomund's Secret Chest
 - Locate Creature
+- Modify Spell
 - Mordenkainen's Faithful Hound
 - Mordenkainen's Private Sanctum
 - Otiluke's Resilient Sphere
@@ -1364,6 +1616,7 @@ Wizard:
 - Conjure Elemental
 - Contact Other Plane
 - Control Winds
+- Create Spell
 - Create Spelljamming Helm
 - Creation
 - Danse Macabre
@@ -1456,6 +1709,7 @@ Wizard:
 - Demiplane
 - Dominate Monster
 - Feeblemind
+- Glibness
 - Illusory Dragon
 - Incendiary Cloud
 - Maddening Darkness
