@@ -46,3 +46,47 @@
 # shawm: {name: Shawm, weight: 1, cost: 20gp}
 # viol: {name: Viol, weight: 1, cost: 20gp}
 # =======================================
+
+# PACKET 5 - Most Unchanged
+# =======================================
+# club: {name: Club, weight: 2, cost: 1sp}
+# dagger: {name: Dagger, weight: 1, cost: 2gp}
+# greatclub: {name: Greatclub, weight: 10, cost: 2sp}
+# handaxe: {name: Handaxe, weight: 2, cost: 5gp}
+# javelin: {name: Javelin, weight: 2, cost: 5sp}
+# lighthammer: {name: Light Hammer, weight: 2, cost: 2gp}
+# mace: {name: Mace, weight: 4, cost: 5gp}
+# quarterstaff: {name: Quarterstaff, weight: 4, cost: 2sp}
+# sickle: {name: Sickle, weight: 2, cost: 1gp}
+# spear: {name: Spear, weight: 3, cost: 1gp}
+# lightcrossbow: {name: Light Crossbow, weight: 5, cost: 25gp}
+# dart: {name: Dart, weight: 0.25, cost: 5cp}
+# shortbow: {name: Shortbow, weight: 2, cost: 25gp}
+# sling: {name: Sling, weight: 0, cost: 1sp}
+# battleaxe: {name: Battleaxe, weight: 4, cost: 10gp}
+# flail: {name: Flail, weight: 2, cost: 10gp}
+# glaive: {name: Glaive, weight: 6, cost: 20gp}
+# greataxe: {name: Greataxe, weight: 7, cost: 30gp}
+# greatsword: {name: Greatsword, weight: 6, cost: 50gp}
+# halberd: {name: Halberd, weight: 6, cost: 20gp}
+# lance: {name: Lance, weight: 6, cost: 10gp}
+# longsword: {name: Longsword, weight: 3, cost: 15gp}
+# maul: {name: Maul, weight: 10, cost: 10gp}
+# morningstar: {name: Morningstar, weight: 4, cost: 15gp}
+# pike: {name: Pike, weight: 18, cost: 5gp}
+# rapier: {name: Rapier, weight: 2, cost: 25gp}
+# scimitar: {name: Scimitar, weight: 3, cost: 25gp}
+# shortsword: {name: Shortsword, weight: 2, cost: 10gp}
+# trident: {name: Trident, weight: 4, cost: 5gp}
+# warpick: {name: War Pick, weight: 2, cost: 5gp}
+# warhammer: {name: Warhammer, weight: 2, cost: 15gp}
+# whip: {name: Whip, weight: 3, cost: 2gp}
+# blowgun: {name: Blowgun, weight: 1, cost: 10gp}
+# handcrossbow: {name: Hand Crossbow, weight: 3, cost: 75gp}
+# heavycrossbow: {name: Heavy Crossbow, weight: 18, cost: 50gp}
+# longbow: {name: Longbow, weight: 2, cost: 50gp}
+musket: {name: Musket, weight: 10, cost: 500gp}
+pistol: {name: Pistol, weight: 3, cost: 250gp}
+# net: {name: Net, weight: 3, cost: 1gp}
+priestspack: {name: "Priest's Pack", weight: 0, cost: 33gp, pack: [[Priest's Pack, {}], [Priest's Pack/Backpack, {blanket: 1, lamp: 1, flaskofholywater: 1, dayofrations: 7, robes: 1, tinderbox: 1}]]}
+# =======================================
