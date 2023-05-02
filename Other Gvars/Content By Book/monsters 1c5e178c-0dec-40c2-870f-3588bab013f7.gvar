@@ -2949,3 +2949,12 @@
   - Simon Aumar
   - Sofina
   - Xenk Yendar
+- name: 'Misplaced Monsters: Volume One'
+  proper: true
+  monsters:
+  - Coral
+  - Dandylion
+  - Rain
+  - Scrapper
+  - Seth the Shapeshifting Dragon
+  - Sheldon the Blueberry Dragon
