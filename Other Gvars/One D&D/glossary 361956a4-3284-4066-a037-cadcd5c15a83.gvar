@@ -149,7 +149,7 @@ Flex [Mastery Property]:
 Graze [Mastery Property]:
   desc: "*Prerequisite: Melee Weapon, Heavy Property*\n\nIf your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can’t be increased in any way, other than increasing the ability modifier."
 Nick [Mastery Property]:
-  desc: "*Prerequisite: Light Property*\n\nWhen you make the extra attack of the Light property, you can make it as part of the Attackaction, instead of as a Bonus Action. You can still make this extra attack only once per turn."
+  desc: "*Prerequisite: Light Property*\n\nWhen you make the extra attack of the Light property, you can make it as part of the Attack action, instead of as a Bonus Action. You can still make this extra attack only once per turn."
 Push [Mastery Property]:
   desc: "*Prerequisite: Heavy, Two-Handed, or Versatile Property*\n\nIf you hit a creature with this weapon, you can push the creature up to 10 feet away from you if it is no more than one size larger than you."
 Sap [Mastery Property]:

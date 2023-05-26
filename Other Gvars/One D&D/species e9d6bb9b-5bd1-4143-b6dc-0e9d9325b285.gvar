@@ -101,7 +101,7 @@ Orc:
   desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 6–7 feet tall)\n**Speed**: 30 feet\n**Life Span**: 80 years on average\n\nAs an Orc, you have these special traits."
   fields:
   - title: Adrenaline Rush
-    body: You can take the Dash Action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+    body: "You can take the Dash Action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
   - title: Darkvision
     body: You have Darkvision with a range of 60 feet.
   - title: Powerful Build

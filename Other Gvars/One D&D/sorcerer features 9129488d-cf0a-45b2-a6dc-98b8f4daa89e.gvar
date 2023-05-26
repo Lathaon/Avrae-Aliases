@@ -4,7 +4,7 @@
 
 "Sorcerer: Innate Sorcery":
   title: "Sorcerer: Innate Sorcery (1st Level)"
-  desc: "An event in your past left an indelible mark on you, infusing you with a simmering magic that is sometimes challenging to control. You always have the Sorcerous Burst and Chaos Bolt spells prepared."
+  desc: "An event in your past left an indelible mark on you, infusing you with a simmering magic that is sometimes challenging to control. You always have the *Sorcerous Burst* and *Chaos Bolt* spells prepared."
   fields:
   - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
 
