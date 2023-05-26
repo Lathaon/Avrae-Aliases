@@ -1,0 +1,68 @@
+# acronyms = load_yaml(get_gvar("42f9e433-4535-46ef-972a-2b33e490f27c"))
+"Basic Rules": BR
+"Monster Manual": MM 
+"Mordenkainen Presents: Monsters of the Multiverse": MotM
+"Dungeon Master's Guide": DMG
+"Tasha's Cauldron of Everything": TCoE
+"Xanathar's Guide to Everything": XGtE
+"Fizban's Treasury of Dragons": FToD
+"Volo's Guide to Monsters": VGtM
+"Mordenkainen's Tome of Foes": MToF
+"Mordenkainen's Fiendish Folio Volume 1": MFFV1
+"Monstrous Compendium Vol 1: Spelljammer Creatures": MCv1
+"Monstrous Compendium Vol 2: Dragonlance Creatures": MCv2
+"Monstrous Compendium Vol 3: Minecraft Creatures": MCv3
+"Explorer's Guide to Wildemount": EGtW
+"Explorer's Guide to Wildemount: Frozen Sick": EGtWFS
+"Critical Role: Call of the Netherdeep": CotN
+"Van Richten's Guide to Ravenloft": VRGtR
+"Spelljammer: Adventures in Space": SAiS
+"Eberron: Rising from the Last War": ERftLW
+"Wayfinder's Guide to Eberron": WGtE
+"Mythic Odysseys of Theros": MOoT
+"Guildmasters' Guide to Ravnica": GGtR
+"Strixhaven: A Curriculum of Chaos": SACoC
+"Acquisitions Incorporated": AI
+"The Tortle Package": TTP
+"Dragons of Stormwreck Isle": DoSI
+"Essentials Kit: Dragon of Icespire Peak": DoIP
+"Essentials Kit: Storm Lord's Wrath": SLW
+"Essentials Kit: Sleeping Dragon's Wake": SDW
+"Essentials Kit: Divine Contention": DC
+"Tales from the Yawning Portal: The Sunless Citadel": TSC
+"Tales from the Yawning Portal: The Forge of Fury": TFoF
+"Tales from the Yawning Portal: The Hidden Shrine of Tamoachan": THSoT
+"Tales from the Yawning Portal: White Plume Mountain": WPM
+"Tales from the Yawning Portal: Dead in Thay": DiT
+"Tales from the Yawning Portal: Against the Giants": AtG
+"Tales from the Yawning Portal: Tomb of Horrors": ToH
+"Baldur's Gate: Descent into Avernus": BGDiA
+"Candlekeep Mysteries": CM
+"Icewind Dale: Rime of the Frostmaiden": IDRotF
+"Waterdeep: Dragon Heist": WDH
+"Waterdeep: Dungeon of the Mad Mage": WDotMM
+"Storm King's Thunder": SKT
+"Princes of the Apocalypse": PotA
+"Out of the Abyss": OotA
+"Tomb of Annihilation": ToA
+"Lost Mine of Phandelver": LMoP
+"Hoard of the Dragon Queen": HotDQ
+"Rise of Tiamat": RoT
+"Locathah Rising": LR
+"Ghosts of Saltmarsh": GoS
+"Lost Laboratory of Kwalish": LLoK
+"Infernal Machine Rebuild": IMR
+"Curse of Strahd": CoS
+"The Wild Beyond the Witchlight": TWBtW
+"Journeys through the Radiant Citadel": JttRC
+"Spelljammer Academy": SA
+"Dragonlance: Shadow of the Dragon Queen": SotDQ
+"Dungeons & Dragons vs. Rick and Morty": DDvRaM
+"Hunt for the Thessalhydra": HftT
+"Rrakkma": R
+"Vecna Dossier": TVD
+"Prisoner 13": P13
+"Keys from the Golden Vault": KftGV
+"Thieves' Gallery": TG
+"Tyranny of Dragons": ToD
+"Legendary Magic Items": LMI
