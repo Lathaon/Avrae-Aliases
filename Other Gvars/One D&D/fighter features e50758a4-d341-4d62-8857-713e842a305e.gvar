@@ -9,7 +9,7 @@
   - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
 
 "Fighter: Second Wind":
-  title: "Fighter: Unarmored Defense (1st Level)"
+  title: "Fighter: Second Wind (1st Level)"
   desc: "You have a limited well of stamina that you can draw on to recover from harm. As a Bonus Action, you can regain Hit Points equal to 1d10 + your Fighter level.\n\nYou can use this feature twice, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter table."
   fields:
   - title: "Fighter Table: Second Wind"

@@ -176,7 +176,7 @@
 
 "Warlock: Eldritch Invocations: Repelling Blast":
   title: "Warlock Eldritch Invocation: Repelling Blast"
-  desc: "*Prerequisite: Non*e\n\nWhenever you hit a creature that is Large or smaller with Eldritch Blast, you can push that creature horizontally up to 10 feet straight away from you."
+  desc: "*Prerequisite: Non*e\n\nWhenever you hit a creature that is Large or smaller with *Eldritch Blast*, you can push that creature horizontally up to 10 feet straight away from you."
   fields:
   - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
 
