@@ -1,0 +1,187 @@
+# Guinea Pigs of Neverwinter
+# One D&D Spell Categories - Unofficial Additions Recommended by Lathaon
+# load_yaml(get_gvar("2ad77f4b-7b7c-4741-99b8-7cb4571598a3"))
+Arcane:
+- Booming Blade
+- Control Flames
+- Create Bonfire
+- Encode Thoughts
+- Green-Flame Blade
+- Gust
+- Infestation
+- Lightning Lure
+- Magic Stone
+- Mold Earth
+- Shape Water
+- Sword Burst
+- Absorb Elements
+- Catapult
+- Cause Fear
+- Distort Value
+- Earth Tremor
+- Frost Fingers
+- Ice Knife
+- Jim's Magic Missile
+- Silvery Barbs
+- Snare
+- Tasha's Caustic Brew
+- Aganazzar's Scorcher
+- Air Bubble
+- Borrowed Knowledge
+- Dragon's Breath
+- Dust Devil
+- Earthbind
+- Flock of Familiars
+- Gift of Gab
+- Jim's Glowing Coin
+- Kinetic Jaunt
+- Maximilian's Earthen Grasp
+- Mind Spike
+- Nathair's Mischief
+- Pyrotechnics
+- Rime's Binding Ice
+- Shadow Blade
+- Skywrite
+- Snilloc's Snowball Swarm
+- Tasha's Mind Whip
+- Vortex Warp
+- Warding Wind
+- Wither and Bloom
+- Ashardalon's Stride
+- Catnap
+- Enemies Abound
+- Erupting Earth
+- Fast Friends
+- Flame Arrows
+- Galder's Tower
+- Incite Greed
+- Intellect Fortress
+- Life Transference
+- Melf's Minute Meteors
+- Spirit Shroud
+- Summon Fey
+- Summon Lesser Demons
+- Summon Shadowspawn
+- Summon Undead
+- Thunder Step
+- Tidal Wave
+- Tiny Servant
+- Wall of Sand
+- Wall of Water
+- Charm Monster
+- Elemental Bane
+- Galder's Speedy Courier
+- Raulothim's Psychic Lance
+- Shadow of Moil
+- Sickening Radiance
+- Storm Sphere
+- Summon Aberration
+- Summon Construct
+- Summon Elemental
+- Summon Greater Demon
+- Vitriolic Sphere
+- Watery Sphere
+- Control Winds
+- Create Spelljamming Helm
+- Danse Macabre
+- Dawn
+- Enervation
+- Far Step
+- Immolation
+- Infernal Calling
+- Negative Energy Flood
+- Skill Empowerment
+- Steel Wind Strike
+- Summon Draconic Spirit
+- Synaptic Static
+- Transmute Rock
+- Wall of Light
+- Create Homunculus
+- Fizban's Platinum Shield
+- Investiture of Flame
+- Investiture of Ice
+- Investiture of Stone
+- Investiture of Wind
+- Mental Prison
+- Scatter
+- Soul Cage
+- Summon Fiend
+- Tasha's Otherworldly Guise
+- Tenser's Transformation
+- Create Magen
+- Crown of Stars
+- Draconic Transformation
+- Dream of the Blue Veil
+- Power Word Pain
+- Whirlwind
+- Abi-Dalzim's Horrid Wilting
+- Illusory Dragon
+- Maddening Darkness
+- Mighty Fortress
+- Blade of Disaster
+- Invulnerability
+- Mass Polymorph
+- Psychic Scream
+
+Divine:
+- Ceremony
+- Borrowed Knowledge
+- Fast Friends
+- Incite Greed
+- Life Transference
+- Motivational Speech
+- Spirit Shroud
+- Dawn
+- Holy Weapon
+- Summon Celestial
+- Temple of the Gods
+
+Primal:
+- Control Flames
+- Create Bonfire
+- Gust
+- Infestation
+- Magic Stone
+- Mold Earth
+- Primal Savagery
+- Shape Water
+- Absorb Elements
+- Beast Bond
+- Earth Tremor
+- Ice Knife
+- Snare
+- Zephyr Strike
+- Air Bubble
+- Dust Devil
+- Earthbind
+- Healing Spirit
+- Skywrite
+- Summon Beast
+- Warding Wind
+- Wither and Bloom
+- Ashardalon's Stride
+- Erupting Earth
+- Flame Arrows
+- Summon Fey
+- Tidal Wave
+- Wall of Water
+- Charm Monster
+- Elemental Bane
+- Guardian of Nature
+- Summon Elemental
+- Watery Sphere
+- Control Winds
+- Maelstrom
+- Steel Wind Strike
+- Summon Draconic Spirit
+- Transmute Rock
+- Wrath of Nature
+- Bones of the Earth
+- Druid Grove
+- Investiture of Flame
+- Investiture of Ice
+- Investiture of Stone
+- Investiture of Wind
+- Primordial Ward
+- Draconic Transformation
+- Whirlwind

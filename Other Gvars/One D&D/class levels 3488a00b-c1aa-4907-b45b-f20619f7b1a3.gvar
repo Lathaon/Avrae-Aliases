@@ -1,0 +1,659 @@
+# Guinea Pigs of Neverwinter
+# One D&D Class Levels
+# load_yaml(get_gvar("3488a00b-c1aa-4907-b45b-f20619f7b1a3"))
+
+Barbarian:
+  #  1st Level
+  - features:
+    - "Barbarian: Rage"
+    - "Barbarian: Unarmored Defense"
+    - "Barbarian: Weapon Mastery"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Gain proficiency with Martial Weapons"
+    - "Gain armor training with Shields"
+  #  2nd Level
+  - features:
+    - "Barbarian: Primal Knowledge"
+    - "Barbarian: Reckless Attack"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+  #  3rd Level
+  - features:
+    - "Barbarian: Barbarian Subclass"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Number of Rages increases from 2 to 3."
+  #  4th Level
+  - features:
+    - "Barbarian: Feat"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Gain a third Weapon Mastery."
+  #  5th Level
+  - features:
+    - "Barbarian: Extra Attack"
+    - "Barbarian: Fast Movement"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+  #  6th Level
+  - features:
+    - "Barbarian: Barbarian Subclass"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Number of Rages increases from 3 to 4."
+  #  7th Level
+  - features:
+    - "Barbarian: Feral Instinct"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+  #  8th Level
+  - features:
+    - "Barbarian: Feat"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+  #  9th Level
+  - features:
+    - "Barbarian: Indomitable Might"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Rage Damage increases from +2 to +3"
+  # 10th Level
+  - features:
+    - "Barbarian: Barbarian Subclass"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Gain a fourth Weapon Mastery."
+  # 11th Level
+  - features:
+    - "Barbarian: Brutal Critical"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+  # 12th Level
+  - features:
+    - "Barbarian: Feat"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Brutal Critical damage increases from 11 to 12."
+    - "Number of Rages increases from 4 to 5."
+  # 13th Level
+  - features:
+    - "Barbarian: Persistent Rage"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Brutal Critical damage increases from 12 to 13."
+  # 14th Level
+  - features:
+    - "Barbarian: Barbarian Subclass"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Brutal Critical damage increases from 13 to 14."
+  # 15th Level
+  - features:
+    - "Barbarian: Relentless Rage"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Brutal Critical damage increases from 14 to 15."
+  # 16th Level
+  - features:
+    - "Barbarian: Feat"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Brutal Critical damage increases from 15 to 16."
+    - "Rage Damage increases from +3 to +4"
+  # 17th Level
+  - features:
+    - "Barbarian: Rage Resurgence"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Brutal Critical damage increases from 16 to 17."
+    - "Number of Rages increases from 5 to 6."
+  # 18th Level
+  - features:
+    - "Barbarian: Primal Champion"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Brutal Critical damage increases from 17 to 18."
+  # 19th Level
+  - features:
+    - "Barbarian: Feat"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Brutal Critical damage increases from 18 to 19."
+  # 20th Level
+  - features:
+    - "Barbarian: Epic Boon"
+    improvements:
+    - "Gain a d12 Hit Die"
+    - "Max Hit Points increase by 7 + CON mod"
+    - "Brutal Critical damage increases from 19 to 20."
+
+Bard:
+  #  1st Level
+  - features:
+    - "Bard: Bardic Inspiration"
+    - "Bard: Spellcasting"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain proficiency with one skill of your choice and one Musical Instrument of your choice"
+    - "Gain Light Armor training"
+    - "Increase your level by 1 for purposes of spell slots"
+  #  2nd Level
+  - features:
+    - "Bard: Expertise"
+    - "Bard: Jack of All Trades"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st level (total of 5)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st level"
+  #  3rd Level
+  - features:
+    - "Bard: Bard Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+  #  4th Level
+  - features:
+    - "Bard: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain a third Cantrip"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+  #  5th Level
+  - features:
+    - "Bard: Font of Inspiration"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Bardic Inspiration Die increases from d6 to d8"
+    - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+  #  6th Level
+  - features:
+    - "Bard: Bard Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+  #  7th Level
+  - features:
+    - "Bard: Countercharm"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 4th level (total of 11)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+  #  8th Level
+  - features:
+    - "Bard: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 4th level (total of 12)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+  #  9th Level
+  - features:
+    - "Bard: Expertise"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare two extra spells of 1st to 5th level (total of 14)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 5th level"
+  # 10th Level
+  - features:
+    - "Bard: Magical Secrets"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Gain a fourth Cantrip."
+    - "Bardic Inspiration Die increases from d8 to d10"
+    - "Prepare one extra spell of 1st to 5th level (total of 15)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 5th level"
+  # 11th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 6th level (total of 16)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 6th level"
+  # 12th Level
+  - features:
+    - "Bard: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 6th level"
+  # 13th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 7th level (total of 17)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 7th level"
+  # 14th Level
+  - features:
+    - "Bard: Bard Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 7th level"
+  # 15th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Bardic Inspiration Die increases from d10 to d12"
+    - "Prepare one extra spell of 1st to 8th level (total of 18)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 8th level"
+  # 16th Level
+  - features:
+    - "Bard: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 8th level"
+  # 17th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 19)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+  # 18th Level
+  - features:
+    - "Bard: Superior Inspiration"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 20)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+  # 19th Level
+  - features:
+    - "Bard: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 21)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+  # 20th Level
+  - features:
+    - "Bard: Words of Creation"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 22)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+
+Cleric:
+  #  1st Level
+  - features:
+    - "Cleric: Divine Order"
+    - "Cleric: Spellcasting"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain armor training with Light Armor, Medium Armor, and Shields"
+    - "Increase your level by 1 for purposes of spell slots"
+  #  2nd Level
+  - features:
+    - "Cleric: Channel Divinity"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st level (total of 5)"
+  #  3rd Level
+  - features:
+    - "Cleric: Cleric Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+  #  4th Level
+  - features:
+    - "Cleric: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain a fourth Cantrip"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+  #  5th Level
+  - features:
+    - "Cleric: Smite Undead"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+  #  6th Level
+  - features:
+    - "Cleric: Cleric Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Channel Divinity uses increases from 2 to 3"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+  #  7th Level
+  - features:
+    - "Cleric: Blessed Strikes"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Divine Spark gains an extra die (total of 2d8)"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 4th level (total of 11)"
+  #  8th Level
+  - features:
+    - "Cleric: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 4th level (total of 12)"
+  #  9th Level
+  - features:
+    - "Cleric: Commune"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare two extra spells of 1st to 5th level (total of 14)"
+  # 10th Level
+  - features:
+    - "Cleric: Divine Intervention"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain a fifth Cantrip."
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 5th level (total of 15)"
+  # 11th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 6th level (total of 16)"
+  # 12th Level
+  - features:
+    - "Cleric: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+  # 13th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Divine Spark gains an extra die (total of 3d8)"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 7th level (total of 17)"
+  # 14th Level
+  - features:
+    - "Cleric: Improved Blessed Strikes"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+  # 15th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 8th level (total of 18)"
+  # 16th Level
+  - features:
+    - "Cleric: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+  # 17th Level
+  - features:
+    - "Cleric: Cleric Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 19)"
+  # 18th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Channel Divinity uses increases from 3 to 4"
+    - "Divine Spark gains an extra die (total of 4d8)"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 20)"
+  # 19th Level
+  - features:
+    - "Cleric: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 21)"
+  # 20th Level
+  - features:
+    - "Cleric: Greater Divine Intervention"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 22)"
+
+Druid:
+  #  1st Level
+  - features:
+    - "Druid: Druidic"
+    - "Druid: Primal Order"
+    - "Druid: Spellcasting"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain armor training with Light Armor and Shields"
+    - "Increase your level by 1 for purposes of spell slots"
+  #  2nd Level
+  - features:
+    - "Druid: Wild Companion"
+    - "Druid: Wild Shape"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st level (total of 5)"
+  #  3rd Level
+  - features:
+    - "Druid: Druid Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+  #  4th Level
+  - features:
+    - "Druid: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain a third Cantrip"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+  #  5th Level
+  - features:
+    - "Druid: Wild Resurgence"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+  #  6th Level
+  - features:
+    - "Druid: Druid Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Wild Shape uses increases from 2 to 3"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+  #  7th Level
+  - features:
+    - "Druid: Elemental Fury"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Divine Spark gains an extra die (total of 2d8)"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 4th level (total of 11)"
+  #  8th Level
+  - features:
+    - "Druid: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 4th level (total of 12)"
+  #  9th Level
+  - features:
+    - "Druid: Commune with Nature"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare two extra spells of 1st to 5th level (total of 14)"
+  # 10th Level
+  - features:
+    - "Druid: Druid Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain a fourth Cantrip."
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 5th level (total of 15)"
+  # 11th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 6th level (total of 16)"
+  # 12th Level
+  - features:
+    - "Druid: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+  # 13th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Divine Spark gains an extra die (total of 3d8)"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 7th level (total of 17)"
+  # 14th Level
+  - features:
+    - "Druid: Druid Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+  # 15th Level
+  - features:
+    - "Druid: Improved Elemental Fury"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 8th level (total of 18)"
+  # 16th Level
+  - features:
+    - "Druid: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+  # 17th Level
+  - features: []
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Wild Shape uses increases from 3 to 4"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 19)"
+  # 18th Level
+  - features:
+    - "Druid: Beast Spells"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Divine Spark gains an extra die (total of 4d8)"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 20)"
+  # 19th Level
+  - features:
+    - "Druid: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 21)"
+  # 20th Level
+  - features:
+    - "Druid: Archdruid"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 22)"

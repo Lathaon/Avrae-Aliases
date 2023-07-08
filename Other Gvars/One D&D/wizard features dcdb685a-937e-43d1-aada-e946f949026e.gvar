@@ -3,7 +3,7 @@
 # load_yaml(get_gvar("dcdb685a-937e-43d1-aada-e946f949026e"))
 
 "Wizard: Spellcasting":
-  title: "Wizard: Spellcasting (1st Level)"
+  title: "Wizard 1st Level: Spellcasting"
   desc: "As a student of arcane magic, you have learned to cast spells. See the [Player's Handbook](https://www.dndbeyond.com/sources/phb) for the rules on spellcasting. The information below details how you use those rules as a Wizard."
   fields:
   - title: "Cantrips"
@@ -22,10 +22,10 @@
     body: "```\n| Level | Cantrips | Prepared Spells\n|-------+----------+-----------------\n|   1st |     3    |    4\n|   2nd |     3    |    5\n|   3rd |     3    |    6\n|   4th |     4    |    7\n|   5th |     4    |    9\n|   6th |     4    |   10\n|   7th |     4    |   11\n|   8th |     4    |   12\n|   9th |     4    |   14\n|  10th |     5    |   15\n|  11th |     5    |   16\n|  12th |     5    |   16\n|  13th |     5    |   17\n|  14th |     5    |   17\n|  15th |     5    |   18\n|  16th |     5    |   18\n|  17th |     5    |   19\n|  18th |     5    |   20\n|  19th |     5    |   21\n|  20th |     5    |   22\n```"
   - title: "Wizard Table: Spell Slots"
     body: "```\n| Level | 1st 2nd 3rd 4th 5th 6th 7th 8th 9th\n|-------+-------------------------------------\n|   1st |  2   —   —   —   —   —   —   —   —\n|   2nd |  3   —   —   —   —   —   —   —   —\n|   3rd |  4   2   —   —   —   —   —   —   —\n|   4th |  4   3   —   —   —   —   —   —   —\n|   5th |  4   3   2   —   —   —   —   —   —\n|   6th |  4   3   3   —   —   —   —   —   —\n|   7th |  4   3   3   1   —   —   —   —   —\n|   8th |  4   3   3   2   —   —   —   —   —\n|   9th |  4   3   3   3   1   —   —   —   —\n|  10th |  4   3   3   3   2   —   —   —   —\n|  11th |  4   3   3   3   2   1   —   —   —\n|  12th |  4   3   3   3   2   1   —   —   —\n|  13th |  4   3   3   3   2   1   1   —   —\n|  14th |  4   3   3   3   2   1   1   —   —\n|  15th |  4   3   3   3   2   1   1   1   —\n|  16th |  4   3   3   3   2   1   1   1   —\n|  17th |  4   3   3   3   2   1   1   1   1\n|  18th |  4   3   3   3   2   1   1   1   1\n|  19th |  4   3   3   3   2   2   1   1   1\n|  20th |  4   3   3   3   2   2   2   1   1\n```"
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Wizard's Spellbook":
-  title: "Wizard: Wizard's Spellbook (1st Level)"
+  title: "Wizard 1st Level: Wizard's Spellbook"
   desc: "Your Wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, and it contains 100 pages, each of which can hold a spell.\n\nThis magic book holds the wizardly spells you know, and it is a repository for your arcane findings. Writing in a magical cipher using the spell *Scribe Spell*, you have ensured that no one else can read the book without magic.\n\nThe book is vital to your Spellcasting feature, as explained there."
   fields:
   - title: "Known Spells"
@@ -36,67 +36,71 @@
     body: "You can have more than one spellbook. You can create another one—perhaps as a backup or replacement—by casting *Scribe Spell* on a blank book. Doing so adds a spell as normal and makes the book your spellbook."
   - title: "The Book's Appearance"
     body: "Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap."
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Academic":
-  title: "Wizard: Academic (2nd Level)"
+  title: "Wizard 2nd Level: Academic"
   desc: "Your time as a scholar has equipped you to recall a broad range of lore. When you take the Study action, you have Advantage on any Intelligence check you make as part of that action."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Arcane Recovery":
-  title: "Wizard: Arcane Recovery (2nd Level)"
+  title: "Wizard 2nd Level: Arcane Recovery"
   desc: "You have learned to regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended Spell Slots to recover. The Spell Slots can have a combined level that is equal to or less than half your Wizard level (rounded up), and none of the slots can be 6th level or higher.\n\nFor example, if you're a 4th-level Wizard, you can recover up to two levels worth of Spell Slots. You can recover either a 2nd-level Spell Slot or two 1st-level Spell Slots.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Wizard Subclass":
-  title: "Wizard: Wizard Subclass (3rd Level)"
+  title: "Wizard 3rd Level: Wizard Subclass"
   desc: "You gain the Evoker subclass or another Wizard subclass of your choice. The Evoker subclass is detailed after the Wizard's class description, and other subclasses will appear in future Unearthed Arcana articles.\n\nA subclass is a specialization that grants you special abilities at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level and lower. This class's description tells you the levels when your subclass provides features."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "At 6th, 10th, and 14th Level"
+    body: "You gain a feature from your Wizard subclass."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Feat":
-  title: "Wizard: Feat (4th, 8th, 12th, 16th and 19th Level)"
+  title: "Wizard 4th Level: Feat"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "At 8th, 12th, 16th, and 19th Level"
+    body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Memorize Spell":
-  title: "Wizard: Memorize Spell (5th Level)"
+  title: "Wizard 5th Level: Memorize Spell"
   desc: "In your magical research, you have unlocked the secrets of *Memorize Spell* and add that spell to your spellbook."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Modify Spell":
-  title: "Wizard: Modify Spell (7th Level)"
+  title: "Wizard 7th Level: Modify Spell"
   desc: "In your magical research, you have unlocked the secrets of *Modify Spell* and add that spell to your spellbook."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Create Spell":
-  title: "Wizard: Create Spell (9th Level)"
+  title: "Wizard 9th Level: Create Spell"
   desc: "In your magical research, you have unlocked the secrets of *Create Spell* and add that spell to your spellbook. That spell is cast immediately after *Modify Spell* and is followed by *Scribe Spell*. If you complete that trio of spells, you create a spell of your own."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Spell Mastery":
-  title: "Wizard: Spell Mastery (15th Level)"
+  title: "Wizard 15th Level: Spell Mastery"
   desc: "You have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level and a 2nd-level spell that are in your spellbook. You can cast those spells at their lowest level without expending a Spell Slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a Spell Slot as normal.\n\nBy spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Signature Spells":
-  title: "Wizard: Signature Spells (18th Level)"
+  title: "Wizard 18th Level: Signature Spells"
   desc: "You gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd level spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at 3rd level without expending a Spell Slot. When you do so, you can't do so again until you finish a Short Rest or Long Rest.\n\nIf you want to cast either spell at a higher level, you must expend a Spell Slot as normal."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Wizard: Epic Boon":
-  title: "Wizard: Epic Boon (20th Level)"
+  title: "Wizard 20th Level: Epic Boon"
   desc: "You gain the following benefits:\n\n**Ability Score Increase**. Your Intelligence score increases by 2, and its maximum is now 30.\n\n**Epic Boon Feat**. You gain the Epic Boon of Dimensional Travel or another Epic Boon feat of your choice."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 
 # =========================================
@@ -104,31 +108,31 @@
 # =========================================
 
 "Evoker: Evocation Savant":
-  title: "Evoker: Evocation Savant (3rd Level)"
+  title: "Evoker 3rd Level: Evocation Savant"
   desc: "Choose two Evocation spells from the Arcane spell list, each of which must be no higher than 2nd level. You add those spells to your spellbook without needing to cast Scribe Spell.\n\nIn addition, whenever you cast *Scribe Spell* to add a spell to your spellbook, the gold cost and casting time you must spend to add an Evocation spell to your spellbook is halved."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Evoker: Sculpt Spells":
-  title: "Evoker: Sculpt Spells (3rd Level)"
+  title: "Evoker 3rd Level: Sculpt Spells"
   desc: "You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Evoker: Potent Cantrip":
-  title: "Evoker: Potent Cantrip (6th Level)"
+  title: "Evoker 6th Level: Potent Cantrip"
   desc: "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Evoker: Empowered Evocation":
-  title: "Evoker: Empowered Evocation (10th Level)"
+  title: "Evoker 10th Level: Empowered Evocation"
   desc: "Whenever you cast an Evocation spell from the Arcane spell list, you can add your Intelligence modifier to one damage roll of that spell."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Evoker: Overchannel":
-  title: "Evoker: Overchannel (14th Level)"
+  title: "Evoker 14th Level: Overchannel"
   desc: "You can increase the power of your spells. When you cast an Arcane or a Wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.\n\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12. This damage ignores Resistance and Immunity."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"

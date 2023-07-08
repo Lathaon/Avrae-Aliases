@@ -6,19 +6,23 @@ Arcane:
 - Blade Ward
 - Chill Touch
 - Dancing Lights
+- Elementalism
 - Fire Bolt
 - Friends
+- Frostbite
 - Light
 - Mage Hand
 - Mending
 - Message
+- Mind Sliver
 - Minor Illusion
 - Poison Spray
 - Prestidigitation
 - Ray of Frost
 - Shocking Grasp
+- Thunderclap
+- Toll the Dead
 - True Strike
-- Vicious Mockery
 - Alarm
 - Armor of Agathys
 - Arms of Hadar
@@ -37,7 +41,6 @@ Arcane:
 - Fog Cloud
 - Grease
 - Hellish Rebuke
-- Hex
 - Identify
 - Illusory Script
 - Jump
@@ -233,6 +236,8 @@ Divine:
 - Sacred Flame
 - Spare the Dying
 - Thaumaturgy
+- Toll the Dead
+- Word of Radiance
 - Bane
 - Bless
 - Command
@@ -251,14 +256,11 @@ Divine:
 - Sanctuary
 - Searing Smite
 - Shield of Faith
-- Thunderous Smite
 - Wrathful Smite
 - Aid
 - Augury
 - Blindness/Deafness
-- Branding Smite
 - Calm Emotions
-- Find Steed
 - Find Traps
 - Gentle Repose
 - Hold Person
@@ -273,7 +275,6 @@ Divine:
 - Zone of Truth
 - Aura of Vitality
 - Beacon of Hope
-- Blinding Smite
 - Clairvoyance
 - Create Food and Water
 - Crusader's Mantle
@@ -296,8 +297,6 @@ Divine:
 - Freedom of Movement
 - Guardian of Faith
 - Locate Creature
-- Staggering Smite
-- Banishing Smite
 - Circle of Power
 - Commune
 - Contagion
@@ -339,8 +338,11 @@ Divine:
 - Mass Heal
 - Power Word Heal
 - True Resurrection
+
 Primal:
 - Druidcraft
+- Elementalism
+- Frostbite
 - Guidance
 - Mending
 - Message
@@ -350,6 +352,7 @@ Primal:
 - Shillelagh
 - Spare the Dying
 - Thorn Whip
+- Thunderclap
 - Animal Friendship
 - Create or Destroy Water
 - Cure Wounds
@@ -362,7 +365,6 @@ Primal:
 - Goodberry
 - Hail of Thorns
 - Healing Word
-- Hunter's Mark
 - Jump
 - Longstrider
 - Purify Food and Drink
@@ -392,7 +394,6 @@ Primal:
 - Spike Growth
 - Call Lightning
 - Conjure Animals
-- Conjure Barrage
 - Daylight
 - Dispel Magic
 - Elemental Weapon
@@ -426,7 +427,6 @@ Primal:
 - Awaken
 - Commune with Nature
 - Conjure Elemental
-- Conjure Volley
 - Greater Restoration
 - Insect Plague
 - Mass Cure Wounds

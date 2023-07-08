@@ -10,7 +10,7 @@ Human:
     body: You gain Proficiency in one Skill of your choice.
   - title: Versatile
     body: You gain the Skilled Feat or another 1st-level Feat of your choice.
-  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+  - body: "[Packet 1](https://www.dndbeyond.com/sources/ua/character-origins)"
 Dragonborn:
   desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 5–7 feet tall)\n**Speed**: 30 feet\n**Life Span**: 80 years on average\n\nAs a Dragonborn adventurer, you have the following special traits."
   fields:
@@ -26,7 +26,7 @@ Dragonborn:
     body: You have Darkvision with a range of 60 feet.
   - title: Draconic Flight
     body: When you reach 5th level, you learn how to channel the magical energy of your Draconic Ancestry to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you are Incapacitated or you retract the wings as a Bonus Action. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the energy used by your Breath Weapon. Once you use this trait, you can’t use it again until you finish a Long Rest.
-  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+  - body: "[Packet 3](https://www.dndbeyond.com/sources/ua/cleric-revised-species)"
 Dwarf:
   desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 4–5 feet tall)\n**Speed**: 30 feet\n**Life Span**: 350 years on average\n\nAs a Dwarf, you have these special traits."
   fields:
@@ -40,7 +40,7 @@ Dwarf:
     body: "Your divine creator gave you an uncanny affinity for working with stone or metal. You gain Tool Proficiency with two of the following options of your choice: Jeweler’s Tools, Mason’s Tools, Smith’s Tools, or Tinker’s Tools."
   - title: Stonecunning
     body: "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching such a surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
-  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+  - body: "[Packet 1](https://www.dndbeyond.com/sources/ua/character-origins)"
 Elf:
   desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 5–6 feet tall)\n**Speed**: 30 feet\n**Life Span**: 750 years on average\n\nAs an Elf, you have these special traits."
   fields:
@@ -60,7 +60,7 @@ Elf:
     body: You have Proficiency in the Perception Skill.
   - title: Trance
     body: You don’t need to sleep, and magic can’t put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.
-  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+  - body: "[Packet 1](https://www.dndbeyond.com/sources/ua/character-origins)"
 Gnome:
   desc: "**Creature Type**: Humanoid\n**Size**: Small (about 3–4 feet tall)\n**Speed**: 30 feet\n**Life Span**: 425 years on average\n\nAs a Gnome, you have these special traits."
   fields:
@@ -74,7 +74,7 @@ Gnome:
     body: "You know the *Minor Illusion* cantrip.\n\nYou can also cast the *Speak with Animals* Spell with this trait. You can cast it with the trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any Spell Slots you have to cast the Spell."
   - title: "Gnomish Lineage: Rock Gnome"
     body: "You know the *Mending* and *Prestidigitation* cantrips.\n\nIn addition, you can spend 10 minutes casting *Prestidigitation* to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, a fire starter, or a music box. Casting the Spell in this way consumes 10 GP worth of raw material (string, gears, and the like), which you provide during the casting.\n\nWhen you create the device, you determine its function by choosing one effect from *Prestidigitation*; the device produces that effect whenever you or another creature takes a Bonus Action to touch the device and activate it. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell’s ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn’t do both.\n\nYou can have three such devices in existence at a time, and each one dismantles itself 8 hours after its creation. You can also touch one of your devices and dismantle it as an Action. After a device is dismantled, the 10 GP of materials used to create it can be reclaimed."
-  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+  - body: "[Packet 1](https://www.dndbeyond.com/sources/ua/character-origins)"
 Goliath:
   desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 7–8 feet tall)\n**Speed**: 35 feet\n**Life Span**: 80 years on average\n\nAs a Goliath adventurer, you have the following special traits."
   fields:
@@ -84,7 +84,7 @@ Goliath:
     body: Starting at 5th level, you gain the ability to supernaturally grow. As a Bonus Action, you change your Size to Large, provided you’re in a big enough space. This transformation lasts for 10 minutes or until you end it as a Bonus Action. During that duration, you have Advantage on Strength Checks, and your Speed increases by 10 feet. Once you use this trait, you can’t use it again until you finish a Long Rest.
   - title: Powerful Build
     body: You have Advantage on any Saving Throw you make to end the Grappled condition on yourself. You also count as one Size larger when determining your carrying capacity and the weight you can push, drag, or lift.
-  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+  - body: "[Packet 3](https://www.dndbeyond.com/sources/ua/cleric-revised-species)"
 Halfling:
   desc: "**Creature Type**: Humanoid\n**Size**: Small (about 2–3 feet tall)\n**Speed**: 30 feet\n**Life Span**: 150 years on average\n\nAs a Halfling, you have these special traits."
   fields:
@@ -96,7 +96,7 @@ Halfling:
     body: When you roll a 1 on the d20 of a d20 Test, you can reroll the die, and you must use the new roll.
   - title: Naturally Stealthy
     body: You have Proficiency in the Stealth Skill.
-  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+  - body: "[Packet 1](https://www.dndbeyond.com/sources/ua/character-origins)"
 Orc:
   desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 6–7 feet tall)\n**Speed**: 30 feet\n**Life Span**: 80 years on average\n\nAs an Orc, you have these special traits."
   fields:
@@ -108,7 +108,7 @@ Orc:
     body: You count as one Size larger when determining your carrying capacity and the weight you can push, drag, or lift.
   - title: Relentless Endurance
     body: When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can’t do so again until you finish a Long Rest.
-  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+  - body: "[Packet 1](https://www.dndbeyond.com/sources/ua/character-origins)"
 Tiefling:
   desc: "**Creature Type**: Humanoid\n**Size**: Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this Race\n**Speed**: 30 feet\n**Life Span**: 100 years on average\n\nAs a Tiefling, you have these special traits."
   fields:
@@ -124,4 +124,4 @@ Tiefling:
     body: "**1st Level**. You have Resistance to Necrotic Damage. You also know the *Chill Touch* cantrip.\n**3rd Level**. *False Life*\n**5th Level**. *Ray of Enfeeblement*"
   - title: "Fiendish Legacy: Infernal"
     body: "**1st Level**. You have Resistance to Fire Damage. You also know the *Fire Bolt* cantrip.\n**3rd Level**. *Hellish Rebuke*\n**5th Level**. *Darkness*"
-  - body: "[One D&D Packet 1: Character Origins](https://www.dndbeyond.com/sources/one-dnd/character-origins)"
+  - body: "[Packet 1](https://www.dndbeyond.com/sources/ua/character-origins)"

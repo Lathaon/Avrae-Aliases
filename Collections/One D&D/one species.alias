@@ -20,7 +20,7 @@ if search := """&*&""":
 			out = SPECIES[species] | {
 				"title": species,
 				"color": "C50009",
-				"footer": f"{ctx.prefix}{ctx.alias} species [species] | @Lathaon#6649"
+				"footer": f"{ctx.prefix}{ctx.alias} species [species] | @lathaon"
 			}
 
 		# Matches multiple things.
@@ -32,7 +32,7 @@ else:
 		"title": "One D&D Species Lookup",
 		"desc": "The following Species are supported:\n\n" + ",\n".join(list(SPECIES)),
 		"color": "C50009",
-		"footer": f"{ctx.prefix}{ctx.alias} species [species] | @Lathaon#6649"
+		"footer": f"{ctx.prefix}{ctx.alias} species [species] | @lathaon"
 	}
 
 return embeds.get_output(out)

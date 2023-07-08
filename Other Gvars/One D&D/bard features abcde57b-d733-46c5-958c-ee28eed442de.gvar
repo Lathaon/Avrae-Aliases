@@ -3,96 +3,158 @@
 # load_yaml(get_gvar("abcde57b-d733-46c5-958c-ee28eed442de"))
 
 "Bard: Bardic Inspiration":
-  title: "Bard: Bardic Inspiration (1st Level)"
+  title: "Bard 1st Level: Bardic Inspiration"
   desc: "You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6."
   fields:
   - title: Using Bardic Inspiration
-    body: "You can use your Bardic Inspiration die in the following ways:\n\n**Boost a d20 Test**. When another creature within 60 feet of you that you can see or hear fails a d20 Test, you can use your Reaction to give the creature a Bardic Inspiration die. The creature rolls that die and adds the number rolled to the d20, potentially turning the failure into a success.\n\n**Heal**. Immediately after another creature within 60 feet of you that you can see or hear takes damage, you can use your Reaction to roll your Bardic Inspiration die and restore a number of Hit Points to the creature equal to the number rolled."
+    body: "As a Bonus Action, you can inspire another creature within 60 feet of yourself who can see or hear you. That creature gains one of your Bardic Inspiration dice. A creature can have only one Bardic Inspiration die at a time.\n\nOnce within the next hour when the creature fails a d20 test, the creature can roll that die and add the number rolled to the d20, potentially turning the failure into a success. A Bardic Inspiration die is expended when it's rolled."
   - title: Number of Uses
-    body: "A Bardic Inspiration die is expended when it's rolled. You can confer a Bardic Inspiration die a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest."
+    body: "You can confer a Bardic Inspiration die a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
   - title: At Higher Levels
-    body: "Your Bardic Inspiration die changes when you reach certain levels in this Class, as shown in the Bardic Die column of the Bard table. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level."
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+    body: "Your Bardic Inspiration die changes when you reach certain Bard levels, as shown in the Bardic Die column of the Bard table. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Spellcasting":
-  title: "Bard: Spellcasting (1st Level)"
-  desc: "You have learned to cast Spells through your bardic arts. See the [Player's Handbook](https://www.dndbeyond.com/sources/phb) for the rules on spellcasting. The information below details how you use those rules as a Bard."
+  title: "Bard 1st Level: Spellcasting"
+  desc: "You have learned to cast spells through your bardic arts. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as a Bard."
   fields:
-  - title: Prepared Spells
-    body: "You have the following Spells prepared: Color Spray, Disguise Self, Prestidigitation, and Vicious Mockery. \n\nAlternatively, you can prepare two 0-level Spells and two 1st-level Spells of your choice. Any Spell you prepare for this Class must be an Arcane Spell, and it must be from one of the following Schools of Magic: Divination, Enchantment, Illusion, or Transmutation.\n\nWhenever you finish a Long Rest, you can practice your bardic arts and replace any Spell you have prepared for this Class with another Arcane Spell of the same level, abiding by the school restriction above.\n\nAt higher levels in this Class, you can prepare more Spells, as shown on the Bard table. The numbers there determine the number of different Spells you can prepare of each level. For example, as a 3rd-level Bard, you can prepare two different 0-level Spells, four different 1st-level Spells, and two different 2ndlevel Spells.\n\nConsult the “Prepared Bard Spells” section for recommendations on which spells to prepare at higher levels. A Spell marked with a dagger (†) in that section is always prepared and can't be replaced when you prepare Spells."
+  - title: Chosen Spell List
+    body: "At 1st level, choose a spell list: Arcane, Divine, or Primal. The chosen list is your Bard spell list and represents the magical tradition in which you learned your bardic arts. Whichever list you choose, it includes the _Vicious Mockery_ cantrip for you."
+  - title: Cantrips
+    body: "You know two cantrips of your choice from your Bard spell list.\n\nWhenever you gain a Bard level, you can replace one of your cantrips with another cantrip of your choice from your Bard spell list.\n\nWhen you reach 4th and 10th level in this class, you learn another cantrip of your choice from your Bard spell list, as shown in the Cantrips column of the Bard table."
   - title: Spell Slots
-    body: "The Bard table shows how many Spell Slots you have at each level to cast your Bard Spells of 1st level and higher; the number of different Spells you can prepare of each level equals the number of Spell Slots you have at that level. For example, as a 5th-level Bard, you have four 1st-level Spell Slots, three 2nd-level Spell Slots, and two 3rd-level Spell Slots."
+    body: "The Bard table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest."
+  - title: Prepared Spells of 1st+ Level
+    body: "You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose four 1st-level spells from your Bard spell list.\n\nThe number of spells on your list also increases as you gain Bard levels, as shown in the Prepared Spells column of the Bard table. Whenever that number increases, choose additional spells from your Bard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 3rd-level Bard, your list of prepared spells can include six spells of 1st or 2nd level, in any combination.\n\nIf another Bard feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature."
+  - title: Changing Your Prepared Spells
+    body: "Whenever you gain a Bard level, you can replace one spell on your list with another spell for which you have spell slots and that is on your Bard spell list."
   - title: Spellcasting Ability
-    body: "Charisma is your Spellcasting Ability for your Bard Spells."
+    body: "Charisma is your Spellcasting Ability for your Bard spells."
   - title: Spellcasting Focus
-    body: "You can use a Musical Instrument as a Spellcasting Focus for the Spells you prepare for this Class."
-  - title: "Bard Table: Prepared Spells"
-    body: "```\n| Level | Cantrips | 1st 2nd 3rd 4th 5th 6th 7th 8th 9th\n|-------+----------+-------------------------------------\n| 1st   |    2     |  2   —   —   —   —   —   —   —   —\n| 2nd   |    2     |  3   —   —   —   —   —   —   —   —\n| 3rd   |    2     |  4   2   —   —   —   —   —   —   —\n| 4th   |    2     |  4   3   —   —   —   —   —   —   —\n| 5th   |    2     |  4   3   2   —   —   —   —   —   —\n| 6th   |    2     |  4   3   3   —   —   —   —   —   —\n| 7th   |    2     |  4   3   3   1   —   —   —   —   —\n| 8th   |    2     |  4   3   3   2   —   —   —   —   —\n| 9th   |    2     |  4   3   3   3   1   —   —   —   —\n| 10th  |    3     |  4   3   3   3   2   —   —   —   —\n| 11th  |    3     |  4   3   3   3   2   1   —   —   —\n| 12th  |    3     |  4   3   3   3   2   1   —   —   —\n| 13th  |    3     |  4   3   3   3   2   1   1   —   —\n| 14th  |    3     |  4   3   3   3   2   1   1   —   —\n| 15th  |    3     |  4   3   3   3   2   1   1   1   —\n| 16th  |    3     |  4   3   3   3   2   1   1   1   —\n| 17th  |    3     |  4   3   3   3   2   1   1   1   1\n| 18th  |    3     |  4   3   3   3   3   1   1   1   1\n| 19th  |    3     |  4   3   3   3   3   2   1   1   1\n| 20th  |    3     |  4   3   3   3   3   2   2   1   1\n```"
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+    body: "You can use a musical instrument as a Spellcasting Focus for the spells you cast with your Bard features."
+  - title: "Bard Table: Cantrips and Prepared Spells"
+    body: "```\n| Level | Cantrips | Prepared Spells\n|-------+----------+-----------------\n|   1st |     2    |        4\n|   2nd |     2    |        5\n|   3rd |     2    |        6\n|   4th |     3    |        7\n|   5th |     3    |        9\n|   6th |     3    |       10\n|   7th |     3    |       11\n|   8th |     3    |       12\n|   9th |     3    |       14\n|  10th |     4    |       15\n|  11th |     4    |       16\n|  12th |     4    |       16\n|  13th |     4    |       17\n|  14th |     4    |       17\n|  15th |     4    |       18\n|  16th |     4    |       18\n|  17th |     4    |       19\n|  18th |     4    |       20\n|  19th |     4    |       21\n|  20th |     4    |       22\n```"
+  - title: "Bard Table: Spell Slots"
+    body: "```\n| Level | 1st 2nd 3rd 4th 5th 6th 7th 8th 9th\n|-------+-------------------------------------\n|   1st |  2   —   —   —   —   —   —   —   —\n|   2nd |  3   —   —   —   —   —   —   —   —\n|   3rd |  4   2   —   —   —   —   —   —   —\n|   4th |  4   3   —   —   —   —   —   —   —\n|   5th |  4   3   2   —   —   —   —   —   —\n|   6th |  4   3   3   —   —   —   —   —   —\n|   7th |  4   3   3   1   —   —   —   —   —\n|   8th |  4   3   3   2   —   —   —   —   —\n|   9th |  4   3   3   3   1   —   —   —   —\n|  10th |  4   3   3   3   2   —   —   —   —\n|  11th |  4   3   3   3   2   1   —   —   —\n|  12th |  4   3   3   3   2   1   —   —   —\n|  13th |  4   3   3   3   2   1   1   —   —\n|  14th |  4   3   3   3   2   1   1   —   —\n|  15th |  4   3   3   3   2   1   1   1   —\n|  16th |  4   3   3   3   2   1   1   1   —\n|  17th |  4   3   3   3   2   1   1   1   1\n|  18th |  4   3   3   3   2   1   1   1   1\n|  19th |  4   3   3   3   2   2   1   1   1\n|  20th |  4   3   3   3   2   2   2   1   1\n```"
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Expertise":
-  title: "Bard: Expertise (2nd Level)"
-  desc: "You gain Expertise in two of your Skill Proficiencies of your choice.\n\nPerformance and Persuasion are iconic choices for a Bard if you have Proficiency in them."
+  title: "Bard 2nd Level: Expertise"
+  desc: "You gain Expertise in two of your skill proficiencies of your choice.\n\nPerformance and Persuasion are iconic choices for a Bard if you have proficiency in them."
   fields:
   - title: "At 9th Level"
-    body: "You gain Expertise in two of your Skill Proficiencies of your choice."
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
-
-"Bard: Songs of Restoration":
-  title: "Bard: Songs of Restoration (2nd Level)"
-  desc: "You have learned how to use music, poetry, and dance to heal wounds and maladies. When you reach certain levels in this Class, you add a specific Spell to your Songs of Restoration repertoire, as shown on the Songs of Restoration Repertoire table. You always have that Spell prepared, and it doesn't count against the number of Spells you can prepare."
-  fields:
-  - title: Songs of Restoration Repertoire
-    body: "```\n| Bard Level | Spell\n|------------+-----------\n| 2nd        | Healing Word\n| 4th        | Lesser Restoration\n| 6th        | Mass Healing Word\n| 8th        | Freedom of Movement\n| 10th       | Greater Restoration\n```"
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
-
-"Bard: Bard Subclass":
-  title: "Bard: Bard Subclass (3rd Level)"
-  desc: "You gain the College of Lore Subclass or another Bard Subclass of your choice. The College of Lore is detailed after the Bard's Class description, and other Subclasses will appear in future Unearthed Arcana articles.\n\nA Subclass is a specialization that grants you special abilities at certain Bard levels. For the rest of your career, you gain each of your Subclass's features that are of your Bard level and lower. This Class's description tells you the levels when your Subclass provides features."
-  fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
-
-"Bard: Feat":
-  title: "Bard: Feat (4th, 8th, 12th, 16th and 19th Level)"
-  desc: "You gain the Ability Score Improvement Feat or another Feat of your choice."
-  fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+    body: "You gain Expertise in two of your skill proficiencies of your choice."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Jack of All Trades":
-  title: "Bard: Jack of All Trades (5th Level)"
-  desc: "You can add half your Proficiency Bonus (round down) to any Ability Check you make that uses a Skill Proficiency you lack and that doesn't otherwise use your Proficiency Bonus. For example, if you make a Strength Check (Athletics) and lack Athletics Proficiency, you can add half your Proficiency Bonus to the check."
+  title: "Bard 2nd Level: Jack of All Trades"
+  desc: "You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.\n\nFor example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
-"Bard: Font of Bardic Inspiration":
-  title: "Bard: Font of Bardic Inspiration (7th Level)"
-  desc: "You now regain all your expended uses of Bardic Inspiration when you finish a Short Rest or a Long Rest.\n\nIn addition, if a creature rolls your Bardic Inspiration die and gets a 1 (after any rerolls you might have), that use of your Bardic Inspiration isn't expended."
+"Bard: Bard Subclass":
+  title: "Bard 3rd Level: Bard Subclass"
+  desc: "You gain a Bard subclass of your choice: College of Dance, College of Glamour, College of Lore, or College of Valor. Subclasses are detailed after this class's description.\n\nA subclass is a specialization that grants you special abilities at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level and lower."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - title: "At 6th and 14th Level"
+    body: "You gain a feature from your Bard subclass."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"Bard: Ability Score Improvement":
+  title: "Bard 4th Level: Ability Score Improvement"
+  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+  fields:
+  - title: "At 8th, 12th, 16th, and 19th Level"
+    body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"Bard: Font of Inspiration":
+  title: "Bard 7th Level: Font of Inspiration"
+  desc: "You now also regain all your expended uses of Bardic Inspiration when you finish a Short Rest.\n\nIn addition, if you have no uses of Bardic Inspiration left, you can give yourself one use by expending a spell slot (no action required). You can do so only once per turn."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Magical Secrets":
-  title: "Bard: Magical Secrets (11th Level)"
-  desc: "You have collected magical knowledge from a wide spectrum of disciplines. Choose a Spell List: Arcane, Divine, or Primal. Whenever you prepare Spells for this Class, up to two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
+  title: "Bard 10th Level: Magical Secrets"
+  desc: "You have collected magical knowledge from a wide spectrum of disciplines. As a result, your Bard spell list now includes the Arcane, Divine, and Primal spell lists."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
-"Bard: Further Magical Secrets":
-  title: "Bard: Further Magical Secrets (25th Level)"
-  desc: "Your understanding of magic has grown even broader. Choose a Spell List—Arcane, Divine, or Primal—that you didn't choose for your Magical Secrets feature. Whenever you prepare your Bard Spells, two of the Spells you prepare can be from the chosen list and from any School of Magic. The prepared Spells otherwise follow the rules of your Bard Spellcasting feature."
+"Bard: Superior Inspiration":
+  title: "Bard 18th Level: Superior Inspiration"
+  desc: "When you roll initiative and have no uses of Bardic Inspiration left, you regain two expended uses of it."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
-"Bard: Superior Bardic Inspiration":
-  title: "Bard: Superior Bardic Inspiration (18th Level)"
-  desc: "When you roll Initiative, you regain two expended uses of your Bardic Inspiration."
+"Bard: Words of Creation":
+  title: "Bard 20th Level: Words of Creation"
+  desc: "You have mastered two of the prime Words of Creation: the Words of Life and Death. Therefore, you always have the _Power Word Heal_ and _Power Word Kill_ spells prepared, and when you cast either spell, you can target a second creature with the spell, provided that creature is within 10 feet of the first target."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
-"Bard: Epic Boon":
-  title: "Bard: Epic Boon (20th Level)"
-  desc: "You gain the Epic Boon of Luck Feat or another Epic Boon Feat of your choice."
+
+# ===================================
+# BARD: COLLEGE OF DANCE FEATURES
+# ===================================
+
+"College of Dance: Dazzling Footwork":
+  title: "College of Dance 3rd Level: Dazzling Footwork"
+  desc: "Your practice of dance gives you the ability to gracefully dodge and make agile strikes. While you aren't wearing armor or wielding a Shield, you gain the following benefits:\n\n**Unarmored Defense**. Your base Armor Class equals 10 + your Dexterity modifier + your Charisma modifier.\n\n**Agile Strikes**. When you expend a use of your Bardic Inspiration as part of an action, a Bonus Action, or a Reaction, you can make one Unarmed Strike as part of that action, Bonus Action, or Reaction.\n\n**Bardic Damage**. You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an Unarmed Strike, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier. This roll doesn't expend the die."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"College of Dance: Inspiring Movement":
+  title: "College of Dance 3rd Level: Inspiring Movement"
+  desc: "When an enemy you can see ends its turn within 5 feet of an ally of yours who is within 60 feet of you, you can use your Reaction and expend one use of your Bardic Inspiration to move up to half your Speed. Then roll your Bardic Inspiration die, and the ally can move up to a number of feet equal to 5 times the number rolled. None of this feature's movement provokes Opportunity Attacks."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"College of Dance: Leading Evasion":
+  title: "College of Dance 6th Level: Leading Evasion"
+  desc: "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and you take only half damage if you fail. If any creatures within 5 feet of you are making the same Dexterity saving throw, you can share this benefit with them for that save. You can't use this feature if you have the Incapacitated condition."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"College of Dance: Tandem Footwork":
+  title: "College of Dance 6th Level: Tandem Footwork"
+  desc: "When you roll Initiative, you can spend one use of your Bardic Inspiration if you don't have the Incapacitated condition. When you do so, roll your Bardic Inspiration die, and choose a number of creatures within 60 feet of yourself (you can choose yourself), up to a number equal to your Charisma modifier (minimum of one creature). Each of them gains a bonus to their Initiative equal to the number rolled."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"College of Dance: Irresistible Dance":
+  title: "College of Dance 14th Level: Irresistible Dance"
+  desc: "You always have the _Otto's Irresistible Dance_ spell prepared. You can cast it without expending a spell slot. Once you cast the spell in this way, you can't do so again until you finish a Long Rest. You can also restore your use of the feature by expending four uses of your Bardic Inspiration (no action required)."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+
+# ===================================
+# BARD: COLLEGE OF GLAMOUR FEATURES
+# ===================================
+
+"College of Glamour: Beguiling Magic":
+  title: "College of Glamour 3rd Level: Beguiling Magic"
+  desc: "You always have the _Charm Person_ and _Mirror Image_ spells prepared.\n\nIn addition, immediately after you cast an Enchantment or Illusion spell, you can cause a creature you can see within 60 feet of yourself to make a Wisdom saving throw against your Spell Save DC. On a failed save, the target has the Charmed or Frightened condition (your choice) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nOnce you use this benefit, you can't use it again until you finish a Long Rest. You can also restore your use of the feature by expending one use of your Bardic Inspiration (no action required)."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"College of Glamour: Mantle of Inspiration":
+  title: "College of Glamour 3rd Level: Mantle of Inspiration"
+  desc: "You can weave fey magic into a song or dance to fill others with vigor. As a Bonus Action, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature). Each of them gains a number of Temporary Hit Points equal to 2 times the number rolled on the Bardic Inspiration die, and then each of them can use its Reaction to move up to its Speed without provoking Opportunity Attacks."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"College of Glamour: Mantle of Majesty":
+  title: "College of Glamour 6th Level: Mantle of Majesty"
+  desc: "You always have the _Command_ spell prepared.\n\nAs a Bonus Action, you cast _Command_ without expending a spell slot, and you take on an unearthly appearance for 1 minute or until your Concentration ends (as if you were concentrating on a spell). During this time, you can cast _Command_ as a Bonus Action without expending a spell slot.\n\nAny creature Charmed by you automatically fails its saving throw against the _Command_ you cast with this feature.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of the feature by expending a spell slot of 3rd level or higher (no action required)."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"College of Glamour: Unbreakable Majesty":
+  title: "College of Glamour 14th Level: Unbreakable Majesty"
+  desc: "As a Bonus Action, you can assume a magically majestic presence for 1 minute or until you have the Incapacitated condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a Charisma saving throw against your Spell Save DC, or the attack misses instead, as the creature recoils from your majesty.\n\nOnce you assume this majestic presence, you can't do so again until you finish a Short Rest or Long Rest."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 
 # ===================================
@@ -100,31 +162,54 @@
 # ===================================
 
 "College of Lore: Bonus Proficiencies":
-  title: "College of Lore: Bonus Proficiencies (3rd Level)"
-  desc: "You gain three Skill Proficiencies: Arcana, History, and Nature. If you already have one of these Proficiencies, choose a Skill Proficiency you lack, and gain that Proficiency."
+  title: "College of Lore 3rd Level: Bonus Proficiencies"
+  desc: "You gain proficiency with three skills of your choice."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Lore: Cutting Words":
-  title: "College of Lore: Cutting Words (3rd Level)"
-  desc: "You learn how to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of yourself succeeds on an Ability Check or an Attack Roll, you can use your Reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll, potentially turning it into a failure."
+  title: "College of Lore 3rd Level: Cutting Words"
+  desc: "You learn how to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes a damage roll or succeeds on an ability check or attack roll, you can use your Reaction to expend one use of your Bardic Inspiration, roll your Bardic Inspiration die, and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
-"College of Lore: Cunning Inspiration":
-  title: "College of Lore: Cunning Inspiration (6th Level)"
-  desc: "Through your studies and your cunning, you've learned to inspire others exceptionally well. When any creature rolls your Bardic Inspiration die, that creature can roll the die twice and use the higher of the two rolls."
+"College of Lore: Magical Discoveries":
+  title: "College of Lore 6th Level: Magical Discoveries"
+  desc: "You learn two spells of your choice. These spells can come from the Arcane, Divine, or Primal spell list or any combination thereof. A spell you choose must be a cantrip or a spell for which you have spell slots, as shown on the Bard table.\n\nYou always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets the requirements above."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
-
-"College of Lore: Improved Cutting Words":
-  title: "College of Lore: Improved Cutting Words (10th Level)"
-  desc: "Whenever you use your Cutting Words feature on a creature, you can deal Psychic Damage to that creature equal to the number rolled on the Bardic Inspiration die plus your Charisma modifier."
-  fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Lore: Peerless Skill":
-  title: "College of Lore: Peerless Skill (14th Level)"
-  desc: "When you make an Ability Check and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the Ability Check, potentially turning it into a success. If the check still fails, the Bardic Inspiration isn't expended."
+  title: "College of Lore 14th Level: Peerless Skill"
+  desc: "When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended."
   fields:
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+
+# ===================================
+# BARD: COLLEGE OF VALOR FEATURES
+# ===================================
+
+"College of Valor: Combat Inspiration":
+  title: "College of Valor 3rd Level: Combat Inspiration"
+  desc: "You can use your wit to turn the tide of battle. A creature that has a Bardic Inspiration die from you can use it for one of the following effects:\n\n**Defense**. When the creature is hit by an attack roll, that creature can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, potentially causing the attack to miss.\n\n**Offense**. Immediately after the creature hits a target with an attack roll, the creature can roll the Bardic Inspiration die and add the number rolled to the attack's damage against the target."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"College of Valor: Martial Training":
+  title: "College of Valor 3rd Level: Martial Training"
+  desc: "You gain proficiency with Martial Weapons and armor training with Medium Armor and Shields.\n\nIn addition, you can use a Simple or Martial weapon as a spellcasting focus to cast spells from your Bard spell list."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"College of Valor: Extra Attack":
+  title: "College of Valor 6th Level: Extra Attack"
+  desc: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"College of Valor: Battle Magic":
+  title: "College of Valor 14th Level: Battle Magic"
+  desc: "After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"

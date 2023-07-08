@@ -3,13 +3,13 @@
 # load_yaml(get_gvar("9129488d-cf0a-45b2-a6dc-98b8f4daa89e"))
 
 "Sorcerer: Innate Sorcery":
-  title: "Sorcerer: Innate Sorcery (1st Level)"
+  title: "Sorcerer 1st Level: Innate Sorcery"
   desc: "An event in your past left an indelible mark on you, infusing you with a simmering magic that is sometimes challenging to control. You always have the *Sorcerous Burst* and *Chaos Bolt* spells prepared."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Spellcasting":
-  title: "Sorcerer: Spellcasting (1st Level)"
+  title: "Sorcerer 1st Level: Spellcasting"
   desc: "Drawing from your innate magic, you can cast spells. See the [Player's Handbook](https://www.dndbeyond.com/sources/phb) for the rules on spellcasting. The information below details how you use those rules as a Sorcerer."
   fields:
   - title: "Cantrips"
@@ -25,13 +25,13 @@
   - title: "Spellcasting Focus"
     body: "You can use an Arcane Focus as a Spellcasting Focus for the spells you cast with your Sorcerer features."
   - title: "Sorcerer Table: Cantrips and Prepared Spells"
-    body: "```\n| Level | Cantrips | Prepared Spells\n|-------+----------+-----------------\n|   1st |     4    |    2\n|   2nd |     4    |    4\n|   3rd |     4    |    6\n|   4th |     5    |    7\n|   5th |     5    |    9\n|   6th |     5    |   10\n|   7th |     5    |   11\n|   8th |     5    |   12\n|   9th |     5    |   14\n|  10th |     6    |   15\n|  11th |     6    |   16\n|  12th |     6    |   16\n|  13th |     6    |   17\n|  14th |     6    |   17\n|  15th |     6    |   18\n|  16th |     6    |   18\n|  17th |     6    |   19\n|  18th |     6    |   20\n|  19th |     6    |   21\n|  20th |     6    |   22\n```"
+    body: "```\n| Level | Cantrips | Prepared Spells\n|-------+----------+-----------------\n|   1st |     4    |        2\n|   2nd |     4    |        4\n|   3rd |     4    |        6\n|   4th |     5    |        7\n|   5th |     5    |        9\n|   6th |     5    |       10\n|   7th |     5    |       11\n|   8th |     5    |       12\n|   9th |     5    |       14\n|  10th |     6    |       15\n|  11th |     6    |       16\n|  12th |     6    |       16\n|  13th |     6    |       17\n|  14th |     6    |       17\n|  15th |     6    |       18\n|  16th |     6    |       18\n|  17th |     6    |       19\n|  18th |     6    |       20\n|  19th |     6    |       21\n|  20th |     6    |       22\n```"
   - title: "Sorcerer Table: Spell Slots"
     body: "```\n| Level | 1st 2nd 3rd 4th 5th 6th 7th 8th 9th\n|-------+-------------------------------------\n|   1st |  2   —   —   —   —   —   —   —   —\n|   2nd |  3   —   —   —   —   —   —   —   —\n|   3rd |  4   2   —   —   —   —   —   —   —\n|   4th |  4   3   —   —   —   —   —   —   —\n|   5th |  4   3   2   —   —   —   —   —   —\n|   6th |  4   3   3   —   —   —   —   —   —\n|   7th |  4   3   3   1   —   —   —   —   —\n|   8th |  4   3   3   2   —   —   —   —   —\n|   9th |  4   3   3   3   1   —   —   —   —\n|  10th |  4   3   3   3   2   —   —   —   —\n|  11th |  4   3   3   3   2   1   —   —   —\n|  12th |  4   3   3   3   2   1   —   —   —\n|  13th |  4   3   3   3   2   1   1   —   —\n|  14th |  4   3   3   3   2   1   1   —   —\n|  15th |  4   3   3   3   2   1   1   1   —\n|  16th |  4   3   3   3   2   1   1   1   —\n|  17th |  4   3   3   3   2   1   1   1   1\n|  18th |  4   3   3   3   2   1   1   1   1\n|  19th |  4   3   3   3   2   2   1   1   1\n|  20th |  4   3   3   3   2   2   2   1   1\n```"
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Font of Magic":
-  title: "Sorcerer: Font of Magic (2nd Level)"
+  title: "Sorcerer 2nd Level: Font of Magic"
   desc: "You tap into a deep wellspring of magic within yourself. This wellspring is represented by Sorcery Points, which allow you to create a variety of magical effects."
   fields:
   - title: "Sorcery Points"
@@ -44,123 +44,127 @@
     body: "```\n| Spell Slot | Sorcery Point | Min. Sorcerer\n| Level      | Cost          | Level\n|------------+---------------+--------------\n| 1st        | 2             | 2nd\n| 2nd        | 3             | 3rd\n| 3rd        | 5             | 5th\n| 4th        | 6             | 7th\n| 5th        | 7             | 9th\n```"
   - title: "Sorcerer Table: Sorcery Points"
     body: "```\n| Level | Sorcery Points\n|-------+----------------\n|   1st |  —\n|   2nd |  2\n|   3rd |  3\n|   4th |  4\n|   5th |  5\n|   6th |  6\n|   7th |  7\n|   8th |  8\n|   9th |  9\n|  10th | 10\n|  11th | 11\n|  12th | 12\n|  13th | 13\n|  14th | 14\n|  15th | 15\n|  16th | 16\n|  17th | 17\n|  18th | 18\n|  19th | 19\n|  20th | 20\n```"
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic":
-  title: "Sorcerer: Metamagic (2nd Level)"
+  title: "Sorcerer 2nd Level: Metamagic"
   desc: "Because your magic flows from within you, you can alter your spells to suit your needs; you gain three Metamagic options of your choice from the \"Metamagic Options\" section later in this class's description.\n\nYou can use only one Metamagic option on a spell when you cast it, unless otherwise noted.\n\nWhenever you finish a Long Rest, you can replace one of your Metamagic options with one you don't know."
   fields:
   - title: "At 13th Level"
     body: "You gain three more Metamagic options of your choice from the \"Metamagic Options\" section."
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic: Careful Spell":
   title: "Sorcerer Metamagic Option: Careful Spell"
   desc: "*Cost: 1 Sorcery Point*\n\nWhen you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic: Distant Spell":
   title: "Sorcerer Metamagic Option: Distant Spell"
   desc: "*Cost: 1 Sorcery Point*\n\nWhen you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to increase the spell's range by a number of feet equal to 30 times your Sorcerer level.\n\nWhen you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the range of the spell 30 feet."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic: Empowered Spell":
   title: "Sorcerer Metamagic Option: Empowered Spell"
   desc: "*Cost: 1 Sorcery Point*\n\nWhen you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.\n\nYou can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic: Extended Spell":
   title: "Sorcerer Metamagic Option: Extended Spell"
   desc: "*Cost: 1 Sorcery Point*\n\nWhen you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration, to a maximum duration of 24 hours.\n\nIf the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic: Heightened Spell":
   title: "Sorcerer Metamagic Option: Heightened Spell"
   desc: "*Cost: 2 Sorcery Points*\n\nWhen you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on its saving throws against the spell."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic: Quickened Spell":
   title: "Sorcerer Metamagic Option: Quickened Spell"
   desc: "*Cost: 2 Sorcery Points*\n\nWhen you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can't modify a spell in this way if you've already cast a spell of 1st level or higher on the current turn, nor can you cast a spell of 1st level or higher spell on this turn after modifying a spell in this way."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic: Seeking Spell":
   title: "Sorcerer Metamagic Option: Seeking Spell"
   desc: "*Cost: 2 Sorcery Points*\n\nIf you make an attack roll for a spell and miss, you can spend 2 Sorcery Points to reroll the d20, and you must use the new roll.\n\nYou can use Seeking Spell even if you have already used a different Metamagic option during the casting of the spell."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic: Subtle Spell":
   title: "Sorcerer Metamagic Option: Subtle Spell"
   desc: "*Cost: 1 Sorcery Point*\n\nWhen you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic: Transmuted Spell":
   title: "Sorcerer Metamagic Option: Transmuted Spell"
   desc: "*Cost: 1 Sorcery Point*\n\nWhen you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Metamagic: Twinned Spell":
   title: "Sorcerer Metamagic Option: Twinned Spell"
   desc: "*Cost: 1–5 Sorcery Points*\n\nWhen you cast a spell of 1st–5th level that you also cast on your previous turn by expending a Spell Slot, you can fuel this turn's casting of the spell by spending a number of Sorcery Points equal to the spell's level rather than expending a Spell Slot."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Sorcerer Subclass":
-  title: "Sorcerer: Sorcerer Subclass (3rd Level)"
+  title: "Sorcerer 3rd Level: Sorcerer Subclass"
   desc: "You gain the Draconic Sorcery subclass or another Sorcerer subclass of your choice. The Draconic Sorcery subclass is detailed after the Sorcerer's class description, and other subclasses will appear in future Unearthed Arcana articles.\n\nA subclass is a specialization that grants you special abilities at certain Sorcerer levels. For the rest of your career, you gain each of your subclass's features that are of your Sorcerer level and lower. This class's description tells you the levels when your subclass provides features."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "At 6th, 10th, and 14th Level"
+    body: "You gain a feature from your Sorcerer subclass."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Feat":
-  title: "Sorcerer: Feat (4th, 8th, 12th, 16th and 19th Level)"
+  title: "Sorcerer 4th Level: Feat"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "At 8th, 12th, 16th, and 19th Level"
+    body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Sorcerous Vitality":
-  title: "Sorcerer: Sorcerous Vitality (5th Level)"
+  title: "Sorcerer 5th Level: Sorcerous Vitality"
   desc: "You can use your innate magic to heal yourself; you always have the *Sorcerous Vitality* spell prepared."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Arcane Eruption":
-  title: "Sorcerer: Arcane Eruption (7th Level)"
+  title: "Sorcerer 7th Level: Arcane Eruption"
   desc: "You can now unleash magical energy that roils inside you; you always have the *Arcane Eruption* spell prepared."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Sorcery Incarnate":
-  title: "Sorcerer: Sorcery Incarnate (9th Level)"
+  title: "Sorcerer 9th Level: Sorcery Incarnate"
   desc: "Fueled by the arcane power within, you can transform yourself into magical energy; you always have the *Sorcery Incarnate* spell prepared."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Sorcerous Restoration":
-  title: "Sorcerer: Sorcerous Restoration (15th Level)"
+  title: "Sorcerer 15th Level: Sorcerous Restoration"
   desc: "You regain 4 expended Sorcery Points whenever you roll Initiative or finish a Short Rest."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Arcane Apotheosis":
-  title: "Sorcerer: Arcane Apotheosis (18th Level)"
+  title: "Sorcerer 18th Level: Arcane Apotheosis"
   desc: "You are now so suffused with magic that you can alter reality itself. You always have the *Wish* spell prepared, and if you undergo the spell's casting stress, you have no chance of losing the ability to cast the spell.\n\nIn addition, you can cast *Wish* to replicate a spell of 1st through 8th level without expending a 9th-level Spell Slot. You instead expend a slot of the replicated spell's level. Once you use *Wish* in this way, you can't do so again until you finish a Long Rest."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Sorcerer: Epic Boon":
-  title: "Sorcerer: Epic Boon (20th Level)"
+  title: "Sorcerer 20th Level: Epic Boon"
   desc: "You gain the following benefits:\n\n**Ability Score Increase**. Your Charisma score increases by 2, and its maximum is now 30.\n\n**Epic Boon Feat**. You gain the Epic Boon of Energy Resistance or another Epic Boon feat of your choice."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 
 # =========================================
@@ -168,31 +172,31 @@
 # =========================================
 
 "Draconic Sorcery: Draconic Resilience":
-  title: "Draconic Sorcery: Draconic Resilience (3rd Level)"
+  title: "Draconic Sorcery 3rd Level: Draconic Resilience"
   desc: "The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3 and increases by 1 again whenever you gain another Sorcerer level.\n\nParts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 + your Dexterity modifier + your Charisma modifier."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Draconic Sorcery: Dragon Speech":
-  title: "Draconic Sorcery: Dragon Speech (3rd Level)"
+  title: "Draconic Sorcery 3rd Level: Dragon Speech"
   desc: "Your draconic gift causes your speech to be understood by all creatures of the Dragon type, and you understand their communication."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Draconic Sorcery: Elemental Affinity":
-  title: "Draconic Sorcery: Elemental Affinity (6th Level)"
+  title: "Draconic Sorcery 6th Level: Elemental Affinity"
   desc: "Your draconic magic has an affinity with one of the damage types associated with dragons. Choose one of those types: Acid, Cold, Fire, Poison, or Lightning.\n\nYou have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Draconic Sorcery: Draconic Exhalation":
-  title: "Draconic Sorcery: Draconic Exhalation (10th Level)"
+  title: "Draconic Sorcery 10th Level: Draconic Exhalation"
   desc: "Once per turn when you cast *Sorcerous Burst*, you can exhale it in a 15-foot cone rather than selecting a target within range. To cast the spell in this way, you must choose the damage type associated with your Elemental Affinity feature. When you do so, you make separate attack and damage rolls against each creature in the spell's cone."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Draconic Sorcery: Dragon Wings":
-  title: "Draconic Sorcery: Dragon Wings (14th Level)"
+  title: "Draconic Sorcery 14th Level: Dragon Wings"
   desc: "Your innate magic can now manifest as spectral draconic wings on your back. While your *Sorcery Incarnate* spell is active, you sprout those wings, gain a Fly Speed equal to your Speed, and can hover. In addition, at the end of each of your turns, you can flap the wings to unleash magical energy, dealing damage to each creature of your choice within 15 feet of yourself. The damage equals your Charisma modifier, and it is the damage type of your Elemental Affinity feature."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"

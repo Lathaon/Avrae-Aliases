@@ -19,7 +19,7 @@ if search := """&*&""":
 		case [classfeat]:
 			out = load_yaml(get_gvar(CLASSFEAT_INDEX[classfeat]))[classfeat] | {
 				"color": "C50009",
-				"footer": f"{ctx.prefix}{ctx.alias} classfeat [classfeat] | @Lathaon#6649"
+				"footer": f"{ctx.prefix}{ctx.alias} classfeat [classfeat] | @lathaon"
 			}
 
 		# Matches multiple things.
@@ -31,7 +31,7 @@ else:
 		"title": "One D&D Class Feature Lookup",
 		"desc": "The following Class Features are supported:\n\n" + ",\n".join(list(CLASSFEAT_INDEX)),
 		"color": "C50009",
-		"footer": f"{ctx.prefix}{ctx.alias} classfeat [classfeat] | @Lathaon#6649"
+		"footer": f"{ctx.prefix}{ctx.alias} classfeat [classfeat] | @lathaon"
 	}
 
 return embeds.get_output(out)

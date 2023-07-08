@@ -34,14 +34,13 @@ Abjuration:
 - Nondetection
 - Protection from Energy
 - Remove Curse
+- Sorcerous Vitality
 - Aura of Life
 - Aura of Purity
-- Banishment
 - Death Ward
 - Freedom of Movement
 - Mordenkainen's Private Sanctum
 - Antilife Shell
-- Banishing Smite
 - Circle of Power
 - Dispel Evil and Good
 - Greater Restoration
@@ -54,6 +53,7 @@ Abjuration:
 - Forbiddance
 - Globe of Invulnerability
 - Guards and Wards
+- Heal
 - Primordial Ward
 - Symbol
 - Antimagic Field
@@ -62,13 +62,15 @@ Abjuration:
 - Imprisonment
 - Invulnerability
 - Mass Heal
-- Power Word Heal
 - Prismatic Wall
 Conjuration:
 - Acid Splash
+- Book of Shadows
 - Create Bonfire
 - Infestation
 - Mage Hand
+- Pact Familiar
+- Pact Weapon
 - Poison Spray
 - Sword Burst
 - Arms of Hadar
@@ -106,6 +108,7 @@ Conjuration:
 - Summon Shadowspawn
 - Thunder Step
 - Tidal Wave
+- Banishment
 - Conjure Minor Elementals
 - Conjure Woodland Beings
 - Dimension Door
@@ -121,6 +124,7 @@ Conjuration:
 - Summon Elemental
 - Summon Greater Demon
 - Watery Sphere
+- Banishing Smite
 - Cloudkill
 - Conjure Elemental
 - Conjure Volley
@@ -181,6 +185,7 @@ Divination:
 - Mind Spike
 - See Invisibility
 - Clairvoyance
+- Memorize Spell
 - Sending
 - Tongues
 - Arcane Eye
@@ -233,6 +238,7 @@ Enchantment:
 - Confusion
 - Dominate Beast
 - Raulothim's Psychic Lance
+- Staggering Smite
 - Dominate Person
 - Geas
 - Hold Monster
@@ -246,6 +252,7 @@ Enchantment:
 - Feeblemind
 - Glibness
 - Power Word Stun
+- Power Word Heal
 - Power Word Kill
 - Psychic Scream
 Evocation:
@@ -260,12 +267,13 @@ Evocation:
 - Ray of Frost
 - Sacred Flame
 - Shocking Grasp
+- Sorcerous Burst
 - Thunderclap
 - Word of Radiance
 - Burning Hands
 - Chaos Bolt
 - Chromatic Orb
-- Divine Favor
+- Divine Smite
 - Earth Tremor
 - Faerie Fire
 - Frost Fingers
@@ -276,10 +284,9 @@ Evocation:
 - Searing Smite
 - Tasha's Caustic Brew
 - Thunderous Smite
+- Thunderwave
 - Witch Bolt
-- Wrathful Smite
 - Aganazzar's Scorcher
-- Branding Smite
 - Continual Flame
 - Darkness
 - Flame Blade
@@ -289,11 +296,11 @@ Evocation:
 - Moonbeam
 - Rime's Binding Ice
 - Scorching Ray
+- Shatter
 - Snilloc's Snowball Swarm
 - Spiritual Weapon
 - Warding Wind
 - Blinding Smite
-- Crusader's Mantle
 - Daylight
 - Fireball
 - Leomund's Tiny Hut
@@ -303,12 +310,12 @@ Evocation:
 - Wall of Sand
 - Wall of Water
 - Wind Wall
+- Arcane Eruption
 - Fire Shield
 - Gravity Sinkhole
 - Ice Storm
 - Otiluke's Resilient Sphere
 - Sickening Radiance
-- Staggering Smite
 - Storm Sphere
 - Vitriolic Sphere
 - Wall of Fire
@@ -327,7 +334,6 @@ Evocation:
 - Blade Barrier
 - Chain Lightning
 - Gravity Fissure
-- Heal
 - Otiluke's Freezing Sphere
 - Sunbeam
 - Wall of Ice
@@ -388,6 +394,7 @@ Necromancy:
 - False Life
 - Inflict Wounds
 - Ray of Sickness
+- Wrathful Smite
 - Gentle Repose
 - Ray of Enfeeblement
 - Wither and Bloom
@@ -425,6 +432,7 @@ Necromancy:
 Transmutation:
 - Control Flames
 - Druidcraft
+- Elementalism
 - Gust
 - Magic Stone
 - Mending
@@ -438,6 +446,7 @@ Transmutation:
 - Thorn Whip
 - Catapult
 - Create or Destroy Water
+- Divine Favor
 - Expeditious Retreat
 - Feather Fall
 - Goodberry
@@ -445,7 +454,7 @@ Transmutation:
 - Longstrider
 - Magnify Gravity
 - Purify Food and Drink
-- Thunderwave
+- Scribe Spell
 - Zephyr Strike
 - Alter Self
 - Barkskin
@@ -456,6 +465,7 @@ Transmutation:
 - Earthbind
 - Enhance Ability
 - Enlarge/Reduce
+- Shining Smite
 - Heat Metal
 - Immovable Object
 - Kinetic Jaunt
@@ -465,12 +475,12 @@ Transmutation:
 - Maximilian's Earthen Grasp
 - Pyrotechnics
 - Rope Trick
-- Shatter
 - Skywrite
 - Spider Climb
 - Spike Growth
 - Ashardalon's Stride
 - Blink
+- Crusader's Mantle
 - Elemental Weapon
 - Erupting Earth
 - Flame Arrows
@@ -490,15 +500,18 @@ Transmutation:
 - Fabricate
 - Giant Insect
 - Guardian of Nature
+- Modify Spell
 - Polymorph
 - Stone Shape
 - Stoneskin
 - Animate Objects
 - Awaken
 - Control Winds
+- Create Spell
 - Create Spelljamming Helm
 - Passwall
 - Skill Empowerment
+- Sorcery Incarnate
 - Swift Quiver
 - Telekinesis
 - Temporal Shunt

@@ -20,7 +20,7 @@ if search := """&*&""":
 			out = SUBCLASSES[subclass] | {
 				"title": subclass,
 				"color": "C50009",
-				"footer": f"{ctx.prefix}{ctx.alias} subclass [subclass] | @Lathaon#6649"
+				"footer": f"{ctx.prefix}{ctx.alias} subclass [subclass] | @lathaon"
 			}
 
 		# Matches multiple things.
@@ -32,7 +32,7 @@ else:
 		"title": "One D&D Subclass Lookup",
 		"desc": "The following Subclass are supported:\n\n" + ",\n".join(list(SUBCLASSES)),
 		"color": "C50009",
-		"footer": f"{ctx.prefix}{ctx.alias} subclass [subclass] | @Lathaon#6649"
+		"footer": f"{ctx.prefix}{ctx.alias} subclass [subclass] | @lathaon"
 	}
 
 return embeds.get_output(out)

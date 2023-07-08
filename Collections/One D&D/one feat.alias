@@ -20,7 +20,7 @@ if search := """&*&""":
 			out = FEATS[feat] | {
 				"title": feat,
 				"color": "C50009",
-				"footer": f"{ctx.prefix}{ctx.alias} feat [feat] | @Lathaon#6649"
+				"footer": f"{ctx.prefix}{ctx.alias} feat [feat] | @lathaon"
 			}
 
 		# Matches multiple things.
@@ -32,7 +32,7 @@ else:
 		"title": "One D&D Feat Lookup",
 		"desc": "The following Feats are supported:\n\n" + ",\n".join(list(FEATS)),
 		"color": "C50009",
-		"footer": f"{ctx.prefix}{ctx.alias} feat [feat] | @Lathaon#6649"
+		"footer": f"{ctx.prefix}{ctx.alias} feat [feat] | @lathaon"
 	}
 
 return embeds.get_output(out)

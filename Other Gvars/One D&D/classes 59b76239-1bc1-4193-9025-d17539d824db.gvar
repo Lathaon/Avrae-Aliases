@@ -4,164 +4,179 @@
 Barbarian:
   desc: "**Class Group**: Warrior\n**Primary Ability**: Strength\n\n`1` Rage, Unarmored Defense, Weapon Mastery\n`2` Primal Knowledge, Reckless Attack\n`3` Barbarian Subclass\n`4` Feat\n`5` Extra Attack, Fast Movement\n`6` Subclass Feature\n`7` Feral Instinct\n`8` Feat\n`9` Indomitable Might\n`10` Subclass Feature\n`11` Brutal Critical\n`12` Feat\n`13` Persistent Rage\n`14` Subclass Feature\n`15` Relentless Rage\n`16` Feat\n`17` Rage Resurgence\n`18` Primal Champion\n`19` Feat\n`20` Epic Boon"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d12 per Barbarian level\n**Hit Points at 1st Level**: 12 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d12 (or 7) + your Constitution modifier"
-  - title: Proficiencies
-    body: "**Saving Throws**: Strength, Constitution\n**Skills [Choose 2]**: Animal Handling, Athletics, Intimidation, Nature, Perception, Survival\n**Weapons**: Simple Weapons, Martial Weapons\n**Tools**: None"
-  - title: Armor Training
+  - title: "Proficiencies"
+    body: "**Saving Throws**: Strength, Constitution\n**Skills (Choose 2)**: Animal Handling, Athletics, Intimidation, Nature, Perception, Survival\n**Weapons**: Simple Weapons, Martial Weapons\n**Tools**: None"
+  - title: "Armor Training"
     body: "Light Armor, Medium Armor, Shields"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 75 GP on equipment of your choice.\nExplorer's Pack\n(a) Greataxe or (b) Battleaxe, Shield, and 10 GP\nHandaxe (4)\n15 GP"
-  - title: Multiclassing and the Barbarian
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Barbarian as one of your classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in the Barbarian's primary ability, Strength, to take a level in this class or to take a level in another class if you are already a Barbarian.\n\n***Proficiencies Gained***. If Barbarian isn't your initial class, you gain proficiency with Martial Weapons when you take your first Barbarian level.\n\n***Armor Training***. When you gain your first Barbarian level, you gain armor training with Shields."
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 75 GP on equipment of your choice.\n\n- Explorer's Pack\n- (a) Greataxe or (b) Battleaxe, Shield, and 10 GP\n- Handaxe (4)\n- 15 GP"
+  - title: "Multiclassing and the Barbarian"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Barbarian as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Barbarian's primary ability, Strength, to take a level in this class or to take a level in another class if you are already a Barbarian.\n\n**_Proficiencies Gained_**. If Barbarian isn't your initial class, you gain proficiency with Martial Weapons when you take your first Barbarian level.\n\n**_Armor Training_**. When you gain your first Barbarian level, you gain armor training with Shields."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 Bard:
-  desc: "**Class Group**: Expert\n**Primary Ability**: Charisma\n\n`1` Bardic Inspiration, Spellcasting\n`2` Expertise, Songs of Restoration\n`3` Bard Subclass\n`4` Feat\n`5` Jack of All Trades\n`6` Subclass Feature\n`7` Font of Bardic Inspiration\n`8` Feat\n`9` Expertise\n`10` Subclass Feature\n`11` Magical Secrets\n`12` Feat\n`13` —\n`14` Subclass Feature\n`15` Further Magical Secrets\n`16` Feat\n`17` —\n`18` Superior Bardic Inspiration\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Ability**: Charisma\n\n`1` Bardic Inspiration, Spellcasting\n`2` Expertise, Jack of All Trades\n`3` Bard Subclass\n`4` Ability Score Improvement\n`5` Font of Inspiration\n`6` Subclass Feature\n`7` Countercharm\n`8` Ability Score Improvement\n`9` Expertise\n`10` Magical Secrets\n`11` —\n`12` Ability Score Improvement\n`13` —\n`14` Subclass Feature\n`15` —\n`16` Ability Score Improvement\n`17` —\n`18` Superior Inspiration\n`19` Ability Score Improvement\n`20` Words of Creation"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d8 per Bard level\n**Hit Points at 1st Level**: 8 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d8 (or 5) + your Constitution modifier"
-  - title: Proficiencies
-    body: "**Saving Throws**: Dexterity, Charisma\n**Skills**: Deception, Performance, Persuasion (or any three Skills of your choice)\n**Weapons**: Simple Weapons\n**Tools**: Three Musical Instruments of your choice"
-  - title: Armor Training
+  - title: "Proficiencies"
+    body: "**Saving Throws**: Dexterity, Charisma\n**Skills**: Any three skills of your choice\n**Weapons**: Simple Weapons\n**Tools**: Three musical instruments of your choice"
+  - title: "Armor Training"
     body: "Light Armor"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 100 GP on equipment of your choice.\n\nDagger\nEntertainer's Pack\nLeather Armor\nMusical Instrument (one of your choice)\nShortsword\n18 GP"
-  - title: Multiclassing and the Bard
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Bard as one of your Classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in the Bard's primary ability, Charisma, to take a level in this Class or to take a level in another Class if you are already a Bard.\n\n***Proficiencies***. If Bard isn't your initial Class, here are the Proficiencies you gain when you take your first Bard level: one Skill of your choice and one Musical Instrument of your choice.\n\n***Armor Training***. When you gain your first Bard level, you gain Light Armor Training.\n\n***Spell Slots***. Add all your Bard levels to the appropriate levels from other Classes to determine your available Spell Slots for casting Spells, as detailed in the multiclassing rules.\n\nYou prepare Spells for each of your Classes individually, referring to the Spell Slots of an individual Class to determine the number and levels of the Spells you prepare for it."
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 100 GP on equipment of your choice.\n\n- Dagger (2)\n- Entertainer's Pack\n- Leather Armor\n- Musical Instrument (one of your choice)\n- 26 GP"
+  - title: "Multiclassing and the Bard"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Bard as one of your classes.\n\n**Ability Score Minimum**. As a multiclass character, you must have a score of at least 13 in the Bard's primary ability, Charisma, to take a level in this class or to take a level in another class if you are already a Bard.\n\n**Proficiencies**. If Bard isn't your initial class, here are the proficiencies you gain when you take your first Bard level: one skill of your choice and one Musical Instrument of your choice.\n\n**Armor Training**. When you gain your first Bard level, you gain Light Armor training.\n\n**Spell Slots**. Add all your Bard levels to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 Cleric:
-  desc: "**Class Group**: Priest\n**Primary Ability**: Wisdom\n\n`1` Channel Divinity, Spellcasting\n`2` Holy Order\n`3` Cleric Subclass\n`4` Feat\n`5` Smite Undead\n`6` Subclass Feature\n`7` Blessed Strikes\n`8` Feat\n`9` Holy Order\n`10` Subclass Feature\n`11` Divine Intervention\n`12` Feat\n`13` —\n`14` Subclass Feature\n`15` —\n`16` Feat\n`17` —\n`18` Greater Divine Intervention\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Ability**: Wisdom\n\n`1` Divine Order, Spellcasting\n`2` Channel Divinity\n`3` Cleric Subclass\n`4` Ability Score Improvement\n`5` Smite Undead\n`6` Subclass Feature\n`7` Blessed Strikes\n`8` Ability Score Improvement\n`9` Commune\n`10` Divine Intervention\n`11` —\n`12` Ability Score Improvement\n`13` —\n`14` Improved Blessed Strikes\n`15` —\n`16` Ability Score Improvement\n`17` Subclass Feature\n`18` —\n`19` Ability Score Improvement\n`20` Greater Divine Intervention"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d8 per Cleric level\n**Hit Points at 1st Level**: 8 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d8 (or 5) + your Constitution modifier"
-  - title: Proficiencies
-    body: "**Saving Throws**: Wisdom, Charisma\n**Skills**: Persuasion, Religion (or choose two from History, Insight, Medicine, Persuasion, and Religion)\n**Weapons**: Simple Weapons\n**Tools**: None"
-  - title: Armor Training
+  - title: "Proficiencies"
+    body: "**Saving Throws**: Wisdom, Charisma\n**Skills (Choose 2)**: History, Insight, Medicine, Persuasion, Religion\n**Weapons**: Simple Weapons\n**Tools**: None"
+  - title: "Armor Training"
     body: "Light Armor, Medium Armor, Shields"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 110 GP on equipment of your choice.\n\nChain Shirt\nHoly Symbol\nMace\nPriest's Pack\nShield\n7 GP"
-  - title: Multiclassing and the Cleric
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Cleric as one of your Classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in the Cleric's primary ability, Wisdom, to take a level in this Class or to take a level in another Class if you are already a Cleric.\n\n***Armor Training***. When you gain your first Cleric level, you gain Armor Training with the following: Light Armor, Medium Armor, and Shields.\n\n***Spell Slots***. Add all your Cleric levels to the appropriate levels from other Classes to determine your available Spell Slots for casting Spells, as detailed in the multiclassing rules.\n\nYou prepare Spells for each of your Classes individually, referring to the Spell Slots of an individual Class to determine the number and levels of the Spells you prepare for it."
-  - body: "[One D&D Packet 3: Clerics and Revised Species](https://www.dndbeyond.com/sources/one-dnd/cleric-revised-species)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 110 GP on equipment of your choice.\n\n- Chain Shirt\n- Holy Symbol\n- Mace\n- Priest's Pack\n- Shield\n- 7 GP"
+  - title: "Multiclassing and the Cleric"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Cleric as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Cleric's primary ability, Wisdom, to take a level in this class or to take a level in another class if you are already a Cleric.\n\n**_Armor Training_**. When you gain your first Cleric level, you gain armor training with the following: Light Armor, Medium Armor, and Shields.\n\n**_Spell Slots_**. Add all your Cleric levels to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it.\n\n**_Channel Divinity_**. If you have more than one class with the Channel Divinity feature, a class's uses of the feature can be expended only on that class's Channel Divinity options."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 Druid:
-  desc: "**Class Group**: Priest\n**Primary Ability**: Wisdom\n\n`1` Channel Nature, Druidic, Spellcasting\n`2` Nature's Aid\n`3` Druid Subclass\n`4` Feat\n`5` Might of the Land\n`6` Subclass Feature\n`7` Aquatic Form\n`8` Feat\n`9` Aerial Form\n`10` Subclass Feature\n`11` Tiny Critter\n`12` Feat\n`13` Alternating Forms\n`14` Subclass Feature\n`15` Wild Resurgence\n`16` Feat\n`17` Beast Spells\n`18` Archdruid\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Ability**: Wisdom\n\n`1` Druidic, Primal Order, Spellcasting\n`2` Wild Companion, Wild Shape\n`3` Druid Subclass\n`4` Ability Score Improvement\n`5` Wild Resurgence\n`6` Subclass Feature\n`7` Elemental Fury\n`8` Ability Score Improvement\n`9` Commune with Nature\n`10` Subclass Feature\n`11` —\n`12` Ability Score Improvement\n`13` —\n`14` Subclass Feature\n`15` Improved Elemental Fury\n`16` Ability Score Improvement\n`17` —\n`18` Beast Spells\n`19` Ability Score Improvement\n`20` Archdruid"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d8 per Druid level\n**Hit Points at 1st Level**: 8 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d8 (or 5) + your Constitution modifier"
-  - title: Proficiencies
+  - title: "Proficiencies"
     body: "**Saving Throws**: Intelligence, Wisdom\n**Skills (Choose 2)**: Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival\n**Weapons**: Simple Weapons\n**Tools**: Herbalism Kit"
-  - title: Armor Training
+  - title: "Armor Training"
     body: "Light Armor, Shields"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 50 GP on equipment of your choice.\n\nDruidic Focus (Quarterstaff)\nExplorer's Pack\nHerbalism Kit\nLeather Armor\nShield\nSickle\n9 GP"
-  - title: Multiclassing and the Druid
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Druid as one of your classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in the Druid's primary ability, Wisdom, to take a level in this class or to take a level in another class if you are already a Druid.\n\n***Armor Training***. When you gain your first Druid level, you gain armor training with the following: Light Armor and Shields.\n\n***Spell Slots***. Add all your Druid levels to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it."
-  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 50 GP on equipment of your choice:\n\n- Druidic Focus (Quarterstaff)\n- Explorer's Pack\n- Herbalism Kit\n- Leather Armor\n- Shield\n- Sickle\n- 9 GP"
+  - title: "Multiclassing and the Druid"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Druid as one of your classes:\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Druid's primary ability, Wisdom, to take a level in this class or to take a level in another class if you are already a Druid.\n\n**_Armor Training_**. When you gain your first Druid level, you gain armor training with the following: Light Armor and Shields.\n\n**_Spell Slots_**. Add all your Druid levels to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 Fighter:
-  desc: "**Class Group**: Warrior\n**Primary Abilities**: Strength or Dexterity\n\n`1` Fighting Style, Second Wind, Weapon Mastery\n`2` Action Surge\n`3` Fighter Subclass\n`4` Feat\n`5` Extra Attack, Feat\n`6` Subclass Feature\n`7` Weapon Expert\n`8` Feat\n`9` Indomitable\n`10` Subclass Feature\n`11` Two Extra Attacks\n`12` Feat\n`13` Weapon Adept\n`14` Subclass Feature\n`15` Feat, Improved Action Surge\n`16` Feat\n`17` Unconquerable\n`18` Three Extra Attacks\n`19` Feat\n`20` Epic Boon"
+  desc: "**Class Group**: Warrior\n**Primary Ability**: Strength or Dexterity\n\n`1` Fighting Style, Second Wind, Weapon Mastery\n`2` Action Surge\n`3` Fighter Subclass\n`4` Feat\n`5` Extra Attack, Feat\n`6` Subclass Feature\n`7` Weapon Expert\n`8` Feat\n`9` Indomitable\n`10` Subclass Feature\n`11` Two Extra Attacks\n`12` Feat\n`13` Weapon Adept\n`14` Subclass Feature\n`15` Feat, Improved Action Surge\n`16` Feat\n`17` Unconquerable\n`18` Three Extra Attacks\n`19` Feat\n`20` Epic Boon"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d10 per Fighter level\n**Hit Points at 1st Level**: 10 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d10 (or 6) + your Constitution modifier"
-  - title: Proficiencies
+  - title: "Proficiencies"
     body: "**Saving Throws**: Strength, Constitution\n**Skills (Choose 2)**: Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Persuasion, Perception, Survival\n**Weapons**: Simple Weapons, Martial Weapons\n**Tools**: None"
-  - title: Armor Training
+  - title: "Armor Training"
     body: "Light Armor, Medium Armor, Heavy Armor, Shields"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 175 GP on equipment of your choice.\n\nChain Mail\nCrossbow Bolts (20)\nDungeoneer's Pack\n(a) Greatsword or (b) Longsword, Shield, and 25 GP\nLight Crossbow\nQuiver\n11 GP"
-  - title: Multiclassing and the Fighter
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Fighter as one of your classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in one of the Fighter's primary abilities, Strength or Dexterity, to take a level in this class or to take a level in another class if you are already a Fighter.\n\n***Proficiencies Gained***. If Fighter isn't your initial class, you gain proficiency with Martial Weapons when you take your first Fighter level.\n\n***Armor Training***. When you gain your first Fighter level, you gain armor training with the following: Light Armor, Medium Armor, and Shields."
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 175 GP on equipment of your choice.\n\n- Chain Mail\n- Crossbow Bolts (20)\n- Dungeoneer's Pack\n- (a) Greatsword or (b) Longsword, Shield, and 25 GP\n- Light Crossbow\n- Quiver\n- 11 GP"
+  - title: "Multiclassing and the Fighter"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Fighter as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in one of the Fighter's primary abilities, Strength or Dexterity, to take a level in this class or to take a level in another class if you are already a Fighter.\n\n**_Proficiencies Gained_**. If Fighter isn't your initial class, you gain proficiency with Martial Weapons when you take your first Fighter level.\n\n**_Armor Training_**. When you gain your first Fighter level, you gain armor training with the following: Light Armor, Medium Armor, and Shields."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+
+Monk:
+  desc: "**Primary Ability**: Dexterity and Wisdom\n\n`1` Martial Arts, Unarmored Defense, Weapon Mastery\n`2` Martial Discipline, Unarmored Movement\n`3` Deflect Missiles, Monk Subclass\n`4` Ability Score Improvement, Slow Fall\n`5` Extra Attack, Stunning Strike\n`6` Empowered Strikes, Subclass Feature\n`7` Evasion, Heightened Metabolism\n`8` Ability Score Improvement\n`9` Acrobatic Movement\n`10` Self-Restoration\n`11` Subclass Feature\n`12` Ability Score Improvement\n`13` Deflect Energy\n`14` Disciplined Survivor\n`15` Perfect Discipline\n`16` Ability Score Improvement\n`17` Subclass Feature\n`18` Superior Defense\n`19` Ability Score Improvement\n`20` Defy Death"
+  fields:
+  - title: "Hit Points"
+    body: "**Hit Dice**: 1d8 per Monk level\n\n**Hit Points at 1st Level**: 8 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d8 (or 5) + your Constitution modifier"
+  - title: "Proficiencies"
+    body: "**Saving Throws**: Strength, Dexterity\n**Skills (Choose 2)**: Acrobatics, Athletics, History, Insight, Religion, Stealth\n**Weapons**: Simple Weapons\n**Tools**: Choose one type of Artisan's Tool or Musical Instrument"
+  - title: "Armor Training"
+    body: "None"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 65 GP on equipment of your choice.\n\n- Artisan's Tools\n- Dagger (5)\n- Explorer's Pack\n- Musical Instrument\n- Spear\n- 9 GP"
+  - title: "Multiclassing and the Monk"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Monk as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Monk's primary abilities, Dexterity and Wisdom, to take a level in this class or to take a level in another class if you are already a Monk."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 Paladin:
-  desc: "**Class Group**: Priest\n**Primary Abilities**: Strength, Charisma\n\n`1` Lay on Hands, Spellcasting\n`2` Divine Smite, Fighting Style\n`3` Channel Divinity, Paladin Subclass\n`4` Feat\n`5` Extra Attack, Faithful Steed\n`6` Subclass Feature\n`7` Aura of Protection\n`8` Feat\n`9` Abjure Foes\n`10` Subclass Feature\n`11` Radiant Strikes\n`12` Feat\n`13` Aura of Courage\n`14` Subclass Feature\n`15` Restoring Touch\n`16` Feat\n`17` Aura Expansion\n`18` Divine Conduit\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Abilities**: Strength, Charisma\n\n`1` Lay on Hands, Spellcasting, Weapon Mastery\n`2` Fighting Style, Paladin's Smite\n`3` Channel Divinity, Paladin Subclass\n`4` Ability Score Improvement\n`5` Extra Attack, Faithful Steed\n`6` Aura of Protection\n`7` Subclass Feature\n`8` Ability Score Improvement\n`9` Abjure Foes\n`10` Aura of Courage\n`11` Radiant Strikes\n`12` Ability Score Improvement\n`13` —\n`14` Restoring Touch\n`15` Subclass Feature\n`16` Ability Score Improvement\n`17` —\n`18` Aura Expansion\n`19` Ability Score Improvement\n`20` Subclass Feature"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d10 per Paladin level\n**Hit Points at 1st Level**: 10 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d10 (or 6) + your Constitution modifier"
-  - title: Proficiencies
+  - title: "Proficiencies"
     body: "**Saving Throws**: Wisdom, Charisma\n**Skills (Choose 2)**: Athletics, Insight, Intimidation, Medicine, Persuasion, Religion\n**Weapons**: Simple Weapons, Martial Weapons\n**Tools**: None"
-  - title: Armor Training
+  - title: "Armor Training"
     body: "Light Armor, Medium Armor, Heavy Armor, Shields"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 150 GP on equipment of your choice.\n\nChain Mail\nHoly Symbol\nJavelin (6)\nLongsword\nPriest's Pack\nShield\n9 GP"
-  - title: Multiclassing and the Paladin
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Paladin as one of your classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in the Paladin's primary abilities—Strength and Charisma—to take a level in this class or to take a level in another class if you are already a Paladin.\n\n***Proficiencies Gained***. If Paladin isn't your initial class, you gain proficiency with Martial Weapons when you take your first Paladin level.\n\n***Armor Training***. When you gain your first Paladin level, you gain armor training with the following: Light Armor, Medium Armor, and Shields.\n\n***Spell Slots***. Add half your Paladin levels (rounded up) to the appropriate levels from other classes to determine your available Spell Slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the Spell Slots of an individual class to determine the number and levels of the spells you prepare for it."
-  - body: "[One D&D Packet 4: Druid & Paladin](https://www.dndbeyond.com/sources/one-dnd/druid-paladin)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 150 GP on equipment of your choice.\n\n- Chain Mail\n- Holy Symbol\n- Javelin (6)\n- Longsword\n- Priest's Pack\n- Shield\n- 9 GP"
+  - title: "Multiclassing and the Paladin"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Paladin as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Paladin's primary abilities—Strength and Charisma—to take a level in this class or to take a level in another class if you are already a Paladin.\n\n**_Proficiencies Gained_**. If Paladin isn't your initial class, you gain proficiency with Martial Weapons when you take your first Paladin level.\n\n**_Armor Training_**. When you gain your first Paladin level, you gain armor training with the following: Light Armor, Medium Armor, and Shields.\n\n**_Spell Slots_**. Add half your Paladin levels (rounded up) to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it.\n\n**_Channel Divinity_**. If you have more than one class with the Channel Divinity feature, a class's uses of the feature can be expended only on that class's Channel Divinity options."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 Ranger:
-  desc: "**Class Group**: Expert\n**Primary Abilities**: Dexterity, Wisdom\n\n`1` Expertise, Favored Enemy, Spellcasting\n`2` Fighting Style\n`3` Ranger Subclass\n`4` Feat\n`5` Extra Attack\n`6` Subclass Feature\n`7` Roving\n`8` Feat\n`9` Expertise\n`10` Subclass Feature\n`11` Tireless\n`12` Feat\n`13` Nature's Veil\n`14` Subclass Feature\n`15` Feral Senses\n`16` Feat\n`17` —\n`18` Foe Slayer\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Ability**: Dexterity, Wisdom\n\n`1` Deft Explorer, Spellcasting, Weapon Mastery\n`2` Favored Enemy, Fighting Style\n`3` Ranger Subclass\n`4` Ability Score Improvement\n`5` Extra Attack\n`6` Roving\n`7` Subclass Feature\n`8` Ability Score Improvement\n`9` Conjure Barrage, Deft Explorer Improvement\n`10` Tireless\n`11` Subclass Feature\n`12` Ability Score Improvement\n`13` —\n`14` Nature's Veil\n`15` Subclass Feature\n`16` Ability Score Improvement\n`17` Conjure Volley\n`18` Feral Senses\n`19` Ability Score Improvement\n`20` Foe Slayer"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d10 per Ranger level\n**Hit Points at 1st Level**: 10 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d10 (or 6) + your Constitution modifier"
-  - title: Proficiencies
-    body: "**Saving Throws**: Strength, Dexterity\n**Skills**: Athletics, Stealth, Survival (or choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival)\n**Weapons**: Simple Weapons, Martial Weapons\n**Tools**: None"
-  - title: Armor Training
+  - title: "Proficiencies"
+    body: "**Saving Throws**: Strength, Dexterity\n**Skills (Choose 3)**: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, Survival\n**Weapons**: Simple Weapons, Martial Weapons\n**Tools**: None"
+  - title: "Armor Training"
     body: "Light Armor, Medium Armor, Shields"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 150 GP on equipment of your choice.\n\nArrows (20)\nExplorer's Pack\nLongbow\nQuiver\nScimitar\nShortsword\nStudded Leather Armor\n8 GP"
-  - title: Multiclassing and the Ranger
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Ranger as one of your Classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in the Ranger's primary abilities, Dexterity and Wisdom, to take a level in this Class or to take a level in another Class if you are already a Ranger.\n\n***Proficiencies Gained***. If Ranger isn't your initial Class, here are the Proficiencies you gain when you take your first Ranger level: Martial Weapons and one Skill of your choice from the Ranger's Skill list.\n\n***Armor Training***. When you gain your first Ranger level, you gain the following Armor Training: Light Armor, Medium Armor, and Shield.\n\n***Spell Slots***. Add half your Ranger levels (rounded up) to the appropriate levels from other Classes to determine your available Spell Slots for casting Spells, as detailed in the multiclassing rules.\n\nYou prepare Spells for each of your Classes individually, referring to the Spell Slots of an individual Class to determine the number and levels of the Spells you prepare for it."
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 150 GP on equipment of your choice.\n\n- Arrows (20)\n- Druidic Focus (Sprig of Mistletoe)\n- Explorer's Pack\n- Longbow or Shortbow\n- Quiver\n- Scimitar\n- Shortsword\n- Studded Leather Armor\n- 7 GP"
+  - title: "Multiclassing and the Ranger"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Ranger as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Ranger's primary abilities, Dexterity and Wisdom, to take a level in this class or to take a level in another class if you are already a Ranger.\n\n**_Proficiencies Gained_**. If Ranger isn't your initial class, here are the proficiencies you gain when you take your first Ranger level: Martial Weapons and one skill of your choice from the Ranger's skill list.\n\n**_Armor Training_**. When you gain your first Ranger level, you gain the following armor training: Light Armor, Medium Armor, and Shield.\n\n**_Spell Slots_**. Add half your Ranger levels (rounded up) to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 Rogue:
-  desc: "**Class Group**: Expert\n**Primary Ability**: Dexterity\n\n`1` Expertise, Sneak Attack, Thieves' Cant\n`2` Cunning Action\n`3` Rogue Subclass\n`4` Feat\n`5` Uncanny Dodge\n`6` Subclass Feature\n`7` Expertise\n`8` Feat\n`9` Evasion\n`10` Feat, Subclass Feature\n`11` Reliable Talent\n`12` Feat\n`13` Subtle Strikes\n`14` Subclass Feature\n`15` Slippery Mind\n`16` Feat\n`17` Elusive\n`18` Stroke of Luck\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Ability**: Dexterity\n\n`1` Expertise, Sneak Attack, Thieves' Cant, Weapon Mastery\n`2` Cunning Action\n`3` Rogue Subclass, Steady Aim\n`4` Ability Score Improvement\n`5` Cunning Strike, Uncanny Dodge\n`6` Expertise\n`7` Evasion, Reliable Talent\n`8` Ability Score Improvement\n`9` Subclass Feature\n`10` Ability Score Improvement\n`11` Improved Cunning Strike\n`12` Ability Score Improvement\n`13` Subclass Feature\n`14` Devious Strikes\n`15` Slippery Mind\n`16` Ability Score Improvement\n`17` Subclass Feature\n`18` Elusive\n`19` Ability Score Improvement\n`20` Stroke of Luck"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d8 per Rogue level\n**Hit Points at 1st Level**: 8 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d8 (or 5) + your Constitution modifier"
-  - title: Proficiencies
-    body: "**Saving Throws**: Dexterity, Intelligence\n**Skills**: Acrobatics, Investigation, Sleight of Hand, Stealth (or choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, and Stealth)\n**Weapons**: Simple Weapons, Martial Weapons that have the Finesse Property\n**Tools**: Thieves' Tools"
-  - title: Armor Training
+  - title: "Proficiencies"
+    body: "**Saving Throws**: Dexterity, Intelligence\n**Skills (Choose 4)**: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, Stealth\n**Weapons**: Simple Weapons, Martial Weapons that have the Finesse Property\n**Tools**: Thieves' Tools"
+  - title: "Armor Training"
     body: "Light Armor"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 110 GP on equipment of your choice.\n\nArrows (20)\nBurglar's Pack\nDagger (2)\nLeather Armor\nQuiver\nShortbow\nShortsword\nThieves' Tools\n18 GP"
-  - title: Multiclassing and the Rogue
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Rogue as one of your Classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in the Rogue's primary ability, Dexterity, to take a level in this Class or to take a level in another Class if you are already a Rogue.\n\n***Proficiencies Gained***. If Rogue isn't your initial Class, here are the Proficiencies you gain when you take your first Rogue level: Thieves' Tools and one Skill of your choice from the Rogue's Skill list.\n\n***Armor Training***. When you gain your first Rogue level, you gain Light Armor Training"
-  - body: "[One D&D Packet 2: Expert Classes](https://www.dndbeyond.com/sources/one-dnd/expert-classes)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 110 GP on equipment of your choice.\n\n- Arrows (20)\n- Burglar's Pack\n- Dagger (2)\n- Leather Armor\n- Quiver\n- Shortbow\n- Shortsword\n- Thieves' Tools\n- 18 GP"
+  - title: "Multiclassing and the Rogue"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Rogue as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Rogue's primary ability, Dexterity, to take a level in this class or to take a level in another class if you are already a Rogue.\n\n**_Proficiencies Gained_**. If Rogue isn't your initial class, here are the proficiencies you gain when you take your first Rogue level: Thieves' Tools and one skill of your choice from the Rogue's skill list.\n\n**_Armor Training_**. When you gain your first Rogue level, you gain Light Armor training."
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 Sorcerer:
   desc: "**Class Group**: Mage\n**Primary Ability**: Charisma\n\n`1` Innate Sorcery, Spellcasting\n`2` Font of Magic, Metamagic\n`3` Sorcerer Subclass\n`4` Feat\n`5` Sorcerous Vitality\n`6` Subclass Feature\n`7` Arcane Eruption\n`8` Feat\n`9` Sorcery Incarnate\n`10` Subclass Feature\n`11` —\n`12` Feat\n`13` Additional Metamagic\n`14` Subclass Feature\n`15` Sorcerous Restoration\n`16` Feat\n`17` —\n`18` Arcane Apotheosis\n`19` Feat\n`20` Epic Boon"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d6 per Sorcerer level\n**Hit Points at 1st Level**: 6 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d6 (or 4) + your Constitution modifier"
-  - title: Proficiencies
+  - title: "Proficiencies"
     body: "**Saving Throws**: Constitution, Charisma\n**Skills (Choose 2)**: Arcana, Deception, Insight, Intimidation, Persuasion, Religion\n**Weapons**: Simple Weapons\n**Tools**: None"
-  - title: Armor Training
+  - title: "Armor Training"
     body: "None"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 50 GP on equipment of your choice.\n\nArcane Focus (Crystal)\nDagger (2)\nDungeoneer's Pack\nSpear\n28 GP"
-  - title: Multiclassing and the Sorcerer
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Sorcerer as one of your classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in the Sorcerer's primary ability, Charisma, to take a level in this class or to take a level in another class if you are already a Sorcerer.\n\n***Spell Slots***. Add all your Sorcerer levels to the appropriate levels from other classes to determine your available Spell Slots for casting Spells, as detailed in the multiclassing rules.\n\nYou prepare Spells for each of your classes individually, referring to the Spell Slots of an individual Class to determine the number and levels of the Spells you prepare for it."
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 50 GP on equipment of your choice.\n\n- Arcane Focus (Crystal)\n- Dagger (2)\n- Dungeoneer's Pack\n- Spear\n- 28 GP"
+  - title: "Multiclassing and the Sorcerer"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Sorcerer as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Sorcerer's primary ability, Charisma, to take a level in this class or to take a level in another class if you are already a Sorcerer.\n\n**_Spell Slots_**. Add all your Sorcerer levels to the appropriate levels from other classes to determine your available Spell Slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the Spell Slots of an individual class to determine the number and levels of the spells you prepare for it."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 Warlock:
   desc: "**Class Group**: Mage\n**Primary Ability**: Intelligence, Wisdom, or Charisma\n\n`1` Pact Boon, Spellcasting\n`2` Eldritch Invocations\n`3` Warlock Subclass\n`4` Feat\n`5` Eldritch Invocation\n`6` Subclass Feature\n`7` Eldritch Invocation\n`8` Feat\n`9` Eldritch Invocation\n`10` Subclass Feature\n`11` Contact Patron, Eldritch Invocation\n`12` Feat\n`13` Eldritch Invocation\n`14` Subclass Feature\n`15` Eldritch Invocation\n`16` Feat\n`17` Eldritch Invocation\n`18` Hex Master\n`19` Feat\n`20` Epic Boon"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d8 per Warlock level\n**Hit Points at 1st Level**: 8 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d8 (or 5) + your Constitution modifier"
-  - title: Proficiencies
+  - title: "Proficiencies"
     body: "**Saving Throws**: Wisdom, Charisma\n**Skills (Choose 2)**: Arcana, Deception, History, Intimidation, Investigation, Nature, Religion\n**Weapons**: Simple Weapons\n**Tools**: None"
-  - title: Armor Training
+  - title: "Armor Training"
     body: "Light Armor, Medium Armor"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 100 GP on equipment of your choice.\n\nArcane Focus (Orb)\nBook (Occult Lore)\nDagger (2)\nLeather Armor\nScholar's Pack\nSickle\n15 GP"
-  - title: Multiclassing and the Warlock
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Warlock as one of your classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in one of the Warlock's primary abilities—Intelligence, Wisdom, or Charisma—to take a level in this class or to take a level in another class if you are already a Warlock.\n\n***Armor Training***. When you gain your first Warlock level, you gain armor training with the following: Light Armor and Medium Armor.\n\n***Spell Slots***. Add half your Warlock levels (rounded up) to the appropriate levels from other classes to determine your available Spell Slots for casting Spells, as detailed in the multiclassing rules.\n\nYou prepare Spells for each of your classes individually, referring to the Spell Slots of an individual Class to determine the number and levels of the Spells you prepare for it."
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 100 GP on equipment of your choice.\n\n- Arcane Focus (Orb)\n- Book (Occult Lore)\n- Dagger (2)\n- Leather Armor\n- Scholar's Pack\n- Sickle\n- 15 GP"
+  - title: "Multiclassing and the Warlock"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Warlock as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in one of the Warlock's primary abilities—Intelligence, Wisdom, or Charisma—to take a level in this class or to take a level in another class if you are already a Warlock.\n\n**_Armor Training_**. When you gain your first Warlock level, you gain armor training with the following: Light Armor and Medium Armor.\n\n**_Spell Slots_**. Add half your Warlock levels (rounded up) to the appropriate levels from other classes to determine your available Spell Slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the Spell Slots of an individual class to determine the number and levels of the spells you prepare for it."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 Wizard:
   desc: "**Class Group**: Mage\n**Primary Ability**: Intelligence\n\n`1` Spellcasting, Wizard's Spellbook\n`2` Academic, Arcane Recovery\n`3` Wizard Subclass\n`4` Feat\n`5` Memorize Spell\n`6` Subclass Feature\n`7` Modify Spell\n`8` Feat\n`9` Create Spell\n`10` Subclass Feature\n`11` —\n`12` Feat\n`13` —\n`14` Subclass Feature\n`15` Spell Mastery\n`16` Feat\n`17` —\n`18` Signature Spells\n`19` Feat\n`20` Epic Boon"
   fields:
-  - title: Hit Points
+  - title: "Hit Points"
     body: "**Hit Dice**: 1d6 per Wizard level\n**Hit Points at 1st Level**: 6 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d6 (or 4) + your Constitution modifier"
-  - title: Proficiencies
+  - title: "Proficiencies"
     body: "**Saving Throws**: Intelligence, Wisdom\n**Skills (Choose 2)**: Arcana, History, Insight, Investigation, Medicine, Religion\n**Weapons**: Simple Weapons\n**Tools**: None"
-  - title: Armor Training
+  - title: "Armor Training"
     body: "None"
-  - title: Starting Equipment
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 55 GP on equipment of your choice.\n\nArcane Focus (Quarterstaff)\nDagger (2)\nRobe\nScholar's Pack\n5 GP"
-  - title: Multiclassing and the Wizard
-    body: "If your group uses the multiclassing rules in the [Player's Handbook](https://www.dndbeyond.com/sources/phb), here's what you need to know if you choose Wizard as one of your classes.\n\n***Ability Score Minimum***. As a multiclass character, you must have a score of at least 13 in the Wizard's primary ability, Intelligence, to take a level in this class or to take a level in another class if you are already a Wizard.\n\n***Spell Slots***. Add all your Wizard levels to the appropriate levels from other classes to determine your available Spell Slots for casting Spells, as detailed in the multiclassing rules.\n\nYou prepare Spells for each of your classes individually, referring to the Spell Slots of an individual Class to determine the number and levels of the Spells you prepare for it."
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "Starting Equipment"
+    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 55 GP on equipment of your choice.\n\n- Arcane Focus (Quarterstaff)\n- Dagger (2)\n- Robe\n- Scholar's Pack\n- 5 GP"
+  - title: "Multiclassing and the Wizard"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Wizard as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Wizard's primary ability, Intelligence, to take a level in this class or to take a level in another class if you are already a Wizard.\n\n**_Spell Slots_**. Add all your Wizard levels to the appropriate levels from other classes to determine your available Spell Slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the Spell Slots of an individual class to determine the number and levels of the spells you prepare for it."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"

@@ -3,98 +3,102 @@
 # load_yaml(get_gvar("e50758a4-d341-4d62-8857-713e842a305e"))
 
 "Fighter: Fighting Style":
-  title: "Fighter: Fighting Style (1st Level)"
+  title: "Fighter 1st Level: Fighting Style"
   desc: "You have honed your martial prowess and gain the Fighting Style: Defense feat, or you gain another Fighting Style feat of your choice."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Second Wind":
-  title: "Fighter: Second Wind (1st Level)"
+  title: "Fighter 1st Level: Second Wind"
   desc: "You have a limited well of stamina that you can draw on to recover from harm. As a Bonus Action, you can regain Hit Points equal to 1d10 + your Fighter level.\n\nYou can use this feature twice, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter table."
   fields:
   - title: "Fighter Table: Second Wind"
     body: "```\n| Level | Second Wind\n|-------+-------------\n|   1st | 2\n|   2nd | 2\n|   3rd | 2\n|   4th | 3\n|   5th | 3\n|   6th | 3\n|   7th | 3\n|   8th | 3\n|   9th | 3\n|  10th | 4\n|  11th | 4\n|  12th | 4\n|  13th | 4\n|  14th | 4\n|  15th | 4\n|  16th | 4\n|  17th | 4\n|  18th | 4\n|  19th | 4\n|  20th | 4\n```"
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Weapon Mastery":
-  title: "Fighter: Weapon Mastery (1st Level)"
+  title: "Fighter 1st Level: Weapon Mastery"
   desc: "Your training with weapons allows you to use the Mastery property of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change the kinds of weapons you chose.\n\nWhen you reach certain Fighter levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter table."
   fields:
   - title: "Fighter Table: Weapon Mastery"
     body: "```\n| Level | Weapon Mastery\n|-------+----------------\n|   1st | 3\n|   2nd | 3\n|   3rd | 3\n|   4th | 4\n|   5th | 4\n|   6th | 4\n|   7th | 4\n|   8th | 4\n|   9th | 4\n|  10th | 5\n|  11th | 5\n|  12th | 5\n|  13th | 5\n|  14th | 5\n|  15th | 5\n|  16th | 5\n|  17th | 5\n|  18th | 5\n|  19th | 5\n|  20th | 5\n```"
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Action Surge":
-  title: "Fighter: Action Surge (2nd Level)"
+  title: "Fighter 2nd Level: Action Surge"
   desc: "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, chosen from the following action options: Attack, Dash, Disengage, or Dodge.\n\nOnce you use this feature, you must finish a Short Rest or Long Rest before you can use it again."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Fighter Subclass":
-  title: "Fighter: Fighter Subclass (3rd Level)"
+  title: "Fighter 3rd Level: Fighter Subclass"
   desc: "You gain the Champion subclass or another Fighter subclass of your choice. The Champion is detailed after the class's description, and other subclasses will appear in future Unearthed Arcana articles.\n\nA subclass is a specialization that grants you special abilities at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level and lower. This class's description tells you the levels when your subclass provides features."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "At 6th, 10th, and 14th Level"
+    body: "You gain a feature from your fighter subclass."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Feat":
-  title: "Fighter: Feat (4th, 5th, 8th, 12th, 16th and 19th Level)"
+  title: "Fighter 4th Level: Feat"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - title: "At 5th, 8th, 12th, 15th, 16th, and 19th Level"
+    body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Extra Attack":
-  title: "Fighter: Extra Attack (5th Level)"
+  title: "Fighter 5th Level: Extra Attack"
   desc: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Weapon Expert":
-  title: "Fighter: Weapon Expert (7th Level)"
+  title: "Fighter 7th Level: Weapon Expert"
   desc: "You have honed your use of weapons to an art. Whenever you finish a Long Rest, you can choose one of the kinds of Mastery weapons you're using and replace its Mastery property with another Mastery property. The chosen kind of weapon must qualify for the new property. For example, you could replace the Longsword's Flex property with the Push property.\n\nThis property change applies only for you, not for others, and the change ends for you when you finish your next Long Rest."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Indomitable":
-  title: "Fighter: Indomitable (9th Level)"
+  title: "Fighter 9th Level: Indomitable"
   desc: "If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Two Extra Attacks":
-  title: "Fighter: Two Extra Attacks (11th Level)"
+  title: "Fighter 11th Level: Two Extra Attacks"
   desc: "Your Extra Attack feature now confers two extra attacks rather than one."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Weapon Adept":
-  title: "Fighter: Weapon Adept (13th Level)"
+  title: "Fighter 13th Level: Weapon Adept"
   desc: "You are a master of weapons. When you use your Weapon Expert feature on a kind of weapon, you can give that kind of weapon two properties rather than one, but you then use only one property at a time; whenever you make an attack roll against a target with that kind of weapon, you decide which of the two properties applies to that attack. You make this decision before the attack hits or misses.\n\nFor example, you could apply the Push and Topple properties to Longswords, and whenever you hit a target with a Longsword, you decide which of those properties to use against the target."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Improved Action Surge":
-  title: "Fighter: Improved Action Surge (15th Level)"
+  title: "Fighter 15th Level: Improved Action Surge"
   desc: "You can use Action Surge twice before a rest but no more than once on your turn."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Unconquerable":
-  title: "Fighter: Unconquerable (17th Level)"
+  title: "Fighter 17th Level: Unconquerable"
   desc: "When you're in great peril, you can tap into a deep well of resilience within yourself. If you fail a saving throw and your Indomitable feature is expended, you can use it again by expending a use of your Second Wind, which also heals you."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Three Extra Attacks":
-  title: "Fighter: Three Extra Attacks (18th Level)"
+  title: "Fighter 18th Level: Three Extra Attacks"
   desc: "Your Extra Attack feature now confers three extra attacks rather than two."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Fighter: Epic Boon":
-  title: "Fighter: Epic Boon (20th Level)"
+  title: "Fighter 20th Level: Epic Boon"
   desc: "You gain the following benefits:\n\n**Ability Score Increase**. Choose your Strength or Dexterity score. That score increases by 2, and its maximum is now 30.\n\n**Epic Boon Feat**. You gain the Epic Boon of Recovery or another Epic Boon feat of your choice."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 
 # =========================================
@@ -102,37 +106,37 @@
 # =========================================
 
 "Champion: Adaptable Victor":
-  title: "Champion: Adaptable Victor (3rd Level)"
+  title: "Champion 3rd Level: Adaptable Victor"
   desc: "You've studied your friends and foes alike and learned that victory relies on adaptability. Whenever you finish a Long Rest, you can gain proficiency in one skill from those available to this class at 1st level, as you remind yourself of past lessons. This proficiency lasts until the end of your next Long Rest."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Champion: Improved Critical":
-  title: "Champion: Improved Critical (3rd Level)"
+  title: "Champion 3rd Level: Improved Critical"
   desc: "Your attack rolls with weapons and Unarmed Strikes can score a critical hit on a roll of 19 or 20."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Champion: Additional Fighting Style":
-  title: "Champion: Additional Fighting Style (6th Level)"
+  title: "Champion 6th Level: Additional Fighting Style"
   desc: "You gain another Fighting Style feat of your choice."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Champion: Heroic Warrior":
-  title: "Champion: Heroic Warrior (6th Level)"
+  title: "Champion 6th Level: Heroic Warrior"
   desc: "The thrill of battle drives you toward victory. Once per combat, you can give yourself Heroic Advantage if you start your turn without it."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Champion: Superior Critical":
-  title: "Champion: Superior Critical (10th Level)"
+  title: "Champion 10th Level: Superior Critical"
   desc: "Your attack rolls with weapons and Unarmed Strikes can now score a critical hit on a roll of 18–20."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
 
 "Champion: Survivor":
-  title: "Champion: Survivor (14th Level)"
+  title: "Champion 14th Level: Survivor"
   desc: "You attain the pinnacle of resilience in battle, giving you these benefits:\n\n**Defy Death**. You have Advantage on death saving throws. Moreover, when you roll an 18–20 on a death save, you gain the benefit of rolling a 20.\n\n**Heroic Rally**. At the start of each of your turns, you regain Hit Points equal to 5 + your Constitution modifier if you have no more than half your Hit Points left. You don't gain this benefit if you have 0 Hit Points."
   fields:
-  - body: "[One D&D Packet 5: Player's Handbook](https://www.dndbeyond.com/sources/one-dnd/ph-playtest-5)"
+  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"

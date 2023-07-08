@@ -1,39 +1,94 @@
 <drac2>
 using(
-	embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
-	fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817"
+    embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
+    fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817",
+    int_lib = "b7c014b7-e267-463c-bc60-8cf9651031fb"
 )
 
 if embeds.on_cooldown():
-	err("A multiline command is already in progress. Please try again after it finishes.")
+    err("A multiline command is already in progress. Please try again after it finishes.")
 
 CLASSES = load_yaml(get_gvar("59b76239-1bc1-4193-9025-d17539d824db"))
 
-if search := """&*&""":
-	match fuzzy.get_matches_ignoring_punctuation(search, CLASSES):
-		# No matches.
-		case []:
-			err(f"`{search}` did not match any Classes. See `{ctx.prefix}{ctx.alias} class` for a list of supported Classes. For 5e Classes, use `/lookup class` instead.")
+def get_matching_class(search):
+    match fuzzy.get_matches_ignoring_punctuation(search, CLASSES):
+        # No matches.
+        case []:
+            err(f"`{search}` did not match any Classes. See `{ctx.prefix}{ctx.alias} class` for a list of supported Classes. For 5e Classes, use `/lookup class` instead.")
 
-		# Matches a rules term.
-		case [classy]:
-			out = CLASSES[classy] | {
-				"title": classy,
-				"color": "C50009",
-				"footer": f"{ctx.prefix}{ctx.alias} class [class] | @Lathaon#6649"
-			}
+        # Matches a rules term.
+        case [classy]:
+            return classy
 
-		# Matches multiple things.
-		case terms:
-			err("\n".join(["Matched multiple Classes. Which of the following did you mean?"] + terms))
-else:
-	# No arguments.
-	out = {
-		"title": "One D&D Class Lookup",
-		"desc": "The following Classes are supported:\n\n" + ",\n".join(list(CLASSES)),
-		"color": "C50009",
-		"footer": f"{ctx.prefix}{ctx.alias} class [class] | @Lathaon#6649"
-	}
+        # Matches multiple things.
+        case terms:
+            err("\n".join(["Matched multiple Classes. Which of the following did you mean?"] + terms))
+
+
+match &ARGS&:
+    case []:
+        # No arguments.
+        out = {
+            "title": "One D&D Class Lookup",
+            "desc": "The following Classes are supported:\n\n" + ",\n".join(list(CLASSES)),
+            "color": "C50009",
+            "footer": f"{ctx.prefix}{ctx.alias} class [class] [level] | @lathaon"
+        }
+
+    case [search]:
+        classy = get_matching_class(search)
+        out = CLASSES[classy] | {
+            "title": classy,
+            "color": "C50009",
+            "footer": f"{ctx.prefix}{ctx.alias} class [class] [level] | @lathaon"
+        }
+        
+    case [search, class_level_str]:
+        if not (class_level_str.isdigit() and 1 <= int(class_level_str) <= 20):
+            err(f"`{class_level_str}` is not a valid class level.")
+
+        class_level = int(class_level_str)
+
+        classy = get_matching_class(search)
+
+        CLASS_LEVELS = load_yaml(get_gvar("3488a00b-c1aa-4907-b45b-f20619f7b1a3"))
+        CLASSFEAT_INDEX = load_yaml(get_gvar("039a19a8-d815-4d48-aeaa-d3a0e8c7505f"))
+
+        LOADED_GVARS = {}
+        def get_feature(feature_name, class_level_str):
+            if (gvar_address := CLASSFEAT_INDEX[feature_name]) not in LOADED_GVARS:
+                LOADED_GVARS[gvar_address] = load_yaml(get_gvar(gvar_address))
+            embed = LOADED_GVARS[gvar_address][feature_name]
+            feature_fields = [
+                {
+                    "title": "__**" + embed.title[embed.title.index(":") + 2:] + "**__",
+                    "body": embed.pop("desc")
+                }
+            ]
+            for field in embed.fields[:-1]:
+                field_title = field.get("title", "").lower()
+                if field_title.startswith("at "):
+                    if class_level_str in field_title:
+                        feature_fields[0]["body"] = field.body
+                elif "table:" not in field_title:
+                    feature_fields.append(field)
+            return feature_fields
+        
+        benefits = CLASS_LEVELS[classy][class_level - 1]
+        out = {
+            "title": f"{classy}: Benefits at {int_lib.ordinal(class_level)} Level",
+            "desc" : "- " + "\n- ".join(benefits.improvements),
+            "fields": [
+                field
+                for feature_name in benefits.features
+                for field in get_feature(feature_name, class_level_str)
+            ],
+            "color": "C50009",
+            "footer": f"{ctx.prefix}{ctx.alias} class [class] [level] | @lathaon"
+        }
+
+    case args:
+        err(f"Found {len(args)} arguments but was expecting a maximum of two (Class and Level).")
 
 return embeds.get_output(out)
 </drac2>
