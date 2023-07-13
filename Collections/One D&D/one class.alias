@@ -62,16 +62,16 @@ match &ARGS&:
             feature_fields = [
                 {
                     "title": "__**" + embed.title[embed.title.index(":") + 2:] + "**__",
-                    "body": embed.pop("desc")
+                    "body": embed.desc
                 }
             ]
-            for field in embed.fields[:-1]:
-                field_title = field.get("title", "").lower()
+            for _field in embed.fields[:-1]:
+                field_title = _field.get("title", "").lower()
                 if field_title.startswith("at "):
                     if class_level_str in field_title:
-                        feature_fields[0]["body"] = field.body
+                        feature_fields[0]["body"] = _field.body
                 elif "table:" not in field_title:
-                    feature_fields.append(field)
+                    feature_fields.append(_field)
             return feature_fields
         
         benefits = CLASS_LEVELS[classy][class_level - 1]
