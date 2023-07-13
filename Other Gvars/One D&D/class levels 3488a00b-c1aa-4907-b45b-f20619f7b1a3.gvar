@@ -26,14 +26,14 @@ Barbarian:
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Number of Rages increases from 2 to 3."
+    - "Number of Rages increases from 2 to 3"
   #  4th Level
   - features:
     - "Barbarian: Feat"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Gain a third Weapon Mastery."
+    - "Gain a third Weapon Mastery"
   #  5th Level
   - features:
     - "Barbarian: Extra Attack"
@@ -47,7 +47,7 @@ Barbarian:
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Number of Rages increases from 3 to 4."
+    - "Number of Rages increases from 3 to 4"
   #  7th Level
   - features:
     - "Barbarian: Feral Instinct"
@@ -73,7 +73,7 @@ Barbarian:
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Gain a fourth Weapon Mastery."
+    - "Gain a fourth Weapon Mastery"
   # 11th Level
   - features:
     - "Barbarian: Brutal Critical"
@@ -86,36 +86,36 @@ Barbarian:
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 11 to 12."
-    - "Number of Rages increases from 4 to 5."
+    - "Brutal Critical damage increases from 11 to 12"
+    - "Number of Rages increases from 4 to 5"
   # 13th Level
   - features:
     - "Barbarian: Persistent Rage"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 12 to 13."
+    - "Brutal Critical damage increases from 12 to 13"
   # 14th Level
   - features:
     - "Barbarian: Barbarian Subclass"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 13 to 14."
+    - "Brutal Critical damage increases from 13 to 14"
   # 15th Level
   - features:
     - "Barbarian: Relentless Rage"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 14 to 15."
+    - "Brutal Critical damage increases from 14 to 15"
   # 16th Level
   - features:
     - "Barbarian: Feat"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 15 to 16."
+    - "Brutal Critical damage increases from 15 to 16"
     - "Rage Damage increases from +3 to +4"
   # 17th Level
   - features:
@@ -123,29 +123,29 @@ Barbarian:
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 16 to 17."
-    - "Number of Rages increases from 5 to 6."
+    - "Brutal Critical damage increases from 16 to 17"
+    - "Number of Rages increases from 5 to 6"
   # 18th Level
   - features:
     - "Barbarian: Primal Champion"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 17 to 18."
+    - "Brutal Critical damage increases from 17 to 18"
   # 19th Level
   - features:
     - "Barbarian: Feat"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 18 to 19."
+    - "Brutal Critical damage increases from 18 to 19"
   # 20th Level
   - features:
     - "Barbarian: Epic Boon"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max Hit Points increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 19 to 20."
+    - "Brutal Critical damage increases from 19 to 20"
 
 Bard:
   #  1st Level
@@ -195,6 +195,7 @@ Bard:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Bardic Inspiration Die increases from d6 to d8"
+    - "Vicious Mockery damage increases by 1d6 (total of 2d6)"
     - "Prepare two extra spells of 1st to 3rd level (total of 9)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
   #  6th Level
@@ -240,7 +241,7 @@ Bard:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
-    - "Gain a fourth Cantrip."
+    - "Gain a fourth Cantrip"
     - "Bardic Inspiration Die increases from d8 to d10"
     - "Prepare one extra spell of 1st to 5th level (total of 15)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 5th level"
@@ -250,6 +251,7 @@ Bard:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
+    - "Vicious Mockery damage increases by 1d6 (total of 3d6)"
     - "Prepare one extra spell of 1st to 6th level (total of 16)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 6th level"
   # 12th Level
@@ -299,6 +301,7 @@ Bard:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
+    - "Vicious Mockery damage increases by 1d6 (total of 4d6)"
     - "Prepare one extra spell of 1st to 9th level (total of 19)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
   # 18th Level
@@ -412,7 +415,7 @@ Cleric:
     improvements:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
-    - "Gain a fifth Cantrip."
+    - "Gain a fifth Cantrip"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 5th level (total of 15)"
   # 11th Level
@@ -577,7 +580,7 @@ Druid:
     improvements:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
-    - "Gain a fourth Cantrip."
+    - "Gain a fourth Cantrip"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 5th level (total of 15)"
   # 11th Level
@@ -656,4 +659,1381 @@ Druid:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 9th level (total of 22)"
+
+Fighter:
+  #  1st Level
+  - features:
+    - "Fighter: Fighting Style"
+    - "Fighter: Second Wind"
+    - "Fighter: Weapon Mastery"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Gain proficiency with Martial Weapons"
+    - "Gain armor training with Light Armor, Medium Armor, and Shields"
+  #  2nd Level
+  - features:
+    - "Fighter: Action Surge"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Second Wind healing increases by 1 (total of 1d10 + 2)"
+  #  3rd Level
+  - features:
+    - "Fighter: Fighter Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Second Wind healing increases by 1 (total of 1d10 + 3)"
+  #  4th Level
+  - features:
+    - "Fighter: Feat"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Second Wind healing increases by 1 (total of 1d10 + 4)"
+    - "Number of Second Wind uses increases from 2 to 3"
+    - "Gain a fourth Weapon Mastery"
+  #  5th Level
+  - features:
+    - "Fighter: Extra Attack"
+    - "Fighter: Feat"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Second Wind healing increases by 1 (total of 1d10 + 5)"
+  #  6th Level
+  - features:
+    - "Fighter: Fighter Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Second Wind healing increases by 1 (total of 1d10 + 6)"
+  #  7th Level
+  - features:
+    - "Fighter: Weapon Expert"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Second Wind healing increases by 1 (total of 1d10 + 7)"
+  #  8th Level
+  - features:
+    - "Fighter: Feat"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Second Wind healing increases by 1 (total of 1d10 + 8)"
+  #  9th Level
+  - features:
+    - "Fighter: Indomitable"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Second Wind healing increases by 1 (total of 1d10 + 9)"
+  # 10th Level
+  - features:
+    - "Fighter: Fighter Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +10)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 10)"
+    - "Number of Second Wind uses increases from 3 to 4"
+    - "Gain a fifth Weapon Mastery"
+  # 11th Level
+  - features:
+    - "Fighter: Two Extra Attacks"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +11)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 11)"
+  # 12th Level
+  - features:
+    - "Fighter: Feat"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +12)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 12)"
+  # 13th Level
+  - features:
+    - "Fighter: Weapon Adept"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +13)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 13)"
+  # 14th Level
+  - features:
+    - "Fighter: Fighter Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +14)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 14)"
+  # 15th Level
+  - features:
+    - "Fighter: Feat"
+    - "Fighter: Improved Action Surge"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +15)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 15)"
+  # 16th Level
+  - features:
+    - "Fighter: Feat"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +16)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 16)"
+  # 17th Level
+  - features:
+    - "Fighter: Unconquerable"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +17)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 17)"
+  # 18th Level
+  - features:
+    - "Fighter: Three Extra Attacks"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +18)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 18)"
+  # 19th Level
+  - features:
+    - "Fighter: Feat"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +19)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 19)"
+  # 20th Level
+  - features:
+    - "Fighter: Epic Boon"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Indomitable bonus increases by 1 (total of +20)"
+    - "Second Wind healing increases by 1 (total of 1d10 + 20)"
+
+Monk:
+  #  1st Level
+  - features:
+    - "Monk: Martial Arts"
+    - "Monk: Unarmored Defense"
+    - "Monk: Weapon Mastery"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  #  2nd Level
+  - features:
+    - "Monk: Martial Discipline"
+    - "Monk: Unarmored Movement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  #  3rd Level
+  - features:
+    - "Monk: Deflect Missiles"
+    - "Monk: Monk Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 2 to 3"
+  #  4th Level
+  - features:
+    - "Monk: Ability Score Improvement"
+    - "Monk: Slow Fall"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 3 to 4"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 4)"
+  #  5th Level
+  - features:
+    - "Monk: Extra Attack"
+    - "Monk: Stunning Strike"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 4 to 5"
+    - "Deflect Missiles damage reduction increases by 1 (total of 1d10 + DEX mod + 5)"
+    - "Slow Fall damage reduction increases by 5 (total of 25)"
+    - "Martial Arts die increases from 1d6 to 1d8"
+  #  6th Level
+  - features:
+    - "Monk: Empowered Strikes"
+    - "Monk: Monk Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 5 to 6"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 6)"
+    - "Slow Fall damage reduction increases by 5 (total of 30)"
+  #  7th Level
+  - features:
+    - "Monk: Evasion"
+    - "Monk: Heightened Metabolism"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 6 to 7"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 7)"
+    - "Slow Fall damage reduction increases by 5 (total of 35)"
+  #  8th Level
+  - features:
+    - "Monk: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 7 to 8"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 8)"
+    - "Slow Fall damage reduction increases by 5 (total of 40)"
+  #  9th Level
+  - features:
+    - "Monk: Acrobatic Movement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 8 to 9"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 9)"
+    - "Slow Fall damage reduction increases by 5 (total of 45)"
+  # 10th Level
+  - features:
+    - "Monk: Self-Restoration"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 9 to 10"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 10)"
+    - "Slow Fall damage reduction increases by 5 (total of 50)"
+  # 11th Level
+  - features:
+    - "Monk: Monk Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 10 to 11"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 11)"
+    - "Slow Fall damage reduction increases by 5 (total of 55)"
+    - "Martial Arts die increases from 1d8 to 1d10"
+  # 12th Level
+  - features:
+    - "Monk: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 11 to 12"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 12)"
+    - "Slow Fall damage reduction increases by 5 (total of 60)"
+  # 13th Level
+  - features:
+    - "Monk: Deflect Energy"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 12 to 13"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 13)"
+    - "Slow Fall damage reduction increases by 5 (total of 65)"
+  # 14th Level
+  - features:
+    - "Monk: Disciplined Survivor"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 13 to 14"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 14)"
+    - "Slow Fall damage reduction increases by 5 (total of 70)"
+  # 15th Level
+  - features:
+    - "Monk: Perfect Discipline"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 14 to 15"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 15)"
+    - "Slow Fall damage reduction increases by 5 (total of 75)"
+  # 16th Level
+  - features:
+    - "Monk: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 15 to 16"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 16)"
+    - "Slow Fall damage reduction increases by 5 (total of 80)"
+  # 17th Level
+  - features:
+    - "Monk: Monk Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 16 to 17"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 17)"
+    - "Slow Fall damage reduction increases by 5 (total of 85)"
+    - "Martial Arts die increases from 1d10 to 1d12"
+  # 18th Level
+  - features:
+    - "Monk: Superior Defense"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 17 to 18"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 18)"
+    - "Slow Fall damage reduction increases by 5 (total of 90)"
+  # 19th Level
+  - features:
+    - "Monk: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 18 to 19"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 19)"
+    - "Slow Fall damage reduction increases by 5 (total of 95)"
+  # 20th Level
+  - features:
+    - "Monk: Defy Death"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Number of Di Points increases from 19 to 20"
+    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 20)"
+    - "Slow Fall damage reduction increases by 5 (total of 100)"
+
+Paladin:
+  #  1st Level
+  - features:
+    - "Paladin: Lay on Hands"
+    - "Paladin: Spellcasting"
+    - "Paladin: Weapon Mastery"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Gain proficiency with Martial Weapons"
+    - "Gain armor training with Light Armor, Medium Armor, and Shields"
+    - "Increase your level by 1 for purposes of spell slots"
+  #  2nd Level
+  - features:
+    - "Paladin: Fighting Style"
+    - "Paladin: Paladin's Smite"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Lay on Hands pool increases by 5 (total of 10)"
+    - "Prepare one extra spell of 1st level (total of 3)"
+  #  3rd Level
+  - features:
+    - "Paladin: Channel Divinity"
+    - "Paladin: Paladin Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Lay on Hands pool increases by 5 (total of 15)"
+    - "Prepare one extra spell of 1st level (total of 4)"
+  #  4th Level
+  - features:
+    - "Paladin: Ability Score Improvement"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Lay on Hands pool increases by 5 (total of 20)"
+    - "Prepare one extra spell of 1st level (total of 5)"
+  #  5th Level
+  - features:
+    - "Paladin: Extra Attack"
+    - "Paladin: Faithful Steed"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Lay on Hands pool increases by 5 (total of 25)"
+    - "*Shining Smite* is always prepared and qualifies for the Paladin's Smite use"
+    - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+  #  6th Level
+  - features:
+    - "Paladin: Aura of Protection"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Lay on Hands pool increases by 5 (total of 30)"
+  #  7th Level
+  - features:
+    - "Paladin: Paladin Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Lay on Hands pool increases by 5 (total of 35)"
+    - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+  #  8th Level
+  - features:
+    - "Paladin: Ability Score Improvement"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Lay on Hands pool increases by 5 (total of 40)"
+  #  9th Level
+  - features:
+    - "Paladin: Abjure Foes"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Lay on Hands pool increases by 5 (total of 45)"
+    - "*Blinding Smite* is always prepared and qualifies for the Paladin's Smite use"
+    - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+  # 10th Level
+  - features:
+    - "Paladin: Aura of Courage"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Lay on Hands pool increases by 5 (total of 50)"
+  # 11th Level
+  - features:
+    - "Paladin: Radiant Strikes"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Lay on Hands pool increases by 5 (total of 55)"
+    - "Number of Channel Divinity uses increases from 2 to 3"
+    - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+  # 12th Level
+  - features:
+    - "Paladin: Ability Score Improvement"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Lay on Hands pool increases by 5 (total of 60)"
+  # 13th Level
+  - features: []
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Lay on Hands pool increases by 5 (total of 65)"
+    - "*Staggering Smite* is always prepared and qualifies for the Paladin's Smite use"
+    - "Prepare one extra spell of 1st to 4th level (total of 11)"
+  # 14th Level
+  - features:
+    - "Paladin: Restoring Touch"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Lay on Hands pool increases by 5 (total of 70)"
+  # 15th Level
+  - features:
+    - "Paladin: Paladin Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Lay on Hands pool increases by 5 (total of 75)"
+    - "Prepare one extra spell of 1st to 4th level (total of 12)"
+  # 16th Level
+  - features:
+    - "Paladin: Ability Score Improvement"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Lay on Hands pool increases by 5 (total of 80)"
+  # 17th Level
+  - features: []
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Lay on Hands pool increases by 5 (total of 85)"
+    - "*Banishing Smite* is always prepared and qualifies for the Paladin's Smite use"
+    - "Prepare two extra spells of 1st to 5th level (total of 14)"
+  # 18th Level
+  - features:
+    - "Paladin: Aura Expansion"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Lay on Hands pool increases by 5 (total of 90)"
+  # 19th Level
+  - features:
+    - "Paladin: Ability Score Improvement"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Lay on Hands pool increases by 5 (total of 95)"
+    - "Prepare one extra spell of 1st to 5th level (total of 15)"
+  # 20th Level
+  - features:
+    - "Paladin: Paladin Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Lay on Hands pool increases by 5 (total of 100)"
+
+Ranger:
+  #  1st Level
+  - features:
+    - "Ranger: Deft Explorer"
+    - "Ranger: Spellcasting"
+    - "Ranger: Weapon Mastery"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Gain proficiency with Martial Weapons and one skill from the class list: Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, or Survival"
+    - "Gain armor training with Light Armor, Medium Armor, and Shields"
+    - "Increase your level by 1 for purposes of spell slots"
+  #  2nd Level
+  - features:
+    - "Ranger: Favored Enemy"
+    - "Ranger: Fighting Style"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Prepare one extra spell of 1st level (total of 3)"
+  #  3rd Level
+  - features:
+    - "Ranger: Ranger Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st level (total of 4)"
+  #  4th Level
+  - features:
+    - "Ranger: Ability Score Improvement"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Prepare one extra spell of 1st level (total of 5)"
+  #  5th Level
+  - features:
+    - "Ranger: Extra Attack"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+  #  6th Level
+  - features:
+    - "Ranger: Roving"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+  #  7th Level
+  - features:
+    - "Ranger: Ranger Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+  #  8th Level
+  - features:
+    - "Ranger: Ability Score Improvement"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+  #  9th Level
+  - features:
+    - "Ranger: Conjure Barrage"
+    - "Ranger: Deft Explorer"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+  # 10th Level
+  - features:
+    - "Ranger: Tireless"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+  # 11th Level
+  - features:
+    - "Ranger: Ranger Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+  # 12th Level
+  - features:
+    - "Ranger: Ability Score Improvement"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+  # 13th Level
+  - features: []
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 4th level (total of 11)"
+  # 14th Level
+  - features:
+    - "Ranger: Nature's Veil"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+  # 15th Level
+  - features:
+    - "Ranger: Ranger Subclass"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 4th level (total of 12)"
+  # 16th Level
+  - features:
+    - "Ranger: Ability Score Improvement"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+  # 17th Level
+  - features:
+    - "Ranger: Conjure Volley"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare two extra spells of 1st to 5th level (total of 14)"
+  # 18th Level
+  - features:
+    - "Ranger: Feral Senses"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+  # 19th Level
+  - features:
+    - "Ranger: Ability Score Improvement"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 5th level (total of 15)"
+  # 20th Level
+  - features:
+    - "Ranger: Foe Slayer"
+    improvements:
+    - "Gain a d10 Hit Die"
+    - "Max Hit Points increase by 6 + CON mod"
+
+Rogue:
+  #  1st Level
+  - features:
+    - "Rogue: Expertise"
+    - "Rogue: Sneak Attack"
+    - "Rogue: Thieves' Cant"
+    - "Rogue: Weapon Mastery"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain proficiency with Thieves' Tools and one skill from the class list: Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, or Stealth"
+    - "Gain Light Armor training"
+  #  2nd Level
+  - features:
+    - "Rogue: Cunning Action"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  #  3rd Level
+  - features:
+    - "Rogue: Rogue Subclass"
+    - "Rogue: Steady Aim"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Sneak Attack damage increases by 1d6 (total of 2d6)"
+  #  4th Level
+  - features:
+    - "Rogue: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  #  5th Level
+  - features:
+    - "Rogue: Cunning Strike"
+    - "Rogue: Uncanny Dodge"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Sneak Attack damage increases by 1d6 (total of 3d6)"
+  #  6th Level
+  - features:
+    - "Rogue: Expertise"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  #  7th Level
+  - features:
+    - "Rogue: Evasion"
+    - "Rogue: Reliable Talent"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Sneak Attack damage increases by 1d6 (total of 4d6)"
+  #  8th Level
+  - features:
+    - "Rogue: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  #  9th Level
+  - features:
+    - "Rogue: Subclass Feature"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Sneak Attack damage increases by 1d6 (total of 5d6)"
+  # 10th Level
+  - features:
+    - "Rogue: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  # 11th Level
+  - features:
+    - "Rogue: Cunning Strike"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Sneak Attack damage increases by 1d6 (total of 6d6)"
+  # 12th Level
+  - features:
+    - "Rogue: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  # 13th Level
+  - features:
+    - "Rogue: Rogue Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Sneak Attack damage increases by 1d6 (total of 7d6)"
+  # 14th Level
+  - features:
+    - "Rogue: Devious Strikes"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  # 15th Level
+  - features:
+    - "Rogue: Slippery Mind"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Sneak Attack damage increases by 1d6 (total of 8d6)"
+  # 16th Level
+  - features:
+    - "Rogue: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  # 17th Level
+  - features:
+    - "Rogue: Rogue Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Sneak Attack damage increases by 1d6 (total of 9d6)"
+  # 18th Level
+  - features:
+    - "Rogue: Elusive"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+  # 19th Level
+  - features:
+    - "Rogue: Ability Score Improvement"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Sneak Attack damage increases by 1d6 (total of 10d6)"
+  # 20th Level
+  - features:
+    - "Rogue: Stroke of Luck"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+
+Sorcerer:
+  #  1st Level
+  - features:
+    - "Sorcerer: Innate Sorcery"
+    - "Sorcerer: Spellcasting"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+  #  2nd Level
+  - features:
+    - "Sorcerer: Font of Magic"
+    - "Sorcerer: Metamagic"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st level (total of 5)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st level"
+  #  3rd Level
+  - features:
+    - "Sorcerer: Sorcerer Subclass"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 2 to 3"
+    - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+  #  4th Level
+  - features:
+    - "Sorcerer: Feat"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Gain a fifth Cantrip"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 3 to 4"
+    - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+  #  5th Level
+  - features:
+    - "Sorcerer: Sorcerous Vitality"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 4 to 5"
+    - "Sorcerous Burst damage increases by 1d6 (total of 2d6)"
+    - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+  #  6th Level
+  - features:
+    - "Sorcerer: Sorcerer Subclass"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 5 to 6"
+    - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+  #  7th Level
+  - features:
+    - "Sorcerer: Arcane Eruption"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 6 to 7"
+    - "Prepare one extra spell of 1st to 4th level (total of 11)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+  #  8th Level
+  - features:
+    - "Sorcerer: Feat"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 7 to 8"
+    - "Prepare one extra spell of 1st to 4th level (total of 12)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+  #  9th Level
+  - features:
+    - "Sorcerer: Sorcery Incarnate"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 8 to 9"
+    - "Prepare two extra spells of 1st to 5th level (total of 14)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 5th level"
+  # 10th Level
+  - features:
+    - "Sorcerer: Sorcerer Subclass"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 9 to 10"
+    - "Gain a sixth Cantrip"
+    - "Prepare one extra spell of 1st to 5th level (total of 15)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 5th level"
+  # 11th Level
+  - features: []
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 10 to 11"
+    - "Sorcerous Burst damage increases by 1d6 (total of 3d6)"
+    - "Prepare one extra spell of 1st to 6th level (total of 16)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 6th level"
+  # 12th Level
+  - features:
+    - "Sorcerer: Ability Score Improvement"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 11 to 12"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 6th level"
+  # 13th Level
+  - features:
+    - "Sorcerer: Metamagic"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 12 to 13"
+    - "Prepare one extra spell of 1st to 7th level (total of 17)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 7th level"
+  # 14th Level
+  - features:
+    - "Sorcerer: Sorcerer Subclass"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 13 to 14"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 7th level"
+  # 15th Level
+  - features:
+    - "Sorcerer: Sorcerous Restoration"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 14 to 15"
+    - "Prepare one extra spell of 1st to 8th level (total of 18)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 8th level"
+  # 16th Level
+  - features:
+    - "Sorcerer: Feat"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 15 to 16"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 8th level"
+  # 17th Level
+  - features: []
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 16 to 17"
+    - "Sorcerous Burst damage increases by 1d6 (total of 4d6)"
+    - "Prepare one extra spell of 1st to 9th level (total of 19)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+  # 18th Level
+  - features:
+    - "Sorcerer: Arcane Apotheosis"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 17 to 18"
+    - "Prepare one extra spell of 1st to 9th level (total of 20)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+  # 19th Level
+  - features:
+    - "Sorcerer: Feat"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 18 to 19"
+    - "Prepare one extra spell of 1st to 9th level (total of 21)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+  # 20th Level
+  - features:
+    - "Sorcerer: Epic Boon"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Number of Sorcery Points increases from 19 to 20"
+    - "Prepare one extra spell of 1st to 9th level (total of 22)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+
+Warlock:
+  #  1st Level
+  - features:
+    - "Warlock: Pact Boon"
+    - "Warlock: Spellcasting"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain armor training with Light Armor and Medium Armor"
+    - "Increase your level by 1 for purposes of spell slots"
+  #  2nd Level
+  - features:
+    - "Warlock: Eldritch Invocations"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Prepare one extra spell of 1st level (total of 3)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st level"
+  #  3rd Level
+  - features:
+    - "Warlock: Warlock Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st level (total of 4)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  #  4th Level
+  - features:
+    - "Warlock: Feat"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain a third Cantrip"
+    - "Prepare one extra spell of 1st level (total of 5)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  #  5th Level
+  - features:
+    - "Warlock: Eldritch Invocations"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  #  6th Level
+  - features:
+    - "Warlock: Warlock Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  #  7th Level
+  - features:
+    - "Warlock: Eldritch Invocations"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  #  8th Level
+  - features:
+    - "Warlock: Feat"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  #  9th Level
+  - features:
+    - "Warlock: Eldritch Invocations"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 10th Level
+  - features:
+    - "Warlock: Warlock Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Gain a fourth Cantrip"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 11th Level
+  - features:
+    - "Warlock: Contact Patron"
+    - "Warlock: Eldritch Invocations"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 12th Level
+  - features:
+    - "Warlock: Feat"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 13th Level
+  - features:
+    - "Warlock: Eldritch Invocations"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 4th level (total of 11)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 14th Level
+  - features:
+    - "Warlock: Warlock Subclass"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 15th Level
+  - features:
+    - "Warlock: Eldritch Invocations"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 4th level (total of 12)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 16th Level
+  - features:
+    - "Warlock: Feat"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 17th Level
+  - features:
+    - "Warlock: Eldritch Invocations"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare two extra spells of 1st to 5th level (total of 14)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 18th Level
+  - features:
+    - "Warlock: Hex Master"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 19th Level
+  - features:
+    - "Warlock: Feat"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Prepare one extra spell of 1st to 5th level (total of 15)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+  # 20th Level
+  - features:
+    - "Warlock: Epic Boon"
+    improvements:
+    - "Gain a d8 Hit Die"
+    - "Max Hit Points increase by 5 + CON mod"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
+
+Wizard:
+  #  1st Level
+  - features:
+    - "Wizard: Spellcasting"
+    - "Wizard: Wizard's Spellbook"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+  #  2nd Level
+  - features:
+    - "Wizard: Academic"
+    - "Wizard: Arcane Recovery"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Add two Arcane spells of 1st level to your spellbook"
+    - "Prepare one extra spell of 1st level (total of 5)"
+  #  3rd Level
+  - features:
+    - "Wizard: Wizard Subclass"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Arcane Recovery's combined slot level increases from 1 to 2"
+    - "Add two Arcane spells of 1st or 2nd level to your spellbook"
+    - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+  #  4th Level
+  - features:
+    - "Wizard: Feat"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Gain a fourth Cantrip"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Add two Arcane spells of 1st or 2nd level to your spellbook"
+    - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+  #  5th Level
+  - features:
+    - "Wizard: Memorize Spell"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Arcane Recovery's combined slot level increases from 2 to 3"
+    - "Add two Arcane spells of 1st to 3rd level to your spellbook"
+    - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+  #  6th Level
+  - features:
+    - "Wizard: Wizard Subclass"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Add two Arcane spells of 1st to 3rd level to your spellbook"
+    - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+  #  7th Level
+  - features:
+    - "Wizard: Modify Spell"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Arcane Recovery's combined slot level increases from 3 to 4"
+    - "Add two Arcane spells of 1st to 4th level to your spellbook"
+    - "Prepare one extra spell of 1st to 4th level (total of 11)"
+  #  8th Level
+  - features:
+    - "Wizard: Feat"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Add two Arcane spells of 1st to 4th level to your spellbook"
+    - "Prepare one extra spell of 1st to 4th level (total of 12)"
+  #  9th Level
+  - features:
+    - "Wizard: Create Spell"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Arcane Recovery's combined slot level increases from 4 to 5"
+    - "Add two Arcane spells of 1st to 5th level to your spellbook"
+    - "Prepare two extra spells of 1st to 5th level (total of 14)"
+  # 10th Level
+  - features:
+    - "Wizard: Wizard Subclass"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Gain a fifth Cantrip"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Add two Arcane spells of 1st to 5th level to your spellbook"
+    - "Prepare one extra spell of 1st to 5th level (total of 15)"
+  # 11th Level
+  - features: []
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Arcane Recovery's combined slot level increases from 5 to 6"
+    - "Add two Arcane spells of 1st to 6th level to your spellbook"
+    - "Prepare one extra spell of 1st to 6th level (total of 16)"
+  # 12th Level
+  - features:
+    - "Wizard: Feat"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Add two Arcane spells of 1st to 6th level to your spellbook"
+    - "Increase your level by 1 for purposes of spell slots"
+  # 13th Level
+  - features: []
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Arcane Recovery's combined slot level increases from 6 to 7"
+    - "Add two Arcane spells of 1st to 7th level to your spellbook"
+    - "Prepare one extra spell of 1st to 7th level (total of 17)"
+  # 14th Level
+  - features:
+    - "Wizard: Wizard Subclass"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Add two Arcane spells of 1st to 7th level to your spellbook"
+    - "Increase your level by 1 for purposes of spell slots"
+  # 15th Level
+  - features:
+    - "Wizard: Spell Mastery"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Arcane Recovery's combined slot level increases from 7 to 8"
+    - "Add two Arcane spells of 1st to 8th level to your spellbook"
+    - "Prepare one extra spell of 1st to 8th level (total of 18)"
+  # 16th Level
+  - features:
+    - "Wizard: Feat"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Add two Arcane spells of 1st to 8th level to your spellbook"
+    - "Increase your level by 1 for purposes of spell slots"
+  # 17th Level
+  - features: []
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Arcane Recovery's combined slot level increases from 8 to 9"
+    - "Add two Arcane spells of 1st to 9th level to your spellbook"
+    - "Prepare one extra spell of 1st to 9th level (total of 19)"
+  # 18th Level
+  - features:
+    - "Wizard: Signature Spells"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Add two Arcane spells of 1st to 9th level to your spellbook"
+    - "Prepare one extra spell of 1st to 9th level (total of 20)"
+  # 19th Level
+  - features:
+    - "Wizard: Feat"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Arcane Recovery's combined slot level increases from 9 to 10"
+    - "Add two Arcane spells of 1st to 9th level to your spellbook"
+    - "Prepare one extra spell of 1st to 9th level (total of 21)"
+  # 20th Level
+  - features:
+    - "Wizard: Epic Boon"
+    improvements:
+    - "Gain a d6 Hit Die"
+    - "Max Hit Points increase by 4 + CON mod"
+    - "Increase your level by 1 for purposes of spell slots"
+    - "Add two Arcane spells of 1st to 9th level to your spellbook"
     - "Prepare one extra spell of 1st to 9th level (total of 22)"
