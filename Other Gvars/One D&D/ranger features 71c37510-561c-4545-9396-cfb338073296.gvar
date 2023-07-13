@@ -6,6 +6,8 @@
   title: "Ranger 1st Level: Deft Explorer"
   desc: "You are an unsurpassed explorer. Choose one of your proficiencies in a skill that appears on the Ranger skill list. You gain Expertise in that skill.\n\nIn addition, choose two types of terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. You have Advantage on Intelligence (Nature) checks about the chosen terrains, and you have Advantage on Wisdom (Survival) checks to track creatures in them.\n\nWhenever you finish a Long Rest, you can meditate and replace one of the chosen terrain types with a different one from the list."
   fields:
+  - title: "At 9th Level"
+    body: "Choose one of your proficiencies in a skill that appears on the Ranger skill list. You gain Expertise in that skill.\n\nIn addition, choose two more terrain types for your Deft Explorer feature."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Spellcasting":
@@ -77,12 +79,6 @@
 "Ranger: Conjure Barrage":
   title: "Ranger 9th Level: Conjure Barrage"
   desc: "Channeling nature's might, you can cause your weapon to multiply and strike at creatures before you; you always have the _Conjure Barrage_ spell prepared."
-  fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
-
-"Ranger: Deft Explorer Improvement":
-  title: "Ranger 9th Level: Deft Explorer Improvement"
-  desc: "Choose one of your proficiencies in a skill that appears on the Ranger skill list. You gain Expertise in that skill.\n\nIn addition, choose two more terrain types for your Deft Explorer feature."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 

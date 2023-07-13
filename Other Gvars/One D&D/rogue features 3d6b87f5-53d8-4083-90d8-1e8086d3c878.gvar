@@ -68,6 +68,8 @@
     body: "If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition."
   - title: "Withdraw (Cost: 1d6)"
     body: "Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks."
+  - title: "At 11th Level"
+    body: "You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Uncanny Dodge":
@@ -85,12 +87,6 @@
 "Rogue: Reliable Talent":
   title: "Rogue 7th Level: Reliable Talent"
   desc: "You have refined your talents until they approach perfection. Whenever you make an ability check that uses one of your skill or Tool proficiencies, you can treat a d20 roll of 9 or lower as a 10."
-  fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
-
-"Rogue: Improved Cunning Strike":
-  title: "Rogue 11th Level: Improved Cunning Strike"
-  desc: "You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
