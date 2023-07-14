@@ -168,6 +168,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st level (total of 5)"
     - "OPTIONAL: Swap one prepared spell for another of 1st level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  3rd Level
   - features:
     - "Bard: Bard Subclass"
@@ -177,6 +178,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st or 2nd level (total of 6)"
     - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  4th Level
   - features:
     - "Bard: Ability Score Improvement"
@@ -187,6 +189,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st or 2nd level (total of 7)"
     - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  5th Level
   - features:
     - "Bard: Font of Inspiration"
@@ -198,6 +201,7 @@ Bard:
     - "Vicious Mockery damage increases by 1d6 (total of 2d6)"
     - "Prepare two extra spells of 1st to 3rd level (total of 9)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  6th Level
   - features:
     - "Bard: Bard Subclass"
@@ -207,6 +211,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 3rd level (total of 10)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  7th Level
   - features:
     - "Bard: Countercharm"
@@ -216,6 +221,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 4th level (total of 11)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  8th Level
   - features:
     - "Bard: Ability Score Improvement"
@@ -225,6 +231,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 4th level (total of 12)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  9th Level
   - features:
     - "Bard: Expertise"
@@ -234,6 +241,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare two extra spells of 1st to 5th level (total of 14)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 5th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 10th Level
   - features:
     - "Bard: Magical Secrets"
@@ -245,6 +253,7 @@ Bard:
     - "Bardic Inspiration Die increases from d8 to d10"
     - "Prepare one extra spell of 1st to 5th level (total of 15)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 5th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 11th Level
   - features: []
     improvements:
@@ -254,6 +263,7 @@ Bard:
     - "Vicious Mockery damage increases by 1d6 (total of 3d6)"
     - "Prepare one extra spell of 1st to 6th level (total of 16)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 6th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 12th Level
   - features:
     - "Bard: Ability Score Improvement"
@@ -262,6 +272,7 @@ Bard:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 6th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 13th Level
   - features: []
     improvements:
@@ -270,6 +281,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 7th level (total of 17)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 7th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 14th Level
   - features:
     - "Bard: Bard Subclass"
@@ -278,6 +290,7 @@ Bard:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 7th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 15th Level
   - features: []
     improvements:
@@ -287,6 +300,7 @@ Bard:
     - "Bardic Inspiration Die increases from d10 to d12"
     - "Prepare one extra spell of 1st to 8th level (total of 18)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 8th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 16th Level
   - features:
     - "Bard: Ability Score Improvement"
@@ -295,6 +309,7 @@ Bard:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 8th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 17th Level
   - features: []
     improvements:
@@ -304,6 +319,7 @@ Bard:
     - "Vicious Mockery damage increases by 1d6 (total of 4d6)"
     - "Prepare one extra spell of 1st to 9th level (total of 19)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 18th Level
   - features:
     - "Bard: Superior Inspiration"
@@ -313,6 +329,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 20)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 19th Level
   - features:
     - "Bard: Ability Score Improvement"
@@ -322,6 +339,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 21)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 20th Level
   - features:
     - "Bard: Words of Creation"
@@ -331,6 +349,7 @@ Bard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 22)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+    - "OPTIONAL: Swap one cantrip for another"
 
 Cleric:
   #  1st Level
@@ -350,6 +369,7 @@ Cleric:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st level (total of 5)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  3rd Level
   - features:
     - "Cleric: Cleric Subclass"
@@ -358,6 +378,7 @@ Cleric:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  4th Level
   - features:
     - "Cleric: Ability Score Improvement"
@@ -367,6 +388,7 @@ Cleric:
     - "Gain a fourth Cantrip"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  5th Level
   - features:
     - "Cleric: Smite Undead"
@@ -375,6 +397,7 @@ Cleric:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  6th Level
   - features:
     - "Cleric: Cleric Subclass"
@@ -384,6 +407,7 @@ Cleric:
     - "Number of Channel Divinity uses increases from 2 to 3"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  7th Level
   - features:
     - "Cleric: Blessed Strikes"
@@ -393,6 +417,7 @@ Cleric:
     - "Divine Spark gains an extra die (total of 2d8)"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 4th level (total of 11)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  8th Level
   - features:
     - "Cleric: Ability Score Improvement"
@@ -401,6 +426,7 @@ Cleric:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 4th level (total of 12)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  9th Level
   - features:
     - "Cleric: Commune"
@@ -409,6 +435,7 @@ Cleric:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare two extra spells of 1st to 5th level (total of 14)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 10th Level
   - features:
     - "Cleric: Divine Intervention"
@@ -418,6 +445,7 @@ Cleric:
     - "Gain a fifth Cantrip"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 5th level (total of 15)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 11th Level
   - features: []
     improvements:
@@ -425,6 +453,7 @@ Cleric:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 6th level (total of 16)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 12th Level
   - features:
     - "Cleric: Ability Score Improvement"
@@ -432,6 +461,7 @@ Cleric:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one cantrip for another"
   # 13th Level
   - features: []
     improvements:
@@ -440,6 +470,7 @@ Cleric:
     - "Divine Spark gains an extra die (total of 3d8)"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 7th level (total of 17)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 14th Level
   - features:
     - "Cleric: Improved Blessed Strikes"
@@ -447,6 +478,7 @@ Cleric:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one cantrip for another"
   # 15th Level
   - features: []
     improvements:
@@ -454,6 +486,7 @@ Cleric:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 8th level (total of 18)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 16th Level
   - features:
     - "Cleric: Ability Score Improvement"
@@ -461,6 +494,7 @@ Cleric:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one cantrip for another"
   # 17th Level
   - features:
     - "Cleric: Cleric Subclass"
@@ -469,6 +503,7 @@ Cleric:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 19)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 18th Level
   - features: []
     improvements:
@@ -478,6 +513,7 @@ Cleric:
     - "Divine Spark gains an extra die (total of 4d8)"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 20)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 19th Level
   - features:
     - "Cleric: Ability Score Improvement"
@@ -486,6 +522,7 @@ Cleric:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 21)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 20th Level
   - features:
     - "Cleric: Greater Divine Intervention"
@@ -494,6 +531,7 @@ Cleric:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 22)"
+    - "OPTIONAL: Swap one cantrip for another"
 
 Druid:
   #  1st Level
@@ -515,6 +553,7 @@ Druid:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st level (total of 5)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  3rd Level
   - features:
     - "Druid: Druid Subclass"
@@ -523,15 +562,19 @@ Druid:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  4th Level
   - features:
     - "Druid: Ability Score Improvement"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
+    - "Max CR of Wild Shape forms increases from 1/4 to 1/2 (if not Circle of the Moon)"
+    - "Gain a fourth Known Form for Wild Shape"
     - "Gain a third Cantrip"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  5th Level
   - features:
     - "Druid: Wild Resurgence"
@@ -540,6 +583,7 @@ Druid:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  6th Level
   - features:
     - "Druid: Druid Subclass"
@@ -549,6 +593,7 @@ Druid:
     - "Number of Wild Shape uses increases from 2 to 3"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  7th Level
   - features:
     - "Druid: Elemental Fury"
@@ -558,14 +603,19 @@ Druid:
     - "Divine Spark gains an extra die (total of 2d8)"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 4th level (total of 11)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  8th Level
   - features:
     - "Druid: Ability Score Improvement"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
+    - "Max CR of Wild Shape forms increases from 1/2 to 1 (if not Circle of the Moon)"
+    - "Can choose Wild Shape forms with a Fly Speed"
+    - "Gain a fifth Known Form for Wild Shape"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 4th level (total of 12)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  9th Level
   - features:
     - "Druid: Commune with Nature"
@@ -574,6 +624,7 @@ Druid:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare two extra spells of 1st to 5th level (total of 14)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 10th Level
   - features:
     - "Druid: Druid Subclass"
@@ -583,6 +634,7 @@ Druid:
     - "Gain a fourth Cantrip"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 5th level (total of 15)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 11th Level
   - features: []
     improvements:
@@ -590,6 +642,7 @@ Druid:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 6th level (total of 16)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 12th Level
   - features:
     - "Druid: Ability Score Improvement"
@@ -597,6 +650,7 @@ Druid:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one cantrip for another"
   # 13th Level
   - features: []
     improvements:
@@ -605,6 +659,7 @@ Druid:
     - "Divine Spark gains an extra die (total of 3d8)"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 7th level (total of 17)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 14th Level
   - features:
     - "Druid: Druid Subclass"
@@ -612,6 +667,7 @@ Druid:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one cantrip for another"
   # 15th Level
   - features:
     - "Druid: Improved Elemental Fury"
@@ -620,6 +676,7 @@ Druid:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 8th level (total of 18)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 16th Level
   - features:
     - "Druid: Ability Score Improvement"
@@ -627,6 +684,7 @@ Druid:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one cantrip for another"
   # 17th Level
   - features: []
     improvements:
@@ -635,6 +693,7 @@ Druid:
     - "Number of Wild Shape uses increases from 3 to 4"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 19)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 18th Level
   - features:
     - "Druid: Beast Spells"
@@ -644,6 +703,7 @@ Druid:
     - "Divine Spark gains an extra die (total of 4d8)"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 20)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 19th Level
   - features:
     - "Druid: Ability Score Improvement"
@@ -652,6 +712,7 @@ Druid:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 21)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 20th Level
   - features:
     - "Druid: Archdruid"
@@ -660,6 +721,7 @@ Druid:
     - "Max Hit Points increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 9th level (total of 22)"
+    - "OPTIONAL: Swap one cantrip for another"
 
 Fighter:
   #  1st Level
@@ -1389,7 +1451,7 @@ Rogue:
     - "Max Hit Points increase by 5 + CON mod"
   #  9th Level
   - features:
-    - "Rogue: Subclass Feature"
+    - "Rogue: Subclass"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
@@ -1485,6 +1547,7 @@ Sorcerer:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st level (total of 5)"
     - "OPTIONAL: Swap one prepared spell for another of 1st level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  3rd Level
   - features:
     - "Sorcerer: Sorcerer Subclass"
@@ -1495,6 +1558,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 2 to 3"
     - "Prepare one extra spell of 1st or 2nd level (total of 6)"
     - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  4th Level
   - features:
     - "Sorcerer: Feat"
@@ -1506,6 +1570,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 3 to 4"
     - "Prepare one extra spell of 1st or 2nd level (total of 7)"
     - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  5th Level
   - features:
     - "Sorcerer: Sorcerous Vitality"
@@ -1517,6 +1582,7 @@ Sorcerer:
     - "Sorcerous Burst damage increases by 1d6 (total of 2d6)"
     - "Prepare two extra spells of 1st to 3rd level (total of 9)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  6th Level
   - features:
     - "Sorcerer: Sorcerer Subclass"
@@ -1527,6 +1593,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 5 to 6"
     - "Prepare one extra spell of 1st to 3rd level (total of 10)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  7th Level
   - features:
     - "Sorcerer: Arcane Eruption"
@@ -1537,6 +1604,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 6 to 7"
     - "Prepare one extra spell of 1st to 4th level (total of 11)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  8th Level
   - features:
     - "Sorcerer: Feat"
@@ -1547,6 +1615,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 7 to 8"
     - "Prepare one extra spell of 1st to 4th level (total of 12)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  9th Level
   - features:
     - "Sorcerer: Sorcery Incarnate"
@@ -1557,6 +1626,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 8 to 9"
     - "Prepare two extra spells of 1st to 5th level (total of 14)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 5th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 10th Level
   - features:
     - "Sorcerer: Sorcerer Subclass"
@@ -1568,6 +1638,7 @@ Sorcerer:
     - "Gain a sixth Cantrip"
     - "Prepare one extra spell of 1st to 5th level (total of 15)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 5th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 11th Level
   - features: []
     improvements:
@@ -1578,6 +1649,7 @@ Sorcerer:
     - "Sorcerous Burst damage increases by 1d6 (total of 3d6)"
     - "Prepare one extra spell of 1st to 6th level (total of 16)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 6th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 12th Level
   - features:
     - "Sorcerer: Ability Score Improvement"
@@ -1587,6 +1659,7 @@ Sorcerer:
     - "Increase your level by 1 for purposes of spell slots"
     - "Number of Sorcery Points increases from 11 to 12"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 6th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 13th Level
   - features:
     - "Sorcerer: Metamagic"
@@ -1597,6 +1670,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 12 to 13"
     - "Prepare one extra spell of 1st to 7th level (total of 17)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 7th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 14th Level
   - features:
     - "Sorcerer: Sorcerer Subclass"
@@ -1606,6 +1680,7 @@ Sorcerer:
     - "Increase your level by 1 for purposes of spell slots"
     - "Number of Sorcery Points increases from 13 to 14"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 7th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 15th Level
   - features:
     - "Sorcerer: Sorcerous Restoration"
@@ -1616,6 +1691,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 14 to 15"
     - "Prepare one extra spell of 1st to 8th level (total of 18)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 8th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 16th Level
   - features:
     - "Sorcerer: Feat"
@@ -1625,6 +1701,7 @@ Sorcerer:
     - "Increase your level by 1 for purposes of spell slots"
     - "Number of Sorcery Points increases from 15 to 16"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 8th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 17th Level
   - features: []
     improvements:
@@ -1635,6 +1712,7 @@ Sorcerer:
     - "Sorcerous Burst damage increases by 1d6 (total of 4d6)"
     - "Prepare one extra spell of 1st to 9th level (total of 19)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 18th Level
   - features:
     - "Sorcerer: Arcane Apotheosis"
@@ -1645,6 +1723,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 17 to 18"
     - "Prepare one extra spell of 1st to 9th level (total of 20)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 19th Level
   - features:
     - "Sorcerer: Feat"
@@ -1655,6 +1734,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 18 to 19"
     - "Prepare one extra spell of 1st to 9th level (total of 21)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+    - "OPTIONAL: Swap one cantrip for another"
   # 20th Level
   - features:
     - "Sorcerer: Epic Boon"
@@ -1665,6 +1745,7 @@ Sorcerer:
     - "Number of Sorcery Points increases from 19 to 20"
     - "Prepare one extra spell of 1st to 9th level (total of 22)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 9th level"
+    - "OPTIONAL: Swap one cantrip for another"
 
 Warlock:
   #  1st Level
@@ -1684,6 +1765,7 @@ Warlock:
     - "Max Hit Points increase by 5 + CON mod"
     - "Prepare one extra spell of 1st level (total of 3)"
     - "OPTIONAL: Swap one prepared spell for another of 1st level"
+    - "OPTIONAL: Swap one cantrip for another"
   #  3rd Level
   - features:
     - "Warlock: Warlock Subclass"
@@ -1693,6 +1775,7 @@ Warlock:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st level (total of 4)"
     - "OPTIONAL: Swap one prepared spell for another of 1st level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   #  4th Level
   - features:
@@ -1703,6 +1786,7 @@ Warlock:
     - "Gain a third Cantrip"
     - "Prepare one extra spell of 1st level (total of 5)"
     - "OPTIONAL: Swap one prepared spell for another of 1st level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   #  5th Level
   - features:
@@ -1713,6 +1797,7 @@ Warlock:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st or 2nd level (total of 6)"
     - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   #  6th Level
   - features:
@@ -1721,6 +1806,7 @@ Warlock:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   #  7th Level
   - features:
@@ -1731,6 +1817,7 @@ Warlock:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st or 2nd level (total of 7)"
     - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   #  8th Level
   - features:
@@ -1739,6 +1826,7 @@ Warlock:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   #  9th Level
   - features:
@@ -1749,6 +1837,7 @@ Warlock:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare two extra spells of 1st to 3rd level (total of 9)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 10th Level
   - features:
@@ -1758,6 +1847,7 @@ Warlock:
     - "Max Hit Points increase by 5 + CON mod"
     - "Gain a fourth Cantrip"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 11th Level
   - features:
@@ -1769,6 +1859,7 @@ Warlock:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 3rd level (total of 10)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 12th Level
   - features:
@@ -1777,6 +1868,7 @@ Warlock:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 13th Level
   - features:
@@ -1787,6 +1879,7 @@ Warlock:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 4th level (total of 11)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 14th Level
   - features:
@@ -1795,6 +1888,7 @@ Warlock:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 15th Level
   - features:
@@ -1805,6 +1899,7 @@ Warlock:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 4th level (total of 12)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 16th Level
   - features:
@@ -1813,6 +1908,7 @@ Warlock:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 17th Level
   - features:
@@ -1823,6 +1919,7 @@ Warlock:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare two extra spells of 1st to 5th level (total of 14)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 18th Level
   - features:
@@ -1831,6 +1928,7 @@ Warlock:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 19th Level
   - features:
@@ -1841,6 +1939,7 @@ Warlock:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of 1st to 5th level (total of 15)"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
   # 20th Level
   - features:
@@ -1849,6 +1948,7 @@ Warlock:
     - "Gain a d8 Hit Die"
     - "Max Hit Points increase by 5 + CON mod"
     - "OPTIONAL: Swap one prepared spell for another of 1st to 4th level"
+    - "OPTIONAL: Swap one cantrip for another"
     - "OPTIONAL: Swap one invocation for another for which you qualify, or the same invocation but with a different choice"
 
 Wizard:
@@ -1870,6 +1970,7 @@ Wizard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Add two Arcane spells of 1st level to your spellbook"
     - "Prepare one extra spell of 1st level (total of 5)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  3rd Level
   - features:
     - "Wizard: Wizard Subclass"
@@ -1880,6 +1981,7 @@ Wizard:
     - "Arcane Recovery's combined slot level increases from 1 to 2"
     - "Add two Arcane spells of 1st or 2nd level to your spellbook"
     - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  4th Level
   - features:
     - "Wizard: Feat"
@@ -1890,6 +1992,7 @@ Wizard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Add two Arcane spells of 1st or 2nd level to your spellbook"
     - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  5th Level
   - features:
     - "Wizard: Memorize Spell"
@@ -1900,6 +2003,7 @@ Wizard:
     - "Arcane Recovery's combined slot level increases from 2 to 3"
     - "Add two Arcane spells of 1st to 3rd level to your spellbook"
     - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  6th Level
   - features:
     - "Wizard: Wizard Subclass"
@@ -1909,6 +2013,7 @@ Wizard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Add two Arcane spells of 1st to 3rd level to your spellbook"
     - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  7th Level
   - features:
     - "Wizard: Modify Spell"
@@ -1919,6 +2024,7 @@ Wizard:
     - "Arcane Recovery's combined slot level increases from 3 to 4"
     - "Add two Arcane spells of 1st to 4th level to your spellbook"
     - "Prepare one extra spell of 1st to 4th level (total of 11)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  8th Level
   - features:
     - "Wizard: Feat"
@@ -1928,6 +2034,7 @@ Wizard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Add two Arcane spells of 1st to 4th level to your spellbook"
     - "Prepare one extra spell of 1st to 4th level (total of 12)"
+    - "OPTIONAL: Swap one cantrip for another"
   #  9th Level
   - features:
     - "Wizard: Create Spell"
@@ -1938,6 +2045,7 @@ Wizard:
     - "Arcane Recovery's combined slot level increases from 4 to 5"
     - "Add two Arcane spells of 1st to 5th level to your spellbook"
     - "Prepare two extra spells of 1st to 5th level (total of 14)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 10th Level
   - features:
     - "Wizard: Wizard Subclass"
@@ -1948,6 +2056,7 @@ Wizard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Add two Arcane spells of 1st to 5th level to your spellbook"
     - "Prepare one extra spell of 1st to 5th level (total of 15)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 11th Level
   - features: []
     improvements:
@@ -1957,6 +2066,7 @@ Wizard:
     - "Arcane Recovery's combined slot level increases from 5 to 6"
     - "Add two Arcane spells of 1st to 6th level to your spellbook"
     - "Prepare one extra spell of 1st to 6th level (total of 16)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 12th Level
   - features:
     - "Wizard: Feat"
@@ -1965,6 +2075,7 @@ Wizard:
     - "Max Hit Points increase by 4 + CON mod"
     - "Add two Arcane spells of 1st to 6th level to your spellbook"
     - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one cantrip for another"
   # 13th Level
   - features: []
     improvements:
@@ -1974,6 +2085,7 @@ Wizard:
     - "Arcane Recovery's combined slot level increases from 6 to 7"
     - "Add two Arcane spells of 1st to 7th level to your spellbook"
     - "Prepare one extra spell of 1st to 7th level (total of 17)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 14th Level
   - features:
     - "Wizard: Wizard Subclass"
@@ -1982,6 +2094,7 @@ Wizard:
     - "Max Hit Points increase by 4 + CON mod"
     - "Add two Arcane spells of 1st to 7th level to your spellbook"
     - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one cantrip for another"
   # 15th Level
   - features:
     - "Wizard: Spell Mastery"
@@ -1992,6 +2105,7 @@ Wizard:
     - "Arcane Recovery's combined slot level increases from 7 to 8"
     - "Add two Arcane spells of 1st to 8th level to your spellbook"
     - "Prepare one extra spell of 1st to 8th level (total of 18)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 16th Level
   - features:
     - "Wizard: Feat"
@@ -2000,6 +2114,7 @@ Wizard:
     - "Max Hit Points increase by 4 + CON mod"
     - "Add two Arcane spells of 1st to 8th level to your spellbook"
     - "Increase your level by 1 for purposes of spell slots"
+    - "OPTIONAL: Swap one cantrip for another"
   # 17th Level
   - features: []
     improvements:
@@ -2009,6 +2124,7 @@ Wizard:
     - "Arcane Recovery's combined slot level increases from 8 to 9"
     - "Add two Arcane spells of 1st to 9th level to your spellbook"
     - "Prepare one extra spell of 1st to 9th level (total of 19)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 18th Level
   - features:
     - "Wizard: Signature Spells"
@@ -2018,6 +2134,7 @@ Wizard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Add two Arcane spells of 1st to 9th level to your spellbook"
     - "Prepare one extra spell of 1st to 9th level (total of 20)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 19th Level
   - features:
     - "Wizard: Feat"
@@ -2028,6 +2145,7 @@ Wizard:
     - "Arcane Recovery's combined slot level increases from 9 to 10"
     - "Add two Arcane spells of 1st to 9th level to your spellbook"
     - "Prepare one extra spell of 1st to 9th level (total of 21)"
+    - "OPTIONAL: Swap one cantrip for another"
   # 20th Level
   - features:
     - "Wizard: Epic Boon"
@@ -2037,3 +2155,4 @@ Wizard:
     - "Increase your level by 1 for purposes of spell slots"
     - "Add two Arcane spells of 1st to 9th level to your spellbook"
     - "Prepare one extra spell of 1st to 9th level (total of 22)"
+    - "OPTIONAL: Swap one cantrip for another"
