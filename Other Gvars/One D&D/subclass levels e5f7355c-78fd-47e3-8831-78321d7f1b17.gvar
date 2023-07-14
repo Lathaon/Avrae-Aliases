@@ -1,0 +1,1935 @@
+# Guinea Pigs of Neverwinter
+# One D&D Subclass Levels
+# load_yaml(get_gvar("e5f7355c-78fd-47e3-8831-78321d7f1b17"))
+
+"Path of the Berserker":
+  #  1st Level
+  - &NA
+    features: []
+    improvements: []
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Path of the Berserker: Frenzy"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "Path of the Berserker: Mindless Rage"
+    improvements: []
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "Frenzy damage increases by 1d6 (total of 3d6)"
+  #  10th Level
+  - features:
+    - "Path of the Berserker: Retaliation"
+    improvements: []
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "Path of the Berserker: Intimidating Presence"
+    improvements: []
+  #  15th Level
+  - *NA
+  #  16th Level
+  - features: []
+    improvements:
+    - "Frenzy damage increases by 1d6 (total of 4d6)"
+  #  17th Level
+  - *NA
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"College of Dance":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "College of Dance: Dazzling Footwork"
+    - "College of Dance: Inspiring Movement"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "Unarmed Strike damage die increases from 1d6 to 1d8"
+  #  6th Level
+  - features:
+    - "College of Dance: Leading Evasion"
+    - "College of Dance: Tandem Footwork"
+    improvements: []
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - features: []
+    improvements:
+    - "Unarmed Strike damage die increases from 1d8 to 1d10"
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "College of Dance: Irresistible Dance"
+    improvements: []
+  #  15th Level
+  - features: []
+    improvements:
+    - "Unarmed Strike damage die increases from 1d10 to 1d12"
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"College of Glamour":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "College of Glamour: Beguiling Magic"
+    - "College of Glamour: Mantle of Inspiration"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "College of Glamour: Mantle of Majesty"
+    improvements: []
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "College of Glamour: Unbreakable Majesty"
+    improvements: []
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"College of Lore":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "College of Lore: Bonus Proficiencies"
+    - "College of Lore: Cutting Words"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "College of Lore: Magical Discoveries"
+    improvements: []
+  #  7th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 4th level"
+  #  8th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 4th level"
+  #  9th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 5th level"
+  #  10th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 5th level"
+  #  11th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 6th level"
+  #  12th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 6th level"
+  #  13th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 7th level"
+  #  14th Level
+  - features:
+    - "College of Lore: Peerless Skill"
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 7th level"
+  #  15th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 8th level"
+  #  16th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 8th level"
+  #  17th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 9th level"
+  #  18th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 9th level"
+  #  19th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 9th level"
+  #  20th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap a Magical Discovery spell for another of up to 9th level"
+
+"College of Valor":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "College of Valor: Combat Inspiration"
+    - "College of Valor: Martial Training"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "College of Valor: Extra Attack"
+    improvements: []
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "College of Valor: Battle Magic"
+    improvements: []
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Life Domain":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Life Domain: Domain Spells"
+    - "Life Domain: Disciple of Life"
+    - "Life Domain: Preserve Life"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "*Mass Healing Word* and *Revivify* are always prepared"
+  #  6th Level
+  - features:
+    - "Life Domain: Blessed Healer"
+    improvements: []
+  #  7th Level
+  - features: []
+    improvements:
+    - "*Aura of Life* and *Death Ward* are always prepared"
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "*Greater Restoration* and *Mass Cure Wounds* are always prepared"
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - *NA
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features:
+    - "Life Domain: Supreme Healing"
+    improvements: []
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Light Domain":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Light Domain: Domain Spells"
+    - "Light Domain: Warding Flare"
+    - "Light Domain: Radiance of the Dawn"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 4)"
+  #  5th Level
+  - features: []
+    improvements:
+    - "*Daylight* and *Fireball* are always prepared"
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 5)"
+  #  6th Level
+  - features:
+    - "Light Domain: Revealing Light"
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 6)"
+  #  7th Level
+  - features: []
+    improvements:
+    - "*Arcane Eye* and *Wall of Fire* are always prepared"
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 7)"
+  #  8th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 8)"
+  #  9th Level
+  - features: []
+    improvements:
+    - "*Flame Strike* and *Scrying* are always prepared"
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 9)"
+  #  10th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 10)"
+  #  11th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 11)"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 12)"
+  #  13th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 13)"
+  #  14th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 14)"
+  #  15th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 15)"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 16)"
+  #  17th Level
+  - features:
+    - "Light Domain: Corona of Light"
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 17)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 18)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 19)"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Radiance of the Dawn damage increases by 1 (total of 2d10 + 20)"
+
+"Trickery Domain":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Trickery Domain: Domain Spells"
+    - "Trickery Domain: Blessing of the Trickster"
+    - "Trickery Domain: Invoke Duplicity"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "*Hypnotic Pattern* and *Nondetection* are always prepared"
+  #  6th Level
+  - features:
+    - "Trickery Domain: Trickster's Magic"
+    improvements: []
+  #  7th Level
+  - features: []
+    improvements:
+    - "*Confusion* and *Dimension Door* are always prepared"
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "*Hold Monster* and *Mislead* are always prepared"
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - *NA
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features:
+    - "Trickery Domain: Improved Duplicity"
+    improvements: []
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"War Domain":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "War Domain: Domain Spells"
+    - "War Domain: War Priest"
+    - "War Domain: Guided Strike"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "*Crusader's Mantle* and *Spirit Guardians* are always prepared"
+  #  6th Level
+  - features:
+    - "War Domain: War God's Blessing"
+    improvements: []
+  #  7th Level
+  - features: []
+    improvements:
+    - "*Freedom of Movement* and *Stoneskin* are always prepared"
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "*Destructive Wave* and *Hold Monster* are always prepared"
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - *NA
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features:
+    - "War Domain: Avatar of Battle"
+    improvements: []
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Circle of the Land":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Circle of the Land: Circle Spells"
+    - "Circle of the Land: Land's Aid"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "Gain an extra Circle Spell based on your Land: *Fireball* for Arid, *Sleet Storm* for Polar, *Lightning Bolt* for Temperate, or *Stinking Cloud* for Tropical"
+  #  6th Level
+  - features:
+    - "Circle of the Land: Natural Recovery"
+    improvements: []
+  #  7th Level
+  - features: []
+    improvements:
+    - "Natural Recovery's combined slot level increases from 3 to 4"
+    - "Gain an extra Circle Spell based on your Land: *Blight* for Arid, *Ice Storm* for Polar, *Freedom of Movement* for Temperate, or *Polymorph* for Tropical"
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "Natural Recovery's combined slot level increases from 4 to 5"
+    - "Gain an extra Circle Spell based on your Land: *Wall of Stone* for Arid, *Cone of Cold* for Polar, *Tree Stride* for Temperate, or *Insect Plague* for Tropical"
+  #  10th Level
+  - features:
+    - "Circle of the Land: Nature's Ward"
+    improvements:
+    - "Land's Aid damage and healing increases by 1d6 (total of 3d6)"
+  #  11th Level
+  - features: []
+    improvements:
+    - "Natural Recovery's combined slot level increases from 5 to 6"
+  #  12th Level
+  - *NA
+  #  13th Level
+  - features: []
+    improvements:
+    - "Natural Recovery's combined slot level increases from 6 to 7"
+  #  14th Level
+  - features:
+    - "Circle of the Land: Nature's Sanctuary"
+    improvements:
+    - "Land's Aid damage and healing increases by 1d6 (total of 4d6)"
+  #  15th Level
+  - features: []
+    improvements:
+    - "Natural Recovery's combined slot level increases from 7 to 8"
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features: []
+    improvements:
+    - "Natural Recovery's combined slot level increases from 8 to 9"
+  #  18th Level
+  - *NA
+  #  19th Level
+  - features: []
+    improvements:
+    - "Natural Recovery's combined slot level increases from 9 to 10"
+  #  20th Level
+  - *NA
+
+"Circle of the Moon":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Circle of the Moon: Circle Forms"
+    - "Circle of the Moon: Combat Wild Shape"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 12)"
+  #  5th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 15)"
+  #  6th Level
+  - features:
+    - "Circle of the Moon: Improved Circle Forms"
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 18)"
+  #  7th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 21)"
+  #  8th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 24)"
+  #  9th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 27)"
+    - "Max CR of Wild Shape forms increases from 2 to 3"
+  #  10th Level
+  - features:
+    - "Circle of the Moon: Moonlight Step"
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 30)"
+  #  11th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 33)"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 36)"
+    - "Max CR of Wild Shape forms increases from 3 to 4"
+  #  13th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 39)"
+  #  14th Level
+  - features:
+    - "Circle of the Moon: Lunar Form"
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 42)"
+  #  15th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 45)"
+    - "Max CR of Wild Shape forms increases from 4 to 5"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 48)"
+  #  17th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 51)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 54)"
+    - "Max CR of Wild Shape forms increases from 5 to 6"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 57)"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Max temp HP from using Wild Shape increases by 3 (total of 60)"
+
+"Circle of the Sea":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Circle of the Sea: Circle Spells"
+    - "Circle of the Sea: Wrath of the Sea"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "*Sleet Storm* and *Lightning Bolt* are always prepared"
+  #  6th Level
+  - features:
+    - "Circle of the Sea: Aquatic Affinity"
+    improvements: []
+  #  7th Level
+  - features: []
+    improvements:
+    - "*Control Water* and *Ice Storm* are always prepared"
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "*Conjure Elemental* and *Hold Monster* are always prepared"
+  #  10th Level
+  - features:
+    - "Circle of the Sea: Stormborn"
+    improvements: []
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "Circle of the Sea: Oceanic Gift"
+    improvements: []
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Champion":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Champion: Adaptable Victor"
+    - "Champion: Improved Critical"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "Champion: Additional Fighting Style"
+    - "Champion: Heroic Warrior"
+    improvements: []
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - features:
+    - "Champion: Superior Critical"
+    improvements: []
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "Champion: Survivor"
+    improvements: []
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Warrior of Shadow":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Warrior of Shadow: Shadow Arts"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "Warrior of Shadow: Shadow Step"
+    improvements: []
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - *NA
+  #  11th Level
+  - features:
+    - "Warrior of Shadow: Improved Shadow Step"
+    improvements: []
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - *NA
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features:
+    - "Warrior of Shadow: Cloak of Shadows"
+    improvements: []
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Warrior of the Elements":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Warrior of the Elements: Elemental Attunement"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "Warrior of the Elements: Environmental Burst"
+    improvements: []
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - *NA
+  #  11th Level
+  - features:
+    - "Warrior of the Elements: Stride of the Elements"
+    improvements:
+    - "Environmental Burst damage increases from 3d8 to 3d10"
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - *NA
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features:
+    - "Warrior of the Elements: Elemental Epitome"
+    improvements:
+    - "Environmental Burst damage increases from 3d10 to 3d12"
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Warrior of the Hand":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Warrior of the Hand: Open Hand Technique"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "Warrior of the Hand: Wholeness of Body"
+    improvements: []
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - *NA
+  #  11th Level
+  - features:
+    - "Warrior of the Hand: Fleet Step"
+    improvements: []
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - *NA
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features:
+    - "Warrior of the Hand: Quivering Palm"
+    improvements: []
+  #  18th Level
+  - features: []
+    improvements:
+    - "Quivering Palm damage increases by 1 (total of 10d12 + 18)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Quivering Palm damage increases by 1 (total of 10d12 + 19)"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Quivering Palm damage increases by 1 (total of 10d12 + 20)"
+
+"Oath of Devotion":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Oath of Devotion: Oath Spells"
+    - "Oath of Devotion: Sacred Weapon"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "*Aid* and *Zone of Truth* are always prepared"
+  #  6th Level
+  - *NA
+  #  7th Level
+  - features:
+    - "Oath of Devotion: Aura of Devotion"
+    improvements: []
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "*Beacon of Hope* and *Dispel Magic* are always prepared"
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - features: []
+    improvements:
+    - "*Freedom of Movement* and *Guardian of Faith* are always prepared"
+  #  14th Level
+  - *NA
+  #  15th Level
+  - features:
+    - "Oath of Devotion: Smite of Protection"
+    improvements: []
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features: []
+    improvements:
+    - "*Commune* and *Flame Strike* are always prepared"
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - features:
+    - "Oath of Devotion: Holy Nimbus"
+    improvements: []
+
+"Oath of Glory":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Oath of Glory: Oath Spells"
+    - "Oath of Glory: Inspiring Smite"
+    - "Oath of Glory: Peerless Athlete"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 4)"
+  #  5th Level
+  - features: []
+    improvements:
+    - "*Enhance Ability* and *Magic Weapon* are always prepared"
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 5)"
+  #  6th Level
+  - features: []
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 6)"
+  #  7th Level
+  - features:
+    - "Oath of Glory: Aura of Alacrity"
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 7)"
+  #  8th Level
+  - features: []
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 8)"
+  #  9th Level
+  - features: []
+    improvements:
+    - "*Haste* and *Protection from Energy* are always prepared"
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 9)"
+  #  10th Level
+  - features: []
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 10)"
+  #  11th Level
+  - features: []
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 11)"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 12)"
+  #  13th Level
+  - features: []
+    improvements:
+    - "*Compulsion* and *Freedom of Movement* are always prepared"
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 13)"
+  #  14th Level
+  - features: []
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 14)"
+  #  15th Level
+  - features:
+    - "Oath of Glory: Glorious Defense"
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 15)"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 16)"
+  #  17th Level
+  - features: []
+    improvements:
+    - "*Commune* and *Flame Strike* are always prepared"
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 17)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 18)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 19)"
+  #  20th Level
+  - features:
+    - "Oath of Glory: Living Legend"
+    improvements:
+    - "Inspiring Smite temp HP increases by 1 (total of 2d8 + 20)"
+
+"Oath of the Ancients":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Oath of the Ancients: Oath Spells"
+    - "Oath of the Ancients: Nature's Wrath"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "Misty Step* and *Moonbeam* are always prepared"
+  #  6th Level
+  - *NA
+  #  7th Level
+  - features:
+    - "Oath of the Ancients: Aura of Warding"
+    improvements: []
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "Plant Growth* and *Protection from Energy* are always prepared"
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - features: []
+    improvements:
+    - "Ice Storm* and *Stoneskin* are always prepared"
+  #  14th Level
+  - *NA
+  #  15th Level
+  - features:
+    - "Oath of the Ancients: Undying Sentinel"
+    improvements: []
+  #  16th Level
+  - features: []
+    improvements:
+    - "Undying Sentinel healing increases by 3 (total of 48)"
+  #  17th Level
+  - features: []
+    improvements:
+    - "Commune with Nature* and *Tree Stride* are always prepared"
+    - "Undying Sentinel healing increases by 3 (total of 51)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Undying Sentinel healing increases by 3 (total of 54)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Undying Sentinel healing increases by 3 (total of 57)"
+  #  20th Level
+  - features:
+    - "Oath of the Ancients: Elder Champion"
+    improvements:
+    - "Undying Sentinel healing increases by 3 (total of 60)"
+
+"Oath of Vengeance":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Oath of Vengeance: Oath Spells"
+    - "Oath of Vengeance: Vow of Enmity"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "Hold Person* and *Misty Step* are always prepared"
+  #  6th Level
+  - *NA
+  #  7th Level
+  - features:
+    - "Oath of Vengeance: Relentless Avenger"
+    improvements: []
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "Haste* and *Protection from Energy* are always prepared"
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - features: []
+    improvements:
+    - "Banishment* and *Dimension Door* are always prepared"
+  #  14th Level
+  - *NA
+  #  15th Level
+  - features:
+    - "Oath of Vengeance: Soul of Vengeance"
+    improvements: []
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features: []
+    improvements:
+    - "Hold Monster* and *Scrying* are always prepared"
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - features:
+    - "Oath of Vengeance: Avenging Angel"
+    improvements: []
+
+"Beast Master":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Beast Master: Primal Companion"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 25) and gains a Hit Die (total of 4d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 20) and gains a Hit Die (total of 4d6)"
+  #  5th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 30) and gains a Hit Die (total of 5d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 24) and gains a Hit Die (total of 5d6)"
+  #  6th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 35) and gains a Hit Die (total of 6d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 28) and gains a Hit Die (total of 6d6)"
+  #  7th Level
+  - features:
+    - "Beast Master: Exceptional Training"
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 40) and gains a Hit Die (total of 7d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 32) and gains a Hit Die (total of 7d6)"
+  #  8th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 45) and gains a Hit Die (total of 8d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 36) and gains a Hit Die (total of 8d6)"
+  #  9th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 50) and gains a Hit Die (total of 9d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 40) and gains a Hit Die (total of 9d6)"
+  #  10th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 55) and gains a Hit Die (total of 10d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 44) and gains a Hit Die (total of 10d6)"
+  #  11th Level
+  - features:
+    - "Beast Master: Bestial Fury"
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 60) and gains a Hit Die (total of 11d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 48) and gains a Hit Die (total of 11d6)"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 65) and gains a Hit Die (total of 12d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 52) and gains a Hit Die (total of 12d6)"
+  #  13th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 70) and gains a Hit Die (total of 13d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 56) and gains a Hit Die (total of 13d6)"
+  #  14th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 75) and gains a Hit Die (total of 14d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 60) and gains a Hit Die (total of 14d6)"
+  #  15th Level
+  - features:
+    - "Beast Master: Share Spells"
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 80) and gains a Hit Die (total of 15d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 64) and gains a Hit Die (total of 15d6)"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 85) and gains a Hit Die (total of 16d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 68) and gains a Hit Die (total of 16d6)"
+  #  17th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 90) and gains a Hit Die (total of 17d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 72) and gains a Hit Die (total of 17d6)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 95) and gains a Hit Die (total of 18d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 76) and gains a Hit Die (total of 18d6)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 100) and gains a Hit Die (total of 19d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 80) and gains a Hit Die (total of 19d6)"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Beast of the Land or Sea increases max HP by 5 (total of 105) and gains a Hit Die (total of 20d8)"
+    - "Beast of the Sky increases max HP by 4 (total of 84) and gains a Hit Die (total of 20d6)"
+
+"Gloom Stalker":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Gloom Stalker: Gloom Stalker Magic"
+    - "Gloom Stalker: Dread Ambusher"
+    - "Gloom Stalker: Umbral Sight"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - *NA
+  #  7th Level
+  - features:
+    - "Gloom Stalker: Iron Mind"
+    improvements: []
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - *NA
+  #  11th Level
+  - features:
+    - "Gloom Stalker: Stalker's Flurry"
+    improvements: []
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - *NA
+  #  15th Level
+  - features:
+    - "Gloom Stalker: Shadowy Dodge"
+    improvements: []
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Hunter":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Hunter: Hunter's Prey"
+    - "Hunter: Hunter's Lore"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - *NA
+  #  7th Level
+  - features:
+    - "Hunter: Defensive Tactics"
+    improvements: []
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - *NA
+  #  11th Level
+  - features:
+    - "Hunter: Superior Hunter's Prey"
+    improvements: []
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - *NA
+  #  15th Level
+  - features:
+    - "Hunter: Superior Hunter's Defense"
+    improvements: []
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Arcane Trickster":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Arcane Trickster: Spellcasting"
+    - "Arcane Trickster: Mage Hand Legerdemain"
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots"
+  #  4th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare one extra spell of 1st level (total of 4)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  5th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap one prepared spell for another of 1st level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  6th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if multiclassed)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  7th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare two extra spells of 1st or 2nd level (total of 6)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  8th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  9th Level
+  - features:
+    - "Arcane Trickster: Magical Ambush"
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if multiclassed)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  10th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare one extra spell of 1st or 2nd level (total of 7)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  11th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if multiclassed)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  13th Level
+  - features:
+    - "Arcane Trickster: Versatile Trickster"
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare two extra spells of 1st to 3rd level (total of 9)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  14th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  15th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if multiclassed)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare one extra spell of 1st to 3rd level (total of 10)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  17th Level
+  - features:
+    - "Arcane Trickster: Spell Thief"
+    improvements:
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if multiclassed)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Spell Thief works against 4th level Arcane Spells"
+    - "Prepare one extra spell of 1st to 4th level (total of 11)"
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+  #  20th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap one prepared spell for another of 1st to 3rd level"
+    - "OPTIONAL: Swap one cantrip, except *Mage Hand*, for another"
+
+"Assassin":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Assassin: Bonus Proficiencies"
+    - "Assassin: Assassinate"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 4)"
+  #  5th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 5)"
+  #  6th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 6)"
+  #  7th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 7)"
+  #  8th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 8)"
+  #  9th Level
+  - features:
+    - "Assassin: Infiltration Expertise"
+    improvements:
+    - "Assassinate damage increases by 1 (total of 9)"
+  #  10th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 10)"
+  #  11th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 11)"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 12)"
+  #  13th Level
+  - features:
+    - "Assassin: Envenom Weapons"
+    improvements:
+    - "Assassinate damage increases by 1 (total of 13)"
+  #  14th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 14)"
+  #  15th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 15)"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 16)"
+  #  17th Level
+  - features:
+    - "Assassin: Death Strike"
+    improvements:
+    - "Assassinate damage increases by 1 (total of 17)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 18)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 19)"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Assassinate damage increases by 1 (total of 20)"
+
+"Swashbuckler":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Swashbuckler: Fancy Footwork"
+    - "Swashbuckler: Rakish Audacity"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - *NA
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features:
+    - "Swashbuckler: Panache"
+    improvements: []
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - features:
+    - "Swashbuckler: Dashing Strikes"
+    improvements: []
+  #  14th Level
+  - *NA
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features:
+    - "Swashbuckler: Master Duelist"
+    improvements: []
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Thief":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Thief: Fast Hands"
+    - "Thief: Second-Story Work"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - *NA
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features:
+    - "Thief: Supreme Sneak"
+    improvements: []
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - features:
+    - "Thief: Use Magic Device"
+    improvements: []
+  #  14th Level
+  - *NA
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features:
+    - "Thief: Thief's Reflexes"
+    improvements: []
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Draconic Sorcery":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Draconic Sorcery: Draconic Resilience"
+    - "Draconic Sorcery: Dragon Speech"
+    improvements: []
+  #  4th Level
+  - &DHP
+    features: []
+    improvements:
+    - "Max Hit Points increase by an additional 1"
+  #  5th Level
+  - *DHP
+  #  6th Level
+  - features:
+    - "Draconic Sorcery: Elemental Affinity"
+    improvements:
+    - "Max Hit Points increase by an additional 1"
+  #  7th Level
+  - *DHP
+  #  8th Level
+  - *DHP
+  #  9th Level
+  - *DHP
+  #  10th Level
+  - features:
+    - "Draconic Sorcery: Draconic Exhalation"
+    improvements:
+    - "Max Hit Points increase by an additional 1"
+  #  11th Level
+  - *DHP
+  #  12th Level
+  - *DHP
+  #  13th Level
+  - *DHP
+  #  14th Level
+  - features:
+    - "Draconic Sorcery: Dragon Wings"
+    improvements:
+    - "Max Hit Points increase by an additional 1"
+  #  15th Level
+  - *DHP
+  #  16th Level
+  - *DHP
+  #  17th Level
+  - *DHP
+  #  18th Level
+  - *DHP
+  #  19th Level
+  - *DHP
+  #  20th Level
+  - *DHP
+
+"Fiend Patron":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Fiend Patron: Patron Spells"
+    - "Fiend Patron: Dark One's Blessing"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 4 + spellcasting ability mod)"
+  #  5th Level
+  - features: []
+    improvements:
+    - "Scorching Ray* and *Suggestion* are always prepared and qualify for the Patron Spells Free Casting"
+    - "Dark One's Blessing Temp HP increases by 1 (total of 5 + spellcasting ability mod)"
+  #  6th Level
+  - features:
+    - "Fiend Patron: Dark One's Own Luck"
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 6 + spellcasting ability mod)"
+  #  7th Level
+  - features: []
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 7 + spellcasting ability mod)"
+  #  8th Level
+  - features: []
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 8 + spellcasting ability mod)"
+  #  9th Level
+  - features: []
+    improvements:
+    - "Fear* and *Stinking Cloud* are always prepared and qualify for the Patron Spells Free Casting"
+    - "Dark One's Blessing Temp HP increases by 1 (total of 9 + spellcasting ability mod)"
+  #  10th Level
+  - features:
+    - "Fiend Patron: Fiendish Resilience"
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 10 + spellcasting ability mod)"
+  #  11th Level
+  - features: []
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 11 + spellcasting ability mod)"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 12 + spellcasting ability mod)"
+  #  13th Level
+  - features: []
+    improvements:
+    - "Blight* and *Wall of Fire* are always prepared and qualify for the Patron Spells Free Casting"
+    - "Dark One's Blessing Temp HP increases by 1 (total of 13 + spellcasting ability mod)"
+  #  14th Level
+  - features:
+    - "Fiend Patron: Hurl through Hell"
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 14 + spellcasting ability mod)"
+  #  15th Level
+  - features: []
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 15 + spellcasting ability mod)"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 16 + spellcasting ability mod)"
+  #  17th Level
+  - features: []
+    improvements:
+    - "Flame Strike* and *Insect Plague* are always prepared and qualify for the Patron Spells Free Casting"
+    - "Dark One's Blessing Temp HP increases by 1 (total of 17 + spellcasting ability mod)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 18 + spellcasting ability mod)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 19 + spellcasting ability mod)"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Dark One's Blessing Temp HP increases by 1 (total of 20 + spellcasting ability mod)"
+
+"Evoker":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Evoker: Evocation Savant"
+    - "Evoker: Sculpt Spells"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "Evoker: Potent Cantrip"
+    improvements: []
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - features:
+    - "Evoker: Empowered Evocation"
+    improvements: []
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "Evoker: Overchannel"
+    improvements: []
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
