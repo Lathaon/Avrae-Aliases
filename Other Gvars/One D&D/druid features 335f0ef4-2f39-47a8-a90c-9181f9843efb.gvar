@@ -205,7 +205,7 @@
 
 "Circle of the Sea: Wrath of the Sea":
   title: "Circle of the Sea 3rd Level: Wrath of the Sea"
-  desc: "As a Bonus Action, you can expend a use of your Wild Shape to manifest an aura that takes the form of ocean spray that surrounds you. The aura lasts for 10 minutes. It ends early if you have the Incapacitated condition, dismiss it (no action required), or manifest the aura again.\n\nAt the end of each of your turns, you can choose another creature you can see within 10 feet of yourself. The target must succeed on a Constitution saving throw against your Spell Save DC or take thunder damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die)."
+  desc: "As a Bonus Action, you can expend a use of your Wild Shape to manifest an aura that takes the form of ocean spray that surrounds you. The aura lasts for 10 minutes. It ends early if you have the Incapacitated condition, dismiss it (no action required), or manifest the aura again.\n\nAt the end of each of your turns, you can choose another creature you can see within 10 feet of yourself. The target must succeed on a Constitution saving throw against your Spell Save DC or take Thunder damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 

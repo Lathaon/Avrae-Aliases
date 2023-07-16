@@ -196,7 +196,7 @@
 
 "Assassin: Envenom Weapons":
   title: "Assassin 13th Level: Envenom Weapons"
-  desc: "When you use the Poison option of your Cunning Strike, the target also takes 2d6 poison damage whenever it fails the saving throw. This damage ignores resistance to poison damage."
+  desc: "When you use the Poison option of your Cunning Strike, the target also takes 2d6 Poison damage whenever it fails the saving throw. This damage ignores resistance to Poison damage."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
