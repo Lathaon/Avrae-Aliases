@@ -18,11 +18,12 @@ if search := """&*&""":
 
         # Matches a rules term.
         case [term]:
-            out = GLOSSARY[term] | {
+            out = {
                 "title": term,
                 "color": "C50009",
+                "fields": [],
                 "footer": f"{ctx.prefix}{ctx.alias} [rules term] | @lathaon"
-            }
+            } | GLOSSARY[term]
 
             if term == "Artificer Spell List":
                 spellcaster = "Artificer"
