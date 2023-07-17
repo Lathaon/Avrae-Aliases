@@ -82,7 +82,7 @@
 
 "Bard: Superior Inspiration":
   title: "Bard 18th Level: Superior Inspiration"
-  desc: "When you roll initiative and have no uses of Bardic Inspiration left, you regain two expended uses of it."
+  desc: "When you roll Initiative and have no uses of Bardic Inspiration left, you regain two expended uses of it."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 

@@ -184,13 +184,13 @@
 
 "Assassin: Assassinate":
   title: "Assassin 3rd Level: Assassinate"
-  desc: "You are adept at getting the drop on a target, granting you the following benefits:\n\n**Initiative**. You have advantage on initiative rolls.\n\n**Surprising Strikes**. During the first round of each combat, you have advantage on attack rolls against any creature that hasn't taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon's type equal to your Rogue level."
+  desc: "You are adept at getting the drop on a target, granting you the following benefits:\n\n**Initiative**. You have Advantage on Initiative rolls.\n\n**Surprising Strikes**. During the first round of each combat, you have Advantage on attack rolls against any creature that hasn't taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon's type equal to your Rogue level."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Assassin: Infiltration Expertise":
   title: "Assassin 9th Level: Infiltration Expertise"
-  desc: "You are an expert at posing as someone else to aid your infiltrations. While in a disguise created using your Disguise Kit, you have advantage on any Charisma (Deception) check you make while pretending to be someone else. You can also unerringly mimic another person's speech, handwriting, or both if you have spent at least one hour studying each one."
+  desc: "You are an expert at posing as someone else to aid your infiltrations. While in a disguise created using your Disguise Kit, you have Advantage on any Charisma (Deception) check you make while pretending to be someone else. You can also unerringly mimic another person's speech, handwriting, or both if you have spent at least one hour studying each one."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 

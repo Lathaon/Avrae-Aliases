@@ -137,10 +137,10 @@ Nick [Mastery Property]:
 Push [Mastery Property]:
   desc: "_Prerequisite: Heavy, Two-Handed, or Versatile Property_\n\nIf you hit a creature with this weapon, you can push the creature up to 10 feet away from you horizontally if it is no more than one size larger than you."
 Sap [Mastery Property]:
-  desc: "_Prerequisite: No Other Properties_\n\nIf you hit a creature with this weapon, that creature has disadvantage on its next attack roll before the start of your next turn."
+  desc: "_Prerequisite: No Other Properties_\n\nIf you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn."
 Slow [Mastery Property]:
   desc: "_Prerequisite: None_\n\nIf you hit a creature with this weapon and deal damage to the creature, you can reduce its speed by 10 feet until the start of your next turn. If you hit the creature more than once with this property, the speed reduction doesn't exceed 10 feet."
 Topple [Mastery Property]:
   desc: "_Prerequisite: Heavy, Reach, or Versatile Property_\n\nIf you hit a creature with this weapon, you can force the creature to make a Constitution saving throw with a DC equal to 8 + your Proficiency Bonus + the ability modifier you used to make the attack roll. On a failed save, the creature has the Prone condition."
 Vex [Mastery Property]:
-  desc: "_Prerequisite: Ammunition, Finesse, or Light Property_\n\nIf you hit a creature with this weapon and deal damage to the creature, you have advantage on your next attack roll against that creature before the end of your next turn."
+  desc: "_Prerequisite: Ammunition, Finesse, or Light Property_\n\nIf you hit a creature with this weapon and deal damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn."
