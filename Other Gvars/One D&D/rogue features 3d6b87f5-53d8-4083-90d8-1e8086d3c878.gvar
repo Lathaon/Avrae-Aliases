@@ -48,6 +48,12 @@
     body: "You gain a feature from your Rogue subclass."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
+"Rogue: Steady Aim":
+  title: "Rogue 3rd Level: Steady Aim"
+  body: "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn."
+  fields:
+  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
 "Rogue: Ability Score Improvement":
   title: "Rogue 4th Level: Ability Score Improvement"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
