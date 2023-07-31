@@ -1545,7 +1545,7 @@ Sorcerer:
     - "Gain a d6 Hit Die"
     - "Max Hit Points increase by 4 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
-    - "Prepare one extra spell of 1st level (total of 5)"
+    - "Prepare two extra spells of 1st level (total of 4)"
     - "OPTIONAL: Swap one prepared spell for another of 1st level"
     - "OPTIONAL: Swap one cantrip for another"
   #  3rd Level
@@ -1556,7 +1556,7 @@ Sorcerer:
     - "Max Hit Points increase by 4 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Number of Sorcery Points increases from 2 to 3"
-    - "Prepare one extra spell of 1st or 2nd level (total of 6)"
+    - "Prepare two extra spells of 1st or 2nd level (total of 6)"
     - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
     - "OPTIONAL: Swap one cantrip for another"
   #  4th Level
