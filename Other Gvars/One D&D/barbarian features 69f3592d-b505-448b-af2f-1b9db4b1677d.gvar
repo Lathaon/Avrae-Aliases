@@ -3,114 +3,112 @@
 # load_yaml(get_gvar("69f3592d-b505-448b-af2f-1b9db4b1677d"))
 
 "Barbarian: Rage":
-  title: "Barbarian 1st Level: Rage"
-  desc: "You can imbue yourself with a primal power that is called your Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action, provided you aren't wearing Heavy Armor.\n\nWhile active, your Rage has the following effects:\n\n**Damage Resistance**. You have resistance to Bludgeoning, Piercing, and Slashing damage.\n\n**Rage Damage**. When you make an attack with a weapon or an Unarmed Strike using Strength and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian table.\n\n**Strength Advantage**. You have advantage on Strength checks and Strength saving throws.\n\n**No Concentration or Spells**. You can't maintain Concentration, and you can't cast spells.\n\nThe Rage lasts until the end of your next turn, and it ends early if you don Heavy Armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one or more of the following:\n- Make an attack roll against an enemy.\n- Force an enemy to make a saving throw.\n- Take a Bonus Action to extend your Rage.\n\nEach time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.\n\nYou can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table, and you regain all expended uses when you finish a Long Rest."
+  title: "Barbarian Level 1: Rage"
+  desc: "You can imbue yourself with a primal power that is called your Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action, provided you aren't wearing Heavy Armor.\n\nWhile active, your Rage has the following effects:\n\n**Damage Resistance**. You have resistance to Bludgeoning, Piercing, and Slashing damage.\n\n**Rage Damage**. When you make an attack with a weapon using Strength or an Unarmed Strike and deal damage to the target, you gain a bonus to the damage that increases as you gain levels as a Barbarian, as shown in the Rage Damage column of the Barbarian table.\n\n**Strength Advantage**. You have advantage on Strength checks and Strength saving throws.\n\n**No Concentration or Spells**. You can't maintain Concentration, and you can't cast spells.\n\nThe Rage lasts until the end of your next turn, and it ends early if you don Heavy Armor or have the Incapacitated condition. If your Rage is still active on your next turn, you can extend the Rage for another round by doing one or more of the following:\n- Make an attack roll against an enemy.\n- Force an enemy to make a saving throw.\n- Take a Bonus Action to extend your Rage.\n\nEach time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.\n\nYou can enter your Rage the number of times shown for your Barbarian level in the Rages column of the Barbarian table, and you regain all expended uses when you finish a Long Rest."
   fields:
   - title: "Barbarian Table: Rages and Rage Damage"
-    body: "```\n| Level | Rages | Rage Damage\n|-------+-------+-------------\n|   1st |   2   | +2\n|   2nd |   2   | +2\n|   3rd |   3   | +2\n|   4th |   3   | +2\n|   5th |   3   | +2\n|   6th |   4   | +2\n|   7th |   4   | +2\n|   8th |   4   | +2\n|   9th |   4   | +3\n|  10th |   4   | +3\n|  11th |   4   | +3\n|  12th |   5   | +3\n|  13th |   5   | +3\n|  14th |   5   | +3\n|  15th |   5   | +3\n|  16th |   5   | +4\n|  17th |   6   | +4\n|  18th |   6   | +4\n|  19th |   6   | +4\n|  20th |   6   | +4\n```"
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+    body: "```\n| Level | Rages | Rage Damage\n|-------+-------+-------------\n|    1  |   2   | +2\n|    2  |   2   | +2\n|    3  |   3   | +2\n|    4  |   3   | +2\n|    5  |   3   | +2\n|    6  |   4   | +2\n|    7  |   4   | +2\n|    8  |   4   | +2\n|    9  |   4   | +3\n|   10  |   4   | +3\n|   11  |   4   | +3\n|   12  |   5   | +3\n|   13  |   5   | +3\n|   14  |   5   | +3\n|   15  |   5   | +3\n|   16  |   5   | +4\n|   17  |   6   | +4\n|   18  |   6   | +4\n|   19  |   6   | +4\n|   20  |   6   | +4\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Barbarian: Unarmored Defense":
-  title: "Barbarian 1st Level: Unarmored Defense"
+  title: "Barbarian Level 1: Unarmored Defense"
   desc: "While you aren't wearing any armor, your base Armor Class equals 10 + your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Barbarian: Weapon Mastery":
-  title: "Barbarian 1st Level: Weapon Mastery"
-  desc: "Your training with weapons allows you to use the Mastery property of two kinds of Simple or Martial melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change the kinds of melee weapons you chose.\n\nWhen you reach certain levels in this class, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian table."
+  title: "Barbarian Level 1: Weapon Mastery"
+  desc: "Your training with weapons allows you to use the Mastery property of two kinds of Simple or Martial melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain levels in this class, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian table."
   fields:
   - title: "Barbarian Table: Weapon Mastery"
-    body: "```\n| Level | Weapon Mastery\n|-------+----------------\n|   1st | 2\n|   2nd | 2\n|   3rd | 2\n|   4th | 3\n|   5th | 3\n|   6th | 3\n|   7th | 3\n|   8th | 3\n|   9th | 3\n|  10th | 4\n|  11th | 4\n|  12th | 4\n|  13th | 4\n|  14th | 4\n|  15th | 4\n|  16th | 4\n|  17th | 4\n|  18th | 4\n|  19th | 4\n|  20th | 4\n```"
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+    body: "```\n| Level | Weapon Mastery\n|-------+----------------\n|    1  | 2\n|    2  | 2\n|    3  | 2\n|    4  | 3\n|    5  | 3\n|    6  | 3\n|    7  | 3\n|    8  | 3\n|    9  | 3\n|   10  | 4\n|   11  | 4\n|   12  | 4\n|   13  | 4\n|   14  | 4\n|   15  | 4\n|   16  | 4\n|   17  | 4\n|   18  | 4\n|   19  | 4\n|   20  | 4\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Barbarian: Primal Knowledge":
-  title: "Barbarian 2nd Level: Primal Knowledge"
-  desc: "You gain proficiency in another skill of your choice from the list of skills available to Barbarians at 1st level.\n\nIn addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through and around you."
+"Barbarian: Danger Sense":
+  title: "Barbarian Level 2: Danger Sense"
+  desc: "You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws, provided you don't have the Incapacitated condition."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Barbarian: Reckless Attack":
-  title: "Barbarian 2nd Level: Reckless Attack"
-  desc: "You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength during this turn, but attack rolls against you have Advantage until the start of your next turn."
+  title: "Barbarian Level 2: Reckless Attack"
+  desc: "You can throw aside all concern for defense to attack with fierce desperation. When you make your first attack roll on your turn, you can decide to attack recklessly. Doing so gives you Advantage on attack rolls using Strength until the start of your next turn, but attack rolls against you have Advantage during that time."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Barbarian: Barbarian Subclass":
-  title: "Barbarian 3rd Level: Barbarian Subclass"
-  desc: "You gain the Berserker subclass or another Barbarian subclass of your choice. The Berserker is detailed after the class's description, and other subclasses will appear in future Unearthed Arcana articles.\n\nA subclass is a specialization that grants you special abilities at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level and lower. This class's description tells you the levels when your subclass provides features."
+  title: "Barbarian Level 3: Barbarian Subclass"
+  desc: "You gain a Barbarian subclass of your choice: Path of the Berserker, Path of the Wild Heart, Path of the World Tree, or Path of the Zealot. Subclasses are detailed after this class's description.\n\nA subclass is a specialization that grants you special features at certain Barbarian levels. For the rest of your career, you gain each of your subclass's features that are of your Barbarian level and lower."
   fields:
-  - title: "At 6th, 10th, and 14th Level"
+  - title: "At Levels 6, 10, and 14"
     body: "You gain a feature from your Barbarian subclass."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Barbarian: Feat":
-  title: "Barbarian 4th Level: Feat"
-  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+"Barbarian: Primal Knowledge":
+  title: "Barbarian Level 2: Primal Knowledge"
+  desc: "You gain proficiency in another skill of your choice from the list of skills available to Barbarians at level 1.\n\nIn addition, while your Rage is active, you can channel primal power when you attempt certain tasks; whenever you make an ability check using one of the following skills, you can make it as a Strength check even if it normally uses a different ability: Acrobatics, Intimidation, Perception, Stealth, or Survival. When you use this ability, your Strength represents primal power coursing through you, honing your agility and senses."
   fields:
-  - title: "At 8th, 12th, 16th, and 19th Level"
-    body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Barbarian: Ability Score Improvement":
+  title: "Barbarian Level 4: Ability Score Improvement"
+  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.\n\nAs shown on the Barbarian table, you gain this feature again at levels 8, 12, 16, and 19."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Barbarian: Extra Attack":
-  title: "Barbarian 5th Level: Extra Attack"
+  title: "Barbarian Level 5: Extra Attack"
   desc: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Barbarian: Fast Movement":
-  title: "Barbarian 5th Level: Fast Movement"
+  title: "Barbarian Level 5: Fast Movement"
   desc: "Your speed increases by 10 feet while you aren't wearing Heavy Armor."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Barbarian: Feral Instinct":
-  title: "Barbarian 7th Level: Feral Instinct"
-  desc: "Your instincts are so honed that you have Advantage on Initiative rolls and Dexterity saving throws."
+  title: "Barbarian Level 7: Feral Instinct"
+  desc: "Your instincts are so honed that you have Advantage on Initiative rolls."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Barbarian: Indomitable Might":
-  title: "Barbarian 9th Level: Indomitable Might"
-  desc: "If your total for a Strength check is less than your Strength score, you can use that score in place of the total."
+"Barbarian: Instinctive Pounce":
+  title: "Barbarian Level 7: Instinctive Pounce"
+  desc: "As part of the Bonus Action you take to enter your Rage, you can move up to half your Speed."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Barbarian: Brutal Critical":
-  title: "Barbarian 11th Level: Brutal Critical"
-  desc: "When you score a critical hit with a weapon or an Unarmed Strike using Strength, the target takes extra damage equal to your Barbarian level. That damage is the same type dealt by the weapon or Unarmed Strike."
+  title: "Barbarian Level 9: Brutal Critical"
+  desc: "When you score a critical hit with a weapon using Strength or an Unarmed Strike, the target takes 1d12 extra damage of the same type dealt by the weapon or Unarmed Strike.\n\nThis extra damage increases by 1d12 when you reach Barbarian levels 13 (2d12) and 17 (3d12)."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Barbarian: Persistent Rage":
-  title: "Barbarian 13th Level: Persistent Rage"
-  desc: "Your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage still ends if you have the Incapacitated condition or don Heavy Armor."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Barbarian: Relentless Rage":
-  title: "Barbarian 15th Level: Relentless Rage"
-  desc: "Your Rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your Rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.\n\nEach time you use this feature after the first, the DC increases by 5. When you finish a Short Rest or Long Rest, the DC resets to 10."
+  title: "Barbarian Level 11: Relentless Rage"
+  desc: "Your rage can keep you fighting despite grievous wounds. If you drop to 0 Hit Points while your rage is active and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, your Hit Points instead change to a number equal to twice your Barbarian level.\n\nEach time you use this feature after the first, the DC increases by 5. When you finish a Short Rest or Long Rest, the DC resets to 10."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Barbarian: Rage Resurgence":
-  title: "Barbarian 17th Level: Rage Resurgence"
-  desc: "Whenever you roll Initiative, you regain one expended use of your Rage."
+"Barbarian: Persistent Rage":
+  title: "Barbarian Level 15: Persistent Rage"
+  desc: "If you roll Initiative and have no uses of Rage remaining, you regain one expended use of it.\n\nIn addition, your Rage is so fierce that it now lasts for 10 minutes without you needing to do anything to extend it from round to round. The Rage ends early if you have the Unconscious condition or don Heavy Armor."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Barbarian: Indomitable Might":
+  title: "Barbarian Level 18: Indomitable Might"
+  desc: "If your total for a Strength check or Strength saving throw is less than your Strength score, you can use that score in place of the total."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Barbarian: Primal Champion":
-  title: "Barbarian 18th Level: Primal Champion"
-  desc: "You embody primal power. Your Strength and Constitution scores increase by 2, and their maximum is now 22."
+  title: "Barbarian Level 20: Primal Champion"
+  desc: "You embody primal power. Your Strength and Constitution scores increase by 4, and their maximum is now 24."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Barbarian: Epic Boon":
-  title: "Barbarian 20th Level: Epic Boon"
-  desc: "You gain the following benefits:\n\n**Ability Score Increase**. Choose your Strength or Constitution score. That score increases by 2, and its maximum is now 30.\n\n**Epic Boon Feat**. You gain the Epic Boon of Irresistible Offense or another Epic Boon feat of your choice."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 
 # =========================================
@@ -118,25 +116,124 @@
 # =========================================
 
 "Path of the Berserker: Frenzy":
-  title: "Path of the Berserker 3rd Level: Frenzy"
+  title: "Path of the Berserker Level 3: Frenzy"
   desc: "You can go into a frenzy in battle. If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Path of the Berserker: Mindless Rage":
-  title: "Path of the Berserker 6th Level: Mindless Rage"
+  title: "Path of the Berserker Level 6: Mindless Rage"
   desc: "You have immunity to the Charmed and Frightened conditions while your Rage is active. If you are Charmed or Frightened when you enter your Rage, that condition ends on you."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Path of the Berserker: Retaliation":
-  title: "Path of the Berserker 10th Level: Retaliation"
+  title: "Path of the Berserker Level 10: Retaliation"
   desc: "When you take damage from a creature that is within 5 feet of you, you can use your Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Path of the Berserker: Intimidating Presence":
-  title: "Path of the Berserker 14th Level: Intimidating Presence"
-  desc: "As an action, you can strike terror into others with your menacing presence, as you swell with primal power. When you do so, each creature of your choice within 30 feet of you—or 60 feet of you if your Rage is active—must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier), provided the creature isn't behind Total Cover. On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the saving throw, ending the effect on itself on a successful save.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. If you've run out of uses of this feature, you can expend a use of your Rage, choosing not to activate the Rage and activating Intimidating Presence instead."
+  title: "Path of the Berserker Level 14: Intimidating Presence"
+  desc: "As a Bonus Action, you can strike terror into others with your menacing presence as you swell with primal power. When you do so, each creature of your choice within 30 feet of you—or 60 feet of you if your Rage is active—must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier), provided the creature isn't behind Total Cover. On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the saving throw, ending the effect on itself on a successful save.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. If you've run out of uses of this feature, you can expend a use of your Rage, choosing to activate Intimidating Presence instead of Rage."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# ==========================================
+# BARBARIAN: PATH OF THE WILD HEART FEATURES
+# ==========================================
+
+"Path of the Wild Heart: Animal Speaker":
+  title: "Path of the Wild Heart Level 3: Animal Speaker"
+  desc: "You can cast the _Beast Sense_ and _Speak with Animals_ spells, but only as Rituals. Wisdom is your spellcasting ability for them."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the Wild Heart: Rage of the Wilds":
+  title: "Path of the Wild Heart Level 3: Rage of the Wilds"
+  desc: "Your Rage taps into the primal power of animals. You gain one of the following options of your choice. Whenever you gain a Barbarian level, you can change your choice.\n\n**_Bear_**. When you activate your Rage, choose two damage types, other than Force or Psychic. You have Resistance to the chosen types until the Rage ends.\n\n**_Eagle_**. When you activate your Rage and as a Bonus Action while it's active, you can take both the Disengage and the Dash action.\n\n**_Wolf_**. While your Rage is active, your allies have Advantage on melee attack rolls against any enemy of yours within 10 feet of you."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the Wild Heart: Aspect of the Wilds":
+  title: "Path of the Wild Heart Level 6: Aspect of the Wilds"
+  desc: "You gain one of the following options of your choice. Whenever you gain a Barbarian level, you can change your choice.\n\n**_Elephant_**. You gain proficiency in the Athletics or Insight skill. If you already have proficiency in the skill, you gain Expertise in it instead.\n\n**_Owl_**. You gain proficiency in the Investigation or Perception skill. If you already have proficiency in the skill, you gain Expertise in it instead.\n\n**_Spider_**. You gain proficiency in the Stealth or Survival skill. If you already have proficiency in the skill, you gain Expertise in it instead."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the Wild Heart: Nature Speaker":
+  title: "Path of the Wild Heart Level 10: Nature Speaker"
+  desc: "You can cast the _Commune with Nature_ spell, but only as a Ritual. Wisdom is your spellcasting ability for it."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the Wild Heart: Power of the Wilds":
+  title: "Path of the Wild Heart Level 14: Power of the Wilds"
+  desc: "You gain one of the following options of your choice. Whenever you gain a Barbarian level, you can change your choice.\n\n**_Lion_**. While your Rage is active, any of your enemies within 5 feet of you have Disadvantage on attack rolls against targets other than you or another Barbarian with this feature.\n\n**_Falcon_**. While your Rage is active, you have a Fly Speed equal to your Speed, provided you aren't wearing any armor.\n\n**_Ram_**. While your Rage is active, when you hit a Large or smaller creature with a melee attack, it must succeed on a Strength saving throw (DC equal to 8 + your Proficiency Bonus + your Strength modifier) or have the Prone condition."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# ==========================================
+# BARBARIAN: PATH OF THE WORLD TREE FEATURES
+# ==========================================
+
+"Path of the World Tree: Vitality of the Tree":
+  title: "Path of the World Tree Level 3: Vitality of the Tree"
+  desc: "When you activate your Rage, you regain a number of Hit Points equal to your Barbarian level. At the start of each of your turns while your Rage is active, you can choose another creature within 10 feet of yourself to gain Temporary Hit Points. To determine the number of Temporary Hit Points, roll a number of d6s equal to your Rage Damage bonus, and add them together. If any of these Temporary Hit Points remain when your Rage ends, they vanish."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the World Tree: Branches of the Tree":
+  title: "Path of the World Tree Level 6: Branches of the Tree"
+  desc: "While your Rage is active, whenever a creature you can see ends its turn within 20 feet of you, you can use your Reaction to summon spectral branches of the World Tree around it. The target must succeed on a Strength saving throw (DC equal to 8 + your Proficiency Bonus + your Strength modifier) or be teleported to an unoccupied space you can see within 5 feet of yourself or in the nearest unoccupied space you can see. The space the target teleports to must be on a surface or liquid that can support it; otherwise, the target doesn't teleport."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the World Tree: Battering Roots":
+  title: "Path of the World Tree Level 10: Battering Roots"
+  desc: "Tendrils of the World Tree extend from your melee weapons. While you wield any melee weapon, your reach with that weapon increases by 10 feet, and when you hit with it, you can activate the Push or Topple property even if you're using another Mastery property with that weapon."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the World Tree: Travel Along the Tree":
+  title: "Path of the World Tree Level 14: Travel Along the Tree"
+  desc: "As an action, you touch a Huge or larger tree or a Teleportation Circle to create a link through the World Tree to a Teleportation Circle somewhere else on the same world or on another plane of existence. When you do so, you can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire, and you and up to five willing creatures within 30 feet of you appear at the Teleportation Circle closest to that destination. If a Teleportation Circle is too small to hold all the creatures you transported, they appear in the unoccupied spaces closest to the circle.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. If you've run out of uses of this feature, you can expend five uses of your Rage, choosing to activate this feature instead of Rage."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# =========================================
+# BARBARIAN: PATH OF THE ZEALOT FEATURES
+# =========================================
+
+"Path of the Zealot: Divine Fury":
+  title: "Path of the Zealot Level 3: Divine Fury"
+  desc: "You can channel divine power into your strikes. On each of your turns while your Rage is active, the first creature you hit with a weapon or an Unarmed Strike takes extra damage equal to 1d6 plus half your Barbarian level (round down). The extra damage is Necrotic or Radiant; you choose the type each time you deal the damage."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the Zealot: Warrior of the Gods":
+  title: "Path of the Zealot Level 3: Warrior of the Gods"
+  desc: "A divine entity helps ensure you can continue to fight. When a spell or magic item restores any of your Hit Points, you can roll a d12 and regain additional Hit Points equal to the number rolled. You can use this benefit a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\nIn addition, if a spell, such as the _Raise Dead_ spell, has the sole effect of restoring you to life (but not undeath), the caster doesn't need Material components to cast the spell on you."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the Zealot: Fanatical Focus":
+  title: "Path of the Zealot Level 6: Fanatical Focus"
+  desc: "If you fail a saving throw while your Rage is active, you can reroll it, and you must use the new roll. You can use this feature only once per active Rage."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the Zealot: Zealous Presence":
+  title: "Path of the Zealot Level 10: Zealous Presence"
+  desc: "As a Bonus Action, you unleash a battle cry infused with divine energy. Up to ten other creatures of your choice within 60 feet of you gain Advantage on attack rolls and saving throws until the start of your next turn.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. If you've run out of uses of this feature, you can expend a use of your Rage to activate Zealous Presence instead of Rage."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Path of the Zealot: Rage Beyond Death":
+  title: "Path of the Zealot Level 14: Rage Beyond Death"
+  desc: "When your Relentless Rage successfully restores your Hit Points, you can assume the form of a spectral warrior. While in this form, you gain the following benefits:\n- You have a Fly Speed equal to your Speed and can hover. You can move through creatures and objects as if they were Difficult Terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object.\n- When you're hit by an attack roll, you can use your Reaction to turn that hit into a miss.\n\nThe form lasts for 1 minute or until you regain any Hit Points or drop to 0 Hit Points. Once you use this feature, you can't do so again until you finish a Long Rest."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"

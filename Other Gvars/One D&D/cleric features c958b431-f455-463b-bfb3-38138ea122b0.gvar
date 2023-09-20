@@ -3,13 +3,13 @@
 # load_yaml(get_gvar("c958b431-f455-463b-bfb3-38138ea122b0"))
 
 "Cleric: Divine Order":
-  title: "Cleric 1st Level: Divine Order"
+  title: "Cleric Level 1: Divine Order"
   desc: "You have dedicated yourself to one of the following sacred roles of your choice:\n\n**Protector**. Trained for battle, you gain Martial Weapon proficiency and Heavy Armor training.\n\n**Thaumaturge**. You know one extra cantrip from the Divine spell list (see your Spellcasting feature for information on preparing spells). In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Religion) checks. The bonus equals your Wisdom modifier (minimum of +1)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Spellcasting":
-  title: "Cleric 1st Level: Spellcasting"
+  title: "Cleric Level 1: Spellcasting"
   desc: "You have learned to cast spells through prayer, meditation, and devotion. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as a Cleric."
   fields:
   - title: Cantrips
@@ -31,7 +31,7 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Channel Divinity":
-  title: "Cleric 2nd Level: Channel Divinity"
+  title: "Cleric Level 2: Channel Divinity"
   desc: "You gain the ability to channel divine energy directly from the Outer Planes, using that energy to fuel magical effects. You start with two such effects: Divine Spark and Turn Undead, each of which is described below. Each time you use your Channel Divinity, you choose which effect to create, and you gain additional effect options at higher levels in this class.\n\nYou can use Channel Divinity twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain additional uses when you reach certain Cleric levels, as shown in the Channel Divinity column of the Cleric table.\n\nIf a Channel Divinity effect requires a saving throw, the DC equals the Spell Save DC from this class's Spellcasting feature."
   fields:
   - title: "Divine Spark"
@@ -43,53 +43,53 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Cleric Subclass":
-  title: "Cleric 3rd Level: Cleric Subclass"
+  title: "Cleric Level 3: Cleric Subclass"
   desc: "You gain a Cleric subclass of your choice: Life Domain, Light Domain, Trickery Domain, or War Domain. Subclasses are detailed after this class's description.\n\nA subclass is a specialization that grants you special abilities at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level and lower."
   fields:
-  - title: "At 6th and 17th Level"
+  - title: "At 6th and Level 17"
     body: "You gain a feature from your Cleric subclass."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Ability Score Improvement":
-  title: "Cleric 4th Level: Ability Score Improvement"
+  title: "Cleric Level 4: Ability Score Improvement"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   fields:
-  - title: "At 8th, 12th, 16th, and 19th Level"
+  - title: "At 8th, 12th, 16th, and Level 19"
     body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Smite Undead":
-  title: "Cleric 5th Level: Smite Undead"
+  title: "Cleric Level 5: Smite Undead"
   desc: "You can cause your Turn Undead feature to smite the undying; whenever you use Turn Undead, you can roll a number of d8s equal to your Wisdom modifier (minimum of 1d8) and add the rolls together. Each Undead that fails its saving throw against that use of Turn Undead takes Radiant damage equal to the roll's total. This damage doesn't end the turn effect."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Blessed Strikes":
-  title: "Cleric 7th Level: Blessed Strikes"
+  title: "Cleric Level 7: Blessed Strikes"
   desc: "Divine power infuses you in battle. You gain one of the following options of your choice:\n\n**_Divine Strike_**. Once on each of your turns when you hit a creature with an attack with a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant (your choice) damage.\n\n**_Potent Spellcasting_**. You add your Wisdom modifier to the damage you deal with any Divine cantrip.\n\nIf you get either option from another source, you use only the option you chose for this feature."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Commune":
-  title: "Cleric 9th Level: Commune"
+  title: "Cleric Level 9: Commune"
   desc: "In the past, you have reached the divine source of your power through prayer. Now, you can also have brief conversations; you always have the _Commune_ spell prepared."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Divine Intervention":
-  title: "Cleric 10th Level: Divine Intervention"
-  desc: "You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any Divine spell of 5th level or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing material components. You then can't use this feature again until you finish a Long Rest."
+  title: "Cleric Level 10: Divine Intervention"
+  desc: "You can call on your deity or pantheon to intervene on your behalf. As a Magic action, choose any Divine spell of level 5 or lower that doesn't require a Reaction to cast. As part of the same action, you cast that spell without expending a spell slot or needing material components. You then can't use this feature again until you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Improved Blessed Strikes":
-  title: "Cleric 14th Level: Blessed Strikes"
+  title: "Cleric Level 14: Blessed Strikes"
   desc: "The option you chose for Blessed Strikes grows more powerful:\n\n**Divine Strike**. The extra damage of your Divine Strike increases to 2d8.\n\n**Potent Spellcasting**. When you cast a Divine cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Greater Divine Intervention":
-  title: "Cleric 20th Level: Greater Divine Intervention"
+  title: "Cleric Level 20: Greater Divine Intervention"
   desc: "You are able to call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose _Wish_ when you select a spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests.\n\nWhen you cast _Wish_ with this feature, you are immune to the stress caused by using _Wish_ to do something other than casting a spell."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -100,7 +100,7 @@
 # ===================================
 
 "Life Domain: Domain Spells":
-  title: "Life Domain 3rd Level: Domain Spells"
+  title: "Life Domain Level 3: Domain Spells"
   desc: "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared."
   fields:
   - title: "Life Domain Spells"
@@ -108,25 +108,25 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Life Domain: Disciple of Life":
-  title: "Life Domain 3rd Level: Disciple of Life"
+  title: "Life Domain Level 3: Disciple of Life"
   desc: "Your healing spells are empowered by life itself. When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Life Domain: Preserve Life":
-  title: "Life Domain 3rd Level: Preserve Life"
+  title: "Life Domain Level 3: Preserve Life"
   desc: "As part of casting a prepared Abjuration spell from the Divine spell list, you can expend uses of Channel Divinity to create a spell slot to use for the casting. You must expend a number of Channel Divinity uses equal to the spell's level. For example, you can expend one use of Channel Divinity to create a 1st-level spell slot for a casting of _Shield of Faith_ if you have that spell prepared."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Life Domain: Blessed Healer":
-  title: "Life Domain 6th Level: Blessed Healer"
+  title: "Life Domain Level 6: Blessed Healer"
   desc: "The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one creature other than you, you regain Hit Points equal to 2 plus the spell slot's level."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Life Domain: Supreme Healing":
-  title: "Life Domain 17th Level: Supreme Healing"
+  title: "Life Domain Level 17: Supreme Healing"
   desc: "When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead, use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -137,7 +137,7 @@
 # ===================================
 
 "Light Domain: Domain Spells":
-  title: "Light Domain 3rd Level: Domain Spells"
+  title: "Light Domain Level 3: Domain Spells"
   desc: "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Light Domain Spells table, you thereafter always have the listed spells prepared."
   fields:
   - title: "Light Domain Spells"
@@ -145,25 +145,25 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Light Domain: Warding Flare":
-  title: "Light Domain 3rd Level: Warding Flare"
+  title: "Light Domain Level 3: Warding Flare"
   desc: "When a creature that you can see within 30 feet of you makes an attack roll, you can use your Reaction to impose Disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Light Domain: Radiance of the Dawn":
-  title: "Light Domain 3rd Level: Radiance of the Dawn"
+  title: "Light Domain Level 3: Radiance of the Dawn"
   desc: "As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to emit sunlight in a 30-foot-radius sphere centered on yourself. Any magical darkness—such as that created by the Darkness spell—in the sphere is dispelled. Additionally, each creature of your choice in the sphere must make a Constitution saving throw, taking Radiant damage equal to 2d10 + your Cleric level on a failed save, or half as much damage on a successful one."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Light Domain: Revealing Light":
-  title: "Light Domain 6th Level: Revealing Light"
+  title: "Light Domain Level 6: Revealing Light"
   desc: "As a Bonus Action, you can present your Holy Symbol and cast See Invisibility without expending a spell slot. When you cast it in this way, your allies also gain the benefit of the spell while within 10 feet of you. Until the spell ends, you emit Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. You can end the spell early as a Bonus Action.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Light Domain: Corona of Light":
-  title: "Light Domain 17th Level: Corona of Light"
+  title: "Light Domain Level 17: Corona of Light"
   desc: "As a Magic action, you cause yourself to emit an aura of sunlight that lasts for 1 minute or until you dismiss it (no action required). You emit Bright Light in a 60-foot radius and Dim Light for an additional 30 feet. Your enemies in the Bright Light have Disadvantage on saving throws against your Radiance of the Dawn and any spell that deals Fire or Radiant damage."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -174,7 +174,7 @@
 # ===================================
 
 "Trickery Domain: Domain Spells":
-  title: "Trickery Domain 3rd Level: Domain Spells"
+  title: "Trickery Domain Level 3: Domain Spells"
   desc: "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Trickery Domain Spells table, you thereafter always have the listed spells prepared."
   fields:
   - title: "Trickery Domain Spells"
@@ -182,25 +182,25 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Trickery Domain: Blessing of the Trickster":
-  title: "Trickery Domain 3rd Level: Blessing of the Trickster"
+  title: "Trickery Domain Level 3: Blessing of the Trickster"
   desc: "As an action, you can choose yourself or a willing creature within 30 feet of yourself to gain Advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Trickery Domain: Invoke Duplicity":
-  title: "Trickery Domain 3rd Level: Invoke Duplicity"
+  title: "Trickery Domain Level 3: Invoke Duplicity"
   desc: "You can use your Channel Divinity to create an illusory duplicate of yourself.\n\nAs a Bonus Action, you can expend one use of your Channel Divinity to teleport up to 30 feet to an unoccupied space you can see, and you create a perfect visual illusion of yourself in the space you left. The illusion lasts for 1 minute, but it ends early if you have the Incapacitated condition or dismiss it as a Bonus Action.\n\nWhile the illusion persists, you gain the following benefits:\n\n**Cast Spells**. You can cast spells as though you were in the illusion's space, but you must use your own senses.\n\n**Distract**. When both you and your illusion are within 5 feet of a creature that can see the illusion, you have Advantage on attack rolls against that creature, given how distracting the illusion is to the target.\n\n**Move**. As a Bonus Action, you can move the illusion up to 30 feet to an unoccupied space you can see that is within 120 feet of yourself, and you can then teleport, swapping places with the illusion."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Trickery Domain: Trickster's Magic":
-  title: "Trickery Domain 6th Level: Blessed Healer"
+  title: "Trickery Domain Level 6: Blessed Healer"
   desc: "If you cast a spell of the Illusion school using a spell slot, you can change the spell's casting time to a Bonus Action for this casting, provided the spell's casting time is normally an action.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Trickery Domain: Improved Duplicity":
-  title: "Trickery Domain 17th Level: Improved Duplicity"
+  title: "Trickery Domain Level 17: Improved Duplicity"
   desc: "The illusion of your Invoke Duplicity has grown more powerful. When you create it, you can teleport up to 120 feet rather than 30 feet, and when you move it, you can move it up to 60 feet rather than 30 feet. In addition, when you and your allies make attack rolls against a creature within 5 feet of the illusion, the attack rolls have Advantage. Finally, when the illusion ends, you or a creature of your choice within 5 feet of it regains a number of Hit Points equal to your Cleric level."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -212,7 +212,7 @@
 # ===================================
 
 "War Domain: Domain Spells":
-  title: "War Domain 3rd Level: Domain Spells"
+  title: "War Domain Level 3: Domain Spells"
   desc: "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the War Domain Spells table, you thereafter always have the listed spells prepared."
   fields:
   - title: "War Domain Spells"
@@ -220,25 +220,25 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "War Domain: War Priest":
-  title: "War Domain 3rd Level: War Priest"
+  title: "War Domain Level 3: War Priest"
   desc: "Your training with weapons allows you to use the Mastery property of one kind of Simple or Martial weapon with which you have proficiency. Whenever you finish a Long Rest, you can change the kind of weapon you chose to another eligible kind.\n\nIn addition, you can make one weapon attack as a Bonus Action. You can use this Bonus Action a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Short Rest or Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "War Domain: Guided Strike":
-  title: "War Domain 3rd Level: Guided Strike"
+  title: "War Domain Level 3: Guided Strike"
   desc: "When you or a creature within 30 feet of you misses with an attack roll, you can use your Reaction to expend one use of your Channel Divinity and give that roll a +10 bonus, potentially causing it to hit."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "War Domain: War God's Blessing":
-  title: "War Domain 6th Level: War God's Blessing"
+  title: "War Domain Level 6: War God's Blessing"
   desc: "Whenever you cast _Shield of Faith_ on another creature, the spell also affects you.\n\nIn addition, you can cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Short Rest or Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "War Domain: Avatar of Battle":
-  title: "War Domain 17th Level: Avatar of Battle"
+  title: "War Domain Level 17: Avatar of Battle"
   desc: "You gain resistance to Bludgeoning, Piercing, and Slashing damage."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"

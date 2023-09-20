@@ -1,7 +1,7 @@
 <drac2>
 using(
-	embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
-	fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817"
+	embeds    = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
+	one_fuzzy = "893a6e51-d09a-4dae-a303-762f169f2a1f"
 )
 
 if embeds.on_cooldown():
@@ -10,7 +10,7 @@ if embeds.on_cooldown():
 FEATS = load_yaml(get_gvar("0a7a9e38-a642-4681-9b4a-7f0e7c13e854"))
 
 if search := """&*&""":
-	match fuzzy.get_matches_ignoring_punctuation(search, FEATS):
+	match one_fuzzy.get_matches(search, FEATS):
 		# No matches.
 		case []:
 			err(f"`{search}` did not match any Feats. See `{ctx.prefix}{ctx.alias} feat` for a list of supported Feats. For 5e Feats, use `/lookup feat` instead.")

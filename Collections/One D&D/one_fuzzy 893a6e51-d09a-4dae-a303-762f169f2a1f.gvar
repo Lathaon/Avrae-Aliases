@@ -1,0 +1,33 @@
+# one_fuzzy = "893a6e51-d09a-4dae-a303-762f169f2a1f"
+#
+# A version of Fuzzy specifically aimed at searching through rules terms and class features.
+
+using(fuzzy = '6431690e-ce47-4baa-bb3b-ba751e1a1817')
+
+def _process(key):
+    return key.split(": ")[-1].split("[")[0].translate(fuzzy.NO_PUNCTUATION_TABLE).lower()
+
+
+def get_matches(search, iterable):
+    """
+    Returns a list of matching values from iterable, ignoring punctuation
+    for purposes of partial matching.
+    If exact matches are available, then partial matches will be excluded.
+    :arg str search: the string to match against.
+    :arg list|generator|tuple iterable: the iterable to search for matching strings.
+    :return: a list of matching strings.
+    :rtype: list
+    """
+    processed = {
+        key: _process(key)
+        for key in iterable
+    }
+
+    search_processed = _process(search)
+    if partial_matches := {x: y for x, y in processed.items() if search_processed in y}:
+        if exact_matches := [x for x, y in partial_matches.items() if search_processed == y]:
+            return fuzzy.get_matches_ignoring_punctuation(search, exact_matches)
+        else:
+            return fuzzy.get_matches_ignoring_punctuation(search, partial_matches)
+    else:
+        return fuzzy.get_matches_ignoring_punctuation(search, iterable)

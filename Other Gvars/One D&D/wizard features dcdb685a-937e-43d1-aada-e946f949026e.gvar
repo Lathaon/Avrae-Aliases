@@ -2,105 +2,151 @@
 # One D&D Wizard Class Features
 # load_yaml(get_gvar("dcdb685a-937e-43d1-aada-e946f949026e"))
 
+"Wizard: Arcane Recovery":
+  title: "Wizard Level 1: Arcane Recovery"
+  desc: "You have learned to regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Wizard level (rounded up), and none of the slots can be level 6 or higher.\n\nFor example, if you're a level 4 Wizard, you can recover up to two levels worth of spell slots, regaining either a level 2 spell slot or two level 1 spell slots.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
 "Wizard: Spellcasting":
-  title: "Wizard 1st Level: Spellcasting"
-  desc: "As a student of arcane magic, you have learned to cast spells. See the [Player's Handbook](https://www.dndbeyond.com/sources/phb) for the rules on spellcasting. The information below details how you use those rules as a Wizard."
+  title: "Wizard Level 1: Spellcasting"
+  desc: "As a student of arcane magic, you have learned to cast spells. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as a Wizard."
   fields:
   - title: "Cantrips"
-    body: "You know three cantrips of your choice from the Arcane spell list. Rather than choosing, you may start with *Light*, *Mage Hand*, and *Ray of Frost*. Whenever you gain a Wizard level, you can replace one of your cantrips with another Arcane cantrip of your choice.\n\nWhen you reach 4th and 10th level in this class, you learn another Arcane cantrip of your choice, as shown in the Cantrips column of the Wizard table."
+    body: "You know three cantrips of your choice from the Wizard spell list. Rather than choosing, you may start with _Light_, _Mage Hand_, and _Ray of Frost_. Whenever you finish a Long Rest, you can replace one of your cantrips from this feature with another Wizard cantrip of your choice.\n\nWhen you reach levels 4 and 10 in this class, you learn another Wizard cantrip of your choice, as shown in the Cantrips column of the Wizard table."
+  - title: "Spellbook"
+    body: "Your wizardly apprenticeship culminated in the creation of a unique book in your possession: your spellbook. It is a Tiny object that weighs 3 pounds, and it contains 100 pages, which can be read only by you or someone casting _Identify_. You determine the book's appearance and materials, such as a giltedged tome or a collection of vellum bound together by twine.\n\nThe book contains the spells you know of level 1 and higher. It starts with six level 1 spells of your choice from the Wizard spell list. Instead of choosing spells, you can have your book contain the following spells: _Detect Magic_, _Feather Fall_, _Mage Armor_, _Magic Missile_, _Sleep_, and _Thunderwave_.\n\nWhenever you gain a Wizard level after 1, add two Wizard spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Wizard table. The spells are the culmination of arcane research you do regularly."
   - title: "Spell Slots"
-    body: "The Wizard table shows how many Spell Slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended Spell Slots when you finish a Long Rest."
-  - title: "Prepared Spells of 1st+ Level"
-    body: "You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To do so, you choose four spells from your spellbook, and the chosen spells must be of a level for which you have Spell Slots.\n\nThe number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard table. Whenever that number increases, choose additional spells from the Arcane spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have Spell Slots. For example, if you're a 3rd level Wizard, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook.\n\nIf another Wizard feature gives spells that you always have prepared, those spells don't count against the number of spells you can prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature."
+    body: "The Wizard table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest."
+  - title: "Prepared Spells of Level 1+"
+    body: "You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To do so, choose four spells from your spellbook. The chosen spells must be of a level for which you have spell slots.\n\nThe number of spells on your list increases as you gain Wizard levels, as shown in the Prepared Spells column of the Wizard table. Whenever that number increases, choose additional spells from the Wizard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Wizard, your list of prepared spells can include six spells of levels 1 and 2 in any combination, chosen from your spellbook.\n\nIf another Wizard feature gives spells that you always have prepared, those spells don't count against the number of spells you can prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature."
   - title: "Changing Your Prepared Spells"
     body: "Whenever you finish a Long Rest, you can change your list of prepared spells, replacing one or more of the spells there. Preparing a new list requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast a spell: at least 1 minute per spell level for each spell you add to the list."
+  - title: "Ritual Caster"
+    body: "You can cast any spell as a Ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way."
   - title: "Spellcasting Ability"
     body: "Intelligence is your spellcasting ability for the spells you cast with your Wizard features."
   - title: "Spellcasting Focus"
     body: "You can use an Arcane Focus or your spellbook as a Spellcasting Focus for the spells you cast with your Wizard features."
+  - title: "Expanding and Replacing Your Spellbook"
+    body: ">>> The spells that you add to your spellbook as you gain levels reflect the magical research you conduct on your own, but you might find other spells during your adventures that you can add to your book. You could discover a spell on a _Spell Scroll_ or in an ancient tome, for example, and then copy the spell into your spellbook, using the process below.\n\n**_Copying a Spell into the Book_**. When you find a Wizard spell of level 1 or higher, you can copy it into your spellbook if it is of a spell level you can prepare and if you can spare the time to copy it. For each level of the spell, the transcription process takes 2 hours and costs 50 GP. The cost represents the fine inks you use as well as Material components you expend as you experiment with the spell to master it. Once you have spent this time and money, you can prepare the spell just like the other spells in your spellbook."
+  - body: ">>> **_Replacing the Book_**. You can copy a spell from your own spellbook into another book—for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook but faster and easier, since you already know how to cast the spell. You need spend only 1 hour and 10 GP for each level of the copied spell.\n\nIf you lose your spellbook, you can use the same procedure to transcribe the Wizard spells that you have prepared into a new spellbook. Filling out the remainder of your spellbook requires you to find new spells to do so, as normal. For this reason, many wizards keep a backup spellbook."
   - title: "Wizard Table: Cantrips and Prepared Spells"
-    body: "```\n| Level | Cantrips | Prepared Spells\n|-------+----------+-----------------\n|   1st |     3    |    4\n|   2nd |     3    |    5\n|   3rd |     3    |    6\n|   4th |     4    |    7\n|   5th |     4    |    9\n|   6th |     4    |   10\n|   7th |     4    |   11\n|   8th |     4    |   12\n|   9th |     4    |   14\n|  10th |     5    |   15\n|  11th |     5    |   16\n|  12th |     5    |   16\n|  13th |     5    |   17\n|  14th |     5    |   17\n|  15th |     5    |   18\n|  16th |     5    |   18\n|  17th |     5    |   19\n|  18th |     5    |   20\n|  19th |     5    |   21\n|  20th |     5    |   22\n```"
+    body: "```\n| Level | Cantrips | Prepared Spells\n|-------+----------+-----------------\n|   1   |     3    |        4\n|   2   |     3    |        5\n|   3   |     3    |        6\n|   4   |     4    |        7\n|   5   |     4    |        9\n|   6   |     4    |       10\n|   7   |     4    |       11\n|   8   |     4    |       12\n|   9   |     4    |       14\n|  10   |     5    |       15\n|  11   |     5    |       16\n|  12   |     5    |       16\n|  13   |     5    |       17\n|  14   |     5    |       18\n|  15   |     5    |       19\n|  16   |     5    |       21\n|  17   |     5    |       22\n|  18   |     5    |       23\n|  19   |     5    |       24\n|  20   |     5    |       25\n```"
   - title: "Wizard Table: Spell Slots"
-    body: "```\n| Level | 1st 2nd 3rd 4th 5th 6th 7th 8th 9th\n|-------+-------------------------------------\n|   1st |  2   —   —   —   —   —   —   —   —\n|   2nd |  3   —   —   —   —   —   —   —   —\n|   3rd |  4   2   —   —   —   —   —   —   —\n|   4th |  4   3   —   —   —   —   —   —   —\n|   5th |  4   3   2   —   —   —   —   —   —\n|   6th |  4   3   3   —   —   —   —   —   —\n|   7th |  4   3   3   1   —   —   —   —   —\n|   8th |  4   3   3   2   —   —   —   —   —\n|   9th |  4   3   3   3   1   —   —   —   —\n|  10th |  4   3   3   3   2   —   —   —   —\n|  11th |  4   3   3   3   2   1   —   —   —\n|  12th |  4   3   3   3   2   1   —   —   —\n|  13th |  4   3   3   3   2   1   1   —   —\n|  14th |  4   3   3   3   2   1   1   —   —\n|  15th |  4   3   3   3   2   1   1   1   —\n|  16th |  4   3   3   3   2   1   1   1   —\n|  17th |  4   3   3   3   2   1   1   1   1\n|  18th |  4   3   3   3   2   1   1   1   1\n|  19th |  4   3   3   3   2   2   1   1   1\n|  20th |  4   3   3   3   2   2   2   1   1\n```"
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+    body: "```\n| Level | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9                        \n|-------+---+---+---+---+---+---+---+---+---\n|   1   | 2 | — | — | — | — | — | — | — | — \n|   2   | 3 | — | — | — | — | — | — | — | — \n|   3   | 4 | 2 | — | — | — | — | — | — | — \n|   4   | 4 | 3 | — | — | — | — | — | — | — \n|   5   | 4 | 3 | 2 | — | — | — | — | — | — \n|   6   | 4 | 3 | 3 | — | — | — | — | — | — \n|   7   | 4 | 3 | 3 | 1 | — | — | — | — | — \n|   8   | 4 | 3 | 3 | 2 | — | — | — | — | — \n|   9   | 4 | 3 | 3 | 3 | 1 | — | — | — | — \n|  10   | 4 | 3 | 3 | 3 | 2 | — | — | — | — \n|  11   | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — \n|  12   | 4 | 3 | 3 | 3 | 2 | 1 | — | — | — \n|  13   | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — \n|  14   | 4 | 3 | 3 | 3 | 2 | 1 | 1 | — | — \n|  15   | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — \n|  16   | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | — \n|  17   | 4 | 3 | 3 | 3 | 2 | 1 | 1 | 1 | 1 \n|  18   | 4 | 3 | 3 | 3 | 3 | 1 | 1 | 1 | 1 \n|  19   | 4 | 3 | 3 | 3 | 3 | 2 | 1 | 1 | 1 \n|  20   | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 \n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Wizard: Wizard's Spellbook":
-  title: "Wizard 1st Level: Wizard's Spellbook"
-  desc: "Your Wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, and it contains 100 pages, each of which can hold a spell.\n\nThis magic book holds the wizardly spells you know, and it is a repository for your arcane findings. Writing in a magical cipher using the spell *Scribe Spell*, you have ensured that no one else can read the book without magic.\n\nThe book is vital to your Spellcasting feature, as explained there."
+"Wizard: Scholar":
+  title: "Wizard Level 2: Scholar"
+  desc: "While studying magic, you also specialized in an academic field of study. Choose one of the following skills in which you have proficiency: Arcana, History, Nature, or Religion. You have Expertise in the chosen skill."
   fields:
-  - title: "Known Spells"
-    body: "Your spellbook contains the spells you know of 1st level and higher. It starts with the following spells: *Scribe Spell*, and six other 1st-level spells of your choice from the Arcane spell list. Instead of choosing spells, you can have your book contain the following spells: *Burning Hands*, *Detect Magic*, *Feather Fall*, *Mage Armor*, *Magic Missile*, *Scribe Spell*, and *Sleep*.\n\nOn your adventures, you might find other spells that you can add to your spellbook using *Scribe Spell*.\n\nWhenever you gain a Wizard level after 1st, you add two Arcane spells of your choice to your spellbook without needing to cast *Scribe Spell*. Each of these spells must be of a level for which you have Spell Slots, as shown on the Wizard table. The spells are the culmination of arcane research you do regularly.\n\nSome other Wizard features also add spells to your spellbook."
-  - title: "Ritual Caster"
-    body: "You can cast any spell as a ritual if that spell has the Ritual tag and the spell is in your spellbook. You needn't have the spell prepared, but you must read from the book to cast a spell in this way."
-  - title: "Creating Another Spellbook"
-    body: "You can have more than one spellbook. You can create another one—perhaps as a backup or replacement—by casting *Scribe Spell* on a blank book. Doing so adds a spell as normal and makes the book your spellbook."
-  - title: "The Book's Appearance"
-    body: "Your spellbook is a unique compilation of spells, with its own decorative flourishes and margin notes. It might be a plain, functional leather volume that you received as a gift from your master, a finely bound gilt-edged tome you found in an ancient library, or even a loose collection of notes scrounged together after you lost your previous spellbook in a mishap."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Wizard: Academic":
-  title: "Wizard 2nd Level: Academic"
-  desc: "Your time as a scholar has equipped you to recall a broad range of lore. When you take the Study action, you have Advantage on any Intelligence check you make as part of that action."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Wizard: Arcane Recovery":
-  title: "Wizard 2nd Level: Arcane Recovery"
-  desc: "You have learned to regain some of your magical energy by studying your spellbook. When you finish a Short Rest, you can choose expended Spell Slots to recover. The Spell Slots can have a combined level that is equal to or less than half your Wizard level (rounded up), and none of the slots can be 6th level or higher.\n\nFor example, if you're a 4th-level Wizard, you can recover up to two levels worth of Spell Slots. You can recover either a 2nd-level Spell Slot or two 1st-level Spell Slots.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Wizard: Wizard Subclass":
-  title: "Wizard 3rd Level: Wizard Subclass"
-  desc: "You gain the Evoker subclass or another Wizard subclass of your choice. The Evoker subclass is detailed after the Wizard's class description, and other subclasses will appear in future Unearthed Arcana articles.\n\nA subclass is a specialization that grants you special abilities at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level and lower. This class's description tells you the levels when your subclass provides features."
+  title: "Wizard Level 3: Wizard Subclass"
+  desc: "You gain a Wizard subclass of your choice: Abjurer, Diviner, Evoker, or Illusionist. Subclasses are detailed after this class's description.\n\nA subclass is a specialization that grants you special features at certain Wizard levels. For the rest of your career, you gain each of your subclass's features that are of your Wizard level and lower."
   fields:
-  - title: "At 6th, 10th, and 14th Level"
-    body: "You gain a feature from your Wizard subclass."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Wizard: Feat":
-  title: "Wizard 4th Level: Feat"
-  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+"Wizard: Ability Score Improvement":
+  title: "Wizard Level 4: Ability Score Improvement"
+  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.\n\nAs shown on the Wizard table, you gain this feature again at levels 8, 12, 16, and 19."
   fields:
-  - title: "At 8th, 12th, 16th, and 19th Level"
-    body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Wizard: Memorize Spell":
-  title: "Wizard 5th Level: Memorize Spell"
-  desc: "In your magical research, you have unlocked the secrets of *Memorize Spell* and add that spell to your spellbook."
+  title: "Wizard Level 5: Memorize Spell"
+  desc: "Studying your spellbook for 1 minute, you can expend mental and magical effort to memorize a spell. Choose one spell of level 1 or higher from your spellbook that you don't have prepared. You now have that spell prepared until you use this feature to prepare a different spell."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Wizard: Modify Spell":
-  title: "Wizard 7th Level: Modify Spell"
-  desc: "In your magical research, you have unlocked the secrets of *Modify Spell* and add that spell to your spellbook."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Wizard: Create Spell":
-  title: "Wizard 9th Level: Create Spell"
-  desc: "In your magical research, you have unlocked the secrets of *Create Spell* and add that spell to your spellbook. That spell is cast immediately after *Modify Spell* and is followed by *Scribe Spell*. If you complete that trio of spells, you create a spell of your own."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Wizard: Spell Mastery":
-  title: "Wizard 15th Level: Spell Mastery"
-  desc: "You have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level and a 2nd-level spell that are in your spellbook. You can cast those spells at their lowest level without expending a Spell Slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a Spell Slot as normal.\n\nBy spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels."
+  title: "Wizard Level 18: Spell Mastery"
+  desc: "You have achieved such mastery over certain spells that you can cast them at will. Choose a level 1 and a level 2 spell that are in your spellbook and that have a casting time of an action. You always have those spells prepared, and you can cast them at their lowest level without expending a spell slot. If you want to cast either spell at a higher level, you must expend a spell slot as normal.\n\nWhenever you finish a Long Rest, you can study your spellbook and exchange one of those spells for another eligible spell of the same level from that book."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Wizard: Signature Spells":
-  title: "Wizard 18th Level: Signature Spells"
-  desc: "You gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd level spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at 3rd level without expending a Spell Slot. When you do so, you can't do so again until you finish a Short Rest or Long Rest.\n\nIf you want to cast either spell at a higher level, you must expend a Spell Slot as normal."
+  title: "Wizard Level 20: Signature Spells"
+  desc: "You gain mastery over two powerful spells and can cast them with little effort. Choose two level 3 spells in your spellbook as your signature spells. You always have these spells prepared, and you can cast each of them once at level 3 without expending a spell slot. When you do so, you can't do so again until you finish a Short Rest or Long Rest.\n\nIf you want to cast either spell at a higher level, you must expend a spell slot as normal."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Wizard: Epic Boon":
-  title: "Wizard 20th Level: Epic Boon"
-  desc: "You gain the following benefits:\n\n**Ability Score Increase**. Your Intelligence score increases by 2, and its maximum is now 30.\n\n**Epic Boon Feat**. You gain the Epic Boon of Dimensional Travel or another Epic Boon feat of your choice."
+# =========================================
+# WIZARD: ABJURER FEATURES
+# =========================================
+
+"Abjurer: Abjuration Savant":
+  title: "Abjurer Level 3: Abjuration Savant"
+  desc: "Choose two Abjuration spells from the Wizard spell list, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Abjuration spell from the Wizard spell list to your spellbook for free."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Abjurer: Arcane Ward":
+  title: "Abjurer Level 3: Arcane Ward"
+  desc: "You can weave magic around yourself for protection. When you cast an Abjuration spell with a spell slot, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts until you finish a Long Rest. The ward has a Hit Point maximum equal to twice your Wizard level plus your Intelligence modifier. Whenever you take damage, the ward takes the damage instead. If this damage reduces the ward to 0 Hit Points, you take any remaining damage. While the ward has 0 Hit Points, it can't absorb damage, but its magic remains.\n\nWhenever you cast an Abjuration spell with a spell slot, the ward regains a number of Hit Points equal to twice the level of the spell slot. Alternatively, as a Bonus Action, you can expend a spell slot, and the ward regains a number of Hit Points equal to twice the level of the spell slot expended.\n\nOnce you create the ward, you can't create it again until you finish a Long Rest."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Abjurer: Projected Ward":
+  title: "Abjurer Level 6: Projected Ward"
+  desc: "When a creature that you can see within 30 feet of yourself takes damage, you can use your Reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 Hit Points, the warded creature takes any remaining damage."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Abjurer: Spell Breaker":
+  title: "Abjurer Level 10: Spell Breaker"
+  desc: "You always have the _Dispel Magic_ spell prepared, you can cast it as a Bonus Action, and you can add your Proficiency Bonus to its ability check."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Abjurer: Spell Resistance":
+  title: "Abjurer Level 14: Spell Resistance"
+  desc: "You have Advantage on saving throws against spells, and you have Resistance against the damage of spells."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# =========================================
+# WIZARD: DIVINER FEATURES
+# =========================================
+
+"Diviner: Divination Savant":
+  title: "Diviner Level 3: Divination Savant"
+  desc: "Choose two Divination spells from the Wizard spell list, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Divination spell from the Wizard spell list to your spellbook for free."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Diviner: Portent":
+  title: "Diviner Level 3: Portent"
+  desc: "Glimpses of the future begin to press in on your awareness. Whenever you finish a Long Rest, roll two d20s and record the numbers rolled. You can replace any d20 Test made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.\n\nEach foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Diviner: Expert Divination":
+  title: "Diviner Level 6: Expert Divination"
+  desc: "Casting Divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a Divination spell of level 2 or higher using a spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the spell you cast and can't be higher than level 5."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Diviner: The Third Eye":
+  title: "Diviner Level 10: The Third Eye"
+  desc: "You can increase your powers of perception. As a Bonus Action, choose one of the following benefits, which lasts until you start a Short Rest or Long Rest. You can't use this feature again until you finish a Short Rest or Long Rest."
+  fields:
+  - title: "Darkvision"
+    body: "You gain Darkvision out to a range of 120 feet."
+  - title: "Greater Comprehension"
+    body: "You can read any language."
+  - title: "See Invisibility"
+    body: "You can cast _See Invisibility_ without expending a spell slot."
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Diviner: Greater Portent":
+  title: "Diviner Level 14: Greater Portent"
+  desc: "The visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. Roll three d20s for your Portent feature rather than two."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 
 # =========================================
@@ -108,31 +154,66 @@
 # =========================================
 
 "Evoker: Evocation Savant":
-  title: "Evoker 3rd Level: Evocation Savant"
-  desc: "Choose two Evocation spells from the Arcane spell list, each of which must be no higher than 2nd level. You add those spells to your spellbook without needing to cast Scribe Spell.\n\nIn addition, whenever you cast *Scribe Spell* to add a spell to your spellbook, the gold cost and casting time you must spend to add an Evocation spell to your spellbook is halved."
+  title: "Evoker Level 3: Evocation Savant"
+  desc: "Choose two Evocation spells from the Wizard spell list, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Evocation spell from the Wizard spell list to your spellbook for free."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Evoker: Sculpt Spells":
-  title: "Evoker 3rd Level: Sculpt Spells"
-  desc: "You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Evoker: Potent Cantrip":
-  title: "Evoker 6th Level: Potent Cantrip"
+  title: "Evoker Level 3: Potent Cantrip"
   desc: "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Evoker: Sculpt Spells":
+  title: "Evoker Level 6: Sculpt Spells"
+  desc: "You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 plus the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Evoker: Empowered Evocation":
-  title: "Evoker 10th Level: Empowered Evocation"
-  desc: "Whenever you cast an Evocation spell from the Arcane spell list, you can add your Intelligence modifier to one damage roll of that spell."
+  title: "Evoker Level 10: Empowered Evocation"
+  desc: "Whenever you cast an Evocation spell from the Wizard spell list, you can add your Intelligence modifier to one damage roll of that spell."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Evoker: Overchannel":
-  title: "Evoker 14th Level: Overchannel"
-  desc: "You can increase the power of your spells. When you cast an Arcane or a Wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.\n\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12. This damage ignores Resistance and Immunity."
+  title: "Evoker Level 14: Overchannel"
+  desc: "You can increase the power of your spells. When you cast a Wizard spell with a spell slot of levels 1–5 that deals damage, you can deal maximum damage with that spell on the turn you cast it.\n\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell, immediately after you cast it. This damage ignores Resistance and Immunity to damage.\n\nEach time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# =========================================
+# WIZARD: ILLUSIONIST FEATURES
+# =========================================
+
+"Illusionist: Illusion Savant":
+  title: "Illusionist Level 3: Illusion Savant"
+  desc: "Choose two Illusion spells from the Wizard spell list, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Illusion spell from the Wizard spell list to your spellbook for free."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Illusionist: Improved Minor Illusion":
+  title: "Illusionist Level 3: Improved Minor Illusion"
+  desc: "You know the _Minor Illusion_ cantrip. If you already know this cantrip, you learn a different Wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known.\n\nWhen you cast _Minor Illusion_, you can create both a sound and an image with a single casting of it."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Illusionist: Malleable Illusions":
+  title: "Illusionist Level 6: Malleable Illusions"
+  desc: "After you cast an Illusion spell that has a duration of 1 minute or longer, you can use a Bonus Action to change the nature of that illusion (using the spell's normal parameters of the illusion), provided you can see it."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Illusionist: Illusory Self":
+  title: "Illusionist Level 10: Illusory Self"
+  desc: "You can create an illusory duplicate of yourself in response to danger. When a creature makes an attack roll against you, you can use your Reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.\n\nOnce you use this feature, you can't use it again until you finish a Short Rest or Long Rest. You can also restore your use of it by expending a spell slot of level 2 or higher (no action required)."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Illusionist: Illusory Reality":
+  title: "Illusionist Level 14: Illusory Reality"
+  desc: "You have learned the secret of weaving shadow magic into your illusions to give them a semireality. When you cast an Illusion spell with a spell slot, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a Bonus Action while the spell is ongoing. \n\nThe object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross.\n\nThe object can't deal damage or give any conditions."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"

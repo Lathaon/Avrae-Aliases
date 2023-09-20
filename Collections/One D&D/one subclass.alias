@@ -1,8 +1,8 @@
 <drac2>
 using(
-    embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
-    fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817",
-    int_lib = "b7c014b7-e267-463c-bc60-8cf9651031fb"
+    embeds    = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
+    one_fuzzy = "893a6e51-d09a-4dae-a303-762f169f2a1f",
+    int_lib   = "b7c014b7-e267-463c-bc60-8cf9651031fb"
 )
 
 if embeds.on_cooldown():
@@ -11,7 +11,7 @@ if embeds.on_cooldown():
 SUBCLASSES = load_yaml(get_gvar("e5f527ce-2ee7-4710-a219-042f0da00e74"))
 
 def get_matching_subclass(search):
-    match fuzzy.get_matches_ignoring_punctuation(search, SUBCLASSES):
+    match one_fuzzy.get_matches(search, SUBCLASSES):
         # No matches.
         case []:
             err(f"`{search}` did not match any Subclasses. See `{ctx.prefix}{ctx.alias} subclass` for a list of supported Subclasses. For 5e Subclasses, use `/lookup subclass` instead.")
@@ -36,8 +36,40 @@ match &ARGS&:
 
     case [search]:
         subclass = get_matching_subclass(search)
-        out = SUBCLASSES[subclass] | {
+
+        CLASSFEAT_INDEX = load_yaml(get_gvar("039a19a8-d815-4d48-aeaa-d3a0e8c7505f"))
+
+        LOADED_GVARS = {}
+        def get_feature(feature_name, subclass_name_offset):
+            if (gvar_address := CLASSFEAT_INDEX[feature_name]) not in LOADED_GVARS:
+                LOADED_GVARS[gvar_address] = load_yaml(get_gvar(gvar_address))
+            embed = LOADED_GVARS[gvar_address][feature_name]
+            feature_fields = [
+                {
+                    "title": "__**" + embed.title[subclass_name_offset:] + "**__",
+                    "body": embed.desc
+                }
+            ]
+            for _field in embed.fields[:-1]:
+                field_title = _field.get("title", "").lower()
+                if "table:" not in field_title:
+                    feature_fields.append(_field)
+            return feature_fields
+
+        subclass_without_class = subclass[subclass.index(" ") + 1:]
+        subclass_name_offset = len(subclass_without_class) + 1
+
+        out = {
             "title": subclass,
+            "desc": SUBCLASSES[subclass].desc,
+            "fields": [
+                field
+                for feature in [
+                    f for f in CLASSFEAT_INDEX
+                    if f.startswith(subclass_without_class)
+                ]
+                for field in get_feature(feature, subclass_name_offset)
+            ] + [{"body": SUBCLASSES[subclass].source}],
             "color": "C50009",
             "footer": f"{ctx.prefix}{ctx.alias} subclass [subclass] [level] | @lathaon"
         }

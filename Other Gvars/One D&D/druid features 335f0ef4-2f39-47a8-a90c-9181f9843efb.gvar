@@ -3,19 +3,19 @@
 # load_yaml(get_gvar("335f0ef4-2f39-47a8-a90c-9181f9843efb"))
 
 "Druid: Druidic":
-  title: "Druid 1st Level: Druidic"
+  title: "Druid Level 1: Druidic"
   desc: "You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of speaking to animals; you always have the *Speak with Animals* spell prepared.\n\nYou can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Primal Order":
-  title: "Druid 1st Level: Primal Order"
+  title: "Druid Level 1: Primal Order"
   desc: "You have dedicated yourself to one of the following sacred roles of your choice:\n\n**Magician**. You know one extra cantrip from the Primal spell list (see your Spellcasting feature for information on preparing spells). In addition, your mystical connection to nature gives you a bonus to your Intelligence (Nature) checks. The bonus equals your Wisdom modifier (minimum of +1).\n\n**Warden**. Trained for battle, you gain Martial Weapon proficiency and Medium Armor training."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Spellcasting":
-  title: "Druid 1st Level: Spellcasting"
+  title: "Druid Level 1: Spellcasting"
   desc: "You have learned to cast spells through studying the mystical forces of nature. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as a Druid."
   fields:
   - title: Cantrips
@@ -37,13 +37,13 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Wild Companion":
-  title: "Druid 2nd Level: Wild Companion"
+  title: "Druid Level 2: Wild Companion"
   desc: "You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the _Find Familiar_ spell without material components.\n\nWhen you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Wild Shape":
-  title: "Druid 1st Level: Wild Shape"
+  title: "Druid Level 1: Wild Shape"
   desc: "The power of nature infuses you, allowing you to assume the form of an animal. As a Bonus Action, you transform into a Beast form that you have learned for this feature (see 'Known Forms' below). You stay in that form for a number of hours equal to half your Druid level (round down) or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action."
   fields:
   - title: "Known Forms"
@@ -59,53 +59,53 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Druid Subclass":
-  title: "Druid 3rd Level: Druid Subclass"
+  title: "Druid Level 3: Druid Subclass"
   desc: "You gain a Druid subclass of your choice: Circle of the Land, Circle of the Moon, Circle of the Sea, or Circle of the Stars. Subclasses are detailed after this class's description (for this playtest, use Circle of Stars from [_Tasha's Cauldron of Everything_](https://www.dndbeyond.com/sources/tcoe)).\n\nA subclass is a specialization that grants you special abilities at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level and lower."
   fields:
-  - title: "At 6th, 10th, and 14th Level"
+  - title: "At 6th, 10th, and Level 14"
     body: "You gain a feature from your Druid subclass."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Ability Score Improvement":
-  title: "Druid 4th Level: Ability Score Improvement"
+  title: "Druid Level 4: Ability Score Improvement"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   fields:
-  - title: "At 8th, 12th, 16th, and 19th Level"
+  - title: "At 8th, 12th, 16th, and Level 19"
     body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Wild Resurgence":
-  title: "Druid 5th Level: Wild Resurgence"
+  title: "Druid Level 5: Wild Resurgence"
   desc: "If you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required). You can do so only once per turn.\n\nIn addition, you can expend one use of Wild Shape (no action required) to give yourself a 1st-level spell slot, and you can't do so again until you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Elemental Fury":
-  title: "Druid 7th Level: Elemental Fury"
+  title: "Druid Level 7: Elemental Fury"
   desc: "You gain one of the following options of your choice:\n\n**Potent Spellcasting**. You add your Wisdom modifier to the damage you deal with any Primal cantrip.\n\n**Primal Strike**. Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Commune with Nature":
-  title: "Druid 9th Level: Commune with Nature"
+  title: "Druid Level 9: Commune with Nature"
   desc: "You always have the _Commune with Nature_ spell prepared. You are an expression of nature itself and can commune with the natural world all around you."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Improved Elemental Fury":
-  title: "Druid 15th Level: Improved Elemental Fury"
+  title: "Druid Level 15: Improved Elemental Fury"
   desc: "The option you chose for Elemental Fury grows more powerful:\n\n**Potent Spellcasting**. When you cast a Primal cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.\n\n**Primal Strike**. The extra damage of your Primal Strike increases to 2d8."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Beast Spells":
-  title: "Druid 18th Level: Beast Spells"
+  title: "Druid Level 18: Beast Spells"
   desc: "While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a specified cost or that consumes its Material component."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Archdruid":
-  title: "Druid 20th Level: Archdruid"
+  title: "Druid Level 20: Archdruid"
   desc: "You gain the following benefits:\n\n**Evergreen Wild Shape**. Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.\n\n**Nature Magician**. You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. You must then finish a Long Rest before you can do so again. For example, if you convert two uses of Wild Shape, you produce a 4th-level spell slot.\n\n**Longevity**. The primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -116,7 +116,7 @@
 # ===================================
 
 "Circle of the Land: Circle Spells":
-  title: "Circle of the Land 3rd Level: Circle Spells"
+  title: "Circle of the Land Level 3: Circle Spells"
   desc: "Your connection to nature infuses you with the ability to cast certain spells. Whenever you finish a Long Rest, choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells prepared there that are listed for your Druid level and lower."
   fields:
   - title: "Arid Land"
@@ -130,19 +130,19 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Land: Land's Aid":
-  title: "Circle of the Land 3rd Level: Land's Aid"
+  title: "Circle of the Land Level 3: Land's Aid"
   desc: "You can channel the power of the land itself to bolster friends and harm foes. As a magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius sphere centered on that point. Each creature of your choice in that area must make a Constitution saving throw, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one.\n\nIn addition, one creature of your choice in that area regains 2d6 Hit Points.\n\nWhen you reach certain druid levels, the damage and healing increase by 1d6: 10th level (3d6) and 14th level (4d6)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Land: Natural Recovery":
-  title: "Circle of the Land 6th Level: Natural Recovery"
-  desc: "Tapping into nature, you can conserve and recover your magical power. You can cast one of the spells of 1st level or higher that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.\n\nIn addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (round up), and none of the slots can be 6th level or higher. For example, if you're a 6th-level druid, you can recover up to three levels' worth of spell slots. You can recover a 3rd-level spell slot, a 2nd-level spell slot, and a 1st-level spell slot, or three 1st-level spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest."
+  title: "Circle of the Land Level 6: Natural Recovery"
+  desc: "Tapping into nature, you can conserve and recover your magical power. You can cast one of the spells of level 1 or higher that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.\n\nIn addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (round up), and none of the slots can be 6th level or higher. For example, if you're a 6th-level druid, you can recover up to three levels' worth of spell slots. You can recover a 3rd-level spell slot, a 2nd-level spell slot, and a 1st-level spell slot, or three 1st-level spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Land: Nature's Ward":
-  title: "Circle of the Land 10th Level: Nature's Ward"
+  title: "Circle of the Land Level 10: Nature's Ward"
   desc: "Your bond with the land protects you. You are immune to the Poisoned condition, and you have resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table."
   fields:
   - title: "Nature's Ward"
@@ -150,7 +150,7 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Land: Nature's Sanctuary":
-  title: "Circle of the Land 14th Level: Nature's Sanctuary"
+  title: "Circle of the Land Level 14: Nature's Sanctuary"
   desc: "Nature can rise up to protect you and your allies. As a magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot cube on the ground within 120 feet of yourself. They last there for 1 minute or until you have the Incapacitated condition. You and your allies have half cover while in that area, and your allies gain the current damage resistance of your Nature's Ward while there.\n\nAs a Bonus Action, you can move the cube up to 60 feet to the ground within 120 feet of yourself."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -161,31 +161,31 @@
 # ===================================
 
 "Circle of the Moon: Circle Forms":
-  title: "Circle of the Moon 3rd Level: Circle Forms"
+  title: "Circle of the Moon Level 3: Circle Forms"
   desc: "The rites of your circle grant you the ability to transform into more dangerous animal forms; the maximum Challenge Rating for your Wild Shape is 1."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Moon: Combat Wild Shape":
-  title: "Circle of the Moon 3rd Level: Combat Wild Shape"
+  title: "Circle of the Moon Level 3: Combat Wild Shape"
   desc: "You have learned ancient techniques that allow you to channel the magic of the moon to bolster yourself while using Wild Shape, granting you the following benefits:\n\n**Armor Class**. When you assume a Wild Shape form, compare the beast's AC to your AC (including any armor you're wearing but not a shield). While in that form, you use whichever AC is higher.\n\n**Temporary Hit Points**. When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to the form's Hit Points or three times your Druid level, whichever number is lower. For example, if you turn into a wolf (11 HP) as a 5th-level Druid, you gain 11 Temporary Hit Points since three times your Druid level is higher than the wolf's Hit Points.\n\n**Abjuration Spells**. While in a Wild Shape form, you can cast your abjuration spells, except for any spell that has a material component with a cost specified or that consumes its material component.\n\n**Moonbeam**. You always have the _Moonbeam_ spell prepared while in a Wild Shape form, and you can cast the spell in that form without material components."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Moon: Improved Circle Forms":
-  title: "Circle of the Moon 6th Level: Improved Circle Forms"
+  title: "Circle of the Moon Level 6: Improved Circle Forms"
   desc: "The maximum Challenge Rating of your Wild Shape now equals your Druid level divided by 3 (round down).\n\nIn addition, each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Moon: Moonlight Step":
-  title: "Circle of the Moon 10th Level: Moonlight Step"
+  title: "Circle of the Moon Level 10: Moonlight Step"
   desc: "You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You can also regain uses by expending a spell slot of 2nd level or higher for each use you want to restore (no action required)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Moon: Lunar Form":
-  title: "Circle of the Moon 14th Level: Lunar Form"
+  title: "Circle of the Moon Level 14: Lunar Form"
   desc: "The power of the moon suffuses you, granting you the following benefits:\n\n**Movable Moonbeam**. While your Moonbeam is active, you can move it up to 60 feet at the start of each of your turns (no action required).\n\n**Shared Moonlight**. Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -196,7 +196,7 @@
 # ===================================
 
 "Circle of the Sea: Circle Spells":
-  title: "Circle of the Sea 3rd Level: Circle Spells"
+  title: "Circle of the Sea Level 3: Circle Spells"
   desc: "Your connection to this circle ensures that you always have certain spells ready. When you reach a Druid level specified in the Circle of the Sea Spells table, you thereafter always have the listed spells prepared."
   fields:
   - title: "Circle of the Sea Spells"
@@ -204,25 +204,25 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Sea: Wrath of the Sea":
-  title: "Circle of the Sea 3rd Level: Wrath of the Sea"
+  title: "Circle of the Sea Level 3: Wrath of the Sea"
   desc: "As a Bonus Action, you can expend a use of your Wild Shape to manifest an aura that takes the form of ocean spray that surrounds you. The aura lasts for 10 minutes. It ends early if you have the Incapacitated condition, dismiss it (no action required), or manifest the aura again.\n\nAt the end of each of your turns, you can choose another creature you can see within 10 feet of yourself. The target must succeed on a Constitution saving throw against your Spell Save DC or take Thunder damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Sea: Aquatic Affinity":
-  title: "Circle of the Sea 6th Level: Aquatic Affinity"
+  title: "Circle of the Sea Level 6: Aquatic Affinity"
   desc: "You always have the _Water Breathing_ spell prepared. In addition, you gain a Swim Speed equal to your Speed. If you use Wild Shape to assume a form that lacks a Swim Speed, that form gains your Swim Speed."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Sea: Stormborn":
-  title: "Circle of the Sea 10th Level: Stormborn"
+  title: "Circle of the Sea Level 10: Stormborn"
   desc: "Your Wrath of the Sea confers two more benefits while active:\n\n**Flight**. You gain a Fly Speed equal to your Speed.\n\n**Resistance**. You have resistance to Cold, Lightning, and Thunder damage."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Circle of the Sea: Oceanic Gift":
-  title: "Circle of the Sea 14th Level: Oceanic Gift"
+  title: "Circle of the Sea Level 14: Oceanic Gift"
   desc: "Whenever you use Wrath of the Sea, you can manifest the aura around one willing creature within 60 feet of you rather than manifesting it around yourself. The creature gains all the benefits of the aura and uses your Spell Save DC and Wisdom modifier for it.\n\nIn addition, you can manifest the aura around both the other creature and yourself if you expend two uses of your Wild Shape, instead of one, when manifesting the aura."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"

@@ -58,6 +58,227 @@
   #  20th Level
   - *NA
 
+"Path of the Wild Heart":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Path of the Wild Heart: Animal Speaker"
+    - "Path of the Wild Heart: Rage of the Wilds"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements: &B_WH_1
+    - "OPTIONAL: Change your Rage of the Wilds choice"
+  #  5th Level
+  - features: []
+    improvements: *B_WH_1
+  #  6th Level
+  - features:
+    - "Path of the Wild Heart: Aspect of the Wilds"
+    improvements: *B_WH_1
+  #  7th Level
+  - features: []
+    improvements: &B_WH_2
+    - "OPTIONAL: Change your Rage of the Wilds choice"
+    - "OPTIONAL: Change your Aspect of the Wilds choice"
+  #  8th Level
+  - features: []
+    improvements: *B_WH_2
+  #  9th Level
+  - features: []
+    improvements: *B_WH_2
+  #  10th Level
+  - features:
+    - "Path of the Wild Heart: Nature Speaker"
+    improvements: *B_WH_2
+  #  11th Level
+  - features: []
+    improvements: *B_WH_2
+  #  12th Level
+  - features: []
+    improvements: *B_WH_2
+  #  13th Level
+  - features: []
+    improvements: *B_WH_2
+  #  14th Level
+  - features:
+    - "Path of the Wild Heart: Power of the Wilds"
+    improvements: *B_WH_2
+  #  15th Level
+  - features: []
+    improvements: &B_WH_3
+    - "OPTIONAL: Change your Rage of the Wilds choice"
+    - "OPTIONAL: Change your Aspect of the Wilds choice"
+    - "OPTIONAL: Change your Power of the Wilds choice"
+  #  16th Level
+  - features: []
+    improvements: *B_WH_3
+  #  17th Level
+  - features: []
+    improvements: *B_WH_3
+  #  18th Level
+  - features: []
+    improvements: *B_WH_3
+  #  19th Level
+  - features: []
+    improvements: *B_WH_3
+  #  20th Level
+  - features: []
+    improvements: *B_WH_3
+
+"Path of the World Tree":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Path of the World Tree: Vitality of the Tree"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 4)"
+  #  5th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 5)"
+  #  6th Level
+  - features:
+    - "Path of the World Tree: Branches of the Tree"
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 6)"
+  #  7th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 7)"
+  #  8th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 8)"
+  #  9th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 9)"
+    - "Vitality of the Tree temp HP increases by 1d6 (total of 3d6)"
+  #  10th Level
+  - features:
+    - "Path of the World Tree: Battering Roots"
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 10)"
+  #  11th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 11)"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 12)"
+  #  13th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 13)"
+  #  14th Level
+  - features:
+    - "Path of the World Tree: Travel Along the Tree"
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 14)"
+  #  15th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 15)"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 16)"
+    - "Vitality of the Tree temp HP increases by 1d6 (total of 4d6)"
+  #  17th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 17)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 18)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 19)"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Vitality of the Tree healing increases by 1 (total of 20)"
+
+"Path of the Zealot":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Path of the Zealot: Divine Fury"
+    - "Path of the Zealot: Warrior of the Gods"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements:
+    - "Divine Fury damage increases by 1 (total of 1d6 + 2)"
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "Path of the Zealot: Fanatical Focus"
+    improvements:
+    - "Divine Fury damage increases by 1 (total of 1d6 + 3)"
+  #  7th Level
+  - *NA
+  #  8th Level
+  - features: []
+    improvements:
+    - "Divine Fury damage increases by 1 (total of 1d6 + 4)"
+  #  9th Level
+  - *NA
+  #  10th Level
+  - features:
+    - "Path of the Zealot: Zealous Presence"
+    improvements:
+    - "Divine Fury damage increases by 1 (total of 1d6 + 5)"
+  #  11th Level
+  - *NA
+  #  12th Level
+  - features: []
+    improvements:
+    - "Divine Fury damage increases by 1 (total of 1d6 + 6)"
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "Path of the Zealot: Rage Beyond Death"
+    improvements:
+    - "Divine Fury damage increases by 1 (total of 1d6 + 7)"
+  #  15th Level
+  - *NA
+  #  16th Level
+  - features: []
+    improvements:
+    - "Divine Fury damage increases by 1 (total of 1d6 + 8)"
+    - "Vitality of the Tree temp HP increases by 1d6 (total of 4d6)"
+  #  17th Level
+  - *NA
+  #  18th Level
+  - features: []
+    improvements:
+    - "Divine Fury damage increases by 1 (total of 1d6 + 9)"
+  #  19th Level
+  - *NA
+  #  20th Level
+  - features: []
+    improvements:
+    - "Divine Fury damage increases by 1 (total of 1d6 + 10)"
+
 "College of Dance":
   #  1st Level
   - *NA
@@ -755,34 +976,94 @@
   #  20th Level
   - *NA
 
-"Champion":
+"Battle Master":
   #  1st Level
   - *NA
   #  2nd Level
   - *NA
   #  3rd Level
   - features:
-    - "Champion: Adaptable Victor"
-    - "Champion: Improved Critical"
+    - "Battle Master: Combat Superiority"
+    - "Battle Master: Student of War"
     improvements: []
   #  4th Level
   - *NA
   #  5th Level
   - *NA
   #  6th Level
-  - features:
-    - "Champion: Additional Fighting Style"
-    - "Champion: Heroic Warrior"
-    improvements: []
-  #  7th Level
   - *NA
+  #  7th Level
+  - features:
+    - "Battle Master: Know Your Enemy"
+    improvements:
+    - "Gain 1 Superiority Die (total of 5)"
+    - "Learn 2 Maneuvers (total of 5)"
+    - "OPTIONAL: Swap one Maneuver for another"
   #  8th Level
   - *NA
   #  9th Level
   - *NA
   #  10th Level
   - features:
-    - "Champion: Superior Critical"
+    - "Battle Master: Improved Combat Superiority"
+    improvements:
+    - "Learn 2 Maneuvers (total of 5)"
+    - "OPTIONAL: Swap one Maneuver for another"
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - *NA
+  #  15th Level
+  - features:
+    - "Battle Master: Relentless"
+    improvements:
+    - "Gain 1 Superiority Die (total of 6)"
+    - "Learn 2 Maneuvers (total of 5)"
+    - "OPTIONAL: Swap one Maneuver for another"
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - features:
+    - "Battle Master: Ultimate Combat Superiority"
+    improvements: []
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Brawler":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Brawler: Unarmed Expert"
+    - "Brawler: Improvised Expert"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - *NA
+  #  7th Level
+  - features:
+    - "Brawler: Grappling Expert"
+    improvements: []
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - features:
+    - "Brawler: Dirty Fighting"
     improvements: []
   #  11th Level
   - *NA
@@ -791,21 +1072,199 @@
   #  13th Level
   - *NA
   #  14th Level
-  - features:
-    - "Champion: Survivor"
-    improvements: []
-  #  15th Level
   - *NA
+  #  15th Level
+  - features:
+    - "Brawler: Improvised Specialist"
+    improvements: []
   #  16th Level
   - *NA
   #  17th Level
   - *NA
   #  18th Level
-  - *NA
+  - features:
+    - "Brawler: Unarmed Specialist"
+    improvements: []
   #  19th Level
   - *NA
   #  20th Level
   - *NA
+
+"Champion":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Champion: Improved Critical"
+    - "Champion: Remarkable Athlete"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - *NA
+  #  7th Level
+  - features:
+    - "Champion: Additional Fighting Style"
+    improvements: []
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - features:
+    - "Champion: Heroic Warrior"
+    improvements: []
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - *NA
+  #  15th Level
+  - features:
+    - "Champion: Superior Critical"
+    improvements: []
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - features:
+    - "Champion: Survivor"
+    improvements: []
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Eldritch Knight":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Eldritch Knight: Spellcasting"
+    - "Eldritch Knight: War Bond"
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots"
+  #  4th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare one extra spell of level 1 (total of 4)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  5th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap one prepared spell for another of level 1"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  6th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if multiclassed)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  7th Level
+  - features:
+    - "Eldritch Knight: War Magic"
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare one extra spell of level 1–2 (total of 5)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–2"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  8th Level
+  - features: []
+    improvements:
+    - "Prepare one extra spell of level 1–2 (total of 6)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–2"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  9th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if multiclassed)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–2"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  10th Level
+  - features:
+    - "Eldritch Knight: Eldritch Strike"
+    improvements:
+    - "Gain a third Cantrip"
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare one extra spell of level 1–2 (total of 7)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–2"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  11th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap one prepared spell for another of level 1–2"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if multiclassed)"
+    - "Prepare one extra spell of level 1–2 (total of 8)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–2"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  13th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare one extra spell of level 1–3 (total of 9)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–3"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  14th Level
+  - features: []
+    improvements:
+    - "Prepare one extra spell of level 1–3 (total of 10)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–3"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  15th Level
+  - features:
+    - "Eldritch Knight: Arcane Charge"
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if multiclassed)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–3"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare one extra spell of level 1–3 (total of 11)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–3"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  17th Level
+  - features: []
+    improvements:
+    - "OPTIONAL: Swap one prepared spell for another of level 1–3"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  18th Level
+  - features:
+    - "Eldritch Knight: Improved War Magic"
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if multiclassed)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–3"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Increase your level by 1 for purposes of spell slots (if single-classed)"
+    - "Prepare one extra spell of level 1–4 (total of 12)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–4"
+    - "OPTIONAL: Swap one cantrip for another"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Prepare one extra spell of level 1–4 (total of 13)"
+    - "OPTIONAL: Swap one prepared spell for another of level 1–4"
+    - "OPTIONAL: Swap one cantrip for another"
 
 "Warrior of Shadow":
   #  1st Level
@@ -1489,6 +1948,7 @@
   #  10th Level
   - features: []
     improvements:
+    - "Gain a fourth Cantrip"
     - "Increase your level by 1 for purposes of spell slots (if single-classed)"
     - "Prepare one extra spell of 1st or 2nd level (total of 7)"
     - "OPTIONAL: Swap one prepared spell for another of 1st or 2nd level"
@@ -1769,10 +2229,7 @@
   #  9th Level
   - *DHP
   #  10th Level
-  - features:
-    - "Draconic Sorcery: Draconic Exhalation"
-    improvements:
-    - "Max Hit Points increase by an additional 1"
+  - *DHP
   #  11th Level
   - *DHP
   #  12th Level
@@ -1791,11 +2248,217 @@
   #  17th Level
   - *DHP
   #  18th Level
-  - *DHP
+  - features:
+    - "Draconic Sorcery: Draconic Presence"
+    improvements:
+    - "Max Hit Points increase by an additional 1"
   #  19th Level
   - *DHP
   #  20th Level
   - *DHP
+
+"Wild Magic Sorcery":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Wild Magic Sorcery: Wild Magic Surge"
+    - "Wild Magic Sorcery: Tides of Chaos"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - *NA
+  #  6th Level
+  - features:
+    - "Wild Magic Sorcery: Bend Luck"
+    improvements: []
+  #  7th Level
+  - *NA
+  #  8th Level
+  - *NA
+  #  9th Level
+  - *NA
+  #  10th Level
+  - *NA
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "Wild Magic Sorcery: Controlled Chaos"
+    improvements: []
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - features:
+    - "Wild Magic Sorcery: Wild Bombardment"
+    improvements: []
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Archfey Patron":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Archfey Patron: Patron Spells"
+    - "Archfey Patron: Steps of the Fey"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "*Blink* and *Plant Growth* are always prepared"
+  #  6th Level
+  - features:
+    - "Archfey Patron: Misty Escape"
+    improvements: []
+  #  7th Level
+  - features: []
+    improvements:
+    - "*Dominate Beast* and *Greater Invisibility* are always prepared"
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "*Dominate Person* and *Seeming* are always prepared"
+  #  10th Level
+  - features:
+    - "Archfey Patron: Beguiling Defenses"
+    improvements: []
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "Archfey Patron: Bewitching Magic"
+    improvements: []
+  #  15th Level
+  - *NA
+  #  16th Level
+  - *NA
+  #  17th Level
+  - *NA
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Celestial Patron":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Celestial Patron: Patron Spells"
+    - "Celestial Patron: Healing Light"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements:
+    - "Healing Light dice pool increases by 1 (total of 5d6)"
+  #  5th Level
+  - features: []
+    improvements:
+    - "*Daylight* and *Revivify* are always prepared"
+    - "Healing Light dice pool increases by 1 (total of 6d6)"
+  #  6th Level
+  - features:
+    - "Celestial Patron: Radiant Soul"
+    improvements:
+    - "Healing Light dice pool increases by 1 (total of 7d6)"
+  #  7th Level
+  - features: []
+    improvements:
+    - "*Guardian of Faith* and *Wall of Fire* are always prepared"
+    - "Healing Light dice pool increases by 1 (total of 8d6)"
+  #  8th Level
+  - features: []
+    improvements:
+    - "Healing Light dice pool increases by 1 (total of 9d6)"
+  #  9th Level
+  - features: []
+    improvements:
+    - "*Flame Strike* and *Greater Restoration* are always prepared"
+    - "Healing Light dice pool increases by 1 (total of 10d6)"
+  #  10th Level
+  - features:
+    - "Celestial Patron: Celestial Resilience"
+    improvements:
+    - "Healing Light dice pool increases by 1 (total of 11d6)"
+  #  11th Level
+  - features: []
+    improvements:
+    - "Celestial Resilience temp HP increases by 1 for self (11 + CHA mod for self, 5 + CHA mod for others)"
+    - "Healing Light dice pool increases by 1 (total of 12d6)"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Celestial Resilience temp HP increases by 1 (12 + CHA mod for self, 6 + CHA mod for others)"
+    - "Healing Light dice pool increases by 1 (total of 13d6)"
+  #  13th Level
+  - features: []
+    improvements:
+    - "Celestial Resilience temp HP increases by 1 for self (13 + CHA mod for self, 6 + CHA mod for others)"
+    - "Healing Light dice pool increases by 1 (total of 14d6)"
+  #  14th Level
+  - features:
+    - "Celestial Patron: Searing Vengeance"
+    improvements:
+    - "Celestial Resilience temp HP increases by 1 (14 + CHA mod for self, 7 + CHA mod for others)"
+    - "Healing Light dice pool increases by 1 (total of 15d6)"
+  #  15th Level
+  - features: []
+    improvements:
+    - "Celestial Resilience temp HP increases by 1 for self (15 + CHA mod for self, 7 + CHA mod for others)"
+    - "Healing Light dice pool increases by 1 (total of 16d6)"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Celestial Resilience temp HP increases by 1 (16 + CHA mod for self, 8 + CHA mod for others)"
+    - "Healing Light dice pool increases by 1 (total of 17d6)"
+  #  17th Level
+  - features: []
+    improvements:
+    - "Celestial Resilience temp HP increases by 1 for self (17 + CHA mod for self, 8 + CHA mod for others)"
+    - "Healing Light dice pool increases by 1 (total of 18d6)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Celestial Resilience temp HP increases by 1 (18 + CHA mod for self, 9 + CHA mod for others)"
+    - "Healing Light dice pool increases by 1 (total of 19d6)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Celestial Resilience temp HP increases by 1 for self (19 + CHA mod for self, 9 + CHA mod for others)"
+    - "Healing Light dice pool increases by 1 (total of 20d6)"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Celestial Resilience temp HP increases by 1 (20 + CHA mod for self, 10 + CHA mod for others)"
+    - "Healing Light dice pool increases by 1 (total of 21d6)"
 
 "Fiend Patron":
   #  1st Level
@@ -1810,78 +2473,302 @@
   #  4th Level
   - features: []
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 4 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 4 + CHA mod)"
   #  5th Level
   - features: []
     improvements:
-    - "Scorching Ray* and *Suggestion* are always prepared and qualify for the Patron Spells Free Casting"
-    - "Dark One's Blessing Temp HP increases by 1 (total of 5 + spellcasting ability mod)"
+    - "*Fireball* and *Stinking Cloud* are always prepared"
+    - "Dark One's Blessing temp HP increases by 1 (total of 5 + CHA mod)"
   #  6th Level
   - features:
     - "Fiend Patron: Dark One's Own Luck"
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 6 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 6 + CHA mod)"
   #  7th Level
   - features: []
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 7 + spellcasting ability mod)"
+    - "*Fire Shield* and *Wall of Fire* are always prepared"
+    - "Dark One's Blessing temp HP increases by 1 (total of 7 + CHA mod)"
   #  8th Level
   - features: []
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 8 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 8 + CHA mod)"
   #  9th Level
   - features: []
     improvements:
-    - "Fear* and *Stinking Cloud* are always prepared and qualify for the Patron Spells Free Casting"
-    - "Dark One's Blessing Temp HP increases by 1 (total of 9 + spellcasting ability mod)"
+    - "*Geas* and *Insect Plague* are always prepared"
+    - "Dark One's Blessing temp HP increases by 1 (total of 9 + CHA mod)"
   #  10th Level
   - features:
     - "Fiend Patron: Fiendish Resilience"
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 10 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 10 + CHA mod)"
   #  11th Level
   - features: []
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 11 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 11 + CHA mod)"
   #  12th Level
   - features: []
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 12 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 12 + CHA mod)"
   #  13th Level
   - features: []
     improvements:
-    - "Blight* and *Wall of Fire* are always prepared and qualify for the Patron Spells Free Casting"
-    - "Dark One's Blessing Temp HP increases by 1 (total of 13 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 13 + CHA mod)"
   #  14th Level
   - features:
     - "Fiend Patron: Hurl through Hell"
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 14 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 14 + CHA mod)"
   #  15th Level
   - features: []
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 15 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 15 + CHA mod)"
   #  16th Level
   - features: []
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 16 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 16 + CHA mod)"
   #  17th Level
   - features: []
     improvements:
-    - "Flame Strike* and *Insect Plague* are always prepared and qualify for the Patron Spells Free Casting"
-    - "Dark One's Blessing Temp HP increases by 1 (total of 17 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 17 + CHA mod)"
   #  18th Level
   - features: []
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 18 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 18 + CHA mod)"
   #  19th Level
   - features: []
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 19 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 19 + CHA mod)"
   #  20th Level
   - features: []
     improvements:
-    - "Dark One's Blessing Temp HP increases by 1 (total of 20 + spellcasting ability mod)"
+    - "Dark One's Blessing temp HP increases by 1 (total of 20 + CHA mod)"
+
+"Great Old One Patron":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Great Old One Patron: Patron Spells"
+    - "Great Old One Patron: Awakened Mind"
+    - "Great Old One Patron: Psychic Spells"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "*Clairvoyance* and *Hunger of Hadar* are always prepared"
+  #  6th Level
+  - features:
+    - "Great Old One Patron: Clairvoyant Combatant"
+    improvements: []
+  #  7th Level
+  - features: []
+    improvements:
+    - "*Confusion* and *Evard's Black Tentacles* are always prepared"
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "*Modify Memory* and *Telekinesis* are always prepared"
+  #  10th Level
+  - features:
+    - "Great Old One Patron: Thought Shield"
+    - "Great Old One Patron: Eldritch Hex"
+    improvements: []
+  #  11th Level
+  - *NA
+  #  12th Level
+  - *NA
+  #  13th Level
+  - *NA
+  #  14th Level
+  - features:
+    - "Great Old One Patron: Create Thrall"
+    improvements: []
+  #  15th Level
+  - features: []
+    improvements:
+    - "Create Thrall temp HP increases by 1 (total of 15 + CHA mod)"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Create Thrall temp HP increases by 1 (total of 16 + CHA mod)"
+  #  17th Level
+  - features: []
+    improvements:
+    - "Create Thrall temp HP increases by 1 (total of 17 + CHA mod)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Create Thrall temp HP increases by 1 (total of 18 + CHA mod)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Create Thrall temp HP increases by 1 (total of 19 + CHA mod)"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Create Thrall temp HP increases by 1 (total of 20 + CHA mod)"
+
+"Abjurer":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Abjurer: Abjuration Savant"
+    - "Abjurer: Arcane Ward"
+    improvements: []
+  #  4th Level
+  - features: []
+    improvements:
+    - "Arcane Ward max HP increases by 2 (total of 8 + INT mod)"
+  #  5th Level
+  - features: []
+    improvements:
+    - "Add one extra Abjuration spell to your spellbook"
+    - "Arcane Ward max HP increases by 2 (total of 10 + INT mod)"
+  #  6th Level
+  - features:
+    - "Abjurer: Projected Ward"
+    improvements:
+    - "Arcane Ward max HP increases by 2 (total of 12 + INT mod)"
+  #  7th Level
+  - features: []
+    improvements:
+    - "Add one extra Abjuration spell to your spellbook"
+    - "Arcane Ward max HP increases by 2 (total of 14 + INT mod)"
+  #  8th Level
+  - features: []
+    improvements:
+    - "Arcane Ward max HP increases by 2 (total of 16 + INT mod)"
+  #  9th Level
+  - features: []
+    improvements:
+    - "Add one extra Abjuration spell to your spellbook"
+    - "Arcane Ward max HP increases by 2 (total of 18 + INT mod)"
+  #  10th Level
+  - features:
+    - "Abjurer: Spell Breaker"
+    improvements:
+    - "Arcane Ward max HP increases by 2 (total of 20 + INT mod)"
+  #  11th Level
+  - features: []
+    improvements:
+    - "Add one extra Abjuration spell to your spellbook"
+    - "Arcane Ward max HP increases by 2 (total of 22 + INT mod)"
+  #  12th Level
+  - features: []
+    improvements:
+    - "Arcane Ward max HP increases by 2 (total of 24 + INT mod)"
+  #  13th Level
+  - features: []
+    improvements:
+    - "Add one extra Abjuration spell to your spellbook"
+    - "Arcane Ward max HP increases by 2 (total of 26 + INT mod)"
+  #  14th Level
+  - features:
+    - "Abjurer: Spell Resistance"
+    improvements:
+    - "Arcane Ward max HP increases by 2 (total of 28 + INT mod)"
+  #  15th Level
+  - features: []
+    improvements:
+    - "Add one extra Abjuration spell to your spellbook"
+    - "Arcane Ward max HP increases by 2 (total of 30 + INT mod)"
+  #  16th Level
+  - features: []
+    improvements:
+    - "Arcane Ward max HP increases by 2 (total of 32 + INT mod)"
+  #  17th Level
+  - features: []
+    improvements:
+    - "Add one extra Abjuration spell to your spellbook"
+    - "Arcane Ward max HP increases by 2 (total of 34 + INT mod)"
+  #  18th Level
+  - features: []
+    improvements:
+    - "Arcane Ward max HP increases by 2 (total of 36 + INT mod)"
+  #  19th Level
+  - features: []
+    improvements:
+    - "Arcane Ward max HP increases by 2 (total of 38 + INT mod)"
+  #  20th Level
+  - features: []
+    improvements:
+    - "Arcane Ward max HP increases by 2 (total of 40 + INT mod)"
+
+"Diviner":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Diviner: Divination Savant"
+    - "Diviner: Portent"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "Add one extra Divination spell to your spellbook"
+  #  6th Level
+  - features:
+    - "Diviner: Expert Divination"
+    improvements: []
+  #  7th Level
+  - features: []
+    improvements:
+    - "Add one extra Divination spell to your spellbook"
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "Add one extra Divination spell to your spellbook"
+  #  10th Level
+  - features:
+    - "Diviner: The Third Eye"
+    improvements: []
+  #  11th Level
+  - features: []
+    improvements:
+    - "Add one extra Divination spell to your spellbook"
+  #  12th Level
+  - *NA
+  #  13th Level
+  - features: []
+    improvements:
+    - "Add one extra Divination spell to your spellbook"
+  #  14th Level
+  - features:
+    - "Diviner: Greater Portent"
+    improvements: []
+  #  15th Level
+  - features: []
+    improvements:
+    - "Add one extra Divination spell to your spellbook"
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features: []
+    improvements:
+    - "Add one extra Divination spell to your spellbook"
+  #  18th Level
+  - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
 
 "Evoker":
   #  1st Level
@@ -1896,37 +2783,116 @@
   #  4th Level
   - *NA
   #  5th Level
-  - *NA
+  - features: []
+    improvements:
+    - "Add one extra Evocation spell to your spellbook"
   #  6th Level
   - features:
     - "Evoker: Potent Cantrip"
     improvements: []
   #  7th Level
-  - *NA
+  - features: []
+    improvements:
+    - "Add one extra Evocation spell to your spellbook"
   #  8th Level
   - *NA
   #  9th Level
-  - *NA
+  - features: []
+    improvements:
+    - "Add one extra Evocation spell to your spellbook"
   #  10th Level
   - features:
     - "Evoker: Empowered Evocation"
     improvements: []
   #  11th Level
-  - *NA
+  - features: []
+    improvements:
+    - "Add one extra Evocation spell to your spellbook"
   #  12th Level
   - *NA
   #  13th Level
-  - *NA
+  - features: []
+    improvements:
+    - "Add one extra Evocation spell to your spellbook"
   #  14th Level
   - features:
     - "Evoker: Overchannel"
     improvements: []
   #  15th Level
-  - *NA
+  - features: []
+    improvements:
+    - "Add one extra Evocation spell to your spellbook"
   #  16th Level
   - *NA
   #  17th Level
+  - features: []
+    improvements:
+    - "Add one extra Evocation spell to your spellbook"
+  #  18th Level
   - *NA
+  #  19th Level
+  - *NA
+  #  20th Level
+  - *NA
+
+"Illusionist":
+  #  1st Level
+  - *NA
+  #  2nd Level
+  - *NA
+  #  3rd Level
+  - features:
+    - "Illusionist: Illusion Savant"
+    - "Illusionist: Improved Minor Illusion"
+    improvements: []
+  #  4th Level
+  - *NA
+  #  5th Level
+  - features: []
+    improvements:
+    - "Add one extra Illusion spell to your spellbook"
+  #  6th Level
+  - features:
+    - "Illusionist: Malleable Illusions"
+    improvements: []
+  #  7th Level
+  - features: []
+    improvements:
+    - "Add one extra Illusion spell to your spellbook"
+  #  8th Level
+  - *NA
+  #  9th Level
+  - features: []
+    improvements:
+    - "Add one extra Illusion spell to your spellbook"
+  #  10th Level
+  - features:
+    - "Illusionist: Illusory Self"
+    improvements: []
+  #  11th Level
+  - features: []
+    improvements:
+    - "Add one extra Illusion spell to your spellbook"
+  #  12th Level
+  - *NA
+  #  13th Level
+  - features: []
+    improvements:
+    - "Add one extra Illusion spell to your spellbook"
+  #  14th Level
+  - features:
+    - "Illusionist: Illusory Reality"
+    improvements: []
+  #  15th Level
+  - features: []
+    improvements:
+    - "Add one extra Illusion spell to your spellbook"
+  #  16th Level
+  - *NA
+  #  17th Level
+  - features: []
+    improvements:
+    - "Add one extra Illusion spell to your spellbook"
   #  18th Level
   - *NA
   #  19th Level

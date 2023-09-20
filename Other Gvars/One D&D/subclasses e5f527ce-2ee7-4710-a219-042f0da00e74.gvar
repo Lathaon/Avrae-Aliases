@@ -3,492 +3,173 @@
 # load_yaml(get_gvar("e5f527ce-2ee7-4710-a219-042f0da00e74"))
 
 "Barbarian: Path of the Berserker":
-  desc: "For some barbarians, rage is a means to an end—that end being violence. The Path of the Berserker is a path of untrammeled fury. As you enter the berserker’s rage, you thrill in the chaos of battle."
-  fields:
-  - title: "3rd Level: Frenzy"
-    body: "You can go into a frenzy in battle. If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack."
-  - title: "6th Level: Mindless Rage"
-    body: "You have immunity to the Charmed and Frightened conditions while your Rage is active. If you are Charmed or Frightened when you enter your Rage, that condition ends on you."
-  - title: "10th Level: Retaliation"
-    body: "When you take damage from a creature that is within 5 feet of you, you can use your Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike."
-  - title: "14th Level: Intimidating Presence"
-    body: "As an action, you can strike terror into others with your menacing presence, as you swell with primal power. When you do so, each creature of your choice within 30 feet of you—or 60 feet of you if your Rage is active—must make a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Strength modifier), provided the creature isn't behind Total Cover. On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the saving throw, ending the effect on itself on a successful save.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. If you've run out of uses of this feature, you can expend a use of your Rage, choosing not to activate the Rage and activating Intimidating Presence instead."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  desc: "For Barbarians who walk the Path of the Berserker, their Rage is primarily directed toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Barbarian: Path of the Wild Heart":
+  desc: "Barbarians who follow the Path of the Wild Heart view themselves as kin to the animal inhabitants of the natural world. They learn magical means to connect and communicate with animals, and their Rage heightens their connection to animals as it fills them with supernatural might."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Barbarian: Path of the World Tree":
+  desc: "Barbarians who follow the Path of the World Tree believe that their Rage links them to the cosmic ash tree Yggdrasil. This “world tree” grows among the Outer Planes, connecting them to each other and to the many worlds of the Material Plane, and the greatest plants on every world are said to be distant descendants of mighty Yggdrasil. These Barbarians draw on their connection to the world tree as a source of vitality and as a means of travel across the multiverse."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Barbarian: Path of the Zealot":
+  desc: "For Barbarians who walk the Path of the Zealot, their Rage is not merely a connection to nature; it is a gift from a god. These Barbarians often experience their Rage as an ecstatic experience of union with their gods, infusing them with divine power to pursue the gods' purposes in the world. "
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Bard: College of Dance":
   desc: "Bards of the College of Dance know that the Words of Creation can't be contained within speech or even song; they are uttered by the movements of celestial bodies and flow through the motions of even the smallest creatures. To these Bards, dance is an art freed from the constraints of a single point in space and time; it is meaning unconfined by narrow definitions of words and structures of grammar. The College of Dance practices a way of being in harmony with the ever-whirling cosmos, emphasizing agility, speed, and grace."
-  fields:
-  - title: "3rd Level: Dazzling Footwork"
-    body: "Your practice of dance gives you the ability to gracefully dodge and make agile strikes. While you aren't wearing armor or wielding a Shield, you gain the following benefits:\n\n**Unarmored Defense**. Your base Armor Class equals 10 + your Dexterity modifier + your Charisma modifier.\n\n**Agile Strikes**. When you expend a use of your Bardic Inspiration as part of an action, a Bonus Action, or a Reaction, you can make one Unarmed Strike as part of that action, Bonus Action, or Reaction.\n\n**Bardic Damage**. You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an Unarmed Strike, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier. This roll doesn't expend the die."
-  - title: "3rd Level: Inspiring Movement"
-    body: "When an enemy you can see ends its turn within 5 feet of an ally of yours who is within 60 feet of you, you can use your Reaction and expend one use of your Bardic Inspiration to move up to half your Speed. Then roll your Bardic Inspiration die, and the ally can move up to a number of feet equal to 5 times the number rolled. None of this feature's movement provokes Opportunity Attacks."
-  - title: "6th Level: Leading Evasion"
-    body: "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and you take only half damage if you fail. If any creatures within 5 feet of you are making the same Dexterity saving throw, you can share this benefit with them for that save. You can't use this feature if you have the Incapacitated condition."
-  - title: "6th Level: Tandem Footwork"
-    body: "When you roll Initiative, you can spend one use of your Bardic Inspiration if you don't have the Incapacitated condition. When you do so, roll your Bardic Inspiration die, and choose a number of creatures within 60 feet of yourself (you can choose yourself), up to a number equal to your Charisma modifier (minimum of one creature). Each of them gains a bonus to their Initiative equal to the number rolled."
-  - title: "14th Level: Irresistible Dance"
-    body: "You always have the _Otto's Irresistible Dance_ spell prepared. You can cast it without expending a spell slot. Once you cast the spell in this way, you can't do so again until you finish a Long Rest. You can also restore your use of the feature by expending four uses of your Bardic Inspiration (no action required)."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: College of Glamour":
   desc: "The College of Glamour traces its origins to the beguiling magic of the Feywild. The Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of long-held fears, and tug at the emotions of even the most hardhearted listeners."
-  fields:
-  - title: "3rd Level: Beguiling Magic"
-    body: "You always have the _Charm Person_ and _Mirror Image_ spells prepared.\n\nIn addition, immediately after you cast an Enchantment or Illusion spell, you can cause a creature you can see within 60 feet of yourself to make a Wisdom saving throw against your Spell Save DC. On a failed save, the target has the Charmed or Frightened condition (your choice) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nOnce you use this benefit, you can't use it again until you finish a Long Rest. You can also restore your use of the feature by expending one use of your Bardic Inspiration (no action required)."
-  - title: "3rd Level: Mantle of Inspiration"
-    body: "You can weave fey magic into a song or dance to fill others with vigor. As a Bonus Action, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature). Each of them gains a number of Temporary Hit Points equal to 2 times the number rolled on the Bardic Inspiration die, and then each of them can use its Reaction to move up to its Speed without provoking Opportunity Attacks."
-  - title: "6th Level: Mantle of Majesty"
-    body: "You always have the _Command_ spell prepared.\n\nAs a Bonus Action, you cast _Command_ without expending a spell slot, and you take on an unearthly appearance for 1 minute or until your Concentration ends (as if you were concentrating on a spell). During this time, you can cast _Command_ as a Bonus Action without expending a spell slot.\n\nAny creature Charmed by you automatically fails its saving throw against the _Command_ you cast with this feature.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of the feature by expending a spell slot of 3rd level or higher (no action required)."
-  - title: "14th Level: Unbreakable Majesty"
-    body: "As a Bonus Action, you can assume a magically majestic presence for 1 minute or until you have the Incapacitated condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a Charisma saving throw against your Spell Save DC, or the attack misses instead, as the creature recoils from your majesty.\n\nOnce you assume this majestic presence, you can't do so again until you finish a Short Rest or Long Rest."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: College of Lore":
   desc: "Bards of the College of Lore plumb the depths of magical knowledge, collecting spells and secrets from sources as diverse as scholarly tomes, mystical rites, and peasant tales. The college's members gather in libraries and universities to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority."
-  fields:
-  - title: "3rd Level: Bonus Proficiencies"
-    body: "You gain proficiency with three skills of your choice."
-  - title: "3rd Level: Cutting Words"
-    body: "You learn how to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes a damage roll or succeeds on an ability check or attack roll, you can use your Reaction to expend one use of your Bardic Inspiration, roll your Bardic Inspiration die, and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure."
-  - title: "6th Level: Magical Discoveries"
-    body: "You learn two spells of your choice. These spells can come from the Arcane, Divine, or Primal spell list or any combination thereof. A spell you choose must be a cantrip or a spell for which you have spell slots, as shown on the Bard table.\n\nYou always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets the requirements above."
-  - title: "14th Level: Peerless Skill"
-    body: "When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: College of Valor":
   desc: "Bards of the College of Valor are daring storytellers whose tales keep alive the memory of the great heroes of the past. These bards sing the deeds of the mighty, both past and present, in vaulted halls or to crowds gathered around great bonfires. They travel the land to witness great events firsthand and to ensure that the memory of these events doesn't pass from the world. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old."
-  fields:
-  - title: "3rd Level: Combat Inspiration"
-    body: "You can use your wit to turn the tide of battle. A creature that has a Bardic Inspiration die from you can use it for one of the following effects:\n\n**Defense**. When the creature is hit by an attack roll, that creature can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, potentially causing the attack to miss.\n\n**Offense**. Immediately after the creature hits a target with an attack roll, the creature can roll the Bardic Inspiration die and add the number rolled to the attack's damage against the target."
-  - title: "3rd Level: Martial Training"
-    body: "You gain proficiency with Martial Weapons and armor training with Medium Armor and Shields.\n\nIn addition, you can use a Simple or Martial weapon as a spellcasting focus to cast spells from your Bard spell list."
-  - title: "6th Level: Extra Attack"
-    body: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
-  - title: "14th Level: Battle Magic"
-    body: "After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Life Domain":
   desc: "The Life Domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The Clerics who tap into this domain are masters of healing, using that force of life to cure many hurts.\n\nExistence itself relies on the positive energy associated with this domain, so a Cleric of any religious tradition might choose it. This domain is associated with agricultural deities, sun gods, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the powers of this domain."
-  fields:
-  - title: "3rd Level: Domain Spells"
-    body: "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared."
-  - title: "Life Domain Spells"
-    body: "```\n| Cleric |\n| Level  | Prepared Spells\n|--------+-----------------\n| 3rd    | Aid, Bless, Cure Wounds, Lesser Restoration\n| 5th    | Mass Healing Word, Revivify\n| 7th    | Aura of Life, Death Ward\n| 9th    | Greater Restoration, Mass Cure Wounds\n```"
-  - title: "3rd Level: Disciple of Life"
-    body: "Your healing spells are empowered by life itself. When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level."
-  - title: "3rd Level: Preserve Life"
-    body: "As part of casting a prepared Abjuration spell from the Divine spell list, you can expend uses of Channel Divinity to create a spell slot to use for the casting. You must expend a number of Channel Divinity uses equal to the spell's level. For example, you can expend one use of Channel Divinity to create a 1st-level spell slot for a casting of _Shield of Faith_ if you have that spell prepared."
-  - title: "6th Level: Blessed Healer"
-    body: "The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one creature other than you, you regain Hit Points equal to 2 plus the spell slot's level."
-  - title: "17th Level: Supreme Healing"
-    body: "When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead, use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Light Domain":
   desc: "The Light Domain emphasizes the divine power to bring about blazing fire and revelation. Clerics who wield this power are enlightened souls infused with radiance and the power of their deities' discerning vision, charged with chasing away lies and burning away darkness.\n\nThe Light Domain is associated with gods of truth, vigilance, beauty, insight, and renewal. Some of these gods are identified with the sun or as charioteers who guide the sun across the sky. Others are sentinels who pierce every shadow and deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Religious orders focused on combating the Undead also draw on the power of this domain."
-  fields:
-  - title: "3rd Level: Domain Spells"
-    body: "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Light Domain Spells table, you thereafter always have the listed spells prepared."
-  - title: "Light Domain Spells"
-    body: "```\n| Cleric |\n| Level  | Prepared Spells\n|--------+-----------------\n| 3rd    | Burning Hands, Faerie Fire, Moonbeam, See Invisibility\n| 5th    | Daylight, Fireball\n| 7th    | Arcane Eye, Wall of Fire\n| 9th    | Flame Strike, Scrying\n```"
-  - title: "3rd Level: Warding Flare"
-    body: "When a creature that you can see within 30 feet of you makes an attack roll, you can use your Reaction to impose Disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest."
-  - title: "3rd Level: Radiance of the Dawn"
-    body: "As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to emit sunlight in a 30-foot-radius sphere centered on yourself. Any magical darkness—such as that created by the Darkness spell—in the sphere is dispelled. Additionally, each creature of your choice in the sphere must make a Constitution saving throw, taking Radiant damage equal to 2d10 + your Cleric level on a failed save, or half as much damage on a successful one."
-  - title: "6th Level: Revealing Light"
-    body: "As a Bonus Action, you can present your Holy Symbol and cast See Invisibility without expending a spell slot. When you cast it in this way, your allies also gain the benefit of the spell while within 10 feet of you. Until the spell ends, you emit Bright Light in a 10-foot radius and Dim Light for an additional 10 feet. You can end the spell early as a Bonus Action.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest."
-  - title: "17th Level: Corona of Light"
-    body: "As a Magic action, you cause yourself to emit an aura of sunlight that lasts for 1 minute or until you dismiss it (no action required). You emit Bright Light in a 60-foot radius and Dim Light for an additional 30 feet. Your enemies in the Bright Light have Disadvantage on saving throws against your Radiance of the Dawn and any spell that deals Fire or Radiant damage."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: Trickery Domain":
   desc: "The Trickery Domain offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, and theft rather than direct confrontation.\n\nGods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They embody the forces of change and social upheaval, and they're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Religious orders that operate in secret, especially those that seek to undermine oppressive governments or hierarchies, also draw on the power of the Trickery Domain."
-  fields:
-  - title: "3rd Level: Domain Spells"
-    body: "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Trickery Domain Spells table, you thereafter always have the listed spells prepared."
-  - title: "Trickery Domain Spells"
-    body: "```\n| Cleric |\n| Level  | Prepared Spells\n|--------+-----------------\n| 3rd    | Charm Person, Disguise Self, Invisibility, Pass without Trace\n| 5th    | Hypnotic Pattern, Nondetection\n| 7th    | Confusion, Dimension Door\n| 9th    | Hold Monster, Mislead\n```"
-  - title: "3rd Level: Blessing of the Trickster"
-    body: "As an action, you can choose yourself or a willing creature within 30 feet of yourself to gain Advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again."
-  - title: "3rd Level: Invoke Duplicity"
-    body: "You can use your Channel Divinity to create an illusory duplicate of yourself.\n\nAs a Bonus Action, you can expend one use of your Channel Divinity to teleport up to 30 feet to an unoccupied space you can see, and you create a perfect visual illusion of yourself in the space you left. The illusion lasts for 1 minute, but it ends early if you have the Incapacitated condition or dismiss it as a Bonus Action.\n\nWhile the illusion persists, you gain the following benefits:\n\n**Cast Spells**. You can cast spells as though you were in the illusion's space, but you must use your own senses.\n\n**Distract**. When both you and your illusion are within 5 feet of a creature that can see the illusion, you have Advantage on attack rolls against that creature, given how distracting the illusion is to the target.\n\n**Move**. As a Bonus Action, you can move the illusion up to 30 feet to an unoccupied space you can see that is within 120 feet of yourself, and you can then teleport, swapping places with the illusion."
-  - title: "6th Level: Trickster's Magic"
-    body: "If you cast a spell of the Illusion school using a spell slot, you can change the spell's casting time to a Bonus Action for this casting, provided the spell's casting time is normally an action.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a Long Rest."
-  - title: "17th Level: Improved Duplicity"
-    body: "The illusion of your Invoke Duplicity has grown more powerful. When you create it, you can teleport up to 120 feet rather than 30 feet, and when you move it, you can move it up to 60 feet rather than 30 feet. In addition, when you and your allies make attack rolls against a creature within 5 feet of the illusion, the attack rolls have Advantage. Finally, when the illusion ends, you or a creature of your choice within 5 feet of it regains a number of Hit Points equal to your Cleric level."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Cleric: War Domain":
   desc: "War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.\n\nGods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance."
-  fields:
-  - title: "3rd Level: Domain Spells"
-    body: "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the War Domain Spells table, you thereafter always have the listed spells prepared."
-  - title: "War Domain Spells"
-    body: "```\n| Cleric |\n| Level  | Prepared Spells\n|--------+-----------------\n| 3rd    | Divine Favor, Magic Weapon, Shield of Faith, Spiritual Weapon\n| 5th    | Crusader's Mantle, Spirit Guardians\n| 7th    | Freedom of Movement, Stoneskin\n| 9th    | Destructive Wave, Hold Monster\n```"
-  - title: "3rd Level: War Priest"
-    body: "Your training with weapons allows you to use the Mastery property of one kind of Simple or Martial weapon with which you have proficiency. Whenever you finish a Long Rest, you can change the kind of weapon you chose to another eligible kind.\n\nIn addition, you can make one weapon attack as a Bonus Action. You can use this Bonus Action a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Short Rest or Long Rest."
-  - title: "3rd Level: Guided Strike"
-    body: "When you or a creature within 30 feet of you misses with an attack roll, you can use your Reaction to expend one use of your Channel Divinity and give that roll a +10 bonus, potentially causing it to hit."
-  - title: "6th Level: War God's Blessing"
-    body: "Whenever you cast _Shield of Faith_ on another creature, the spell also affects you.\n\nIn addition, you can cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Short Rest or Long Rest."
-  - title: "17th Level: Avatar of Battle"
-    body: "You gain resistance to Bludgeoning, Piercing, and Slashing damage."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Circle of the Land":
   desc: "The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk."
-  fields:
-  - title: "3rd Level: Circle Spells"
-    body: "Your connection to nature infuses you with the ability to cast certain spells. Whenever you finish a Long Rest, choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells prepared there that are listed for your Druid level and lower."
-  - title: "Arid Land"
-    body: "```\n| Druid Level | Circle Spells\n|-------------+---------------\n|     3rd     | Blur, Burning Hands, Fire Bolt\n|     5th     | Fireball\n|     7th     | Blight\n|     9th     | Wall of Stone\n```"
-  - title: "Polar Land"
-    body: "```\n| Druid Level | Circle Spells\n|-------------+---------------\n|     3rd     | Fog Cloud, Hold Person, Ray of Frost\n|     5th     | Sleet Storm\n|     7th     | Ice Storm\n|     9th     | Cone of Cold\n```"
-  - title: "Temperate Land"
-    body: "```\n| Druid Level | Circle Spells\n|-------------+---------------\n|     3rd     | Misty Step, Shocking Grasp, Sleep\n|     5th     | Lightning Bolt\n|     7th     | Freedom of Movement\n|     9th     | Tree Stride\n```"
-  - title: "Tropical Land"
-    body: "```\n| Druid Level | Circle Spells\n|-------------+---------------\n|     3rd     | Acid Splash, Ray of Sickness, Web\n|     5th     | Stinking Cloud\n|     7th     | Polymorph\n|     9th     | Insect Plague\n```"
-  - title: "3rd Level: Land's Aid"
-    body: "You can channel the power of the land itself to bolster friends and harm foes. As a magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius sphere centered on that point. Each creature of your choice in that area must make a Constitution saving throw, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one.\n\nIn addition, one creature of your choice in that area regains 2d6 Hit Points.\n\nWhen you reach certain druid levels, the damage and healing increase by 1d6: 10th level (3d6) and 14th level (4d6)."
-  - title: "6th Level: Natural Recovery"
-    body: "Tapping into nature, you can conserve and recover your magical power. You can cast one of the spells of 1st level or higher that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.\n\nIn addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (round up), and none of the slots can be 6th level or higher. For example, if you're a 6th-level druid, you can recover up to three levels' worth of spell slots. You can recover a 3rd-level spell slot, a 2nd-level spell slot, and a 1st-level spell slot, or three 1st-level spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest."
-  - title: "10th Level: Nature's Ward"
-    body: "Your bond with the land protects you. You are immune to the Poisoned condition, and you have resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table."
-  - title: "Nature's Ward"
-    body: "```\n| Land Type | Damage Resistance\n|-----------+-------------------\n| Arid      | Fire\n| Polar     | Cold\n| Temperate | Lightning\n| Tropical  | Poison\n```"
-  - title: "14th Level: Nature's Sanctuary"
-    body: "Nature can rise up to protect you and your allies. As a magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot cube on the ground within 120 feet of yourself. They last there for 1 minute or until you have the Incapacitated condition. You and your allies have half cover while in that area, and your allies gain the current damage resistance of your Nature's Ward while there.\n\nAs a Bonus Action, you can move the cube up to 60 feet to the ground within 120 feet of yourself."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Circle of the Moon":
   desc: "Druids of the Circle of the Moon draw on the magic of the moon to transform themselves and to guard the wilds. Their order gathers under the full moon to share news and perform rituals. They wander the deepest parts of the wilderness, where they might go for weeks before crossing paths with another person, let alone another Druid.\n\nChangeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid's blood."
-  fields:
-  - title: "3rd Level: Circle Forms"
-    body: "The rites of your circle grant you the ability to transform into more dangerous animal forms; the maximum Challenge Rating for your Wild Shape is 1."
-  - title: "3rd Level: Combat Wild Shape"
-    body: "You have learned ancient techniques that allow you to channel the magic of the moon to bolster yourself while using Wild Shape, granting you the following benefits:\n\n**Armor Class**. When you assume a Wild Shape form, compare the beast's AC to your AC (including any armor you're wearing but not a shield). While in that form, you use whichever AC is higher.\n\n**Temporary Hit Points**. When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to the form's Hit Points or three times your Druid level, whichever number is lower. For example, if you turn into a wolf (11 HP) as a 5th-level Druid, you gain 11 Temporary Hit Points since three times your Druid level is higher than the wolf's Hit Points.\n\n**Abjuration Spells**. While in a Wild Shape form, you can cast your abjuration spells, except for any spell that has a material component with a cost specified or that consumes its material component.\n\n**Moonbeam**. You always have the _Moonbeam_ spell prepared while in a Wild Shape form, and you can cast the spell in that form without material components."
-  - title: "6th Level: Improved Circle Forms"
-    body: "The maximum Challenge Rating of your Wild Shape now equals your Druid level divided by 3 (round down).\n\nIn addition, each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks."
-  - title: "10th Level: Moonlight Step"
-    body: "You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You can also regain uses by expending a spell slot of 2nd level or higher for each use you want to restore (no action required)."
-  - title: "14th Level: Lunar Form"
-    body: "The power of the moon suffuses you, granting you the following benefits:\n\n**Movable Moonbeam**. While your Moonbeam is active, you can move it up to 60 feet at the start of each of your turns (no action required).\n\n**Shared Moonlight**. Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Druid: Circle of the Sea":
   desc: "Druids of the Circle of the Sea draw on the tempestuous natural forces of the world's oceans and storms. Some view themselves as embodiments of nature's wrath, seeking vengeance against those who despoil the natural world. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves, and listening to the inscrutable whispers and roars of the winds."
-  fields:
-  - title: "3rd Level: Circle Spells"
-    body: "Your connection to this circle ensures that you always have certain spells ready. When you reach a Druid level specified in the Circle of the Sea Spells table, you thereafter always have the listed spells prepared."
-  - title: "Circle of the Sea Spells"
-    body: "```\n| Druid Level | Circle Spells\n|-------------+---------------\n|     3rd     | Fog Cloud, Gust of Wind, Ray of Frost, Shatter, Thunderwave\n|     5th     | Sleet Storm, Lightning Bolt\n|     7th     | Control Water, Ice Storm\n|     9th     | Conjure Elemental, Hold Monster\n```"
-  - title: "3rd Level: Wrath of the Sea"
-    body: "As a Bonus Action, you can expend a use of your Wild Shape to manifest an aura that takes the form of ocean spray that surrounds you. The aura lasts for 10 minutes. It ends early if you have the Incapacitated condition, dismiss it (no action required), or manifest the aura again.\n\nAt the end of each of your turns, you can choose another creature you can see within 10 feet of yourself. The target must succeed on a Constitution saving throw against your Spell Save DC or take Thunder damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die)."
-  - title: "6th Level: Aquatic Affinity"
-    body: "You always have the _Water Breathing_ spell prepared. In addition, you gain a Swim Speed equal to your Speed. If you use Wild Shape to assume a form that lacks a Swim Speed, that form gains your Swim Speed."
-  - title: "10th Level: Stormborn"
-    body: "Your Wrath of the Sea confers two more benefits while active:\n\n**Flight**. You gain a Fly Speed equal to your Speed.\n\n**Resistance**. You have resistance to Cold, Lightning, and Thunder damage."
-  - title: "14th Level: Oceanic Gift"
-    body: "Whenever you use Wrath of the Sea, you can manifest the aura around one willing creature within 60 feet of you rather than manifesting it around yourself. The creature gains all the benefits of the aura and uses your Spell Save DC and Wisdom modifier for it.\n\nIn addition, you can manifest the aura around both the other creature and yourself if you expend two uses of your Wild Shape, instead of one, when manifesting the aura."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+
+"Fighter: Battle Master":
+  desc: "Battle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Fighter: Brawler":
+  desc: "Brawlers focus their training and study not on swordplay and battle tactics, but on the skills needed to turn a punch or kick into a brutal strike and any innocuous object into a deadly weapon. Some Brawlers thrive in tavern scuffles and street rumbles, while others excel in espionage, wielding ordinary objects with the deadliness of an assassin's knife."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fighter: Champion":
   desc: "A Champion focuses on the development of martial prowess honed to deadly perfection. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory."
-  fields:
-  - title: "3rd Level: Adaptable Victor"
-    body: "You've studied your friends and foes alike and learned that victory relies on adaptability. Whenever you finish a Long Rest, you can gain proficiency in one skill from those available to this class at 1st level, as you remind yourself of past lessons. This proficiency lasts until the end of your next Long Rest."
-  - title: "3rd Level: Improved Critical"
-    body: "Your attack rolls with weapons and Unarmed Strikes can score a critical hit on a roll of 19 or 20."
-  - title: "6th Level: Additional Fighting Style"
-    body: "You gain another Fighting Style feat of your choice."
-  - title: "6th Level: Heroic Warrior"
-    body: "The thrill of battle drives you toward victory. Once per combat, you can give yourself Heroic Advantage if you start your turn without it."
-  - title: "10th Level: Superior Critical"
-    body: "Your attack rolls with weapons and Unarmed Strikes can now score a critical hit on a roll of 18–20."
-  - title: "14th Level: Survivor"
-    body: "You attain the pinnacle of resilience in battle, giving you these benefits:\n\n**Defy Death**. You have Advantage on death saving throws. Moreover, when you roll an 18–20 on a death save, you gain the benefit of rolling a 20.\n\n**Heroic Rally**. At the start of each of your turns, you regain Hit Points equal to 5 + your Constitution modifier if you have no more than half your Hit Points left. You don't gain this benefit if you have 0 Hit Points."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Fighter: Eldritch Knight":
+  desc: "Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Monk: Warrior of Shadow":
   desc: "Warriors of Shadow practice stealth and subterfuge, channeling their reservoirs of power to harness the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, to leap from shadow to shadow, and even to take on a wraithlike form of living shadow."
-  fields:
-  - title: "3rd Level: Shadow Arts"
-    body: "Through rigorous training, you have learned to draw on the power of the Shadowfell, gaining the following benefits:\n\n**Darkness**. You can spend 1 Discipline Point to cast the _Darkness_ spell without any spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of darkness to a space within 60 feet of you at the start of each of your turns.\n\n**Darkvision**. You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet.\n\n**Shadowy Figments**. You know the _Minor Illusion_ cantrip and use Wisdom as the spellcasting ability for it."
-  - title: "6th Level: Shadow Step"
-    body: "While entirely within Dim Light or Darkness, you can use a Bonus Action to teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You then have Advantage on the next melee attack you make before the end of the turn."
-  - title: "11th Level: Improved Shadow Step"
-    body: "You can draw on your connection to shadow to empower your teleportation. When you use your Shadow Step, you can spend 1 Discipline Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after the teleportation."
-  - title: "17th Level: Cloak of Shadows"
-    body: "As a Bonus Action while entirely within Dim Light or Darkness, you can spend 3 Discipline Points to shroud yourself with magical darkness for 1 minute, until you have the Incapacitated condition, or until you end your turn in Bright Light. While shrouded in darkness, you gain the following benefits:\n\n**Invisibility**. You have the Invisible condition.\n\n**Partially Incorporeal**. You can move through creatures and objects as if they were difficult terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object.\n\n**Shadow Flurry**. You can use your Flurry of Blows without spending any Discipline Points."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Monk: Warrior of the Elements":
   desc: "The tradition of the Four Elements encompasses Monks who tap into the power of the Elemental Planes through their practice of martial arts. Some of these Monks focus on a single element, learning to wreathe their fists in fire and cause explosive bursts of flame, or to wield mighty gusts of icy wind. Others weave the elements together and learn a variety of techniques to harness the appropriate elemental force for each particular circumstance."
-  fields:
-  - title: "3rd Level: Elemental Attunement"
-    body: "You have attuned yourself with the elemental forces of the multiverse. You know the _Elementalism_ cantrip.\n\nIn addition, at the start of your turn, you can spend 1 Discipline Point to imbue yourself with elemental energy. The energy lasts for 10 minutes or until you have the Incapacitated condition. You gain the following benefits for the duration:\n\n**Elemental Strikes**. Whenever you hit with your Unarmed Strike, you can cause it to deal your choice of Acid, Cold, Fire, or Lightning damage rather than its normal damage type. When you deal one of these types with your Unarmed Strike, you can also force the target to make a Strength saving throw. On a failed save, you can move the target up to 10 feet toward or away from you, as elemental energy swirls around it.\n\n**Reach**. When you make an Unarmed Strike, your reach is 10 feet greater than normal, as elemental energy extends from you."
-  - title: "6th Level: Environmental Burst"
-    body: "As a Magic action, you can spend 2 Discipline Points to cause environmental energy to burst in a 20-foot-radius sphere centered on a point within 120 feet of yourself. Choose a damage type: Acid, Cold, Fire, or Lightning.\n\nEach creature in the sphere must make a Dexterity saving throw. On a failed save, a creature takes damage of the chosen type equal to three rolls of your Martial Arts die. On a successful save, a creature takes half as much damage.\n\nBefore or after you take this action, you can make one Unarmed Strike as a Bonus Action."
-  - title: "11th Level: Stride of the Elements"
-    body: "When you use your Step of the Wind, you gain a Fly Speed and Swim Speed equal to your Speed for 10 minutes."
-  - title: "17th Level: Elemental Epitome"
-    body: "When you use the Elemental Attunement feature, you also gain the following benefits for the duration:\n\n**Damage Resistance**. You gain resistance to one of the following damage types of your choice: Acid, Cold, Fire, or Lightning. At the start of each of your turns, you can change this choice.\n\n**Destructive Stride**. When you use your Step of the Wind, your Speed increases by 20 feet until the end of the turn. For that duration, any creature of your choice takes damage equal to one roll of your Martial Arts die when you enter a space within 5 feet of it. The damage is the same type you chose for this feature's damage resistance. A creature can take this damage only once per turn.\n\n**Empowered Strikes**. Once on each of your turns, you can deal extra damage to a target equal to one roll of your Martial Arts die when you hit it with an Unarmed Strike. The damage is the same type you chose for this feature's damage resistance."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Monk: Warrior of the Hand":
   desc: "Warriors of the Hand are masters of unarmed combat. They learn techniques to push and trip their opponents and manipulate their own energy to protect themselves from harm."
-  fields:
-  - title: "3rd Level: Open Hand Technique"
-    body: "Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:\n\n**Addle**. The target must succeed on a Constitution saving throw, or it can't take Reactions until the end of your next turn.\n\n**Push**. The target must succeed on a Strength saving throw, or you push it up to 15 feet away from yourself.\n\n**Topple**. The target must succeed on a Dexterity saving throw, or it has the Prone condition."
-  - title: "6th Level: Wholeness of Body"
-    body: "You gain the ability to heal yourself. As a Bonus Action, you can spend 1 Discipline Point and roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
-  - title: "11th Level: Fleet Step"
-    body: "You can easily stride out of harm's way; you can use the Step of the Wind option of your Martial Discipline feature without spending any Discipline Points."
-  - title: "17th Level: Quivering Palm"
-    body: "You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an Unarmed Strike, you can spend 3 Discipline Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the target must make a Constitution saving throw, taking 10d12 + your Monk level of Force damage on a failed save or half as much damage on a successful one.\n\nYou can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly without using an action."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Oath of Devotion":
   desc: "The Oath of Devotion binds Paladins to the loftiest ideals of justice and order. These Paladins meet the ideal of the knight in shining armor. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels as their ideals and incorporate images of angelic wings into their helmets or coats of arms.\n\n> **TENETS OF DEVOTION**\n> Though the exact words and strictures of the Oath of Devotion vary, Paladins of this oath share these tenets:\n> \n> ***Honesty***. Don't lie or cheat. Let your word be your promise.\n> \n> ***Courage***. Never fear to act, though caution is wise.\n> \n> ***Compassion***. Aid others, protect the weak, and punish those who threaten them. Show mercy to your foes, but temper it with wisdom.\n> \n> ***Honor***. Treat others with fairness, and let your honorable deeds be an example to them.\n> \n> ***Duty***. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you."
-  fields:
-  - title: "3rd Level: Oath Spells"
-    body: "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared."
-  - title: "Oath of Devotion Spells"
-    body: "```\n| Paladin | Spells\n| Level   |\n|---------+--------\n|  3rd    | Protection from Evil and Good, Shield of Faith\n|  5th    | Aid, Zone of Truth\n|  9th    | Beacon of Hope, Dispel Magic\n| 13th    | Freedom of Movement, Guardian of Faith\n| 17th    | Commune, Flame Strike\n```"
-  - title: "3rd Level: Sacred Weapon"
-    body: "As a Bonus Action, you can expend one use of your Channel Divinity to imbue one melee weapon that you are holding with positive energy. For 1 minute, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.\n\nThe weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that.\n\nYou can end this effect as a Bonus Action. This effect also ends if you aren't holding or carrying the weapon or if you have the Incapacitated condition."
-  - title: "7th Level: Aura of Devotion"
-    body: "You and your allies are immune to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there."
-  - title: "15th Level: Smite of Protection"
-    body: "Your magical smites now radiate protective energy. Whenever you cast any of your Paladin's Smite spells, you and your allies in your Aura of Protection have Half Cover until the start of your next turn."
-  - title: "20th Level: Holy Nimbus"
-    body: "As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the following benefits for 1 minute or until you end them as a Bonus Action:\n\n**Holy Ward**. You have Advantage on any saving throw you are forced to make by a Fiend or an Undead.\n\n**Radiant Damage**. Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Proficiency Bonus plus your Charisma modifier.\n\n**Sunlight**. The aura is filled with bright light that is sunlight.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a 5th-level spell slot (no action required)."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Oath of Glory":
   desc: "Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions so they're all ready when destiny calls.\n\n> **TENETS OF GLORY**\n> Though the exact words and strictures of the Oath of Glory vary, Paladins of this oath share these tenets:\n> \n> **_Actions over Words_**. Strive to be known by glorious deeds, not words.\n> \n> **_Challenges Are but Tests_**. Face hardships with courage, and encourage your allies to face them with you.\n> \n> **_Hone the Body_**. Like raw stone, your body must be worked so its potential can be realized.\n> \n> **_Discipline the Soul_**. You must marshal the discipline to overcome failings within yourself that threaten to dim the glory of you and your friends."
-  fields:
-  - title: "3rd Level: Oath Spells"
-    body: "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Glory Spells table, you thereafter always have the listed spells prepared."
-  - title: "Oath of Glory Spells"
-    body: "```\n| Paladin | Spells\n| Level   |\n|---------+--------\n|  3rd    | Guiding Bolt, Heroism\n|  5th    | Enhance Ability, Magic Weapon\n|  9th    | Haste, Protection from Energy\n| 13th    | Compulsion, Freedom of Movement\n| 17th    | Commune, Flame Strike\n```"
-  - title: "3rd Level: Inspiring Smite"
-    body: "Immediately after you deal damage to a creature with any of your Paladin's Smite spells, you can expend one use of your Channel Divinity and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 + your Paladin level, divided among the chosen creatures however you like."
-  - title: "3rd Level: Peerless Athlete"
-    body: "As a Bonus Action, you can expend one use of your Channel Divinity to augment your athleticism. For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks; you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal)."
-  - title: "7th Level: Aura of Alacrity"
-    body: "Your Speed increases by 10 feet, and the Speed of any ally who starts their turn in your Aura of Protection increases by 10 feet until the end of that turn."
-  - title: "15th Level: Glorious Defense"
-    body: "You can turn defense into a sudden strike. When you or another creature you can see within 10 feet of you is hit by an attack roll, you can use your Reaction to grant a bonus to the target's AC against that attack, potentially causing it to miss. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one weapon attack against the attacker as part of this Reaction, provided the attacker is within your weapon's range.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
-  - title: "20th Level: Living Legend"
-    body: "You can empower yourself with the legends—whether true or exaggerated—of your great deeds. As a Bonus Action, you gain the following benefits for 1 minute:\n\n**Charismatic**. You are blessed with an otherworldly presence, gaining Advantage on all Charisma checks.\n\n**Saving Throw Reroll**. If you fail a saving throw, you can use your Reaction to reroll it. You must use this new roll.\n\n**Unerring Strike**. Once on each of your turns when you make an attack roll with a weapon and miss, you can cause that attack to hit instead.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a 5th-level spell slot (no action required)."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Oath of the Ancients":
   desc: "The Oath of the Ancients is as old as the first elves and the rituals of Druids. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light in the world.\n\n> **TENETS OF THE ANCIENTS**\n> Though the exact words and strictures of the Oath of Ancients vary, Paladins of this oath share these tenets:\n> \n> **_Kindle the Light_**. Through your acts of mercy, kindness, and forgiveness, kindle the light of hope in the world, beating back despair.\n> \n> **_Shelter the Light_**. Where life flourishes, stand against the forces that would render it barren.\n> \n> **_Preserve Your Own Light_**. Delight in song, laughter, and art. If you allow the light to die in your own heart, you can't preserve it in the world.\n> \n> **_Be the Light_**. Be a glorious beacon for all who live in despair. Let the light of your joy and courage shine forth in all your deeds."
-  fields:
-  - title: "3rd Level: Oath Spells"
-    body: "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Ancients Spells table, you thereafter always have the listed spells prepared."
-  - title: "Oath of the Ancients Spells"
-    body: "```\n| Paladin | Spells\n| Level   |\n|---------+--------\n|  3rd    | Ensnaring Strike, Speak with Animals\n|  5th    | Misty Step, Moonbeam\n|  9th    | Plant Growth, Protection from Energy\n| 13th    | Ice Storm, Stoneskin\n| 17th    | Commune with Nature, Tree Stride\n```"
-  - title: "3rd Level: Nature's Wrath"
-    body: "As an action, you can expend one use of your Channel Divinity to conjure grasping spectral vines around nearby creatures. Each creature of your choice that you can see within 15 feet of you must succeed on a Strength saving throw or have the Restrained condition for 1 minute. A Restrained creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
-  - title: "7th Level: Aura of Warding"
-    body: "Ancient magic lies so heavily upon you that it forms an eldritch ward, blunting energy from beyond the Material Plane; you and your allies have resistance to Necrotic, Psychic, and Radiant damage while in your Aura of Protection."
-  - title: "15th Level: Undying Sentinel"
-    body: "When you are reduced to 0 Hit Points and not killed outright, you can choose to drop to 1 Hit Point instead, and you regain a number of Hit Points equal to three times your Paladin level. Once you use this feature, you can't do so again until you finish a Long Rest.\n\nAdditionally, you suffer none of the drawbacks of old age, and you can't be aged magically."
-  - title: "20th Level: Elder Champion"
-    body: "As a Bonus Action, you can imbue your Aura of Protection with primal power, granting the following benefits for 1 minute or until you end them as a Bonus Action:\n\n**Diminish Defiance**. Enemies in the aura have Disadvantage on saving throws against your spells and Channel Divinity options.\n\n**Regeneration**. At the start of each of your turns, you regain 10 Hit Points.\n\n**Swift Spells**. Whenever you cast a spell that has a casting time of 1 action, you can cast it using a Bonus Action instead.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a 5th-level spell slot (no action required)."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Oath of Vengeance":
   desc: "The Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.\n\n> **TENETS OF VENGEANCE**\n> \n> Though the exact words and strictures of the Oath of Vengeance vary, Paladins of this oath share these tenets:\n> \n> **_Fight the Greater Evil_**. Faced with a choice of fighting my sworn foes or combating a lesser evil, I choose the greater evil.\n> \n> **_No Mercy for the Wicked_**. Ordinary foes might win my mercy, but my sworn enemies do not.\n> \n> **_By Any Means Necessary_**. My qualms can't get in the way of exterminating my foes.\n> \n> **_Restitution_**. If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by my misdeeds."
-  fields:
-  - title: "3rd Level: Oath Spells"
-    body: "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared."
-  - title: "Oath of Vengeance Spells"
-    body: "```\n| Paladin | Spells\n| Level   |\n|---------+--------\n|  3rd    | Bane, Compelled Duel\n|  5th    | Hold Person, Misty Step\n|  9th    | Haste, Protection from Energy\n| 13th    | Banishment, Dimension Door\n| 17th    | Hold Monster, Scrying\n```"
-  - title: "3rd Level: Vow of Enmity"
-    body: "As a Bonus Action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You gain Advantage on attack rolls against the creature for 1 minute.\n\nIf the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required). You can make this transfer no more than once per turn."
-  - title: "7th Level: Relentless Avenger"
-    body: "Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature's Speed to 0, and you can then move up to half your Speed as part of the same Reaction. This movement doesn't provoke Opportunity Attacks."
-  - title: "15th Level: Soul of Vengeance"
-    body: "Immediately after a creature under the effect of your Vow of Enmity hits or misses with an attack, you can use your Reaction to make a melee attack against that creature if it's within range."
-  - title: "20th Level: Avenging Angel"
-    body: "As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the following benefits for 10 minutes or until you end them as a Bonus Action:\n\n**Flight**. You sprout spectral wings on your back. You have a Fly Speed equal to your Speed and can Hover.\n\n**Frightful Aura**. Whenever an enemy starts its turn in the aura, that creature must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. Attack rolls against the Frightened creature have Advantage.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a 5th-level spell slot (no action required)."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Beast Master":
   desc: "A Beast Master Ranger forms a mystical bond with a special beast, drawing on primal magic and a deep attunement to the natural world."
-  fields:
-  - title: "3rd Level: Primal Companion"
-    body: "You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block—Beast of the Land, Beast of the Sea, or Beast of the Sky—which uses your Proficiency Bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its supernatural origin.\n\nIn combat, the beast acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action, unless you take a Bonus Action on your turn to command it to take a different action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you have the Incapacitated condition, the beast can take any action of its choice, not just Dodge.\n\nIf the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its Hit Points restored.\n\nWhenever you finish a Long Rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast vanishes if you die."
-  - body: "> **BEAST OF THE LAND**\n> *Medium Beast*\n> \n> **Armor Class** 13 + PB (natural armor)\n> **Hit Points** 5 + five times your Ranger level (the beast has a number of Hit Dice [d8s] equal to your Ranger level)\n> **Speed** 40 ft., Climb 40 ft.\n> \n> **STR**: 14 (+2) **DEX**: 14 (+2) **CON**: 15 (+2)\n> **INT**: 8 (-1) **WIS**: 14 (+2) **CHA**: 11 (+0)\n> \n> **Senses** Darkvision 60 ft., passive Perception 12\n> **Languages** understands the languages you speak\n> **Proficiency Bonus (PB)** equals your Proficiency Bonus\n> \n> ***Charge***. If the beast moves at least 20 feet straight toward a target and then hits it with a Maul attack on the same turn, the target takes an extra 1d6 Slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your Spell Save DC or have the Prone condition.\n> \n> ***Primal Bond***. You can add your Proficiency Bonus to any ability check or saving throw that the beast makes.\n> \n> **ACTIONS**\n> ***Maul***. *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + 2 + PB Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast)."
-  - body: "> **BEAST OF THE SEA**\n> *Medium Beast*\n> \n> **Armor Class** 13 + PB (natural armor)\n> **Hit Points** 5 + five times your Ranger level (the beast has a number of Hit Dice [d8s] equal to your Ranger level)\n> **Speed** 5 ft., Swim 60 ft.\n> \n> **STR**: 14 (+2) **DEX**: 14 (+2) **CON**: 15 (+2)\n> **INT**: 8 (-1) **WIS**: 14 (+2) **CHA**: 11 (+0)\n> \n> **Senses** Darkvision 90 ft., passive Perception 12\n> **Languages** understands the languages you speak\n> **Proficiency Bonus (PB)** equals your Proficiency Bonus\n> \n> ***Amphibious***. The beast can breathe air and water.\n> \n> ***Primal Bond***. You can add your Proficiency Bonus to any ability check or saving throw that the beast makes.\n> \n> **ACTIONS**\n> ***Binding Strike***. *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d6 + 2 + PB Bludgeoning or Piercing damage (your choice), and the target has the Grappled condition (escape DC equals your Spell Save DC). Until this grapple ends, the beast can't use this attack on another target."
-  - body: "> **BEAST OF THE SKY**\n> *Small Beast*\n> \n> **Armor Class** 13 + PB (natural armor)\n> **Hit Points** 4 + four times your Ranger level (the beast has a number of Hit Dice [d6s] equal to your Ranger level)\n> **Speed** 10 ft., Fly 60 ft.\n> \n> **STR**: 6 (-2) **DEX**: 16 (+2) **CON**: 13 (+1)\n> **INT**: 8 (-1) **WIS**: 14 (+2) **CHA**: 11 (+0)\n> \n> **Senses** Darkvision 120 ft., passive Perception 12\n> **Languages** understands the languages you speak\n> **Proficiency Bonus (PB)** equals your Proficiency Bonus\n> \n> ***Flyby***. The beast doesn't provoke Opportunity Attacks when it flies out of an enemy's reach.\n> \n> ***Primal Bond***. You can add your Proficiency Bonus to any ability check or saving throw that the beast makes.\n> \n> **ACTIONS**\n> ***Shred***. *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d4 + 3 + PB Slashing damage."
-  - title: "7th Level: Exceptional Training"
-    body: "When you use your Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the Dash, Disengage, Dodge, or Help action as a Bonus Action.\n\nIn addition, whenever the beast hits with an attack and deals damage, it can deal your choice of Force damage or its normal damage type."
-  - title: "11th Level: Bestial Fury"
-    body: "When you command your Primal Companion beast to take the Attack action, the beast can make two attacks.\n\nIn addition, the first time each turn it hits a creature under the effect of your _Hunter's Mark_ spell, the beast deals extra Force damage equal to the bonus damage of that spell."
-  - title: "15th Level: Share Spells"
-    body: "When you cast a spell targeting yourself, you can also affect your Primal Companion beast with the spell if the beast is within 30 feet of you."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Gloom Stalker":
   desc: "Gloom Stalkers are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness."
-  fields:
-  - title: "3rd Level: Gloom Stalker Magic"
-    body: "The magic of the Shadowfell ensures you always have certain spells ready; when you reach a Ranger level specified in the Gloom Stalker Spells table, you thereafter always have the listed spells prepared."
-  - title: "Gloom Stalker Spells"
-    body: "```\n| Ranger | Spells\n| Level  |\n|--------+--------\n|  3rd   | Disguise Self\n|  5th   | Rope Trick\n|  9th   | Fear\n| 13th   | Greater Invisibility\n| 17th   | Seeming\n```"
-  - title: "3rd Level: Dread Ambusher"
-    body: "You have mastered the art of creating frightening ambushes, granting you the following benefits:\n\n**Ambusher's Leap**. At the start of the first turn of each combat, your Speed increases by 10 feet until the end of that turn.\n\n**Frighten**. Once per turn when you attack a creature and hit it with a weapon, you can deal an extra 1d8 Psychic damage to the target and force it to make a Wisdom saving throw against your Spell Save DC. On a failed save, it has the Frightened condition until the start of your next turn. You can use this benefit a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\n**Initiative Bonus**. When you roll Initiative, you can add your Wisdom modifier to the roll."
-  - title: "3rd Level: Umbral Sight"
-    body: "You gain Darkvision out to a range of 60 feet. If you already have Darkvision when you gain this feature, its range increases by 60 feet.\n\nYou are also adept at evading creatures that rely on Darkvision. While entirely in Darkness, you have the Invisible condition to any creature that relies on Darkvision to see you in that darkness."
-  - title: "7th Level: Iron Mind"
-    body: "You have honed your ability to resist the mind-altering powers of your prey. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
-  - title: "11th Level: Stalker's Flurry"
-    body: "When you use the Frighten effect of your Dread Ambusher feature, you can cause one of the following additional effects:\n\n**Sudden Strike**. You can make another attack with the same weapon against a different creature that is within 5 feet of the original target and that is within the weapon's range.\n\n**Mass Fear**. Each creature within 10 feet of the target must make a Wisdom saving throw against your Spell Save DC. On a failed save, a creature has the Frightened condition until the start of your next turn."
-  - title: "15th Level: Shadowy Dodge"
-    body: "You can dodge with wisps of supernatural shadow around you. When a creature makes an attack roll against you, you can use your Reaction to impose Disadvantage on that roll. If the attack then misses, you can teleport up to 30 feet to an unoccupied space you can see."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Hunter":
   desc: "You stalk prey in the wilds and elsewhere, using your abilities as a Hunter to protect nature and people everywhere from forces that would destroy them."
-  fields:
-  - title: "3rd Level: Hunter's Prey"
-    body: "You gain one of the following feature options of your choice.\n\n**Colossus Slayer**. Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.\n\n**Horde Breaker**. Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn.\n\n**Retaliator**. Immediately after a creature within 5 feet of you attacks you, you can use your Reaction to make one attack with a weapon against that creature, whether or not it hit you."
-  - title: "3rd Level: Hunter's Lore"
-    body: "You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your _Hunter's Mark_, you know whether that creature has any damage or condition immunities, damage resistances, or damage vulnerabilities, and if the creature has any, you know what they are."
-  - title: "7th Level: Defensive Tactics"
-    body: "You gain one of the following feature options of your choice.\n\n**_Evasion_**. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.\n\n**_Hunter's Leap_**. If an enemy you can see enters a space within 5 feet of you, you can use your Reaction to move up to half your Speed without provoking Opportunity Attacks.\n\n**_Uncanny Dodge_**. When an attacker that you can see hits you with an attack roll, you can use your Reaction to halve the attack's damage against you (round down)."
-  - title: "11th Level: Superior Hunter's Prey"
-    body: "You gain another feature option of your choice from the Hunter's Prey feature."
-  - title: "15th Level: Superior Hunter's Defense"
-    body: "You gain another feature option of your choice from the Defensive Tactics feature."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Arcane Trickster":
   desc: "Some Rogues enhance their fine-honed skills of stealth and agility with Arcane spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters, mischief-makers, or adventurers."
-  fields:
-  - title: "3rd Level: Spellcasting"
-    body: "You have learned to cast spells. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as an Arcane Trickster."
-  - title: "Cantrips"
-    body: "You know three cantrips: _Mage Hand_ and two other cantrips of your choice from the Arcane spell list.\n\nWhenever you gain a Rogue level, you can replace one of your cantrips, except _Mage Hand_, with another cantrip of your choice from the Arcane spell list.\n\nWhen you reach 10th level in this class, you learn another Arcane cantrip of your choice."
-  - title: "Spell Slots"
-    body: "The Arcane Trickster Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest."
-  - title: "Prepared Spells of 1st+ Level"
-    body: "You prepare a list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose three 1st-level spells from the Arcane spell list, two of which must be from the Enchantment and Illusion schools of magic.\n\nThe number of spells on your list increases as you gain Rogue levels, as shown in the Prepared Spells column of the Arcane Trickster Spellcasting table. Whenever that number increases, choose additional spells from the Arcane spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 7th-level Rogue, your list of prepared spells can include six Arcane spells of 1st or 2nd level, in any combination."
-  - title: "Changing Your Prepared Spells"
-    body: "Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the Arcane spell list. The new spell must be of a level for which you have spell slots."
-  - title: "Spellcasting Ability"
-    body: "Intelligence is your spellcasting ability for your Arcane Trickster spells."
-  - title: "Spellcasting Focus"
-    body: "You can use an Arcane Focus as a Spellcasting Focus for the spells you prepare for this subclass."
-  - title: "Arcane Trickster Cantrips and Prepared Spells"
-    body: "```\n| Level | Cantrips | Prepared Spells\n|-------+----------+-----------------\n|   3rd |     3    |        3\n|   4th |     3    |        4\n|   5th |     3    |        4\n|   6th |     3    |        4\n|   7th |     3    |        6\n|   8th |     3    |        6\n|   9th |     3    |        6\n|  10th |     4    |        7\n|  11th |     4    |        7\n|  12th |     4    |        7\n|  13th |     4    |        9\n|  14th |     4    |        9\n|  15th |     4    |        9\n|  16th |     4    |       10\n|  17th |     4    |       10\n|  18th |     4    |       10\n|  19th |     4    |       11\n|  20th |     4    |       11\n```"
-  - title: "Arcane Trickster Spell Slots"
-    body: "```\n| Level | 1st 2nd 3rd 4th\n|-------+-----------------\n|  3rd  |  2   —   —   —\n|  4th  |  3   —   —   —\n|  5th  |  3   —   —   —\n|  6th  |  3   —   —   —\n|  7th  |  4   2   —   —\n|  8th  |  4   2   —   —\n|  9th  |  4   2   —   —\n| 10th  |  4   3   —   —\n| 11th  |  4   3   —   —\n| 12th  |  4   3   —   —\n| 13th  |  4   3   2   —\n| 14th  |  4   3   2   —\n| 15th  |  4   3   2   —\n| 16th  |  4   3   3   —\n| 17th  |  4   3   3   —\n| 18th  |  4   3   3   —\n| 19th  |  4   3   3   1\n| 20th  |  4   3   3   1\n```"
-  - title: "3rd Level: Mage Hand Legerdemain"
-    body: "When you cast _Mage Hand_, you can make the spectral hand invisible. You can control the hand as a Bonus Action, instead of an action, and through it, you can use Thieves' Tools and make Dexterity (Sleight of Hand) checks."
-  - title: "9th Level: Magical Ambush"
-    body: "If you have the Invisible condition when you cast a spell on a creature, it has Disadvantage on any saving throw it makes against the spell on the same turn."
-  - title: "13th Level: Versatile Trickster"
-    body: "You gain the ability to distract targets with your _Mage Hand_. When you use the Disarm or Trip options of your Cunning Strike, you can also target that option at a creature within 5 feet of the spectral hand."
-  - title: "17th Level: Spell Thief"
-    body: "You gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.\n\nImmediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your Reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your Spell Save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be an Arcane spell).\n\nFor the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Assassin":
   desc: "An Assassin's training focuses on the grim art of death, using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies."
-  fields:
-  - title: "3rd Level: Bonus Proficiencies"
-    body: "You gain proficiency with the Disguise Kit and Poisoner's Kit."
-  - title: "3rd Level: Assassinate"
-    body: "You are adept at getting the drop on a target, granting you the following benefits:\n\n**Initiative**. You have Advantage on Initiative rolls.\n\n**Surprising Strikes**. During the first round of each combat, you have Advantage on attack rolls against any creature that hasn't taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon's type equal to your Rogue level."
-  - title: "9th Level: Infiltration Expertise"
-    body: "You are an expert at posing as someone else to aid your infiltrations. While in a disguise created using your Disguise Kit, you have Advantage on any Charisma (Deception) check you make while pretending to be someone else. You can also unerringly mimic another person's speech, handwriting, or both if you have spent at least one hour studying each one."
-  - title: "13th Level: Envenom Weapons"
-    body: "When you use the Poison option of your Cunning Strike, the target also takes 2d6 Poison damage whenever it fails the saving throw. This damage ignores resistance to Poison damage."
-  - title: "17th Level: Death Strike"
-    body: "When you hit with your Sneak Attack on the first round of a combat, the target must succeed on a Constitution saving throw (DC 8 + your Dexterity modifier + your Proficiency Bonus), or the attack's damage is doubled against the target."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Swashbuckler":
   desc: "As a Swashbuckler, you focus on the art of the blade, bringing speed, elegance, and charm to your combat style—topped off with an exquisite flourish of panache. You excel in single combat, and your methods make a duel look like a flamboyant performance."
-  fields:
-  - title: "3rd Level: Fancy Footwork"
-    body: "You've learned how to land a strike and then slip away without reprisal. If you make a melee attack against a creature during your turn, that creature can't make Opportunity Attacks against you for the rest of that turn."
-  - title: "3rd Level: Rakish Audacity"
-    body: "When you roll Initiative, you can give yourself a bonus to the roll equal to your Charisma modifier.\n\nYou also gain an additional way to use your Sneak Attack; you don't need Advantage on the attack roll to use your Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have Disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you."
-  - title: "9th Level: Panache"
-    body: "You have practiced new ways to use your Sneak Attack. The following effects are now among your Cunning Strike options.\n\n***Goad (Cost: 1d6)***. The target must succeed on a Wisdom saving throw, or until the end of its next turn, the target has Disadvantage on attack rolls against targets other than you and can't make Opportunity Attacks against targets other than you.\n\n***Awe (Cost: 3d6)***. Each creature of your choice within 30 feet of you must succeed on a Wisdom saving throw or have the Charmed condition until the end of your next turn."
-  - title: "13th Level: Dashing Strikes"
-    body: "You have practiced new ways to use your Sneak Attack. The following effects are now among your Cunning Strike options.\n\n***Parrying Stance (Cost: 2d6)***. Roll a d6. Until the start of your next turn, you gain a bonus to your AC equal to the number rolled.\n\n***Invigorate (Cost: 2d6)***. Choose a creature you can see within 30 feet of yourself. Until the end of that creature's next turn, whenever it makes an attack roll or a saving throw, it can roll a d6 and add the number rolled to the attack roll or saving throw."
-  - title: "17th Level: Master Duelist"
-    body: "Immediately after you use your Sneak Attack, you can make another attack against the same target, provided you are within 5 feet of it and no other creatures are within 5 feet of you."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Thief":
   desc: "A mix of burglar, treasure hunter, and explorer, you are the consummate adventurer. In addition to improving your agility and stealthiness, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there."
-  fields:
-  - title: "3rd Level: Fast Hands"
-    body: "As a Bonus Action, you can do one of the following:\n\n**Sleight of Hand**. Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.\n\n**Use an Object**. Take the Use an Object action, or take the Magic action to use a magic item that requires that action."
-  - title: "3rd Level: Second-Story Work"
-    body: "You have trained to reach especially hard-to-reach places, granting you these benefits:\n\n**Climber**. You gain a Climb Speed equal to your Speed. On your turn, you can move on a ceiling without making an ability check, provided there is at least one handhold during the move, but you fall if you end the turn there without a handhold.\n\n**Jumper**. Your jump distance is determined by your Dexterity rather than your Strength."
-  - title: "9th Level: Supreme Sneak"
-    body: "You gain the following Cunning Strike option.\n\n***Stealth Attack (Cost: 1d6)***. If you have the Hide action's Invisible condition, this attack doesn't end that condition on you if you end the turn behind Three-Quarters Cover or Total Cover."
-  - title: "13th Level: Use Magic Device"
-    body: "In your treasure hunting, you have learned how to maximize use of magic items, granting you the following benefits:\n\n**Attunement**. You can attune to up to four magic items at once.\n\n**Charges**. Whenever you use a magic item property that expends charges, roll a d6. On a roll of 6, you use the property without expending the charges.\n\n**Scrolls**. You can use any Spell Scroll, using Intelligence as your Spellcasting Ability for the spell. If the spell is a cantrip or a 1st-level spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates."
-  - title: "17th Level: Thief's Reflexes"
-    body: "You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  source: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Sorcerer: Draconic Sorcery":
   desc: "Your innate magic comes from the gift of a dragon. Perhaps an ancient dragon facing death bequeathed some of its magical power to you or your ancestor. You might have absorbed magic from a site infused with dragons' power, perhaps the location where a great dragon was slain. Or perhaps you handled a treasure taken from a dragon's hoard, some precious item that was infused with draconic power. Or you might even claim a dragon for an ancestor or wield draconic magic by virtue of your Dragonborn heritage."
-  fields:
-  - title: "3rd Level: Draconic Resilience"
-    body: "The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3 and increases by 1 again whenever you gain another Sorcerer level.\n\nParts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 + your Dexterity modifier + your Charisma modifier."
-  - title: "3rd Level: Dragon Speech"
-    body: "Your draconic gift causes your speech to be understood by all creatures of the Dragon type, and you understand their communication."
-  - title: "6th Level: Elemental Affinity"
-    body: "Your draconic magic has an affinity with one of the damage types associated with dragons. Choose one of those types: Acid, Cold, Fire, Poison, or Lightning.\n\nYou have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell."
-  - title: "10th Level: Draconic Exhalation"
-    body: "Once per turn when you cast *Sorcerous Burst*, you can exhale it in a 15-foot cone rather than selecting a target within range. To cast the spell in this way, you must choose the damage type associated with your Elemental Affinity feature. When you do so, you make separate attack and damage rolls against each creature in the spell's cone."
-  - title: "14th Level: Dragon Wings"
-    body: "Your innate magic can now manifest as spectral draconic wings on your back. While your *Sorcery Incarnate* spell is active, you sprout those wings, gain a Fly Speed equal to your Speed, and can hover. In addition, at the end of each of your turns, you can flap the wings to unleash magical energy, dealing damage to each creature of your choice within 15 feet of yourself. The damage equals your Charisma modifier, and it is the damage type of your Elemental Affinity feature."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Sorcerer: Wild Magic Sorcery":
+  desc: "Your innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. However it came to be, this magic churns within you, waiting for any outlet."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock: Archfey Patron":
+  desc: "Your pact draws on the power of the Feywild, the mysterious realm of the Fey. When you choose this subclass, you might make a deal with a single mighty archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; Oberon, the Green Lord; Hyrsam, the Prince of Fools; or an ancient hag. Or you might call on a wide spectrum of Fey, forging a complex web of favors and debts. Your patron's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock: Celestial Patron":
+  desc: "Your pact draws on the power of the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or some similar entity associated with those realms. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience the barest touch of the holy light that illuminates the multiverse."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Warlock: Fiend Patron":
-  desc: "Your pact draws on the power of the Lower Planes of existence—the homes of demons, devils, yugoloths, and other Fiends. When you choose this subclass, you might forge a bargain with a demon lord such as Demogorgon, Orcus, Fraz'Urb-luu, or Baphomet; an archdevil such as Asmodeus, Dispater, Mephistopheles, or Belial; a pit fiend or balor that is especially mighty; or an ultroloth or some other lord of the yugoloths. Alternatively, you might call on a varied array of Fiends without binding yourself to the service of one. In any case, your patron’s aims are evil—the corruption or destruction of all things, ultimately including you—and your path will be defined by the extent to which you strive against those aims."
-  fields:
-  - title: "3rd Level: Patron Spells"
-    body: "The magic of your otherworldly patron grants you the following benefits:\n\n**Prepared Spells**. You always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.\n\n**Free Casting**. You can cast one of your prepared spells from this feature without expending a Spell Slot, and you must finish a Long Rest before you use this benefit again."
-  - title: "Fiend Spells Table"
-    body: "```\n| Warlock Level | Spells\n|---------------+-------------------------------\n| 3rd           | Burning Hands, Command\n| 5th           | Scorching Ray, Suggestion\n| 9th           | Fear, Stinking Cloud\n| 13th          | Blight, Wall of Fire\n| 17th          | Flame Strike, Insect Plague\n```"
-  - title: "3rd Level: Dark One's Blessing"
-    body: "When you reduce an enemy to 0 Hit Points or an enemy drops to 0 Hit Points within 5 feet of you, you gain Temporary Hit Points equal to your spellcasting ability modifier + your Warlock level (minimum of 1)."
-  - title: "6th Level: Dark One's Own Luck"
-    body: "You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.\n\nYou can use this feature a number of times equal to your spellcasting ability modifier (minimum of once), and you regain all uses when you finish a Long Rest."
-  - title: "10th Level: Fiendish Resilience"
-    body: "Channeling the preternatural resilience of Fiends, you can choose one damage type, other than Force, whenever you finish a Short Rest or Long Rest. You gain Resistance to that damage type until you choose a different one with this feature."
-  - title: "14th Level: Hurl through Hell"
-    body: "When you hit a creature with an attack roll, you can use this feature to instantly transport the target through the Lower Planes. The creature disappears and hurtles through a nightmare landscape.\n\nAt the end of your next turn, the target returns to the space it previously occupied or the nearest unoccupied space. If the target is not a Fiend, it must make a Wisdom saving throw against your Spell Save Dc upon its return. On a failed save, the target takes 10d10 Psychic damage. On a successful save, it takes half as much damage.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again. You can use this feature only once per turn."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  desc: "Your pact draws on the power of the Lower Planes—the homes of demons, devils, yugoloths, and other Fiends. When you choose this subclass, you might forge a bargain with a demon lord such as Demogorgon, Orcus, Fraz'Urb-luu, or Baphomet; an archdevil such as Asmodeus, Dispater, Mephistopheles, or Glasya; a pit fiend or balor that is especially mighty; or an ultroloth or some other lord of the yugoloths. Alternatively, you might call on a varied array of Fiends without binding yourself to the service of one. In any case, your patron's aims are evil—the corruption or destruction of all things, ultimately including you—and your path will be defined by the extent to which you strive against those aims."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock: Great Old One Patron":
+  desc: "Your pact is rooted in magic that is utterly foreign to the fabric of reality. When you choose this subclass, you might bind yourself to an ineffable being from the Far Realm or an elder god known only in legend—a being such as Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; or some other unfathomable and uncaring being. Or you might rely on eldritch lore invoking the names of several such entities, without yoking yourself to one in particular. The motives of these beings are incomprehensible to mortals, and their knowledge is so immense and ancient that even the greatest libraries pale in comparison to the vast secrets they hold. The Great Old One might be indifferent to your existence, but the secrets you have learned nevertheless allow you to draw your magic from it."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Wizard: Abjurer":
+  desc: "Your study of magic is focused on spells that block, banish, or protect—ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when important locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value Abjurers for the protection they provide their companions against a variety of hostile magic and other attacks."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Wizard: Diviner":
+  desc: "The counsel of a Diviner is sought by those who seek a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness so you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Wizard: Evoker":
   desc: "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some Evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as adventurers."
-  fields:
-  - title: "3rd Level: Evocation Savant"
-    body: "Choose two Evocation spells from the Arcane spell list, each of which must be no higher than 2nd level. You add those spells to your spellbook without needing to cast Scribe Spell.\n\nIn addition, whenever you cast *Scribe Spell* to add a spell to your spellbook, the gold cost and casting time you must spend to add an Evocation spell to your spellbook is halved."
-  - title: "3rd Level: Sculpt Spells"
-    body: "You can create pockets of relative safety within the effects of your evocations. When you cast an Evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
-  - title: "6th Level: Potent Cantrip"
-    body: "Your damaging cantrips affect even creatures that avoid the brunt of the effect. When you cast a cantrip at a creature and you miss with the attack roll or the target succeeds on a saving throw against the cantrip, the target takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
-  - title: "10th Level: Empowered Evocation"
-    body: "Whenever you cast an Evocation spell from the Arcane spell list, you can add your Intelligence modifier to one damage roll of that spell."
-  - title: "14th Level: Overchannel"
-    body: "You can increase the power of your spells. When you cast an Arcane or a Wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.\n\nThe first time you do so, you suffer no adverse effect. If you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12. This damage ignores Resistance and Immunity."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Wizard: Illusionist":
+  desc: "You focus your study on magic that dazzles the senses and tricks the mind. Your magic is subtle, but the illusions you craft make the impossible seem real. Some Illusionists—including many Gnome Wizards—are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain."
+  source: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"

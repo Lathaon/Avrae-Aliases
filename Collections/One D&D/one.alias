@@ -1,8 +1,8 @@
 <drac2>
 using(
-    embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
-    int_lib = "b7c014b7-e267-463c-bc60-8cf9651031fb",
-    fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817"
+    embeds    = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
+    int_lib   = "b7c014b7-e267-463c-bc60-8cf9651031fb",
+    one_fuzzy = "893a6e51-d09a-4dae-a303-762f169f2a1f"
 )
 
 if embeds.on_cooldown():
@@ -11,7 +11,7 @@ if embeds.on_cooldown():
 GLOSSARY = load_yaml(get_gvar("361956a4-3284-4066-a037-cadcd5c15a83"))
 
 if search := """&*&""":
-    match fuzzy.get_matches_ignoring_punctuation(search, GLOSSARY):
+    match one_fuzzy.get_matches(search, GLOSSARY):
         # No matches.
         case []:
             err(f"`{search}` did not match any terms. See `{ctx.prefix}{ctx.alias}` for a list of supported terms.")
@@ -25,27 +25,9 @@ if search := """&*&""":
                 "footer": f"{ctx.prefix}{ctx.alias} [rules term] | @lathaon"
             } | GLOSSARY[term]
 
-            if term == "Artificer Spell List":
-                spellcaster = "Artificer"
+            if term.endswith(" Spell List"):
+                spellcaster = term[:-11]
                 CLASS_SPELL_LISTS = load_yaml(get_gvar("a3c6caee-2ea0-4c63-bb3c-23cae9f273f5"))
-                SPELL_LEVELS = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
-                out["fields"] = [
-                    {
-                        "title": int_lib.ordinal(i) + " Level",
-                        "body": ",\n".join(i_level_spells),
-                        "inline": True
-                    }
-                    for i in range(10)
-                    if (i_level_spells := [
-                        x
-                        for x in CLASS_SPELL_LISTS[spellcaster]
-                        if SPELL_LEVELS.get(x) == i
-                    ])
-                ]
-            elif term in ("Arcane Spell List", "Divine Spell List", "Primal Spell List"):
-                category = term[:-11]
-                SPELL_CATEGORIES = load_yaml(get_gvar("11d32d4a-9d62-4411-aa82-3711b3944b55"))
-                SPELL_CATEGORIES_REC = load_yaml(get_gvar("2ad77f4b-7b7c-4741-99b8-7cb4571598a3"))
                 SPELL_LEVELS = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
                 SPELLS_BY_SCHOOL = load_yaml(get_gvar("5a794008-0adc-41c2-9de5-7fb7a9ff7f67"))
                 NEW_SCHOOL = load_yaml(get_gvar("c2472a43-15fc-44da-9e54-bf32f0c7af90"))
@@ -66,31 +48,20 @@ if search := """&*&""":
 
                 out["fields"] = [
                     {
-                        "title": int_lib.ordinal(i) + " Level",
+                        "title": (f"Level {i} Spells" if i else "Cantrips"),
                         "body": "\n".join(i_level_spells),
                         "inline": True
                     }
                     for i in range(10)
                     if (i_level_spells := [
                         spell_details(x)
-                        for x in SPELL_CATEGORIES[category]
-                        if SPELL_LEVELS.get(x) == i
-                    ] + [
-                        "_"+spell_details(x)+"_"
-                        for x in SPELL_CATEGORIES_REC[category]
+                        for x in CLASS_SPELL_LISTS[spellcaster]
                         if SPELL_LEVELS.get(x) == i
                     ])
                 ]
 
-                out.fields.append({
-                    "body": (
-                        "**_SPELLS IN ITALICS ARE RECOMMENDED BY LATHAON BASED ON 5E AVAILABILITY, "
-                        "NOT SPECIFIED IN THE PLAYTEST PACKETS_**"
-                    )
-                })
-
             out.fields.append({
-                "body": "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+                "body": "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
             })
 
         # Matches multiple things.

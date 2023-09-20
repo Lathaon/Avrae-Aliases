@@ -1,8 +1,8 @@
 <drac2>
 using(
-    embeds  = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
-    fuzzy   = "6431690e-ce47-4baa-bb3b-ba751e1a1817",
-    int_lib = "b7c014b7-e267-463c-bc60-8cf9651031fb"
+    embeds    = "72fea181-ba03-4cb4-8edf-1f3bc5a49578",
+    one_fuzzy = "893a6e51-d09a-4dae-a303-762f169f2a1f",
+    int_lib   = "b7c014b7-e267-463c-bc60-8cf9651031fb"
 )
 
 if embeds.on_cooldown():
@@ -11,7 +11,7 @@ if embeds.on_cooldown():
 CLASSES = load_yaml(get_gvar("59b76239-1bc1-4193-9025-d17539d824db"))
 
 def get_matching_class(search):
-    match fuzzy.get_matches_ignoring_punctuation(search, CLASSES):
+    match one_fuzzy.get_matches(search, CLASSES):
         # No matches.
         case []:
             err(f"`{search}` did not match any Classes. See `{ctx.prefix}{ctx.alias} class` for a list of supported Classes. For 5e Classes, use `/lookup class` instead.")

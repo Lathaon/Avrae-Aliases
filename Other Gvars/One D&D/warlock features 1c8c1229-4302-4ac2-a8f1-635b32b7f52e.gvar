@@ -2,235 +2,314 @@
 # One D&D Warlock Class Features
 # load_yaml(get_gvar("1c8c1229-4302-4ac2-a8f1-635b32b7f52e"))
 
-"Warlock: Pact Boon":
-  title: "Warlock 1st Level: Pact Boon"
-  desc: "You have formed a pact with an otherworldly entity that has bestowed magical powers upon you. You always have the *Eldritch Blast* and *Hex* spells prepared, and you choose one of the following boons: Pact of the Blade, Pact of the Chain, or Pact of the Tome, each of which is detailed below. You determine the identity of the entity and choose its plane of existence, such as the Feywild, the Shadowfell, or an Outer Plane.\n\nEach boon gives you a choice for the spellcasting ability used by your Spellcasting feature, and it gives you a pact spell that you always have prepared."
+"Warlock: Eldritch Invocations":
+  title: "Warlock Level 1: Eldritch Invocations"
+  desc: "In your study of occult lore, you have unearthed Eldritch Invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability or other lessons. You gain one invocation of your choice, such as Pact of the Blade or Pact of the Tome. Invocations are described in the \"Eldritch Invocation Options\" section later in this class's description.\n\nIf an invocation has a prerequisite, you must meet it to learn that invocation, and you can learn the invocation at the same time that you meet its prerequisite. For example, if an invocation requires you to be a Warlock of level 5 or higher, you can select the invocation when you reach level 5 in this class.\n\nWhen you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock table.\n\nYou can't pick the same invocation more than once unless an invocation's description says otherwise."
   fields:
-  - title: "Pact of the Blade"
-    body: "**Spellcasting Ability**: Wisdom or Charisma\n**Pact Spell**: *Pact Weapon*"
-  - title: "Pact of the Chain"
-    body: "**Spellcasting Ability**: Intelligence or Charisma\n**Pact Spell**: *Pact Familiar*"
-  - title: "Pact of the Tome"
-    body: "**Spellcasting Ability**: Intelligence or Wisdom\n**Pact Spell**: *Book of Shadows*"
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - title: "Warlock Table: Invocations"
+    body: "```\n| Level | Invocations\n|-------+-------------\n|    1  |       1\n|    2  |       3\n|    3  |       3\n|    4  |       3\n|    5  |       5\n|    6  |       5\n|    7  |       6\n|    8  |       6\n|    9  |       7\n|   10  |       7\n|   11  |       7\n|   12  |       8\n|   13  |       8\n|   14  |       8\n|   15  |       9\n|   16  |       9\n|   17  |       9\n|   18  |      10\n|   19  |      10\n|   20  |      10\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Warlock: Spellcasting":
-  title: "Warlock 1st Level: Spellcasting"
-  desc: "Delving into eldritch secrets, you have learned how to cast spells. See the [Player's Handbook](https://www.dndbeyond.com/sources/phb) for the rules on spellcasting. The information below details how you use those rules as a Warlock."
+"Warlock: Pact Magic":
+  title: "Warlock Level 1: Pact Magic"
+  desc: "Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as a Warlock."
   fields:
   - title: "Cantrips"
-    body: "You know two cantrips of your choice from the Arcane spell list. Rather than choosing, you may start with *Chill Touch* and *Prestidigitation*. Whenever you gain a Warlock level, you can replace one of your cantrips with another Arcane cantrip of your choice.\n\nWhen you reach 4th and 10th level in this class, you learn another Arcane cantrip of your choice, as shown in the Cantrips column of the Warlock table."
+    body: "You know two cantrips of your choice from the Warlock spell list. Rather than choosing, you may start with _Eldritch Blast_ and _Prestidigitation_. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.\n\nWhen you reach levels 4 and 10 in this class, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock table."
   - title: "Spell Slots"
-    body: "The Warlock table shows how many Spell Slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended Spell Slots when you finish a Long Rest."
-  - title: "Prepared Spells of 1st+ Level"
-    body: "You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose two 1st-level spells from the Arcane spell list. Rather than choosing, you may start with *Charm Person* and *Witch Bolt*.\n\nThe number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock table. Whenever that number increases, choose additional spells from the Arcane spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have Spell Slots. For example, if you're a 5th-level Warlock, your list of prepared spells can include six Arcane spells of 1st or 2nd level, in any combination.\n\nIf another Warlock feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature."
+    body: "The Warlock table shows how many spell slots you have to cast your spells of levels 1–5. The table also shows the level of those slots, all of which are the same level. To cast one of those spells, you must expend a spell slot. You regain all expended spell slots when you finish a Long Rest.\n\nFor example, when you're a level 5 Warlock, you have two level 3 spell slots. To cast the level 1 spell _Witch Bolt_, you must spend one of those slots, and you cast it as a level 3 spell."
+  - title: "Prepared Spells of Level 1+"
+    body: "You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose two level 1 spells from the Warlock spell list. Rather than choosing, you may start with _Charm Person_ and _Hex_.\n\nThe number of spells on your list increases as you gain Warlock levels, as shown in the Prepared Spells column of the Warlock table. Whenever that number increases, choose additional spells from the Warlock spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach level 6, for example, you learn a new Warlock spell, which can be of level 1–3.\n\nIf another Warlock feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this feature, but those spells otherwise follow the rules in this feature."
   - title: "Changing Your Prepared Spells"
-    body: "Whenever you gain a Warlock level, you can replace one spell on your list with another Arcane spell for which you have Spell Slots."
+    body: "Whenever you gain a Warlock level, you can replace one spell on your list with another Warlock spell of an eligible level."
   - title: "Spellcasting Ability"
-    body: "Your Pact Boon feature determines the spellcasting ability for the spells you cast with your Warlock features."
+    body: "Charisma is the spellcasting ability for the spells you cast with your Warlock features."
   - title: "Spellcasting Focus"
     body: "You can use an Arcane Focus as a Spellcasting Focus for the spells you cast with your Warlock features."
-  - title: "Warlock Table: Cantrips and Prepared Spells"
-    body: "```\n| Level | Cantrips | Prepared Spells\n|-------+----------+-----------------\n|   1st |     2    |    2\n|   2nd |     2    |    3\n|   3rd |     2    |    4\n|   4th |     3    |    5\n|   5th |     3    |    6\n|   6th |     3    |    6\n|   7th |     3    |    7\n|   8th |     3    |    7\n|   9th |     3    |    9\n|  10th |     4    |    9\n|  11th |     4    |   10\n|  12th |     4    |   10\n|  13th |     4    |   11\n|  14th |     4    |   11\n|  15th |     4    |   12\n|  16th |     4    |   12\n|  17th |     4    |   14\n|  18th |     4    |   14\n|  19th |     4    |   15\n|  20th |     4    |   15\n```"
-  - title: "Warlock Table: Spell Slots"
-    body: "```\n| Level | 1st 2nd 3rd 4th 5th\n|-------+---------------------\n|   1st |  2   —   —   —   —\n|   2nd |  2   —   —   —   —\n|   3rd |  3   —   —   —   —\n|   4th |  3   —   —   —   —\n|   5th |  4   2   —   —   —\n|   6th |  4   2   —   —   —\n|   7th |  4   3   —   —   —\n|   8th |  4   3   —   —   —\n|   9th |  4   3   2   —   —\n|  10th |  4   3   2   —   —\n|  11th |  4   3   3   —   —\n|  12th |  4   3   3   —   —\n|  13th |  4   3   3   1   —\n|  14th |  4   3   3   1   —\n|  15th |  4   3   3   2   —\n|  16th |  4   3   3   2   —\n|  17th |  4   3   3   3   1\n|  18th |  4   3   3   3   1\n|  19th |  4   3   3   3   2\n|  20th |  4   3   3   3   2\n```"
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - title: "Warlock Table: Pact Magic"
+    body: "```\n|       |          |  Spells  | Spell |  Slot\n| Level | Cantrips | Prepared | Slots | Level\n|-------+----------+----------+-------+-------\n|    1  |     2    |     2    |   1   |   1\n|    2  |     2    |     3    |   2   |   1\n|    3  |     2    |     4    |   2   |   2\n|    4  |     3    |     5    |   2   |   2\n|    5  |     3    |     6    |   2   |   3\n|    6  |     3    |     6    |   2   |   3\n|    7  |     3    |     7    |   2   |   4\n|    8  |     3    |     7    |   2   |   4\n|    9  |     3    |     9    |   2   |   5\n|   10  |     4    |     9    |   2   |   5\n|   11  |     4    |    10    |   3   |   5\n|   12  |     4    |    10    |   3   |   5\n|   13  |     4    |    11    |   3   |   5\n|   14  |     4    |    11    |   3   |   5\n|   15  |     4    |    12    |   3   |   5\n|   16  |     4    |    12    |   3   |   5\n|   17  |     4    |    14    |   4   |   5\n|   18  |     4    |    14    |   4   |   5\n|   19  |     4    |    15    |   4   |   5\n|   20  |     4    |    15    |   4   |   5\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Warlock: Eldritch Invocations":
-  title: "Warlock 2nd Level: Eldritch Invocations"
-  desc: "In your study of occult lore, you have unearthed Eldritch Invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability or other lessons.\n\nYou gain two Eldritch Invocations of your choice from the \"Eldritch Invocation Options\" section later in this class's description. You can't pick the same invocation more than once unless an invocation's description says otherwise.\n\nIf an invocation has a prerequisite, you must meet it to learn that invocation, and you can learn the invocation at the same time that you meet its prerequisite. For example, if an invocation requires you to be a 5th-level Warlock, you can select the invocation when you reach 5th level in this class.\n\nWhen you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock table. Additionally, whenever you gain a Warlock level, you can choose one of the invocations you know and replace it with another invocation for which you qualify, or if the invocation (such as Mystic Arcanum) involved a choice, you can replace the invocation with itself but make a different choice."
+"Warlock: Magical Cunning":
+  title: "Warlock Level 2: Magical Cunning"
+  desc: "If all your Pact Magic spell slots are expended, you can perform an esoteric rite for 1 minute, at the end of which you regain half of those spell slots (round up). Once you use this feature, you can't do so again until you finish a Long Rest."
   fields:
-  - title: "At 5th, 7th, 9th, 11th, 13th, 15th, and 17th Level"
-    body: "You gain another Eldritch Invocation of your choice for which you qualify."
-  - title: "Warlock Table: Invocations"
-    body: "```\n| Level | Invocations\n|-------+-------------\n|   1st | —\n|   2nd | 2\n|   3rd | 2\n|   4th | 2\n|   5th | 3\n|   6th | 3\n|   7th | 4\n|   8th | 4\n|   9th | 5\n|  10th | 5\n|  11th | 6\n|  12th | 6\n|  13th | 7\n|  14th | 7\n|  15th | 8\n|  16th | 8\n|  17th | 9\n|  18th | 9\n|  19th | 9\n|  20th | 9\n```"
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Agonizing Blast":
-  title: "Warlock Eldritch Invocation: Agonizing Blast"
-  desc: "*Prerequisite: None*\n\nWhenever you cast *Eldritch Blast*, you can add your spellcasting ability modifier to the spell's damage rolls."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Armor of Shadows":
-  title: "Warlock Eldritch Invocation: Armor of Shadows"
-  desc: "*Prerequisite: None*\n\nYou can cast *Mage Armor* on yourself without expending a Spell Slot or using Material components."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Ascendant Step":
-  title: "Warlock Eldritch Invocation: Ascendant Step"
-  desc: "*Prerequisite: 9th-level Warlock or Higher*\n\nYou can cast *Levitate* on yourself without expending a Spell Slot or using Material components."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Beast Speech":
-  title: "Warlock Eldritch Invocation: Beast Speech"
-  desc: "*Prerequisite: None*\n\nYou can cast *Speak with Animals* without expending a Spell Slot."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Devil's Sight":
-  title: "Warlock Eldritch Invocation: Devil's Sight"
-  desc: "*Prerequisite: None*\n\nYou can see normally in darkness—both magical and nonmagical—to a distance of 120 feet."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Eldritch Sight":
-  title: "Warlock Eldritch Invocation: Eldritch Sight"
-  desc: "*Prerequisite: None*\n\nYou can cast *Detect Magic* without expending a Spell Slot."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Eldritch Spear":
-  title: "Warlock Eldritch Invocation: Eldritch Spear"
-  desc: "*Prerequisite: None*\n\nWhen you cast *Eldritch Blast*, its range is 300 feet."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Eyes of the Rune Keeper":
-  title: "Warlock Eldritch Invocation: Eyes of the Rune Keeper"
-  desc: "*Prerequisite: None*\n\nYou can read all writing. This ability doesn't decode secret messages in a text; you read the surface meaning and must rely on other capabilities to decode something."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Favor of the Chain Master":
-  title: "Warlock Eldritch Invocation: Favor of the Chain Master"
-  desc: "*Prerequisite: 9th-level Warlock or Higher, Pact of the Chain Feature*\n\nYour bond with the familiar summoned by your *Pact Familiar* spell grows more powerful. Whenever the familiar hits with its Eldritch Strike, the target experiences the following effect associated with the familiar's creature type:\n\n**Aberration: Slowing Slime**. The target's Speed is reduced by 15 feet until the end of your next turn, and during that time, it can't take the Dash or Disengage actions.\n\n**Celestial: Guiding Light**. The next attack roll against the target before the end of your next turn has Advantage, and if the target has the Invisible condition, that condition is suppressed for the duration.\n\n**Dragon: Draconic Might**. If the target is Medium or smaller, it has the Prone condition.\n\n**Fey: Beguiling Sting**. The target has the Charmed condition until the end of your next turn and perceives both you and the familiar as the charmer.\n\n**Fiend: Unearthly Toxin**. The target has the Poisoned condition until the end of your next turn.\n\n**Undead: Whispers of the Grave**. The target has the Frightened condition until the end of your next turn. You choose whether the target is frightened of you or the familiar."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Fiendish Vigor":
-  title: "Warlock Eldritch Invocation: Fiendish Vigor"
-  desc: "*Prerequisite: None*\n\nYou can cast *False Life* on yourself without expending a Spell Slot or using Material components."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Gaze of Two Minds":
-  title: "Warlock Eldritch Invocation: Gaze of Two Minds"
-  desc: "*Prerequisite: 5th-level Warlock or Higher*\n\nYou can use a Bonus Action to touch a willing Humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn.\n\nWhile perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature's space."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Gift of the Protectors":
-  title: "Warlock Eldritch Invocation: Gift of the Protectors"
-  desc: "*Prerequisite: 9th-level Warlock or Higher, Pact of the Tome Feature*\n\nA new page appears in your Book of Shadows when you conjure it. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your Proficiency Bonus.\n\nWhen any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.\n\nAs a Magic action, you can erase a name on the page by touching it."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Hexer":
-  title: "Warlock Eldritch Invocation: Hexer"
-  desc: "*Prerequisite: None*\n\nWhen you cast *Hex*, its range is 600 feet, and you have Advantage on any Constitution saving throw you make to maintain your Concentration on the spell."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Lessons of the First Ones":
-  title: "Warlock Eldritch Invocation: Lessons of the First Ones"
-  desc: "*Prerequisite: None*\n\nYou have received knowledge from an elder entity of the multiverse, allowing you to gain one feat of your choice, such as Skilled, that is available to 1st-level characters and that lacks prerequisites."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Lifedrinker":
-  title: "Warlock Eldritch Invocation: Lifedrinker"
-  desc: "*Prerequisite: 9th-level Warlock or Higher, Pact of the Blade Feature*\n\nWhen you hit a creature with the weapon of your *Pact Weapon* spell, the creature takes an extra 1d6 Necrotic damage. In addition, the first time you deal Necrotic damage with this invocation on each of your turns, you regain a number of Hit Points equal to the Necrotic damage dealt."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Mask of Many Faces":
-  title: "Warlock Eldritch Invocation: Mask of Many Faces"
-  desc: "*Prerequisite: None*\n\nYou can cast *Disguise Self* without expending a Spell Slot."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Master of Myriad Forms":
-  title: "Warlock Eldritch Invocation: Master of Myriad Forms"
-  desc: "*Prerequisite: 15th-level Warlock or Higher*\n\nYou can cast *Alter Self* without expending a Spell Slot."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Misty Visions":
-  title: "Warlock Eldritch Invocation: Misty Visions"
-  desc: "*Prerequisite: None*\n\nYou can cast *Silent Image* without expending a Spell Slot or using Material components."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Mystic Arcanum":
-  title: "Warlock Eldritch Invocation: Mystic Arcanum"
-  desc: "*Prerequisite: 5th-level Warlock or Higher*\n\nYour explorations of the arcane have unlocked magic within you. Choose one spell from the Arcane spell list that has a level for which you qualify, as shown on the Mystic Arcanum table. Look for your Warlock level on the table to see the maximum level that the spell can have.\n\nYou can cast the chosen spell once without expending a Spell Slot, and you must finish a Long Rest before you can do so again.\n\nRepeatable. You can take this invocation more than once. Each time you do so, the spell you gain must be of a different level from any other spell you've chosen for this invocation."
-  fields:
-  - title: "Mystic Arcanum Table"
-    body: "```\n| Warlock Level | Max. Spell Level\n|---------------+------------------\n| 5th–6th       | 3rd\n| 7th–8th       | 4th\n| 9th–10th      | 5th\n| 11th–12th     | 6th\n| 13th–14th     | 7th\n| 15th–16th     | 8th\n| 17th+         | 9th\n```"
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: One with Shadows":
-  title: "Warlock Eldritch Invocation: One with Shadows"
-  desc: "*Prerequisite: 5th-level Warlock or Higher*\n\nWhen you are in an area of Dim Light or Darkness, you can use your action to have the Invisible condition until you move or take an action, a Bonus Action, or a Reaction."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Otherworldly Leap":
-  title: "Warlock Eldritch Invocation: Otherworldly Leap"
-  desc: "*Prerequisite: 9th-level Warlock or Higher*\n\nYou can cast *Jump* on yourself without expending a Spell Slot or using Material components."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Repelling Blast":
-  title: "Warlock Eldritch Invocation: Repelling Blast"
-  desc: "*Prerequisite: Non*e\n\nWhenever you hit a creature that is Large or smaller with *Eldritch Blast*, you can push that creature horizontally up to 10 feet straight away from you."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Visions of Distant Realms":
-  title: "Warlock Eldritch Invocation: Visions of Distant Realms"
-  desc: "*Prerequisite: 15th-level Warlock or Higher*\n\nYou can cast *Arcane Eye* without expending a Spell Slot."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Whispers of the Grave":
-  title: "Warlock Eldritch Invocation: Whispers of the Grave"
-  desc: "*Prerequisite: 9th-level Warlock or Higher*\n\nYou can cast *Speak with Dead* without expending a Spell Slot."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Warlock: Eldritch Invocations: Witch Sight":
-  title: "Warlock Eldritch Invocation: Witch Sight"
-  desc: "*Prerequisite: 15th-level Warlock or Higher*\n\nYou have Truesight with a range of 30 feet."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Warlock: Warlock Subclass":
-  title: "Warlock 3rd Level: Warlock Subclass"
-  desc: "You gain the Fiend Patron subclass or another Warlock subclass of your choice. The Fiend Patron subclass is detailed after the Warlock's class description, and other subclasses will appear in future Unearthed Arcana articles.\n\nA subclass is a specialization that grants you special abilities at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level and lower. This class's description tells you the levels when your subclass provides features."
+  title: "Warlock Level 3: Warlock Subclass"
+  desc: "You gain a Warlock subclass of your choice: Archfey Patron, Celestial Patron, Fiend Patron, or Great Old One Patron. Subclasses are detailed after this class's description.\n\nA subclass is a specialization that grants you special features at certain Warlock levels. For the rest of your career, you gain each of your subclass's features that are of your Warlock level and lower."
   fields:
-  - title: "At 6th, 10th, and 14th Level"
+  - title: "At Levels 6, 10, and 14"
     body: "You gain a feature from your Warlock subclass."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Warlock: Feat":
-  title: "Warlock 4th Level: Feat"
-  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+"Warlock: Ability Score Improvement":
+  title: "Warlock Level 4: Ability Score Improvement"
+  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.\n\nAs shown on the Warlock table, you gain this feature again at levels 8, 12, 16, and 19."
   fields:
-  - title: "At 8th, 12th, 16th, and 19th Level"
-    body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Warlock: Contact Patron":
-  title: "Warlock 11th Level: Contact Patron"
-  desc: "In the past, you have usually contacted your patron through intermediaries. Now you can communicate directly; you always have the *Contact Other Plane* spell prepared. With this feature, you can cast the spell without expending a Spell Slot to contact your patron, and you automatically succeed on the spell's saving throw.\n\nOnce you cast the spell with this feature, you can't do so again until you finish a Long Rest."
+  title: "Warlock Level 9: Contact Patron"
+  desc: "In the past, you usually contacted your patron through intermediaries. Now you can communicate directly; you always have the _Contact Other Plane_ spell prepared. With this feature, you can cast the spell without expending a spell slot to contact your patron, and you automatically succeed on the spell's saving throw.\n\nOnce you cast the spell with this feature, you can't do so again until you finish a Long Rest."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Warlock: Hex Master":
-  title: "Warlock 18th Level: Hex Master"
-  desc: "You have mastered the dread application of hexes, allowing you to cast the *Hex* spell without expending a Spell Slot."
+"Warlock: Mystic Arcanum":
+  title: "Warlock Level 11: Mystic Arcanum"
+  desc: "Your patron bestows on you a magical secret called an arcanum. Choose one level 6 spell from the Warlock spell list as this arcanum.\n\nYou can cast your arcanum spell once without expending a spell slot, and you must finish a Long Rest before you can do so again.\n\nAs shown on the Warlock table, you gain another Warlock spell of your choice that can be cast in this way when you reach levels 13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 spell). You regain all uses of your Mystic Arcanum when you finish a Long Rest.\n\nWhenever you gain a Warlock level, you can replace one of your arcanum spells with another Warlock spell of the same level."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Warlock: Epic Boon":
-  title: "Warlock 20th Level: Epic Boon"
-  desc: "You gain the following benefits:\n\n**Ability Score Increase**. The ability score you chose for your Pact Boon increases by 2, and its maximum is now 30.\n\n**Epic Boon Feat**. You gain the Epic Boon of the Night Spirit or another Epic Boon feat of your choice."
+"Warlock: Eldritch Master":
+  title: "Warlock Level 20: Eldritch Master"
+  desc: "When you use your Magical Cunning feature, you regain all your expended Pact Magic spell slots."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# =========================================
+# WARLOCK: ELDRITCH INVOCATION OPTIONS
+# =========================================
+
+"Warlock Eldritch Invocation: Agonizing Blast":
+  title: "Warlock Eldritch Invocation Option: Agonizing Blast"
+  desc: "_Prerequisite: At Least One Warlock Cantrip_\n\nChoose one of your known Warlock cantrips that deals damage. You can add your spellcasting ability modifier to that spell's damage rolls.\n\nWhenever you gain a Warlock level, you can change which of your damaging Warlock cantrips benefits from this invocation."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Armor of Shadows":
+  title: "Warlock Eldritch Invocation Option: Armor of Shadows"
+  desc: "_Prerequisite: None_\n\nYou can cast _Mage Armor_ on yourself without expending a spell slot."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Ascendant Step":
+  title: "Warlock Eldritch Invocation Option: Ascendant Step"
+  desc: "_Prerequisite: Level 5+ Warlock_\n\nYou can cast _Levitate_ on yourself without expending a spell slot."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Devil's Sight":
+  title: "Warlock Eldritch Invocation Option: Devil's Sight"
+  desc: "_Prerequisite: None_\n\nYou can see normally in Dim Light and Darkness—both magical and nonmagical—within 120 feet."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Eldritch Mind":
+  title: "Warlock Eldritch Invocation Option: Eldritch Mind"
+  desc: "_Prerequisite: None_\n\nYou have Advantage on Constitution saving throws that you make to maintain Concentration on a spell."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Eldritch Smite":
+  title: "Warlock Eldritch Invocation Option: Eldritch Smite"
+  desc: "_Prerequisite: Level 5+ Warlock, Pact of the Blade_\n\nOnce per turn when you hit a creature with your pact weapon, you can expend a Warlock spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Eldritch Spear":
+  title: "Warlock Eldritch Invocation Option: Eldritch Spear"
+  desc: "_Prerequisite: At Least One Warlock Cantrip_\n\nChoose one of your known Warlock cantrips that deals damage and that has a range of at least 10 feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.\n\nWhenever you gain a Warlock level, you can change which of your damaging Warlock cantrips benefits from this invocation."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Fiendish Vigor":
+  title: "Warlock Eldritch Invocation Option: Fiendish Vigor"
+  desc: "_Prerequisite: None_\n\nYou can cast _False Life_ on yourself without expending a spell slot. When you cast the spell with this feature, you don't roll the die for the Temporary Hit Points; you automatically get the highest number on the die."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Gaze of Two Minds":
+  title: "Warlock Eldritch Invocation Option: Gaze of Two Minds"
+  desc: "_Prerequisite: Level 5+ Warlock_\n\nYou can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don't maintain it in this way.\n\nWhile perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature's space if the two of you are within 60 feet of each other."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Gift of the Depths":
+  title: "Warlock Eldritch Invocation Option: Gift of the Depths"
+  desc: "_Prerequisite: Level 5+ Warlock_\n\nYou can breathe underwater, and you gain a Swim Speed equal to your Speed.\n\nYou can also cast _Water Breathing_ once without expending a spell slot. You regain the ability to do so when you finish a Long Rest."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Gift of the Protectors":
+  title: "Warlock Eldritch Invocation Option: Gift of the Protectors"
+  desc: "_Prerequisite: Level 9+ Warlock, Pact of the Tome_\n\nA new page appears in your Book of Shadows when you conjure it. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your Proficiency Bonus.\n\nWhen any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.\n\nAs a Magic action, you can erase a name on the page by touching it."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Investment of the Chain Master":
+  title: "Warlock Eldritch Invocation Option: Investment of the Chain Master"
+  desc: "_Prerequisite: Level 5+ Warlock, Pact of the Chain_\n\nWhen you cast _Find Familiar_, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:\n\n**Aerial or Aquatic**. The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.\n\n**Quick Attack**. As a Bonus Action, you can command the familiar to take the Attack action.\n\n**Necrotic or Radiant Damage**. Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.\n\n**Your Save DC**. If the familiar forces a creature to make a saving throw, it uses your spell save DC.\n\n**Resistance**. When the familiar takes damage, you can use your Reaction to grant it Resistance against that damage."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Lessons of the First Ones":
+  title: "Warlock Eldritch Invocation Option: Lessons of the First Ones"
+  desc: "_Prerequisite: Level 2+ Warlock_\n\nYou have received knowledge from an elder entity of the multiverse, allowing you to gain one feat of your choice, such as Skilled, that lacks prerequisites."
+  fields:
+  - title: "Repeatable"
+    body: "You can gain this invocation more than once. Each time you do so, you must select a different eligible feat."
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Lifedrinker":
+  title: "Warlock Eldritch Invocation Option: Lifedrinker"
+  desc: "_Prerequisite: Level 9+ Warlock, Pact of the Blade\n\nWhen you hit a creature with your pact weapon, the creature takes 1d6 extra Necrotic, Psychic, or Radiant damage (your choice), and you can expend one of your Hit Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1)."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Mask of Many Faces":
+  title: "Warlock Eldritch Invocation Option: Mask of Many Faces"
+  desc: "_Prerequisite: None_\n\nYou can cast _Disguise Self_ without expending a spell slot."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Master of Myriad Forms":
+  title: "Warlock Eldritch Invocation Option: Master of Myriad Forms"
+  desc: "_Prerequisite: Level 5+ Warlock_\n\nYou can cast _Alter Self_ without expending a spell slot."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Misty Visions":
+  title: "Warlock Eldritch Invocation Option: Misty Visions"
+  desc: "_Prerequisite: None_\n\nYou can cast _Silent Image_ without expending a spell slot."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: One with Shadows":
+  title: "Warlock Eldritch Invocation Option: One with Shadows"
+  desc: "_Prerequisite: Level 5+ Warlock_\n\nWhen you are in an area of Dim Light or Darkness, you can cast _Invisibility_ on yourself without expending a spell slot."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Otherworldly Leap":
+  title: "Warlock Eldritch Invocation Option: Otherworldly Leap"
+  desc: "_Prerequisite: Level 2+ Warlock_\n\nYou can cast _Jump_ on yourself without expending a spell slot."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Pact of the Blade":
+  title: "Warlock Eldritch Invocation Option: Pact of the Blade"
+  desc: "_Prerequisite: None_\n\nAs a Bonus Action, you can trace arcane sigils in the air to conjure a pact weapon in your hand—a Simple or Martial melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch. Until the bond ends, you have proficiency with the weapon, you can use its Mastery property, and you can use it as a spellcasting focus.\n\nWhenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls, instead of using Strength or Dexterity, and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.\n\nYour bond with the weapon ends if you use this feature's Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Pact of the Chain":
+  title: "Warlock Eldritch Invocation Option: Pact of the Chain"
+  desc: "_Prerequisite: Level 2+ Warlock_\n\nYou learn the _Find Familiar_ spell and can cast it as an action without expending a spell slot. When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, skeleton, slaad tadpole, or sprite.\n\nAdditionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Pact of the Tome":
+  title: "Warlock Eldritch Invocation Option: Pact of the Tome"
+  desc: "_Prerequisite: None_\n\nStitching together strands of shadow, you conjure forth a book in your hand at the end of a Short Rest or Long Rest. This Book of Shadows (you determine its appearance) contains eldritch magic that only you can access, granting you the following benefits:\n\n**Cantrips and Rituals**. When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class's spell list, and they must be spells you don't already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you.\n\n**Spell Slot**. You gain a level 1 spell slot. Once you expend it, you can't gain another slot from this feature until you finish a Long Rest.\n\n**Spellcasting Focus**. You can use the book as a Spellcasting Focus.\n\nThe book disappears if you conjure another book with this feature or if you die."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Repelling Blast":
+  title: "Warlock Eldritch Invocation Option: Repelling Blast"
+  desc: "_Prerequisite: Eldritch Blast Cantrip_\n\nWhen you hit a Large or smaller creature with _Eldritch Blast_, you can push that creature up to 10 feet straight away from you."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Thirsting Blade":
+  title: "Warlock Eldritch Invocation Option: Thirsting Blade"
+  desc: "_Prerequisite: Level 5+ Warlock, Pact of the Blade_\n\nYou gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon, instead of once, when you take the Attack action on your turn.\n\nWhen you reach level 11 in this class, this Extra Attack confers two extra attacks rather than one."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Visions of Distant Realms":
+  title: "Warlock Eldritch Invocation Option: Visions of Distant Realms"
+  desc: "_Prerequisite: Level 9+ Warlock_\n\nYou can cast _Arcane Eye_ without expending a spell slot."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Whispers of the Grave":
+  title: "Warlock Eldritch Invocation Option: Whispers of the Grave"
+  desc: "_Prerequisite: Level 7+ Warlock_\n\nYou can cast _Speak with Dead_ without expending a spell slot."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Warlock Eldritch Invocation: Witch Sight":
+  title: "Warlock Eldritch Invocation Option: Witch Sight"
+  desc: "_Prerequisite: Level 15+ Warlock_\n\nYou have Truesight with a range of 30 feet."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# =========================================
+# WARLOCK: ARCHFEY PATRON FEATURES
+# =========================================
+
+"Archfey Patron: Patron Spells":
+  title: "Archfey Patron Level 3: Patron Spells"
+  desc: "The magic of your otherworldly patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Archfey Spells table, you thereafter always have the listed spells prepared."
+  fields:
+  - title: "Archfey Spells Table"
+    body: "```\n| Warlock | Prepared\n|  Level  | Spells\n|---------+-----------------------------------------------------------------\n|    3    | Calm Emotions, Faerie Fire, Misty Step, Phantasmal Force, Sleep\n|    5    | Blink, Plant Growth\n|    7    | Dominate Beast, Greater Invisibility\n|    9    | Dominate Person, Seeming\n\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Archfey Patron: Steps of the Fey":
+  title: "Archfey Patron Level 3: Steps of the Fey"
+  desc: "Your patron bestows on you the ability to move between the boundaries of the planes. You can cast _Misty Step_ without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\nIn addition, whenever you cast that spell, you can choose one of the following additional effects.\n\n**Refreshing Step**. Immediately after you teleport, one creature you can see within 10 feet of you gains 1d10 Temporary Hit Points.\n\n**Taunting Step**. Creatures within 5 feet of the space you left must succeed on a Wisdom saving throw against your spell save DC or have Disadvantage on attack rolls against creatures other than you until the start of your next turn."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Archfey Patron: Misty Escape":
+  title: "Archfey Patron Level 6: Misty Escape"
+  desc: "You can vanish in a puff of mist in response to harm. You can cast _Misty Step_ as a Reaction in response to taking damage.\n\nIn addition, the following effects are now among your Steps of the Fey options.\n\n**Disappearing Step**. You have the Invisible condition until the start of your next turn or until immediately after you make an attack roll or cast a spell.\n\n**Dreadful Step**. Creatures within 5 feet of the space you left or the space you appear in (your choice) must succeed on a Wisdom saving throw against your spell save DC or take 2d10 Psychic damage."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Archfey Patron: Beguiling Defenses":
+  title: "Archfey Patron Level 10: Beguiling Defenses"
+  desc: "Your patron teaches you how to guard your mind and body. You are immune to the Charmed condition.\n\nIn addition, immediately after a creature you can see hits you with an attack roll, you can use your Reaction to reduce the damage you take by half (round down), and you can force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attacker takes Psychic damage equal to the damage you take.\n\nOnce you use this Reaction, you can't use it again until you finish a Long Rest unless you expend a spell slot when you use it again."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Archfey Patron: Bewitching Magic":
+  title: "Archfey Patron Level 14: Bewitching Magic"
+  desc: "Your patron bestows on you the ability to weave your magic with teleportation. Immediately after you cast an Enchantment or Illusion spell using an action and a spell slot, you can cast _Misty Step_ as part of the same action and without expending a spell slot."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# =========================================
+# WARLOCK: CELESTIAL PATRON FEATURES
+# =========================================
+
+"Celestial Patron: Patron Spells":
+  title: "Celestial Patron Level 3: Patron Spells"
+  desc: "The magic of your otherworldly patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Celestial Spells table, you thereafter always have the listed spells prepared."
+  fields:
+  - title: "Celestial Spells Table"
+    body: "```\n| Warlock | Prepared\n|  Level  | Spells\n|---------+--------------------------------------------\n|    3    | Cure Wounds, Flaming Sphere, Guiding Bolt,\n|         | Lesser Restoration, Light, Sacred Flame\n|    5    | Daylight, Revivify\n|    7    | Guardian of Faith, Wall of Fire\n|    9    | Flame Strike, Greater Restoration\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Celestial Patron: Healing Light":
+  title: "Celestial Patron Level 3: Healing Light"
+  desc: "You gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 plus your Warlock level.\n\nAs a Bonus Action, you can heal one creature that you can see within 60 feet of yourself, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die).\n\nRoll the dice you spend, and restore a number of Hit Points equal to the roll's total.\n\nYour pool regains all expended dice when you finish a Long Rest."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Celestial Patron: Radiant Soul":
+  title: "Celestial Patron Level 6: Radiant Soul"
+  desc: "Your link to your patron allows you to serve as a conduit for radiant energy. You have Resistance to Radiant damage, and when you cast a spell that deals Radiant or Fire damage, you can add your Charisma modifier to one Radiant or Fire damage roll of that spell against one of its targets."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Celestial Patron: Celestial Resilience":
+  title: "Celestial Patron Level 10: Celestial Resilience"
+  desc: "You gain Temporary Hit Points whenever you use your Magical Cunning feature or finish a Short Rest or Long Rest. These Temporary Hit Points equal your Warlock level plus your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain Temporary Hit Points equal to half your Warlock level plus your Charisma modifier."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Celestial Patron: Searing Vengeance":
+  title: "Celestial Patron Level 14: Searing Vengeance"
+  desc: "The radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring to your feet with a burst of radiant energy. You regain Hit Points equal to half your Hit Point Maximum and then stand if you so choose. Each creature of your choice that is within 30 feet of you takes Radiant damage equal to 2d8 plus your Charisma modifier, and each has the Blinded condition until the end of the current turn.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 
 # =========================================
@@ -238,37 +317,82 @@
 # =========================================
 
 "Fiend Patron: Patron Spells":
-  title: "Fiend Patron 3rd Level: Patron Spells"
-  desc: "The magic of your otherworldly patron grants you the following benefits:"
+  title: "Fiend Patron Level 3: Patron Spells"
+  desc: "The magic of your otherworldly patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared."
   fields:
-  - title: "Prepared Spells"
-    body: "You always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared."
-  - title: "Free Casting"
-    body: "You can cast one of your prepared spells from this feature without expending a Spell Slot, and you must finish a Long Rest before you use this benefit again."
   - title: "Fiend Spells Table"
-    body: "```\n| Warlock Level | Spells\n|---------------+-------------------------------\n| 3rd           | Burning Hands, Command\n| 5th           | Scorching Ray, Suggestion\n| 9th           | Fear, Stinking Cloud\n| 13th          | Blight, Wall of Fire\n| 17th          | Flame Strike, Insect Plague\n```"
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+    body: "```\n| Warlock | Prepared\n|  Level  | Spells\n|---------+---------------------------\n|    3    | Burning Hands, Command,\n|         | Scorching Ray, Suggestion\n|    5    | Fireball, Stinking Cloud\n|    7    | Fire Shield, Wall of Fire\n|    9    | Geas, Insect Plague\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fiend Patron: Dark One's Blessing":
-  title: "Fiend Patron 3rd Level: Dark One's Blessing"
-  desc: "When you reduce an enemy to 0 Hit Points or an enemy drops to 0 Hit Points within 5 feet of you, you gain Temporary Hit Points equal to your spellcasting ability modifier + your Warlock level (minimum of 1)."
+  title: "Fiend Patron Level 3: Dark One's Blessing"
+  desc: "When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your spellcasting ability modifier plus your Warlock level (minimum of 1). You also gain this benefit if someone else reduces an enemy within 10 feet of you to 0 Hit Points."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fiend Patron: Dark One's Own Luck":
-  title: "Fiend Patron 6th Level: Dark One's Own Luck"
-  desc: "You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.\n\nYou can use this feature a number of times equal to your spellcasting ability modifier (minimum of once), and you regain all uses when you finish a Long Rest."
+  title: "Fiend Patron Level 6: Dark One's Own Luck"
+  desc: "You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur.\n\nYou can use this feature a number of times equal to your spellcasting ability modifier (minimum of once), but you can use it no more than once per roll. You regain all uses when you finish a Long Rest."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fiend Patron: Fiendish Resilience":
-  title: "Fiend Patron 10th Level: Fiendish Resilience"
+  title: "Fiend Patron Level 10: Fiendish Resilience"
   desc: "Channeling the preternatural resilience of Fiends, you can choose one damage type, other than Force, whenever you finish a Short Rest or Long Rest. You gain Resistance to that damage type until you choose a different one with this feature."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Fiend Patron: Hurl through Hell":
-  title: "Fiend Patron 14th Level: Hurl through Hell"
-  desc: "When you hit a creature with an attack roll, you can use this feature to instantly transport the target through the Lower Planes. The creature disappears and hurtles through a nightmare landscape.\n\nAt the end of your next turn, the target returns to the space it previously occupied or the nearest unoccupied space. If the target is not a Fiend, it must make a Wisdom saving throw against your Spell Save Dc upon its return. On a failed save, the target takes 10d10 Psychic damage. On a successful save, it takes half as much damage.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a Spell Slot of at least 4th level when you use it again. You can use this feature only once per turn."
+"Fiend Patron: Hurl Through Hell":
+  title: "Fiend Patron Level 14: Hurl Through Hell"
+  desc: "When you hit a creature with an attack roll, you can try to instantly transport the target through the Lower Planes. The target must succeed on a Charisma saving throw against your spell save DC, or the target disappears and hurtles through a nightmare landscape. The target takes 8d10 Psychic damage if it isn't a Fiend, and it has the Incapacitated condition until the end of your next turn, when it returns to the space it previously occupied or the nearest unoccupied space.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest unless you expend a level 5 spell slot when you use it again. You can use this feature only once per turn."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# =========================================
+# WARLOCK: GREAT OLD ONE PATRON FEATURES
+# =========================================
+
+"Great Old One Patron: Patron Spells":
+  title: "Great Old One Patron Level 3: Patron Spells"
+  desc: "The magic of your otherworldly patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Great Old One Spells table, you thereafter always have the listed spells prepared."
+  fields:
+  - title: "Great Old One Spells Table"
+    body: "```\n| Warlock | Prepared\n|  Level  | Spells\n|---------+--------------------------------------------\n|    3    | Detect Thoughts, Dissonant Whispers,\n|         | Phantasmal Force, Tasha's Hideous Laughter\n|    5    | Clairvoyance, Hunger of Hadar\n|    7    | Confusion, Evard's Black Tentacles\n|    9    | Modify Memory, Telekinesis\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Great Old One Patron: Awakened Mind":
+  title: "Great Old One Patron Level 3: Awakened Mind"
+  desc: "You can form a telepathic connection between your mind and the mind of another. As a Bonus Action, choose one creature you can see within 30 feet of yourself and create a telepathic bond. You and the chosen creature can speak telepathically with each other while the two of you are within a number of miles of each other equal to your Charisma modifier (minimum of 1 mile). To understand each other, you each must speak mentally in a language the other knows.\n\nThe telepathic connection lasts for a number of minutes equal to your Warlock level. It ends early if you have the Incapacitated condition or die or if you use this feature to form a connection with a different creature."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Great Old One Patron: Psychic Spells":
+  title: "Great Old One Patron Level 3: Psychic Spells"
+  desc: "When you cast a Warlock spell that deals damage, you can change its damage type to Psychic. In addition, when you cast a Warlock spell that is an Enchantment or Illusion, you can do so without verbal or somatic components."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Great Old One Patron: Clairvoyant Combatant":
+  title: "Great Old One Patron Level 6: Clairvoyant Combatant"
+  desc: "You learn to read the attacks of minds you touch. When you form a telepathic bond with a creature using your Awakened Mind, you can force that creature to make a Wisdom saving throw against your spell save DC. On a failed save, the creature has Disadvantage on attack rolls against you, and you have Advantage on attack rolls against that creature for the duration of the bond.\n\nOnce you use this feature, you can't use it again until you finish a Short Rest or Long Rest. You can also restore your use of it by expending a spell slot of level 2 or higher (no action required)."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Great Old One Patron: Thought Shield":
+  title: "Great Old One Patron Level 10: Thought Shield"
+  desc: "Your thoughts can't be read by telepathy or other means unless you allow it. You also have Resistance to Psychic damage, and whenever a creature deals Psychic damage to you, that creature takes the same amount of damage that you do."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Great Old One Patron: Eldritch Hex":
+  title: "Great Old One Patron Level 10: Eldritch Hex"
+  desc: "Your alien patron grants you a powerful curse. You always have the _Hex_ spell prepared. When you cast _Hex_ and choose an ability, the target also has Disadvantage on saving throws of the chosen ability for the duration of the spell."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Great Old One Patron: Create Thrall":
+  title: "Great Old One Patron Level 14: Create Thrall"
+  desc: "Your patron grants you the ability to manifest a part of itself. You always have the _Summon Aberration_ spell prepared (for this playtest, use the spell in Tasha's Cauldron of Everything). When you cast the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting and when summoned, the Aberration has a number of Temporary Hit Points equal to your Warlock level plus your Charisma modifier.\n\nIn addition, the first time each turn the Aberration hits a creature under the effect of your _Hex_, the Aberration deals extra Psychic damage to the target equal to the bonus damage of that spell."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"

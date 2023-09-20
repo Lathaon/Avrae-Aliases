@@ -3,140 +3,395 @@
 # load_yaml(get_gvar("e50758a4-d341-4d62-8857-713e842a305e"))
 
 "Fighter: Fighting Style":
-  title: "Fighter 1st Level: Fighting Style"
-  desc: "You have honed your martial prowess and gain the Fighting Style: Defense feat, or you gain another Fighting Style feat of your choice."
+  title: "Fighter Level 1: Fighting Style"
+  desc: "You have honed your martial prowess and gain the Fighting Style: Defense feat, or you gain another Fighting Style feat of your choice (those feats have this feature as a prerequisite).\n\nWhenever you gain a Fighter level, you can replace the feat you chose with a different Fighting Style feat."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fighter: Second Wind":
-  title: "Fighter 1st Level: Second Wind"
-  desc: "You have a limited well of stamina that you can draw on to recover from harm. As a Bonus Action, you can regain Hit Points equal to 1d10 + your Fighter level.\n\nYou can use this feature twice, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter table."
+  title: "Fighter Level 1: Second Wind"
+  desc: "You have a limited well of stamina that you can draw on to recover from harm. As a Bonus Action, you can regain Hit Points equal to 1d10 + your Fighter level.\n\nYou can use this feature twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nWhen you reach certain Fighter levels, you gain more uses of this feature, as shown in the Second Wind column of the Fighter table."
   fields:
   - title: "Fighter Table: Second Wind"
-    body: "```\n| Level | Second Wind\n|-------+-------------\n|   1st | 2\n|   2nd | 2\n|   3rd | 2\n|   4th | 3\n|   5th | 3\n|   6th | 3\n|   7th | 3\n|   8th | 3\n|   9th | 3\n|  10th | 4\n|  11th | 4\n|  12th | 4\n|  13th | 4\n|  14th | 4\n|  15th | 4\n|  16th | 4\n|  17th | 4\n|  18th | 4\n|  19th | 4\n|  20th | 4\n```"
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+    body: "```\n| Level | Second Wind\n|-------+-------------\n|    1  | 2\n|    2  | 2\n|    3  | 2\n|    4  | 3\n|    5  | 3\n|    6  | 3\n|    7  | 3\n|    8  | 3\n|    9  | 3\n|   10  | 4\n|   11  | 4\n|   12  | 4\n|   13  | 4\n|   14  | 4\n|   15  | 4\n|   16  | 4\n|   17  | 4\n|   18  | 4\n|   19  | 4\n|   20  | 4\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fighter: Weapon Mastery":
-  title: "Fighter 1st Level: Weapon Mastery"
-  desc: "Your training with weapons allows you to use the Mastery property of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change the kinds of weapons you chose.\n\nWhen you reach certain Fighter levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter table."
+  title: "Fighter Level 1: Weapon Mastery"
+  desc: "Your training with weapons allows you to use the Mastery property of three kinds of Simple or Martial weapons of your choice. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.\n\nWhen you reach certain Fighter levels, you gain the ability to use the Mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Fighter table."
   fields:
   - title: "Fighter Table: Weapon Mastery"
-    body: "```\n| Level | Weapon Mastery\n|-------+----------------\n|   1st | 3\n|   2nd | 3\n|   3rd | 3\n|   4th | 4\n|   5th | 4\n|   6th | 4\n|   7th | 4\n|   8th | 4\n|   9th | 4\n|  10th | 5\n|  11th | 5\n|  12th | 5\n|  13th | 5\n|  14th | 5\n|  15th | 5\n|  16th | 5\n|  17th | 5\n|  18th | 5\n|  19th | 5\n|  20th | 5\n```"
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+    body: "```\n| Level | Weapon Mastery\n|-------+----------------\n|    1  | 3\n|    2  | 3\n|    3  | 3\n|    4  | 4\n|    5  | 4\n|    6  | 4\n|    7  | 4\n|    8  | 4\n|    9  | 4\n|   10  | 5\n|   11  | 5\n|   12  | 5\n|   13  | 5\n|   14  | 5\n|   15  | 5\n|   16  | 6\n|   17  | 6\n|   18  | 6\n|   19  | 6\n|   20  | 6\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fighter: Action Surge":
-  title: "Fighter 2nd Level: Action Surge"
-  desc: "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, chosen from the following action options: Attack, Dash, Disengage, or Dodge.\n\nOnce you use this feature, you must finish a Short Rest or Long Rest before you can use it again."
+  title: "Fighter Level 2: Action Surge"
+  desc: "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the Magic action.\n\nOnce you use this feature, you must finish a Short Rest or Long Rest before you can use it again. Starting at level 17, you can use it twice before a rest but only once on a turn."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Fighter: Tactical Mind":
+  title: "Fighter Level 2: Tactical Mind"
+  desc: "You have a mind for tactics and getting the upper hand on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining Hit Points, you roll 1d10 and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fighter: Fighter Subclass":
-  title: "Fighter 3rd Level: Fighter Subclass"
-  desc: "You gain the Champion subclass or another Fighter subclass of your choice. The Champion is detailed after the class's description, and other subclasses will appear in future Unearthed Arcana articles.\n\nA subclass is a specialization that grants you special abilities at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level and lower. This class's description tells you the levels when your subclass provides features."
+  title: "Fighter Level 3: Fighter Subclass"
+  desc: "You gain a Fighter subclass of your choice: Battle Master, Brawler, Champion, or Eldritch Knight. Subclasses are detailed after this class's description.\n\nA subclass is a specialization that grants you special features at certain Fighter levels. For the rest of your career, you gain each of your subclass's features that are of your Fighter level and lower."
   fields:
-  - title: "At 6th, 10th, and 14th Level"
-    body: "You gain a feature from your fighter subclass."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - title: "At Levels 7, 10, 15, and 18"
+    body: "You gain a feature from your Fighter subclass."
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Fighter: Feat":
-  title: "Fighter 4th Level: Feat"
-  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+"Fighter: Ability Score Improvement":
+  title: "Fighter Level 4: Ability Score Improvement"
+  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.\n\nAs shown on the Fighter table, you gain this feature again at levels 6, 8, 12, 14, 16, and 19."
   fields:
-  - title: "At 5th, 8th, 12th, 15th, 16th, and 19th Level"
-    body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fighter: Extra Attack":
-  title: "Fighter 5th Level: Extra Attack"
+  title: "Fighter Level 5: Extra Attack"
   desc: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Fighter: Weapon Expert":
-  title: "Fighter 7th Level: Weapon Expert"
-  desc: "You have honed your use of weapons to an art. Whenever you finish a Long Rest, you can choose one of the kinds of Mastery weapons you're using and replace its Mastery property with another Mastery property. The chosen kind of weapon must qualify for the new property. For example, you could replace the Longsword's Flex property with the Push property.\n\nThis property change applies only for you, not for others, and the change ends for you when you finish your next Long Rest."
+"Fighter: Tactical Shift":
+  title: "Fighter Level 5: Tactical Shift"
+  desc: "Whenever you activate your Second Wind with a Bonus Action, you can move up to half your Speed without provoking Opportunity Attacks."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fighter: Indomitable":
-  title: "Fighter 9th Level: Indomitable"
-  desc: "If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest."
+  title: "Fighter Level 9: Indomitable"
+  desc: "If you fail a saving throw, you can reroll it with a bonus equal to your Fighter level. If you do so, you must use the new roll, and you can't use this feature again until you finish a Long Rest.\n\nYou can use this feature twice between Long Rests starting at level 13 and three times between Long Rests starting at level 17."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Fighter: Master of Armaments":
+  title: "Fighter Level 7: Master of Armaments"
+  desc: "You are a master of weapons. Whenever you finish a Long Rest, you can choose any of the kinds of Mastery weapons you're using and replace the Mastery property of each with another Mastery property. The chosen kind of weapon must qualify for the new property. For example, you could replace the Longsword's Sap property with the Push property.\n\nThese property changes apply only for you, not for others, and the changes end for you when you finish your next Long Rest."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fighter: Two Extra Attacks":
-  title: "Fighter 11th Level: Two Extra Attacks"
+  title: "Fighter Level 11: Two Extra Attacks"
   desc: "Your Extra Attack feature now confers two extra attacks rather than one."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Fighter: Weapon Adept":
-  title: "Fighter 13th Level: Weapon Adept"
-  desc: "You are a master of weapons. When you use your Weapon Expert feature on a kind of weapon, you can give that kind of weapon two properties rather than one, but you then use only one property at a time; whenever you make an attack roll against a target with that kind of weapon, you decide which of the two properties applies to that attack. You make this decision before the attack hits or misses.\n\nFor example, you could apply the Push and Topple properties to Longswords, and whenever you hit a target with a Longsword, you decide which of those properties to use against the target."
+"Fighter: Studied Attacks":
+  title: "Fighter Level 13: Studied Attacks"
+  desc: "You masterfully study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Fighter: Improved Action Surge":
-  title: "Fighter 15th Level: Improved Action Surge"
-  desc: "You can use Action Surge twice before a rest but no more than once on your turn."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
-"Fighter: Unconquerable":
-  title: "Fighter 17th Level: Unconquerable"
-  desc: "When you're in great peril, you can tap into a deep well of resilience within yourself. If you fail a saving throw and your Indomitable feature is expended, you can use it again by expending a use of your Second Wind, which also heals you."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Fighter: Three Extra Attacks":
-  title: "Fighter 18th Level: Three Extra Attacks"
+  title: "Fighter Level 20: Three Extra Attacks"
   desc: "Your Extra Attack feature now confers three extra attacks rather than two."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
-"Fighter: Epic Boon":
-  title: "Fighter 20th Level: Epic Boon"
-  desc: "You gain the following benefits:\n\n**Ability Score Increase**. Choose your Strength or Dexterity score. That score increases by 2, and its maximum is now 30.\n\n**Epic Boon Feat**. You gain the Epic Boon of Recovery or another Epic Boon feat of your choice."
+
+# =========================================
+# FIGHTER: BATTLE MASTER FEATURES
+# =========================================
+
+"Battle Master: Combat Superiority":
+  title: "Battle Master Level 3: Combat Superiority"
+  desc: "Your experience on the battlefield has honed your fighting techniques. You learn Maneuvers that are fueled by special dice called Superiority Dice."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - title: "Maneuvers"
+    body: "You learn three different Maneuvers of your choice from the \"Maneuvers Options\" section later in this subclass's description. Many Maneuvers enhance an attack in some way. You can use only one Maneuver per attack.\n\nYou learn two additional Maneuvers of your choice when you reach Fighter level 7, 10, and 15. Each time you learn new Maneuvers, you can also replace one Maneuver you know with a different one."
+  - title: "Superiority Dice"
+    body: "You have four Superiority Dice, which are d8s. A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a Short Rest or Long Rest.\n\nYou gain an additional Superiority Die when you reach Fighter level 7 (five dice total) and 15 (six dice total)."
+  - title: "Saving Throws"
+    body: "If a Maneuver requires a saving throw, the DC equals 8 + your Proficiency Bonus + your Strength or Dexterity modifier (your choice)."
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master: Student of War":
+  title: "Battle Master Level 3: Student of War"
+  desc: "You gain proficiency with one type of Artisan's Tools of your choice, and you gain proficiency in one skill of your choice from the skills available to Fighters at level 1."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master: Know Your Enemy":
+  title: "Battle Master Level 7: Know Your Enemy"
+  desc: "As a Bonus Action, you can discern certain strengths and weaknesses of a creature you can see within 30 feet of yourself; you know whether that creature has any damage immunities, resistances, or vulnerabilities, and if the creature has any, you know what they are.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest. You can also restore a use of the feature by expending one Superiority Die (no action required)."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master: Improved Combat Superiority":
+  title: "Battle Master Level 10: Improved Combat Superiority"
+  desc: "Your Superiority Die becomes a d10."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master: Relentless":
+  title: "Battle Master Level 15: Relentless"
+  desc: "Once per turn, when you use a Maneuver, you can roll a d8 and use the number rolled instead of expending a Superiority Die."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master: Ultimate Combat Superiority":
+  title: "Battle Master Level 18: Ultimate Combat Superiority"
+  desc: "Your Superiority Die becomes a d12."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Ambush":
+  title: "Battle Master Maneuver: Ambush"
+  desc: "When you make a Dexterity (Stealth) check or an initiative roll, you can expend one Superiority Die and add the die to the roll, provided you don't have the Incapacitated condition."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Bait and Switch":
+  title: "Battle Master Maneuver: Bait and Switch"
+  desc: "When you're within 5 feet of a creature on your turn, you can expend one Superiority Die and switch places with that creature, provided you spend at least 5 feet of movement and the creature is willing and doesn't have the Incapacitated condition. This movement doesn't provoke Opportunity Attacks.\n\nRoll the Superiority Die. Until the start of your next turn, you or the other creature (your choice) gains a bonus to AC equal to the number rolled."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Commander's Strike":
+  title: "Battle Master Maneuver: Commander's Strike"
+  desc: "When you take the Attack action on your turn, you can replace one of your attacks to direct one of your companions to strike. When you do so, choose a willing creature who can see or hear you and expend one Superiority Die. That creature can immediately use its Reaction to make one attack with a weapon or an Unarmed Strike, adding the Superiority Die to the attack's damage roll on a hit."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Commanding Presence":
+  title: "Battle Master Maneuver: Commanding Presence"
+  desc: "When you make a Charisma (Intimidation, Performance, or Persuasion) check, you can expend one Superiority Die and add that die to the ability check."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Disarming Attack":
+  title: "Battle Master Maneuver: Disarming Attack"
+  desc: "When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to disarm the target. Add the Superiority Die roll to the attack's damage roll. The target must succeed on a Strength saving throw, or it drops one object of your choice that it's holding, with the object landing in its space."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Distracting Strike":
+  title: "Battle Master Maneuver: Distracting Strike"
+  desc: "When you hit a creature with an attack roll, you can expend one Superiority Die to distract the target. Add the Superiority Die roll to the attack's damage roll. The next attack roll against the target by an attacker other than you has Advantage if the attack is made before the start of your next turn."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Evasive Footwork":
+  title: "Battle Master Maneuver: Evasive Footwork"
+  desc: "When you move at least 5 feet on your turn, you can expend one Superiority Die, rolling the die and adding the number rolled to your AC until the end of the turn."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Feinting Attack":
+  title: "Battle Master Maneuver: Feinting Attack"
+  desc: "As a Bonus Action, you can expend one Superiority Die to feint, choosing one creature within 5 feet of yourself as your target. You have Advantage on your next attack roll against that target this turn. If that attack hits, add the Superiority Die to the attack's damage roll."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Goading Attack":
+  title: "Battle Master Maneuver: Goading Attack"
+  desc: "When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to goad the target into attacking you. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or the target has Disadvantage on attack rolls against targets other than you until the end of your next turn."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Lunging Attack":
+  title: "Battle Master Maneuver: Lunging Attack"
+  desc: "As a Bonus Action, you can expend one Superiority Die and take the Dash action. If you move at least 10 feet in a straight line immediately before hitting with a melee attack as part of the Attack action on this turn, you can add the Superiority Die to the attack's damage roll."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Maneuvering Attack":
+  title: "Battle Master Maneuver: Maneuvering Attack"
+  desc: "When you hit a creature with an attack roll, you can expend one Superiority Die to maneuver one of your comrades into another position. Add the Superiority Die roll to the attack's damage roll, and choose a willing creature who can see or hear you. That creature can use its Reaction to move up to half its Speed without provoking an Opportunity Attack from the target of your attack."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Menacing Attack":
+  title: "Battle Master Maneuver: Menacing Attack"
+  desc: "When you hit a creature with an attack roll, you can expend one Superiority Die to attempt to frighten the target. Add the Superiority Die to the attack's damage roll. The target must succeed on a Wisdom saving throw or have the Frightened condition until the end of your next turn."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Parry":
+  title: "Battle Master Maneuver: Parry"
+  desc: "When another creature damages you with a melee attack, you can use your Reaction and expend one Superiority Die to reduce the damage by the number you roll on your Superiority Die plus your Strength or Dexterity modifier (your choice)."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Precision Attack":
+  title: "Battle Master Maneuver: Precision Attack"
+  desc: "When you miss with an attack roll, you can expend one Superiority Die, roll that die, and add it to the attack roll, potentially causing it to hit."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Pushing Attack":
+  title: "Battle Master Maneuver: Pushing Attack"
+  desc: "When you hit a creature with an attack using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to drive the target back. Add the Superiority Die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or be pushed up to 15 feet directly away from you."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Rally":
+  title: "Battle Master Maneuver: Rally"
+  desc: "As a Bonus Action, you can expend one Superiority Die to bolster the resolve of a companion. Choose an ally of yours who can see or hear you. That creature gains Temporary Hit Points equal to the Superiority Die roll plus your Intelligence, Wisdom, or Charisma modifier (your choice)."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Riposte":
+  title: "Battle Master Maneuver: Riposte"
+  desc: "When a creature misses you with a melee attack, you can use your Reaction and expend one Superiority Die to make a melee attack with a weapon or an Unarmed Strike against the creature. If you hit, add the Superiority Die to the attack's damage."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Sweeping Attack":
+  title: "Battle Master Maneuver: Sweeping Attack"
+  desc: "When you hit a creature with a melee attack using a weapon or an Unarmed Strike, you can expend one Superiority Die to attempt to damage another creature. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your Superiority Die. The damage is of the same type dealt by the original attack."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Tactical Assessment":
+  title: "Battle Master Maneuver: Tactical Assessment"
+  desc: "When you make an Intelligence (History or Investigation) check or a Wisdom (Insight) check, you can expend one Superiority Die and add that die to the ability check."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Battle Master Maneuver: Trip Attack":
+  title: "Battle Master Maneuver: Trip Attack"
+  desc: "When you hit a creature with an attack using a weapon or an Unarmed Strike, you can expend one Superiority Die and add the die to the attack's damage roll. If the target is Large or smaller, it must succeed on a Strength saving throw or have the Prone condition."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# =========================================
+# FIGHTER: BRAWLER FEATURES
+# =========================================
+
+"Brawler: Unarmed Expert":
+  title: "Brawler Level 3: Unarmed Expert"
+  desc: "You can roll 1d6 plus your Strength modifier in place of the normal damage of your Unarmed Strike. If you aren't holding any weapons or a Shield when you make the attack roll, the d6 becomes a d8."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Brawler: Improvised Expert":
+  title: "Brawler Level 3: Improvised Expert"
+  desc: "You are proficient with Improvised Weapons. Whenever you finish a Long Rest, choose one weapon property from the One-Handed list and one from the Two-Handed list:\n**One-Handed**: Light or Thrown (Range 20/60)\n**Two-Handed**: Reach or Thrown (Range 10/30)\n\nUntil the end of your next Long Rest, the One-Handed choice applies to the one-handed Improvised Weapons you wield, and the Two-Handed choice applies to the two-handed ones.\n\nIn addition, whenever you attack with an Improvised Weapon, you can give it one of the following Mastery properties for that attack, depending on whether it can be wielded in one hand or two:\n**One-Handed**: Sap, Slow, or Vex\n**Two-Handed**: Cleave, Push, or Topple"
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Brawler: Grappling Expert":
+  title: "Brawler Level 7: Grappling Expert"
+  desc: "You can make one Unarmed Strike as a Bonus Action. When you use Unarmed Strike in this way, you must choose the Grapple or Shove option.\n\nIn addition, at the start of each of your turns, you can deal 1d6 Bludgeoning damage to one creature Grappled by you."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Brawler: Dirty Fighting":
+  title: "Brawler Level 10: Dirty Fighting"
+  desc: "You have Advantage on attack rolls made with Improvised Weapons and Unarmed Strikes against a creature Grappled by you."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Brawler: Improvised Specialist":
+  title: "Brawler Level 15: Improvised Specialist"
+  desc: "You are a master at making the ordinary deadly. Whenever you hit a creature with an Improvised Weapon, you can add your Proficiency Bonus to the damage roll, and the damage die of your two-handed Improvised Weapons becomes 1d12.\n\nIn addition, whenever you attack with an Improvised Weapon, you can use two Mastery properties from Improvised Expert, instead of one."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Brawler: Unarmed Specialist":
+  title: "Brawler Level 18: Unarmed Specialist"
+  desc: "Your Unarmed Strikes improve to a d8. If you aren't holding any weapons or a Shield when you make the attack roll, the d8 becomes a d10."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 
 # =========================================
 # FIGHTER: CHAMPION FEATURES
 # =========================================
 
-"Champion: Adaptable Victor":
-  title: "Champion 3rd Level: Adaptable Victor"
-  desc: "You've studied your friends and foes alike and learned that victory relies on adaptability. Whenever you finish a Long Rest, you can gain proficiency in one skill from those available to this class at 1st level, as you remind yourself of past lessons. This proficiency lasts until the end of your next Long Rest."
-  fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
-
 "Champion: Improved Critical":
-  title: "Champion 3rd Level: Improved Critical"
+  title: "Champion Level 3: Improved Critical"
   desc: "Your attack rolls with weapons and Unarmed Strikes can score a critical hit on a roll of 19 or 20."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Champion: Remarkable Athlete":
+  title: "Champion Level 3: Remarkable Athlete"
+  desc: "Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.\n\nIn addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Champion: Additional Fighting Style":
-  title: "Champion 6th Level: Additional Fighting Style"
+  title: "Champion Level 6: Additional Fighting Style"
   desc: "You gain another Fighting Style feat of your choice."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Champion: Heroic Warrior":
-  title: "Champion 6th Level: Heroic Warrior"
-  desc: "The thrill of battle drives you toward victory. Once per combat, you can give yourself Heroic Advantage if you start your turn without it."
+  title: "Champion Level 10: Heroic Warrior"
+  desc: "The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Advantage whenever you start your turn without it."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Champion: Superior Critical":
-  title: "Champion 10th Level: Superior Critical"
+  title: "Champion Level 15: Superior Critical"
   desc: "Your attack rolls with weapons and Unarmed Strikes can now score a critical hit on a roll of 18–20."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 "Champion: Survivor":
-  title: "Champion 14th Level: Survivor"
+  title: "Champion Level 18: Survivor"
   desc: "You attain the pinnacle of resilience in battle, giving you these benefits:\n\n**Defy Death**. You have Advantage on death saving throws. Moreover, when you roll an 18–20 on a death save, you gain the benefit of rolling a 20.\n\n**Heroic Rally**. At the start of each of your turns, you regain Hit Points equal to 5 + your Constitution modifier if you have no more than half your Hit Points left. You don't gain this benefit if you have 0 Hit Points."
   fields:
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+
+# =========================================
+# FIGHTER: ELDRITCH KNIGHT FEATURES
+# =========================================
+
+"Eldritch Knight: Spellcasting":
+  title: "Eldritch Knight Level 3: Spellcasting"
+  desc: "You have learned to cast spells. See the _Player's Handbook_ for rules on spellcasting. The information below details how you use those rules as an Eldritch Knight."
+  fields:
+  - title: "Cantrips"
+    body: "You know two cantrips of your choice from the Wizard spell list. Whenever you gain a Fighter level, you can replace one of this feature's cantrips with another cantrip of your choice from the Wizard spell list.\n\nWhen you reach level 10 in this class, you learn another Wizard cantrip of your choice."
+  - title: "Spell Slots"
+    body: "The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest."
+  - title: "Prepared Spells of Level 1+"
+    body: "You prepare a list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose three level 1 spells from the Wizard spell list, two of which must be from the Abjuration and Evocation schools of magic.\n\nThe number of spells on your list increases as you gain Fighter levels, as shown in the Prepared Spells column of the Eldritch Knight Spellcasting table. Whenever that number increases, choose additional spells from the Wizard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 7 Fighter, your list of prepared spells can include six Wizard spells of levels 1 and 2, in any combination."
+  - title: "Changing your Prepared Spells"
+    body: "Whenever you gain a level in this class, you can replace one of the spells you know with another spell of your choice from the Wizard spell list. The new spell must be of a level for which you have spell slots."
+  - title: "Spellcasting Ability"
+    body: "Intelligence is your spellcasting ability for your Eldritch Knight spells."
+  - title: "Spellcasting Focus"
+    body: "You can use an Arcane Focus as a Spellcasting Focus for the spells you prepare for this subclass."
+  - title: "Eldritch Knight Spellcasting Table"
+    body: "```\n| Fighter |  Spells  |  Spell Slots\n|  Level  | Prepared | 1 | 2 | 3 | 4\n|---------+----------+---+---+---+---\n|     3   |     3    | 2 | — | — | —\n|     4   |     4    | 3 | — | — | —\n|     5   |     4    | 3 | — | — | —\n|     6   |     4    | 3 | — | — | —\n|     7   |     5    | 4 | 2 | — | —\n|     8   |     6    | 4 | 2 | — | —\n|     9   |     6    | 4 | 2 | — | —\n|    10   |     7    | 4 | 3 | — | —\n|    11   |     8    | 4 | 3 | — | —\n|    12   |     8    | 4 | 3 | — | —\n|    13   |     9    | 4 | 3 | 2 | —\n|    14   |    10    | 4 | 3 | 2 | —\n|    15   |    10    | 4 | 3 | 2 | —\n|    16   |    11    | 4 | 3 | 3 | —\n|    17   |    11    | 4 | 3 | 3 | —\n|    18   |    11    | 4 | 3 | 3 | —\n|    19   |    12    | 4 | 3 | 3 | 1\n|    20   |    13    | 4 | 3 | 3 | 1\n```"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Eldritch Knight: War Bond":
+  title: "Eldritch Knight Level 3: War Bond"
+  desc: "You learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a Short Rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.\n\nOnce you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.\n\nYou can have up to two bonded weapons, but can summon only one at a time with your Bonus Action. If you attempt to bond with a third weapon, you must break the bond with one of the other two."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Eldritch Knight: War Magic":
+  title: "Eldritch Knight Level 7: War Magic"
+  desc: "When you take the Attack action on your turn, you can replace one of the attacks with a casting of one of your Wizard cantrips that has a casting time of an action."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Eldritch Knight: Eldritch Strike":
+  title: "Eldritch Knight Level 10: Eldritch Strike"
+  desc: "You learn how to make your weapon strikes undercut a creature's ability to withstand your spells. When you hit a creature with an attack using a weapon, that creature has Disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Eldritch Knight: Arcane Charge":
+  title: "Eldritch Knight Level 15: Arcane Charge"
+  desc: "When you use your Action Surge, you can teleport up to 30 feet to an unoccupied space you can see. You can teleport before or after the additional action."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+
+"Eldritch Knight: Improved War Magic":
+  title: "Eldritch Knight Level 18: Improved War Magic"
+  desc: "When you take the Attack action on your turn, you can replace two of the attacks with a casting of one of your Wizard spells that has a casting time of an action."
+  fields:
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
