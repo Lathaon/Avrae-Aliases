@@ -46,7 +46,7 @@
   title: "Cleric Level 3: Cleric Subclass"
   desc: "You gain a Cleric subclass of your choice: Life Domain, Light Domain, Trickery Domain, or War Domain. Subclasses are detailed after this class's description.\n\nA subclass is a specialization that grants you special abilities at certain Cleric levels. For the rest of your career, you gain each of your subclass's features that are of your Cleric level and lower."
   fields:
-  - title: "At 6th and Level 17"
+  - title: "At Levels 6 and 17"
     body: "You gain a feature from your Cleric subclass."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
@@ -54,7 +54,7 @@
   title: "Cleric Level 4: Ability Score Improvement"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   fields:
-  - title: "At 8th, 12th, 16th, and Level 19"
+  - title: "At Levels 8, 12, 16, and 19"
     body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 

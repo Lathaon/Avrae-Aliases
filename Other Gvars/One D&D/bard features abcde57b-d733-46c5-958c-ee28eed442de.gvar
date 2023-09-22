@@ -3,7 +3,7 @@
 # load_yaml(get_gvar("abcde57b-d733-46c5-958c-ee28eed442de"))
 
 "Bard: Bardic Inspiration":
-  title: "Bard 1st Level: Bardic Inspiration"
+  title: "Bard Level 1: Bardic Inspiration"
   desc: "You can supernaturally inspire others through words, music, or dance. This inspiration is represented by your Bardic Inspiration die, which is a d6."
   fields:
   - title: Using Bardic Inspiration
@@ -15,7 +15,7 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Spellcasting":
-  title: "Bard 1st Level: Spellcasting"
+  title: "Bard Level 1: Spellcasting"
   desc: "You have learned to cast spells through your bardic arts. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as a Bard."
   fields:
   - title: Chosen Spell List
@@ -39,55 +39,55 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Expertise":
-  title: "Bard 2nd Level: Expertise"
+  title: "Bard Level 2: Expertise"
   desc: "You gain Expertise in two of your skill proficiencies of your choice.\n\nPerformance and Persuasion are iconic choices for a Bard if you have proficiency in them."
   fields:
-  - title: "At 9th Level"
+  - title: "At Level 9"
     body: "You gain Expertise in two of your skill proficiencies of your choice."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Jack of All Trades":
-  title: "Bard 2nd Level: Jack of All Trades"
+  title: "Bard Level 2: Jack of All Trades"
   desc: "You can add half your Proficiency Bonus (round down) to any ability check you make that uses a skill proficiency you lack and that doesn't otherwise use your Proficiency Bonus.\n\nFor example, if you make a Strength (Athletics) check and lack Athletics proficiency, you can add half your Proficiency Bonus to the check."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Bard Subclass":
-  title: "Bard 3rd Level: Bard Subclass"
+  title: "Bard Level 3: Bard Subclass"
   desc: "You gain a Bard subclass of your choice: College of Dance, College of Glamour, College of Lore, or College of Valor. Subclasses are detailed after this class's description.\n\nA subclass is a specialization that grants you special abilities at certain Bard levels. For the rest of your career, you gain each of your subclass's features that are of your Bard level and lower."
   fields:
-  - title: "At 6th and 14th Level"
+  - title: "At Levels 6 and 14"
     body: "You gain a feature from your Bard subclass."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Ability Score Improvement":
-  title: "Bard 4th Level: Ability Score Improvement"
+  title: "Bard Level 4: Ability Score Improvement"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   fields:
-  - title: "At 8th, 12th, 16th, and 19th Level"
+  - title: "At Levels 8, 12, 16, and 19"
     body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Font of Inspiration":
-  title: "Bard 7th Level: Font of Inspiration"
+  title: "Bard Level 7: Font of Inspiration"
   desc: "You now also regain all your expended uses of Bardic Inspiration when you finish a Short Rest.\n\nIn addition, if you have no uses of Bardic Inspiration left, you can give yourself one use by expending a spell slot (no action required). You can do so only once per turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Magical Secrets":
-  title: "Bard 10th Level: Magical Secrets"
+  title: "Bard Level 10: Magical Secrets"
   desc: "You have collected magical knowledge from a wide spectrum of disciplines. As a result, your Bard spell list now includes the Arcane, Divine, and Primal spell lists."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Superior Inspiration":
-  title: "Bard 18th Level: Superior Inspiration"
+  title: "Bard Level 18: Superior Inspiration"
   desc: "When you roll Initiative and have no uses of Bardic Inspiration left, you regain two expended uses of it."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Bard: Words of Creation":
-  title: "Bard 20th Level: Words of Creation"
+  title: "Bard Level 20: Words of Creation"
   desc: "You have mastered two of the prime Words of Creation: the Words of Life and Death. Therefore, you always have the _Power Word Heal_ and _Power Word Kill_ spells prepared, and when you cast either spell, you can target a second creature with the spell, provided that creature is within 10 feet of the first target."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -98,31 +98,31 @@
 # ===================================
 
 "College of Dance: Dazzling Footwork":
-  title: "College of Dance 3rd Level: Dazzling Footwork"
+  title: "College of Dance Level 3: Dazzling Footwork"
   desc: "Your practice of dance gives you the ability to gracefully dodge and make agile strikes. While you aren't wearing armor or wielding a Shield, you gain the following benefits:\n\n**Unarmored Defense**. Your base Armor Class equals 10 + your Dexterity modifier + your Charisma modifier.\n\n**Agile Strikes**. When you expend a use of your Bardic Inspiration as part of an action, a Bonus Action, or a Reaction, you can make one Unarmed Strike as part of that action, Bonus Action, or Reaction.\n\n**Bardic Damage**. You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an Unarmed Strike, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier. This roll doesn't expend the die."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Dance: Inspiring Movement":
-  title: "College of Dance 3rd Level: Inspiring Movement"
+  title: "College of Dance Level 3: Inspiring Movement"
   desc: "When an enemy you can see ends its turn within 5 feet of an ally of yours who is within 60 feet of you, you can use your Reaction and expend one use of your Bardic Inspiration to move up to half your Speed. Then roll your Bardic Inspiration die, and the ally can move up to a number of feet equal to 5 times the number rolled. None of this feature's movement provokes Opportunity Attacks."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Dance: Leading Evasion":
-  title: "College of Dance 6th Level: Leading Evasion"
+  title: "College of Dance Level 6: Leading Evasion"
   desc: "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and you take only half damage if you fail. If any creatures within 5 feet of you are making the same Dexterity saving throw, you can share this benefit with them for that save. You can't use this feature if you have the Incapacitated condition."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Dance: Tandem Footwork":
-  title: "College of Dance 6th Level: Tandem Footwork"
+  title: "College of Dance Level 6: Tandem Footwork"
   desc: "When you roll Initiative, you can spend one use of your Bardic Inspiration if you don't have the Incapacitated condition. When you do so, roll your Bardic Inspiration die, and choose a number of creatures within 60 feet of yourself (you can choose yourself), up to a number equal to your Charisma modifier (minimum of one creature). Each of them gains a bonus to their Initiative equal to the number rolled."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Dance: Irresistible Dance":
-  title: "College of Dance 14th Level: Irresistible Dance"
+  title: "College of Dance Level 14: Irresistible Dance"
   desc: "You always have the _Otto's Irresistible Dance_ spell prepared. You can cast it without expending a spell slot. Once you cast the spell in this way, you can't do so again until you finish a Long Rest. You can also restore your use of the feature by expending four uses of your Bardic Inspiration (no action required)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -133,25 +133,25 @@
 # ===================================
 
 "College of Glamour: Beguiling Magic":
-  title: "College of Glamour 3rd Level: Beguiling Magic"
+  title: "College of Glamour Level 3: Beguiling Magic"
   desc: "You always have the _Charm Person_ and _Mirror Image_ spells prepared.\n\nIn addition, immediately after you cast an Enchantment or Illusion spell, you can cause a creature you can see within 60 feet of yourself to make a Wisdom saving throw against your Spell Save DC. On a failed save, the target has the Charmed or Frightened condition (your choice) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nOnce you use this benefit, you can't use it again until you finish a Long Rest. You can also restore your use of the feature by expending one use of your Bardic Inspiration (no action required)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Glamour: Mantle of Inspiration":
-  title: "College of Glamour 3rd Level: Mantle of Inspiration"
+  title: "College of Glamour Level 3: Mantle of Inspiration"
   desc: "You can weave fey magic into a song or dance to fill others with vigor. As a Bonus Action, you can expend a use of Bardic Inspiration, rolling a Bardic Inspiration die. When you do so, choose a number of other creatures within 60 feet of yourself, up to a number equal to your Charisma modifier (minimum of one creature). Each of them gains a number of Temporary Hit Points equal to 2 times the number rolled on the Bardic Inspiration die, and then each of them can use its Reaction to move up to its Speed without provoking Opportunity Attacks."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Glamour: Mantle of Majesty":
-  title: "College of Glamour 6th Level: Mantle of Majesty"
+  title: "College of Glamour Level 6: Mantle of Majesty"
   desc: "You always have the _Command_ spell prepared.\n\nAs a Bonus Action, you cast _Command_ without expending a spell slot, and you take on an unearthly appearance for 1 minute or until your Concentration ends (as if you were concentrating on a spell). During this time, you can cast _Command_ as a Bonus Action without expending a spell slot.\n\nAny creature Charmed by you automatically fails its saving throw against the _Command_ you cast with this feature.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of the feature by expending a spell slot of 3rd level or higher (no action required)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Glamour: Unbreakable Majesty":
-  title: "College of Glamour 14th Level: Unbreakable Majesty"
+  title: "College of Glamour Level 14: Unbreakable Majesty"
   desc: "As a Bonus Action, you can assume a magically majestic presence for 1 minute or until you have the Incapacitated condition. For the duration, whenever any creature hits you with an attack roll for the first time on a turn, the attacker must succeed on a Charisma saving throw against your Spell Save DC, or the attack misses instead, as the creature recoils from your majesty.\n\nOnce you assume this majestic presence, you can't do so again until you finish a Short Rest or Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -162,25 +162,25 @@
 # ===================================
 
 "College of Lore: Bonus Proficiencies":
-  title: "College of Lore 3rd Level: Bonus Proficiencies"
+  title: "College of Lore Level 3: Bonus Proficiencies"
   desc: "You gain proficiency with three skills of your choice."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Lore: Cutting Words":
-  title: "College of Lore 3rd Level: Cutting Words"
+  title: "College of Lore Level 3: Cutting Words"
   desc: "You learn how to use your wit to supernaturally distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes a damage roll or succeeds on an ability check or attack roll, you can use your Reaction to expend one use of your Bardic Inspiration, roll your Bardic Inspiration die, and subtract the number rolled from the creature's roll, reducing the damage or potentially turning the success into a failure."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Lore: Magical Discoveries":
-  title: "College of Lore 6th Level: Magical Discoveries"
+  title: "College of Lore Level 6: Magical Discoveries"
   desc: "You learn two spells of your choice. These spells can come from the Arcane, Divine, or Primal spell list or any combination thereof. A spell you choose must be a cantrip or a spell for which you have spell slots, as shown on the Bard table.\n\nYou always have the chosen spells prepared, and whenever you gain a Bard level, you can replace one of the spells with another spell that meets the requirements above."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Lore: Peerless Skill":
-  title: "College of Lore 14th Level: Peerless Skill"
+  title: "College of Lore Level 14: Peerless Skill"
   desc: "When you make an ability check or attack roll and fail, you can expend one use of Bardic Inspiration, roll the Bardic Inspiration die, and add the number rolled to the d20, potentially turning a failure into a success. On a failure, the Bardic Inspiration isn't expended."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -191,25 +191,25 @@
 # ===================================
 
 "College of Valor: Combat Inspiration":
-  title: "College of Valor 3rd Level: Combat Inspiration"
+  title: "College of Valor Level 3: Combat Inspiration"
   desc: "You can use your wit to turn the tide of battle. A creature that has a Bardic Inspiration die from you can use it for one of the following effects:\n\n**Defense**. When the creature is hit by an attack roll, that creature can use its Reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, potentially causing the attack to miss.\n\n**Offense**. Immediately after the creature hits a target with an attack roll, the creature can roll the Bardic Inspiration die and add the number rolled to the attack's damage against the target."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Valor: Martial Training":
-  title: "College of Valor 3rd Level: Martial Training"
+  title: "College of Valor Level 3: Martial Training"
   desc: "You gain proficiency with Martial Weapons and armor training with Medium Armor and Shields.\n\nIn addition, you can use a Simple or Martial weapon as a spellcasting focus to cast spells from your Bard spell list."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Valor: Extra Attack":
-  title: "College of Valor 6th Level: Extra Attack"
+  title: "College of Valor Level 6: Extra Attack"
   desc: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "College of Valor: Battle Magic":
-  title: "College of Valor 14th Level: Battle Magic"
+  title: "College of Valor Level 14: Battle Magic"
   desc: "After you cast a spell that has a casting time of an action, you can make one attack with a weapon as a Bonus Action."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"

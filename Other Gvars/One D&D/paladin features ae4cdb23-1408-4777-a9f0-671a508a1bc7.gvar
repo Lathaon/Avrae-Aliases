@@ -3,13 +3,13 @@
 # load_yaml(get_gvar("ae4cdb23-1408-4777-a9f0-671a508a1bc7"))
 
 "Paladin: Lay on Hands":
-  title: "Paladin 1st Level: Lay on Hands"
+  title: "Paladin Level 1: Lay on Hands"
   desc: "Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a Long Rest. With that pool, you can restore a total number of Hit Points equal to five times your Paladin level.\n\nAs a Bonus Action, you can touch a creature (which could be yourself) and draw power from the pool of healing to restore a number of Hit Points to that creature, up to the maximum amount remaining in the pool.\n\nIn addition, you can expend 5 Hit Points from the pool of healing to remove the Poisoned condition from the creature, rather than using those points to restore Hit Points."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Spellcasting":
-  title: "Paladin 1st Level: Spellcasting"
+  title: "Paladin Level 1: Spellcasting"
   desc: "You have learned to cast spells through prayer, meditation, and devotion. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as a Paladin."
   fields:
   - title: "Spell Slots"
@@ -29,13 +29,13 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Weapon Mastery":
-  title: "Paladin 1st Level: Weapon Mastery"
+  title: "Paladin Level 1: Weapon Mastery"
   desc: "Your training with weapons allows you to use the Mastery property of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the Mastery properties of Halberds and Flails."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Paladin's Smite":
-  title: "Paladin 2nd Level: Paladin's Smite"
+  title: "Paladin Level 2: Paladin's Smite"
   desc: "You have mastered smiting your targets with divine energy. You always have certain spells ready; when you reach a Paladin level specified in the Smite Spells table, you thereafter always have the listed spells prepared.\n\nIn addition, you can cast one of your prepared spells from this feature without expending a spell slot, and you must finish a Long Rest before you use this benefit again."
   fields:
   - title: "Smite Spells"
@@ -43,13 +43,13 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Fighting Style":
-  title: "Paladin 2nd Level: Fighting Style"
+  title: "Paladin Level 2: Fighting Style"
   desc: "You have honed your martial prowess. You gain one of the following Fighting Style feats of your choice: Defense, Dueling, Great Weapon Fighting, or Protection."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Channel Divinity":
-  title: "Paladin 3rd Level: Channel Divinity"
+  title: "Paladin Level 3: Channel Divinity"
   desc: "You can channel divine energy directly from the Outer Planes, using that energy to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this Channel Divinity, you choose which effect to create from among those you have from this class.\n\nYou can use Channel Divinity twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain additional uses when you reach certain Paladin levels, as shown in the Channel Divinity column of the Paladin table.\n\nIf a Channel Divinity effect requires a saving throw, the DC equals the Spell Save DC from this class's Spellcasting feature."
   fields:
   - title: "Channel Divinity: Divine Sense"
@@ -59,65 +59,65 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Paladin Subclass":
-  title: "Paladin 3rd Level: Paladin Subclass"
+  title: "Paladin Level 3: Paladin Subclass"
   desc: "You gain a Paladin subclass of your choice: Oath of Devotion, Oath of Glory, Oath of the Ancients, or Oath of Vengeance. Subclasses are detailed after this class's description.\n\nA subclass is a specialization that grants you special abilities at certain Paladin levels. For the rest of your career, you gain each of your subclass's features that are of your Paladin level and lower."
   fields:
-  - title: "At 7th, 15th, and 20th Level"
+  - title: "At Levels 7, 15, and 20"
     body: "You gain a feature from your Paladin subclass."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Ability Score Improvement":
-  title: "Paladin 4th Level: Ability Score Improvement"
+  title: "Paladin Level 4: Ability Score Improvement"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   fields:
-  - title: "At 8th, 12th, 16th, and 19th Level"
+  - title: "At Levels 8, 12, 16, and 19"
     body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Extra Attack":
-  title: "Paladin 5th Level: Extra Attack"
+  title: "Paladin Level 5: Extra Attack"
   desc: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Faithful Steed":
-  title: "Paladin 5th Level: Faithful Steed"
+  title: "Paladin Level 5: Faithful Steed"
   desc: "You can easily call on the aid of an otherworldly steed. You always have the _Find Steed_ spell prepared.\n\nYou can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Aura of Protection":
-  title: "Paladin 6th Level: Aura of Protection"
+  title: "Paladin Level 6: Aura of Protection"
   desc: "You radiate a protective, invisible aura that extends 10 feet from you in every direction, but it doesn't extend through Total Cover. The aura is inactive while you have the Incapacitated condition.\n\nYou and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).\n\nIf another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which one when entering the auras."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Abjure Foes":
-  title: "Paladin 9th Level: Abjure Foes"
+  title: "Paladin Level 9: Abjure Foes"
   desc: "As a Magic action, you can expend one use of your Channel Divinity to overwhelm foes with divine awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself.\n\nEach target must succeed on a Wisdom saving throw or have the Dazed and Frightened conditions for 1 minute or until it takes any damage."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Aura of Courage":
-  title: "Paladin 10th Level: Aura of Courage"
+  title: "Paladin Level 10: Aura of Courage"
   desc: "You and your allies are immune to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Radiant Strikes":
-  title: "Paladin 11th Level: Radiant Strikes"
+  title: "Paladin Level 11: Radiant Strikes"
   desc: "You are so suffused with divine might that your weapon strikes carry supernatural power with them. When you hit a target with an attack roll using a melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Restoring Touch":
-  title: "Paladin 14th Level: Restoring Touch"
+  title: "Paladin Level 14: Restoring Touch"
   desc: "When you use Lay on Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Dazed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay on Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Paladin: Aura Expansion":
-  title: "Paladin 18th Level: Aura Expansion"
+  title: "Paladin Level 18: Aura Expansion"
   desc: "Your Aura of Protection now extends 30 feet from you rather than 10 feet."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -128,7 +128,7 @@
 # ===================================
 
 "Oath of Devotion: Oath Spells":
-  title: "Oath of Devotion 3rd Level: Oath Spells"
+  title: "Oath of Devotion Level 3: Oath Spells"
   desc: "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared."
   fields:
   - title: "Oath of Devotion Spells"
@@ -136,25 +136,25 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Devotion: Sacred Weapon":
-  title: "Oath of Devotion 3rd Level: Sacred Weapon"
+  title: "Oath of Devotion Level 3: Sacred Weapon"
   desc: "As a Bonus Action, you can expend one use of your Channel Divinity to imbue one melee weapon that you are holding with positive energy. For 1 minute, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.\n\nThe weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that.\n\nYou can end this effect as a Bonus Action. This effect also ends if you aren't holding or carrying the weapon or if you have the Incapacitated condition."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Devotion: Aura of Devotion":
-  title: "Oath of Devotion 7th Level: Aura of Devotion"
+  title: "Oath of Devotion Level 7: Aura of Devotion"
   desc: "You and your allies are immune to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Devotion: Smite of Protection":
-  title: "Oath of Devotion 15th Level: Smite of Protection"
+  title: "Oath of Devotion Level 15: Smite of Protection"
   desc: "Your magical smites now radiate protective energy. Whenever you cast any of your Paladin's Smite spells, you and your allies in your Aura of Protection have Half Cover until the start of your next turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Devotion: Holy Nimbus":
-  title: "Oath of Devotion 20th Level: Holy Nimbus"
+  title: "Oath of Devotion Level 20: Holy Nimbus"
   desc: "As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the following benefits for 1 minute or until you end them as a Bonus Action:\n\n**Holy Ward**. You have Advantage on any saving throw you are forced to make by a Fiend or an Undead.\n\n**Radiant Damage**. Whenever an enemy starts its turn in the aura, that creature takes Radiant damage equal to your Proficiency Bonus plus your Charisma modifier.\n\n**Sunlight**. The aura is filled with bright light that is sunlight.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a 5th-level spell slot (no action required)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -165,7 +165,7 @@
 # ===================================
 
 "Oath of Glory: Oath Spells":
-  title: "Oath of Glory 3rd Level: Oath Spells"
+  title: "Oath of Glory Level 3: Oath Spells"
   desc: "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Glory Spells table, you thereafter always have the listed spells prepared."
   fields:
   - title: "Oath of Glory Spells"
@@ -173,31 +173,31 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Glory: Inspiring Smite":
-  title: "Oath of Glory 3rd Level: Inspiring Smite"
+  title: "Oath of Glory Level 3: Inspiring Smite"
   desc: "Immediately after you deal damage to a creature with any of your Paladin's Smite spells, you can expend one use of your Channel Divinity and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 + your Paladin level, divided among the chosen creatures however you like."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Glory: Peerless Athlete":
-  title: "Oath of Glory 3rd Level: Peerless Athlete"
+  title: "Oath of Glory Level 3: Peerless Athlete"
   desc: "As a Bonus Action, you can expend one use of your Channel Divinity to augment your athleticism. For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks; you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Glory: Aura of Alacrity":
-  title: "Oath of Glory 7th Level: Aura of Alacrity"
+  title: "Oath of Glory Level 7: Aura of Alacrity"
   desc: "Your Speed increases by 10 feet, and the Speed of any ally who starts their turn in your Aura of Protection increases by 10 feet until the end of that turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Glory: Glorious Defense":
-  title: "Oath of Glory 15th Level: Glorious Defense"
+  title: "Oath of Glory Level 15: Glorious Defense"
   desc: "You can turn defense into a sudden strike. When you or another creature you can see within 10 feet of you is hit by an attack roll, you can use your Reaction to grant a bonus to the target's AC against that attack, potentially causing it to miss. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one weapon attack against the attacker as part of this Reaction, provided the attacker is within your weapon's range.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Glory: Living Legend":
-  title: "Oath of Glory 20th Level: Living Legend"
+  title: "Oath of Glory Level 20: Living Legend"
   desc: "You can empower yourself with the legends—whether true or exaggerated—of your great deeds. As a Bonus Action, you gain the following benefits for 1 minute:\n\n**Charismatic**. You are blessed with an otherworldly presence, gaining Advantage on all Charisma checks.\n\n**Saving Throw Reroll**. If you fail a saving throw, you can use your Reaction to reroll it. You must use this new roll.\n\n**Unerring Strike**. Once on each of your turns when you make an attack roll with a weapon and miss, you can cause that attack to hit instead.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a 5th-level spell slot (no action required)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -208,7 +208,7 @@
 # ======================================
 
 "Oath of the Ancients: Oath Spells":
-  title: "Oath of the Ancients 3rd Level: Oath Spells"
+  title: "Oath of the Ancients Level 3: Oath Spells"
   desc: "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Ancients Spells table, you thereafter always have the listed spells prepared."
   fields:
   - title: "Oath of the Ancients Spells"
@@ -216,25 +216,25 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of the Ancients: Nature's Wrath":
-  title: "Oath of the Ancients 3rd Level: Nature's Wrath"
+  title: "Oath of the Ancients Level 3: Nature's Wrath"
   desc: "As an action, you can expend one use of your Channel Divinity to conjure grasping spectral vines around nearby creatures. Each creature of your choice that you can see within 15 feet of you must succeed on a Strength saving throw or have the Restrained condition for 1 minute. A Restrained creature repeats the saving throw at the end of each of its turns, ending the effect on itself on a success."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of the Ancients: Aura of Warding":
-  title: "Oath of the Ancients 7th Level: Aura of Warding"
+  title: "Oath of the Ancients Level 7: Aura of Warding"
   desc: "Ancient magic lies so heavily upon you that it forms an eldritch ward, blunting energy from beyond the Material Plane; you and your allies have resistance to Necrotic, Psychic, and Radiant damage while in your Aura of Protection."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of the Ancients: Undying Sentinel":
-  title: "Oath of the Ancients 15th Level: Undying Sentinel"
+  title: "Oath of the Ancients Level 15: Undying Sentinel"
   desc: "When you are reduced to 0 Hit Points and not killed outright, you can choose to drop to 1 Hit Point instead, and you regain a number of Hit Points equal to three times your Paladin level. Once you use this feature, you can't do so again until you finish a Long Rest.\n\nAdditionally, you suffer none of the drawbacks of old age, and you can't be aged magically."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of the Ancients: Elder Champion":
-  title: "Oath of the Ancients 20th Level: Elder Champion"
+  title: "Oath of the Ancients Level 20: Elder Champion"
   desc: "As a Bonus Action, you can imbue your Aura of Protection with primal power, granting the following benefits for 1 minute or until you end them as a Bonus Action:\n\n**Diminish Defiance**. Enemies in the aura have Disadvantage on saving throws against your spells and Channel Divinity options.\n\n**Regeneration**. At the start of each of your turns, you regain 10 Hit Points.\n\n**Swift Spells**. Whenever you cast a spell that has a casting time of 1 action, you can cast it using a Bonus Action instead.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a 5th-level spell slot (no action required)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -245,7 +245,7 @@
 # ===================================
 
 "Oath of Vengeance: Oath Spells":
-  title: "Oath of Vengeance 3rd Level: Oath Spells"
+  title: "Oath of Vengeance Level 3: Oath Spells"
   desc: "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Vengeance Spells table, you thereafter always have the listed spells prepared."
   fields:
   - title: "Oath of Vengeance Spells"
@@ -253,25 +253,25 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Vengeance: Vow of Enmity":
-  title: "Oath of Vengeance 3rd Level: Vow of Enmity"
+  title: "Oath of Vengeance Level 3: Vow of Enmity"
   desc: "As a Bonus Action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You gain Advantage on attack rolls against the creature for 1 minute.\n\nIf the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required). You can make this transfer no more than once per turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Vengeance: Relentless Avenger":
-  title: "Oath of Vengeance 7th Level: Relentless Avenger"
+  title: "Oath of Vengeance Level 7: Relentless Avenger"
   desc: "Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature's Speed to 0, and you can then move up to half your Speed as part of the same Reaction. This movement doesn't provoke Opportunity Attacks."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Vengeance: Soul of Vengeance":
-  title: "Oath of Vengeance 15th Level: Soul of Vengeance"
+  title: "Oath of Vengeance Level 15: Soul of Vengeance"
   desc: "Immediately after a creature under the effect of your Vow of Enmity hits or misses with an attack, you can use your Reaction to make a melee attack against that creature if it's within range."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Oath of Vengeance: Avenging Angel":
-  title: "Oath of Vengeance 20th Level: Avenging Angel"
+  title: "Oath of Vengeance Level 20: Avenging Angel"
   desc: "As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the following benefits for 10 minutes or until you end them as a Bonus Action:\n\n**Flight**. You sprout spectral wings on your back. You have a Fly Speed equal to your Speed and can Hover.\n\n**Frightful Aura**. Whenever an enemy starts its turn in the aura, that creature must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. Attack rolls against the Frightened creature have Advantage.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a 5th-level spell slot (no action required)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"

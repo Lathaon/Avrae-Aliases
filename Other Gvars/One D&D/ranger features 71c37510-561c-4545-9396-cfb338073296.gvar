@@ -3,15 +3,15 @@
 # load_yaml(get_gvar("71c37510-561c-4545-9396-cfb338073296"))
 
 "Ranger: Deft Explorer":
-  title: "Ranger 1st Level: Deft Explorer"
+  title: "Ranger Level 1: Deft Explorer"
   desc: "You are an unsurpassed explorer. Choose one of your proficiencies in a skill that appears on the Ranger skill list. You gain Expertise in that skill.\n\nIn addition, choose two types of terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. You have Advantage on Intelligence (Nature) checks about the chosen terrains, and you have Advantage on Wisdom (Survival) checks to track creatures in them.\n\nWhenever you finish a Long Rest, you can meditate and replace one of the chosen terrain types with a different one from the list."
   fields:
-  - title: "At 9th Level"
+  - title: "At Level 9"
     body: "Choose one of your proficiencies in a skill that appears on the Ranger skill list. You gain Expertise in that skill.\n\nIn addition, choose two more terrain types for your Deft Explorer feature."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Spellcasting":
-  title: "Ranger 1st Level: Spellcasting"
+  title: "Ranger Level 1: Spellcasting"
   desc: "You have learned to channel the magical essence of nature to cast spells. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as a Ranger."
   fields:
   - title: "Spell Slots"
@@ -31,83 +31,83 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Weapon Mastery":
-  title: "Ranger 1st Level: Weapon Mastery"
+  title: "Ranger Level 1: Weapon Mastery"
   desc: "Your training with weapons allows you to use the Mastery property of two kinds of weapons of your choice with which you have proficiency, such as Longbows and Longswords.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the Mastery properties of Scimitars and Shortswords."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Favored Enemy":
-  title: "Ranger 2nd Level: Favored Enemy"
+  title: "Ranger Level 2: Favored Enemy"
   desc: "You are adept at focusing on a single foe. You always have the _Hunter's Mark_ spell prepared. You can cast it a number of times equal to your Wisdom modifier (minimum of once) without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Fighting Style":
-  title: "Ranger 2nd Level: Fighting Style"
+  title: "Ranger Level 2: Fighting Style"
   desc: "You have honed your martial prowess. You gain one of the following Fighting Style feats of your choice: Archery, Defense, Dueling, or Two-Weapon Fighting."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Ranger Subclass":
-  title: "Ranger 3rd Level: Ranger Subclass"
+  title: "Ranger Level 3: Ranger Subclass"
   desc: "You gain a Ranger subclass of your choice: Beast Master, Fey Wanderer, Gloom Stalker, or Hunter. Subclasses are detailed after this class's description (for this playtest, use Fey Wanderer from [_Tasha's Cauldron of Everything_](https://www.dndbeyond.com/sources/tcoe)).\n\nA subclass is a specialization that grants you special abilities at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level and lower."
   fields:
-  - title: "At 7th, 11th, and 15th Level"
+  - title: "At Levels 7, 11, and 15"
     body: "You gain a feature from your Ranger subclass."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Ability Score Improvement":
-  title: "Ranger 4th Level: Ability Score Improvement"
+  title: "Ranger Level 4: Ability Score Improvement"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   fields:
-  - title: "At 8th, 12th, 16th, and 19th Level"
+  - title: "At Levels 8, 12, 16, and 19"
     body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Extra Attack":
-  title: "Ranger 5th Level: Extra Attack"
+  title: "Ranger Level 5: Extra Attack"
   desc: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Roving":
-  title: "Ranger 6th Level: Roving"
+  title: "Ranger Level 6: Roving"
   desc: "Your Speed increases by 10 feet while you aren't wearing heavy armor.\n\nYou also have a Climb Speed and a Swim Speed equal to your Speed."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Conjure Barrage":
-  title: "Ranger 9th Level: Conjure Barrage"
+  title: "Ranger Level 9: Conjure Barrage"
   desc: "Channeling nature's might, you can cause your weapon to multiply and strike at creatures before you; you always have the _Conjure Barrage_ spell prepared."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Tireless":
-  title: "Ranger 10th Level: Tireless"
+  title: "Ranger Level 10: Tireless"
   desc: "Primal forces now help fuel you on your journeys, granting you the following benefits:\n\n**Temporary Hit Points**. As an action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\n**Decrease Exhaustion**. Whenever you finish a Short Rest, your exhaustion level, if any, decreases by 1."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Nature's Veil":
-  title: "Ranger 14th Level: Nature's Veil"
+  title: "Ranger Level 14: Nature's Veil"
   desc: "You invoke spirits of nature to magically hide yourself from view. As a Bonus Action, you can give yourself the Invisible condition until the end of your next turn.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Conjure Volley":
-  title: "Ranger 17th Level: Conjure Volley"
+  title: "Ranger Level 17: Conjure Volley"
   desc: "Propelled by primal spirits, your weapon can strike a group of targets far away; you always have the _Conjure Volley_ spell prepared."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Feral Senses":
-  title: "Ranger 18th Level: Feral Senses"
+  title: "Ranger Level 18: Feral Senses"
   desc: "Your connection to the forces of nature grants you Blindsight with a range of 30 feet."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Ranger: Foe Slayer":
-  title: "Ranger 20th Level: Foe Slayer"
+  title: "Ranger Level 20: Foe Slayer"
   desc: "You become an unparalleled hunter of your foes. When your attack roll misses the target of your _Hunter's Mark_, you can add your Wisdom modifier to the attack roll, potentially turning it into a hit. In addition, whenever you hit that target with an attack roll and deal damage to it, you can add your Wisdom modifier to the damage."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -118,7 +118,7 @@
 # ===================================
 
 "Beast Master: Primal Companion":
-  title: "Beast Master 3rd Level: Primal Companion"
+  title: "Beast Master Level 3: Primal Companion"
   desc: "You magically summon a primal beast, which draws strength from your bond with nature. The beast is friendly to you and your companions and obeys your commands. Choose its stat block—Beast of the Land, Beast of the Sea, or Beast of the Sky—which uses your Proficiency Bonus (PB) in several places. You also determine the kind of animal the beast is, choosing a kind appropriate for the stat block. Whatever kind you choose, the beast bears primal markings, indicating its supernatural origin.\n\nIn combat, the beast acts during your turn. It can move and use its Reaction on its own, but the only action it takes is the Dodge action, unless you take a Bonus Action on your turn to command it to take a different action. That action can be one in its stat block or some other action. You can also sacrifice one of your attacks when you take the Attack action to command the beast to take the Attack action. If you have the Incapacitated condition, the beast can take any action of its choice, not just Dodge.\n\nIf the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its Hit Points restored.\n\nWhenever you finish a Long Rest, you can summon a different primal beast. The new beast appears in an unoccupied space within 5 feet of you, and you choose its stat block and appearance. If you already have a beast from this feature, it vanishes when the new beast appears. The beast vanishes if you die."
   fields:
   - body: "> **BEAST OF THE LAND**\n> *Medium Beast*\n> \n> **Armor Class** 13 + PB (natural armor)\n> **Hit Points** 5 + five times your Ranger level (the beast has a number of Hit Dice [d8s] equal to your Ranger level)\n> **Speed** 40 ft., Climb 40 ft.\n> \n> **STR**: 14 (+2) **DEX**: 14 (+2) **CON**: 15 (+2)\n> **INT**: 8 (-1) **WIS**: 14 (+2) **CHA**: 11 (+0)\n> \n> **Senses** Darkvision 60 ft., passive Perception 12\n> **Languages** understands the languages you speak\n> **Proficiency Bonus (PB)** equals your Proficiency Bonus\n> \n> ***Charge***. If the beast moves at least 20 feet straight toward a target and then hits it with a Maul attack on the same turn, the target takes an extra 1d6 Slashing damage. If the target is a creature, it must succeed on a Strength saving throw against your Spell Save DC or have the Prone condition.\n> \n> ***Primal Bond***. You can add your Proficiency Bonus to any ability check or saving throw that the beast makes.\n> \n> **ACTIONS**\n> ***Maul***. *Melee Attack:* your Spell Attack Modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + 2 + PB Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast)."
@@ -127,19 +127,19 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Beast Master: Exceptional Training":
-  title: "Beast Master 7th Level: Exceptional Training"
+  title: "Beast Master Level 7: Exceptional Training"
   desc: "When you use your Bonus Action to command your Primal Companion beast to take an action, you can also command it to take the Dash, Disengage, Dodge, or Help action as a Bonus Action.\n\nIn addition, whenever the beast hits with an attack and deals damage, it can deal your choice of Force damage or its normal damage type."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Beast Master: Bestial Fury":
-  title: "Beast Master 11th Level: Bestial Fury"
+  title: "Beast Master Level 11: Bestial Fury"
   desc: "When you command your Primal Companion beast to take the Attack action, the beast can make two attacks.\n\nIn addition, the first time each turn it hits a creature under the effect of your _Hunter's Mark_ spell, the beast deals extra Force damage equal to the bonus damage of that spell."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Beast Master: Share Spells":
-  title: "Beast Master 15th Level: Share Spells"
+  title: "Beast Master Level 15: Share Spells"
   desc: "When you cast a spell targeting yourself, you can also affect your Primal Companion beast with the spell if the beast is within 30 feet of you."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -150,7 +150,7 @@
 # ===================================
 
 "Gloom Stalker: Gloom Stalker Magic":
-  title: "Gloom Stalker 3rd Level: Gloom Stalker Magic"
+  title: "Gloom Stalker Level 3: Gloom Stalker Magic"
   desc: "The magic of the Shadowfell ensures you always have certain spells ready; when you reach a Ranger level specified in the Gloom Stalker Spells table, you thereafter always have the listed spells prepared."
   fields:
   - title: "Gloom Stalker Spells"
@@ -158,31 +158,31 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Gloom Stalker: Dread Ambusher":
-  title: "Gloom Stalker 3rd Level: Dread Ambusher"
+  title: "Gloom Stalker Level 3: Dread Ambusher"
   desc: "You have mastered the art of creating frightening ambushes, granting you the following benefits:\n\n**Ambusher's Leap**. At the start of the first turn of each combat, your Speed increases by 10 feet until the end of that turn.\n\n**Frighten**. Once per turn when you attack a creature and hit it with a weapon, you can deal an extra 1d8 Psychic damage to the target and force it to make a Wisdom saving throw against your Spell Save DC. On a failed save, it has the Frightened condition until the start of your next turn. You can use this benefit a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\n**Initiative Bonus**. When you roll Initiative, you can add your Wisdom modifier to the roll."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Gloom Stalker: Umbral Sight":
-  title: "Gloom Stalker 3rd Level: Umbral Sight"
+  title: "Gloom Stalker Level 3: Umbral Sight"
   desc: "You gain Darkvision out to a range of 60 feet. If you already have Darkvision when you gain this feature, its range increases by 60 feet.\n\nYou are also adept at evading creatures that rely on Darkvision. While entirely in Darkness, you have the Invisible condition to any creature that relies on Darkvision to see you in that darkness."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Gloom Stalker: Iron Mind":
-  title: "Gloom Stalker 7th Level: Iron Mind"
+  title: "Gloom Stalker Level 7: Iron Mind"
   desc: "You have honed your ability to resist the mind-altering powers of your prey. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Gloom Stalker: Stalker's Flurry":
-  title: "Gloom Stalker 11th Level: Stalker's Flurry"
+  title: "Gloom Stalker Level 11: Stalker's Flurry"
   desc: "When you use the Frighten effect of your Dread Ambusher feature, you can cause one of the following additional effects:\n\n**Sudden Strike**. You can make another attack with the same weapon against a different creature that is within 5 feet of the original target and that is within the weapon's range.\n\n**Mass Fear**. Each creature within 10 feet of the target must make a Wisdom saving throw against your Spell Save DC. On a failed save, a creature has the Frightened condition until the start of your next turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Gloom Stalker: Shadowy Dodge":
-  title: "Gloom Stalker 15th Level: Shadowy Dodge"
+  title: "Gloom Stalker Level 15: Shadowy Dodge"
   desc: "You can dodge with wisps of supernatural shadow around you. When a creature makes an attack roll against you, you can use your Reaction to impose Disadvantage on that roll. If the attack then misses, you can teleport up to 30 feet to an unoccupied space you can see."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -193,31 +193,31 @@
 # ===================================
 
 "Hunter: Hunter's Prey":
-  title: "Hunter 3rd Level: Hunter's Prey"
+  title: "Hunter Level 3: Hunter's Prey"
   desc: "You gain one of the following feature options of your choice.\n\n**Colossus Slayer**. Your tenacity can wear down even the most resilient foes. When you hit a creature with a weapon, the weapon deals an extra 1d8 damage to the target if it's missing any of its Hit Points. You can deal this extra damage only once per turn.\n\n**Horde Breaker**. Once on each of your turns when you make an attack with a weapon, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target, that is within the weapon's range, and that you haven't attacked this turn.\n\n**Retaliator**. Immediately after a creature within 5 feet of you attacks you, you can use your Reaction to make one attack with a weapon against that creature, whether or not it hit you."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Hunter: Hunter's Lore":
-  title: "Hunter 3rd Level: Hunter's Lore"
+  title: "Hunter Level 3: Hunter's Lore"
   desc: "You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your _Hunter's Mark_, you know whether that creature has any damage or condition immunities, damage resistances, or damage vulnerabilities, and if the creature has any, you know what they are."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Hunter: Defensive Tactics":
-  title: "Hunter 7th Level: Defensive Tactics"
+  title: "Hunter Level 7: Defensive Tactics"
   desc: "You gain one of the following feature options of your choice.\n\n**_Evasion_**. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition.\n\n**_Hunter's Leap_**. If an enemy you can see enters a space within 5 feet of you, you can use your Reaction to move up to half your Speed without provoking Opportunity Attacks.\n\n**_Uncanny Dodge_**. When an attacker that you can see hits you with an attack roll, you can use your Reaction to halve the attack's damage against you (round down)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Hunter: Superior Hunter's Prey":
-  title: "Hunter 11th Level: Superior Hunter's Prey"
+  title: "Hunter Level 11: Superior Hunter's Prey"
   desc: "You gain another feature option of your choice from the Hunter's Prey feature."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Hunter: Superior Hunter's Defense":
-  title: "Hunter 15th Level: Superior Hunter's Defense"
+  title: "Hunter Level 15: Superior Hunter's Defense"
   desc: "You gain another feature option of your choice from the Defensive Tactics feature."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"

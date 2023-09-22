@@ -3,15 +3,15 @@
 # load_yaml(get_gvar("3d6b87f5-53d8-4083-90d8-1e8086d3c878"))
 
 "Rogue: Expertise":
-  title: "Rogue 1st Level: Expertise"
+  title: "Rogue Level 1: Expertise"
   desc: "You gain Expertise in two of your skill proficiencies of your choice.\n\nSleight of Hand and Stealth are iconic choices for a Rogue if you have proficiency in them."
   fields:
-  - title: "At 6th Level"
+  - title: "At Level 6"
     body: "You gain Expertise in two of your skill proficiencies of your choice."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Sneak Attack":
-  title: "Rogue 1st Level: Sneak Attack"
+  title: "Rogue Level 1: Sneak Attack"
   desc: "You know how to turn a subtle attack into a deadly one. Once per turn, you can deal extra damage to one creature you hit with an attack roll if you're attacking with a Finesse or Ranged weapon and if at least one of the following requirements is met:\n\n**Advantage**. You have Advantage on the attack roll.\n\n**Ally Adjacent to Target**. At least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll.\n\nTo determine the extra damage, roll a number of d6s equal to half your Rogue level (round up), and add the dice together (the Rogue table shows the number of Sneak Attack dice you get at each Rogue level). The extra damage's type is the same as the weapon's Damage Type."
   fields:
   - title: "Rogue Table: Sneak Attack Damage"
@@ -19,7 +19,7 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Thieves' Cant":
-  title: "Rogue 1st Level: Thieves' Cant"
+  title: "Rogue Level 1: Thieves' Cant"
   desc: "You picked up various languages in the communities where you pried your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the Standard Languages and Rare Languages tables."
   fields:
   - title: "Standard Languages"
@@ -29,41 +29,41 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Weapon Mastery":
-  title: "Rogue 1st Level: Weapon Mastery"
+  title: "Rogue Level 1: Weapon Mastery"
   desc: "Your training with weapons allows you to use the Mastery property of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.\n\nWhenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the Mastery properties of Scimitars and Shortswords."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Cunning Action":
-  title: "Rogue 2nd Level: Cunning Action"
+  title: "Rogue Level 2: Cunning Action"
   desc: "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a Bonus Action: Dash, Disengage, or Hide."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Rogue Subclass":
-  title: "Rogue 3rd Level: Rogue Subclass"
+  title: "Rogue Level 3: Rogue Subclass"
   desc: "You gain a Rogue subclass of your choice: Arcane Trickster, Assassin, Swashbuckler, or Thief. Subclasses are detailed after this class's description.\n\nA subclass is a specialization that grants you special abilities at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level and lower."
   fields:
-  - title: "At 9th, 13th, and 17th Level"
+  - title: "At Levels 9, 13, and 17"
     body: "You gain a feature from your Rogue subclass."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Steady Aim":
-  title: "Rogue 3rd Level: Steady Aim"
+  title: "Rogue Level 3: Steady Aim"
   desc: "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Ability Score Improvement":
-  title: "Rogue 4th Level: Ability Score Improvement"
+  title: "Rogue Level 4: Ability Score Improvement"
   desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   fields:
-  - title: "At 8th, 10th, 12th, 16th, and 19th Level"
+  - title: "At Levels 8, 10, 12, 16, and 19"
     body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Cunning Strike":
-  title: "Rogue 5th Level: Cunning Strike"
+  title: "Rogue Level 5: Cunning Strike"
   desc: "You have developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forego to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the poison effect, remove 1d6 from the Sneak Attack's damage before rolling.\n\nIf a Cunning Strike effect requires a saving throw, the DC equals 8 + your Proficiency Bonus + your Dexterity modifier."
   fields:
   - title: "Disarm (Cost: 1d6)"
@@ -74,30 +74,30 @@
     body: "If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the Prone condition."
   - title: "Withdraw (Cost: 1d6)"
     body: "Immediately after the attack, you move up to half your Speed without provoking Opportunity Attacks."
-  - title: "At 11th Level"
+  - title: "At Level 11"
     body: "You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect."
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Uncanny Dodge":
-  title: "Rogue 5th Level: Uncanny Dodge"
+  title: "Rogue Level 5: Uncanny Dodge"
   desc: "When an attacker that you can see hits you with an attack roll, you can use your Reaction to halve the attack's damage against you (round down)."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Evasion":
-  title: "Rogue 7th Level: Evasion"
+  title: "Rogue Level 7: Evasion"
   desc: "You can nimbly dodge out of the way of certain dangers. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the Incapacitated condition."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Reliable Talent":
-  title: "Rogue 7th Level: Reliable Talent"
+  title: "Rogue Level 7: Reliable Talent"
   desc: "You have refined your talents until they approach perfection. Whenever you make an ability check that uses one of your skill or Tool proficiencies, you can treat a d20 roll of 9 or lower as a 10."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Devious Strikes":
-  title: "Rogue 14th Level: Devious Strikes"
+  title: "Rogue Level 14: Devious Strikes"
   desc: "You have practiced new ways to use your Sneak Attack deviously. The following effects are now among your Cunning Strike options."
   fields:
   - title: "Daze (Cost: 2d6)"
@@ -109,19 +109,19 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Slippery Mind":
-  title: "Rogue 15th Level: Slippery Mind"
+  title: "Rogue Level 15: Slippery Mind"
   desc: "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Elusive":
-  title: "Rogue 18th Level: Elusive"
+  title: "Rogue Level 18: Elusive"
   desc: "You are so evasive that attackers rarely gain the upper hand against you. No attack roll can have Advantage against you unless you have the Incapacitated condition."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Rogue: Stroke of Luck":
-  title: "Rogue 20th Level: Stroke of Luck"
+  title: "Rogue Level 20: Stroke of Luck"
   desc: "You have an uncanny knack for succeeding when you need to. If you fail a d20 test, you can turn the roll into a 20.\n\nOnce you use this feature, you can't use it again until you finish a Short Rest or a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -132,7 +132,7 @@
 # ===================================
 
 "Arcane Trickster: Spellcasting":
-  title: "Arcane Trickster 3rd Level: Spellcasting"
+  title: "Arcane Trickster Level 3: Spellcasting"
   desc: "You have learned to cast spells. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as an Arcane Trickster."
   fields:
   - title: "Cantrips"
@@ -154,25 +154,25 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Arcane Trickster: Mage Hand Legerdemain":
-  title: "Arcane Trickster 3rd Level: Mage Hand Legerdemain"
+  title: "Arcane Trickster Level 3: Mage Hand Legerdemain"
   desc: "When you cast _Mage Hand_, you can make the spectral hand invisible. You can control the hand as a Bonus Action, instead of an action, and through it, you can use Thieves' Tools and make Dexterity (Sleight of Hand) checks."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Arcane Trickster: Magical Ambush":
-  title: "Arcane Trickster 9th Level: Magical Ambush"
+  title: "Arcane Trickster Level 9: Magical Ambush"
   desc: "If you have the Invisible condition when you cast a spell on a creature, it has Disadvantage on any saving throw it makes against the spell on the same turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Arcane Trickster: Versatile Trickster":
-  title: "Arcane Trickster 13th Level: Versatile Trickster"
+  title: "Arcane Trickster Level 13: Versatile Trickster"
   desc: "You gain the ability to distract targets with your _Mage Hand_. When you use the Disarm or Trip options of your Cunning Strike, you can also target that option at a creature within 5 feet of the spectral hand."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Arcane Trickster: Spell Thief":
-  title: "Arcane Trickster 17th Level: Spell Thief"
+  title: "Arcane Trickster Level 17: Spell Thief"
   desc: "You gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.\n\nImmediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your Reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your Spell Save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be an Arcane spell).\n\nFor the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -183,31 +183,31 @@
 # ===================================
 
 "Assassin: Bonus Proficiencies":
-  title: "Assassin 3rd Level: Bonus Proficiencies"
+  title: "Assassin Level 3: Bonus Proficiencies"
   desc: "You gain proficiency with the Disguise Kit and Poisoner's Kit."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Assassin: Assassinate":
-  title: "Assassin 3rd Level: Assassinate"
+  title: "Assassin Level 3: Assassinate"
   desc: "You are adept at getting the drop on a target, granting you the following benefits:\n\n**Initiative**. You have Advantage on Initiative rolls.\n\n**Surprising Strikes**. During the first round of each combat, you have Advantage on attack rolls against any creature that hasn't taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon's type equal to your Rogue level."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Assassin: Infiltration Expertise":
-  title: "Assassin 9th Level: Infiltration Expertise"
+  title: "Assassin Level 9: Infiltration Expertise"
   desc: "You are an expert at posing as someone else to aid your infiltrations. While in a disguise created using your Disguise Kit, you have Advantage on any Charisma (Deception) check you make while pretending to be someone else. You can also unerringly mimic another person's speech, handwriting, or both if you have spent at least one hour studying each one."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Assassin: Envenom Weapons":
-  title: "Assassin 13th Level: Envenom Weapons"
+  title: "Assassin Level 13: Envenom Weapons"
   desc: "When you use the Poison option of your Cunning Strike, the target also takes 2d6 Poison damage whenever it fails the saving throw. This damage ignores resistance to Poison damage."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Assassin: Death Strike":
-  title: "Assassin 14th Level: Death Strike"
+  title: "Assassin Level 14: Death Strike"
   desc: "When you hit with your Sneak Attack on the first round of a combat, the target must succeed on a Constitution saving throw (DC 8 + your Dexterity modifier + your Proficiency Bonus), or the attack's damage is doubled against the target."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -218,19 +218,19 @@
 # ===================================
 
 "Swashbuckler: Fancy Footwork":
-  title: "Swashbuckler 3rd Level: Fancy Footwork"
+  title: "Swashbuckler Level 3: Fancy Footwork"
   desc: "You've learned how to land a strike and then slip away without reprisal. If you make a melee attack against a creature during your turn, that creature can't make Opportunity Attacks against you for the rest of that turn."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Swashbuckler: Rakish Audacity":
-  title: "Swashbuckler 3rd Level: Rakish Audacity"
+  title: "Swashbuckler Level 3: Rakish Audacity"
   desc: "When you roll Initiative, you can give yourself a bonus to the roll equal to your Charisma modifier.\n\nYou also gain an additional way to use your Sneak Attack; you don't need Advantage on the attack roll to use your Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have Disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Swashbuckler: Panache":
-  title: "Swashbuckler 9th Level: Panache"
+  title: "Swashbuckler Level 9: Panache"
   desc: "You have practiced new ways to use your Sneak Attack. The following effects are now among your Cunning Strike options."
   fields:
   - title: "Goad (Cost: 1d6)"
@@ -240,7 +240,7 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Swashbuckler: Dashing Strikes":
-  title: "Swashbuckler 13th Level: Dashing Strikes"
+  title: "Swashbuckler Level 13: Dashing Strikes"
   desc: "You have practiced new ways to use your Sneak Attack. The following effects are now among your Cunning Strike options."
   fields:
   - title: "Parrying Stance (Cost: 2d6)"
@@ -250,7 +250,7 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Swashbuckler: Master Duelist":
-  title: "Swashbuckler 17th Level: Master Duelist"
+  title: "Swashbuckler Level 17: Master Duelist"
   desc: "Immediately after you use your Sneak Attack, you can make another attack against the same target, provided you are within 5 feet of it and no other creatures are within 5 feet of you."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
@@ -261,19 +261,19 @@
 # ===================================
 
 "Thief: Fast Hands":
-  title: "Thief 3rd Level: Fast Hands"
+  title: "Thief Level 3: Fast Hands"
   desc: "As a Bonus Action, you can do one of the following:\n\n**Sleight of Hand**. Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.\n\n**Use an Object**. Take the Use an Object action, or take the Magic action to use a magic item that requires that action."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Thief: Second-Story Work":
-  title: "Thief 3rd Level: Second-Story Work"
+  title: "Thief Level 3: Second-Story Work"
   desc: "You have trained to reach especially hard-to-reach places, granting you these benefits:\n\n**Climber**. You gain a Climb Speed equal to your Speed. On your turn, you can move on a ceiling without making an ability check, provided there is at least one handhold during the move, but you fall if you end the turn there without a handhold.\n\n**Jumper**. Your jump distance is determined by your Dexterity rather than your Strength."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Thief: Supreme Sneak":
-  title: "Thief 9th Level: Supreme Sneak"
+  title: "Thief Level 9: Supreme Sneak"
   desc: "You gain the following Cunning Strike option."
   fields:
   - title: "Stealth Attack (Cost: 1d6)"
@@ -281,13 +281,13 @@
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Thief: Use Magic Device":
-  title: "Thief 13th Level: Use Magic Device"
+  title: "Thief Level 13: Use Magic Device"
   desc: "In your treasure hunting, you have learned how to maximize use of magic items, granting you the following benefits:\n\n**Attunement**. You can attune to up to four magic items at once.\n\n**Charges**. Whenever you use a magic item property that expends charges, roll a d6. On a roll of 6, you use the property without expending the charges.\n\n**Scrolls**. You can use any Spell Scroll, using Intelligence as your Spellcasting Ability for the spell. If the spell is a cantrip or a 1st-level spell, you can cast it reliably. If the scroll contains a higher-level spell, you must first succeed on an Intelligence (Arcana) check with a DC equal to 10 plus the spell's level. On a successful check, you cast the spell from the scroll. On a failed check, the scroll disintegrates."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 "Thief: Thief's Reflexes":
-  title: "Thief 17th Level: Thief's Reflexes"
+  title: "Thief Level 17: Thief's Reflexes"
   desc: "You are adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal Initiative and your second turn at your Initiative minus 10."
   fields:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"

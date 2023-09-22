@@ -2,7 +2,7 @@
 # One D&D Classes
 # load_yaml(get_gvar("59b76239-1bc1-4193-9025-d17539d824db"))
 Barbarian:
-  desc: "**Class Group**: Warrior\n**Primary Ability**: Strength\n\n`1` Rage, Unarmored Defense, Weapon Mastery\n`2` Primal Knowledge, Reckless Attack\n`3` Barbarian Subclass\n`4` Feat\n`5` Extra Attack, Fast Movement\n`6` Subclass Feature\n`7` Feral Instinct\n`8` Feat\n`9` Indomitable Might\n`10` Subclass Feature\n`11` Brutal Critical\n`12` Feat\n`13` Persistent Rage\n`14` Subclass Feature\n`15` Relentless Rage\n`16` Feat\n`17` Rage Resurgence\n`18` Primal Champion\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Ability**: Strength\n\n`1` Rage, Unarmored Defense, Weapon Mastery\n`2` Danger Sense, Reckless Attack\n`3` Barbarian Subclass, Primal Knowledge\n`4` Ability Score Improvement\n`5` Extra Attack, Fast Movement\n`6` Subclass Feature\n`7` Feral Instinct, Instinctive Pounce\n`8` Ability Score Improvement\n`9` Brutal Critical (1d12)\n`10` Subclass Feature\n`11` Relentless Rage\n`12` Ability Score Improvement\n`13` Brutal Critical (2d12)\n`14` Subclass Feature\n`15` Persistent Rage\n`16` Ability Score Improvement\n`17` Brutal Critical (3d12)\n`18` Indomitable Might\n`19` Ability Score Improvement\n`20` Primal Champion"
   fields:
   - title: "Hit Points"
     body: "**Hit Dice**: 1d12 per Barbarian level\n**Hit Points at 1st Level**: 12 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d12 (or 7) + your Constitution modifier"
@@ -14,7 +14,7 @@ Barbarian:
     body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 75 GP on equipment of your choice.\n\n- Explorer's Pack\n- (a) Greataxe or (b) Battleaxe, Shield, and 10 GP\n- Handaxe (4)\n- 15 GP"
   - title: "Multiclassing and the Barbarian"
     body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Barbarian as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Barbarian's primary ability, Strength, to take a level in this class or to take a level in another class if you are already a Barbarian.\n\n**_Proficiencies Gained_**. If Barbarian isn't your initial class, you gain proficiency with Martial Weapons when you take your first Barbarian level.\n\n**_Armor Training_**. When you gain your first Barbarian level, you gain armor training with Shields."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 Bard:
   desc: "**Primary Ability**: Charisma\n\n`1` Bardic Inspiration, Spellcasting\n`2` Expertise, Jack of All Trades\n`3` Bard Subclass\n`4` Ability Score Improvement\n`5` Font of Inspiration\n`6` Subclass Feature\n`7` Countercharm\n`8` Ability Score Improvement\n`9` Expertise\n`10` Magical Secrets\n`11` —\n`12` Ability Score Improvement\n`13` —\n`14` Subclass Feature\n`15` —\n`16` Ability Score Improvement\n`17` —\n`18` Superior Inspiration\n`19` Ability Score Improvement\n`20` Words of Creation"
@@ -62,7 +62,7 @@ Druid:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 Fighter:
-  desc: "**Class Group**: Warrior\n**Primary Ability**: Strength or Dexterity\n\n`1` Fighting Style, Second Wind, Weapon Mastery\n`2` Action Surge\n`3` Fighter Subclass\n`4` Feat\n`5` Extra Attack, Feat\n`6` Subclass Feature\n`7` Weapon Expert\n`8` Feat\n`9` Indomitable\n`10` Subclass Feature\n`11` Two Extra Attacks\n`12` Feat\n`13` Weapon Adept\n`14` Subclass Feature\n`15` Feat, Improved Action Surge\n`16` Feat\n`17` Unconquerable\n`18` Three Extra Attacks\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Ability**: Strength or Dexterity\n\n`1` Fighting Style, Second Wind, Weapon Mastery\n`2` Action Surge (One Use), Tactical Mind\n`3` Fighter Subclass\n`4` Ability Score Improvement\n`5` Extra Attack, Tactical Shift\n`6` Ability Score Improvement\n`7` Subclass Feature\n`8` Ability Score Improvement\n`9` Indomitable (One Use), Master of Armaments\n`10` Subclass Feature\n`11` Two Extra Attacks\n`12` Ability Score Improvement\n`13` Indomitable (Two Uses), Studied Attacks\n`14` Ability Score Improvement\n`15` Subclass Feature\n`16` Ability Score Improvement\n`17` Action Surge (Two Uses), Indomitable (Three Uses)\n`18` Subclass Feature\n`19` Ability Score Improvement\n`20` Three Extra Attacks"
   fields:
   - title: "Hit Points"
     body: "**Hit Dice**: 1d10 per Fighter level\n**Hit Points at 1st Level**: 10 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d10 (or 6) + your Constitution modifier"
@@ -74,7 +74,7 @@ Fighter:
     body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 175 GP on equipment of your choice.\n\n- Chain Mail\n- Crossbow Bolts (20)\n- Dungeoneer's Pack\n- (a) Greatsword or (b) Longsword, Shield, and 25 GP\n- Light Crossbow\n- Quiver\n- 11 GP"
   - title: "Multiclassing and the Fighter"
     body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Fighter as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in one of the Fighter's primary abilities, Strength or Dexterity, to take a level in this class or to take a level in another class if you are already a Fighter.\n\n**_Proficiencies Gained_**. If Fighter isn't your initial class, you gain proficiency with Martial Weapons when you take your first Fighter level.\n\n**_Armor Training_**. When you gain your first Fighter level, you gain armor training with the following: Light Armor, Medium Armor, and Shields."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 Monk:
   desc: "**Primary Ability**: Dexterity and Wisdom\n\n`1` Martial Arts, Unarmored Defense, Weapon Mastery\n`2` Martial Discipline, Unarmored Movement\n`3` Deflect Missiles, Monk Subclass\n`4` Ability Score Improvement, Slow Fall\n`5` Extra Attack, Stunning Strike\n`6` Empowered Strikes, Subclass Feature\n`7` Evasion, Heightened Metabolism\n`8` Ability Score Improvement\n`9` Acrobatic Movement\n`10` Self-Restoration\n`11` Subclass Feature\n`12` Ability Score Improvement\n`13` Deflect Energy\n`14` Disciplined Survivor\n`15` Perfect Discipline\n`16` Ability Score Improvement\n`17` Subclass Feature\n`18` Superior Defense\n`19` Ability Score Improvement\n`20` Defy Death"
@@ -137,7 +137,7 @@ Rogue:
   - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
 
 Sorcerer:
-  desc: "**Class Group**: Mage\n**Primary Ability**: Charisma\n\n`1` Innate Sorcery, Spellcasting\n`2` Font of Magic, Metamagic\n`3` Sorcerer Subclass\n`4` Feat\n`5` Sorcerous Vitality\n`6` Subclass Feature\n`7` Arcane Eruption\n`8` Feat\n`9` Sorcery Incarnate\n`10` Subclass Feature\n`11` —\n`12` Feat\n`13` Additional Metamagic\n`14` Subclass Feature\n`15` Sorcerous Restoration\n`16` Feat\n`17` —\n`18` Arcane Apotheosis\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Ability**: Charisma\n\n`1` Innate Sorcery, Spellcasting\n`2` Font of Magic, Metamagic\n`3` Sorcerer Subclass\n`4` Ability Score Improvement\n`5` Sorcerous Restoration\n`6` Subclass Feature\n`7` Sorcery Incarnate\n`8` Ability Score Improvement\n`9` —\n`10` Metamagic\n`11` —\n`12` Ability Score Improvement\n`13` —\n`14` Subclass Feature\n`15` —\n`16` Ability Score Improvement\n`17` Metamagic\n`18` Subclass Feature\n`19` Ability Score Improvement\n`20` Arcane Apotheosis"
   fields:
   - title: "Hit Points"
     body: "**Hit Dice**: 1d6 per Sorcerer level\n**Hit Points at 1st Level**: 6 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d6 (or 4) + your Constitution modifier"
@@ -149,25 +149,25 @@ Sorcerer:
     body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 50 GP on equipment of your choice.\n\n- Arcane Focus (Crystal)\n- Dagger (2)\n- Dungeoneer's Pack\n- Spear\n- 28 GP"
   - title: "Multiclassing and the Sorcerer"
     body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Sorcerer as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Sorcerer's primary ability, Charisma, to take a level in this class or to take a level in another class if you are already a Sorcerer.\n\n**_Spell Slots_**. Add all your Sorcerer levels to the appropriate levels from other classes to determine your available Spell Slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the Spell Slots of an individual class to determine the number and levels of the spells you prepare for it."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 Warlock:
-  desc: "**Class Group**: Mage\n**Primary Ability**: Intelligence, Wisdom, or Charisma\n\n`1` Pact Boon, Spellcasting\n`2` Eldritch Invocations\n`3` Warlock Subclass\n`4` Feat\n`5` Eldritch Invocation\n`6` Subclass Feature\n`7` Eldritch Invocation\n`8` Feat\n`9` Eldritch Invocation\n`10` Subclass Feature\n`11` Contact Patron, Eldritch Invocation\n`12` Feat\n`13` Eldritch Invocation\n`14` Subclass Feature\n`15` Eldritch Invocation\n`16` Feat\n`17` Eldritch Invocation\n`18` Hex Master\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Ability**: Charisma\n\n`1` Eldritch Invocations, Pact Magic\n`2` Magical Cunning\n`3` Warlock Subclass\n`4` Ability Score Improvement\n`5` —\n`6` Subclass Feature\n`7` —\n`8` Ability Score Improvement\n`9` Contact Patron\n`10` Subclass Feature\n`11` Mystic Arcanum (Level 6 Spell)\n`12` Ability Score Improvement\n`13` Mystic Arcanum (Level 7 Spell)\n`14` Subclass Feature\n`15` Mystic Arcanum (Level 8 Spell)\n`16` Ability Score Improvement\n`17` Mystic Arcanum (Level 9 Spell)\n`18` —\n`19` Ability Score Improvement\n`20` Eldritch Master"
   fields:
   - title: "Hit Points"
     body: "**Hit Dice**: 1d8 per Warlock level\n**Hit Points at 1st Level**: 8 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d8 (or 5) + your Constitution modifier"
   - title: "Proficiencies"
     body: "**Saving Throws**: Wisdom, Charisma\n**Skills (Choose 2)**: Arcana, Deception, History, Intimidation, Investigation, Nature, Religion\n**Weapons**: Simple Weapons\n**Tools**: None"
   - title: "Armor Training"
-    body: "Light Armor, Medium Armor"
+    body: "Light Armor"
   - title: "Starting Equipment"
     body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 100 GP on equipment of your choice.\n\n- Arcane Focus (Orb)\n- Book (Occult Lore)\n- Dagger (2)\n- Leather Armor\n- Scholar's Pack\n- Sickle\n- 15 GP"
   - title: "Multiclassing and the Warlock"
-    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Warlock as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in one of the Warlock's primary abilities—Intelligence, Wisdom, or Charisma—to take a level in this class or to take a level in another class if you are already a Warlock.\n\n**_Armor Training_**. When you gain your first Warlock level, you gain armor training with the following: Light Armor and Medium Armor.\n\n**_Spell Slots_**. Add half your Warlock levels (rounded up) to the appropriate levels from other classes to determine your available Spell Slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the Spell Slots of an individual class to determine the number and levels of the spells you prepare for it."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Warlock as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Warlock's primary ability—Charisma—to take a level in this class or to take a level in another class if you are already a Warlock.\n\n**_Armor Training_**. When you gain your first Warlock level, you gain armor training with Light Armor.\n\n**_Spell Slots_**. If you have both the Spellcasting feature and the Pact Magic feature from this class, you can use the spell slots you gain from Pact Magic to cast spells you have prepared from classes with the Spellcasting feature, and you can use the spell slots you gain from the Spellcasting feature to cast Warlock spells you have prepared."
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 Wizard:
-  desc: "**Class Group**: Mage\n**Primary Ability**: Intelligence\n\n`1` Spellcasting, Wizard's Spellbook\n`2` Academic, Arcane Recovery\n`3` Wizard Subclass\n`4` Feat\n`5` Memorize Spell\n`6` Subclass Feature\n`7` Modify Spell\n`8` Feat\n`9` Create Spell\n`10` Subclass Feature\n`11` —\n`12` Feat\n`13` —\n`14` Subclass Feature\n`15` Spell Mastery\n`16` Feat\n`17` —\n`18` Signature Spells\n`19` Feat\n`20` Epic Boon"
+  desc: "**Primary Ability**: Intelligence\n\n`1` Arcane Recovery, Spellcasting\n`2` Scholar\n`3` Wizard Subclass\n`4` Ability Score Improvement\n`5` Memorize Spell\n`6` Subclass Feature\n`7` —\n`8` Ability Score Improvement\n`9` —\n`10` Subclass Feature\n`11` —\n`12` Ability Score Improvement\n`13` —\n`14` Subclass Feature\n`15` —\n`16` Ability Score Improvement\n`17` —\n`18` Spell Mastery\n`19` Ability Score Improvement\n`20` Signature Spells"
   fields:
   - title: "Hit Points"
     body: "**Hit Dice**: 1d6 per Wizard level\n**Hit Points at 1st Level**: 6 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d6 (or 4) + your Constitution modifier"
@@ -179,4 +179,4 @@ Wizard:
     body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 55 GP on equipment of your choice.\n\n- Arcane Focus (Quarterstaff)\n- Dagger (2)\n- Robe\n- Scholar's Pack\n- 5 GP"
   - title: "Multiclassing and the Wizard"
     body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Wizard as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Wizard's primary ability, Intelligence, to take a level in this class or to take a level in another class if you are already a Wizard.\n\n**_Spell Slots_**. Add all your Wizard levels to the appropriate levels from other classes to determine your available Spell Slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the Spell Slots of an individual class to determine the number and levels of the spells you prepare for it."
-  - body: "[Packet 5](https://www.dndbeyond.com/sources/ua/ph-playtest-5)"
+  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
