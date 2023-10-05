@@ -1,8 +1,9 @@
 # Guinea Pigs of Neverwinter
 # One D&D Spells with Different Schools
 # load_yaml(get_gvar("c2472a43-15fc-44da-9e54-bf32f0c7af90"))
+- Acid Splash
 - Dancing Lights
-- Produce Flame
+- Poison Spray
 - Cure Wounds
 - Divine Favor
 - Healing Word

@@ -2,6 +2,7 @@
 # One D&D Spells by School
 # load_yaml(get_gvar("5a794008-0adc-41c2-9de5-7fb7a9ff7f67"))
 Abjuration:
+- Acid Splash
 - Blade Ward
 - Resistance
 - Absorb Elements
@@ -34,7 +35,6 @@ Abjuration:
 - Nondetection
 - Protection from Energy
 - Remove Curse
-- Sorcerous Vitality
 - Aura of Life
 - Aura of Purity
 - Death Ward
@@ -64,14 +64,10 @@ Abjuration:
 - Mass Heal
 - Prismatic Wall
 Conjuration:
-- Acid Splash
-- Book of Shadows
 - Create Bonfire
 - Infestation
 - Mage Hand
-- Pact Familiar
-- Pact Weapon
-- Poison Spray
+- Produce Flame
 - Sword Burst
 - Arms of Hadar
 - Ensnaring Strike
@@ -185,7 +181,6 @@ Divination:
 - Mind Spike
 - See Invisibility
 - Clairvoyance
-- Memorize Spell
 - Sending
 - Tongues
 - Arcane Eye
@@ -263,7 +258,6 @@ Evocation:
 - Green-Flame Blade
 - Light
 - Lightning Lure
-- Produce Flame
 - Ray of Frost
 - Sacred Flame
 - Shocking Grasp
@@ -387,6 +381,7 @@ Illusion:
 - Weird
 Necromancy:
 - Chill Touch
+- Poison Spray
 - Sapping Sting
 - Spare the Dying
 - Toll the Dead
@@ -454,7 +449,6 @@ Transmutation:
 - Longstrider
 - Magnify Gravity
 - Purify Food and Drink
-- Scribe Spell
 - Zephyr Strike
 - Alter Self
 - Barkskin
@@ -500,18 +494,15 @@ Transmutation:
 - Fabricate
 - Giant Insect
 - Guardian of Nature
-- Modify Spell
 - Polymorph
 - Stone Shape
 - Stoneskin
 - Animate Objects
 - Awaken
 - Control Winds
-- Create Spell
 - Create Spelljamming Helm
 - Passwall
 - Skill Empowerment
-- Sorcery Incarnate
 - Swift Quiver
 - Telekinesis
 - Temporal Shunt
