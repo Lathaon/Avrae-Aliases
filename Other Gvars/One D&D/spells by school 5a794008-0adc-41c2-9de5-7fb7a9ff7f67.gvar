@@ -2,7 +2,6 @@
 # One D&D Spells by School
 # load_yaml(get_gvar("5a794008-0adc-41c2-9de5-7fb7a9ff7f67"))
 Abjuration:
-- Acid Splash
 - Blade Ward
 - Resistance
 - Absorb Elements
@@ -251,6 +250,7 @@ Enchantment:
 - Power Word Kill
 - Psychic Scream
 Evocation:
+- Acid Splash
 - Booming Blade
 - Eldritch Blast
 - Fire Bolt
