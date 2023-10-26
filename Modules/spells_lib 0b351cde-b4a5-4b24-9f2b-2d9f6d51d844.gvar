@@ -1,0 +1,153 @@
+# spells_lib = "0b351cde-b4a5-4b24-9f2b-2d9f6d51d844"
+#
+# A module for conveniently doing stuff with spells.
+# Most of the functions will require an exact spell name.
+# Retrieve this with get_matching_spell_name(search, known_spells)
+#
+# ===== Data Structures =====
+#
+# A homebrew Spell should be stored in the following format:
+# {
+#     name: string;
+#     level: int;
+#     school?: string;
+#     ritual?: bool;
+# }
+#
+# ===== Functions =====
+#
+# get_matching_spell_name(
+#   search,
+#   known_spells = [x.name for x in character().spellbook.spells]
+# ):
+#     Finds a matching spell name, first a limited search through `known_spells`
+#     and failing that a search through all recognized spells.
+#
+# get_spell_level(spell_name): Returns a spell's level.
+#
+# get_spell_school(spell_name, version = "UA"): Returns a spell's school.
+#
+# is_ritual(spell_name): Check whether a spell is a ritual.
+#
+# import_homebrew(homebrew_spells): Import homebrew spell data for use with this module.
+#
+# ===== Constants =====
+#
+# SPELL_LEVELS: A dict of spell name -> spell level
+# SPELL_SCHOOLS: A dict of spell school -> list of spell names
+# SCHOOLS_2014: A dict of spell name -> school in 2014 rules
+# RITUAL_SPELLS: A list of ritual spells
+
+using(
+    fuzzy = "6431690e-ce47-4baa-bb3b-ba751e1a1817"
+)
+
+SPELL_LEVELS  = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
+SPELL_SCHOOLS = load_yaml(get_gvar("5a794008-0adc-41c2-9de5-7fb7a9ff7f67"))
+SCHOOLS_2014  = load_yaml(get_gvar("c2472a43-15fc-44da-9e54-bf32f0c7af90"))
+RITUAL_SPELLS = load_yaml(get_gvar("9b015cdc-45e0-4bc6-8574-f0c3f96e6015"))
+
+
+def get_matching_spell_name(search, known_spells = [x.name for x in character().spellbook.spells]):
+    """
+    Finds a matching spell name, first a limited search through `known_spells` and failing that a search through all recognized spells.
+    An error will be thrown if no matches are found or if it's ambiguous. You can catch it with `except "AliasException"`.
+    :arg str search: the string to match against.
+    :kwarg list known_spells: a list of known spells.
+    :return: a matching spell name.
+    :rtype: str
+    """
+    match fuzzy.get_matches_ignoring_punctuation(search, known_spells):
+        case [spell_name]:
+            return spell_name
+        case []:
+            match fuzzy.get_matches_ignoring_punctuation(search, SPELL_LEVELS):
+                case [spell_name]:
+                    return spell_name
+                case []:
+                    err(f'`{search}` did not match any spells.')
+                case matches:
+                    err(f'`{search}` matched multiple spells. Did you mean {"? ".join(matches[:3])}?')
+        case matches:
+            err(f'`{search}` matched multiple spells. Did you mean {"? ".join(matches[:3])}?')
+
+
+def get_spell_level(spell_name):
+    """
+    Returns a spell's level.
+    :arg str spell_name: the exact name of the spell.
+    :return: the level of the spell, or `None` if not known.
+    :rtype: int|None
+    """
+    return SPELL_LEVELS.get(spell_name)
+
+
+def get_spell_school(spell_name, version = "UA"):
+    """
+    Returns a spell's school.
+    :arg str spell_name: the exact name of the spell.
+    :kwarg str version: the schools of some spells changed in the playtest. Specify `version = 2014` to use the original schools.
+    :return: the school of the spell, or `None` if not known.
+    :rtype: str|None
+    """
+    if version == 2014:
+        return SCHOOLS_2014.get(spell_name, get_spell_school(spell_name))
+    else:
+        for school, school_spells in SPELL_SCHOOLS.items():
+            if spell_name in school_spells:
+                return school
+
+
+def is_ritual(spell_name):
+    """
+    Check whether a spell is a ritual.
+    :arg str spell_name: the exact name of the spell.
+    :return: True if the spell is a ritual, or False otherwise.
+    :rtype: bool
+    """
+    return spell_name in RITUAL_SPELLS
+
+
+def import_homebrew(homebrew_spells):
+    """
+    Import homebrew spell data for use with this module.
+    You can pass in a gvar address, a list of Spell, or a dict of str->Spell.
+
+    A Spell should be stored in the following format:
+    {
+        name: string;
+        level: int;
+        school?: string;
+        ritual?: bool;
+    }
+
+    :arg str|list|dict homebrew_spells: the spells to import. See function docs.
+    :return: the number of spells imported.
+    :rtype: int
+    """
+    if homebrew_spells:
+        match typeof(homebrew_spells):
+            case "SafeList":
+                homebrew_spells_list = homebrew_spells
+            case "SafeDict":
+                homebrew_spells_list = [
+                    {"name": spell_name} | spell_data
+                    for spell_name, spell_data
+                    in homebrew_spells.items()
+                ]
+            case "str" if len(homebrew_spells) == 36:
+                try:
+                    return import_homebrew(load_yaml(get_gvar(homebrew_spells)))
+                except "ScannerError":
+                    return import_homebrew(load_json(get_gvar(homebrew_spells)))
+            case bad_type:
+                err(f"{bad_type} argument passed to spells_lib.import_homebrew")
+
+        for spell in homebrew_spells_list:
+            SPELL_LEVELS[spell.name] = spell.get("level")
+            SPELL_SCHOOLS.setdefault(spell.get("school", "Unknown"), []).append(spell.name)
+            if spell.get("ritual"):
+                RITUAL_SPELLS.append(spell.name)
+
+        return len(homebrew_spells_list)
+    return 0

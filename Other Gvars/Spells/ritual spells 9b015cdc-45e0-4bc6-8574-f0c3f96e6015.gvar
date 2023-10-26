@@ -1,4 +1,4 @@
-# Ritual Spells
+# RITUAL_SPELLS = load_yaml(get_gvar("9b015cdc-45e0-4bc6-8574-f0c3f96e6015"))
 - Alarm
 - Animal Messenger
 - Augury
