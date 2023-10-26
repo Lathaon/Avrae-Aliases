@@ -784,6 +784,7 @@ Sorcerer:
 - Tasha's Mind Whip
 - Vortex Warp
 - Warding Wind
+- Warp Sense
 - Web
 - Wither and Bloom
 - Ashardalon's Stride
@@ -826,6 +827,7 @@ Sorcerer:
 - Dimension Door
 - Dominate Beast
 - Fire Shield
+- Gate Seal
 - Greater Invisibility
 - Ice Storm
 - Polymorph
@@ -958,6 +960,7 @@ Warlock:
 - Shatter
 - Spider Climb
 - Suggestion
+- Warp Sense
 - Counterspell
 - Dispel Magic
 - Enemies Abound
@@ -985,6 +988,7 @@ Warlock:
 - Dimension Door
 - Elemental Bane
 - Galder's Speedy Courier
+- Gate Seal
 - Hallucinatory Terrain
 - Raulothim's Psychic Lance
 - Shadow of Moil
@@ -1172,6 +1176,7 @@ Wizard:
 - Tasha's Mind Whip
 - Vortex Warp
 - Warding Wind
+- Warp Sense
 - Web
 - Wither and Bloom
 - Animate Dead
@@ -1239,6 +1244,7 @@ Wizard:
 - Fabricate
 - Fire Shield
 - Galder's Speedy Courier
+- Gate Seal
 - Greater Invisibility
 - Hallucinatory Terrain
 - Ice Storm
