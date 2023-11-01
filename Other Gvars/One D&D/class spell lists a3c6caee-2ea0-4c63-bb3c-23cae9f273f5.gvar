@@ -170,9 +170,11 @@ Bard:
 - Shatter
 - Silence
 - Skywrite
+- Spray of Cards
 - Suggestion
 - Warding Wind
 - Zone of Truth
+- Antagonize
 - Bestow Curse
 - Catnap
 - Clairvoyance
@@ -780,6 +782,7 @@ Sorcerer:
 - Shatter
 - Snilloc's Snowball Swarm
 - Spider Climb
+- Spray of Cards
 - Suggestion
 - Tasha's Mind Whip
 - Vortex Warp
@@ -787,6 +790,7 @@ Sorcerer:
 - Warp Sense
 - Web
 - Wither and Bloom
+- Antagonize
 - Ashardalon's Stride
 - Blink
 - Catnap
@@ -833,6 +837,7 @@ Sorcerer:
 - Polymorph
 - Raulothim's Psychic Lance
 - Sickening Radiance
+- Spirit of Death
 - Stoneskin
 - Storm Sphere
 - Vitriolic Sphere
@@ -959,8 +964,10 @@ Warlock:
 - Shadow Blade
 - Shatter
 - Spider Climb
+- Spray of Cards
 - Suggestion
 - Warp Sense
+- Antagonize
 - Counterspell
 - Dispel Magic
 - Enemies Abound
@@ -993,6 +1000,7 @@ Warlock:
 - Raulothim's Psychic Lance
 - Shadow of Moil
 - Sickening Radiance
+- Spirit of Death
 - Summon Aberration
 - Summon Greater Demon
 - Contact Other Plane
@@ -1172,6 +1180,7 @@ Wizard:
 - Skywrite
 - Snilloc's Snowball Swarm
 - Spider Climb
+- Spray of Cards
 - Suggestion
 - Tasha's Mind Whip
 - Vortex Warp
@@ -1180,6 +1189,7 @@ Wizard:
 - Web
 - Wither and Bloom
 - Animate Dead
+- Antagonize
 - Ashardalon's Stride
 - Bestow Curse
 - Blink
@@ -1257,6 +1267,7 @@ Wizard:
 - Polymorph
 - Raulothim's Psychic Lance
 - Sickening Radiance
+- Spirit of Death
 - Stone Shape
 - Stoneskin
 - Storm Sphere
