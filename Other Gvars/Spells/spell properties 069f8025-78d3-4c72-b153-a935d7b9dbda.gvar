@@ -204,6 +204,7 @@ Snilloc's Snowball Swarm: {components: [V, S, M], range: 90 feet (5 ft. sphere),
 Spider Climb: {components: [V, S, M], range: Touch, conc: on, duration: 1 hour, casting_time: Action}
 Spike Growth: {components: [V, S, M], range: 150 feet (20 ft. sphere), conc: on, duration: 10 minutes, casting_time: Action}
 Spiritual Weapon: {components: [V, S], range: 60 feet, conc: on, duration: 1 minute, casting_time: Bonus Action}
+Spray of Cards: {components: [V, S, M], range: Self (15 ft. cone), duration: Instantaneous, casting_time: Action}
 Suggestion: {components: [V, M], range: 30 feet, conc: on, duration: 8 hours, casting_time: Action}
 Summon Beast: {components: [V, S, M], range: 90 feet, conc: on, duration: 1 hour, casting_time: Action}
 Tasha's Mind Whip: {components: [V], range: 90 feet, duration: 1 round, casting_time: Action}
@@ -216,6 +217,7 @@ Wither and Bloom: {components: [V, S, M], range: 60 feet (10 ft. sphere), durati
 Wristpocket: {components: [S], range: Self, conc: on, duration: 1 hour, casting_time: Action}
 Zone of Truth: {components: [V, S], range: 60 feet (15 ft. sphere), duration: 10 minutes, casting_time: Action}
 Animate Dead: {components: [V, S, M], range: 10 feet, duration: Instantaneous, casting_time: 1 minute}
+Antagonize: {components: [V, S, M], range: 30 feet, duration: Instantaneous, casting_time: Action}
 Ashardalon's Stride: {components: [V, S], range: Self, conc: on, duration: 1 minute, casting_time: Bonus Action}
 Aura of Vitality: {components: [V], range: Self (30 ft. sphere), conc: on, duration: 1 minute, casting_time: Action}
 Beacon of Hope: {components: [V, S], range: 30 feet, conc: on, duration: 1 minute, casting_time: Action}
@@ -330,6 +332,7 @@ Polymorph: {components: [V, S, M], range: 60 feet, conc: on, duration: 1 hour, c
 Raulothim's Psychic Lance: {components: [V], range: 120 feet, duration: Instantaneous, casting_time: Action}
 Shadow of Moil: {components: [V, S, M], range: Self, conc: on, duration: 1 minute, casting_time: Action}
 Sickening Radiance: {components: [V, S], range: 120 feet (30 ft. sphere), conc: on, duration: 10 minutes, casting_time: Action}
+Spirit of Death: {components: [V, S, M], range: 60 feet, conc: on, duration: 1 hour, casting_time: Action}
 Staggering Smite: {components: [V], range: Self, duration: Instantaneous, casting_time: "Bonus Action, which you take immediately after hitting a creature with a melee weapon or an Unarmed Strike"}
 Stone Shape: {components: [V, S, M], range: Touch, duration: Instantaneous, casting_time: Action}
 Stoneskin: {components: [V, S, M], range: Touch, conc: on, duration: 1 hour, casting_time: Action}
