@@ -222,7 +222,6 @@
   - Nightmare
   - Noble
   - Nothic
-  - Nyxborn lynx
   - Ochre Jelly
   - Octopus
   - Ogre
@@ -1220,6 +1219,7 @@
   - Aeorian Absorber
   - Aeorian Nullifier
   - Aeorian Reverser
+  - Animated Knife
   - Animated Tree
   - Blood Hunter
   - Bol'bara
@@ -1228,11 +1228,16 @@
   - Core Spawn Emissary
   - Core Spawn Seer
   - Core Spawn Worm
+  - Damaged Flesh Golem
+  - Faerie Dragon (Older)
+  - Ferol Sal
   - Frost Giant Zombie
   - Frost Worm
   - Gearkeeper Construct
   - Gloomstalker
+  - Guardian Wolf
   - Horizonback Tortoise
+  - Hulil Lutan
   - Husk Zombie
   - Husk Zombie Burster
   - Ishel
@@ -1243,8 +1248,11 @@
   - Mossback Steward
   - Nergaliid
   - Ogre Lord Buhfal II
+  - Old Croaker
   - Oracs the Enduring
   - Parson Pellinost
+  - Raegrin Mau
+  - Revenant
   - Sahuagin Warlock of Uk'otoa
   - Sahuagin Warlock of Uk'otoa (variant)
   - Sea Fury
@@ -1252,11 +1260,14 @@
   - Sharkbody Abomination
   - Sken Zabriss
   - Skr'a S'orsk
+  - Swarm of Undead Snakes
   - Swavain Basilisk
   - Three Earrings
   - Udaak
+  - Vox Seeker
   - Yeti (Allowak variant)
   - Yinra Emberwind
+  - Young Remorhaz
 - name: 'Explorer''s Guide to Wildemount: Frozen Sick'
   free: true
   proper: true
@@ -1327,8 +1338,8 @@
   - Slithering Bloodfin
   - Sorrowfish
   - Swarm of Sorrowfish
-  - Sword Wraith Commander (Variant)
-  - Sword Wraith Warrior (Variant)
+  - Sword Wraith Commander
+  - Sword Wraith Warrior
   - Verin Thelyss
   - Young Horizonback Tortoise
 - name: Van Richten's Guide to Ravenloft
@@ -1364,7 +1375,6 @@
   - Priest of Osybus (Vampiric)
   - Relentless Juggernaut
   - Relentless Slasher
-  - Star Spawn Emissary
   - Strigoi
   - Swarm of Gremishkas
   - Swarm of Maggots
@@ -1398,7 +1408,7 @@
   - Astral Elf Star Priest
   - Astral Elf Warrior
   - Autognome
-  - B’rohg
+  - B'rohg
   - Braxat
   - Brown Scavver
   - Chwinga Astronaut
@@ -1542,6 +1552,7 @@
   - Naiad
   - Nightmare Shepherd
   - Nyx-Fleece Ram
+  - Nyxborn lynx
   - Oracle
   - Oread
   - Phylaskia
@@ -1977,7 +1988,7 @@
   - Thurstwell Vanthampur
   - Torogar Steelfist
   - Traxigor
-  - Tressym (Monstrosity)
+  - Tressym
   - Ulder Ravengard
 - name: Candlekeep Mysteries
   proper: true
@@ -2958,3 +2969,393 @@
   - Scrapper
   - Seth the Shapeshifting Dragon
   - Sheldon the Blueberry Dragon
+- name: 'Book of Many Things'
+  proper: false
+  monsters:
+  - Advanced Detention Drone
+  - Ambitious Assassin
+  - Animated Armor Detention Drone
+  - Aspirant of the Comet
+  - Asteria
+  - Aurnozci
+  - Avatar of Death
+  - Bone Naga
+  - Boss Augustus
+  - Boss Delour
+  - Breath Drinker
+  - Brusipha
+  - Crawling Claw
+  - Death Knight
+  - Death Tyrant
+  - Displacer Beast
+  - Displacer Beast Kitten
+  - Enchanting Infiltrator
+  - Euryale
+  - Fate Hag
+  - Fire Elemental Myrmidon
+  - Flumph
+  - Githyanki Gish
+  - Githyanki Knight
+  - Githyanki Warrior
+  - Green Hag (Coven Variant)
+  - Green Slaad
+  - Grell
+  - Gremorly's Ghost
+  - Grim Champion of Bloodshed
+  - Grim Champion of Desolation
+  - Grim Champion of Pestilence
+  - Harrow Hawk
+  - Harrow Hound
+  - Helmed Horror
+  - Helmed Horror Detention Drone
+  - Hierophant Medusa
+  - Hierophant of the Comet
+  - Hulgaz
+  - Initiate of the Comet
+  - Living Portent
+  - Malaxxix
+  - Manes
+  - Mind Flayer
+  - Minotaur Archaeologist
+  - Minotaur Infiltrator
+  - Myconid Adult
+  - Myconid Sprout
+  - Oddlewin
+  - Otherworldly Corrupter
+  - Pazrodine
+  - Quadrone Detention Drone
+  - Red Slaad
+  - Revenant
+  - Riffler
+  - Ruin Spider
+  - Shadow Demon
+  - Shield Guardian Detention Drone
+  - Sir Jared
+  - Solar Bastion Knight
+  - Star Spawn Mangler
+  - Talon Beast
+  - Tridrone
+  - Troglodyte
+  - Umber Hulk
+  - Veiled Presence
+  - Vine Blight
+  - Werevulture
+  - Yeth Hound
+- name: 'Phandelver and Below: The Shattered Obelisk'
+  proper: true
+  monsters:
+  - Aberrant Zealot
+  - Aberrant Zealot (Variant)
+  - Arcanaloth
+  - Beholder
+  - Blue Slaad
+  - Brain Breaker
+  - Cloaker Mutate
+  - Drow Elite Warrior
+  - Dwarf Skeleton
+  - Encephalon Cluster
+  - Encephalon Gemmule
+  - Feral Ashenwight
+  - Fiendish Auger
+  - Flesh Meld
+  - Flumph
+  - Galeb Duhr
+  - Githyanki Knight
+  - Githyanki Warrior
+  - Goblin Boss
+  - Goblin Boss (Variant)
+  - Goblin Psi Brawler
+  - Goblin Psi Commander
+  - Gray Slaad
+  - Grell
+  - Grell Psychic
+  - Grick Alpha
+  - Helmed Horror
+  - Humanoid Mutate
+  - Iarno "Glasstaff" Albrek
+  - Infected Elder Brain
+  - Infected Townsperson
+  - Intellect Snare
+  - Lowarnizel
+  - Mezzoloth
+  - Mind Flayer
+  - Mind Flayer Clairvoyant
+  - Mind Flayer Nothic
+  - Mind Flayer Prophet
+  - Needle Blight
+  - Nellik
+  - Nezznar the Spider
+  - Nycaloth
+  - Oculorb
+  - Oshundo the Alhoon
+  - Otyugh Mutate
+  - Psionic Ashenwight
+  - Psionic Shambling Mound
+  - Psychic Gray Ooze
+  - Qunbraxel
+  - Red Slaad
+  - Redbrand Ruffian
+  - Refraction of Ilvaash
+  - Revenant
+  - Ruxithid the Chosen
+  - Sildar Hallwinter
+  - Slaad Tadpole
+  - Umber Hulk
+  - Water Weird
+  - Yochlol
+- name: 'Giants of the Star Forge'
+  proper: true
+  monsters:
+  - Acidic Mist Apparition
+  - Cinder Hulk
+  - Firbolg Wanderer
+  - Fire Giant Forgecaller
+  - Fire Giant of Evil Fire
+- name: 'Tal''dorei Campaign Setting Reborn'
+  proper: true
+  monsters:
+  - Adranach
+  - Ashari Firetamer
+  - Ashari Skydancer
+  - Ashari Stoneguard
+  - Ashari Waverider
+  - Centaur Skeleton
+  - Centaur Skeleton (Variant)
+  - Champion of Ravens
+  - Cinderslag Elemental
+  - Clasp Cutthroat
+  - Clasp Enforcer
+  - Cobalt Golem
+  - Cold Snap Spirit
+  - Cyclops Stormcaller
+  - Demonfeed Spider
+  - Demonfeed Spiderling
+  - Doty X
+  - Ember Roc
+  - Flaming Skeleton
+  - Forge Guardian
+  - Goat-Knight Steed
+  - Grog Strongjaw
+  - Jourrael, the Caedogeist
+  - Keyleth, Voice of the Tempest
+  - Kraghammer Goat-Knight
+  - Mage Hunter Golem
+  - Magma Landshark
+  - Master Adranach
+  - Percival de Rolo
+  - Pike Trickfoot
+  - Plainscow
+  - Platinum Golem
+  - Ravager Slaughter Lord
+  - Ravager Stabby-Stabber
+  - Remnant Chosen
+  - Remnant Cultist
+  - Rivermaw Brawler
+  - Rivermaw Stormborn
+  - Scanlan Shorthalt
+  - Taryon Darrington
+  - Trinket
+  - Vex'ahlia
+  - Vos'skyriss Serpentfolk
+  - Vos'skyriss Serpentfolk Ghost
+  - Wraithroot Tree
+  - Young Magma Landshark
+- name: 'Planescape: Adventures in the Multiverse'
+  proper: true
+  monsters:
+  - Adult Time Dragon
+  - Ancient Time Dragon
+  - Athar Null
+  - Aurumach Rilmani
+  - Avoral Guardinal
+  - Baernaloth
+  - Bariaur Wanderer
+  - Beholder
+  - Beholder Zombie
+  - Bleak Cabal Void Soother
+  - Cranium Rat Squeaker
+  - Cranium Rat Squeaker Swarm
+  - Cuprilach Rilmani
+  - Dabus
+  - Darkweaver
+  - Decaton Modron
+  - Demilich
+  - Doomguard Doom Lord
+  - Doomguard Rot Blade
+  - Eater of Knowledge
+  - Empyrean
+  - Equinal Guardinal
+  - Eyestalk of Gzemnid
+  - Farastu Demodand
+  - Fated Shaker
+  - Ferrumach Rilmani
+  - Fomorian
+  - Fraternity of Order Law Bender
+  - Githzerai Futurist
+  - Githzerai Traveler
+  - Githzerai Uniter
+  - Githzerai Zerth
+  - Gnoll Fang of Yeenoghu
+  - Gnoll Pack Lord
+  - Gray Slaad (control gem variant)
+  - Hands of Havoc Fire Starter
+  - Harmonium Captain
+  - Harmonium Peacekeeper
+  - Heralds of Dust Remnant
+  - Hexton Modron
+  - Hound Archon
+  - Kelubar Demodand
+  - Kolyarut
+  - Lantern Archon
+  - Larva
+  - Maelephant
+  - Mercykiller Bloodhound
+  - Mezzoloth
+  - Mind's Eye Matter Smith
+  - Monodrone
+  - Morte
+  - Musteval Guardinal
+  - Nonaton Modron
+  - Nycaloth
+  - Octon Modron
+  - Pentadrone
+  - Pixie
+  - Planar Incarnate (Celestial Form)
+  - Planar Incarnate (Fiend Form)
+  - Poltergeist
+  - Quadrone
+  - Razorvine Blight
+  - Red Slaad
+  - Septon Modron
+  - Shator Demodand
+  - Shemeshka
+  - Smoke Mephit
+  - Society of Sensation Muse
+  - Sunfly
+  - Swarm of Sunflies
+  - Time Dragon Wyrmling
+  - Transcendent Order Conduit
+  - Transcendent Order Instinct
+  - Vargouille Reflection
+  - Warden Archon
+  - Young Time Dragon
+- name: 'Bigby Presents: Glory of the Giants'
+  proper: true
+  monsters:
+  - Aerosaur
+  - Altisaur
+  - Bag Jelly
+  - Barrowghast
+  - Cairnwight
+  - Ceratops
+  - Cinder Hulk
+  - Cloud Giant Destiny Gambler
+  - Cloud Giant of Evil Air
+  - Cradle of the Cloud Scion
+  - Cradle of the Fire Scion
+  - Cradle of the Frost Scion
+  - Cradle of the Hill Scion
+  - Cradle of the Stone Scion
+  - Cradle of the Storm Scion
+  - Death Giant Reaper
+  - Death Giant Shrouded One
+  - Dust Hulk
+  - Echo of Demogorgon
+  - Ettin Ceremorph
+  - Fensir Devourer
+  - Fensir Skirmisher
+  - Firbolg Primeval Warden
+  - Firbolg Wanderer
+  - Fire Giant Forgecaller
+  - Fire Giant of Evil Fire
+  - Fire Hellion
+  - Firegaunt
+  - Flesh Colossus
+  - Fomorian Deep Crawler
+  - Fomorian Noble
+  - Fomorian Warlock of the Dark
+  - Frost Giant Ice Shaper
+  - Frost Giant of Evil Water
+  - Frostmourn
+  - Fury of Kostchtchie
+  - Gargantua
+  - Giant Child
+  - Giant Goose
+  - Giant Lynx
+  - Giant Ox
+  - Giant Ram
+  - Giant Tick
+  - Gigant
+  - Goliath Giant-Kin
+  - Grinning Cat
+  - Hill Giant Avalancher
+  - Lightning Hulk
+  - Maw of Yeenoghu
+  - Mist Hulk
+  - Mud Hulk
+  - Regisaur
+  - Rime Hulk
+  - Runic Colossus
+  - Scion of Grolantor
+  - Scion of Memnor
+  - Scion of Skoraeus
+  - Scion of Stronmaus
+  - Scion of Surtur
+  - Scion of Thrym
+  - Spectral Cloud
+  - Spotted Lion
+  - Stalker of Baphomet
+  - Stone Giant of Evil Earth
+  - Stone Giant Rockspeaker
+  - Storm Crab
+  - Storm Giant Tempest Caller
+  - Storm Herald
+  - Tempest Spirit
+  - Titanothere
+  - Troll Amalgam
+  - Troll Mutate
+- name: 'Monstrous Compendium Vol 4: Eldraine Creatures'
+  proper: true
+  monsters:
+  - Archon of Boundaries
+  - Beanstalk Wurm
+  - Deathless Rider
+  - Dunbarrow Witch
+  - Faerie Borrower
+  - Faerie Pathlighter
+  - Faerie Pest
+  - Gingerbrute
+  - Goose Mother
+  - High Fae Impostor
+  - High Fae Kindguard
+  - High Fae Mage
+  - High Fae Noble
+  - Knight of Eldraine
+  - Nightmare Haunt
+  - Ogre Chitterlord
+  - Redtooth Werefox
+  - Sewer King
+  - Snapping Hydra
+  - Specter of Night
+  - Sweettooth Horror
+  - Tempest Hart
+  - Treefolk
+  - Witchkite
+  - Witchstalker
+- name: 'Adventure Atlas: The Mortuary'
+  proper: true
+  monsters:
+  - Animated Coffin
+  - Factol Skall
+  - Heralds of Dust Exorcist
+  - Necrichor
+  - Planar Incarnate (Celestial Form)
+  - Planar Incarnate (Fiend Form)
+- name: 'Intro to Stormwreck Isle'
+  proper: true
+  monsters:
+  - Merrow Extortionist
+- name: 'Domains of Delight: A Feywild Accessory'
+  proper: true
+  monsters:
+  - Yarnspinner
