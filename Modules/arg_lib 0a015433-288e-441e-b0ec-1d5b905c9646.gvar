@@ -1,4 +1,4 @@
-# arg_lib = '0a015433-288e-441e-b0ec-1d5b905c9646'
+# arg_lib = "0a015433-288e-441e-b0ec-1d5b905c9646"
 #
 # A module to help with processing args and converting them between different
 # formats.
@@ -29,6 +29,9 @@
 # NON_APOSTROPHE_QUOTES: A set of opening quotes excluding the apostrophe.
 
 
+#========================================================================
+# These are no longer used by this module, but are included for backwards
+# compatibility reasons.
 QUOTE_PAIRS = {
     '"': '"',
     "'": "'",
@@ -49,8 +52,8 @@ QUOTE_PAIRS = {
     "《": "》",
     "〈": "〉"
 }
-
 NON_APOSTROPHE_QUOTES = set(QUOTE_PAIRS) - {"'"}
+#========================================================================
 
 
 def args_to_list(raw_args):
@@ -60,46 +63,7 @@ def args_to_list(raw_args):
     :return: a list of args (like `&ARGS&`).
     :rtype: list
     """
-    no_backslash_args = ''.join('_' if '\\' in raw_args[i - 1:i] else raw_args[i] for i in range(len(raw_args)))   
-
-    out = []
-    start = 0
-    length = len(raw_args)
-
-    while start < length:
-        word_in_progress = ''
-        if closing_quote := QUOTE_PAIRS.get(no_backslash_args[start]):
-            start += 1
-
-        for end in range(start, length):
-            if closing_quote is None:
-                if raw_args[end].isspace():
-                    # Finish word
-                    out.append(word_in_progress + raw_args[start:end])
-                    break
-                elif no_backslash_args[end] in NON_APOSTROPHE_QUOTES:
-                    closing_quote = QUOTE_PAIRS.get(no_backslash_args[end])
-                    word_in_progress += raw_args[start:end]
-                    start = end + 1
-
-            elif no_backslash_args[end] == closing_quote:
-                if end + 1 == length or no_backslash_args[end + 1].isspace():
-                    # Finish word
-                    out.append(word_in_progress + raw_args[start:end])
-                    break
-                else:
-                    # Keep going
-                    closing_quote = None
-                    word_in_progress += raw_args[start:end]
-                    start = end + 1
-        else:
-            # Finish word
-            out.append(word_in_progress + raw_args[start:])
-
-        # Skip whitespace.
-        start = length - len(raw_args[end + 1:].lstrip())
-
-    return out
+    return unparse(argparse(raw_args, parse_ephem = False))
 
 
 # Because backspaces aren't allowed in f-strings
@@ -170,3 +134,4 @@ def unparse(args):
         for arg in args
         for val in args.get(arg, type_ = dontcare)
     ], [])
+
