@@ -271,6 +271,11 @@
     - Way of the Ascendant Dragon
     Ranger:
     - Drakewarden
+- name: "Bigby Presents: Glory of the Giants"
+  proper: true
+  classes:
+    Barbarian:
+    - Path of the Giant
 - name: Volo's Guide to Monsters
   proper: true
   races:
@@ -530,6 +535,25 @@
   proper: true
   races:
     Locathah: []
+- name: Tal'dorei Campaign Setting Reborn
+  classes:
+    Barbarian:
+    - Path of the Juggernaut
+    Bard:
+    - College of Tragedy
+    Cleric:
+    - Blood Domain
+    - Moon Domain
+    Druid:
+    - Circle of the Blighted
+    Monk:
+    - Way of the Cobalt Soul
+    Paladin:
+    - Oath of the Open Sea
+    Sorcerer:
+    - Runechild
+    Wizard:
+    - Blood Magic
 - name: Critical Role
   free: true
   proper: true
@@ -541,7 +565,3 @@
     - Order of the Profane Soul
     Fighter:
     - Gunslinger
-    Monk:
-    - Way of the Cobalt Soul
-    Paladin:
-    - Oath of the Open Sea
