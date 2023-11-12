@@ -892,6 +892,81 @@
   - Young Sapphire Dragon
   - Young Sea Serpent
   - Young Topaz Dragon
+- name: "Bigby Presents: Glory of the Giants"
+  proper: true
+  monsters:
+  - Aerosaur
+  - Altisaur
+  - Bag Jelly
+  - Barrowghast
+  - Cairnwight
+  - Ceratops
+  - Cinder Hulk
+  - Cloud Giant Destiny Gambler
+  - Cloud Giant of Evil Air
+  - Cradle of the Cloud Scion
+  - Cradle of the Fire Scion
+  - Cradle of the Frost Scion
+  - Cradle of the Hill Scion
+  - Cradle of the Stone Scion
+  - Cradle of the Storm Scion
+  - Death Giant Reaper
+  - Death Giant Shrouded One
+  - Dust Hulk
+  - Echo of Demogorgon
+  - Ettin Ceremorph
+  - Fensir Devourer
+  - Fensir Skirmisher
+  - Firbolg Primeval Warden
+  - Firbolg Wanderer
+  - Fire Giant Forgecaller
+  - Fire Giant of Evil Fire
+  - Fire Hellion
+  - Firegaunt
+  - Flesh Colossus
+  - Fomorian Deep Crawler
+  - Fomorian Noble
+  - Fomorian Warlock of the Dark
+  - Frost Giant Ice Shaper
+  - Frost Giant of Evil Water
+  - Frostmourn
+  - Fury of Kostchtchie
+  - Gargantua
+  - Giant Child
+  - Giant Goose
+  - Giant Lynx
+  - Giant Ox
+  - Giant Ram
+  - Giant Tick
+  - Gigant
+  - Goliath Giant-Kin
+  - Grinning Cat
+  - Hill Giant Avalancher
+  - Lightning Hulk
+  - Maw of Yeenoghu
+  - Mist Hulk
+  - Mud Hulk
+  - Regisaur
+  - Rime Hulk
+  - Runic Colossus
+  - Scion of Grolantor
+  - Scion of Memnor
+  - Scion of Skoraeus
+  - Scion of Stronmaus
+  - Scion of Surtur
+  - Scion of Thrym
+  - Spectral Cloud
+  - Spotted Lion
+  - Stalker of Baphomet
+  - Stone Giant of Evil Earth
+  - Stone Giant Rockspeaker
+  - Storm Crab
+  - Storm Giant Tempest Caller
+  - Storm Herald
+  - Tempest Spirit
+  - Titanothere
+  - Troll Amalgam
+  - Troll Mutate
 - name: Volo's Guide to Monsters
   proper: true
   monsters:
@@ -2898,6 +2973,14 @@
   proper: true
   monsters:
   - Prisoner 13
+- name: Giants of the Star Forge
+  proper: true
+  monsters:
+  - Acidic Mist Apparition
+  - Cinder Hulk
+  - Firbolg Wanderer
+  - Fire Giant Forgecaller
+  - Fire Giant of Evil Fire
 - name: Keys from the Golden Vault
   proper: true
   monsters:
