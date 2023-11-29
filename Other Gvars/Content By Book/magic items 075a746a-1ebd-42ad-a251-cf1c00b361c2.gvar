@@ -1,0 +1,1182 @@
+# Magic Items by Book
+# load_yaml(get_gvar("075a746a-1ebd-42ad-a251-cf1c00b361c2"))
+- name: Basic Rules
+  free: true
+  proper: false
+  magic_items:
+  - Adamantine Armor
+  - Ammunition, +1
+  - Ammunition, +2
+  - Ammunition, +3
+  - Amulet of Health
+  - Amulet of Proof against Detection and Location
+  - Amulet of the Planes
+  - Animated Shield
+  - Apparatus of the Crab
+  - Armor of Invulnerability
+  - Armor of Resistance
+  - Armor of Vulnerability
+  - Armor, +1
+  - Armor, +2
+  - Armor, +3
+  - Arrow of Slaying
+  - Arrow-Catching Shield
+  - Bag of Beans
+  - Bag of Devouring
+  - Bag of Holding
+  - Bag of Tricks
+  - Bead of Force
+  - Belt of Dwarvenkind
+  - Belt of Giant Strength
+  - Berserker Axe
+  - Boomerang, +1
+  - Boomerang, +2
+  - Boomerang, +3
+  - Boots of Elvenkind
+  - Boots of Levitation
+  - Boots of Speed
+  - Boots of Striding and Springing
+  - Boots of the Winterlands
+  - Bowl of Commanding Water Elementals
+  - Bracers of Archery
+  - Bracers of Defense
+  - Brazier of Commanding Fire Elementals
+  - Brooch of Shielding
+  - Broom of Flying
+  - Candle of Invocation
+  - Cape of the Mountebank
+  - Carpet of Flying
+  - Censer of Controlling Air Elementals
+  - Chime of Opening
+  - Circlet of Blasting
+  - Cloak of Arachnida
+  - Cloak of Displacement
+  - Cloak of Elvenkind
+  - Cloak of Protection
+  - Cloak of the Bat
+  - Cloak of the Manta Ray
+  - Crystal Ball
+  - Crystal Ball of Mind Reading
+  - Crystal Ball of Telepathy
+  - Crystal Ball of True Seeing
+  - Cube of Force
+  - Cubic Gate
+  - Dagger of Venom
+  - Dancing Sword
+  - Decanter of Endless Water
+  - Deck of Illusions
+  - Deck of Many Things
+  - Defender
+  - Demon Armor
+  - Dimensional Shackles
+  - Dragon Scale Mail
+  - Dragon Slayer
+  - Dust of Disappearance
+  - Dust of Dryness
+  - Dust of Sneezing and Choking
+  - Dwarven Plate
+  - Dwarven Thrower
+  - Efficient Quiver
+  - Efreeti Bottle
+  - Elemental Gem
+  - Elven Chain
+  - Eversmoking Bottle
+  - Eyes of Charming
+  - Eyes of Minute Seeing
+  - Eyes of the Eagle
+  - Feather Token
+  - Figurine of Wondrous Power
+  - Flame Tongue
+  - Folding Boat
+  - Frost Brand
+  - Gauntlets of Ogre Power
+  - Gem of Brightness
+  - Gem of Seeing
+  - Giant Slayer
+  - Glamoured Studded Leather
+  - Gloves of Missile Snaring
+  - Gloves of Swimming and Climbing
+  - Goggles of Night
+  - Hammer of Thunderbolts
+  - Handy Haversack
+  - Hat of Disguise
+  - Headband of Intellect
+  - Helm of Brilliance
+  - Helm of Comprehending Languages
+  - Helm of Telepathy
+  - Helm of Teleportation
+  - Holy Avenger
+  - Horn of Blasting
+  - Horn of Valhalla
+  - Horseshoes of a Zephyr
+  - Horseshoes of Speed
+  - Immovable Rod
+  - Instant Fortress
+  - Ioun Stone
+  - Iron Bands of Binding
+  - Iron Flask
+  - Javelin of Lightning
+  - Lantern of Revealing
+  - Luck Blade
+  - Mace of Disruption
+  - Mace of Smiting
+  - Mace of Terror
+  - Mantle of Spell Resistance
+  - Manual of Bodily Health
+  - Manual of Gainful Exercise
+  - Manual of Golems
+  - Manual of Quickness of Action
+  - Marvelous Pigments
+  - Master's Amulet
+  - Medallion of Thoughts
+  - Mirror of Life Trapping
+  - Mithral Armor
+  - Necklace of Adaptation
+  - Necklace of Fireballs
+  - Necklace of Prayer Beads
+  - Nine Lives Stealer
+  - Oathbow
+  - Oil of Etherealness
+  - Oil of Sharpness
+  - Oil of Slipperiness
+  - Orb of Dragonkind
+  - Pearl of Power
+  - Periapt of Health
+  - Periapt of Proof against Poison
+  - Periapt of Wound Closure
+  - Philter of Love
+  - Pipes of Haunting
+  - Pipes of the Sewers
+  - Plate Armor of Etherealness
+  - Portable Hole
+  - Potion of Animal Friendship
+  - Potion of Clairvoyance
+  - Potion of Climbing
+  - Potion of Diminution
+  - Potion of Flying
+  - Potion of Gaseous Form
+  - Potion of Giant Strength
+  - Potion of Growth
+  - Potion of Healing
+  - Potion of Heroism
+  - Potion of Invisibility
+  - Potion of Mind Reading
+  - Potion of Poison
+  - Potion of Resistance
+  - Potion of Speed
+  - Potion of Vitality
+  - Potion of Water Breathing
+  - Restorative Ointment
+  - Ring of Air Elemental Command
+  - Ring of Animal Influence
+  - Ring of Djinni Summoning
+  - Ring of Earth Elemental Command
+  - Ring of Elemental Command
+  - Ring of Evasion
+  - Ring of Feather Falling
+  - Ring of Fire Elemental Command
+  - Ring of Free Action
+  - Ring of Invisibility
+  - Ring of Jumping
+  - Ring of Mind Shielding
+  - Ring of Protection
+  - Ring of Regeneration
+  - Ring of Resistance
+  - Ring of Shooting Stars
+  - Ring of Spell Storing
+  - Ring of Spell Turning
+  - Ring of Swimming
+  - Ring of Telekinesis
+  - Ring of the Ram
+  - Ring of Three Wishes
+  - Ring of Warmth
+  - Ring of Water Elemental Command
+  - Ring of Water Walking
+  - Ring of X-ray Vision
+  - Robe of Eyes
+  - Robe of Scintillating Colors
+  - Robe of Stars
+  - Robe of the Archmagi
+  - Robe of Useful Items
+  - Rod of Absorption
+  - Rod of Alertness
+  - Rod of Lordly Might
+  - Rod of Rulership
+  - Rod of Security
+  - Rope of Climbing
+  - Rope of Entanglement
+  - Scarab of Protection
+  - Scimitar of Speed
+  - Shield of Missile Attraction
+  - Shield, +1
+  - Shield, +2
+  - Shield, +3
+  - Slippers of Spider Climbing
+  - Sovereign Glue
+  - Spell Scroll
+  - Spellguard Shield
+  - Sphere of Annihilation
+  - Staff of Charming
+  - Staff of Fire
+  - Staff of Frost
+  - Staff of Healing
+  - Staff of Power
+  - Staff of Striking
+  - Staff of Swarming Insects
+  - Staff of the Magi
+  - Staff of the Python
+  - Staff of the Woodlands
+  - Staff of Thunder and Lightning
+  - Staff of Withering
+  - Stone of Controlling Earth Elementals
+  - Stone of Good Luck (Luckstone)
+  - Sun Blade
+  - Sword of Life Stealing
+  - Sword of Sharpness
+  - Sword of Wounding
+  - Talisman of Pure Good
+  - Talisman of the Sphere
+  - Talisman of Ultimate Evil
+  - Tome of Clear Thought
+  - Tome of Leadership and Influence
+  - Tome of Understanding
+  - Trident of Fish Command
+  - Universal Solvent
+  - Vicious Weapon
+  - Vorpal Sword
+  - Wand of Binding
+  - Wand of Enemy Detection
+  - Wand of Fear
+  - Wand of Fireballs
+  - Wand of Lightning Bolts
+  - Wand of Magic Detection
+  - Wand of Magic Missiles
+  - Wand of Paralysis
+  - Wand of Polymorph
+  - Wand of Secrets
+  - Wand of the War Mage
+  - Wand of Web
+  - Wand of Wonder
+  - Weapon, +1
+  - Weapon, +2
+  - Weapon, +3
+  - Well of Many Worlds
+  - Wind Fan
+  - Winged Boots
+  - Wings of Flying
+- name: Dungeon Master's Guide
+  proper: false
+  magic_items:
+  - Alchemy Jug
+  - Apparatus of Kwalish
+  - Axe of the Dwarvish Lords
+  - Blackrazor
+  - Book of Exalted Deeds
+  - Book of Vile Darkness
+  - Cap of Water Breathing
+  - Cloak of Invisibility
+  - Daern's Instant Fortress
+  - Driftglobe
+  - Efreeti Chain
+  - Elixir of Health
+  - Eye and Hand of Vecna
+  - Gloves of Thievery
+  - Heward's Handy Haversack
+  - Instrument of the Bards
+  - Iron Bands of Bilarro
+  - Keoghtom's Ointment
+  - Mariner's Armor
+  - Moonblade
+  - Nolzur's Marvelous Pigments
+  - Potion of Fire Breath
+  - Potion of Invulnerability
+  - Potion of Longevity
+  - Quaal's Feather Token
+  - Quiver of Ehlonna
+  - Rod of Resurrection
+  - Rod of the Pact Keeper
+  - Saddle of the Cavalier
+  - Scroll of Protection
+  - Sending Stones
+  - Sentinel Shield
+  - Staff of the Adder
+  - Sword of Answering
+  - Sword of Kas
+  - Sword of Vengeance
+  - Tentacle Rod
+  - Tome of the Stilled Tongue
+  - Wand of Orcus
+  - Wave
+  - Weapon of Warning
+  - Whelm
+- name: Xanathar's Guide to Everything
+  proper: true
+  magic_items:
+  - Armor of Gleaming
+  - Bead of Nourishment
+  - Bead of Refreshment
+  - Boots of False Tracks
+  - Candle of the Deep
+  - Cast-Off Armor
+  - Charlatan's Die
+  - Cloak of Billowing
+  - Cloak of Many Fashions
+  - Clockwork Amulet
+  - Clothes of Mending
+  - Dark Shard Amulet
+  - Dread Helm
+  - Ear Horn of Hearing
+  - Enduring Spellbook
+  - Ersatz Eye
+  - Hat of Vermin
+  - Hat of Wizardry
+  - Heward's Handy Spice Pouch
+  - Horn of Silent Alarm
+  - Instrument of Illusions
+  - Instrument of Scribing
+  - Lock of Trickery
+  - Moon-Touched Sword
+  - Mystery Key
+  - Orb of Direction
+  - Orb of Time
+  - Perfume of Bewitching
+  - Pipe of Smoke Monsters
+  - Pole of Angling
+  - Pole of Collapsing
+  - Pot of Awakening
+  - Rope of Mending
+  - Ruby of the War Mage
+  - Shield of Expression
+  - Smoldering Armor
+  - Staff of Adornment
+  - Staff of Birdcalls
+  - Staff of Flowers
+  - Talking Doll
+  - Tankard of Sobriety
+  - Unbreakable Arrow
+  - Veteran's Cane
+  - Walloping Ammunition
+  - Wand of Conducting
+  - Wand of Pyrotechnics
+  - Wand of Scowls
+  - Wand of Smiles
+- name: Tasha's Cauldron of Everything
+  proper: true
+  magic_items:
+  - Absorbing Tattoo
+  - Alchemical Compendium
+  - All-Purpose Tool
+  - Amulet of the Devout
+  - Arcane Grimoire
+  - Astral Shard
+  - Astromancy Archive
+  - Atlas of Endless Horizons
+  - Baba Yaga's Mortar and Pestle
+  - Barrier Tattoo
+  - Bell Branch
+  - Blood Fury Tattoo
+  - Bloodwell Vial
+  - Cauldron of Rebirth
+  - Coiling Grasp Tattoo
+  - Crook of Rao
+  - Crystalline Chronicle
+  - Demonomicon of Iggwilv
+  - Devotee's Censer
+  - Duplicitous Manuscript
+  - Eldritch Claw Tattoo
+  - Elemental Essence Shard
+  - Far Realm Shard
+  - Feywild Shard
+  - Fulminating Treatise
+  - Ghost Step Tattoo
+  - Guardian Emblem
+  - Heart Weaver's Primer
+  - Illuminator's Tattoo
+  - Libram of Souls and Flesh
+  - Lifewell Tattoo
+  - Luba's Tarokka of Souls
+  - Lyre of Building
+  - Masquerade Tattoo
+  - Mighty Servant of Leuk-o
+  - Moon Sickle
+  - Nature's Mantle
+  - Outer Essence Shard
+  - Planecaller's Codex
+  - Prosthetic Limb
+  - Protective Verses
+  - Reveler's Concertina
+  - Rhythm-Maker's Drum
+  - Shadowfell Brand Tattoo
+  - Shadowfell Shard
+  - Spellwrought Tattoo
+  - Teeth of Dahlver-Nar
+- name: Fizban's Treasury of Dragons
+  proper: true
+  magic_items:
+  - Amethyst Lodestone
+  - Crystal Blade
+  - Dragon Vessel
+  - Dragon Wing Bow
+  - Dragon's Wrath Weapon
+  - Dragon-Touched Focus
+  - Dragonhide Belt
+  - Dragonlance
+  - Emerald Pen
+  - Flail of Tiamat
+  - Gold Canary Figurine of Wondrous Power
+  - Platinum Scarf
+  - Potion of Dragon's Majesty
+  - Ruby Weave Gem
+  - Sapphire Buckler
+  - Scaled Ornament
+  - Topaz Annihilator
+- name: Explorer's Guide to Wildemount
+  proper: false
+  magic_items:
+  - Acheron Blade
+  - Amulet of the Drunkard
+  - Arcane Cannon
+  - Battering Shield
+  - Blade of Broken Mirrors
+  - Bloodaxe
+  - Breathing Bubble
+  - Brooch of Living Essence
+  - Butcher's Bib
+  - Coin of Delving
+  - Corpse Slayer
+  - Danoth's Visor
+  - Dispelling Stone
+  - Duskcrusher
+  - Dust of Deliciousness
+  - Ersatz Eye
+  - Goggles of Object Reading
+  - Grimoire Infinitus
+  - Grovelthrash
+  - Hide of the Feral Guardian
+  - Hunter's Coat
+  - Infiltrator's Key
+  - Lash of Shadows
+  - Last Stand Armor
+  - Luxon Beacon
+  - Mace of the Black Crown
+  - Needle of Mending
+  - Nightfall Pearl
+  - Orb of the Veil
+  - Potion of Maximum Power
+  - Potion of Possibility
+  - Prosthetic Limb
+  - Reincarnation Dust
+  - Ring of Obscuring
+  - Ring of Temporal Salvation
+  - Rod of Retribution
+  - Ruin's Wake
+  - Sending Stones
+  - Silken Spite
+  - Spell Bottle
+  - Staff of Dunamancy
+  - Staff of the Ivory Claw
+  - Stormgirdle
+  - The Bloody End
+  - Verminshroud
+  - Vox Seeker
+  - Weapon of Certain Death
+  - Will of the Talon
+  - Wreath of the Prism
+- name: 'Eberron: Rising from the Last War'
+  proper: true
+  magic_items:
+  - Arcane Propulsion Arm
+  - Armblade
+  - Belashyrra's Beholder Crown
+  - Cleansing Stone
+  - Docent
+  - Dyrrn's Tentacle Whip
+  - Earworm
+  - Everbright Lantern
+  - Feather Token (Feather Fall)
+  - Finder's Goggles
+  - Glamerweave
+  - Imbued Wood Focus
+  - Keycharm
+  - Kyrzin's Ooze
+  - Living Armor
+  - Living Gloves
+  - Orb of Shielding
+  - Prosthetic Limb
+  - Revenant Double-Bladed Scimitar
+  - Scribe's Pen
+  - Shiftweave
+  - Speaking Stone
+  - Spellshard
+  - Uncommon Glamerweave
+  - Ventilating Lungs
+  - Wand Sheath
+  - Wheel of Wind and Water
+- name: 'Dragonlance: Shadow of the Dragon Queen'
+  proper: true
+  magic_items:
+  - Dragonlance
+  - Driftglobe
+  - Flying Citadel Helm
+  - Kagonesti Forest Shroud
+  - Mirror of Reflected Pasts
+  - Potion of Fire Breath
+- name: 'Spelljammer: Adventures in Space'
+  proper: true
+  magic_items:
+  - Fish Suit
+  - Spelljamming Helm
+  - Talarith
+  - Wildspace Orrery
+- name: Acquisitions Incorporated
+  proper: true
+  magic_items:
+  - Cartographer's Map Case
+  - Chronolometer
+  - Coin of Decisionry
+  - Dimensional Loop
+  - Documancy Satchel
+  - Elder Cartographer's Glossography
+  - Failed Experiment Wand
+  - Far Gear
+  - Keoghtom's Ointment
+  - Living Loot Satchel
+  - Mithral Half Plate, +1
+  - Obviator's Lenses
+  - Occultant Abacus
+  - Orrery of the Wanderer
+  - Piercer
+  - Portfolio Keeper
+  - Rotor of Return
+  - Sending Stone
+  - Sentinel Shield
+  - Spyglass of Clairvoyance
+  - Timepiece of Travel
+  - Travel Alchemical Kit
+  - Vicious Rapier, +1
+  - Voting Kit
+  - Wheel of Stars
+  - Whisper Jar
+- name: "Tales from the Yawning Portal: Against the Giants"
+  proper: true
+  magic_items:
+  - Hell Hound Cloak
+  - Nolzur's Marvelous Pigments
+  - Potion of Invulnerability
+  - Potion of Mind Control
+  - Scroll of Protection
+  - Sword of Vengeance
+  - Tentacle Rod
+  - Waythe
+- name: 'Baldur''s Gate: Descent into Avernus'
+  proper: true
+  magic_items:
+  - Battle Standard of Infernal Power
+  - Blade of Avernus
+  - Fane-Eater
+  - Gauntlets of Flaming Fury
+  - Hellfire Weapon
+  - Helm of Devil Command
+  - Infernal Puzzle Box
+  - Infernal Tack (Legacy)
+  - Matalotok
+  - Obsidian Flint Dragon Plate
+  - Potion of Fire Breath
+  - Shield of the Hidden Lord
+  - Smokepowder
+  - Soul Coin
+  - Sword of Zariel
+- name: Candlekeep Mysteries
+  proper: true
+  magic_items:
+  - Alchemy Jug (Blue)
+  - Alchemy Jug (Orange)
+  - Cracked Driftglobe
+  - Driftglobe
+  - Gloves of Soul Catching
+  - Iron Bands of Bilarro
+  - Nether Scroll of Azumar
+  - Orcus Figurine
+  - Potion of Longevity
+  - Radiance
+  - Saddle of the Cavalier
+  - Serpent Scale Armor
+  - Serpent's Fang
+  - Staff of Fate
+  - Stonky's ring
+  - Watchful Helm
+- name: 'Critical Role: Call of the Netherdeep'
+  proper: true
+  magic_items:
+  - Breathing Bubble
+  - Cracked Driftglobe
+  - Earring of Message
+  - Jewel of Three Prayers
+  - Medal of Muscle
+  - Medal of Wit
+  - Medal of the Conch
+  - Medal of the Horizonback
+  - Medal of the Maze
+  - Medal of the Meat Pie
+  - Medal of the Wetlands
+  - Nolzur's Marvelous Pigments
+  - Ring of Red Fury
+  - Ruidium Armor
+  - Ruidium Shield
+  - Ruidium Weapon
+  - Sending Stones
+  - Teleportation Tablet
+- name: Curse of Strahd
+  proper: true
+  magic_items:
+  - Alchemy Jug
+  - Blood Spear
+  - Crusader's Shortsword
+  - Daern's Instant Fortress
+  - Elixir of Health
+  - Gulthias Staff
+  - Holy Symbol of Ravenkind
+  - Icon of Ravenloft
+  - Potion of Invulnerability
+  - Saint Markovia's Thighbone
+  - Shield of the Silver Dragon
+  - Sunsword
+  - Yester Hill Axe
+- name: "Tales from the Yawning Portal: Dead in Thay"
+  proper: true
+  magic_items:
+  - Loadstone
+  - Robe of Summer
+  - Tome of the Stilled Tongue
+- name: "Essentials Kit: Divine Contention"
+  proper: true
+  magic_items:
+  - Gnomengarde Grenade
+  - Ruinstone
+- name: "Essentials Kit: Dragon of Icespire Peak"
+  proper: true
+  magic_items:
+  - Cloak of Billowing
+  - Cloak of Many Fashions
+  - Clockwork Amulet
+  - Dread Helm
+  - Hat of Wizardry
+  - Instrument of Illusions
+  - Mystery Key
+  - Pole of Collapsing
+  - Potion of Invulnerability
+  - Sending Stones
+  - Staff of Birdcalls
+  - Wand of Pyrotechnics
+- name: Dragons of Stormwreck Isle
+  proper: true
+  magic_items:
+  - Elixir of Health
+- name: Dungeons & Dragons vs. Rick and Morty
+  proper: true
+  magic_items:
+  - Concertina
+- name: Frozen Sick
+  proper: true
+  free: true
+  magic_items:
+  - Ersatz Eye
+- name: Ghosts of Saltmarsh
+  proper: true
+  magic_items:
+  - Charm of Plant Command
+  - Cursed Luckstone
+  - Helm of Underwater Action
+  - Nolzur's Marvelous Pigments
+  - Pipe of Remembrance
+  - Pressure Capsule
+  - Sekolahian Worshiping Statuette
+  - Tentacle Rod
+- name: Guildmasters' Guide to Ravnica
+  proper: true
+  magic_items:
+  - Guild Keyrune
+  - Guild Signet
+  - Illusionist's Bracers
+  - Mizzium Apparatus
+  - Mizzium Armor
+  - Mizzium Mortar
+  - Moodmark Paint
+  - Pariah's Shield
+  - Peregrine Mask
+  - Pyroconverger
+  - Rakdos Riteknife
+  - Skyblinder Staff
+  - Spies' Murmur
+  - Sunforger
+  - Sword of the Paruns
+  - Voyager Staff
+- name: Hoard of the Dragon Queen
+  proper: true
+  magic_items:
+  - Black Dragon Mask
+  - Blue Dragon Mask
+  - Dragongleam
+  - Dragontooth Dagger
+  - Green Dragon Mask
+  - Hazirawn
+  - Insignia of Claws
+  - Mask of the Dragon Queen
+  - Red Dragon Mask
+  - Tankard of Plenty
+  - Wand of Winter
+  - White Dragon Mask
+- name: Hunt for the Thessalhydra
+  proper: true
+  magic_items:
+  - Winter's Dark Bite
+- name: 'Icewind Dale: Rime of the Frostmaiden'
+  proper: true
+  magic_items:
+  - Abracadabrus
+  - Alchemy Jug
+  - Cauldron of Plenty
+  - Driftglobe
+  - Hook of Fisher's Delight
+  - Lantern of Tracking
+  - Orc Stone
+  - Piwafwi (Cloak of Elvenkind)
+  - Potion of Longevity
+  - Professor Orb
+  - Professor Skant
+  - Psi Crystal
+  - Quiver of Ehlonna
+  - Scroll of Tarrasque Summoning
+  - Scroll of the Comet
+  - Shield Guardian Amulet
+  - The Codicil of White
+  - Thermal Cube
+  - Ythryn Mythallar
+- name: Infernal Machine Rebuild
+  proper: true
+  magic_items:
+  - Apparatus of Kwalish
+  - Blood of the Lycanthrope Antidote
+  - Bridle of Capturing
+  - Claws of the Umber Hulk
+  - Crown of the Forest
+  - Helm of Underwater Action
+  - Ioun Stone of Vitality
+  - Mummy Rot Antidote
+  - Nolzur's Marvelous Pigments
+  - Paper Bird
+  - Pot of Awakening
+  - Ruinblade
+  - Spell Gem
+  - Spell Gem (Amber)
+  - Spell Gem (Bloodstone)
+  - Spell Gem (Diamond)
+  - Spell Gem (Jade)
+  - Spell Gem (Lapis Lazuli)
+  - Spell Gem (Obsidian)
+  - Spell Gem (Quartz)
+  - Spell Gem (Ruby)
+  - Spell Gem (Star Ruby)
+  - Spell Gem (Topaz)
+  - The Infernal Machine of Lum the Mad
+  - Thessaltoxin Antidote
+- name: Journeys through the Radiant Citadel
+  proper: true
+  magic_items:
+  - Driftglobe
+  - Elixir of Health
+  - Hammock of Worlds
+  - Heward's Handy Haversack
+  - Keoghtom's Ointment
+  - Nolzur's Marvelous Pigments
+  - Potion of Invulnerability
+  - Potion of Longevity
+- name: Keys from the Golden Vault
+  proper: true
+  magic_items:
+  - Apparatus of Kwalish
+  - Book of Vile Darkness (Variant)
+  - Cap of Water Breathing
+  - Constantori's Portrait
+  - Driftglobe
+  - Heward's Handy Haversack
+  - Quiver of Ehlonna
+  - Sending Stones
+  - Shard Solitaire
+  - Shard of Xeluan
+- name: Legendary Magic Items
+  proper: true
+  magic_items:
+  - Helm of Disjunction
+  - Hither-Thither Staff
+  - Horn of Beckoning Death
+  - Red Wizard Blade
+  - Tablet of Reawakening
+- name: Locathah Rising
+  proper: true
+  magic_items:
+  - Cap of Water Breathing
+  - Wave
+  - Weapon of Warning
+- name: Lost Laboratory of Kwalish
+  proper: true
+  magic_items:
+  - Blade of the Medusa
+  - Deck of Several Things
+  - Galder's Bubble Pipe
+  - Gambler's Blade
+  - Heward's Hireling Armor
+  - Ioun Stone of Historical Knowledge
+  - Ioun Stone of Language Knowledge
+  - Ioun Stone of Natural Knowledge
+  - Ioun Stone of Religious Knowledge
+  - Ioun Stone of Self-Preservation
+  - Ioun Stone of Supreme Intellect
+  - Leather Golem Armor
+  - Polymorph Blade
+  - Powered Armor
+- name: Lost Mine of Phandelver
+  proper: true
+  magic_items:
+  - Dragonguard
+  - Hew
+  - Lightbringer
+  - Spider Staff
+  - Staff of Defense
+- name: 'Monstrous Compendium Vol 2: Dragonlance Creatures'
+  proper: false
+  magic_items:
+  - Nightbringer
+- name: 'Monstrous Compendium Vol 3: Minecraft Creatures'
+  proper: false
+  magic_items:
+  - End Crystal
+  - Ender Pearl
+- name: 'Mordenkainen Presents: Monsters of the Multiverse'
+  proper: true
+  magic_items:
+  - Infernal Tack
+- name: Mythic Odysseys of Theros
+  proper: true
+  magic_items:
+  - Akmon, Hammer of Purphoros
+  - Dekella, Bident of Thassa
+  - Ephixis, Bow of Nylea
+  - Flying Chariot
+  - Helm of the Gods
+  - Khrusor, Spear of Heliod
+  - Mastix, Whip of Erebos
+  - Molten Bronze Skin
+  - Potion of Aqueous Form
+  - Pyxis of Pandemonium
+  - Siren Song Lyre
+  - Sling Bullets of Althemone
+  - Two-Birds Sling
+- name: Out of the Abyss
+  proper: true
+  magic_items:
+  - Dawnbringer
+  - Heward's Handy Haversack
+  - Piwafwi (Cloak of Elvenkind)
+  - Piwafwi of Fire Resistance
+  - Scroll of Protection
+  - Spell Gem
+  - Spell Gem (Amber)
+  - Spell Gem (Bloodstone)
+  - Spell Gem (Diamond)
+  - Spell Gem (Jade)
+  - Spell Gem (Lapis Lazuli)
+  - Spell Gem (Obsidian)
+  - Spell Gem (Quartz)
+  - Spell Gem (Ruby)
+  - Spell Gem (Star Ruby)
+  - Spell Gem (Topaz)
+  - Stonespeaker Crystal
+  - Tentacle Rod
+  - Wand of Viscid Globs
+- name: Princes of the Apocalypse
+  proper: true
+  magic_items:
+  - Alchemy Jug
+  - Balloon Pack
+  - Bottled Breath
+  - Claws of the Umber Hulk
+  - Devastation Orb
+  - Driftglobe
+  - Drown
+  - Elixir of Health
+  - Ironfang
+  - Lost Crown of Besilmer
+  - Orcsplitter
+  - Potion of Fire Breath
+  - Potion of Invulnerability
+  - Potion of Longevity
+  - Seeker Dart
+  - Storm Boomerang
+  - Tentacle Rod
+  - Tinderstrike
+  - Weird Tank
+  - Windvane
+  - Wingwear
+- name: Prisoner 13
+  proper: true
+  magic_items:
+  - Cap of Water Breathing
+- name: Rise of Tiamat
+  proper: true
+  magic_items:
+  - Black Dragon Mask
+  - Blue Dragon Mask
+  - Draakhorn
+  - Dragongleam
+  - Dragontooth Dagger
+  - Driftglobe
+  - Green Dragon Mask
+  - Hazirawn
+  - Insignia of Claws
+  - Mask of the Dragon Queen
+  - Potion of Fire Breath
+  - Red Dragon Mask
+  - Scroll of Protection
+  - Tankard of Plenty
+  - Wand of Winter
+  - White Dragon Mask
+- name: "Essentials Kit: Sleeping Dragon's Wake"
+  proper: true
+  magic_items:
+  - Bonecounter
+- name: Spelljammer Academy
+  proper: true
+  magic_items:
+  - Sending Stones
+- name: Storm King's Thunder
+  proper: true
+  magic_items:
+  - Banner of the Krig Rune
+  - Blod Stone
+  - Claw of the Wyrm Rune
+  - Conch of Teleportation
+  - Gavel of the Venn Rune
+  - Gurt's Greataxe
+  - Heward's Handy Haversack
+  - Ingot of the Skold Rune
+  - Korolnor Scepter
+  - Navigation Orb
+  - Opal of the Ild Rune
+  - Orb of the Stein Rune
+  - Pennant of the Vind Rune
+  - Potion of Giant Size
+  - Potion of Invulnerability
+  - Robe of Serpents
+  - Rod of the Vonindod
+  - Sending Stones
+  - Shard of the Ise Rune
+  - Wyrmskull Throne
+- name: 'Strixhaven: A Curriculum of Chaos'
+  proper: true
+  magic_items:
+  - Bottle of Boundless Coffee
+  - Cuddly Strixhaven Mascot
+  - Driftglobe
+  - Lorehold Primer
+  - Masque Charm
+  - Murgaxor's Orb
+  - Prismari Primer
+  - Quandrix Primer
+  - Silverquill Primer
+  - Strixhaven Pennant
+  - Witherbloom Primer
+- name: "Tales from the Yawning Portal: The Hidden Shrine of Tamoachan"
+  proper: true
+  magic_items:
+  - Amulet of Protection from Turning
+  - Balance of Harmony
+  - Bracelet of Rock Magic
+  - Eagle Whistle
+  - Elixir of Health
+  - Mirror of the Past
+  - Scroll of Protection
+  - Stone of Ill Luck
+- name: "Tales from the Yawning Portal: The Sunless Citadel"
+  proper: true
+  magic_items:
+  - Elixir of Health
+  - Night Caller
+  - Potion of Fire Breath
+  - Shatterspike
+  - Wand of Entangle
+- name: The Tortle Package
+  proper: true
+  magic_items:
+  - Driftglobe
+- name: Vecna Dossier
+  proper: false
+  magic_items:
+  - Book of Vile Darkness
+  - Eye and Hand of Vecna
+  - Sword of Kas
+- name: The Wild Beyond the Witchlight
+  proper: true
+  magic_items:
+  - Bobbing Lily Pad
+  - Chromatic Rose
+  - Cloak of Many Fashions
+  - Dread Helm
+  - Dust of Corrosion
+  - Eldritch Staff
+  - Gloves of Thievery
+  - Iggwilv's Cauldron
+  - Instrument of Scribing
+  - Orb of Direction
+  - Ornithopter of Flying
+  - Pipe of Smoke Monsters
+  - Pixie Dust
+  - Pole of Collapsing
+  - Potion of Advantage
+  - Potion of Invulnerability
+  - Quiver of Ehlonna
+  - Scissors of Shadow Snipping
+  - Snicker-Snack
+  - Steel
+  - Talking Doll
+  - Wand of Scowls
+  - Wand of Smiles
+  - Witchlight Vane
+  - Witchlight Watch
+  - Woodcutter's Axe
+- name: Tomb of Annihilation
+  proper: true
+  magic_items:
+  - Alchemy Jug
+  - Amulet of the Black Skull
+  - Bookmark
+  - Ghost Lantern
+  - Keoghtom's Ointment
+  - Mask of the Beast
+  - Nolzur's Marvelous Pigments
+  - Ring of Winter
+  - Scorpion Armor
+  - Sending Stones
+  - Staff of the Forgotten One
+  - Yklwa, +1
+  - Yklwa, +2
+  - Yklwa, +3
+- name: "Tales from the Yawning Portal: Tomb of Horrors"
+  proper: true
+  magic_items:
+  - Javelin of Backbiting
+  - Spear of Backbiting
+  - Sword of Vengeance
+- name: Tyranny of Dragons
+  proper: true
+  magic_items:
+  - Black Dragon Mask
+  - Blue Dragon Mask
+  - Draakhorn
+  - Dragongleam
+  - Dragontooth Dagger
+  - Driftglobe
+  - Green Dragon Mask
+  - Hazirawn
+  - Insignia of Claws
+  - Mask of the Dragon Queen
+  - Potion of Fire Breath
+  - Red Dragon Mask
+  - Scroll of Protection
+  - Tankard of Plenty
+  - Wand of Winter
+  - White Dragon Mask
+- name: Van Richten's Guide to Ravenloft
+  proper: true
+  magic_items:
+  - Harkon's Bite
+  - Nepenthe
+  - Sword of Vengeance
+- name: Volo's Guide to Monsters
+  proper: true
+  magic_items:
+  - Mind Blade (Legacy)
+  - Mind Carapace Armor (Legacy)
+  - Mind Lash (Legacy)
+  - Shield of Far Sight (Legacy)
+- name: 'Waterdeep: Dragon Heist'
+  proper: true
+  magic_items:
+  - Azuredge
+  - Badge of the Watch
+  - Blackstaff
+  - Bracer of Flying Daggers
+  - Dragonstaff of Ahghairon
+  - Feather of Diatryma Summoning
+  - Knave's Eye Patch
+  - Lord's Ensemble
+  - Paper Bird
+  - Ring of Truth Telling
+  - Smokepowder
+  - Stone of Golorr
+- name: 'Waterdeep: Dungeon of the Mad Mage'
+  proper: true
+  magic_items:
+  - Black Crystal Tablet
+  - Blast Scepter
+  - Boots of False Tracks
+  - Candle of the Deep
+  - Chest of Preserving
+  - Circlet of Human Perfection
+  - Dagger of Blindsight
+  - Dodecahedron of Doom
+  - Dread Helm
+  - Driftglobe
+  - Helm of the Scavenger
+  - Horn of the Endless Maze
+  - Horned Ring
+  - Nolzur's Marvelous Pigments
+  - Orb of Direction
+  - Orb of Gonging
+  - Pipe of Smoke Monsters
+  - Piwafwi (Cloak of Elvenkind)
+  - Pole of Angling
+  - Pot of Awakening
+  - Potion of Comprehension
+  - Potion of Fire Breath
+  - Potion of Longevity
+  - Potion of Watchful Rest
+  - Professor Orb
+  - Propeller Helm
+  - Sending Stones
+  - Sentinel Shield
+  - Shield of the Uven Rune
+  - Staff of Flowers
+  - Tearulai
+  - Wand of Conducting
+- name: Wayfinder's Guide to Eberron
+  proper: true
+  magic_items:
+  - Armblade
+  - Bag of Bounty
+  - Band of Loyalty
+  - Cleansing Stone
+  - Docent
+  - Everbright Lantern
+  - Feather Token (Feather Fall)
+  - Glamerweave
+  - Imbued Wood Focus
+  - Inquisitive's Goggles
+  - Keycharm
+  - Orb of Shielding
+  - Revenant Double-Bladed Scimitar
+  - Rings of Shared Suffering
+  - Scribe's Pen
+  - Shiftweave
+  - Speaking Stone
+  - Spellshard
+  - Uncommon Glamerweave
+  - Wand Sheath
+  - Wheel of Wind and Water
+- name: "Tales from the Yawning Portal: White Plume Mountain"
+  proper: true
+  magic_items:
+  - Blackrazor
+  - Scroll of Protection
+  - Wave
+  - Whelm

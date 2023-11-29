@@ -2,11 +2,11 @@
 # One D&D Feats
 # load_yaml(get_gvar("0a7a9e38-a642-4681-9b4a-7f0e7c13e854"))
 Ability Score Improvement:
-  desc: "_Prerequisite: Level 4+_\n\nYou increase one ability score of your choice by 2, or you increase two ability scores of your choice by 1. You can't increase an ability score above 20 using this feat. However, if you're at least level 19, that maximum increases to 22."
+  desc: "_General Feat (Prerequisite: Level 4+)_\n\nIncrease one ability score of your choice by 2, or increase two ability scores of your choice by 1. You can't increase an ability score above 20 using this feat. However, if you're at least level 19, that maximum increases to 22."
   fields:
   - title: "Repeatable"
     body: "You can take this feat more than once."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 Actor:
   desc: "*4th-Level Feat*\n\n**Prerequisite**: Charisma 13+\n**Repeatable**: No\n\nSkilled at mimicry and dramatics, you gain the following benefits:\n\n**Ability Score Increase**. Increase your Charisma score by 1, to a maximum of 20.\n\n**Impersonation**. While you're disguised as a fictional person or a real person other than yourself, you have Advantage on Charisma Checks (Performance) to convince others that you are that person.\n\n**Mimicry**. You can mimic the sounds of other creatures, including speech. To mimic a sound or a way of speaking, you must listen to it for at least 1 minute. Any time thereafter, you can make a DC 15 Charisma Check (Performance) to perform the mimicry; on a success, you perform it convincingly for up to 1 hour."
   fields:

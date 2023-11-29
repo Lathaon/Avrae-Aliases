@@ -4,59 +4,59 @@
 
 "Druid: Druidic":
   title: "Druid Level 1: Druidic"
-  desc: "You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of speaking to animals; you always have the *Speak with Animals* spell prepared.\n\nYou can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic."
+  desc: "You know Druidic, the secret language of Druids. While learning this ancient tongue, you also unlocked the magic of speaking to animals; you always have the _Speak with Animals_ spell prepared.\n\nYou can use Druidic to leave hidden messages. You and others who know Druidic automatically spot such a message. Others spot the message's presence with a successful DC 15 Intelligence (Investigation) check but can't decipher it without magic."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Primal Order":
   title: "Druid Level 1: Primal Order"
-  desc: "You have dedicated yourself to one of the following sacred roles of your choice:\n\n**Magician**. You know one extra cantrip from the Primal spell list (see your Spellcasting feature for information on preparing spells). In addition, your mystical connection to nature gives you a bonus to your Intelligence (Nature) checks. The bonus equals your Wisdom modifier (minimum of +1).\n\n**Warden**. Trained for battle, you gain Martial Weapon proficiency and Medium Armor training."
+  desc: "You have dedicated yourself to one of the following sacred roles of your choice:\n\n**Magician**. You know one extra cantrip from the Druid spell list (see your Spellcasting feature for information on preparing spells). In addition, your mystical connection to nature gives you a bonus to your Intelligence (Nature) checks. The bonus equals your Wisdom modifier (minimum of +1).\n\n**Warden**. Trained for battle, you gain Martial Weapon proficiency and armor training with Medium Armor."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Spellcasting":
   title: "Druid Level 1: Spellcasting"
   desc: "You have learned to cast spells through studying the mystical forces of nature. [See the _Player's Handbook_ for the rules on spellcasting](https://www.dndbeyond.com/sources/phb/spellcasting). The information below details how you use those rules as a Druid."
   fields:
   - title: Cantrips
-    body: "You know two cantrips of your choice from the Primal spell list. Rather than choosing, you may start with _Druidcraft_ and _Produce Flame_.\n\nWhenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Primal spell list.\n\nWhen you reach 4th and 10th level in this class, you learn another cantrip of your choice from the Primal spell list, as shown in the Cantrips column of the Druid table."
+    body: "You know two cantrips of your choice from the Druid spell list. Rather than choosing, you may start with the _Druidcraft_ and _Produce Flame_ cantrips.\n\nWhenever you gain a Druid level, you can replace one of your cantrips with another cantrip of your choice from the Druid spell list.\n\nWhen you reach levels 4 and 10 in this class, you learn another cantrip of your choice from the Druid spell list, as shown in the Cantrips column of the Druid table."
   - title: Spell Slots
-    body: "The Druid table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest."
-  - title: Prepared Spells of 1st+ Level
-    body: "You prepare the list of spells of 1st level and higher that are available for you to cast with this feature. To start, choose four 1st-level spells from the Primal spell list. Rather than choosing, you may start with _Animal Friendship_, _Cure Wounds_, _Faerie Fire_, and _Thunderwave_.\n\nThe number of spells on your list also increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid table. Whenever that number increases, choose additional spells from the Primal spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a 3rd-level Druid, your list of prepared spells can include six spells of 1st or 2nd level, in any combination.\n\nIf another Druid feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature."
+    body: "The Druid table shows how many spell slots you have to cast your spells of level 1 and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a Long Rest."
+  - title: Prepared Spells of Level 1+
+    body: "You prepare the list of spells of level 1 and higher that are available for you to cast with this feature. To start, choose four level 1 spells from the Druid spell list. Rather than choosing, you may start with the _Animal Friendship_, _Cure Wounds_, _Faerie Fire_, and _Thunderwave_ spells.\n\nThe number of spells on your list also increases as you gain Druid levels, as shown in the Prepared Spells column of the Druid table. Whenever that number increases, choose additional spells from the Druid spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 3 Druid, your list of prepared spells can include six spells of levels 1 and 2 in any combination.\n\nIf another Druid feature gives spells that you always have prepared, those spells don't count against the number of spells on the list you prepare with this Spellcasting feature, but those spells otherwise follow the rules in this feature."
   - title: Changing Your Prepared Spells
-    body: "Whenever you finish a Long Rest, you can change your list of prepared spells, replacing one or more of the spells there with other Primal spells for which you have spell slots. Preparing a new list requires time spent in meditation: at least 1 minute per spell level for each spell you add to the list."
+    body: "Whenever you finish a Long Rest, you can change your list of prepared spells, replacing one or more of the spells there with other Druid spells for which you have spell slots. Preparing a new list requires time spent in meditation: at least 1 minute per spell level for each spell you add to the list."
   - title: Spellcasting Ability
     body: "Wisdom is your Spellcasting Ability for your Druid spells."
   - title: Spellcasting Focus
     body: "You can use a Druidic Focus as a Spellcasting Focus for the spells you prepare for this class."
   - title: "Druid Table: Cantrips and Prepared Spells"
-    body: "```\n| Level | Cantrips | Prepared Spells\n|-------+----------+-----------------\n|   1st |     2    |        4\n|   2nd |     2    |        5\n|   3rd |     2    |        6\n|   4th |     3    |        7\n|   5th |     3    |        9\n|   6th |     3    |       10\n|   7th |     3    |       11\n|   8th |     3    |       12\n|   9th |     3    |       14\n|  10th |     4    |       15\n|  11th |     4    |       16\n|  12th |     4    |       16\n|  13th |     4    |       17\n|  14th |     4    |       17\n|  15th |     4    |       18\n|  16th |     4    |       18\n|  17th |     4    |       19\n|  18th |     4    |       20\n|  19th |     4    |       21\n|  20th |     4    |       22\n```"
+    body: "```\n| Level | Cantrips | Prepared Spells\n|-------+----------+-----------------\n|    1  |     2    |        4\n|    2  |     2    |        5\n|    3  |     2    |        6\n|    4  |     3    |        7\n|    5  |     3    |        9\n|    6  |     3    |       10\n|    7  |     3    |       11\n|    8  |     3    |       12\n|    9  |     3    |       14\n|   10  |     4    |       15\n|   11  |     4    |       16\n|   12  |     4    |       16\n|   13  |     4    |       17\n|   14  |     4    |       17\n|   15  |     4    |       18\n|   16  |     4    |       18\n|   17  |     4    |       19\n|   18  |     4    |       20\n|   19  |     4    |       21\n|   20  |     4    |       22\n```"
   - title: "Druid Table: Spell Slots"
-    body: "```\n| Level | 1st 2nd 3rd 4th 5th 6th 7th 8th 9th\n|-------+-------------------------------------\n|   1st |  2   —   —   —   —   —   —   —   —\n|   2nd |  3   —   —   —   —   —   —   —   —\n|   3rd |  4   2   —   —   —   —   —   —   —\n|   4th |  4   3   —   —   —   —   —   —   —\n|   5th |  4   3   2   —   —   —   —   —   —\n|   6th |  4   3   3   —   —   —   —   —   —\n|   7th |  4   3   3   1   —   —   —   —   —\n|   8th |  4   3   3   2   —   —   —   —   —\n|   9th |  4   3   3   3   1   —   —   —   —\n|  10th |  4   3   3   3   2   —   —   —   —\n|  11th |  4   3   3   3   2   1   —   —   —\n|  12th |  4   3   3   3   2   1   —   —   —\n|  13th |  4   3   3   3   2   1   1   —   —\n|  14th |  4   3   3   3   2   1   1   —   —\n|  15th |  4   3   3   3   2   1   1   1   —\n|  16th |  4   3   3   3   2   1   1   1   —\n|  17th |  4   3   3   3   2   1   1   1   1\n|  18th |  4   3   3   3   2   1   1   1   1\n|  19th |  4   3   3   3   2   2   1   1   1\n|  20th |  4   3   3   3   2   2   2   1   1\n```"
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+    body: "```\n| Level | 1st 2nd 3rd 4th 5th 6th 7th 8th 9th\n|-------+-------------------------------------\n|    1  |  2   —   —   —   —   —   —   —   —\n|    2  |  3   —   —   —   —   —   —   —   —\n|    3  |  4   2   —   —   —   —   —   —   —\n|    4  |  4   3   —   —   —   —   —   —   —\n|    5  |  4   3   2   —   —   —   —   —   —\n|    6  |  4   3   3   —   —   —   —   —   —\n|    7  |  4   3   3   1   —   —   —   —   —\n|    8  |  4   3   3   2   —   —   —   —   —\n|    9  |  4   3   3   3   1   —   —   —   —\n|   10  |  4   3   3   3   2   —   —   —   —\n|   11  |  4   3   3   3   2   1   —   —   —\n|   12  |  4   3   3   3   2   1   —   —   —\n|   13  |  4   3   3   3   2   1   1   —   —\n|   14  |  4   3   3   3   2   1   1   —   —\n|   15  |  4   3   3   3   2   1   1   1   —\n|   16  |  4   3   3   3   2   1   1   1   —\n|   17  |  4   3   3   3   2   1   1   1   1\n|   18  |  4   3   3   3   2   1   1   1   1\n|   19  |  4   3   3   3   2   2   1   1   1\n|   20  |  4   3   3   3   2   2   2   1   1\n```"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Wild Companion":
   title: "Druid Level 2: Wild Companion"
   desc: "You can summon a nature spirit that assumes an animal form to aid you. As a Magic action, you can expend a spell slot or a use of Wild Shape to cast the _Find Familiar_ spell without material components.\n\nWhen you cast the spell in this way, the familiar is a Fey, and it disappears when you finish a Long Rest."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Wild Shape":
   title: "Druid Level 2: Wild Shape"
-  desc: "The power of nature infuses you, allowing you to assume the form of an animal. As a Bonus Action, you transform into a Beast form that you have learned for this feature (see 'Known Forms' below). You stay in that form for a number of hours equal to half your Druid level (round down) or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action."
+  desc: "The power of nature infuses you, allowing you to assume the form of an animal. As a Bonus Action, you transform into a Beast form that you have learned for this feature (see \"Known Forms\" below). You stay in that form for a number of hours equal to half your Druid level or until you use Wild Shape again, have the Incapacitated condition, or die. You can also leave the form early as a Bonus Action."
   fields:
   - title: "Known Forms"
-    body: "You start knowing three forms for this feature, chosen from among Beast stat blocks that have a maximum Challenge Rating of 1/4 and that lack a Fly Speed. Rather than choosing, you may start with the Riding Horse, Spider, and Wolf. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.\n\nWhen you gain certain Druid levels, you learn additional forms, and the maximum Challenge Rating for your forms increases, as shown in the Beast Shapes table. In addition, starting at 8th level, you can adopt a form that has a Fly Speed."
+    body: "You know a number of forms for this feature equal to 2 plus half your Druid level (round up), chosen from among [Beast stat blocks in the _Player's Handbook_ that have a maximum Challenge Rating of 1/4](https://www.dndbeyond.com/monsters?filter-type=0&filter-type=2&filter-cr-min=1&filter-cr-max=3&filter-source=2&sort=-cr) and that lack a Fly Speed. Rather than choosing, you may start with the Riding Horse, Spider, and Wolf. Whenever you finish a Long Rest, you can replace one of your known forms with another eligible form.\n\nWhen you gain certain Druid levels, the maximum Challenge Rating for your forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.\n\nWhen choosing a new form, you may look in the Monster Manual or elsewhere for eligible Beasts if the DM permits you to do so."
   - title: "Beast Shapes"
-    body: "```\n| Druid Level | Known Forms | Max CR | Fly Speed\n|-------------+-------------+--------+----------\n|     2nd     |      3      |  1/4   | No\n|     4th     |      4      |  1/2   | No\n|     8th     |      5      |   1    | Yes\n\n```"
+    body: "```\n| Druid Level | Max CR | Fly Speed\n|-------------+--------+----------\n|      2      |  1/4   | No\n|      4      |  1/2   | No\n|      8      |   1    | Yes\n\n```"
   - title: "Number of Uses"
     body: "You can use Wild Shape twice. You regain one expended use when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest.\n\nYou gain additional uses when you reach certain Druid levels, as shown in the Wild Shape column of the Druid table."
   - title: "Druid Table: Wild Shape Uses"
-    body: "```\n| Level | Wild Shape\n|-------+------------------\n|   1st | —\n|   2nd | 2\n|   3rd | 2\n|   4th | 2\n|   5th | 2\n|   6th | 3\n|   7th | 3\n|   8th | 3\n|   9th | 3\n|  10th | 3\n|  11th | 3\n|  12th | 3\n|  13th | 3\n|  14th | 3\n|  15th | 3\n|  16th | 3\n|  17th | 3\n|  18th | 4\n|  19th | 4\n|  20th | 4\n```"
+    body: "```\n| Level | Wild Shape\n|-------+------------------\n|    1  | —\n|    2  | 2\n|    3  | 2\n|    4  | 2\n|    5  | 2\n|    6  | 3\n|    7  | 3\n|    8  | 3\n|    9  | 3\n|   10  | 3\n|   11  | 3\n|   12  | 3\n|   13  | 3\n|   14  | 3\n|   15  | 3\n|   16  | 3\n|   17  | 3\n|   18  | 4\n|   19  | 4\n|   20  | 4\n```"
   - title: "Rules While Transformed"
-    body: "While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:\n\n**Game Statistics**. Your game statistics are replaced by the statistics of the Beast, but you retain your Hit Points; Hit Dice; Intelligence, Wisdom, and Charisma scores; class features; species traits; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.\n\n**No Spellcasting**. You can't cast spells, but transforming doesn't break your concentration on a spell you've already cast or prevent you from taking actions that are part of a spell, such as _Call Lightning_, that you've already cast.\n\n**Objects**. Your ability to handle objects is determined by the form's limbs, rather than your own. In addition, you choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+    body: "While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:\n\n**Game Statistics**. Your game statistics are replaced by the statistics of the Beast, but you retain your Hit Points; Hit Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.\n\n**Temporary Hit Points**. When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.\n\n**No Spellcasting**. You can't cast spells, but transforming doesn't break your Concentration on a spell you've already cast or prevent you from taking actions that are part of a spell, such as the _Call Lightning_ spell, that you've already cast.\n\n**Objects**. Your ability to handle objects is determined by the form's limbs rather than your own. In addition, you choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment based on the creature's size and shape. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form."
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Druid Subclass":
   title: "Druid Level 3: Druid Subclass"
@@ -64,51 +64,45 @@
   fields:
   - title: "At Levels 6, 10, and 14"
     body: "You gain a feature from your Druid subclass."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Ability Score Improvement":
   title: "Druid Level 4: Ability Score Improvement"
-  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.\n\nAs shown on the Druid table, you gain this feature again at levels 8, 12, 16, and 19."
   fields:
-  - title: "At Levels 8, 12, 16, and 19"
-    body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Wild Resurgence":
   title: "Druid Level 5: Wild Resurgence"
-  desc: "If you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required). You can do so only once per turn.\n\nIn addition, you can expend one use of Wild Shape (no action required) to give yourself a 1st-level spell slot, and you can't do so again until you finish a Long Rest."
+  desc: "If you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required). You can do so only once per turn.\n\nIn addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, and you can't do so again until you finish a Long Rest."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Elemental Fury":
   title: "Druid Level 7: Elemental Fury"
-  desc: "You gain one of the following options of your choice:\n\n**Potent Spellcasting**. You add your Wisdom modifier to the damage you deal with any Primal cantrip.\n\n**Primal Strike**. Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit)."
+  desc: "The might of the elements flows through you. You gain one of the following options of your choice:\n\n**Potent Spellcasting**. You add your Wisdom modifier to the damage you deal with any Druid cantrip.\n\n**Primal Strike**. Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit)."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - title: "At Level 15"
+    body: "The option you chose for Elemental Fury grows more powerful:\n\n**Potent Spellcasting**. When you cast a Druid cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.\n\n**Primal Strike**. The extra damage of your Primal Strike increases to 2d8."
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Commune with Nature":
   title: "Druid Level 9: Commune with Nature"
-  desc: "You always have the _Commune with Nature_ spell prepared. You are an expression of nature itself and can commune with the natural world all around you."
+  desc: "You are an expression of nature itself and can commune with the natural world all around you; you always have the _Commune with Nature_ spell prepared."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
-
-"Druid: Improved Elemental Fury":
-  title: "Druid Level 15: Improved Elemental Fury"
-  desc: "The option you chose for Elemental Fury grows more powerful:\n\n**Potent Spellcasting**. When you cast a Primal cantrip with a range of 10 feet or greater, the spell's range increases by 300 feet.\n\n**Primal Strike**. The extra damage of your Primal Strike increases to 2d8."
-  fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Beast Spells":
   title: "Druid Level 18: Beast Spells"
-  desc: "While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a specified cost or that consumes its Material component."
+  desc: "While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Druid: Archdruid":
   title: "Druid Level 20: Archdruid"
-  desc: "You gain the following benefits:\n\n**Evergreen Wild Shape**. Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.\n\n**Nature Magician**. You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. You must then finish a Long Rest before you can do so again. For example, if you convert two uses of Wild Shape, you produce a 4th-level spell slot.\n\n**Longevity**. The primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
+  desc: "The vitality of nature constantly blooms within you, granting you the following benefits:\n\n**Evergreen Wild Shape**. Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.\n\n**Nature Magician**. You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. You must then finish a Long Rest before you can do so again. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot.\n\n**Longevity**. The primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 
 # ===================================
@@ -160,35 +154,33 @@
 # DRUID: CIRCLE OF THE MOON FEATURES
 # ===================================
 
+"Circle of the Moon: Circle Spells":
+  title: "Circle of the Moon Level 3: Circle Spells"
+  desc: "Your connection to this circle ensures that you always have certain spells ready. When you reach a Druid level specified in the Circle of the Moon Spells table, you thereafter always have the listed spells prepared.\n\nIn addition, you can cast the spells from this feature while you are in Wild Shape form."
+  fields:
+  - title: "Circle of the Moon Spells"
+    body: "```\n| Druid Level | Prepared Spells\n|-------------+---------------\n|      3      | Cure Wounds, Moonbeam, Starry Wisp\n|      5      | Vampiric Touch\n|      7      | Fount of Moonlight\n|      9      | Dawn\n```"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
+
 "Circle of the Moon: Circle Forms":
   title: "Circle of the Moon Level 3: Circle Forms"
-  desc: "The rites of your circle grant you the ability to transform into more dangerous animal forms; the maximum Challenge Rating for your Wild Shape is 1."
+  desc: "You have learned ancient techniques that allow you to channel lunar magic when you assume a Wild Shape form, granting you the following benefits:\n\n**Challenge Rating**. The maximum Challenge Rating for the form equals your Druid level divided by 3 (round down).\n\n**Armor Class**. Your AC equals 13 plus your Wisdom modifier until you leave the form.\n\n**Temporary Hit Points**. You gain a number of Temporary Hit Points equal to three times your Druid level."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
-
-"Circle of the Moon: Combat Wild Shape":
-  title: "Circle of the Moon Level 3: Combat Wild Shape"
-  desc: "You have learned ancient techniques that allow you to channel the magic of the moon to bolster yourself while using Wild Shape, granting you the following benefits:\n\n**Armor Class**. When you assume a Wild Shape form, compare the beast's AC to your AC (including any armor you're wearing but not a shield). While in that form, you use whichever AC is higher.\n\n**Temporary Hit Points**. When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to the form's Hit Points or three times your Druid level, whichever number is lower. For example, if you turn into a wolf (11 HP) as a 5th-level Druid, you gain 11 Temporary Hit Points since three times your Druid level is higher than the wolf's Hit Points.\n\n**Abjuration Spells**. While in a Wild Shape form, you can cast your abjuration spells, except for any spell that has a material component with a cost specified or that consumes its material component.\n\n**Moonbeam**. You always have the _Moonbeam_ spell prepared while in a Wild Shape form, and you can cast the spell in that form without material components."
-  fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
-
-"Circle of the Moon: Improved Circle Forms":
-  title: "Circle of the Moon Level 6: Improved Circle Forms"
-  desc: "The maximum Challenge Rating of your Wild Shape now equals your Druid level divided by 3 (round down).\n\nIn addition, each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks."
-  fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - title: "At Level 6"
+    body: "While in a Wild Shape form, you gain the following benefits:\n\n**Lunar Radiance**. Each of your attacks in a Wild Shape form can deal its normal damage type or Radiant damage. You make this choice each time you hit with those attacks.\n\n**Increased Toughness**. You can add your Wisdom modifier to your Constitution saving throws."
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Circle of the Moon: Moonlight Step":
   title: "Circle of the Moon Level 10: Moonlight Step"
-  desc: "You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You can also regain uses by expending a spell slot of 2nd level or higher for each use you want to restore (no action required)."
+  desc: "You magically transport yourself, reappearing amid a burst of moonlight. As a Bonus Action, you teleport up to 30 feet to an unoccupied space you can see, and you have Advantage on the next attack roll you make before the end of this turn.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest. You can also regain uses by expending a spell slot of level 2 or higher for each use you want to restore (no action required)."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Circle of the Moon: Lunar Form":
   title: "Circle of the Moon Level 14: Lunar Form"
-  desc: "The power of the moon suffuses you, granting you the following benefits:\n\n**Movable Moonbeam**. While your Moonbeam is active, you can move it up to 60 feet at the start of each of your turns (no action required).\n\n**Shared Moonlight**. Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space."
+  desc: "The power of the moon suffuses you, granting you the following benefits:\n\n**Improved Lunar Radiance**. Each of your attacks in a Wild Shape form deals an extra 1d10 Radiant damage on a hit.\n\n**Shared Moonlight**. Whenever you use Moonlight Step, you can also teleport one willing creature. That creature must be within 10 feet of you, and you teleport it to an unoccupied space you can see within 10 feet of your destination space."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 
 # ===================================

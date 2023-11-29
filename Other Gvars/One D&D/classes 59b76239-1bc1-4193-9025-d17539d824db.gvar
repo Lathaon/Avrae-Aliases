@@ -2,19 +2,19 @@
 # One D&D Classes
 # load_yaml(get_gvar("59b76239-1bc1-4193-9025-d17539d824db"))
 Barbarian:
-  desc: "**Primary Ability**: Strength\n\n`1` Rage, Unarmored Defense, Weapon Mastery\n`2` Danger Sense, Reckless Attack\n`3` Barbarian Subclass, Primal Knowledge\n`4` Ability Score Improvement\n`5` Extra Attack, Fast Movement\n`6` Subclass Feature\n`7` Feral Instinct, Instinctive Pounce\n`8` Ability Score Improvement\n`9` Brutal Critical (1d12)\n`10` Subclass Feature\n`11` Relentless Rage\n`12` Ability Score Improvement\n`13` Brutal Critical (2d12)\n`14` Subclass Feature\n`15` Persistent Rage\n`16` Ability Score Improvement\n`17` Brutal Critical (3d12)\n`18` Indomitable Might\n`19` Ability Score Improvement\n`20` Primal Champion"
+  desc: "**Primary Ability**: Strength\n\n`1` Rage, Unarmored Defense, Weapon Mastery\n`2` Danger Sense, Reckless Attack\n`3` Barbarian Subclass, Primal Knowledge\n`4` Ability Score Improvement\n`5` Extra Attack, Fast Movement\n`6` Subclass Feature\n`7` Feral Instinct, Instinctive Pounce\n`8` Ability Score Improvement\n`9` Brutal Strike\n`10` Subclass Feature\n`11` Relentless Rage\n`12` Ability Score Improvement\n`13` Improved Brutal Strike\n`14` Subclass Feature\n`15` Persistent Rage\n`16` Ability Score Improvement\n`17` Improved Brutal Strike\n`18` Indomitable Might\n`19` Ability Score Improvement\n`20` Primal Champion"
   fields:
   - title: "Hit Points"
-    body: "**Hit Dice**: 1d12 per Barbarian level\n**Hit Points at 1st Level**: 12 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d12 (or 7) + your Constitution modifier"
+    body: "**Hit Dice**: 1d12 per Barbarian level\n**Hit Points at Level 1**: 12 + your Constitution modifier\n**Hit Points per Later Level**: 1d12 (or 7) + your Constitution modifier"
   - title: "Proficiencies"
     body: "**Saving Throws**: Strength, Constitution\n**Skills (Choose 2)**: Animal Handling, Athletics, Intimidation, Nature, Perception, Survival\n**Weapons**: Simple Weapons, Martial Weapons\n**Tools**: None"
   - title: "Armor Training"
     body: "Light Armor, Medium Armor, Shields"
   - title: "Starting Equipment"
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 75 GP on equipment of your choice.\n\n- Explorer's Pack\n- (a) Greataxe or (b) Battleaxe, Shield, and 10 GP\n- Handaxe (4)\n- 15 GP"
+    body: "As a level 1 character, you start with the following equipment, or you can forgo it and spend 75 GP on equipment of your choice.\n- Explorer's Pack\n- (a) Greataxe or (b) Battleaxe, Shield, and 10 GP\n- Handaxe (4)\n- 15 GP"
   - title: "Multiclassing and the Barbarian"
     body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Barbarian as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Barbarian's primary ability, Strength, to take a level in this class or to take a level in another class if you are already a Barbarian.\n\n**_Proficiencies Gained_**. If Barbarian isn't your initial class, you gain proficiency with Martial Weapons when you take your first Barbarian level.\n\n**_Armor Training_**. When you gain your first Barbarian level, you gain armor training with Shields."
-  - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 Bard:
   desc: "**Primary Ability**: Charisma\n\n`1` Bardic Inspiration, Spellcasting\n`2` Expertise, Jack of All Trades\n`3` Bard Subclass\n`4` Ability Score Improvement\n`5` Font of Inspiration\n`6` Subclass Feature\n`7` Countercharm\n`8` Ability Score Improvement\n`9` Expertise\n`10` Magical Secrets\n`11` —\n`12` Ability Score Improvement\n`13` —\n`14` Subclass Feature\n`15` —\n`16` Ability Score Improvement\n`17` —\n`18` Superior Inspiration\n`19` Ability Score Improvement\n`20` Words of Creation"
@@ -50,16 +50,16 @@ Druid:
   desc: "**Primary Ability**: Wisdom\n\n`1` Druidic, Primal Order, Spellcasting\n`2` Wild Companion, Wild Shape\n`3` Druid Subclass\n`4` Ability Score Improvement\n`5` Wild Resurgence\n`6` Subclass Feature\n`7` Elemental Fury\n`8` Ability Score Improvement\n`9` Commune with Nature\n`10` Subclass Feature\n`11` —\n`12` Ability Score Improvement\n`13` —\n`14` Subclass Feature\n`15` Improved Elemental Fury\n`16` Ability Score Improvement\n`17` —\n`18` Beast Spells\n`19` Ability Score Improvement\n`20` Archdruid"
   fields:
   - title: "Hit Points"
-    body: "**Hit Dice**: 1d8 per Druid level\n**Hit Points at 1st Level**: 8 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d8 (or 5) + your Constitution modifier"
+    body: "**Hit Dice**: 1d8 per Druid level\n**Hit Points at Level 1**: 8 + your Constitution modifier\n**Hit Points per Later Level**: 1d8 (or 5) + your Constitution modifier"
   - title: "Proficiencies"
     body: "**Saving Throws**: Intelligence, Wisdom\n**Skills (Choose 2)**: Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival\n**Weapons**: Simple Weapons\n**Tools**: Herbalism Kit"
   - title: "Armor Training"
     body: "Light Armor, Shields"
   - title: "Starting Equipment"
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 50 GP on equipment of your choice:\n\n- Druidic Focus (Quarterstaff)\n- Explorer's Pack\n- Herbalism Kit\n- Leather Armor\n- Shield\n- Sickle\n- 9 GP"
+    body: "As a level 1 character, you start with the following equipment, or you can forgo it and spend 50 GP on equipment of your choice:\n\n- Druidic Focus (Quarterstaff)\n- Explorer's Pack\n- Herbalism Kit\n- Leather Armor\n- Shield\n- Sickle\n- 9 GP"
   - title: "Multiclassing and the Druid"
-    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Druid as one of your classes:\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Druid's primary ability, Wisdom, to take a level in this class or to take a level in another class if you are already a Druid.\n\n**_Armor Training_**. When you gain your first Druid level, you gain armor training with the following: Light Armor and Shields.\n\n**_Spell Slots_**. Add all your Druid levels to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Druid as one of your classes:\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Druid's primary ability, Wisdom, to take a level in this class or to take a level in another class if you're already a Druid.\n\n**_Armor Training_**. When you gain your first Druid level, you gain armor training with the following: Light Armor and Shields.\n\n**_Spell Slots_**. Add all your Druid levels to the appropriate levels from other classes to determine your available spell slots for casting spells, as detailed in the multiclassing rules.\n\nYou prepare spells for each of your classes individually, referring to the spell slots of an individual class to determine the number and levels of the spells you prepare for it."
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 Fighter:
   desc: "**Primary Ability**: Strength or Dexterity\n\n`1` Fighting Style, Second Wind, Weapon Mastery\n`2` Action Surge (One Use), Tactical Mind\n`3` Fighter Subclass\n`4` Ability Score Improvement\n`5` Extra Attack, Tactical Shift\n`6` Ability Score Improvement\n`7` Subclass Feature\n`8` Ability Score Improvement\n`9` Indomitable (One Use), Master of Armaments\n`10` Subclass Feature\n`11` Two Extra Attacks\n`12` Ability Score Improvement\n`13` Indomitable (Two Uses), Studied Attacks\n`14` Ability Score Improvement\n`15` Subclass Feature\n`16` Ability Score Improvement\n`17` Action Surge (Two Uses), Indomitable (Three Uses)\n`18` Subclass Feature\n`19` Ability Score Improvement\n`20` Three Extra Attacks"
@@ -77,19 +77,19 @@ Fighter:
   - body: "[Packet 7](https://www.dndbeyond.com/sources/ua/ph-playtest-7)"
 
 Monk:
-  desc: "**Primary Ability**: Dexterity and Wisdom\n\n`1` Martial Arts, Unarmored Defense, Weapon Mastery\n`2` Martial Discipline, Unarmored Movement\n`3` Deflect Missiles, Monk Subclass\n`4` Ability Score Improvement, Slow Fall\n`5` Extra Attack, Stunning Strike\n`6` Empowered Strikes, Subclass Feature\n`7` Evasion, Heightened Metabolism\n`8` Ability Score Improvement\n`9` Acrobatic Movement\n`10` Self-Restoration\n`11` Subclass Feature\n`12` Ability Score Improvement\n`13` Deflect Energy\n`14` Disciplined Survivor\n`15` Perfect Discipline\n`16` Ability Score Improvement\n`17` Subclass Feature\n`18` Superior Defense\n`19` Ability Score Improvement\n`20` Defy Death"
+  desc: "**Primary Ability**: Dexterity and Wisdom\n\n`1` Martial Arts, Unarmored Defense\n`2` Monk's Discipline, Unarmored Movement, Uncanny Metabolism\n`3` Deflect Missiles, Monk Subclass\n`4` Ability Score Improvement, Slow Fall\n`5` Extra Attack, Stunning Strike\n`6` Empowered Strikes, Subclass Feature\n`7` Evasion\n`8` Ability Score Improvement\n`9` Acrobatic Movement\n`10` Heightened Discipline, Self-Restoration\n`11` Subclass Feature\n`12` Ability Score Improvement\n`13` Deflect Energy\n`14` Disciplined Survivor\n`15` Perfect Discipline\n`16` Ability Score Improvement\n`17` Subclass Feature\n`18` Superior Defense\n`19` Ability Score Improvement\n`20` Body and Mind"
   fields:
   - title: "Hit Points"
-    body: "**Hit Dice**: 1d8 per Monk level\n\n**Hit Points at 1st Level**: 8 + your Constitution modifier\n**Hit Points per Level after 1st**: 1d8 (or 5) + your Constitution modifier"
+    body: "**Hit Dice**: 1d8 per Monk level\n\n**Hit Points at Level 1**: 8 + your Constitution modifier\n**Hit Points per Later Level**: 1d8 (or 5) + your Constitution modifier"
   - title: "Proficiencies"
-    body: "**Saving Throws**: Strength, Dexterity\n**Skills (Choose 2)**: Acrobatics, Athletics, History, Insight, Religion, Stealth\n**Weapons**: Simple Weapons\n**Tools**: Choose one type of Artisan's Tool or Musical Instrument"
+    body: "**Saving Throws**: Strength, Dexterity\n**Skills (Choose 2)**: Acrobatics, Athletics, History, Insight, Religion, Stealth\n**Weapons**: Simple Weapons, Martial Weapons that have the Light property\n**Tools**: Choose one type of Artisan's Tools or Musical Instrument"
   - title: "Armor Training"
     body: "None"
   - title: "Starting Equipment"
-    body: "As a 1st-level character, you start with the following equipment, or you can forgo it and spend 65 GP on equipment of your choice.\n\n- Artisan's Tools\n- Dagger (5)\n- Explorer's Pack\n- Musical Instrument\n- Spear\n- 9 GP"
+    body: "As a level 1 character, you start with the following equipment, or you can forgo it and spend 65 GP on equipment of your choice:\n\n- Artisan's Tools\n- Dagger (5)\n- Explorer's Pack\n- Musical Instrument\n- Spear\n- 9 GP"
   - title: "Multiclassing and the Monk"
-    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Monk as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Monk's primary abilities, Dexterity and Wisdom, to take a level in this class or to take a level in another class if you are already a Monk."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+    body: "If your group uses the [multiclassing rules in the _Player's Handbook_](https://www.dndbeyond.com/sources/phb/customization-options#Multiclassing), here's what you need to know if you choose Monk as one of your classes.\n\n**_Ability Score Minimum_**. As a multiclass character, you must have a score of at least 13 in the Monk's primary abilities, Dexterity and Wisdom, to take a level in this class or to take a level in another class if you're already a Monk."
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 Paladin:
   desc: "**Primary Abilities**: Strength, Charisma\n\n`1` Lay on Hands, Spellcasting, Weapon Mastery\n`2` Fighting Style, Paladin's Smite\n`3` Channel Divinity, Paladin Subclass\n`4` Ability Score Improvement\n`5` Extra Attack, Faithful Steed\n`6` Aura of Protection\n`7` Subclass Feature\n`8` Ability Score Improvement\n`9` Abjure Foes\n`10` Aura of Courage\n`11` Radiant Strikes\n`12` Ability Score Improvement\n`13` —\n`14` Restoring Touch\n`15` Subclass Feature\n`16` Ability Score Improvement\n`17` —\n`18` Aura Expansion\n`19` Ability Score Improvement\n`20` Subclass Feature"

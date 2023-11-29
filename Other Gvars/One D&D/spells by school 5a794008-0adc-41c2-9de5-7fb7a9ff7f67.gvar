@@ -107,7 +107,6 @@ Conjuration:
 - Tidal Wave
 - Banishment
 - Conjure Minor Elementals
-- Conjure Woodland Beings
 - Dimension Door
 - Evard's Black Tentacles
 - Find Greater Steed
@@ -125,6 +124,7 @@ Conjuration:
 - Cloudkill
 - Conjure Elemental
 - Conjure Volley
+- Conjure Woodland Beings
 - Far Step
 - Infernal Calling
 - Insect Plague
@@ -244,6 +244,7 @@ Enchantment:
 - Synaptic Static
 - Mass Suggestion
 - Otto's Irresistible Dance
+- Power Word Fortify
 - Power Word Pain
 - Antipathy/Sympathy
 - Dominate Monster
@@ -266,6 +267,7 @@ Evocation:
 - Sacred Flame
 - Shocking Grasp
 - Sorcerous Burst
+- Starry Wisp
 - Thunderclap
 - Word of Radiance
 - Burning Hands
@@ -310,6 +312,7 @@ Evocation:
 - Wind Wall
 - Arcane Eruption
 - Fire Shield
+- Fount of Moonlight
 - Gravity Sinkhole
 - Ice Storm
 - Otiluke's Resilient Sphere
@@ -464,7 +467,6 @@ Transmutation:
 - Earthbind
 - Enhance Ability
 - Enlarge/Reduce
-- Shining Smite
 - Heat Metal
 - Immovable Object
 - Kinetic Jaunt
@@ -474,6 +476,7 @@ Transmutation:
 - Maximilian's Earthen Grasp
 - Pyrotechnics
 - Rope Trick
+- Shining Smite
 - Skywrite
 - Spider Climb
 - Spike Growth

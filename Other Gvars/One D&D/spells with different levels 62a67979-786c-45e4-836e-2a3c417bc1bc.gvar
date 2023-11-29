@@ -1,0 +1,4 @@
+# Guinea Pigs of Neverwinter
+# One D&D Spells with Different Spell Levels. The value here is the 2014 level.
+# load_yaml(get_gvar("62a67979-786c-45e4-836e-2a3c417bc1bc"))
+Conjure Woodland Beings: 4

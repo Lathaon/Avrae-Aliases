@@ -109,7 +109,7 @@ match &ARGS&:
         class_benefits = CLASS_LEVELS[classy][class_level - 1]
         subclass_benefits = SUBCLASS_LEVELS[subclass][class_level - 1]
         out = {
-            "title": f"{subclass} {classy}: Benefits at {int_lib.ordinal(class_level)} Level",
+            "title": f"{subclass} {classy}: Benefits at Level {class_level}",
             "desc" : "- " + "\n- ".join(class_benefits.improvements + subclass_benefits.improvements),
             "fields": [
                 field

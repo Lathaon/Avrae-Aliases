@@ -40,6 +40,7 @@ Shillelagh: {components: [V, S, M], range: Touch, duration: 1 minute, casting_ti
 Shocking Grasp: {components: [V, S], range: Touch, duration: Instantaneous, casting_time: Action}
 Sorcerous Burst: {components: [V, S], range: 120 feet, duration: Instantaneous, casting_time: Action}
 Spare the Dying: {components: [V, S], range: 15 feet, duration: Instantaneous, casting_time: Action}
+Starry Wisp: {components: [V, S], range: 60 feet, duration: Instantaneous, casting_time: Action}
 Sword Burst: {components: [V], range: Self (5 ft.), duration: Instantaneous, casting_time: Action}
 Thaumaturgy: {components: [V], range: 30 feet, duration: 1 minute, casting_time: Action}
 Thorn Whip: {components: [V, S, M], range: 30 feet, duration: Instantaneous, casting_time: Action}
@@ -95,14 +96,14 @@ Hail of Thorns: {components: [V], range: Self, conc: on, duration: 1 minute, cas
 Healing Word: {components: [V], range: 60 feet, duration: Instantaneous, casting_time: Bonus Action}
 Hellish Rebuke: {components: [V, S], range: 60 feet, duration: Instantaneous, casting_time: "Reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see"}
 Heroism: {components: [V, S], range: Touch, conc: on, duration: 1 minute, casting_time: Action}
-Hex: {components: [V, S], range: 90 feet, conc: on, duration: 1 hour, casting_time: Bonus Action}
+Hex: {components: [V, S, M], range: 90 feet, conc: on, duration: 1 hour, casting_time: Bonus Action}
 Hunter's Mark: {components: [V], range: 90 feet, conc: on, duration: 1 hour, casting_time: Bonus Action}
 Ice Knife: {components: [S, M], range: 60 feet (5 ft. sphere), duration: Instantaneous, casting_time: Action}
 Identify: {components: [V, S, M], range: Touch, duration: Instantaneous, casting_time: 1 minute}
 Illusory Script: {components: [S, M], range: Touch, duration: 10 days, casting_time: 1 minute}
 Inflict Wounds: {components: [V, S], range: Touch, duration: Instantaneous, casting_time: Action}
 Jim's Magic Missile: {components: [V, S, R], range: 120 feet, duration: Instantaneous, casting_time: Action}
-Jump: {components: [V, S, M], range: Touch, duration: 1 minute, casting_time: Action}
+Jump: {components: [V, S, M], range: Touch, duration: 1 minute, casting_time: Bonus Action}
 Longstrider: {components: [V, S, M], range: Touch, duration: 1 hour, casting_time: Action}
 Mage Armor: {components: [V, S, M], range: Touch, duration: 8 hours, casting_time: Action}
 Magic Missile: {components: [V, S], range: 120 feet, duration: Instantaneous, casting_time: Action}
@@ -162,7 +163,6 @@ Flock of Familiars: {components: [V, S], range: Touch, conc: on, duration: 1 hou
 Fortune's Favor: {components: [V, S, M], range: 60 feet, duration: 1 hour, casting_time: 1 minute}
 Gentle Repose: {components: [V, S, M], range: Touch, duration: 10 days, casting_time: Action}
 Gift of Gab: {components: [V, S, R], range: Self, duration: Instantaneous, casting_time: "Reaction, which you take when you speak to another creature"}
-Shining Smite: {components: [V], range: Self, conc: on, duration: 1 minute, casting_time: "Bonus Action, which you take immediately after hitting a creature with a melee weapon or an Unarmed Strike"}
 Gust of Wind: {components: [V, S, M], range: Self, conc: on, duration: 1 minute, casting_time: Action}
 Healing Spirit: {components: [V, S], range: 60 feet (5 ft. cube), conc: on, duration: 1 minute, casting_time: Bonus Action}
 Heat Metal: {components: [V, S, M], range: 60 feet, conc: on, duration: 1 minute, casting_time: Action}
@@ -198,6 +198,7 @@ Scorching Ray: {components: [V, S], range: 120 feet, duration: Instantaneous, ca
 See Invisibility: {components: [V, S, M], range: Self, duration: 1 hour, casting_time: Action}
 Shadow Blade: {components: [V, S], range: Self, conc: on, duration: 1 minute, casting_time: Bonus Action}
 Shatter: {components: [V, S, M], range: 60 feet (10 ft. sphere), duration: Instantaneous, casting_time: Action}
+Shining Smite: {components: [V], range: Self, conc: on, duration: 1 minute, casting_time: "Bonus Action, which you take immediately after hitting a creature with a melee weapon or an Unarmed Strike"}
 Silence: {components: [V, S], range: 120 feet (20 ft. sphere), conc: on, duration: 10 minutes, casting_time: Action}
 Skywrite: {components: [V, S], range: Sight, conc: on, duration: 1 hour, casting_time: Action}
 Snilloc's Snowball Swarm: {components: [V, S, M], range: 90 feet (5 ft. sphere), duration: Instantaneous, casting_time: Action}
@@ -227,7 +228,7 @@ Blink: {components: [V, S], range: Self, duration: 1 minute, casting_time: Actio
 Call Lightning: {components: [V, S], range: 120 feet (60 ft. cylinder), conc: on, duration: 10 minutes, casting_time: Action}
 Catnap: {components: [S, M], range: 30 feet, duration: 10 minutes, casting_time: Action}
 Clairvoyance: {components: [V, S, M], range: 1 mile, conc: on, duration: 10 minutes, casting_time: 10 minutes}
-Conjure Animals: {components: [V, S], range: 60 feet, conc: on, duration: 1 hour, casting_time: Action}
+Conjure Animals: {components: [V, S], range: 60 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Conjure Barrage: {components: [V, S, M], range: Self (60 ft. cone), duration: Instantaneous, casting_time: Action}
 Counterspell: {components: [S], range: 60 feet, duration: Instantaneous, casting_time: "Reaction, which you take when you see a creature within 60 feet of you casting a spell"}
 Create Food and Water: {components: [V, S], range: 30 feet, duration: Instantaneous, casting_time: Action}
@@ -299,8 +300,7 @@ Blight: {components: [V, S], range: 30 feet, duration: Instantaneous, casting_ti
 Charm Monster: {components: [V, S], range: 30 feet, duration: 1 hour, casting_time: Action}
 Compulsion: {components: [V, S], range: 30 feet, conc: on, duration: 1 minute, casting_time: Action}
 Confusion: {components: [V, S, M], range: 90 feet (10 ft. sphere), conc: on, duration: 1 minute, casting_time: Action}
-Conjure Minor Elementals: {components: [V, S], range: 90 feet, conc: on, duration: 1 hour, casting_time: 1 minute}
-Conjure Woodland Beings: {components: [V, S, M], range: 60 feet, conc: on, duration: 1 hour, casting_time: Action}
+Conjure Minor Elementals: {components: [V, S], range: Self (15-foot radius), conc: on, duration: 10 minutes, casting_time: Action}
 Control Water: {components: [V, S, M], range: 300 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Death Ward: {components: [V, S], range: Touch, duration: 8 hours, casting_time: Action}
 Dimension Door: {components: [V], range: 500 feet, duration: Instantaneous, casting_time: Action}
@@ -311,6 +311,7 @@ Evard's Black Tentacles: {components: [V, S, M], range: 90 feet (20 ft. square),
 Fabricate: {components: [V, S], range: 120 feet, duration: Instantaneous, casting_time: 10 minutes}
 Find Greater Steed: {components: [V, S], range: 30 feet, duration: Instantaneous, casting_time: 10 minutes}
 Fire Shield: {components: [V, S, M], range: Self, duration: 10 minutes, casting_time: Action}
+Fount of Moonlight: {components: [V, S], range: Self, conc: on, duration: 10 minutes, casting_time: Action}
 Freedom of Movement: {components: [V, S, M], range: Touch, duration: 1 hour, casting_time: Action}
 Galder's Speedy Courier: {components: [V, S, M], range: 10 feet, duration: 10 minutes, casting_time: Action}
 Gate Seal: {components: [V, S, M], range: 60 feet, duration: 24 hours, casting_time: 1 minute}
@@ -354,8 +355,9 @@ Cloudkill: {components: [V, S], range: 120 feet (20 ft. sphere), conc: on, durat
 Commune: {components: [V, S, M], range: Self, duration: 1 minute, casting_time: 1 minute}
 Commune with Nature: {components: [V, S], range: Self, duration: Instantaneous, casting_time: 1 minute}
 Cone of Cold: {components: [V, S, M], range: Self (60 ft. cone), duration: Instantaneous, casting_time: Action}
-Conjure Elemental: {components: [V, S, M], range: 90 feet, conc: on, duration: 1 hour, casting_time: 1 minute}
+Conjure Elemental: {components: [V, S], range: 60 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Conjure Volley: {components: [V, S, M], range: 150 feet (40 ft. cylinder), duration: Instantaneous, casting_time: Action}
+Conjure Woodland Beings: {components: [V, S], range: Self (10-foot radius), conc: on, duration: 10 minutes, casting_time: Action}
 Contact Other Plane: {components: [V], range: Self, duration: 1 minute, casting_time: 1 minute}
 Contagion: {components: [V, S], range: Touch, duration: 7 days, casting_time: Action}
 Control Winds: {components: [V, S], range: 300 feet (100 ft. cube), conc: on, duration: 1 hour, casting_time: Action}
@@ -411,7 +413,7 @@ Blade Barrier: {components: [V, S], range: 90 feet, conc: on, duration: 10 minut
 Bones of the Earth: {components: [V, S], range: 120 feet (5 ft. cylinder), duration: Instantaneous, casting_time: Action}
 Chain Lightning: {components: [V, S, M], range: 150 feet, duration: Instantaneous, casting_time: Action}
 Circle of Death: {components: [V, S, M], range: 150 feet (60 ft. sphere), duration: Instantaneous, casting_time: Action}
-Conjure Fey: {components: [V, S], range: 90 feet, conc: on, duration: 1 hour, casting_time: 1 minute}
+Conjure Fey: {components: [V, S], range: 60 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Contingency: {components: [V, S, M], range: Self, duration: 10 days, casting_time: 10 minutes}
 Create Homunculus: {components: [V, S, M], range: Touch, duration: Instantaneous, casting_time: 1 hour}
 Create Undead: {components: [V, S, M], range: 10 feet, duration: Instantaneous, casting_time: 1 minute}
@@ -454,7 +456,7 @@ Wall of Ice: {components: [V, S, M], range: 120 feet, conc: on, duration: 10 min
 Wall of Thorns: {components: [V, S, M], range: 120 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Wind Walk: {components: [V, S, M], range: 30 feet, duration: 8 hours, casting_time: 1 minute}
 Word of Recall: {components: [V], range: 5 feet, duration: Instantaneous, casting_time: Action}
-Conjure Celestial: {components: [V, S], range: 90 feet, conc: on, duration: 1 hour, casting_time: 1 minute}
+Conjure Celestial: {components: [V, S], range: 90 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Create Magen: {components: [V, S, M], range: Touch, duration: Instantaneous, casting_time: 1 hour}
 Crown of Stars: {components: [V, S], range: Self, duration: 1 hour, casting_time: Action}
 Delayed Blast Fireball: {components: [V, S, M], range: 150 feet (20 ft. sphere), conc: on, duration: 1 minute, casting_time: Action}
@@ -469,6 +471,7 @@ Mirage Arcane: {components: [V, S], range: Sight (5280 ft. square), duration: 10
 Mordenkainen's Magnificent Mansion: {components: [V, S, M], range: 300 feet, duration: 24 hours, casting_time: 1 minute}
 Mordenkainen's Sword: {components: [V, S, M], range: 60 feet, conc: on, duration: 1 minute, casting_time: Action}
 Plane Shift: {components: [V, S, M], range: Touch, duration: Instantaneous, casting_time: Action}
+Power Word Fortify: {components: [V], range: 60 feet, duration: Instantaneous, casting_time: Action}
 Power Word Pain: {components: [V], range: 60 feet, duration: Instantaneous, casting_time: Action}
 Prismatic Spray: {components: [V, S], range: Self (60 ft. cone), duration: Instantaneous, casting_time: Action}
 Project Image: {components: [V, S, M], range: 500 miles, conc: on, duration: 1 day, casting_time: Action}

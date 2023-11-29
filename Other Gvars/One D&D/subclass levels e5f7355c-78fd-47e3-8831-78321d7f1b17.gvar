@@ -141,76 +141,76 @@
   #  4th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 4)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 4)"
   #  5th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 5)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 5)"
   #  6th Level
   - features:
     - "Path of the World Tree: Branches of the Tree"
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 6)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 6)"
   #  7th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 7)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 7)"
   #  8th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 8)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 8)"
   #  9th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 9)"
-    - "Vitality of the Tree temp HP increases by 1d6 (total of 3d6)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 9)"
+    - "Vitality of the Tree ally temp HP increases by 1d6 (total of 3d6)"
   #  10th Level
   - features:
     - "Path of the World Tree: Battering Roots"
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 10)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 10)"
   #  11th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 11)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 11)"
   #  12th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 12)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 12)"
   #  13th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 13)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 13)"
   #  14th Level
   - features:
     - "Path of the World Tree: Travel Along the Tree"
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 14)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 14)"
   #  15th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 15)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 15)"
   #  16th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 16)"
-    - "Vitality of the Tree temp HP increases by 1d6 (total of 4d6)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 16)"
+    - "Vitality of the Tree ally temp HP increases by 1d6 (total of 4d6)"
   #  17th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 17)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 17)"
   #  18th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 18)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 18)"
   #  19th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 19)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 19)"
   #  20th Level
   - features: []
     improvements:
-    - "Vitality of the Tree healing increases by 1 (total of 20)"
+    - "Vitality of the Tree self temp HP increases by 1 (total of 20)"
 
 "Path of the Zealot":
   #  1st Level
@@ -840,84 +840,84 @@
   - *NA
   #  3rd Level
   - features:
+    - "Circle of the Moon: Circle Spells"
     - "Circle of the Moon: Circle Forms"
-    - "Circle of the Moon: Combat Wild Shape"
     improvements: []
   #  4th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 12)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 12)"
   #  5th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 15)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 15)"
   #  6th Level
   - features:
-    - "Circle of the Moon: Improved Circle Forms"
+    - "Circle of the Moon: Circle Forms"
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 18)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 18)"
   #  7th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 21)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 21)"
   #  8th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 24)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 24)"
   #  9th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 27)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 27)"
     - "Max CR of Wild Shape forms increases from 2 to 3"
   #  10th Level
   - features:
     - "Circle of the Moon: Moonlight Step"
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 30)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 30)"
   #  11th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 33)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 33)"
   #  12th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 36)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 36)"
     - "Max CR of Wild Shape forms increases from 3 to 4"
   #  13th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 39)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 39)"
   #  14th Level
   - features:
     - "Circle of the Moon: Lunar Form"
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 42)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 42)"
   #  15th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 45)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 45)"
     - "Max CR of Wild Shape forms increases from 4 to 5"
   #  16th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 48)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 48)"
   #  17th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 51)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 51)"
   #  18th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 54)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 54)"
     - "Max CR of Wild Shape forms increases from 5 to 6"
   #  19th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 57)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 57)"
   #  20th Level
   - features: []
     improvements:
-    - "Max temp HP from using Wild Shape increases by 3 (total of 60)"
+    - "Temp HP from using Wild Shape increases by 3 (total of 60)"
 
 "Circle of the Sea":
   #  1st Level
@@ -1412,17 +1412,11 @@
     - "Warrior of the Hand: Quivering Palm"
     improvements: []
   #  18th Level
-  - features: []
-    improvements:
-    - "Quivering Palm damage increases by 1 (total of 10d12 + 18)"
+  - *NA
   #  19th Level
-  - features: []
-    improvements:
-    - "Quivering Palm damage increases by 1 (total of 10d12 + 19)"
+  - *NA
   #  20th Level
-  - features: []
-    improvements:
-    - "Quivering Palm damage increases by 1 (total of 10d12 + 20)"
+  - *NA
 
 "Oath of Devotion":
   #  1st Level

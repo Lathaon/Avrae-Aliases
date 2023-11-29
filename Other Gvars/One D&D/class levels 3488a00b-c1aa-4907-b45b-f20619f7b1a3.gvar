@@ -64,7 +64,7 @@ Barbarian:
     - "Max HP increase by 7 + CON mod"
   #  9th Level
   - features:
-    - "Barbarian: Brutal Critical"
+    - "Barbarian: Brutal Strike"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max HP increase by 7 + CON mod"
@@ -88,44 +88,38 @@ Barbarian:
     improvements:
     - "Gain a d12 Hit Die"
     - "Max HP increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 11 to 12"
     - "Number of Rages increases from 4 to 5"
   # 13th Level
   - features:
-    - "Barbarian: Brutal Critical"
+    - "Barbarian: Brutal Strike"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max HP increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 12 to 13"
   # 14th Level
   - features:
     - "Barbarian: Barbarian Subclass"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max HP increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 13 to 14"
   # 15th Level
   - features:
     - "Barbarian: Persistent Rage"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max HP increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 14 to 15"
   # 16th Level
   - features:
     - "Barbarian: Ability Score Improvement"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max HP increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 15 to 16"
     - "Rage Damage increases from +3 to +4"
   # 17th Level
   - features:
-    - "Barbarian: Brutal Critical"
+    - "Barbarian: Brutal Strike"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max HP increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 16 to 17"
     - "Number of Rages increases from 5 to 6"
   # 18th Level
   - features:
@@ -133,21 +127,18 @@ Barbarian:
     improvements:
     - "Gain a d12 Hit Die"
     - "Max HP increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 17 to 18"
   # 19th Level
   - features:
     - "Barbarian: Ability Score Improvement"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max HP increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 18 to 19"
   # 20th Level
   - features:
     - "Barbarian: Primal Champion"
     improvements:
     - "Gain a d12 Hit Die"
     - "Max HP increase by 7 + CON mod"
-    - "Brutal Critical damage increases from 19 to 20"
 
 Bard:
   #  1st Level
@@ -565,6 +556,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–2 (total of 6)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 3) if not Circle of the Moon"
   #  4th Level
   - features:
     - "Druid: Ability Score Improvement"
@@ -577,6 +569,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–2 (total of 7)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 4) if not Circle of the Moon"
   #  5th Level
   - features:
     - "Druid: Wild Resurgence"
@@ -586,6 +579,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare two extra spells of level 1–3 (total of 9)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 5) if not Circle of the Moon"
   #  6th Level
   - features:
     - "Druid: Druid Subclass"
@@ -596,6 +590,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–3 (total of 10)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 6) if not Circle of the Moon"
   #  7th Level
   - features:
     - "Druid: Elemental Fury"
@@ -606,6 +601,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–4 (total of 11)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 7) if not Circle of the Moon"
   #  8th Level
   - features:
     - "Druid: Ability Score Improvement"
@@ -618,6 +614,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–4 (total of 12)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 8) if not Circle of the Moon"
   #  9th Level
   - features:
     - "Druid: Commune with Nature"
@@ -627,6 +624,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare two extra spells of level 1–5 (total of 14)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 9) if not Circle of the Moon"
   # 10th Level
   - features:
     - "Druid: Druid Subclass"
@@ -637,6 +635,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–5 (total of 15)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 10) if not Circle of the Moon"
   # 11th Level
   - features: []
     improvements:
@@ -645,6 +644,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–6 (total of 16)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 11) if not Circle of the Moon"
   # 12th Level
   - features:
     - "Druid: Ability Score Improvement"
@@ -653,6 +653,7 @@ Druid:
     - "Max HP increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 12) if not Circle of the Moon"
   # 13th Level
   - features: []
     improvements:
@@ -662,6 +663,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–7 (total of 17)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 13) if not Circle of the Moon"
   # 14th Level
   - features:
     - "Druid: Druid Subclass"
@@ -670,15 +672,17 @@ Druid:
     - "Max HP increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 14) if not Circle of the Moon"
   # 15th Level
   - features:
-    - "Druid: Improved Elemental Fury"
+    - "Druid: Elemental Fury"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–8 (total of 18)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 15) if not Circle of the Moon"
   # 16th Level
   - features:
     - "Druid: Ability Score Improvement"
@@ -687,6 +691,7 @@ Druid:
     - "Max HP increase by 5 + CON mod"
     - "Increase your level by 1 for purposes of spell slots"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 16) if not Circle of the Moon"
   # 17th Level
   - features: []
     improvements:
@@ -696,6 +701,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–9 (total of 19)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 17) if not Circle of the Moon"
   # 18th Level
   - features:
     - "Druid: Beast Spells"
@@ -706,6 +712,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–9 (total of 20)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 18) if not Circle of the Moon"
   # 19th Level
   - features:
     - "Druid: Ability Score Improvement"
@@ -715,6 +722,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–9 (total of 21)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 19) if not Circle of the Moon"
   # 20th Level
   - features:
     - "Druid: Archdruid"
@@ -724,6 +732,7 @@ Druid:
     - "Increase your level by 1 for purposes of spell slots"
     - "Prepare one extra spell of level 1–9 (total of 22)"
     - "OPTIONAL: Swap one cantrip for another"
+    - "Temp HP from using Wild Shape increases by 1 (total of 20) if not Circle of the Moon"
 
 Fighter:
   #  1st Level
@@ -915,25 +924,26 @@ Monk:
   - features:
     - "Monk: Martial Arts"
     - "Monk: Unarmored Defense"
-    - "Monk: Weapon Mastery"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
   #  2nd Level
   - features:
-    - "Monk: Martial Discipline"
+    - "Monk: Monk's Discipline"
+    - "Monk: Uncanny Metabolism"
     - "Monk: Unarmored Movement"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
   #  3rd Level
   - features:
-    - "Monk: Deflect Missiles"
+    - "Monk: Deflect Attacks"
     - "Monk: Monk Subclass"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 2 to 3"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d6 + 3)"
   #  4th Level
   - features:
     - "Monk: Ability Score Improvement"
@@ -942,7 +952,8 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 3 to 4"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 4)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d6 + 4)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 4)"
   #  5th Level
   - features:
     - "Monk: Extra Attack"
@@ -950,10 +961,11 @@ Monk:
     improvements:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
-    - "Number of Di Points increases from 4 to 5"
-    - "Deflect Missiles damage reduction increases by 1 (total of 1d10 + DEX mod + 5)"
-    - "Slow Fall damage reduction increases by 5 (total of 25)"
     - "Martial Arts die increases from 1d6 to 1d8"
+    - "Number of Di Points increases from 4 to 5"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d8 + 5)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 5)"
+    - "Slow Fall damage reduction increases by 5 (total of 25)"
   #  6th Level
   - features:
     - "Monk: Empowered Strikes"
@@ -962,17 +974,19 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 5 to 6"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 6)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d8 + 6)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 6)"
     - "Slow Fall damage reduction increases by 5 (total of 30)"
+    - "Unarmored Movement bonus increases by 5 ft. (total of +15 ft.)"
   #  7th Level
   - features:
     - "Monk: Evasion"
-    - "Monk: Heightened Metabolism"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 6 to 7"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 7)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d8 + 7)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 7)"
     - "Slow Fall damage reduction increases by 5 (total of 35)"
   #  8th Level
   - features:
@@ -981,7 +995,8 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 7 to 8"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 8)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d8 + 8)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 8)"
     - "Slow Fall damage reduction increases by 5 (total of 40)"
   #  9th Level
   - features:
@@ -990,27 +1005,32 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 8 to 9"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 9)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d8 + 9)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 9)"
     - "Slow Fall damage reduction increases by 5 (total of 45)"
   # 10th Level
   - features:
+    - "Monk: Heightened Discipline"
     - "Monk: Self-Restoration"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 9 to 10"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 10)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d8 + 10)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 10)"
     - "Slow Fall damage reduction increases by 5 (total of 50)"
+    - "Unarmored Movement bonus increases by 5 ft. (total of +20 ft.)"
   # 11th Level
   - features:
     - "Monk: Monk Subclass"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
-    - "Number of Di Points increases from 10 to 11"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 11)"
-    - "Slow Fall damage reduction increases by 5 (total of 55)"
     - "Martial Arts die increases from 1d8 to 1d10"
+    - "Number of Di Points increases from 10 to 11"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d10 + 11)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 11)"
+    - "Slow Fall damage reduction increases by 5 (total of 55)"
   # 12th Level
   - features:
     - "Monk: Ability Score Improvement"
@@ -1018,7 +1038,8 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 11 to 12"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 12)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d10 + 12)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 12)"
     - "Slow Fall damage reduction increases by 5 (total of 60)"
   # 13th Level
   - features:
@@ -1027,7 +1048,8 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 12 to 13"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 13)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d10 + 13)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 13)"
     - "Slow Fall damage reduction increases by 5 (total of 65)"
   # 14th Level
   - features:
@@ -1036,8 +1058,10 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 13 to 14"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 14)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d10 + 14)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 14)"
     - "Slow Fall damage reduction increases by 5 (total of 70)"
+    - "Unarmored Movement bonus increases by 5 ft. (total of +25 ft.)"
   # 15th Level
   - features:
     - "Monk: Perfect Discipline"
@@ -1045,7 +1069,8 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 14 to 15"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 15)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d10 + 15)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 15)"
     - "Slow Fall damage reduction increases by 5 (total of 75)"
   # 16th Level
   - features:
@@ -1054,7 +1079,8 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 15 to 16"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 16)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d10 + 16)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 16)"
     - "Slow Fall damage reduction increases by 5 (total of 80)"
   # 17th Level
   - features:
@@ -1062,10 +1088,11 @@ Monk:
     improvements:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
-    - "Number of Di Points increases from 16 to 17"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 17)"
-    - "Slow Fall damage reduction increases by 5 (total of 85)"
     - "Martial Arts die increases from 1d10 to 1d12"
+    - "Number of Di Points increases from 16 to 17"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d12 + 17)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 17)"
+    - "Slow Fall damage reduction increases by 5 (total of 85)"
   # 18th Level
   - features:
     - "Monk: Superior Defense"
@@ -1073,8 +1100,10 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 17 to 18"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 18)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d12 + 18)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 18)"
     - "Slow Fall damage reduction increases by 5 (total of 90)"
+    - "Unarmored Movement bonus increases by 5 ft. (total of +30 ft.)"
   # 19th Level
   - features:
     - "Monk: Ability Score Improvement"
@@ -1082,16 +1111,18 @@ Monk:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 18 to 19"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 19)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d12 + 19)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 19)"
     - "Slow Fall damage reduction increases by 5 (total of 95)"
   # 20th Level
   - features:
-    - "Monk: Defy Death"
+    - "Monk: Body and Mind"
     improvements:
     - "Gain a d8 Hit Die"
     - "Max HP increase by 5 + CON mod"
     - "Number of Di Points increases from 19 to 20"
-    - "Deflect Missiles reduction increases by 1 (total of 1d10 + DEX mod + 20)"
+    - "Uncanny Metabolism healing increases by 1 (total of 1d12 + 20)"
+    - "Deflect Attacks damage reduction increases by 1 (total of 1d10 + DEX mod + 20)"
     - "Slow Fall damage reduction increases by 5 (total of 100)"
 
 Paladin:

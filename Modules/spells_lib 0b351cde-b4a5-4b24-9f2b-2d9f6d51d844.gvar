@@ -23,7 +23,7 @@
 #     Finds a matching spell name, first a limited search through `known_spells`
 #     and failing that a search through all recognized spells.
 #
-# get_spell_level(spell_name): Returns a spell's level.
+# get_spell_level(spell_name, version = "UA"): Returns a spell's level.
 #
 # get_spell_school(spell_name, version = "UA"): Returns a spell's school.
 #
@@ -34,6 +34,7 @@
 # ===== Constants =====
 #
 # SPELL_LEVELS: A dict of spell name -> spell level
+# LEVELS_2014: A dict of spell name -> level in 2014 rules
 # SPELL_SCHOOLS: A dict of spell school -> list of spell names
 # SCHOOLS_2014: A dict of spell name -> school in 2014 rules
 # RITUAL_SPELLS: A list of ritual spells
@@ -43,6 +44,7 @@ using(
 )
 
 SPELL_LEVELS  = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
+LEVELS_2014   = load_yaml(get_gvar("62a67979-786c-45e4-836e-2a3c417bc1bc"))
 SPELL_SCHOOLS = load_yaml(get_gvar("5a794008-0adc-41c2-9de5-7fb7a9ff7f67"))
 SCHOOLS_2014  = load_yaml(get_gvar("c2472a43-15fc-44da-9e54-bf32f0c7af90"))
 RITUAL_SPELLS = load_yaml(get_gvar("9b015cdc-45e0-4bc6-8574-f0c3f96e6015"))
@@ -72,14 +74,18 @@ def get_matching_spell_name(search, known_spells = [x.name for x in character().
             err(f'`{search}` matched multiple spells. Did you mean {"? ".join(matches[:3])}?')
 
 
-def get_spell_level(spell_name):
+def get_spell_level(spell_name, version = "UA"):
     """
     Returns a spell's level.
     :arg str spell_name: the exact name of the spell.
+    :kwarg str version: the schools of some spells changed in the playtest. Specify `version = 2014` to use the original schools.
     :return: the level of the spell, or `None` if not known.
     :rtype: int|None
     """
-    return SPELL_LEVELS.get(spell_name)
+    if version in (2014, "published"):
+        return LEVELS_2014.get(spell_name, SPELL_LEVELS.get(spell_name))
+    else:
+        return SPELL_LEVELS.get(spell_name)
 
 
 def get_spell_school(spell_name, version = "UA"):
@@ -90,7 +96,7 @@ def get_spell_school(spell_name, version = "UA"):
     :return: the school of the spell, or `None` if not known.
     :rtype: str|None
     """
-    if version == 2014:
+    if version in (2014, "published"):
         return SCHOOLS_2014.get(spell_name, get_spell_school(spell_name))
     else:
         for school, school_spells in SPELL_SCHOOLS.items():

@@ -4,51 +4,51 @@
 
 "Monk: Martial Arts":
   title: "Monk Level 1: Martial Arts"
-  desc: "Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Simple Weapons.\n\nYou gain the following benefits while you are unarmed or wielding only simple weapons and you aren't wearing armor or wielding a shield:\n\n**Bonus Unarmed Strike**. When you use the Attack action with an Unarmed Strike or a Simple Weapon on your turn, you can make one Unarmed Strike as a Bonus Action on the same turn.\n\n**Dexterous Attacks**. You can use Dexterity instead of Strength for the attack and damage rolls of your Unarmed Strikes and Simple Weapons, except those that have the Two-Handed property.\n\n**Martial Arts Die**. You can roll a d6 in place of the normal damage of your Unarmed Strike. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table."
+  desc: "Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk Weapons, which are the following:\n- Simple Melee Weapons\n- Martial Weapons that have the Light property\n\nYou gain the following benefits while you are unarmed or wielding only Monk Weapons and you aren't wearing armor or wielding a Shield:\n\n**Bonus Unarmed Strike**. You can make one Unarmed Strike as a Bonus Action.\n\n**Dexterous Attacks**. You can use Dexterity instead of Strength for the attack and damage rolls of your Unarmed Strikes and Monk Weapons. In addition, when you choose the Grapple or Shove option, you can use your Dexterity modifier instead of Strength to determine the saving throw DC.\n\n**Martial Arts Die**. You can roll a d6 in place of the normal damage of your Unarmed Strike or Monk Weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk table."
   fields:
   - title: "Monk Table: Martial Arts"
-    body: "```\n| Level | Martial Arts\n|-------+-------------\n| 1st   |     1d6\n| 2nd   |     1d6\n| 3rd   |     1d6\n| 4th   |     1d6\n| 5th   |     1d8\n| 6th   |     1d8\n| 7th   |     1d8\n| 8th   |     1d8\n| 9th   |     1d8\n| 10th  |     1d8\n| 11th  |    1d10\n| 12th  |    1d10\n| 13th  |    1d10\n| 14th  |    1d10\n| 15th  |    1d10\n| 16th  |    1d10\n| 17th  |    1d12\n| 18th  |    1d12\n| 19th  |    1d12\n| 20th  |    1d12\n```"
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+    body: "```\n| Level | Martial Arts\n|-------+-------------\n|   1   |     1d6\n|   2   |     1d6\n|   3   |     1d6\n|   4   |     1d6\n|   5   |     1d8\n|   6   |     1d8\n|   7   |     1d8\n|   8   |     1d8\n|   9   |     1d8\n|  10   |     1d8\n|  11   |    1d10\n|  12   |    1d10\n|  13   |    1d10\n|  14   |    1d10\n|  15   |    1d10\n|  16   |    1d10\n|  17   |    1d12\n|  18   |    1d12\n|  19   |    1d12\n|  20   |    1d12\n```"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Unarmored Defense":
   title: "Monk Level 1: Unarmored Defense"
-  desc: "While you aren't wearing any armor or wielding a shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers."
+  desc: "While you aren't wearing any armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
-"Monk: Weapon Mastery":
-  title: "Monk Level 1: Weapon Mastery"
-  desc: "Your training with weapons allows you to use the Mastery property of two kinds of simple weapons of your choice, such as Daggers and Spears.\n\nWhenever you finish a Long Rest, you can change the kinds of simple weapons you chose. For example, you could switch to using the Mastery properties of Maces and Slings."
-  fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
-
-"Monk: Martial Discipline":
-  title: "Monk Level 2: Martial Discipline"
-  desc: "Your self-discipline and martial training allow you to harness a well of extraordinary energy within yourself. Your access to this energy is represented by a number of Discipline Points. Your Monk level determines the number of points you have, as shown in the Discipline Points column of the Monk table.\n\nYou can spend these points to fuel various Martial Discipline features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more Martial Discipline features as you gain levels in this class.\n\nWhen you spend a Discipline Point, it is unavailable until you finish a Short Rest or Long Rest, at the end of which you regain all your expended points.\n\nSome of your Martial Discipline features require your target to make a saving throw to resist the feature's effects. The saving throw DC equals 8 plus your Proficiency Bonus plus your Wisdom modifier."
+"Monk: Monk's Discipline":
+  title: "Monk Level 2: Monk's Discipline"
+  desc: "Your self-discipline and martial training allow you to harness a well of extraordinary energy within yourself. Your access to this energy is represented by a number of Discipline Points. Your Monk level determines the number of points you have, as shown in the Discipline Points column of the Monk table.\n\nYou can spend these points to fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.\n\nWhen you spend a Discipline Point, it is unavailable until you finish a Short Rest or Long Rest, at the end of which you regain all your expended points.\n\nSome features that use Discipline Points require your target to make a saving throw. The saving throw DC equals 8 plus your Proficiency Bonus plus your Wisdom modifier."
   fields:
   - title: "Flurry of Blows"
-    body: "Immediately after you take the Attack action on your turn, you can spend 1 Discipline Point to make two Unarmed Strikes as a Bonus Action."
+    body: "You can spend 1 Discipline Point to make two Unarmed Strikes as a Bonus Action."
   - title: "Patient Defense"
-    body: "You can spend 1 Discipline Point to take the Dodge action as a Bonus Action."
+    body: "You can take the Disengage action as a Bonus Action. Alternatively, you can spend 1 Discipline Point to take both the Disengage and the Dodge actions as a Bonus Action."
   - title: "Step of the Wind"
-    body: "You can spend 1 Discipline Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn."
+    body: "You can take the Dash action as a Bonus Action. Alternatively, you can spend 1 Discipline Point to take both the Disengage and Dash actions as a Bonus Action, and your jump distance is doubled for the turn."
   - title: "Monk Table: Discipline Points"
-    body: "```\n| Level | Di Points\n|-------+----------\n|  1st  |     —\n|  2nd  |     2\n|  3rd  |     3\n|  4th  |     4\n|  5th  |     5\n|  6th  |     6\n|  7th  |     7\n|  8th  |     8\n|  9th  |     9\n| 10th  |    10\n| 11th  |    11\n| 12th  |    12\n| 13th  |    13\n| 14th  |    14\n| 15th  |    15\n| 16th  |    16\n| 17th  |    17\n| 18th  |    18\n| 19th  |    19\n| 20th  |    20\n```"
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+    body: "```\n| Level | Di Points\n|-------+----------\n|    1  |     —\n|    2  |     2\n|    3  |     3\n|    4  |     4\n|    5  |     5\n|    6  |     6\n|    7  |     7\n|    8  |     8\n|    9  |     9\n|   10  |    10\n|   11  |    11\n|   12  |    12\n|   13  |    13\n|   14  |    14\n|   15  |    15\n|   16  |    16\n|   17  |    17\n|   18  |    18\n|   19  |    19\n|   20  |    20\n```"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Unarmored Movement":
   title: "Monk Level 2: Unarmored Movement"
-  desc: "Your Speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown in the Monk table."
+  desc: "Your speed increases by 10 feet while you aren't wearing armor or wielding a Shield. This bonus increases when you reach certain Monk levels, as shown on the Monk table."
   fields:
   - title: "Monk Table: Unarmored Movement"
-    body: "```\n|       | Unarmored\n| Level | Movement\n|-------+-----------\n|  1st  |     —\n|  2nd  |  +10 ft.\n|  3rd  |  +10 ft.\n|  4th  |  +10 ft.\n|  5th  |  +10 ft.\n|  6th  |  +15 ft.\n|  7th  |  +15 ft.\n|  8th  |  +15 ft.\n|  9th  |  +15 ft.\n| 10th  |  +20 ft.\n| 11th  |  +20 ft.\n| 12th  |  +20 ft.\n| 13th  |  +20 ft.\n| 14th  |  +25 ft.\n| 15th  |  +25 ft.\n| 16th  |  +25 ft.\n| 17th  |  +25 ft.\n| 18th  |  +30 ft.\n| 19th  |  +30 ft.\n| 20th  |  +30 ft.\n```"
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+    body: "```\n|       | Unarmored\n| Level | Movement\n|-------+-----------\n|    1  |     —\n|    2  |  +10 ft.\n|    3  |  +10 ft.\n|    4  |  +10 ft.\n|    5  |  +10 ft.\n|    6  |  +15 ft.\n|    7  |  +15 ft.\n|    8  |  +15 ft.\n|    9  |  +15 ft.\n|   10  |  +20 ft.\n|   11  |  +20 ft.\n|   12  |  +20 ft.\n|   13  |  +20 ft.\n|   14  |  +25 ft.\n|   15  |  +25 ft.\n|   16  |  +25 ft.\n|   17  |  +25 ft.\n|   18  |  +30 ft.\n|   19  |  +30 ft.\n|   20  |  +30 ft.\n```"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
-"Monk: Deflect Missiles":
-  title: "Monk Level 3: Deflect Missiles"
-  desc: "You can use your Reaction to deflect ranged attacks against you that deal Bludgeoning, Piercing, or Slashing damage. When you do so, the damage you take from the attack is reduced by 1d10 plus your Dexterity modifier plus your Monk level.\n\nIf you reduce the damage to 0, you can spend 1 Discipline Point to redirect the attack toward another creature. If you do so, choose a creature within 60 feet of yourself that isn't behind Total Cover. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die. The damage is the same type dealt by the attack."
+"Monk: Uncanny Metabolism":
+  title: "Monk Level 2: Uncanny Metabolism"
+  desc: "When you roll Initiative, you can regain all expended Discipline Points. When you do so, roll your Martial Arts die, and regain a number of Hit Points equal to your Monk level plus the number rolled.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
+
+"Monk: Deflect Attacks":
+  title: "Monk Level 3: Deflect Attacks"
+  desc: "You can use your Reaction to deflect melee and ranged attacks against you that deal Bludgeoning, Piercing, or Slashing damage. When you do so, the total damage you take from the attack is reduced by 1d10 plus your Dexterity modifier plus your Monk level.\n\nIf you reduce the damage to 0, you can spend 1 Discipline Point to redirect some of the attack's force. If you do so, choose a creature within 5 feet of you if the attack was a melee attack or 60 feet of yourself that isn't behind Total Cover if the attack was a ranged attack. That creature must succeed on a Dexterity saving throw or take damage equal to two rolls of your Martial Arts die plus your Dexterity modifier. The damage is the same type dealt by the attack."
+  fields:
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Monk Subclass":
   title: "Monk Level 3: Monk Subclass"
@@ -56,93 +56,97 @@
   fields:
   - title: "At Levels 6, 11, and 17"
     body: "You gain a feature from your Monk subclass."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Ability Score Improvement":
   title: "Monk Level 4: Ability Score Improvement"
-  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
+  desc: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify.\n\nAs shown on the Monk table, you gain this feature again at levels 8, 12, 16, and 19."
   fields:
-  - title: "At Levels 8, 12, 16, and 19"
-    body: "You gain the Ability Score Improvement feat or another feat of your choice for which you qualify."
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Slow Fall":
   title: "Monk Level 4: Slow Fall"
   desc: "You can use your Reaction when you fall to reduce any damage you take from the fall by an amount equal to five times your Monk level."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Extra Attack":
   title: "Monk Level 5: Extra Attack"
   desc: "You can attack twice, instead of once, whenever you take the Attack action on your turn."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Stunning Strike":
   title: "Monk Level 5: Stunning Strike"
-  desc: "Once per turn when you hit a creature with a Simple Weapon or an Unarmed Strike, you can spend 1 Discipline Point to attempt a stunning strike. The target must succeed on a Constitution saving throw or have the Stunned condition until the start of your next turn."
+  desc: "Once per turn when you hit a creature with a Monk Weapon or an Unarmed Strike, you can spend 1 Discipline Point to attempt a stunning strike. The target must make a Constitution saving throw. On a failed save, the target has the Stunned condition until the start of your next turn. On a successful save, the target takes Force damage equal to a roll of your Martial Arts die plus your Wisdom modifier."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Empowered Strikes":
   title: "Monk Level 6: Empowered Strikes"
   desc: "Whenever you deal damage with your Unarmed Strike, it can deal your choice of Force damage or its normal damage type."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Evasion":
   title: "Monk Level 7: Evasion"
   desc: "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.\n\nYou don't benefit from this feature if you have the Incapacitated condition."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
-
-"Monk: Heightened Metabolism":
-  title: "Monk Level 7: Heightened Metabolism"
-  desc: "If you spend at least 1 minute resting, you can give yourself all the benefits of a Short Rest. Once you use this feature, you can't use it again until you finish a Long Rest."
-  fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Acrobatic Movement":
   title: "Monk Level 9: Acrobatic Movement"
   desc: "While you aren't wearing armor or wielding a Shield, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the movement."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
+
+"Monk: Heightened Discipline":
+  title: "Monk Level 10: Heightened Discipline"
+  desc: "Your training has pushed your body and mind to new levels. Your Flurry of Blows, Patient Defense, and Step of the Wind gain the following benefits:"
+  fields:
+  - title: "Flurry of Blows"
+    body: "You can spend 1 Discipline Point to use Flurry of Blows and make three Unarmed Strikes with it instead of two."
+  - title: "Patient Defense"
+    body: "When you spend a Discipline Point to use Patient Defense, you gain a number of Temporary Hit Points equal to two rolls of your Martial Arts die."
+  - title: "Step of the Wind"
+    body: "When you spend a Discipline Point to use Step of the Wind, you can choose a willing creature within 5 feet of you that is Large or smaller. You move the creature with you until the end of your turn. The creature's movement doesn't provoke Opportunity Attacks."
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Self-Restoration":
   title: "Monk Level 10: Self-Restoration"
-  desc: "Through sheer force of will, you can use a Bonus Action to remove one of the following conditions from yourself: Charmed, Frightened, or Poisoned.\n\nIn addition, forgoing food and drink doesn't give you levels of Exhaustion."
+  desc: "Through sheer force of will, you can remove one of the following conditions from yourself at the end of each of your turns: Charmed, Frightened, or Poisoned.\n\nIn addition, forgoing food and drink doesn't give you levels of Exhaustion."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Deflect Energy":
   title: "Monk Level 13: Deflect Energy"
-  desc: "You can now use your Deflect Missiles feature against ranged attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing."
+  desc: "You can now use your Deflect Attacks feature against attacks that deal any damage type, not just Bludgeoning, Piercing, or Slashing."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Disciplined Survivor":
   title: "Monk Level 14: Disciplined Survivor"
   desc: "Your physical and mental discipline grant you proficiency in all saving throws.\n\nAdditionally, whenever you make a saving throw and fail, you can spend 1 Discipline Point to reroll it and take the second result."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Perfect Discipline":
   title: "Monk Level 15: Perfect Discipline"
-  desc: "When you roll Initiative, you regain 4 expended Discipline Points if you have none remaining."
+  desc: "When you roll Initiative and have 3 Discipline Points or fewer, you regain expended Discipline Points until you have 4."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Monk: Superior Defense":
   title: "Monk Level 18: Superior Defense"
-  desc: "As a Bonus Action, you can spend 3 Discipline Points to perfectly bolster yourself against harm for 1 minute or until you are Incapacitated.\n\nDuring that time, you have resistance to all damage except Force damage."
+  desc: "At the start of your turn, you can spend 3 Discipline Points to perfectly bolster yourself against harm for 1 minute or until you have the Incapacitated condition. During that time, you have resistance to all damage except Force damage."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
-"Monk: Defy Death":
-  title: "Monk Level 20: Defy Death"
-  desc: "If you drop to 0 Hit Points, you can spend 4 Discipline Points, roll four Martial Arts dice, and add the dice together. Your number of Hit Points instead changes to the total rolled.\n\nEach time you use this feature after the first, the Discipline Point cost increases by 2. When you finish a Short Rest or Long Rest, the Discipline Point cost resets to 4."
+"Monk: Body and Mind":
+  title: "Monk Level 20: Body and Mind"
+  desc: "You have honed your body and mind to new heights. Your Dexterity and Wisdom scores increase by 4. Your maximum for those scores is now 26."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 
 # =========================================
@@ -209,24 +213,24 @@
 
 "Warrior of the Hand: Open Hand Technique":
   title: "Warrior of the Hand Level 3: Open Hand Technique"
-  desc: "Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:\n\n**Addle**. The target must succeed on a Constitution saving throw, or it can't take Reactions until the end of your next turn.\n\n**Push**. The target must succeed on a Strength saving throw, or you push it up to 15 feet away from yourself.\n\n**Topple**. The target must succeed on a Dexterity saving throw, or it has the Prone condition."
+  desc: "Whenever you hit a creature with an attack granted by your Flurry of Blows, you can impose one of the following effects on that target:\n\n**Addle**. The target can't make Opportunity Attacks until the start of its next turn.\n\n**Push**. The target must succeed on a Strength saving throw, or you push it up to 15 feet away from yourself.\n\n**Topple**. The target must succeed on a Dexterity saving throw, or it has the Prone condition."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Warrior of the Hand: Wholeness of Body":
   title: "Warrior of the Hand Level 6: Wholeness of Body"
-  desc: "You gain the ability to heal yourself. As a Bonus Action, you can spend 1 Discipline Point and roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
+  desc: "You gain the ability to heal yourself. As a Bonus Action, you can roll your Martial Arts die. You regain a number of Hit Points equal to the number rolled plus your Wisdom modifier (minimum of 1 Hit Point regained).\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Warrior of the Hand: Fleet Step":
   title: "Warrior of the Hand Level 11: Fleet Step"
-  desc: "You can easily stride out of harm's way; you can use the Step of the Wind option of your Martial Discipline feature without spending any Discipline Points."
+  desc: "You can easily stride out of harm's way. When you take a Bonus Action other than Step of the Wind, you can also use Step of the Wind as part of that Bonus Action."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"
 
 "Warrior of the Hand: Quivering Palm":
   title: "Warrior of the Hand Level 17: Quivering Palm"
-  desc: "You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an Unarmed Strike, you can spend 3 Discipline Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the target must make a Constitution saving throw, taking 10d12 + your Monk level of Force damage on a failed save or half as much damage on a successful one.\n\nYou can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly without using an action."
+  desc: "You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an Unarmed Strike, you can spend 4 Discipline Points to start these imperceptible vibrations, which last for a number of days equal to your Monk level. The vibrations are harmless unless you use your action to end them. Alternatively, when you take the Attack action on your turn, you can replace one of the attacks with this action. To use this action, you and the target must be on the same plane of existence. When you use this action, the target must make a Constitution saving throw, taking 10d12 Force damage on a failed save or half as much damage on a successful one.\n\nYou can have only one creature under the effect of this feature at a time. You can end the vibrations harmlessly without using an action."
   fields:
-  - body: "[Packet 6](https://www.dndbeyond.com/sources/ua/ph-playtest-6)"
+  - body: "[Packet 9](https://www.dndbeyond.com/sources/ua/ph-playtest-8)"

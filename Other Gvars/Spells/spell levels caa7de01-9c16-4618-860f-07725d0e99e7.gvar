@@ -93,7 +93,7 @@ Conjure Elemental: 5
 Conjure Fey: 6
 Conjure Minor Elementals: 4
 Conjure Volley: 5
-Conjure Woodland Beings: 4
+Conjure Woodland Beings: 5
 Contact Other Plane: 5
 Contagion: 5
 Contingency: 6
@@ -208,6 +208,7 @@ Forbiddance: 6
 Forcecage: 7
 Foresight: 9
 Fortune's Favor: 2
+Fount of Moonlight: 4
 Freedom of Movement: 4
 Freezing Sphere: 6
 Friends: 0
@@ -371,6 +372,7 @@ Plane Shift: 7
 Plant Growth: 3
 Poison Spray: 0
 Polymorph: 4
+Power Word Fortify: 7
 Power Word Heal: 9
 Power Word Kill: 9
 Power Word Pain: 7
@@ -461,6 +463,7 @@ Spirit Shroud: 3
 Spiritual Weapon: 2
 Spray of Cards: 2
 Staggering Smite: 4
+Starry Wisp: 0
 Steel Wind Strike: 5
 Stinking Cloud: 3
 Stone Shape: 4

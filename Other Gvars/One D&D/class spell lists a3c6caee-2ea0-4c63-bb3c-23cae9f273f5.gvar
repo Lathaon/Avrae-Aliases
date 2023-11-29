@@ -112,6 +112,7 @@ Bard:
 - Message
 - Minor Illusion
 - Prestidigitation
+- Starry Wisp
 - Thunderclap
 - True Strike
 - Vicious Mockery
@@ -202,6 +203,7 @@ Bard:
 - Compulsion
 - Confusion
 - Dimension Door
+- Fount of Moonlight
 - Freedom of Movement
 - Greater Invisibility
 - Hallucinatory Terrain
@@ -242,6 +244,7 @@ Bard:
 - Mirage Arcane
 - Mordenkainen's Magnificent Mansion
 - Mordenkainen's Sword
+- Power Word Fortify
 - Prismatic Spray
 - Project Image
 - Regenerate
@@ -373,6 +376,7 @@ Cleric:
 - Etherealness
 - Fire Storm
 - Plane Shift
+- Power Word Fortify
 - Regenerate
 - Resurrection
 - Symbol
@@ -405,6 +409,7 @@ Druid:
 - Shape Water
 - Shillelagh
 - Spare the Dying
+- Starry Wisp
 - Thorn Whip
 - Thunderclap
 - Absorb Elements
@@ -483,12 +488,12 @@ Druid:
 - Charm Monster
 - Confusion
 - Conjure Minor Elementals
-- Conjure Woodland Beings
 - Control Water
 - Divination
 - Dominate Beast
 - Elemental Bane
 - Fire Shield
+- Fount of Moonlight
 - Freedom of Movement
 - Giant Insect
 - Grasping Vine
@@ -507,6 +512,7 @@ Druid:
 - Commune with Nature
 - Cone of Cold
 - Conjure Elemental
+- Conjure Woodland Beings
 - Contagion
 - Control Winds
 - Geas
@@ -569,6 +575,7 @@ Paladin:
 - Detect Magic
 - Detect Poison and Disease
 - Divine Favor
+- Divine Smite
 - Heroism
 - Protection from Evil and Good
 - Purify Food and Drink
@@ -584,6 +591,7 @@ Paladin:
 - Magic Weapon
 - Prayer of Healing
 - Protection from Poison
+- Shining Smite
 - Warding Bond
 - Zone of Truth
 - Aura of Vitality
@@ -669,7 +677,6 @@ Ranger:
 - Water Breathing
 - Water Walk
 - Wind Wall
-- Conjure Woodland Beings
 - Dominate Beast
 - Freedom of Movement
 - Grasping Vine
@@ -679,6 +686,7 @@ Ranger:
 - Summon Elemental
 - Commune with Nature
 - Conjure Volley
+- Conjure Woodland Beings
 - Greater Restoration
 - Steel Wind Strike
 - Swift Quiver
