@@ -1,4 +1,4 @@
-# embeds = '72fea181-ba03-4cb4-8edf-1f3bc5a49578'
+# embeds = "72fea181-ba03-4cb4-8edf-1f3bc5a49578"
 #
 # A module for managing the output of aliases based on !embed, performing
 # pagination where necessary to avoid breaking Discord's limits.
@@ -58,6 +58,8 @@
 # slice_text(text, start, end): Chops a string in two. The cutoff point
 #     will be somewhere between the start and end indices.
 #
+# random_color(): Returns a random color ready for use in an embed.
+#
 # ===== Constants =====
 #
 # MAX_TOTAL_CHARACTERS = Max total number of characters in an Embed.
@@ -78,7 +80,7 @@
 #     prevent errors from Embed/Field properties being empty.
 
 using(
-    arg_lib = '0a015433-288e-441e-b0ec-1d5b905c9646'
+    arg_lib = "0a015433-288e-441e-b0ec-1d5b905c9646"
 )
 
 # Limits imposed by Discord.
@@ -361,3 +363,13 @@ def slice_text(text, start, end):
             text[:end].strip(),
             text[end:].strip()
         )
+
+
+def random_color():
+    """
+    Returns a random color ready for use in an embed.
+    In case the embed color needs to be random even when you have an active character.
+    :return: a random color in 6 digit hex string RGB format.
+    :rtype: str
+    """
+    return f"{randint(16777216):06x}"
