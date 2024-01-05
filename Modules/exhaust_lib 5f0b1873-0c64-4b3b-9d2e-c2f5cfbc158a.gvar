@@ -26,9 +26,9 @@ def set_exhaustion(value):
             ),
             initial_value = value
         ).value
-    else:
+    elif _pc.cc_exists("Exhaustion"):
         _pc.delete_cc("Exhaustion")
-        return 0
+    return 0
 
 def modify_exhaustion(delta):
     return set_exhaustion(get_exhaustion() + delta)
