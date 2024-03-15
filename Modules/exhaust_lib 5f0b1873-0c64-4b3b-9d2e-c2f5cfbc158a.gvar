@@ -12,7 +12,7 @@ def set_exhaustion(value):
         _pc.set_cvar_nx("hunger", 0)
         _pc.set_cvar_nx("thirst", 0)
         return _pc.create_cc("Exhaustion",
-            minVal = "max(0, int(hunger) - 3 - constitutionMod) + int(thirst)",
+            minVal = "min(6, max(0, int(hunger) - 3 - constitutionMod) + int(thirst))",
             maxVal = 6,
             reset = "long",
             reset_by = "-1",
