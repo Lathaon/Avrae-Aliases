@@ -126,9 +126,11 @@ Bard:
 - Comprehend Languages
 - Compulsion
 - Confusion
+- Contamination Immunity
 - Crown of Madness
 - Cure Wounds
 - Dancing Lights
+- Delerium Blast
 - Detect Magic
 - Detect Thoughts
 - Dimension Door
@@ -166,6 +168,7 @@ Bard:
 - Greater Invisibility
 - Greater Restoration
 - Guards and Wards
+- Gust Barrier
 - Hallucinatory Terrain
 - Healing Word
 - Heat Metal
@@ -207,7 +210,9 @@ Bard:
 - Mordenkainen's Sword
 - Motivational Speech
 - Nathair's Mischief
+- Neutralizing Field
 - Nondetection
+- Octarine Spray
 - Otto's Irresistible Dance
 - Phantasmal Force
 - Phantasmal Killer
@@ -224,16 +229,20 @@ Bard:
 - Programmed Illusion
 - Project Image
 - Psychic Scream
+- Purge Contamination
 - Pyrotechnics
 - Raise Dead
 - Rary's Telepathic Bond
 - Raulothim's Psychic Lance
 - Regenerate
 - Resurrection
+- Ride the Rifts
+- Sacrament of the Falling Fire
 - Scrying
 - See Invisibility
 - Seeming
 - Sending
+- Shape Plants
 - Shatter
 - Silence
 - Silent Image
@@ -248,6 +257,7 @@ Bard:
 - Spray of Cards
 - Starry Wisp
 - Stinking Cloud
+- Suffocate
 - Suggestion
 - Symbol
 - Synaptic Static
@@ -287,7 +297,9 @@ Cleric:
 - Command
 - Commune
 - Conjure Celestial
+- Consume Mind
 - Contagion
+- Contamination Immunity
 - Continual Flame
 - Control Water
 - Control Weather
@@ -306,6 +318,7 @@ Cleric:
 - Divination
 - Divine Word
 - Earthquake
+- Elevated Sight
 - Enhance Ability
 - Etherealness
 - Fast Friends
@@ -335,6 +348,7 @@ Cleric:
 - Incite Greed
 - Inflict Wounds
 - Insect Plague
+- Invoke the Amaranthine
 - Legend Lore
 - Lesser Restoration
 - Life Transference
@@ -348,6 +362,7 @@ Cleric:
 - Meld into Stone
 - Mending
 - Motivational Speech
+- Neutralizing Field
 - Planar Ally
 - Planar Binding
 - Plane Shift
@@ -357,6 +372,7 @@ Cleric:
 - Protection from Energy
 - Protection from Evil and Good
 - Protection from Poison
+- Purge Contamination
 - Purify Food and Drink
 - Raise Dead
 - Regenerate
@@ -364,10 +380,12 @@ Cleric:
 - Resistance
 - Resurrection
 - Revivify
+- Sacrament of the Falling Fire
 - Sacred Flame
 - Sanctuary
 - Scrying
 - Sending
+- Shape Plants
 - Shield of Faith
 - Silence
 - Spare the Dying
@@ -375,6 +393,7 @@ Cleric:
 - Spirit Guardians
 - Spirit Shroud
 - Spiritual Weapon
+- Stellar Bodies
 - Stone Shape
 - Summon Celestial
 - Sunbeam
@@ -390,6 +409,7 @@ Cleric:
 - Water Walk
 - Word of Radiance
 - Word of Recall
+- Wrack
 - Zone of Truth
 Druid:
 - Absorb Elements
@@ -399,6 +419,7 @@ Druid:
 - Animal Shapes
 - Antilife Shell
 - Antipathy/Sympathy
+- Arboreal Curse
 - Augury
 - Aura of Vitality
 - Awaken
@@ -417,8 +438,10 @@ Druid:
 - Conjure Elemental
 - Conjure Fey
 - Conjure Minor Elementals
+- Conjure the Deep Haze
 - Conjure Woodland Beings
 - Contagion
+- Contamination Immunity
 - Continual Flame
 - Control Flames
 - Control Water
@@ -443,11 +466,13 @@ Druid:
 - Earthquake
 - Elemental Bane
 - Elemental Weapon
+- Elevated Sight
 - Enhance Ability
 - Enlarge/Reduce
 - Entangle
 - Erupting Earth
 - Faerie Fire
+- Feathered Reach
 - Feeblemind
 - Feign Death
 - Find the Path
@@ -462,15 +487,19 @@ Druid:
 - Foresight
 - Fount of Moonlight
 - Freedom of Movement
+- Freedom of the Waves
+- Freedom of the Winds
 - Frostbite
 - Geas
 - Giant Insect
+- Globe of Twilight
 - Goodberry
 - Grasping Vine
 - Greater Restoration
 - Guardian of Nature
 - Guidance
 - Gust
+- Gust Barrier
 - Gust of Wind
 - Hallucinatory Terrain
 - Heal
@@ -479,6 +508,7 @@ Druid:
 - Heat Metal
 - Heroes' Feast
 - Hold Person
+- Hunter Sense
 - Ice Knife
 - Ice Storm
 - Incendiary Cloud
@@ -503,6 +533,7 @@ Druid:
 - Mold Earth
 - Moonbeam
 - Move Earth
+- Neutralizing Field
 - Pass without Trace
 - Planar Binding
 - Plane Shift
@@ -515,13 +546,17 @@ Druid:
 - Protection from Energy
 - Protection from Evil and Good
 - Protection from Poison
+- Purge Contamination
 - Purify Food and Drink
+- Ray of Contamination
 - Regenerate
 - Reincarnate
 - Resistance
 - Reverse Gravity
 - Revivify
+- Sacrament of the Falling Fire
 - Scrying
+- Shape Plants
 - Shape Water
 - Shapechange
 - Shillelagh
@@ -532,7 +567,9 @@ Druid:
 - Speak with Animals
 - Speak with Plants
 - Spike Growth
+- Spiny Shield
 - Starry Wisp
+- Stellar Bodies
 - Stone Shape
 - Stoneskin
 - Storm of Vengeance
@@ -552,6 +589,7 @@ Druid:
 - Tree Stride
 - True Resurrection
 - Tsunami
+- Veil of Dusk
 - Wall of Fire
 - Wall of Stone
 - Wall of Thorns
@@ -598,14 +636,17 @@ Paladin:
 - Gentle Repose
 - Heroism
 - Holy Weapon
+- Invoke the Amaranthine
 - Lesser Restoration
 - Locate Creature
 - Locate Object
 - Magic Circle
 - Magic Weapon
+- Neutralizing Field
 - Prayer of Healing
 - Protection from Evil and Good
 - Protection from Poison
+- Purge Contamination
 - Purify Food and Drink
 - Raise Dead
 - Remove Curse
@@ -625,6 +666,7 @@ Ranger:
 - Aid
 - Air Bubble
 - Alarm
+- Ambush Prey
 - Animal Friendship
 - Animal Messenger
 - Ashardalon's Stride
@@ -644,13 +686,18 @@ Ranger:
 - Detect Poison and Disease
 - Dominate Beast
 - Elemental Weapon
+- Elevated Sight
 - Enhance Ability
 - Ensnaring Strike
 - Entangle
+- Feathered Reach
 - Find Traps
 - Flame Arrows
 - Fog Cloud
 - Freedom of Movement
+- Freedom of the Waves
+- Freedom of the Winds
+- Globe of Twilight
 - Goodberry
 - Grasping Vine
 - Greater Restoration
@@ -668,11 +715,13 @@ Ranger:
 - Longstrider
 - Magic Weapon
 - Meld into Stone
+- Neutralizing Field
 - Nondetection
 - Pass without Trace
 - Plant Growth
 - Protection from Energy
 - Protection from Poison
+- Purge Contamination
 - Revivify
 - Searing Smite
 - Silence
@@ -680,6 +729,7 @@ Ranger:
 - Speak with Animals
 - Speak with Plants
 - Spike Growth
+- Spiny Shield
 - Steel Wind Strike
 - Stoneskin
 - Summon Beast
@@ -730,6 +780,9 @@ Sorcerer:
 - Comprehend Languages
 - Cone of Cold
 - Confusion
+- Conjure the Deep Haze
+- Contaminated Power
+- Contamination Immunity
 - Control Flames
 - Control Winds
 - Counterspell
@@ -742,6 +795,8 @@ Sorcerer:
 - Darkvision
 - Daylight
 - Delayed Blast Fireball
+- Delerium Blast
+- Delerium Orb
 - Demiplane
 - Detect Magic
 - Detect Thoughts
@@ -784,6 +839,9 @@ Sorcerer:
 - Flesh to Stone
 - Fly
 - Fog Cloud
+- Forced Evolution
+- Freedom of the Waves
+- Freedom of the Winds
 - Friends
 - Frostbite
 - Gaseous Form
@@ -794,8 +852,10 @@ Sorcerer:
 - Greater Invisibility
 - Green-Flame Blade
 - Gust
+- Gust Barrier
 - Gust of Wind
 - Haste
+- Heartseeker
 - Hold Monster
 - Hold Person
 - Hypnotic Pattern
@@ -821,6 +881,7 @@ Sorcerer:
 - Lightning Lure
 - Mage Armor
 - Mage Hand
+- Magic Mirror
 - Magic Missile
 - Magic Weapon
 - Major Image
@@ -840,6 +901,8 @@ Sorcerer:
 - Mold Earth
 - Move Earth
 - Nathair's Mischief
+- Neutralizing Field
+- Octarine Spray
 - Otiluke's Freezing Sphere
 - Phantasmal Force
 - Plane Shift
@@ -852,11 +915,14 @@ Sorcerer:
 - Prismatic Spray
 - Protection from Energy
 - Psychic Scream
+- Purge Contamination
 - Pyrotechnics
 - Raulothim's Psychic Lance
+- Ray of Contamination
 - Ray of Frost
 - Ray of Sickness
 - Reverse Gravity
+- Ride the Rifts
 - Rime's Binding Ice
 - Scatter
 - Scorching Ray
@@ -870,6 +936,7 @@ Sorcerer:
 - Sickening Radiance
 - Silent Image
 - Silvery Barbs
+- Siphon Contamination
 - Skill Empowerment
 - Sleep
 - Sleet Storm
@@ -877,11 +944,14 @@ Sorcerer:
 - Snilloc's Snowball Swarm
 - Sorcerous Burst
 - Spider Climb
+- Spiny Shield
 - Spirit of Death
 - Spray of Cards
+- Stellar Bodies
 - Stinking Cloud
 - Stoneskin
 - Storm Sphere
+- Suffocate
 - Suggestion
 - Summon Draconic Spirit
 - Sunbeam
@@ -910,6 +980,7 @@ Sorcerer:
 - Wall of Stone
 - Wall of Water
 - Warding Wind
+- Warp Bolt
 - Warp Sense
 - Water Breathing
 - Water Walk
@@ -940,7 +1011,11 @@ Warlock:
 - Cloud of Daggers
 - Comprehend Languages
 - Conjure Fey
+- Conjure the Deep Haze
+- Consume Mind
 - Contact Other Plane
+- Contaminated Power
+- Contamination Immunity
 - Counterspell
 - Create Bonfire
 - Create Undead
@@ -948,6 +1023,8 @@ Warlock:
 - Crown of Stars
 - Danse Macabre
 - Darkness
+- Delerium Blast
+- Delerium Orb
 - Demiplane
 - Detect Magic
 - Dimension Door
@@ -959,6 +1036,7 @@ Warlock:
 - Earthbind
 - Eldritch Blast
 - Elemental Bane
+- Elevated Sight
 - Enemies Abound
 - Enervation
 - Enthrall
@@ -973,6 +1051,7 @@ Warlock:
 - Flock of Familiars
 - Fly
 - Forcecage
+- Forced Evolution
 - Foresight
 - Friends
 - Frostbite
@@ -981,6 +1060,7 @@ Warlock:
 - Gate
 - Gate Seal
 - Glibness
+- Globe of Twilight
 - Green-Flame Blade
 - Hallucinatory Terrain
 - Hellish Rebuke
@@ -1015,6 +1095,8 @@ Warlock:
 - Mislead
 - Misty Step
 - Negative Energy Flood
+- Neutralizing Field
+- Octarine Spray
 - Planar Binding
 - Plane Shift
 - Poison Spray
@@ -1024,21 +1106,27 @@ Warlock:
 - Prestidigitation
 - Protection from Evil and Good
 - Psychic Scream
+- Purge Contamination
 - Raulothim's Psychic Lance
+- Ray of Contamination
 - Ray of Enfeeblement
 - Remove Curse
+- Ride the Rifts
+- Sacrament of the Falling Fire
 - Scatter
 - Scrying
 - Shadow Blade
 - Shadow of Moil
 - Shatter
 - Sickening Radiance
+- Siphon Contamination
 - Soul Cage
 - Speak with Animals
 - Spider Climb
 - Spirit of Death
 - Spirit Shroud
 - Spray of Cards
+- Suffocate
 - Suggestion
 - Summon Aberration
 - Summon Fey
@@ -1060,7 +1148,9 @@ Warlock:
 - True Strike
 - Unseen Servant
 - Vampiric Touch
+- Veil of Dusk
 - Wall of Light
+- Warp Bolt
 - Warp Sense
 - Weird
 - Witch Bolt
@@ -1114,7 +1204,11 @@ Wizard:
 - Confusion
 - Conjure Elemental
 - Conjure Minor Elementals
+- Conjure the Deep Haze
+- Consume Mind
 - Contact Other Plane
+- Contaminated Power
+- Contamination Immunity
 - Contingency
 - Continual Flame
 - Control Flames
@@ -1136,6 +1230,8 @@ Wizard:
 - Darkvision
 - Dawn
 - Delayed Blast Fireball
+- Delerium Blast
+- Delerium Orb
 - Demiplane
 - Detect Magic
 - Detect Thoughts
@@ -1156,6 +1252,7 @@ Wizard:
 - Earth Tremor
 - Earthbind
 - Elemental Bane
+- Elevated Sight
 - Enemies Abound
 - Enervation
 - Enhance Ability
@@ -1186,6 +1283,7 @@ Wizard:
 - Fly
 - Fog Cloud
 - Forcecage
+- Forced Evolution
 - Foresight
 - Friends
 - Frost Fingers
@@ -1205,9 +1303,11 @@ Wizard:
 - Green-Flame Blade
 - Guards and Wards
 - Gust
+- Gust Barrier
 - Gust of Wind
 - Hallucinatory Terrain
 - Haste
+- Heartseeker
 - Hold Monster
 - Hold Person
 - Hypnotic Pattern
@@ -1282,8 +1382,10 @@ Wizard:
 - Move Earth
 - Nathair's Mischief
 - Negative Energy Flood
+- Neutralizing Field
 - Nondetection
 - Nystul's Magic Aura
+- Octarine Spray
 - Otiluke's Freezing Sphere
 - Otiluke's Resilient Sphere
 - Otto's Irresistible Dance
@@ -1306,14 +1408,17 @@ Wizard:
 - Protection from Energy
 - Protection from Evil and Good
 - Psychic Scream
+- Purge Contamination
 - Pyrotechnics
 - Rary's Telepathic Bond
 - Raulothim's Psychic Lance
+- Ray of Contamination
 - Ray of Enfeeblement
 - Ray of Frost
 - Ray of Sickness
 - Remove Curse
 - Reverse Gravity
+- Ride the Rifts
 - Rime's Binding Ice
 - Rope Trick
 - Scatter
@@ -1333,6 +1438,7 @@ Wizard:
 - Silent Image
 - Silvery Barbs
 - Simulacrum
+- Siphon Contamination
 - Skill Empowerment
 - Skywrite
 - Sleep
@@ -1343,14 +1449,17 @@ Wizard:
 - Soul Cage
 - Speak with Dead
 - Spider Climb
+- Spiny Shield
 - Spirit of Death
 - Spirit Shroud
 - Spray of Cards
 - Steel Wind Strike
+- Stellar Bodies
 - Stinking Cloud
 - Stone Shape
 - Stoneskin
 - Storm Sphere
+- Suffocate
 - Suggestion
 - Summon Aberration
 - Summon Construct
@@ -1401,6 +1510,7 @@ Wizard:
 - Wall of Stone
 - Wall of Water
 - Warding Wind
+- Warp Bolt
 - Warp Sense
 - Water Breathing
 - Watery Sphere
