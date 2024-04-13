@@ -17,6 +17,7 @@ Abjuration:
 - Ceremony
 - Circle of Power
 - Contingency
+- Contamination Immunity
 - Counterspell
 - Cure Wounds
 - Death Ward
@@ -26,6 +27,7 @@ Abjuration:
 - Fizban's Platinum Shield
 - Forbiddance
 - Freedom of Movement
+- Freedom of the Winds
 - Gate Seal
 - Globe of Invulnerability
 - Glyph of Warding
@@ -44,24 +46,31 @@ Abjuration:
 - Mass Cure Wounds
 - Mass Heal
 - Mass Healing Word
+- Magic Mirror
 - Mind Blank
 - Mordenkainen's Private Sanctum
+- Neutralizing Field
 - Nondetection
 - Pass without Trace
 - Planar Binding
 - Prayer of Healing
 - Primordial Ward
 - Prismatic Wall
+- Private Sanctum
 - Protection from Energy
 - Protection from Evil and Good
 - Protection from Poison
+- Purge Contamination
 - Remove Curse
 - Resistance
+- Sacrament of the Falling Fire
 - Sanctuary
 - Shield
 - Shield of Faith
 - Snare
+- Spiny Shield
 - Symbol
+- Veil of Dusk
 - Warding Bond
 Conjuration:
 - Air Bubble
@@ -69,6 +78,7 @@ Conjuration:
 - Arms of Hadar
 - Banishing Smite
 - Banishment
+- Black Tentacles
 - Blade of Disaster
 - Call Lightning
 - Cloud of Daggers
@@ -79,6 +89,7 @@ Conjuration:
 - Conjure Elemental
 - Conjure Fey
 - Conjure Minor Elementals
+- Conjure the Deep Haze
 - Conjure Volley
 - Conjure Woodland Beings
 - Create Bonfire
@@ -91,15 +102,19 @@ Conjuration:
 - Ensnaring Strike
 - Entangle
 - Evard's Black Tentacles
+- Faithful Hound
 - Far Step
 - Find Familiar
 - Find Greater Steed
 - Find Steed
+- Floating Disk
 - Flock of Familiars
 - Fog Cloud
+- Freedom of the Waves
 - Galder's Speedy Courier
 - Galder's Tower
 - Gate
+- Globe of Twilight
 - Grasping Vine
 - Grease
 - Guardian of Faith
@@ -112,8 +127,10 @@ Conjuration:
 - Infernal Calling
 - Infestation
 - Insect Plague
+- Instant Summons
 - Leomund's Secret Chest
 - Mage Hand
+- Magnificent Mansion
 - Maze
 - Mighty Fortress
 - Misty Step
@@ -123,13 +140,16 @@ Conjuration:
 - Plane Shift
 - Produce Flame
 - Reality Break
+- Ride the Rifts
 - Scatter
+- Secret Chest
 - Sleet Storm
 - Spirit Guardians
 - Spray of Cards
 - Steel Wind Strike
 - Stinking Cloud
 - Storm of Vengeance
+- Suffocate
 - Summon Aberration
 - Summon Beast
 - Summon Celestial
@@ -175,14 +195,17 @@ Divination:
 - Detect Poison and Disease
 - Detect Thoughts
 - Divination
+- Elevated Sight
 - Find the Path
 - Find Traps
 - Foresight
 - Fortune's Favor
 - Gift of Alacrity
 - Guidance
+- Hunter Sense
 - Hunter's Mark
 - Identify
+- Invoke the Amaranthine
 - Legend Lore
 - Locate Animals or Plants
 - Locate Creature
@@ -193,6 +216,7 @@ Divination:
 - See Invisibility
 - Sending
 - Speak with Animals
+- Telepathic Bond
 - Telepathy
 - Tongues
 - True Seeing
@@ -229,6 +253,7 @@ Enchantment:
 - Glibness
 - Heroism
 - Hex
+- Hideous Laughter
 - Hold Monster
 - Hold Person
 - Incite Greed
@@ -255,13 +280,16 @@ Enchantment:
 - Vicious Mockery
 - Zone of Truth
 Evocation:
+- Acid Arrow
 - Acid Splash
 - Aganazzar's Scorcher
 - Arcane Eruption
+- Arcane Hand
 - Bigby's Hand
 - Blade Barrier
 - Blinding Smite
 - Booming Blade
+- Branding Smite
 - Burning Hands
 - Chain Lightning
 - Chaos Bolt
@@ -274,6 +302,8 @@ Evocation:
 - Dawn
 - Daylight
 - Delayed Blast Fireball
+- Delerium Blast
+- Delerium Orb
 - Destructive Wave
 - Divine Smite
 - Divine Word
@@ -289,13 +319,16 @@ Evocation:
 - Flaming Sphere
 - Forcecage
 - Fount of Moonlight
+- Freezing Sphere
 - Frost Fingers
 - Frostbite
 - Gravity Fissure
 - Gravity Sinkhole
 - Green-Flame Blade
 - Guiding Bolt
+- Gust Barrier
 - Gust of Wind
+- Heartseeker
 - Hellish Rebuke
 - Holy Weapon
 - Ice Storm
@@ -313,12 +346,14 @@ Evocation:
 - Meteor Swarm
 - Moonbeam
 - Mordenkainen's Sword
-- Otiluke's Freezing Sphere
+- Octarine Spray
 - Otiluke's Resilient Sphere
+- Otiluke's Freezing Sphere
 - Prismatic Spray
 - Pulse Wave
 - Ravenous Void
 - Ray of Frost
+- Resilient Sphere
 - Rime's Binding Ice
 - Sacred Flame
 - Scorching Ray
@@ -330,6 +365,7 @@ Evocation:
 - Sorcerous Burst
 - Spiritual Weapon
 - Starry Wisp
+- Stellar Bodies
 - Storm Sphere
 - Sunbeam
 - Sunburst
@@ -337,6 +373,7 @@ Evocation:
 - Thunderclap
 - Thunderous Smite
 - Thunderwave
+- Tiny Hut
 - Vitriolic Sphere
 - Wall of Fire
 - Wall of Force
@@ -346,12 +383,15 @@ Evocation:
 - Wall of Stone
 - Wall of Water
 - Warding Wind
+- Warp Bolt
 - Whirlwind
 - Wind Wall
 - Witch Bolt
 - Word of Radiance
 - Wrath of Nature
 Illusion:
+- Ambush Prey
+- Arcanist's Magic Aura
 - Blur
 - Color Spray
 - Creation
@@ -396,6 +436,7 @@ Necromancy:
 - Chill Touch
 - Circle of Death
 - Clone
+- Consume Mind
 - Contagion
 - Create Undead
 - Danse Macabre
@@ -412,6 +453,7 @@ Necromancy:
 - Negative Energy Flood
 - Poison Spray
 - Raise Dead
+- Ray of Contamination
 - Ray of Enfeeblement
 - Ray of Sickness
 - Reincarnate
@@ -431,11 +473,13 @@ Necromancy:
 - True Resurrection
 - Vampiric Touch
 - Wither and Bloom
+- Wrack
 - Wrathful Smite
 Transmutation:
 - Alter Self
 - Animal Shapes
 - Animate Objects
+- Arboreal Curse
 - Ashardalon's Stride
 - Awaken
 - Barkskin
@@ -443,6 +487,7 @@ Transmutation:
 - Blink
 - Bones of the Earth
 - Catapult
+- Contaminated Power
 - Control Flames
 - Control Water
 - Control Weather
@@ -471,9 +516,11 @@ Transmutation:
 - Expeditious Retreat
 - Fabricate
 - Feather Fall
+- Feathered Reach
 - Flame Arrows
 - Flesh to Stone
 - Fly
+- Forced Evolution
 - Gaseous Form
 - Giant Insect
 - Goodberry
@@ -513,10 +560,12 @@ Transmutation:
 - Reverse Gravity
 - Rope Trick
 - Sequester
+- Shape Plants
 - Shape Water
 - Shapechange
 - Shillelagh
 - Shining Smite
+- Siphon Contamination
 - Skill Empowerment
 - Skywrite
 - Slow
