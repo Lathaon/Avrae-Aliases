@@ -2,541 +2,541 @@
 # One D&D Spells by School
 # load_yaml(get_gvar("5a794008-0adc-41c2-9de5-7fb7a9ff7f67"))
 Abjuration:
-- Blade Ward
-- Resistance
 - Absorb Elements
+- Aid
 - Alarm
+- Antilife Shell
+- Antimagic Field
+- Arcane Lock
 - Armor of Agathys
+- Aura of Life
+- Aura of Purity
+- Aura of Vitality
+- Beacon of Hope
+- Blade Ward
 - Ceremony
+- Circle of Power
+- Contingency
+- Counterspell
 - Cure Wounds
+- Death Ward
+- Dispel Evil and Good
+- Dispel Magic
+- Druid Grove
+- Fizban's Platinum Shield
+- Forbiddance
+- Freedom of Movement
+- Gate Seal
+- Globe of Invulnerability
+- Glyph of Warding
+- Greater Restoration
+- Guards and Wards
+- Hallow
+- Heal
 - Healing Word
+- Holy Aura
+- Imprisonment
+- Intellect Fortress
+- Invulnerability
+- Lesser Restoration
 - Mage Armor
+- Magic Circle
+- Mass Cure Wounds
+- Mass Heal
+- Mass Healing Word
+- Mind Blank
+- Mordenkainen's Private Sanctum
+- Nondetection
+- Pass without Trace
+- Planar Binding
+- Prayer of Healing
+- Primordial Ward
+- Prismatic Wall
+- Protection from Energy
 - Protection from Evil and Good
+- Protection from Poison
+- Remove Curse
+- Resistance
 - Sanctuary
 - Shield
 - Shield of Faith
 - Snare
-- Aid
-- Arcane Lock
-- Lesser Restoration
-- Pass without Trace
-- Prayer of Healing
-- Protection from Poison
-- Warding Bond
-- Aura of Vitality
-- Beacon of Hope
-- Counterspell
-- Dispel Magic
-- Glyph of Warding
-- Intellect Fortress
-- Magic Circle
-- Mass Healing Word
-- Nondetection
-- Protection from Energy
-- Remove Curse
-- Aura of Life
-- Aura of Purity
-- Death Ward
-- Freedom of Movement
-- Gate Seal
-- Mordenkainen's Private Sanctum
-- Antilife Shell
-- Circle of Power
-- Dispel Evil and Good
-- Greater Restoration
-- Hallow
-- Mass Cure Wounds
-- Planar Binding
-- Contingency
-- Druid Grove
-- Fizban's Platinum Shield
-- Forbiddance
-- Globe of Invulnerability
-- Guards and Wards
-- Heal
-- Primordial Ward
 - Symbol
-- Antimagic Field
-- Holy Aura
-- Mind Blank
-- Imprisonment
-- Invulnerability
-- Mass Heal
-- Prismatic Wall
+- Warding Bond
 Conjuration:
-- Create Bonfire
-- Infestation
-- Mage Hand
-- Produce Flame
-- Sword Burst
-- Arms of Hadar
-- Ensnaring Strike
-- Entangle
-- Find Familiar
-- Fog Cloud
-- Grease
-- Hail of Thorns
-- Ice Knife
-- Tenser's Floating Disk
-- Unseen Servant
 - Air Bubble
-- Cloud of Daggers
-- Dust Devil
-- Find Steed
-- Flock of Familiars
-- Healing Spirit
-- Misty Step
-- Spray of Cards
-- Summon Beast
-- Vortex Warp
-- Web
-- Wristpocket
+- Arcane Gate
+- Arms of Hadar
+- Banishing Smite
+- Banishment
+- Blade of Disaster
 - Call Lightning
+- Cloud of Daggers
+- Cloudkill
 - Conjure Animals
 - Conjure Barrage
-- Create Food and Water
-- Galder's Tower
-- Hunger of Hadar
-- Sleet Storm
-- Spirit Guardians
-- Stinking Cloud
-- Summon Fey
-- Summon Lesser Demons
-- Summon Shadowspawn
-- Thunder Step
-- Tidal Wave
-- Banishment
-- Conjure Minor Elementals
-- Dimension Door
-- Evard's Black Tentacles
-- Find Greater Steed
-- Galder's Speedy Courier
-- Grasping Vine
-- Guardian of Faith
-- Leomund's Secret Chest
-- Mordenkainen's Faithful Hound
-- Summon Aberration
-- Summon Construct
-- Summon Elemental
-- Summon Greater Demon
-- Watery Sphere
-- Banishing Smite
-- Cloudkill
+- Conjure Celestial
 - Conjure Elemental
+- Conjure Fey
+- Conjure Minor Elementals
 - Conjure Volley
 - Conjure Woodland Beings
-- Far Step
-- Infernal Calling
-- Insect Plague
-- Steel Wind Strike
-- Summon Celestial
-- Summon Draconic Spirit
-- Teleportation Circle
-- Tree Stride
-- Arcane Gate
-- Conjure Fey
-- Drawmij's Instant Summons
-- Heroes' Feast
-- Planar Ally
-- Scatter
-- Summon Fiend
-- Transport via Plants
-- Wall of Thorns
-- Word of Recall
-- Conjure Celestial
-- Dream of the Blue Veil
-- Mordenkainen's Magnificent Mansion
-- Plane Shift
-- Teleport
-- Temple of the Gods
+- Create Bonfire
+- Create Food and Water
 - Demiplane
+- Dimension Door
+- Drawmij's Instant Summons
+- Dream of the Blue Veil
+- Dust Devil
+- Ensnaring Strike
+- Entangle
+- Evard's Black Tentacles
+- Far Step
+- Find Familiar
+- Find Greater Steed
+- Find Steed
+- Flock of Familiars
+- Fog Cloud
+- Galder's Speedy Courier
+- Galder's Tower
+- Gate
+- Grasping Vine
+- Grease
+- Guardian of Faith
+- Hail of Thorns
+- Healing Spirit
+- Heroes' Feast
+- Hunger of Hadar
+- Ice Knife
 - Incendiary Cloud
+- Infernal Calling
+- Infestation
+- Insect Plague
+- Leomund's Secret Chest
+- Mage Hand
 - Maze
 - Mighty Fortress
+- Misty Step
+- Mordenkainen's Faithful Hound
+- Mordenkainen's Magnificent Mansion
+- Planar Ally
+- Plane Shift
+- Produce Flame
 - Reality Break
-- Tsunami
-- Blade of Disaster
-- Gate
+- Scatter
+- Sleet Storm
+- Spirit Guardians
+- Spray of Cards
+- Steel Wind Strike
+- Stinking Cloud
 - Storm of Vengeance
+- Summon Aberration
+- Summon Beast
+- Summon Celestial
+- Summon Construct
+- Summon Draconic Spirit
+- Summon Elemental
+- Summon Fey
+- Summon Fiend
+- Summon Greater Demon
+- Summon Lesser Demons
+- Summon Shadowspawn
+- Sword Burst
+- Teleport
+- Teleportation Circle
+- Temple of the Gods
+- Tenser's Floating Disk
+- Thunder Step
+- Tidal Wave
+- Transport via Plants
+- Tree Stride
+- Tsunami
+- Unseen Servant
+- Vortex Warp
+- Wall of Thorns
+- Watery Sphere
+- Web
 - Wish
+- Word of Recall
+- Wristpocket
 Divination:
-- Guidance
-- True Strike
+- Arcane Eye
+- Augury
 - Beast Bond
+- Beast Sense
+- Borrowed Knowledge
+- Clairvoyance
+- Commune
+- Commune with Nature
 - Comprehend Languages
+- Contact Other Plane
 - Detect Evil and Good
 - Detect Magic
 - Detect Poison and Disease
+- Detect Thoughts
+- Divination
+- Find the Path
+- Find Traps
+- Foresight
+- Fortune's Favor
 - Gift of Alacrity
+- Guidance
 - Hunter's Mark
 - Identify
-- Speak with Animals
-- Augury
-- Beast Sense
-- Borrowed Knowledge
-- Detect Thoughts
-- Find Traps
-- Fortune's Favor
+- Legend Lore
 - Locate Animals or Plants
+- Locate Creature
 - Locate Object
 - Mind Spike
-- See Invisibility
-- Warp Sense
-- Clairvoyance
-- Sending
-- Tongues
-- Arcane Eye
-- Divination
-- Locate Creature
-- Commune
-- Commune with Nature
-- Contact Other Plane
-- Legend Lore
 - Rary's Telepathic Bond
 - Scrying
-- Find the Path
-- True Seeing
+- See Invisibility
+- Sending
+- Speak with Animals
 - Telepathy
-- Foresight
+- Tongues
+- True Seeing
+- True Strike
+- Warp Sense
 Enchantment:
-- Encode Thoughts
-- Friends
-- Mind Sliver
-- Vicious Mockery
 - Animal Friendship
+- Animal Messenger
+- Antagonize
+- Antipathy/Sympathy
 - Bane
 - Bless
+- Calm Emotions
+- Catnap
+- Charm Monster
 - Charm Person
 - Command
 - Compelled Duel
-- Dissonant Whispers
-- Heroism
-- Hex
-- Silvery Barbs
-- Sleep
-- Tasha's Hideous Laughter
-- Animal Messenger
-- Calm Emotions
-- Crown of Madness
-- Enthrall
-- Gift of Gab
-- Hold Person
-- Jim's Glowing Coin
-- Suggestion
-- Tasha's Mind Whip
-- Zone of Truth
-- Antagonize
-- Catnap
-- Enemies Abound
-- Fast Friends
-- Incite Greed
-- Motivational Speech
-- Charm Monster
 - Compulsion
 - Confusion
+- Crown of Madness
+- Dissonant Whispers
 - Dominate Beast
-- Raulothim's Psychic Lance
-- Staggering Smite
+- Dominate Monster
 - Dominate Person
+- Encode Thoughts
+- Enemies Abound
+- Enthrall
+- Fast Friends
+- Feeblemind
+- Friends
 - Geas
+- Gift of Gab
+- Glibness
+- Heroism
+- Hex
 - Hold Monster
-- Modify Memory
-- Synaptic Static
+- Hold Person
+- Incite Greed
+- Jim's Glowing Coin
 - Mass Suggestion
+- Mind Sliver
+- Modify Memory
+- Motivational Speech
 - Otto's Irresistible Dance
 - Power Word Fortify
-- Power Word Pain
-- Antipathy/Sympathy
-- Dominate Monster
-- Feeblemind
-- Glibness
-- Power Word Stun
 - Power Word Heal
 - Power Word Kill
+- Power Word Pain
+- Power Word Stun
 - Psychic Scream
+- Raulothim's Psychic Lance
+- Silvery Barbs
+- Sleep
+- Staggering Smite
+- Suggestion
+- Synaptic Static
+- Tasha's Hideous Laughter
+- Tasha's Mind Whip
+- Vicious Mockery
+- Zone of Truth
 Evocation:
 - Acid Splash
+- Aganazzar's Scorcher
+- Arcane Eruption
+- Bigby's Hand
+- Blade Barrier
+- Blinding Smite
 - Booming Blade
-- Eldritch Blast
-- Fire Bolt
-- Frostbite
-- Green-Flame Blade
-- Light
-- Lightning Lure
-- Ray of Frost
-- Sacred Flame
-- Shocking Grasp
-- Sorcerous Burst
-- Starry Wisp
-- Thunderclap
-- Word of Radiance
 - Burning Hands
+- Chain Lightning
 - Chaos Bolt
 - Chromatic Orb
+- Cone of Cold
+- Continual Flame
+- Crown of Stars
+- Dark Star
+- Darkness
+- Dawn
+- Daylight
+- Delayed Blast Fireball
+- Destructive Wave
 - Divine Smite
+- Divine Word
 - Earth Tremor
+- Eldritch Blast
 - Faerie Fire
+- Fire Bolt
+- Fire Shield
+- Fire Storm
+- Fireball
+- Flame Blade
+- Flame Strike
+- Flaming Sphere
+- Forcecage
+- Fount of Moonlight
 - Frost Fingers
+- Frostbite
+- Gravity Fissure
+- Gravity Sinkhole
+- Green-Flame Blade
 - Guiding Bolt
+- Gust of Wind
 - Hellish Rebuke
+- Holy Weapon
+- Ice Storm
+- Immolation
 - Jim's Magic Missile
+- Leomund's Tiny Hut
+- Light
+- Lightning Bolt
+- Lightning Lure
+- Maddening Darkness
+- Maelstrom
 - Magic Missile
+- Melf's Acid Arrow
+- Melf's Minute Meteors
+- Meteor Swarm
+- Moonbeam
+- Mordenkainen's Sword
+- Otiluke's Freezing Sphere
+- Otiluke's Resilient Sphere
+- Prismatic Spray
+- Pulse Wave
+- Ravenous Void
+- Ray of Frost
+- Rime's Binding Ice
+- Sacred Flame
+- Scorching Ray
 - Searing Smite
+- Shatter
+- Shocking Grasp
+- Sickening Radiance
+- Snilloc's Snowball Swarm
+- Sorcerous Burst
+- Spiritual Weapon
+- Starry Wisp
+- Storm Sphere
+- Sunbeam
+- Sunburst
 - Tasha's Caustic Brew
+- Thunderclap
 - Thunderous Smite
 - Thunderwave
-- Witch Bolt
-- Aganazzar's Scorcher
-- Continual Flame
-- Darkness
-- Flame Blade
-- Flaming Sphere
-- Gust of Wind
-- Melf's Acid Arrow
-- Moonbeam
-- Rime's Binding Ice
-- Scorching Ray
-- Shatter
-- Snilloc's Snowball Swarm
-- Spiritual Weapon
-- Warding Wind
-- Blinding Smite
-- Daylight
-- Fireball
-- Leomund's Tiny Hut
-- Lightning Bolt
-- Melf's Minute Meteors
-- Pulse Wave
-- Wall of Sand
-- Wall of Water
-- Wind Wall
-- Arcane Eruption
-- Fire Shield
-- Fount of Moonlight
-- Gravity Sinkhole
-- Ice Storm
-- Otiluke's Resilient Sphere
-- Sickening Radiance
-- Storm Sphere
 - Vitriolic Sphere
 - Wall of Fire
-- Bigby's Hand
-- Cone of Cold
-- Dawn
-- Destructive Wave
-- Flame Strike
-- Holy Weapon
-- Immolation
-- Maelstrom
 - Wall of Force
-- Wall of Light
-- Wall of Stone
-- Wrath of Nature
-- Blade Barrier
-- Chain Lightning
-- Gravity Fissure
-- Otiluke's Freezing Sphere
-- Sunbeam
 - Wall of Ice
-- Crown of Stars
-- Delayed Blast Fireball
-- Divine Word
-- Fire Storm
-- Forcecage
-- Mordenkainen's Sword
-- Prismatic Spray
+- Wall of Light
+- Wall of Sand
+- Wall of Stone
+- Wall of Water
+- Warding Wind
 - Whirlwind
-- Dark Star
-- Maddening Darkness
-- Sunburst
-- Meteor Swarm
-- Ravenous Void
+- Wind Wall
+- Witch Bolt
+- Word of Radiance
+- Wrath of Nature
 Illusion:
-- Dancing Lights
-- Minor Illusion
+- Blur
 - Color Spray
+- Creation
+- Dancing Lights
 - Disguise Self
 - Distort Value
+- Dream
+- Fear
+- Greater Invisibility
+- Hallucinatory Terrain
+- Hypnotic Pattern
+- Illusory Dragon
 - Illusory Script
-- Silent Image
-- Blur
 - Invisibility
 - Magic Mouth
+- Major Image
+- Mental Prison
+- Minor Illusion
+- Mirage Arcane
 - Mirror Image
+- Mislead
 - Nathair's Mischief
 - Nystul's Magic Aura
 - Phantasmal Force
+- Phantasmal Killer
+- Phantom Steed
+- Programmed Illusion
+- Project Image
+- Seeming
 - Shadow Blade
 - Silence
-- Fear
-- Hypnotic Pattern
-- Major Image
-- Phantom Steed
-- Greater Invisibility
-- Hallucinatory Terrain
-- Phantasmal Killer
-- Creation
-- Dream
-- Mislead
-- Seeming
-- Mental Prison
-- Programmed Illusion
-- Mirage Arcane
-- Project Image
+- Silent Image
 - Simulacrum
-- Illusory Dragon
 - Weird
 Necromancy:
-- Chill Touch
-- Poison Spray
-- Sapping Sting
-- Spare the Dying
-- Toll the Dead
-- Cause Fear
-- False Life
-- Inflict Wounds
-- Ray of Sickness
-- Wrathful Smite
-- Gentle Repose
-- Ray of Enfeeblement
-- Wither and Bloom
+- Abi-Dalzim's Horrid Wilting
 - Animate Dead
+- Astral Projection
 - Bestow Curse
-- Feign Death
-- Life Transference
-- Revivify
-- Speak with Dead
-- Spirit Shroud
-- Summon Undead
-- Vampiric Touch
 - Blight
-- Shadow of Moil
-- Spirit of Death
+- Cause Fear
+- Chill Touch
+- Circle of Death
+- Clone
 - Contagion
+- Create Undead
 - Danse Macabre
 - Enervation
-- Negative Energy Flood
-- Raise Dead
-- Reincarnate
-- Circle of Death
-- Create Undead
 - Eyebite
-- Harm
-- Magic Jar
-- Soul Cage
+- False Life
+- Feign Death
 - Finger of Death
+- Gentle Repose
+- Harm
+- Inflict Wounds
+- Life Transference
+- Magic Jar
+- Negative Energy Flood
+- Poison Spray
+- Raise Dead
+- Ray of Enfeeblement
+- Ray of Sickness
+- Reincarnate
 - Resurrection
+- Revivify
+- Sapping Sting
+- Shadow of Moil
+- Soul Cage
+- Spare the Dying
+- Speak with Dead
+- Spirit of Death
+- Spirit Shroud
+- Summon Undead
 - Tether Essence
-- Abi-Dalzim's Horrid Wilting
-- Clone
-- Astral Projection
 - Time Ravage
+- Toll the Dead
 - True Resurrection
+- Vampiric Touch
+- Wither and Bloom
+- Wrathful Smite
 Transmutation:
-- Control Flames
-- Druidcraft
-- Elementalism
-- Gust
-- Magic Stone
-- Mending
-- Message
-- Mold Earth
-- Prestidigitation
-- Primal Savagery
-- Shape Water
-- Shillelagh
-- Thaumaturgy
-- Thorn Whip
-- Catapult
-- Create or Destroy Water
-- Divine Favor
-- Expeditious Retreat
-- Feather Fall
-- Goodberry
-- Jump
-- Longstrider
-- Magnify Gravity
-- Purify Food and Drink
-- Zephyr Strike
 - Alter Self
+- Animal Shapes
+- Animate Objects
+- Ashardalon's Stride
+- Awaken
 - Barkskin
 - Blindness/Deafness
+- Blink
+- Bones of the Earth
+- Catapult
+- Control Flames
+- Control Water
+- Control Weather
+- Control Winds
 - Cordon of Arrows
+- Create Homunculus
+- Create Magen
+- Create or Destroy Water
+- Create Spelljamming Helm
+- Crusader's Mantle
 - Darkvision
+- Disintegrate
+- Divine Favor
+- Draconic Transformation
 - Dragon's Breath
+- Druidcraft
 - Earthbind
+- Earthquake
+- Elemental Bane
+- Elemental Weapon
+- Elementalism
 - Enhance Ability
 - Enlarge/Reduce
-- Heat Metal
-- Immovable Object
-- Kinetic Jaunt
-- Knock
-- Levitate
-- Magic Weapon
-- Maximilian's Earthen Grasp
-- Pyrotechnics
-- Rope Trick
-- Shining Smite
-- Skywrite
-- Spider Climb
-- Spike Growth
-- Ashardalon's Stride
-- Blink
-- Crusader's Mantle
-- Elemental Weapon
 - Erupting Earth
+- Etherealness
+- Expeditious Retreat
+- Fabricate
+- Feather Fall
 - Flame Arrows
+- Flesh to Stone
 - Fly
 - Gaseous Form
-- Haste
-- Lightning Arrow
-- Meld into Stone
-- Plant Growth
-- Slow
-- Speak with Plants
-- Tiny Servant
-- Water Breathing
-- Water Walk
-- Control Water
-- Elemental Bane
-- Fabricate
 - Giant Insect
+- Goodberry
 - Guardian of Nature
-- Polymorph
-- Stone Shape
-- Stoneskin
-- Animate Objects
-- Awaken
-- Control Winds
-- Create Spelljamming Helm
-- Passwall
-- Skill Empowerment
-- Swift Quiver
-- Telekinesis
-- Temporal Shunt
-- Transmute Rock
-- Bones of the Earth
-- Create Homunculus
-- Disintegrate
-- Flesh to Stone
+- Gust
+- Haste
+- Heat Metal
+- Immovable Object
 - Investiture of Flame
 - Investiture of Ice
 - Investiture of Stone
 - Investiture of Wind
+- Jump
+- Kinetic Jaunt
+- Knock
+- Levitate
+- Lightning Arrow
+- Longstrider
+- Magic Stone
+- Magic Weapon
+- Magnify Gravity
+- Mass Polymorph
+- Maximilian's Earthen Grasp
+- Meld into Stone
+- Mending
+- Message
+- Mold Earth
 - Move Earth
-- Tasha's Otherworldly Guise
-- Tenser's Transformation
-- Wind Walk
-- Create Magen
-- Draconic Transformation
-- Etherealness
+- Passwall
+- Plant Growth
+- Polymorph
+- Prestidigitation
+- Primal Savagery
+- Purify Food and Drink
+- Pyrotechnics
 - Regenerate
 - Reverse Gravity
+- Rope Trick
 - Sequester
-- Animal Shapes
-- Control Weather
-- Earthquake
-- Mass Polymorph
+- Shape Water
 - Shapechange
+- Shillelagh
+- Shining Smite
+- Skill Empowerment
+- Skywrite
+- Slow
+- Speak with Plants
+- Spider Climb
+- Spike Growth
+- Stone Shape
+- Stoneskin
+- Swift Quiver
+- Tasha's Otherworldly Guise
+- Telekinesis
+- Temporal Shunt
+- Tenser's Transformation
+- Thaumaturgy
+- Thorn Whip
 - Time Stop
+- Tiny Servant
+- Transmute Rock
 - True Polymorph
+- Water Breathing
+- Water Walk
+- Wind Walk
+- Zephyr Strike
