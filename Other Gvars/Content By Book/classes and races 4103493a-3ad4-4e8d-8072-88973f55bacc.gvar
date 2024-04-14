@@ -565,3 +565,35 @@
     - Order of the Profane Soul
     Fighter:
     - Gunslinger
+- name: Humblewood Campaign Setting
+  races:
+    Corvum:
+    - Dusk
+    - Kindled
+    Gallus:
+    - Bright
+    - Huden
+    Luma:
+    - Sable
+    - Sera
+    Raptor:
+    - Maran
+    - Mistral
+    Strig:
+    - Stout
+    - Swift
+    Cervan:
+    - Grove
+    - Pronghorn
+    Hedge: []
+    Jerbeen: []
+    Mapach: []
+    Vulpin: []
+  classes:
+    Bard:
+    - College of the Road
+    Cleric:
+    - Community Domain
+    - Night Domain
+    Fighter:
+    - Scofflaw
