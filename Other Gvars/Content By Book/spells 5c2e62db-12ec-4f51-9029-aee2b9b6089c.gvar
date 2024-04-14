@@ -540,6 +540,11 @@
   spells:
   - Air Bubble
   - Create Spelljamming Helm
+  name: 'Planescape: Adventures in the Multiverse'
+  proper: true
+  spells:
+  - Gate Seal
+  - Warp Sense
 - name: Explorer's Guide to Wildemount
   proper: false
   spells:
