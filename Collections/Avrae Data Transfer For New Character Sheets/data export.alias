@@ -43,9 +43,14 @@ for i, cvar in enumerate(pc.cvars):
 	uvars.cvars.append(cvar)
 
 for weapon in pc.attacks:
-	export_uvar_name = f'{char_id}_w_{"".join([valid if valid.isalnum() else "_" for valid in weapon.name])}'
-	set_uvar(export_uvar_name, dump_json(weapon.raw))
-	uvars.weapons.append(export_uvar_name)
+	base_uvar_name = f'{char_id}_w_{"".join([valid if valid.isalnum() else "_" for valid in weapon.name])}'
+	automation = dump_json(weapon.raw)
+	weapon_uvars = []
+	for i in range(0, len(automation), 10000):
+		export_uvar_name = f"{base_uvar_name}_{i//10000}"
+		set_uvar(export_uvar_name, automation[i:i+10000])
+		weapon_uvars.append(export_uvar_name)
+	uvars.weapons.append(weapon_uvars[0] if len(weapon_uvars) == 1 else weapon_uvars)
 
 data_export[char_id] = dump_json(uvars)
 set_uvar('data_export', dump_json(data_export))

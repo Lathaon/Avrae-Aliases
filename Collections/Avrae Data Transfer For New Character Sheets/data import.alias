@@ -2,7 +2,7 @@ multiline
 <drac2>
 pc = character()
 
-data_export = load_json(get('data_export', '{}'))
+data_export = load_json(get_uvar('data_export', '{}'))
 
 match &ARGS&:
 	case [upstream, *args]:
@@ -26,7 +26,7 @@ uvars_to_delete = [exported_data.csettings]
 if 'nocc' not in args:
 	counters = ""
 	for uvar_name in exported_data.cc:
-		counters += get(uvar_name, "")
+		counters += get_uvar(uvar_name, "")
 		uvars_to_delete.append(uvar_name)
 	counters = load_json(counters)
 	for counter in counters:
@@ -51,7 +51,7 @@ if 'nocvars' in args:
 else:
 	for i, cvar in enumerate(exported_data.cvars):
 		uvar_name = f'{upstream}_c_{i}'
-		pc.set_cvar(cvar, get(uvar_name))
+		pc.set_cvar(cvar, get_uvar(uvar_name))
 		uvars_to_delete.append(uvar_name)
 	commands.append(f'{ctx.prefix}echo A total of {len(exported_data.cvars)} cvars have been imported!')
 
@@ -60,11 +60,15 @@ if 'noattacks' in args:
 		uvars_to_delete.append(weapon_uvar)
 else:
 	weapons_to_add = []
-	for weapon_uvar in exported_data.weapons:
-		weapon = load_json(get(weapon_uvar))
+	for weapon_uvars in exported_data.weapons:
+		if typeof(weapon_uvars) == "SafeList":
+			weapon = load_json("".join(get_uvar(weapon_uvar) for weapon_uvar in weapon_uvars))
+			uvars_to_delete.extend(weapon_uvars)
+		else:
+			weapon = load_json(get_uvar(weapon_uvars))
+			uvars_to_delete.append(weapon_uvars)
 		if not any([attack.name == weapon.name for attack in pc.attacks]):
 			weapons_to_add.append(weapon)
-		uvars_to_delete.append(weapon_uvar)
 
 	if weapons_to_add:
 		commands.append(f'{ctx.prefix}a import {dump_json(weapons_to_add)}')
@@ -75,7 +79,7 @@ if 'nospells' in args:
 else:
 	all_spells = ""
 	for uvar_name in exported_data.spells:
-		all_spells += get(uvar_name, '')
+		all_spells += get_uvar(uvar_name, '')
 		uvars_to_delete.append(uvar_name)
 	
 	all_spells = load_json(all_spells)
@@ -85,7 +89,7 @@ else:
 			commands.append(f'{ctx.prefix}sb add "{spell_name}" {all_spells[spell_name]}')
 
 if 'nocsettings' not in args:
-	for csetting_name, csetting_value in load_json(get(exported_data.csettings)).items():
+	for csetting_name, csetting_value in load_json(get_uvar(exported_data.csettings)).items():
 		if csetting_value != pc.csettings[csetting_name]:
 			if csetting_value is None:
 				commands.append(f'{ctx.prefix}csettings {csetting_name} reset')
