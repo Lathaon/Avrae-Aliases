@@ -523,6 +523,11 @@
   - Raulothim's Psychic Lance
   - Rime's Binding Ice
   - Summon Draconic Spirit
+- name: Book of Many Things
+  spells:
+  - Antagonize
+  - Spirit of Death
+  - Spray of Cards
 - name: Sword Coast Adventurer's Guide
   proper: false
   spells:
@@ -535,6 +540,11 @@
   spells:
   - Air Bubble
   - Create Spelljamming Helm
+  name: 'Planescape: Adventures in the Multiverse'
+  proper: true
+  spells:
+  - Gate Seal
+  - Warp Sense
 - name: Explorer's Guide to Wildemount
   proper: false
   spells:
@@ -593,3 +603,42 @@
   spells:
   - Freedom of the Waves
   - Freedom of the Winds
+- name: Humblewood Campaign Setting
+  spells:
+  - Ambush Prey
+  - Elevated Sight
+  - Feathered Reach
+  - Globe of Twilight
+  - Gust Barrier
+  - Invoke the Amaranthine
+  - Shape Plants
+  - Spiny Shield
+  - Stellar Bodies
+  - Veil of Dusk
+- name: Lairs of Etharis
+  proper: true
+  spells:
+  - Arboreal Curse
+  - Consume Mind
+  - Heartseeker
+  - Hunter Sense
+  - Magic Mirror
+  - Suffocate
+  - Wrack
+- name: Dungeons of Drakkenheim
+  proper: true
+  spells:
+  - Conjure the Deep Haze
+  - Contaminated Power
+  - Contamination Immunity
+  - Delerium Blast
+  - Delerium Orb
+  - Forced Evolution
+  - Neutralizing Field
+  - Octarine Spray
+  - Purge Contamination
+  - Ray of Contamination
+  - Ride the Rifts
+  - Sacrament of the Falling Fire
+  - Siphon Contamination
+  - Warp Bolt
