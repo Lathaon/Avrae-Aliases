@@ -1,0 +1,44 @@
+!alias book <drac2>
+using(spells_lib = "0b351cde-b4a5-4b24-9f2b-2d9f6d51d844", embeds = "72fea181-ba03-4cb4-8edf-1f3bc5a49578")
+
+pc = character()
+
+if spells_svar := get_svar('extraSpells', None):
+  spells_lib.import_homebrew(load_json(get_gvar(spells_svar)) if len(spells_svar) == 36 else load_json(spells_svar))
+if exists('extraSpells'):
+  spells_lib.import_homebrew(load_json(get_gvar(extraSpells)) if len(extraSpells) == 36 else load_json(extraSpells))
+
+spells_known = [[] for _ in range(10)]
+spells_unrecognized = []
+for spell in pc.spellbook.spells:
+  if spell.prepared:
+    if (spell_level := spells_lib.get_spell_level(spell.name)) is not None:
+      spells_known[spell_level].append(spell.name)
+    else:
+      spells_unrecognized.append(spell.name)
+
+num_cantrips = len(spells_known[0])
+num_prepared = sum(len(lst) for lst in [spells_unrecognized] + spells_known[1:])
+num_unprepared = len(pc.spellbook.spells) - num_cantrips - num_prepared
+
+lines = '\n'.join
+
+out = {
+  "title": f"{name}'s Spellbook!",
+  "desc": f"{name} knows {num_cantrips} cantrips, has {num_prepared} spells prepared, and knows {num_unprepared} other spells.",
+  "fields": [
+    {"title": "DC", "body": str(pc.spellbook.dc), "inline": True},
+    {"title": "Spell Attack Bonus", "body": str(pc.spellbook.sab), "inline": True},
+    {
+      "title": "Spell Slots",
+      "body": "\n".join([pc.spellbook.slots_str(level) for level in range(1, 10) if pc.spellbook.get_max_slots(level)]),
+      "inline": True
+    }
+  ] + [{"title": f"Level {lvl}" if lvl else "Cantrips", "body": ", ".join(spells_known[lvl])} for lvl in range(0, 10) if spells_known[lvl]]
+}
+
+if spells_unrecognized:
+  out.fields.append({"title": "Unrecognized Spells", "body": ", ".join(spells_unrecognized)})
+
+return embeds.get_output(out)
+</drac2>
