@@ -8,6 +8,7 @@ Abjuration:
 - Antilife Shell
 - Antimagic Field
 - Arcane Lock
+- Arcane Vigor
 - Armor of Agathys
 - Aura of Life
 - Aura of Purity
@@ -162,6 +163,7 @@ Conjuration:
 - Summon Lesser Demons
 - Summon Shadowspawn
 - Sword Burst
+- Tasha's Bubbling Cauldron
 - Teleport
 - Teleportation Circle
 - Temple of the Gods
@@ -278,6 +280,7 @@ Enchantment:
 - Tasha's Hideous Laughter
 - Tasha's Mind Whip
 - Vicious Mockery
+- Yolande's Regal Presence
 - Zone of Truth
 Evocation:
 - Acid Arrow
@@ -332,6 +335,7 @@ Evocation:
 - Holy Weapon
 - Ice Storm
 - Immolation
+- Jallarzi's Storm of Radiance
 - Jim's Magic Missile
 - Leomund's Tiny Hut
 - Light

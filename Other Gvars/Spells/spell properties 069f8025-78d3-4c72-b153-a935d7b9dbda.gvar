@@ -1,7 +1,7 @@
 # SPELL_PROPERTIES = load_yaml(get_gvar("069f8025-78d3-4c72-b153-a935d7b9dbda"))
 
 Acid Splash: {components: [V, S], range: 60 feet, duration: Instantaneous, casting_time: Action}
-Blade Ward: {components: [V, S], range: Self, duration: Instantaneous, casting_time: "Reaction, which you take in response to a visible creature targeting you with a melee attack"}
+Blade Ward: {components: [V, S], range: Self, duration: Instantaneous, casting_time: Action}
 Booming Blade: {components: [S, M], range: Self (5 ft. sphere), duration: 1 round, casting_time: Action}
 Chill Touch: {components: [V, S], range: Touch, duration: Instantaneous, casting_time: Action}
 Control Flames: {components: [S], range: 60 feet (5 ft. cube), duration: Instantaneous, casting_time: Action}
@@ -15,7 +15,7 @@ Fire Bolt: {components: [V, S], range: 120 feet, duration: Instantaneous, castin
 Friends: {components: [S, M], range: 10 feet, conc: on, duration: 1 minute, casting_time: Action}
 Frostbite: {components: [V, S], range: 60 feet, duration: Instantaneous, casting_time: Action}
 Green-Flame Blade: {components: [S, M], range: Self (5 ft. sphere), duration: Instantaneous, casting_time: Action}
-Guidance: {components: [V, S], range: 10 feet, duration: Instantaneous, casting_time: "Reaction, which you take in response to you or an ally within 10 feet of you failing an Ability Check"}
+Guidance: {components: [V, S], range: 10 feet, duration: Instantaneous, casting_time: Action}
 Gust: {components: [V, S], range: 30 feet, duration: Instantaneous, casting_time: Action}
 Infestation: {components: [V, S, M], range: 30 feet, duration: Instantaneous, casting_time: Action}
 Light: {components: [V, M], range: Touch (20 ft. sphere), duration: 1 hour, casting_time: Action}
@@ -32,7 +32,7 @@ Prestidigitation: {components: [V, S], range: 10 feet, duration: 1 hour, casting
 Primal Savagery: {components: [S], range: Self, duration: Instantaneous, casting_time: Action}
 Produce Flame: {components: [V, S], range: Self, duration: 10 minutes, casting_time: Bonus Action}
 Ray of Frost: {components: [V, S], range: 60 feet, duration: Instantaneous, casting_time: Action}
-Resistance: {components: [V, S], range: 10 feet, duration: Instantaneous, casting_time: "Reaction, which you take in response to you or an ally within 10 feet of you failing a Saving Throw"}
+Resistance: {components: [V, S], range: 10 feet, duration: Instantaneous, casting_time: Action}
 Sacred Flame: {components: [V, S], range: 60 feet, duration: Instantaneous, casting_time: Action}
 Sapping Sting: {components: [V, S], range: 30 feet, duration: Instantaneous, casting_time: Action}
 Shape Water: {components: [S], range: 30 feet (5 ft. cube), duration: Instantaneous, casting_time: Action}
@@ -135,6 +135,7 @@ Air Bubble: {components: [S], range: 60 feet, duration: 24 hours, casting_time: 
 Alter Self: {components: [V, S], range: Self, conc: on, duration: 1 hour, casting_time: Action}
 Animal Messenger: {components: [V, S, M], range: 30 feet, duration: 24 hours, casting_time: Action}
 Arcane Lock: {components: [V, S, M], range: Touch, duration: Until Dispelled, casting_time: Action}
+Arcane Vigor: {components: [V, S], range: Self, duration: Instantaneous, casting_time: Bonus Action}
 Augury: {components: [V, S, M], range: Self, duration: Instantaneous, casting_time: 1 minute}
 Barkskin: {components: [V, S, M], range: Touch, conc: on, duration: 1 hour, casting_time: Bonus Action}
 Beast Sense: {components: [S], range: Touch, conc: on, duration: 1 hour, casting_time: Action}
@@ -380,6 +381,7 @@ Holy Weapon: {components: [V, S], range: Touch, conc: on, duration: 1 hour, cast
 Immolation: {components: [V], range: 90 feet, conc: on, duration: 1 minute, casting_time: Action}
 Infernal Calling: {components: [V, S, M], range: 90 feet, conc: on, duration: 1 hour, casting_time: 1 minute}
 Insect Plague: {components: [V, S, M], range: 300 feet (20 ft. sphere), conc: on, duration: 10 minutes, casting_time: Action}
+Jallarzi's Storm of Radiance: {components: [V, S, M], range: 120 feet, conc: on, duration: 1 minute, casting_time: Action}
 Legend Lore: {components: [V, S, M], range: Self, duration: Instantaneous, casting_time: 10 minutes}
 Maelstrom: {components: [V, S, M], range: 120 feet, conc: on, duration: 1 minute, casting_time: Action}
 Mass Cure Wounds: {components: [V, S], range: 60 feet (30 ft. sphere), duration: Instantaneous, casting_time: Action}
@@ -408,6 +410,7 @@ Wall of Force: {components: [V, S, M], range: 120 feet, conc: on, duration: 10 m
 Wall of Light: {components: [V, S, M], range: 120 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Wall of Stone: {components: [V, S, M], range: 120 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Wrath of Nature: {components: [V, S], range: 120 feet (60 ft. cube), conc: on, duration: 1 minute, casting_time: Action}
+Yolande's Regal Presence: {components: [V, S, M], range: Self, conc: on, duration: 1 minute, casting_time: Action}
 Arcane Gate: {components: [V, S], range: 500 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Blade Barrier: {components: [V, S], range: 90 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Bones of the Earth: {components: [V, S], range: 120 feet (5 ft. cylinder), duration: Instantaneous, casting_time: Action}
@@ -448,6 +451,7 @@ Scatter: {components: [V], range: 30 feet, duration: Instantaneous, casting_time
 Soul Cage: {components: [V, S, M], range: 60 feet, duration: 8 hours, casting_time: "Reaction, which you take when a humanoid you can see within 60 feet of you dies"}
 Summon Fiend: {components: [V, S, M], range: 90 feet, conc: on, duration: 1 hour, casting_time: Action}
 Sunbeam: {components: [V, S, M], range: Self (60 ft. line), conc: on, duration: 1 minute, casting_time: Action}
+Tasha's Bubbling Cauldron: {components: [V, S, M], range: 5 feet, duration: 10 minutes, casting_time: Action}
 Tasha's Otherworldly Guise: {components: [V, S, M], range: Self, conc: on, duration: 1 minute, casting_time: Bonus Action}
 Tenser's Transformation: {components: [V, S, M], range: Self, conc: on, duration: 10 minutes, casting_time: Action}
 Transport via Plants: {components: [V, S], range: 10 feet, duration: 1 round, casting_time: Action}

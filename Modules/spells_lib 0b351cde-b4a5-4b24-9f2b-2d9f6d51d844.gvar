@@ -23,9 +23,9 @@
 #     Finds a matching spell name, first a limited search through `known_spells`
 #     and failing that a search through all recognized spells.
 #
-# get_spell_level(spell_name, version = "UA"): Returns a spell's level.
+# get_spell_level(spell_name, version = 2024): Returns a spell's level.
 #
-# get_spell_school(spell_name, version = "UA"): Returns a spell's school.
+# get_spell_school(spell_name, version = 2024): Returns a spell's school.
 #
 # is_ritual(spell_name): Check whether a spell is a ritual.
 #
@@ -74,7 +74,7 @@ def get_matching_spell_name(search, known_spells = [x.name for x in character().
             err(f'`{search}` matched multiple spells. Did you mean {"? ".join(matches[:3])}?')
 
 
-def get_spell_level(spell_name, version = "UA"):
+def get_spell_level(spell_name, version = 2024):
     """
     Returns a spell's level.
     :arg str spell_name: the exact name of the spell.
@@ -82,13 +82,10 @@ def get_spell_level(spell_name, version = "UA"):
     :return: the level of the spell, or `None` if not known.
     :rtype: int|None
     """
-    if version in (2014, "published"):
-        return LEVELS_2014.get(spell_name, SPELL_LEVELS.get(spell_name))
-    else:
-        return SPELL_LEVELS.get(spell_name)
+    return SPELL_LEVELS.get(spell_name)
 
 
-def get_spell_school(spell_name, version = "UA"):
+def get_spell_school(spell_name, version = 2024):
     """
     Returns a spell's school.
     :arg str spell_name: the exact name of the spell.
