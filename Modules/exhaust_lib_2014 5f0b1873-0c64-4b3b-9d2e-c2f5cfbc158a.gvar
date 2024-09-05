@@ -1,6 +1,16 @@
 # exhaust_lib = "5f0b1873-0c64-4b3b-9d2e-c2f5cfbc158a"
+# 2014 Version
 
 _pc = character()
+
+EXHAUSTION_TEXT = (
+    "1. Disadvantage on ability checks\n"
+    "2. Speed halved\n"
+    "3. Disadvantage on attacks and saves\n"
+    "4. Hit point maximum halved\n"
+    "5. Speed reduced to 0\n"
+    "6. Death"
+)
 
 def get_exhaustion():
     if _pc.cc_exists("Exhaustion"):
@@ -16,14 +26,7 @@ def set_exhaustion(value):
             maxVal = 6,
             reset = "long",
             reset_by = "-1",
-            desc = (
-                "1. Disadvantage on ability checks\n"
-                "2. Speed halved\n"
-                "3. Disadvantage on attacks and saves\n"
-                "4. Hit point maximum halved\n"
-                "5. Speed reduced to 0\n"
-                "6. Death"
-            ),
+            desc = EXHAUSTION_TEXT,
             initial_value = value
         ).value
     elif _pc.cc_exists("Exhaustion"):

@@ -1,0 +1,54 @@
+# exhaust_lib = "ab8825cf-e223-4f51-aaf0-3cf80a821d50"
+# 2024 Version
+
+_pc = character()
+
+EXHAUSTION_TEXT = (
+    "While you have the Exhaustion condition, you experience the following effects.\n\n"
+    "**_Exhaustion Levels._** This condition is cumulative. Each time you receive it, you gain 1 Exhaustion level. You die if your Exhaustion level is 6.\n\n"
+    "**_D20 Tests Affected._** When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level.\n\n"
+    "**_Speed Reduced._** Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level.\n\n"
+    "**_Removing Exhaustion Levels._** Finishing a Long Rest removes 1 of your Exhaustion levels. When your Exhaustion level reaches 0, the condition ends."
+)
+
+def get_exhaustion():
+    if _pc.cc_exists("Exhaustion"):
+        return _pc.set_cc("Exhaustion", _pc.get_cc("Exhaustion"))
+    return 0
+
+def set_exhaustion(value):
+    if value > 0:
+        _pc.set_cvar_nx("hunger", 0)
+        _pc.set_cvar_nx("thirst", 0)
+        return _pc.create_cc("Exhaustion",
+            minVal = "min(6, max(0, int(hunger) - 3 - constitutionMod) + int(thirst))",
+            maxVal = 6,
+            reset = "long",
+            reset_by = "-1",
+            desc = EXHAUSTION_TEXT,
+            initial_value = value
+        ).value
+    elif _pc.cc_exists("Exhaustion"):
+        _pc.delete_cc("Exhaustion")
+    return 0
+
+def modify_exhaustion(delta):
+    return set_exhaustion(get_exhaustion() + delta)
+
+def apply_effect(combatant = combat().me, exhaustion = get_exhaustion()):
+    combatant.remove_effect("Exhaustion")
+    if exhaustion:
+        passive_effects = {}
+        if exhaustion >= 6:
+            passive_effects["max_hp_bonus"] = -combatant.max_hp
+            combatant.add_effect("Exhaustion", desc = "You are dead.", passive_effects = {"max_hp_bonus": -combatant.max_hp})
+            combatant.modify_hp(0, overflow = False)
+        else:
+            d20_penalty = exhaustion * 2
+            combatant.add_effect("Exhaustion", desc = f"Speed reduced by {exhaustion * 5} ft.", passive_effects = {
+                "to_hit_bonus": d20_penalty,
+                "save_bonus": d20_penalty,
+                "check_bonus": d20_penalty
+            })
+            passive_effects["to_hit_bonus"] = passive_effects["save_bonus"] = passive_effects["check_bonus"] = exhaustion * 2
+            desc_strs.append(f"Speed reduced by {exhaustion * 5} ft.")
