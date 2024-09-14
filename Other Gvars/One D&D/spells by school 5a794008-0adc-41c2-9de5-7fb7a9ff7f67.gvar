@@ -17,14 +17,15 @@ Abjuration:
 - Blade Ward
 - Ceremony
 - Circle of Power
-- Contingency
 - Contamination Immunity
+- Contingency
 - Counterspell
 - Cure Wounds
 - Death Ward
 - Dispel Evil and Good
 - Dispel Magic
 - Druid Grove
+- Emerald Goblet
 - Fizban's Platinum Shield
 - Forbiddance
 - Freedom of Movement
@@ -44,10 +45,10 @@ Abjuration:
 - Lesser Restoration
 - Mage Armor
 - Magic Circle
+- Magic Mirror
 - Mass Cure Wounds
 - Mass Heal
 - Mass Healing Word
-- Magic Mirror
 - Mind Blank
 - Mordenkainen's Private Sanctum
 - Neutralizing Field
@@ -66,6 +67,7 @@ Abjuration:
 - Resistance
 - Sacrament of the Falling Fire
 - Sanctuary
+- Shadow Adaptation
 - Shield
 - Shield of Faith
 - Snare
@@ -88,7 +90,9 @@ Conjuration:
 - Conjure Barrage
 - Conjure Celestial
 - Conjure Elemental
+- Conjure Ferryman
 - Conjure Fey
+- Conjure Giant
 - Conjure Minor Elementals
 - Conjure the Deep Haze
 - Conjure Volley
@@ -99,6 +103,7 @@ Conjuration:
 - Dimension Door
 - Drawmij's Instant Summons
 - Dream of the Blue Veil
+- Drizzle
 - Dust Devil
 - Ensnaring Strike
 - Entangle
@@ -118,6 +123,7 @@ Conjuration:
 - Globe of Twilight
 - Grasping Vine
 - Grease
+- Grim Shadows
 - Guardian of Faith
 - Hail of Thorns
 - Healing Spirit
@@ -130,25 +136,36 @@ Conjuration:
 - Insect Plague
 - Instant Summons
 - Leomund's Secret Chest
+- Lunar Transfer
 - Mage Hand
 - Magnificent Mansion
 - Maze
 - Mighty Fortress
 - Misty Step
+- Moonlight Sending
 - Mordenkainen's Faithful Hound
 - Mordenkainen's Magnificent Mansion
 - Planar Ally
 - Plane Shift
+- Polychromatic Bubble
+- Portho's Portal
+- Pratfall
 - Produce Flame
 - Reality Break
+- Ride the Lightning
 - Ride the Rifts
 - Scatter
 - Secret Chest
+- Shadow Gateway
+- Shadow Portal
+- Shadow Step
 - Sleet Storm
+- Spider Song
 - Spirit Guardians
 - Spray of Cards
 - Steel Wind Strike
 - Stinking Cloud
+- Storm Door
 - Storm of Vengeance
 - Suffocate
 - Summon Aberration
@@ -244,6 +261,8 @@ Enchantment:
 - Dominate Beast
 - Dominate Monster
 - Dominate Person
+- Doom of False Friends
+- Elf Shot
 - Encode Thoughts
 - Enemies Abound
 - Enthrall
@@ -253,6 +272,7 @@ Enchantment:
 - Geas
 - Gift of Gab
 - Glibness
+- Hero of Fable
 - Heroism
 - Hex
 - Hideous Laughter
@@ -260,10 +280,16 @@ Enchantment:
 - Hold Person
 - Incite Greed
 - Jim's Glowing Coin
+- Leiloch's Arduous Shuffle
+- Leiloch's Interminable Yarn
+- Leiloch's Irritating Kazoo
+- Lost
+- Lost and Wandering
 - Mass Suggestion
 - Mind Sliver
 - Modify Memory
 - Motivational Speech
+- Ominous Winds
 - Otto's Irresistible Dance
 - Power Word Fortify
 - Power Word Heal
@@ -279,7 +305,9 @@ Enchantment:
 - Synaptic Static
 - Tasha's Hideous Laughter
 - Tasha's Mind Whip
+- Ugly Duckling
 - Vicious Mockery
+- Word of Misfortune
 - Yolande's Regal Presence
 - Zone of Truth
 Evocation:
@@ -289,20 +317,26 @@ Evocation:
 - Arcane Eruption
 - Arcane Hand
 - Bigby's Hand
+- Bitter Wind
 - Blade Barrier
 - Blinding Smite
 - Booming Blade
+- Bright Sparks
 - Burning Hands
+- Burning Radiance
 - Chain Lightning
 - Chaos Bolt
 - Chromatic Orb
 - Cone of Cold
 - Continual Flame
+- Crown of Radiance
 - Crown of Stars
 - Dark Star
+- Darkbolt
 - Darkness
 - Dawn
 - Daylight
+- Deep Roots of the Moon
 - Delayed Blast Fireball
 - Delerium Blast
 - Delerium Orb
@@ -310,12 +344,14 @@ Evocation:
 - Divine Smite
 - Divine Word
 - Earth Tremor
+- Ebon Tide
 - Eldritch Blast
 - Faerie Fire
 - Fire Bolt
 - Fire Shield
 - Fire Storm
 - Fireball
+- Fireflies
 - Flame Blade
 - Flame Strike
 - Flaming Sphere
@@ -324,6 +360,7 @@ Evocation:
 - Freezing Sphere
 - Frost Fingers
 - Frostbite
+- Gloaming
 - Gravity Fissure
 - Gravity Sinkhole
 - Green-Flame Blade
@@ -333,6 +370,7 @@ Evocation:
 - Heartseeker
 - Hellish Rebuke
 - Holy Weapon
+- Holy Word
 - Ice Storm
 - Immolation
 - Jallarzi's Storm of Radiance
@@ -350,10 +388,12 @@ Evocation:
 - Moonbeam
 - Mordenkainen's Sword
 - Octarine Spray
-- Otiluke's Resilient Sphere
 - Otiluke's Freezing Sphere
+- Otiluke's Resilient Sphere
+- Phoenix Flames
 - Prismatic Spray
 - Pulse Wave
+- Radiant Beacon
 - Ravenous Void
 - Ray of Frost
 - Resilient Sphere
@@ -372,12 +412,14 @@ Evocation:
 - Storm Sphere
 - Sunbeam
 - Sunburst
+- Supernal Smite
 - Tasha's Caustic Brew
 - Thunderclap
 - Thunderous Smite
 - Thunderwave
 - Tiny Hut
 - Vitriolic Sphere
+- Void Strike
 - Wall of Fire
 - Wall of Force
 - Wall of Ice
@@ -396,6 +438,7 @@ Illusion:
 - Ambush Prey
 - Arcanist's Magic Aura
 - Blur
+- Cloak of Shadow
 - Color Spray
 - Creation
 - Dancing Lights
@@ -403,12 +446,14 @@ Illusion:
 - Distort Value
 - Dream
 - Fear
+- Fire Dance
 - Greater Invisibility
 - Hallucinatory Terrain
 - Hypnotic Pattern
 - Illusory Dragon
 - Illusory Script
 - Invisibility
+- Living Shadows
 - Magic Mouth
 - Major Image
 - Mental Prison
@@ -418,6 +463,7 @@ Illusion:
 - Mislead
 - Nathair's Mischief
 - Nystul's Magic Aura
+- Obfuscate Object
 - Phantasmal Force
 - Phantasmal Killer
 - Phantom Steed
@@ -434,8 +480,11 @@ Necromancy:
 - Animate Dead
 - Astral Projection
 - Bestow Curse
+- Blade of Blood and Bone
 - Blight
+- Bloodletter
 - Cause Fear
+- Charnel Banquet
 - Chill Touch
 - Circle of Death
 - Clone
@@ -443,17 +492,31 @@ Necromancy:
 - Contagion
 - Create Undead
 - Danse Macabre
+- Doom of Poor Fortune
+- Drayfn's Bane of Excellence
+- Drayfn's Curse of Incompetence
 - Enervation
 - Eyebite
 - False Life
 - Feign Death
 - Finger of Death
+- Flense
 - Gentle Repose
+- Grim Harvest
 - Harm
+- Hibernation
 - Inflict Wounds
+- Knife of Fate
+- Krail's Maggot
+- Krail's Rot
+- Krail's Rupture
+- Life Drain
+- Life Tether
 - Life Transference
+- Maddening Whispers
 - Magic Jar
 - Negative Energy Flood
+- Orros Mark of Fate
 - Poison Spray
 - Raise Dead
 - Ray of Contamination
@@ -469,6 +532,7 @@ Necromancy:
 - Speak with Dead
 - Spirit of Death
 - Spirit Shroud
+- Spirit Swarm
 - Summon Undead
 - Tether Essence
 - Time Ravage
@@ -488,9 +552,10 @@ Transmutation:
 - Barkskin
 - Blindness/Deafness
 - Blink
-- Branding Smite
 - Bones of the Earth
+- Branding Smite
 - Catapult
+- Child of Light and Darkness
 - Contaminated Power
 - Control Flames
 - Control Water
@@ -501,12 +566,17 @@ Transmutation:
 - Create Magen
 - Create or Destroy Water
 - Create Spelljamming Helm
+- Creeping Touch
 - Crusader's Mantle
 - Darkvision
 - Disintegrate
 - Divine Favor
+- Doom of Stacked Stones
+- Doom of Summer Years
+- Douse Light
 - Draconic Transformation
 - Dragon's Breath
+- Drayfn's Blunted Blade
 - Druidcraft
 - Earthbind
 - Earthquake
@@ -519,10 +589,13 @@ Transmutation:
 - Etherealness
 - Expeditious Retreat
 - Fabricate
+- Faerie Toast
+- Feast of Flesh
 - Feather Fall
 - Feathered Reach
 - Flame Arrows
 - Flesh to Stone
+- Flowering
 - Fly
 - Forced Evolution
 - Gaseous Form
@@ -563,6 +636,7 @@ Transmutation:
 - Regenerate
 - Reverse Gravity
 - Rope Trick
+- Searing Sun
 - Sequester
 - Shape Plants
 - Shape Water
@@ -572,6 +646,7 @@ Transmutation:
 - Siphon Contamination
 - Skill Empowerment
 - Skywrite
+- Slither
 - Slow
 - Speak with Plants
 - Spider Climb

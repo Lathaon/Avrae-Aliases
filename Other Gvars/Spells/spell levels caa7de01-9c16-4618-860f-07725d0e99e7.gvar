@@ -46,8 +46,10 @@ Beast Bond: 1
 Beast Sense: 2
 Bestow Curse: 3
 Bigby's Hand: 5
+Bitter Wind: 3
 Black Tentacles: 4
 Blade Barrier: 6
+Blade of Blood and Bone: 1
 Blade of Disaster: 9
 Blade Ward: 0
 Bless: 1
@@ -55,12 +57,15 @@ Blight: 4
 Blinding Smite: 3
 Blindness/Deafness: 2
 Blink: 3
+Bloodletter: 2
 Blur: 2
 Bones of the Earth: 6
 Booming Blade: 0
 Borrowed Knowledge: 2
 Branding Smite: 2
+Bright Sparks: 0
 Burning Hands: 1
+Burning Radiance: 6
 Call Lightning: 3
 Calm Emotions: 2
 Catapult: 1
@@ -71,11 +76,14 @@ Chain Lightning: 6
 Chaos Bolt: 1
 Charm Monster: 4
 Charm Person: 1
+Charnel Banquet: 7
+Child of Light and Darkness: 8
 Chill Touch: 0
 Chromatic Orb: 1
 Circle of Death: 6
 Circle of Power: 5
 Clairvoyance: 3
+Cloak of Shadow: 1
 Clone: 8
 Cloud of Daggers: 2
 Cloudkill: 5
@@ -92,7 +100,9 @@ Conjure Animals: 3
 Conjure Barrage: 3
 Conjure Celestial: 7
 Conjure Elemental: 5
+Conjure Ferryman: 2
 Conjure Fey: 6
+Conjure Giant: 6
 Conjure Minor Elementals: 4
 Conjure the Deep Haze: 5
 Conjure Volley: 5
@@ -118,18 +128,22 @@ Create or Destroy Water: 1
 Create Spelljamming Helm: 5
 Create Undead: 6
 Creation: 5
+Creeping Touch: 1
 Crown of Madness: 2
+Crown of Radiance: 6
 Crown of Stars: 7
 Crusader's Mantle: 3
 Cure Wounds: 1
 Dancing Lights: 0
 Danse Macabre: 5
 Dark Star: 8
+Darkbolt: 2
 Darkness: 2
 Darkvision: 2
 Dawn: 5
 Daylight: 3
 Death Ward: 4
+Deep Roots of the Moon: 3
 Delayed Blast Fireball: 7
 Delerium Blast: 4
 Delerium Orb: 1
@@ -153,22 +167,34 @@ Divine Word: 7
 Dominate Beast: 4
 Dominate Monster: 8
 Dominate Person: 5
+Doom of False Friends: 8
+Doom of Poor Fortune: 1
+Doom of Stacked Stones: 6
+Doom of Summer Years: 7
+Douse Light: 0
 Draconic Transformation: 7
 Dragon's Breath: 2
 Drawmij's Instant Summons: 6
+Drayfn's Bane of Excellence: 0
+Drayfn's Blunted Blade: 2
+Drayfn's Curse of Incompetence: 4
 Dream of the Blue Veil: 7
 Dream: 5
+Drizzle: 0
 Druid Grove: 6
 Druidcraft: 0
 Dust Devil: 2
 Earth Tremor: 1
 Earthbind: 2
 Earthquake: 8
+Ebon Tide: 7
 Eldritch Blast: 0
 Elemental Bane: 4
 Elemental Weapon: 3
 Elementalism: 0
 Elevated Sight: 1
+Elf Shot: 1
+Emerald Goblet: 1
 Encode Thoughts: 0
 Enemies Abound: 3
 Enervation: 5
@@ -184,11 +210,13 @@ Expeditious Retreat: 1
 Eyebite: 6
 Fabricate: 4
 Faerie Fire: 1
+Faerie Toast: 3
 Faithful Hound: 4
 False Life: 1
 Far Step: 5
 Fast Friends: 3
 Fear: 3
+Feast of Flesh: 5
 Feather Fall: 1
 Feathered Reach: 3
 Feeblemind: 8
@@ -200,17 +228,21 @@ Find the Path: 6
 Find Traps: 2
 Finger of Death: 7
 Fire Bolt: 0
+Fire Dance: 4
 Fire Shield: 4
 Fire Storm: 7
 Fireball: 3
+Fireflies: 1
 Fizban's Platinum Shield: 6
 Flame Arrows: 3
 Flame Blade: 2
 Flame Strike: 5
 Flaming Sphere: 2
+Flense: 8
 Flesh to Stone: 6
 Floating Disk: 1
 Flock of Familiars: 2
+Flowering: 0
 Fly: 3
 Fog Cloud: 1
 Forbiddance: 6
@@ -237,6 +269,7 @@ Giant Insect: 4
 Gift of Alacrity: 1
 Gift of Gab: 2
 Glibness: 8
+Gloaming: 1
 Globe of Invulnerability: 6
 Globe of Twilight: 3
 Glyph of Warding: 3
@@ -248,6 +281,8 @@ Grease: 1
 Greater Invisibility: 4
 Greater Restoration: 5
 Green-Flame Blade: 0
+Grim Harvest: 6
+Grim Shadows: 3
 Guardian of Faith: 4
 Guardian of Nature: 4
 Guards and Wards: 6
@@ -267,14 +302,17 @@ Healing Word: 1
 Heartseeker: 6
 Heat Metal: 2
 Hellish Rebuke: 1
+Hero of Fable: 5
 Heroes' Feast: 6
 Heroism: 1
 Hex: 1
+Hibernation: 2
 Hideous Laughter: 1
 Hold Monster: 5
 Hold Person: 2
 Holy Aura: 8
 Holy Weapon: 5
+Holy Word: 0
 Hunger of Hadar: 3
 Hunter Sense: 0
 Hunter's Mark: 1
@@ -308,22 +346,36 @@ Jim's Glowing Coin: 2
 Jim's Magic Missile: 1
 Jump: 1
 Kinetic Jaunt: 2
+Knife of Fate: 4
 Knock: 2
+Krail's Maggot: 2
+Krail's Rot: 5
+Krail's Rupture: 2
 Legend Lore: 5
+Leiloch's Arduous Shuffle: 7
+Leiloch's Interminable Yarn: 5
+Leiloch's Irritating Kazoo: 2
 Leomund's Secret Chest: 4
 Leomund's Tiny Hut: 3
 Lesser Restoration: 2
 Levitate: 2
+Life Drain: 6
+Life Tether: 2
 Life Transference: 3
 Light: 0
 Lightning Arrow: 3
 Lightning Bolt: 3
 Lightning Lure: 0
+Living Shadows: 5
 Locate Animals or Plants: 2
 Locate Creature: 4
 Locate Object: 2
 Longstrider: 1
+Lost and Wandering: 5
+Lost: 3
+Lunar Transfer: 4
 Maddening Darkness: 8
+Maddening Whispers: 2
 Maelstrom: 5
 Mage Armor: 1
 Mage Hand: 0
@@ -363,6 +415,7 @@ Misty Step: 2
 Modify Memory: 5
 Mold Earth: 0
 Moonbeam: 2
+Moonlight Sending: 4
 Mordenkainen's Faithful Hound: 4
 Mordenkainen's Magnificent Mansion: 7
 Mordenkainen's Private Sanctum: 4
@@ -374,7 +427,10 @@ Negative Energy Flood: 5
 Neutralizing Field: 5
 Nondetection: 3
 Nystul's Magic Aura: 2
+Obfuscate Object: 0
 Octarine Spray: 7
+Ominous Winds: 2
+Orros Mark of Fate: 3
 Otiluke's Freezing Sphere: 6
 Otiluke's Resilient Sphere: 4
 Otto's Irresistible Dance: 6
@@ -383,17 +439,21 @@ Passwall: 5
 Phantasmal Force: 2
 Phantasmal Killer: 4
 Phantom Steed: 3
+Phoenix Flames: 9
 Planar Ally: 6
 Planar Binding: 5
 Plane Shift: 7
 Plant Growth: 3
 Poison Spray: 0
+Polychromatic Bubble: 4
 Polymorph: 4
+Portho's Portal: 4
 Power Word Fortify: 7
 Power Word Heal: 9
 Power Word Kill: 9
 Power Word Pain: 7
 Power Word Stun: 8
+Pratfall: 1
 Prayer of Healing: 2
 Prestidigitation: 0
 Primal Savagery: 0
@@ -412,6 +472,7 @@ Pulse Wave: 3
 Purge Contamination: 3
 Purify Food and Drink: 1
 Pyrotechnics: 2
+Radiant Beacon: 5
 Raise Dead: 5
 Rary's Telepathic Bond: 5
 Raulothim's Psychic Lance: 4
@@ -429,6 +490,7 @@ Resistance: 0
 Resurrection: 7
 Reverse Gravity: 7
 Revivify: 3
+Ride the Lightning: 4
 Ride the Rifts: 3
 Rime's Binding Ice: 2
 Rope Trick: 2
@@ -440,13 +502,18 @@ Scatter: 6
 Scorching Ray: 2
 Scrying: 5
 Searing Smite: 1
+Searing Sun: 4
 Secret Chest: 4
 See Invisibility: 2
 Seeming: 5
 Sending: 3
 Sequester: 7
+Shadow Adaptation: 2
 Shadow Blade: 2
+Shadow Gateway: 5
 Shadow of Moil: 4
+Shadow Portal: 3
+Shadow Step: 4
 Shape Plants: 4
 Shape Water: 0
 Shapechange: 9
@@ -466,6 +533,7 @@ Skill Empowerment: 5
 Skywrite: 2
 Sleep: 1
 Sleet Storm: 3
+Slither: 2
 Slow: 3
 Snare: 1
 Snilloc's Snowball Swarm: 2
@@ -476,11 +544,13 @@ Speak with Animals: 1
 Speak with Dead: 3
 Speak with Plants: 3
 Spider Climb: 2
+Spider Song: 4
 Spike Growth: 2
 Spiny Shield: 1
 Spirit Guardians: 3
 Spirit of Death: 4
 Spirit Shroud: 3
+Spirit Swarm: 5
 Spiritual Weapon: 2
 Spray of Cards: 2
 Staggering Smite: 4
@@ -490,6 +560,7 @@ Stellar Bodies: 4
 Stinking Cloud: 3
 Stone Shape: 4
 Stoneskin: 4
+Storm Door: 4
 Storm of Vengeance: 9
 Storm Sphere: 4
 Suffocate: 3
@@ -508,6 +579,7 @@ Summon Shadowspawn: 3
 Summon Undead: 3
 Sunbeam: 6
 Sunburst: 8
+Supernal Smite: 4
 Swift Quiver: 5
 Sword Burst: 0
 Symbol: 7
@@ -548,11 +620,13 @@ True Resurrection: 9
 True Seeing: 6
 True Strike: 0
 Tsunami: 8
+Ugly Duckling: 2
 Unseen Servant: 1
 Vampiric Touch: 3
 Veil of Dusk: 1
 Vicious Mockery: 0
 Vitriolic Sphere: 4
+Void Strike: 3
 Vortex Warp: 2
 Wall of Fire: 4
 Wall of Force: 5
@@ -577,6 +651,7 @@ Wind Wall: 3
 Wish: 9
 Witch Bolt: 1
 Wither and Bloom: 2
+Word of Misfortune: 0
 Word of Radiance: 0
 Word of Recall: 6
 Wrack: 2
