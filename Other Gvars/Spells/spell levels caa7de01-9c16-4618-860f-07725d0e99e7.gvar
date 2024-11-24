@@ -1,4 +1,5 @@
 # SPELL_LEVELS = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
+# Last updated: 24/11/2024
 
 Abi-Dalzim's Horrid Wilting: 8
 Absorb Elements: 1
@@ -44,10 +45,14 @@ Barkskin: 2
 Beacon of Hope: 3
 Beast Bond: 1
 Beast Sense: 2
+Become Nightwing: 6
 Bestow Curse: 3
 Bigby's Hand: 5
 Bitter Wind: 3
+Black Hand: 4
+Black Ribbons: 1
 Black Tentacles: 4
+Black Well: 6
 Blade Barrier: 6
 Blade of Blood and Bone: 1
 Blade of Disaster: 9
@@ -67,6 +72,7 @@ Bright Sparks: 0
 Burning Hands: 1
 Burning Radiance: 6
 Call Lightning: 3
+Call Shadow Mastiff: 3
 Calm Emotions: 2
 Catapult: 1
 Catnap: 3
@@ -83,6 +89,7 @@ Chromatic Orb: 1
 Circle of Death: 6
 Circle of Power: 5
 Clairvoyance: 3
+Claws of Darkness: 0
 Cloak of Shadow: 1
 Clone: 8
 Cloud of Daggers: 2
@@ -104,6 +111,7 @@ Conjure Ferryman: 2
 Conjure Fey: 6
 Conjure Giant: 6
 Conjure Minor Elementals: 4
+Conjure Shadow Titan: 7
 Conjure the Deep Haze: 5
 Conjure Volley: 5
 Conjure Woodland Beings: 4
@@ -128,6 +136,7 @@ Create or Destroy Water: 1
 Create Spelljamming Helm: 5
 Create Undead: 6
 Creation: 5
+Creeping Darkness: 8
 Creeping Touch: 1
 Crown of Madness: 2
 Crown of Radiance: 6
@@ -136,6 +145,8 @@ Crusader's Mantle: 3
 Cure Wounds: 1
 Dancing Lights: 0
 Danse Macabre: 5
+Dark Dementing: 5
+Dark Path: 2
 Dark Star: 8
 Darkbolt: 2
 Darkness: 2
@@ -184,6 +195,7 @@ Drizzle: 0
 Druid Grove: 6
 Druidcraft: 0
 Dust Devil: 2
+Dying of the Light: 7
 Earth Tremor: 1
 Earthbind: 2
 Earthquake: 8
@@ -307,6 +319,7 @@ Heroes' Feast: 6
 Heroism: 1
 Hex: 1
 Hibernation: 2
+Hide in One's Shadow: 4
 Hideous Laughter: 1
 Hold Monster: 5
 Hold Person: 2
@@ -424,6 +437,7 @@ Motivational Speech: 3
 Move Earth: 6
 Nathair's Mischief: 2
 Negative Energy Flood: 5
+Negative Image: 2
 Neutralizing Field: 5
 Nondetection: 3
 Nystul's Magic Aura: 2
@@ -509,11 +523,18 @@ Seeming: 5
 Sending: 3
 Sequester: 7
 Shadow Adaptation: 2
+Shadow Armor: 1
+Shadow Bite: 0
 Shadow Blade: 2
+Shadow Blindness: 0
 Shadow Gateway: 5
+Shadow Hands: 1
 Shadow of Moil: 4
 Shadow Portal: 3
+Shadow Puppets: 2
 Shadow Step: 4
+Shadow Tendrils: 3
+Shadow Trove: 3
 Shape Plants: 4
 Shape Water: 0
 Shapechange: 9
@@ -621,6 +642,7 @@ True Seeing: 6
 True Strike: 0
 Tsunami: 8
 Ugly Duckling: 2
+Umbral Storm: 9
 Unseen Servant: 1
 Vampiric Touch: 3
 Veil of Dusk: 1

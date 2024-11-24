@@ -1,4 +1,6 @@
 # RITUAL_SPELLS = load_yaml(get_gvar("9b015cdc-45e0-4bc6-8574-f0c3f96e6015"))
+# Last updated: 24/11/2024
+
 - Alarm
 - Animal Messenger
 - Augury
@@ -31,6 +33,7 @@
 - Purify Food and Drink
 - Rary's Telepathic Bond
 - Shadow Gateway
+- Shadow Trove
 - Silence
 - Skywrite
 - Speak with Animals
