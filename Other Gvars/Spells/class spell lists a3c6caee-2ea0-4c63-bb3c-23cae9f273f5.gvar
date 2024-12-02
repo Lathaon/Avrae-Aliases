@@ -1,6 +1,8 @@
 # Guinea Pigs of Neverwinter
 # One D&D Class Spell Lists
 # load_yaml(get_gvar("a3c6caee-2ea0-4c63-bb3c-23cae9f273f5"))
+# Last updated: 2 December 2024
+
 Artificer:
 - Absorb Elements
 - Acid Splash
@@ -102,6 +104,7 @@ Artificer:
 - Water Breathing
 - Water Walk
 - Web
+
 Bard:
 - Aid
 - Animal Friendship
@@ -111,14 +114,17 @@ Bard:
 - Antipathy/Sympathy
 - Awaken
 - Bane
+- Befuddlement
 - Bestow Curse
 - Blade Ward
 - Blindness/Deafness
 - Borrowed Knowledge
+- Bright Sparks
 - Calm Emotions
 - Catnap
 - Charm Monster
 - Charm Person
+- Charnel Banquet
 - Clairvoyance
 - Cloud of Daggers
 - Color Spray
@@ -127,7 +133,9 @@ Bard:
 - Compulsion
 - Confusion
 - Contamination Immunity
+- Creeping Touch
 - Crown of Madness
+- Crown of Radiance
 - Cure Wounds
 - Dancing Lights
 - Delerium Blast
@@ -140,9 +148,15 @@ Bard:
 - Distort Value
 - Dominate Monster
 - Dominate Person
+- Doom of False Friends
+- Doom of Poor Fortune
+- Drayfn's Bane of Excellence
+- Drayfn's Blunted Blade
+- Drayfn's Curse of Incompetence
 - Dream
 - Dream of the Blue Veil
 - Earth Tremor
+- Elf Shot
 - Enemies Abound
 - Enhance Ability
 - Enlarge/Reduce
@@ -150,12 +164,14 @@ Bard:
 - Etherealness
 - Eyebite
 - Faerie Fire
+- Faerie Toast
 - Fast Friends
 - Fear
+- Feast of Flesh
 - Feather Fall
-- Feeblemind
 - Feign Death
 - Find the Path
+- Fire Dance
 - Forcecage
 - Foresight
 - Fount of Moonlight
@@ -172,6 +188,7 @@ Bard:
 - Hallucinatory Terrain
 - Healing Word
 - Heat Metal
+- Hero of Fable
 - Heroes' Feast
 - Heroism
 - Hold Monster
@@ -184,6 +201,9 @@ Bard:
 - Kinetic Jaunt
 - Knock
 - Legend Lore
+- Leiloch's Arduous Shuffle
+- Leiloch's Interminable Yarn
+- Leiloch's Irritating Kazoo
 - Leomund's Tiny Hut
 - Lesser Restoration
 - Light
@@ -191,6 +211,8 @@ Bard:
 - Locate Creature
 - Locate Object
 - Longstrider
+- Lost
+- Lost and Wandering
 - Mage Hand
 - Magic Mouth
 - Major Image
@@ -212,17 +234,21 @@ Bard:
 - Nathair's Mischief
 - Neutralizing Field
 - Nondetection
+- Obfuscate Object
 - Octarine Spray
+- Ominous Winds
 - Otto's Irresistible Dance
 - Phantasmal Force
 - Phantasmal Killer
 - Planar Binding
 - Plant Growth
+- Polychromatic Bubble
 - Polymorph
 - Power Word Fortify
 - Power Word Heal
 - Power Word Kill
 - Power Word Stun
+- Pratfall
 - Prestidigitation
 - Prismatic Spray
 - Prismatic Wall
@@ -242,6 +268,7 @@ Bard:
 - See Invisibility
 - Seeming
 - Sending
+- Shadow Portal
 - Shape Plants
 - Shatter
 - Silence
@@ -254,6 +281,7 @@ Bard:
 - Speak with Animals
 - Speak with Dead
 - Speak with Plants
+- Spider Song
 - Spray of Cards
 - Starry Wisp
 - Stinking Cloud
@@ -270,16 +298,20 @@ Bard:
 - True Polymorph
 - True Seeing
 - True Strike
+- Ugly Duckling
 - Unseen Servant
 - Vicious Mockery
 - Warding Wind
+- Yolande's Regal Presence
 - Zone of Truth
+
 Cleric:
 - Aid
 - Animate Dead
 - Antimagic Field
 - Astral Projection
 - Augury
+- Aura of Desecration
 - Aura of Life
 - Aura of Purity
 - Aura of Vitality
@@ -290,13 +322,19 @@ Cleric:
 - Blade Barrier
 - Bless
 - Blindness/Deafness
+- Bloodletter
 - Borrowed Knowledge
+- Bright Sparks
+- Burning Radiance
 - Calm Emotions
 - Ceremony
+- Child of Light and Darkness
+- Circle of Power
 - Clairvoyance
 - Command
 - Commune
 - Conjure Celestial
+- Conjure Ferryman
 - Consume Mind
 - Contagion
 - Contamination Immunity
@@ -306,10 +344,12 @@ Cleric:
 - Create Food and Water
 - Create or Destroy Water
 - Create Undead
+- Crown of Radiance
 - Cure Wounds
 - Dawn
 - Daylight
 - Death Ward
+- Deep Roots of the Moon
 - Detect Evil and Good
 - Detect Magic
 - Detect Poison and Disease
@@ -317,16 +357,27 @@ Cleric:
 - Dispel Magic
 - Divination
 - Divine Word
+- Doom of Poor Fortune
+- Doom of Summer Years
+- Drayfn's Bane of Excellence
+- Drayfn's Blunted Blade
+- Drayfn's Curse of Incompetence
 - Earthquake
+- Ebon Tide
 - Elevated Sight
+- Emerald Goblet
 - Enhance Ability
 - Etherealness
+- Faerie Toast
 - Fast Friends
 - Feign Death
 - Find the Path
 - Find Traps
 - Fire Storm
+- Fireflies
 - Flame Strike
+- Flense
+- Flowering
 - Forbiddance
 - Freedom of Movement
 - Gate
@@ -334,6 +385,7 @@ Cleric:
 - Gentle Repose
 - Glyph of Warding
 - Greater Restoration
+- Grim Harvest
 - Guardian of Faith
 - Guidance
 - Guiding Bolt
@@ -341,31 +393,43 @@ Cleric:
 - Harm
 - Heal
 - Healing Word
+- Hero of Fable
 - Heroes' Feast
 - Hold Person
 - Holy Aura
 - Holy Weapon
+- Holy Word
 - Incite Greed
 - Inflict Wounds
 - Insect Plague
 - Invoke the Amaranthine
+- Knife of Fate
+- Krail's Rot
 - Legend Lore
 - Lesser Restoration
+- Life Tether
 - Life Transference
 - Light
 - Locate Creature
 - Locate Object
+- Lost
+- Lost and Wandering
 - Magic Circle
 - Mass Cure Wounds
 - Mass Heal
 - Mass Healing Word
 - Meld into Stone
 - Mending
+- Moonlight Sending
 - Motivational Speech
 - Neutralizing Field
+- Ominous Winds
+- Orros Mark of Fate
+- Phoenix Flames
 - Planar Ally
 - Planar Binding
 - Plane Shift
+- Portho's Portal
 - Power Word Fortify
 - Power Word Heal
 - Prayer of Healing
@@ -392,9 +456,11 @@ Cleric:
 - Speak with Dead
 - Spirit Guardians
 - Spirit Shroud
+- Spirit Swarm
 - Spiritual Weapon
 - Stellar Bodies
 - Stone Shape
+- Storm Door
 - Summon Celestial
 - Sunbeam
 - Sunburst
@@ -411,8 +477,10 @@ Cleric:
 - Word of Recall
 - Wrack
 - Zone of Truth
+
 Druid:
 - Absorb Elements
+- Aid
 - Air Bubble
 - Animal Friendship
 - Animal Messenger
@@ -426,6 +494,8 @@ Druid:
 - Barkskin
 - Beast Bond
 - Beast Sense
+- Befuddlement
+- Bitter Wind
 - Blight
 - Bones of the Earth
 - Call Lightning
@@ -437,6 +507,7 @@ Druid:
 - Conjure Animals
 - Conjure Elemental
 - Conjure Fey
+- Conjure Giant
 - Conjure Minor Elementals
 - Conjure the Deep Haze
 - Conjure Woodland Beings
@@ -449,40 +520,50 @@ Druid:
 - Control Winds
 - Create Bonfire
 - Create or Destroy Water
+- Crown of Radiance
 - Cure Wounds
 - Darkvision
 - Daylight
+- Deep Roots of the Moon
 - Detect Magic
 - Detect Poison and Disease
 - Dispel Magic
 - Divination
 - Dominate Beast
+- Doom of Stacked Stones
 - Draconic Transformation
+- Drayfn's Curse of Incompetence
+- Drizzle
 - Druid Grove
 - Druidcraft
 - Dust Devil
 - Earth Tremor
 - Earthbind
 - Earthquake
+- Ebon Tide
 - Elemental Bane
 - Elemental Weapon
+- Elementalism
 - Elevated Sight
 - Enhance Ability
 - Enlarge/Reduce
 - Entangle
 - Erupting Earth
 - Faerie Fire
+- Faerie Toast
+- Feast of Flesh
 - Feathered Reach
-- Feeblemind
 - Feign Death
 - Find the Path
 - Find Traps
 - Fire Shield
 - Fire Storm
+- Fireflies
 - Flame Arrows
 - Flame Blade
 - Flaming Sphere
 - Flesh to Stone
+- Flowering
 - Fog Cloud
 - Foresight
 - Fount of Moonlight
@@ -496,6 +577,7 @@ Druid:
 - Goodberry
 - Grasping Vine
 - Greater Restoration
+- Grim Harvest
 - Guardian of Nature
 - Guidance
 - Gust
@@ -507,6 +589,7 @@ Druid:
 - Healing Word
 - Heat Metal
 - Heroes' Feast
+- Hibernation
 - Hold Person
 - Hunter Sense
 - Ice Knife
@@ -519,22 +602,33 @@ Druid:
 - Investiture of Stone
 - Investiture of Wind
 - Jump
+- Knife of Fate
+- Krail's Maggot
+- Krail's Rot
+- Krail's Rupture
 - Lesser Restoration
 - Locate Animals or Plants
 - Locate Creature
 - Locate Object
 - Longstrider
+- Lost
+- Lost and Wandering
+- Lunar Transfer
 - Maelstrom
 - Magic Stone
 - Mass Cure Wounds
 - Meld into Stone
 - Mending
+- Message
 - Mirage Arcane
 - Mold Earth
 - Moonbeam
+- Moonlight Sending
 - Move Earth
 - Neutralizing Field
+- Ominous Winds
 - Pass without Trace
+- Phoenix Flames
 - Planar Binding
 - Plane Shift
 - Plant Growth
@@ -548,12 +642,14 @@ Druid:
 - Protection from Poison
 - Purge Contamination
 - Purify Food and Drink
+- Radiant Beacon
 - Ray of Contamination
 - Regenerate
 - Reincarnate
 - Resistance
 - Reverse Gravity
 - Revivify
+- Ride the Lightning
 - Sacrament of the Falling Fire
 - Scrying
 - Shape Plants
@@ -572,9 +668,9 @@ Druid:
 - Stellar Bodies
 - Stone Shape
 - Stoneskin
+- Storm Door
 - Storm of Vengeance
 - Summon Beast
-- Summon Draconic Spirit
 - Summon Elemental
 - Summon Fey
 - Sunbeam
@@ -590,6 +686,7 @@ Druid:
 - True Resurrection
 - Tsunami
 - Veil of Dusk
+- Wall of Death
 - Wall of Fire
 - Wall of Stone
 - Wall of Thorns
@@ -603,15 +700,84 @@ Druid:
 - Wind Wall
 - Wither and Bloom
 - Wrath of Nature
+
+Illrigger:
+- Augury
+- Aura of Desecration
+- Bane
+- Banishment
+- Bestow Curse
+- Blight
+- Blur
+- Burning Hands
+- Charm Person
+- Chill Touch
+- Color Spray
+- Command
+- Compulsion
+- Dancing Lights
+- Darkness
+- Death Ward
+- Detect Magic
+- Detect Thoughts
+- Dimension Door
+- Disguise Self
+- Dispel Magic
+- Dominate Beast
+- Enthrall
+- Fear
+- Fire Bolt
+- Fly
+- Greater Invisibility
+- Hallucinatory Terrain
+- Haste
+- Heat Metal
+- Hell's Lash
+- Hellfire
+- Hellish Rebuke
+- Hold Person
+- Infernal Challenge
+- Invisibility
+- Lesser Restoration
+- Locate Creature
+- Major Image
+- Maligned Weapon
+- Message
+- Minor Illusion
+- Mirror Image
+- Mote of Hell
+- Nystul's Magic Aura
+- Phantasmal Killer
+- Phantom Steed
+- Ray of Enfeeblement
+- Ray of Frost
+- Remove Curse
+- Revivify
+- Scorching Ray
+- Shield
+- Shield of Faith
+- Shocking Grasp
+- Silence
+- Silent Image
+- Slow
+- Suggestion
+- Thaumaturgy
+- Vengeful Blade
+- Vicious Mockery
+- Wall of Death
+
 Paladin:
 - Aid
+- Aura of Desecration
 - Aura of Life
 - Aura of Purity
 - Aura of Vitality
 - Banishing Smite
 - Banishment
+- Blade of Blood and Bone
 - Bless
 - Blinding Smite
+- Bloodletter
 - Ceremony
 - Circle of Power
 - Command
@@ -629,19 +795,29 @@ Paladin:
 - Dispel Magic
 - Divine Favor
 - Divine Smite
+- Doom of Poor Fortune
+- Drayfn's Blunted Blade
+- Drayfn's Curse of Incompetence
 - Elemental Weapon
+- Emerald Goblet
+- Faerie Toast
 - Find Greater Steed
 - Find Steed
 - Geas
 - Gentle Repose
+- Greater Restoration
+- Hero of Fable
 - Heroism
 - Holy Weapon
+- Infernal Challenge
 - Invoke the Amaranthine
+- Krail's Rupture
 - Lesser Restoration
 - Locate Creature
 - Locate Object
 - Magic Circle
 - Magic Weapon
+- Maligned Weapon
 - Neutralizing Field
 - Prayer of Healing
 - Protection from Evil and Good
@@ -657,10 +833,12 @@ Paladin:
 - Spirit Shroud
 - Staggering Smite
 - Summon Celestial
+- Supernal Smite
 - Thunderous Smite
 - Warding Bond
 - Wrathful Smite
 - Zone of Truth
+
 Ranger:
 - Absorb Elements
 - Aid
@@ -673,6 +851,8 @@ Ranger:
 - Barkskin
 - Beast Bond
 - Beast Sense
+- Blade of Blood and Bone
+- Bloodletter
 - Commune with Nature
 - Conjure Animals
 - Conjure Barrage
@@ -684,12 +864,15 @@ Ranger:
 - Daylight
 - Detect Magic
 - Detect Poison and Disease
+- Dispel Magic
 - Dominate Beast
+- Drayfn's Blunted Blade
 - Elemental Weapon
 - Elevated Sight
 - Enhance Ability
 - Ensnaring Strike
 - Entangle
+- Faerie Toast
 - Feathered Reach
 - Find Traps
 - Flame Arrows
@@ -705,14 +888,19 @@ Ranger:
 - Gust of Wind
 - Hail of Thorns
 - Healing Spirit
+- Hibernation
 - Hunter's Mark
 - Jump
+- Krail's Maggot
+- Krail's Rupture
 - Lesser Restoration
 - Lightning Arrow
 - Locate Animals or Plants
 - Locate Creature
 - Locate Object
 - Longstrider
+- Lost
+- Lost and Wandering
 - Magic Weapon
 - Meld into Stone
 - Neutralizing Field
@@ -723,7 +911,6 @@ Ranger:
 - Protection from Poison
 - Purge Contamination
 - Revivify
-- Searing Smite
 - Silence
 - Snare
 - Speak with Animals
@@ -742,6 +929,7 @@ Ranger:
 - Wind Wall
 - Wrath of Nature
 - Zephyr Strike
+
 Sorcerer:
 - Abi-Dalzim's Horrid Wilting
 - Absorb Elements
@@ -751,11 +939,14 @@ Sorcerer:
 - Alter Self
 - Animate Objects
 - Antagonize
-- Arcane Eruption
 - Arcane Gate
+- Arcane Vigor
 - Ashardalon's Stride
 - Banishment
+- Become Nightwing
 - Bigby's Hand
+- Bitter Wind
+- Black Ribbons
 - Blade of Disaster
 - Blade Ward
 - Blight
@@ -763,23 +954,29 @@ Sorcerer:
 - Blink
 - Blur
 - Booming Blade
+- Bright Sparks
 - Burning Hands
+- Call Shadow Mastiff
 - Catapult
 - Catnap
 - Chain Lightning
 - Chaos Bolt
 - Charm Monster
 - Charm Person
+- Charnel Banquet
+- Child of Light and Darkness
 - Chill Touch
 - Chromatic Orb
 - Circle of Death
 - Clairvoyance
+- Claws of Darkness
 - Cloud of Daggers
 - Cloudkill
 - Color Spray
 - Comprehend Languages
 - Cone of Cold
 - Confusion
+- Conjure Shadow Titan
 - Conjure the Deep Haze
 - Contaminated Power
 - Contamination Immunity
@@ -788,9 +985,14 @@ Sorcerer:
 - Counterspell
 - Create Bonfire
 - Creation
+- Creeping Darkness
+- Creeping Touch
 - Crown of Madness
 - Crown of Stars
 - Dancing Lights
+- Dark Dementing
+- Dark Path
+- Darkbolt
 - Darkness
 - Darkvision
 - Daylight
@@ -808,13 +1010,24 @@ Sorcerer:
 - Dominate Beast
 - Dominate Monster
 - Dominate Person
+- Doom of False Friends
+- Doom of Poor Fortune
+- Doom of Stacked Stones
+- Doom of Summer Years
+- Douse Light
 - Draconic Transformation
 - Dragon's Breath
+- Drayfn's Bane of Excellence
+- Drayfn's Blunted Blade
+- Drayfn's Curse of Incompetence
 - Dream of the Blue Veil
 - Dust Devil
+- Dying of the Light
 - Earth Tremor
 - Earthbind
 - Earthquake
+- Elementalism
+- Elf Shot
 - Enemies Abound
 - Enervation
 - Enhance Ability
@@ -826,9 +1039,11 @@ Sorcerer:
 - False Life
 - Far Step
 - Fear
+- Feast of Flesh
 - Feather Fall
 - Finger of Death
 - Fire Bolt
+- Fire Dance
 - Fire Shield
 - Fire Storm
 - Fireball
@@ -847,6 +1062,7 @@ Sorcerer:
 - Gaseous Form
 - Gate
 - Gate Seal
+- Gloaming
 - Globe of Invulnerability
 - Grease
 - Greater Invisibility
@@ -856,6 +1072,9 @@ Sorcerer:
 - Gust of Wind
 - Haste
 - Heartseeker
+- Hell's Lash
+- Hellfire
+- Hide in One's Shadow
 - Hold Monster
 - Hold Person
 - Hypnotic Pattern
@@ -874,11 +1093,16 @@ Sorcerer:
 - Invisibility
 - Jump
 - Kinetic Jaunt
+- Knife of Fate
 - Knock
+- Krail's Rot
+- Krail's Rupture
 - Levitate
+- Life Tether
 - Light
 - Lightning Bolt
 - Lightning Lure
+- Lunar Transfer
 - Mage Armor
 - Mage Hand
 - Magic Mirror
@@ -899,36 +1123,55 @@ Sorcerer:
 - Mirror Image
 - Misty Step
 - Mold Earth
+- Moonlight Sending
+- Mote of Hell
 - Move Earth
 - Nathair's Mischief
+- Negative Image
 - Neutralizing Field
 - Octarine Spray
+- Ominous Winds
+- Orros Mark of Fate
 - Otiluke's Freezing Sphere
 - Phantasmal Force
+- Phoenix Flames
 - Plane Shift
 - Poison Spray
+- Polychromatic Bubble
 - Polymorph
+- Portho's Portal
 - Power Word Kill
 - Power Word Pain
 - Power Word Stun
+- Pratfall
 - Prestidigitation
 - Prismatic Spray
 - Protection from Energy
 - Psychic Scream
 - Purge Contamination
 - Pyrotechnics
+- Radiant Beacon
 - Raulothim's Psychic Lance
 - Ray of Contamination
 - Ray of Frost
 - Ray of Sickness
 - Reverse Gravity
+- Ride the Lightning
 - Ride the Rifts
 - Rime's Binding Ice
 - Scatter
 - Scorching Ray
+- Searing Sun
 - See Invisibility
 - Seeming
+- Shadow Adaptation
+- Shadow Armor
 - Shadow Blade
+- Shadow Gateway
+- Shadow Portal
+- Shadow Puppets
+- Shadow Step
+- Shadow Tendrils
 - Shape Water
 - Shatter
 - Shield
@@ -944,6 +1187,7 @@ Sorcerer:
 - Snilloc's Snowball Swarm
 - Sorcerous Burst
 - Spider Climb
+- Spider Song
 - Spiny Shield
 - Spirit of Death
 - Spray of Cards
@@ -953,7 +1197,6 @@ Sorcerer:
 - Storm Sphere
 - Suffocate
 - Suggestion
-- Summon Draconic Spirit
 - Sunbeam
 - Sunburst
 - Sword Burst
@@ -972,9 +1215,13 @@ Sorcerer:
 - Tongues
 - True Seeing
 - True Strike
+- Ugly Duckling
+- Umbral Storm
 - Vampiric Touch
+- Vengeful Blade
 - Vitriolic Sphere
 - Vortex Warp
+- Wall of Death
 - Wall of Fire
 - Wall of Light
 - Wall of Stone
@@ -990,6 +1237,7 @@ Sorcerer:
 - Wish
 - Witch Bolt
 - Wither and Bloom
+
 Warlock:
 - Antagonize
 - Arcane Gate
@@ -998,19 +1246,26 @@ Warlock:
 - Astral Projection
 - Bane
 - Banishment
+- Become Nightwing
+- Befuddlement
+- Black Hand
+- Black Ribbons
+- Blade of Blood and Bone
 - Blade of Disaster
 - Blade Ward
 - Blight
 - Booming Blade
 - Borrowed Knowledge
+- Call Shadow Mastiff
 - Cause Fear
 - Charm Monster
 - Charm Person
 - Chill Touch
 - Circle of Death
+- Claws of Darkness
 - Cloud of Daggers
 - Comprehend Languages
-- Conjure Fey
+- Conjure Shadow Titan
 - Conjure the Deep Haze
 - Consume Mind
 - Contact Other Plane
@@ -1019,9 +1274,14 @@ Warlock:
 - Counterspell
 - Create Bonfire
 - Create Undead
+- Creeping Darkness
+- Creeping Touch
 - Crown of Madness
 - Crown of Stars
 - Danse Macabre
+- Dark Dementing
+- Dark Path
+- Darkbolt
 - Darkness
 - Delerium Blast
 - Delerium Orb
@@ -1031,8 +1291,13 @@ Warlock:
 - Dispel Magic
 - Distort Value
 - Dominate Monster
+- Douse Light
+- Drayfn's Bane of Excellence
+- Drayfn's Blunted Blade
+- Drayfn's Curse of Incompetence
 - Dream
 - Dream of the Blue Veil
+- Dying of the Light
 - Earthbind
 - Eldritch Blast
 - Elemental Bane
@@ -1045,9 +1310,9 @@ Warlock:
 - Eyebite
 - Far Step
 - Fear
-- Feeblemind
+- Feast of Flesh
 - Finger of Death
-- Flesh to Stone
+- Fire Dance
 - Flock of Familiars
 - Fly
 - Forcecage
@@ -1060,11 +1325,17 @@ Warlock:
 - Gate
 - Gate Seal
 - Glibness
+- Gloaming
 - Globe of Twilight
 - Green-Flame Blade
+- Grim Harvest
+- Grim Shadows
 - Hallucinatory Terrain
+- Hell's Lash
+- Hellfire
 - Hellish Rebuke
 - Hex
+- Hide in One's Shadow
 - Hold Monster
 - Hold Person
 - Hunger of Hadar
@@ -1080,13 +1351,19 @@ Warlock:
 - Investiture of Stone
 - Investiture of Wind
 - Invisibility
+- Jallarzi's Storm of Radiance
+- Krail's Maggot
+- Krail's Rupture
+- Leiloch's Arduous Shuffle
+- Leiloch's Interminable Yarn
+- Leiloch's Irritating Kazoo
+- Life Tether
 - Lightning Lure
 - Maddening Darkness
 - Mage Hand
 - Magic Circle
 - Magic Stone
 - Major Image
-- Mass Suggestion
 - Mental Prison
 - Mind Sliver
 - Mind Spike
@@ -1094,8 +1371,11 @@ Warlock:
 - Mirror Image
 - Mislead
 - Misty Step
+- Mote of Hell
 - Negative Energy Flood
+- Negative Image
 - Neutralizing Field
+- Obfuscate Object
 - Octarine Spray
 - Planar Binding
 - Plane Shift
@@ -1103,6 +1383,7 @@ Warlock:
 - Power Word Kill
 - Power Word Pain
 - Power Word Stun
+- Pratfall
 - Prestidigitation
 - Protection from Evil and Good
 - Psychic Scream
@@ -1115,14 +1396,23 @@ Warlock:
 - Sacrament of the Falling Fire
 - Scatter
 - Scrying
+- Shadow Adaptation
+- Shadow Armor
 - Shadow Blade
+- Shadow Blindness
+- Shadow Gateway
+- Shadow Hands
 - Shadow of Moil
-- Shatter
+- Shadow Portal
+- Shadow Puppets
+- Shadow Step
+- Shadow Tendrils
 - Sickening Radiance
 - Siphon Contamination
 - Soul Cage
 - Speak with Animals
 - Spider Climb
+- Spider Song
 - Spirit of Death
 - Spirit Shroud
 - Spray of Cards
@@ -1137,6 +1427,8 @@ Warlock:
 - Summon Undead
 - Sword Burst
 - Synaptic Static
+- Tasha's Bubbling Cauldron
+- Tasha's Hideous Laughter
 - Tasha's Otherworldly Guise
 - Teleportation Circle
 - Thunder Step
@@ -1146,14 +1438,17 @@ Warlock:
 - True Polymorph
 - True Seeing
 - True Strike
+- Umbral Storm
 - Unseen Servant
 - Vampiric Touch
 - Veil of Dusk
+- Vengeful Blade
 - Wall of Light
 - Warp Bolt
 - Warp Sense
 - Weird
 - Witch Bolt
+
 Wizard:
 - Abi-Dalzim's Horrid Wilting
 - Absorb Elements
@@ -1170,12 +1465,19 @@ Wizard:
 - Arcane Eye
 - Arcane Gate
 - Arcane Lock
+- Arcane Vigor
 - Ashardalon's Stride
 - Astral Projection
 - Augury
 - Banishment
+- Become Nightwing
+- Befuddlement
 - Bestow Curse
 - Bigby's Hand
+- Bitter Wind
+- Black Hand
+- Black Ribbons
+- Black Well
 - Blade of Disaster
 - Blade Ward
 - Blight
@@ -1184,17 +1486,25 @@ Wizard:
 - Blur
 - Booming Blade
 - Borrowed Knowledge
+- Bright Sparks
 - Burning Hands
+- Burning Radiance
+- Call Shadow Mastiff
 - Catapult
 - Catnap
 - Cause Fear
 - Chain Lightning
 - Charm Monster
 - Charm Person
+- Charnel Banquet
+- Child of Light and Darkness
 - Chill Touch
 - Chromatic Orb
 - Circle of Death
+- Circle of Power
 - Clairvoyance
+- Claws of Darkness
+- Cloak of Shadow
 - Clone
 - Cloud of Daggers
 - Cloudkill
@@ -1203,7 +1513,10 @@ Wizard:
 - Cone of Cold
 - Confusion
 - Conjure Elemental
+- Conjure Ferryman
+- Conjure Giant
 - Conjure Minor Elementals
+- Conjure Shadow Titan
 - Conjure the Deep Haze
 - Consume Mind
 - Contact Other Plane
@@ -1222,10 +1535,15 @@ Wizard:
 - Create Spelljamming Helm
 - Create Undead
 - Creation
+- Creeping Darkness
+- Creeping Touch
 - Crown of Madness
 - Crown of Stars
 - Dancing Lights
 - Danse Macabre
+- Dark Dementing
+- Dark Path
+- Darkbolt
 - Darkness
 - Darkvision
 - Dawn
@@ -1243,16 +1561,31 @@ Wizard:
 - Divination
 - Dominate Monster
 - Dominate Person
+- Doom of False Friends
+- Doom of Poor Fortune
+- Doom of Stacked Stones
+- Doom of Summer Years
+- Douse Light
 - Draconic Transformation
 - Dragon's Breath
 - Drawmij's Instant Summons
+- Drayfn's Bane of Excellence
+- Drayfn's Blunted Blade
+- Drayfn's Curse of Incompetence
 - Dream
 - Dream of the Blue Veil
+- Drizzle
 - Dust Devil
+- Dying of the Light
 - Earth Tremor
 - Earthbind
+- Ebon Tide
 - Elemental Bane
+- Elementalism
 - Elevated Sight
+- Elf Shot
+- Emerald Goblet
+- Encode Thoughts
 - Enemies Abound
 - Enervation
 - Enhance Ability
@@ -1267,17 +1600,19 @@ Wizard:
 - Far Step
 - Fast Friends
 - Fear
+- Feast of Flesh
 - Feather Fall
-- Feeblemind
 - Feign Death
 - Find Familiar
 - Finger of Death
 - Fire Bolt
+- Fire Dance
 - Fire Shield
 - Fireball
 - Fizban's Platinum Shield
 - Flame Arrows
 - Flaming Sphere
+- Flense
 - Flesh to Stone
 - Flock of Familiars
 - Fly
@@ -1296,11 +1631,14 @@ Wizard:
 - Geas
 - Gentle Repose
 - Gift of Gab
+- Gloaming
 - Globe of Invulnerability
 - Glyph of Warding
 - Grease
 - Greater Invisibility
 - Green-Flame Blade
+- Grim Harvest
+- Grim Shadows
 - Guards and Wards
 - Gust
 - Gust Barrier
@@ -1308,6 +1646,9 @@ Wizard:
 - Hallucinatory Terrain
 - Haste
 - Heartseeker
+- Hell's Lash
+- Hellfire
+- Hide in One's Shadow
 - Hold Monster
 - Hold Person
 - Hypnotic Pattern
@@ -1329,23 +1670,32 @@ Wizard:
 - Investiture of Wind
 - Invisibility
 - Invulnerability
+- Jallarzi's Storm of Radiance
 - Jim's Glowing Coin
 - Jim's Magic Missile
 - Jump
 - Kinetic Jaunt
+- Knife of Fate
 - Knock
+- Krail's Rot
+- Krail's Rupture
 - Legend Lore
 - Leomund's Secret Chest
 - Leomund's Tiny Hut
 - Levitate
+- Life Drain
+- Life Tether
 - Life Transference
 - Light
 - Lightning Bolt
 - Lightning Lure
+- Living Shadows
 - Locate Creature
 - Locate Object
 - Longstrider
+- Lunar Transfer
 - Maddening Darkness
+- Maddening Whispers
 - Mage Armor
 - Mage Hand
 - Magic Circle
@@ -1375,17 +1725,22 @@ Wizard:
 - Misty Step
 - Modify Memory
 - Mold Earth
+- Moonlight Sending
 - Mordenkainen's Faithful Hound
 - Mordenkainen's Magnificent Mansion
 - Mordenkainen's Private Sanctum
 - Mordenkainen's Sword
+- Mote of Hell
 - Move Earth
 - Nathair's Mischief
 - Negative Energy Flood
+- Negative Image
 - Neutralizing Field
 - Nondetection
 - Nystul's Magic Aura
 - Octarine Spray
+- Ominous Winds
+- Orros Mark of Fate
 - Otiluke's Freezing Sphere
 - Otiluke's Resilient Sphere
 - Otto's Irresistible Dance
@@ -1396,10 +1751,13 @@ Wizard:
 - Planar Binding
 - Plane Shift
 - Poison Spray
+- Polychromatic Bubble
 - Polymorph
+- Portho's Portal
 - Power Word Kill
 - Power Word Pain
 - Power Word Stun
+- Pratfall
 - Prestidigitation
 - Prismatic Spray
 - Prismatic Wall
@@ -1410,6 +1768,7 @@ Wizard:
 - Psychic Scream
 - Purge Contamination
 - Pyrotechnics
+- Radiant Beacon
 - Rary's Telepathic Bond
 - Raulothim's Psychic Lance
 - Ray of Contamination
@@ -1418,17 +1777,30 @@ Wizard:
 - Ray of Sickness
 - Remove Curse
 - Reverse Gravity
+- Ride the Lightning
 - Ride the Rifts
 - Rime's Binding Ice
 - Rope Trick
 - Scatter
 - Scorching Ray
 - Scrying
+- Searing Sun
 - See Invisibility
 - Seeming
 - Sending
 - Sequester
+- Shadow Adaptation
+- Shadow Armor
+- Shadow Bite
 - Shadow Blade
+- Shadow Blindness
+- Shadow Gateway
+- Shadow Hands
+- Shadow Portal
+- Shadow Puppets
+- Shadow Step
+- Shadow Tendrils
+- Shadow Trove
 - Shape Water
 - Shapechange
 - Shatter
@@ -1443,27 +1815,31 @@ Wizard:
 - Skywrite
 - Sleep
 - Sleet Storm
+- Slither
 - Slow
 - Snare
 - Snilloc's Snowball Swarm
 - Soul Cage
 - Speak with Dead
 - Spider Climb
+- Spider Song
 - Spiny Shield
 - Spirit of Death
 - Spirit Shroud
+- Spirit Swarm
 - Spray of Cards
 - Steel Wind Strike
 - Stellar Bodies
 - Stinking Cloud
 - Stone Shape
 - Stoneskin
+- Storm Door
 - Storm Sphere
 - Suffocate
 - Suggestion
 - Summon Aberration
 - Summon Construct
-- Summon Draconic Spirit
+- Summon Dragon
 - Summon Elemental
 - Summon Fey
 - Summon Fiend
@@ -1476,6 +1852,7 @@ Wizard:
 - Sword Burst
 - Symbol
 - Synaptic Static
+- Tasha's Bubbling Cauldron
 - Tasha's Caustic Brew
 - Tasha's Hideous Laughter
 - Tasha's Mind Whip
@@ -1498,10 +1875,15 @@ Wizard:
 - True Polymorph
 - True Seeing
 - True Strike
+- Ugly Duckling
+- Umbral Storm
 - Unseen Servant
 - Vampiric Touch
+- Vengeful Blade
 - Vitriolic Sphere
+- Void Strike
 - Vortex Warp
+- Wall of Death
 - Wall of Fire
 - Wall of Force
 - Wall of Ice
@@ -1520,3 +1902,5 @@ Wizard:
 - Wish
 - Witch Bolt
 - Wither and Bloom
+- Word of Misfortune
+- Yolande's Regal Presence

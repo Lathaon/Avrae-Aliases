@@ -34,20 +34,20 @@
 # ===== Constants =====
 #
 # SPELL_LEVELS: A dict of spell name -> spell level
-# LEVELS_2014: A dict of spell name -> level in 2014 rules
 # SPELL_SCHOOLS: A dict of spell school -> list of spell names
 # SCHOOLS_2014: A dict of spell name -> school in 2014 rules
 # RITUAL_SPELLS: A list of ritual spells
+# SPELL_ALT_NAMES: A dict of spell name (alt) -> spell name (main)
 
 using(
     fuzzy = "6431690e-ce47-4baa-bb3b-ba751e1a1817"
 )
 
-SPELL_LEVELS  = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
-LEVELS_2014   = load_yaml(get_gvar("62a67979-786c-45e4-836e-2a3c417bc1bc"))
-SPELL_SCHOOLS = load_yaml(get_gvar("5a794008-0adc-41c2-9de5-7fb7a9ff7f67"))
-SCHOOLS_2014  = load_yaml(get_gvar("c2472a43-15fc-44da-9e54-bf32f0c7af90"))
-RITUAL_SPELLS = load_yaml(get_gvar("9b015cdc-45e0-4bc6-8574-f0c3f96e6015"))
+SPELL_LEVELS    = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
+SPELL_SCHOOLS   = load_yaml(get_gvar("5a794008-0adc-41c2-9de5-7fb7a9ff7f67"))
+SCHOOLS_2014    = load_yaml(get_gvar("c2472a43-15fc-44da-9e54-bf32f0c7af90"))
+RITUAL_SPELLS   = load_yaml(get_gvar("9b015cdc-45e0-4bc6-8574-f0c3f96e6015"))
+SPELL_ALT_NAMES = load_yaml(get_gvar("3cc1bc6e-bdc2-4bbe-97a4-ed9f2dd5c3a9"))
 
 
 def get_matching_spell_name(search, known_spells = [x.name for x in character().spellbook.spells]):
@@ -61,13 +61,19 @@ def get_matching_spell_name(search, known_spells = [x.name for x in character().
     """
     match fuzzy.get_matches_ignoring_punctuation(search, known_spells):
         case [spell_name]:
-            return spell_name
+            return SPELL_ALT_NAMES.get(spell_name, spell_name)
         case []:
             match fuzzy.get_matches_ignoring_punctuation(search, SPELL_LEVELS):
                 case [spell_name]:
                     return spell_name
                 case []:
-                    err(f'`{search}` did not match any spells.')
+                    match fuzzy.get_matches_ignoring_punctuation(search, SPELL_ALT_NAMES):
+                        case [spell_name]:
+                            return SPELL_ALT_NAMES[spell_name]
+                        case []:
+                            err(f'`{search}` did not match any spells.')
+                        case matches:
+                            err(f'`{search}` matched multiple spells. Did you mean {"? ".join(SPELL_ALT_NAMES[match] for match in matches[:3])}?')
                 case matches:
                     err(f'`{search}` matched multiple spells. Did you mean {"? ".join(matches[:3])}?')
         case matches:
@@ -78,22 +84,23 @@ def get_spell_level(spell_name, version = 2024):
     """
     Returns a spell's level.
     :arg str spell_name: the exact name of the spell.
-    :kwarg str version: the schools of some spells changed in the playtest. Specify `version = 2014` to use the original schools.
+    :kwarg str version: currently does nothing
     :return: the level of the spell, or `None` if not known.
     :rtype: int|None
     """
-    return SPELL_LEVELS.get(spell_name)
+    return SPELL_LEVELS.get(SPELL_ALT_NAMES.get(spell_name, spell_name))
 
 
 def get_spell_school(spell_name, version = 2024):
     """
     Returns a spell's school.
     :arg str spell_name: the exact name of the spell.
-    :kwarg str version: the schools of some spells changed in the playtest. Specify `version = 2014` to use the original schools.
+    :kwarg str version: the schools of some spells changed in 2024. Specify `version = 2014` to use the original schools.
     :return: the school of the spell, or `None` if not known.
     :rtype: str|None
     """
-    if version in (2014, "published"):
+    spell_name = SPELL_ALT_NAMES.get(spell_name, spell_name)
+    if version == 2014:
         return SCHOOLS_2014.get(spell_name, get_spell_school(spell_name))
     else:
         for school, school_spells in SPELL_SCHOOLS.items():
@@ -108,7 +115,7 @@ def is_ritual(spell_name):
     :return: True if the spell is a ritual, or False otherwise.
     :rtype: bool
     """
-    return spell_name in RITUAL_SPELLS
+    return SPELL_ALT_NAMES.get(spell_name, spell_name) in RITUAL_SPELLS
 
 
 def import_homebrew(homebrew_spells):

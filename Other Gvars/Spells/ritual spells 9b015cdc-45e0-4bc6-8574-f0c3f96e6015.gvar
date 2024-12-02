@@ -1,5 +1,7 @@
-# RITUAL_SPELLS = load_yaml(get_gvar("9b015cdc-45e0-4bc6-8574-f0c3f96e6015"))
-# Last updated: 24/11/2024
+# Ritual Spells
+# load_yaml(get_gvar("9b015cdc-45e0-4bc6-8574-f0c3f96e6015"))
+# Does not include alternative spell names. See 3cc1bc6e-bdc2-4bbe-97a4-ed9f2dd5c3a9
+# Last updated: 2 December 2024
 
 - Alarm
 - Animal Messenger
@@ -19,12 +21,10 @@
 - Faerie Toast
 - Feign Death
 - Find Familiar
-- Floating Disk
 - Forbiddance
 - Gentle Repose
 - Identify
 - Illusory Script
-- Instant Summons
 - Leomund's Tiny Hut
 - Locate Animals or Plants
 - Magic Mouth
@@ -37,9 +37,7 @@
 - Silence
 - Skywrite
 - Speak with Animals
-- Telepathic Bond
 - Tenser's Floating Disk
-- Tiny Hut
 - Unseen Servant
 - Water Breathing
 - Water Walk

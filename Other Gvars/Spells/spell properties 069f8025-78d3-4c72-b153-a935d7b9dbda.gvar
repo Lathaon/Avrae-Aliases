@@ -1,5 +1,6 @@
-# SPELL_PROPERTIES = load_yaml(get_gvar("069f8025-78d3-4c72-b153-a935d7b9dbda"))
-# Last updated: 24/11/2024
+# Spell Properties
+# load_yaml(get_gvar("069f8025-78d3-4c72-b153-a935d7b9dbda"))
+# Last updated: 2 December 2024
 
 Abi-Dalzim's Horrid Wilting: {components: [V, S, M], range: 150 feet (30-foot Cube), duration: Instantaneous, casting_time: Action}
 Absorb Elements: {components: [S], range: Self, duration: 1 round, casting_time: "Reaction, which you take when you take acid, cold, fire, lightning, or thunder damage"}
@@ -28,6 +29,7 @@ Arms of Hadar: {components: [V, S], range: Self (10-foot Emanation), duration: I
 Ashardalon's Stride: {components: [V, S], range: Self, conc: on, duration: 1 minute, casting_time: Bonus Action}
 Astral Projection: {components: [V, S, M], range: 10 feet, duration: Special, casting_time: 1 hour}
 Augury: {components: [V, S, M], range: Self, duration: Instantaneous, casting_time: 1 minute}
+Aura of Desecration: {components: [V], range: Self (30-foot Emanation), conc: on, duration: 10 minutes, casting_time: Action}
 Aura of Life: {components: [V], range: Self (30-foot Emanation), conc: on, duration: 10 minutes, casting_time: Action}
 Aura of Purity: {components: [V], range: Self (30-foot Emanation), conc: on, duration: 10 minutes, casting_time: Action}
 Aura of Vitality: {components: [V], range: Self (30-foot Emanation), conc: on, duration: 1 minute, casting_time: Action}
@@ -288,6 +290,8 @@ Heal: {components: [V, S], range: 60 feet, duration: Instantaneous, casting_time
 Healing Spirit: {components: [V, S], range: 60 feet (5-foot Cube), conc: on, duration: 1 minute, casting_time: Bonus Action}
 Healing Word: {components: [V], range: 60 feet, duration: Instantaneous, casting_time: Bonus Action}
 Heat Metal: {components: [V, S, M], range: 60 feet, conc: on, duration: 1 minute, casting_time: Action}
+Hell's Lash: {components: [V, S, M], range: 30 feet, conc: on, duration: 1 minute, casting_time: Action}
+Hellfire: {components: [V, S], range: 120 feet, duration: Instantaneous, casting_time: Action}
 Hellish Rebuke: {components: [V, S], range: 60 feet, duration: Instantaneous, casting_time: "Reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see"}
 Hero of Fable: {components: [V, M], range: 60 feet, conc: on, duration: 1 minute, casting_time: Action}
 Heroes' Feast: {components: [V, S, M], range: 30 feet, duration: Instantaneous, casting_time: 10 minutes}
@@ -314,6 +318,7 @@ Imprisonment: {components: [V, S, M], range: 30 feet, duration: Until Dispelled,
 Incendiary Cloud: {components: [V, S], range: 150 feet (20-foot-radius Sphere), conc: on, duration: 1 minute, casting_time: Action}
 Incite Greed: {components: [V, S, M, R], range: 30 feet, conc: on, duration: 1 minute, casting_time: Action}
 Infernal Calling: {components: [V, S, M], range: 90 feet, conc: on, duration: 1 hour, casting_time: 1 minute}
+Infernal Challenge: {components: [V, S], range: 30 feet, conc: on, duration: 1 minute, casting_time: Bonus Action}
 Infestation: {components: [V, S, M], range: 30 feet, duration: Instantaneous, casting_time: Action}
 Inflict Wounds: {components: [V, S], range: Touch, duration: Instantaneous, casting_time: Action}
 Insect Plague: {components: [V, S, M], range: 300 feet (20-foot-radius Sphere), conc: on, duration: 10 minutes, casting_time: Action}
@@ -370,6 +375,7 @@ Magic Stone: {components: [V, S], range: Touch, duration: 1 minute, casting_time
 Magic Weapon: {components: [V, S], range: Touch, conc: on, duration: 1 hour, casting_time: Bonus Action}
 Magnify Gravity: {components: [V, S], range: 60 feet (10-foot-radius Sphere), duration: 1 round, casting_time: Action}
 Major Image: {components: [V, S, M], range: 120 feet (20-foot Cube), conc: on, duration: 10 minutes, casting_time: Action}
+Maligned Weapon: {components: [V, S], range: Touch, conc: on, duration: 1 hour, casting_time: Bonus Action}
 Mass Cure Wounds: {components: [V, S], range: 60 feet (30-foot-radius Sphere), duration: Instantaneous, casting_time: Action}
 Mass Heal: {components: [V, S], range: 60 feet, duration: Instantaneous, casting_time: Action}
 Mass Healing Word: {components: [V], range: 60 feet, duration: Instantaneous, casting_time: Bonus Action}
@@ -401,6 +407,7 @@ Mordenkainen's Faithful Hound: {components: [V, S, M], range: 30 feet, duration:
 Mordenkainen's Magnificent Mansion: {components: [V, S, M], range: 300 feet, duration: 24 hours, casting_time: 1 minute}
 Mordenkainen's Private Sanctum: {components: [V, S, M], range: 120 feet, duration: 24 hours, casting_time: 10 minutes}
 Mordenkainen's Sword: {components: [V, S, M], range: 60 feet, conc: on, duration: 1 minute, casting_time: Action}
+Mote of Hell: {components: [V, S, M], range: 150 feet (15-foot-radius Sphere), conc: on, duration: 1 minute, casting_time: Action}
 Motivational Speech: {components: [V], range: 60 feet, duration: 1 hour, casting_time: 1 minute}
 Move Earth: {components: [V, S, M], range: 120 feet, conc: on, duration: 2 hours, casting_time: Action}
 Nathair's Mischief: {components: [S, M], range: 60 feet (20-foot Cube), conc: on, duration: 1 minute, casting_time: Action}
@@ -597,10 +604,12 @@ Ugly Duckling: {components: [V, S, M], range: 30 feet, conc: on, duration: 1 hou
 Umbral Storm: {components: [V, S], range: 120 feet (20-foot-radius Sphere), conc: on, duration: 1 minute, casting_time: Action}
 Unseen Servant: {components: [V, S, M], range: 60 feet, duration: 1 hour, casting_time: Action}
 Vampiric Touch: {components: [V, S], range: Self, conc: on, duration: 1 minute, casting_time: Action}
+Vengeful Blade: {components: [S, M], range: Self, duration: Instantaneous, casting_time: Action}
 Vicious Mockery: {components: [V], range: 60 feet, duration: Instantaneous, casting_time: Action}
 Vitriolic Sphere: {components: [V, S, M], range: 150 feet (20-foot-radius Sphere), duration: Instantaneous, casting_time: Action}
 Void Strike: {components: [V, S], range: 90 feet, conc: on, duration: 1 minute, casting_time: Action}
 Vortex Warp: {components: [V, S], range: 90 feet, duration: Instantaneous, casting_time: Action}
+Wall of Death: {components: [V, S, M], range: 120 feet, conc: on, duration: 1 minute, casting_time: Action}
 Wall of Fire: {components: [V, S, M], range: 120 feet, conc: on, duration: 1 minute, casting_time: Action}
 Wall of Force: {components: [V, S, M], range: 120 feet, conc: on, duration: 10 minutes, casting_time: Action}
 Wall of Ice: {components: [V, S, M], range: 120 feet, conc: on, duration: 10 minutes, casting_time: Action}

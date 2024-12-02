@@ -1,0 +1,36 @@
+# 2024 D&D Spells with Different Schools. The value here is the 2014 school.
+# load_yaml(get_gvar("c2472a43-15fc-44da-9e54-bf32f0c7af90"))
+# Last updated: 2 December 2024
+
+Acid Splash: Conjuration
+Aura of Vitality: Evocation
+Banishing Smite: Abjuration
+Blindness/Deafness: Necromancy
+Shining Smite: Evocation
+Contingency: Evocation
+Crusader's Mantle: Evocation
+Cure Wounds: Evocation
+Dancing Lights: Evocation
+Divine Favor: Evocation
+Earthquake: Evocation
+Etherealness: Transmutation
+Giant Insect: Transmutation
+Glibness: Transmutation
+Goodberry: Transmutation
+Hallow: Evocation
+Heal: Evocation
+Healing Word: Evocation
+Mass Cure Wounds: Evocation
+Mass Heal: Evocation
+Mass Healing Word: Evocation
+Otiluke's Resilient Sphere: Evocation
+Poison Spray: Conjuration
+Power Word Heal: Evocation
+Prayer of Healing: Evocation
+Reincarnate: Transmutation
+Sending: Evocation
+Shining Smite: Evocation
+Staggering Smite: Evocation
+Stoneskin: Abjuration
+Telepathy: Evocation
+Wrathful Smite: Evocation

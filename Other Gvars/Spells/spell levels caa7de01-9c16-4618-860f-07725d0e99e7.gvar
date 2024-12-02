@@ -1,9 +1,10 @@
-# SPELL_LEVELS = load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
-# Last updated: 24/11/2024
+# Spell Levels
+# load_yaml(get_gvar("caa7de01-9c16-4618-860f-07725d0e99e7"))
+# Does not include alternative spell names. See 3cc1bc6e-bdc2-4bbe-97a4-ed9f2dd5c3a9
+# Last updated: 2 December 2024
 
 Abi-Dalzim's Horrid Wilting: 8
 Absorb Elements: 1
-Acid Arrow: 2
 Acid Splash: 0
 Aganazzar's Scorcher: 2
 Aid: 2
@@ -24,16 +25,14 @@ Arboreal Curse: 7
 Arcane Eruption: 4
 Arcane Eye: 4
 Arcane Gate: 6
-Arcane Hand: 5
 Arcane Lock: 2
-Arcane Sword: 7
 Arcane Vigor: 2
-Arcanist's Magic Aura: 2
 Armor of Agathys: 1
 Arms of Hadar: 1
 Ashardalon's Stride: 3
 Astral Projection: 9
 Augury: 2
+Aura of Desecration: 4
 Aura of Life: 4
 Aura of Purity: 4
 Aura of Vitality: 3
@@ -51,7 +50,6 @@ Bigby's Hand: 5
 Bitter Wind: 3
 Black Hand: 4
 Black Ribbons: 1
-Black Tentacles: 4
 Black Well: 6
 Blade Barrier: 6
 Blade of Blood and Bone: 1
@@ -67,7 +65,6 @@ Blur: 2
 Bones of the Earth: 6
 Booming Blade: 0
 Borrowed Knowledge: 2
-Branding Smite: 2
 Bright Sparks: 0
 Burning Hands: 1
 Burning Radiance: 6
@@ -223,7 +220,6 @@ Eyebite: 6
 Fabricate: 4
 Faerie Fire: 1
 Faerie Toast: 3
-Faithful Hound: 4
 False Life: 1
 Far Step: 5
 Fast Friends: 3
@@ -231,7 +227,7 @@ Fear: 3
 Feast of Flesh: 5
 Feather Fall: 1
 Feathered Reach: 3
-Feeblemind: 8
+Befuddlement: 8
 Feign Death: 3
 Find Familiar: 1
 Find Greater Steed: 4
@@ -252,7 +248,6 @@ Flame Strike: 5
 Flaming Sphere: 2
 Flense: 8
 Flesh to Stone: 6
-Floating Disk: 1
 Flock of Familiars: 2
 Flowering: 0
 Fly: 3
@@ -266,7 +261,6 @@ Fount of Moonlight: 4
 Freedom of Movement: 4
 Freedom of the Waves: 3
 Freedom of the Winds: 5
-Freezing Sphere: 6
 Friends: 0
 Frost Fingers: 1
 Frostbite: 0
@@ -313,6 +307,8 @@ Healing Spirit: 2
 Healing Word: 1
 Heartseeker: 6
 Heat Metal: 2
+Hell's Lash: 1
+Hellfire: 0
 Hellish Rebuke: 1
 Hero of Fable: 5
 Heroes' Feast: 6
@@ -320,7 +316,6 @@ Heroism: 1
 Hex: 1
 Hibernation: 2
 Hide in One's Shadow: 4
-Hideous Laughter: 1
 Hold Monster: 5
 Hold Person: 2
 Holy Aura: 8
@@ -341,10 +336,10 @@ Imprisonment: 9
 Incendiary Cloud: 8
 Incite Greed: 3
 Infernal Calling: 5
+Infernal Challenge: 2
 Infestation: 0
 Inflict Wounds: 1
 Insect Plague: 5
-Instant Summons: 6
 Intellect Fortress: 3
 Investiture of Flame: 6
 Investiture of Ice: 6
@@ -353,7 +348,6 @@ Investiture of Wind: 6
 Invisibility: 2
 Invoke the Amaranthine: 3
 Invulnerability: 9
-Irresistible Dance: 6
 Jallarzi's Storm of Radiance: 5
 Jim's Glowing Coin: 2
 Jim's Magic Missile: 1
@@ -399,9 +393,9 @@ Magic Missile: 1
 Magic Mouth: 2
 Magic Stone: 0
 Magic Weapon: 2
-Magnificent Mansion: 7
 Magnify Gravity: 1
 Major Image: 3
+Maligned Weapon: 4
 Mass Cure Wounds: 5
 Mass Heal: 9
 Mass Healing Word: 3
@@ -433,6 +427,7 @@ Mordenkainen's Faithful Hound: 4
 Mordenkainen's Magnificent Mansion: 7
 Mordenkainen's Private Sanctum: 4
 Mordenkainen's Sword: 7
+Mote of Hell: 3
 Motivational Speech: 3
 Move Earth: 6
 Nathair's Mischief: 2
@@ -474,7 +469,6 @@ Primal Savagery: 0
 Primordial Ward: 6
 Prismatic Spray: 7
 Prismatic Wall: 9
-Private Sanctum: 4
 Produce Flame: 0
 Programmed Illusion: 6
 Project Image: 7
@@ -499,7 +493,6 @@ Reality Break: 8
 Regenerate: 7
 Reincarnate: 5
 Remove Curse: 3
-Resilient Sphere: 4
 Resistance: 0
 Resurrection: 7
 Reverse Gravity: 7
@@ -517,7 +510,6 @@ Scorching Ray: 2
 Scrying: 5
 Searing Smite: 1
 Searing Sun: 4
-Secret Chest: 4
 See Invisibility: 2
 Seeming: 5
 Sending: 3
@@ -590,7 +582,7 @@ Summon Aberration: 4
 Summon Beast: 2
 Summon Celestial: 5
 Summon Construct: 4
-Summon Draconic Spirit: 5
+Summon Dragon: 5
 Summon Elemental: 4
 Summon Fey: 3
 Summon Fiend: 6
@@ -611,7 +603,6 @@ Tasha's Hideous Laughter: 1
 Tasha's Mind Whip: 2
 Tasha's Otherworldly Guise: 6
 Telekinesis: 5
-Telepathic Bond: 5
 Telepathy: 8
 Teleport: 7
 Teleportation Circle: 5
@@ -629,7 +620,6 @@ Thunderwave: 1
 Tidal Wave: 3
 Time Ravage: 9
 Time Stop: 9
-Tiny Hut: 3
 Tiny Servant: 3
 Toll the Dead: 0
 Tongues: 3
@@ -646,10 +636,12 @@ Umbral Storm: 9
 Unseen Servant: 1
 Vampiric Touch: 3
 Veil of Dusk: 1
+Vengeful Blade: 0
 Vicious Mockery: 0
 Vitriolic Sphere: 4
 Void Strike: 3
 Vortex Warp: 2
+Wall of Death: 4
 Wall of Fire: 4
 Wall of Force: 5
 Wall of Ice: 6

@@ -1,6 +1,7 @@
-# Guinea Pigs of Neverwinter
-# One D&D Spells by School
+# Spells in each School
 # load_yaml(get_gvar("5a794008-0adc-41c2-9de5-7fb7a9ff7f67"))
+# Last updated: 2 December 2024
+
 Abjuration:
 - Absorb Elements
 - Aid
@@ -10,9 +11,11 @@ Abjuration:
 - Arcane Lock
 - Arcane Vigor
 - Armor of Agathys
+- Aura of Desecration
 - Aura of Life
 - Aura of Purity
 - Aura of Vitality
+- Banishment
 - Beacon of Hope
 - Blade Ward
 - Ceremony
@@ -53,12 +56,12 @@ Abjuration:
 - Mordenkainen's Private Sanctum
 - Neutralizing Field
 - Nondetection
+- Otiluke's Resilient Sphere
 - Pass without Trace
 - Planar Binding
 - Prayer of Healing
 - Primordial Ward
 - Prismatic Wall
-- Private Sanctum
 - Protection from Energy
 - Protection from Evil and Good
 - Protection from Poison
@@ -68,6 +71,7 @@ Abjuration:
 - Sacrament of the Falling Fire
 - Sanctuary
 - Shadow Adaptation
+- Shadow Armor
 - Shield
 - Shield of Faith
 - Snare
@@ -75,15 +79,16 @@ Abjuration:
 - Symbol
 - Veil of Dusk
 - Warding Bond
+
 Conjuration:
 - Air Bubble
 - Arcane Gate
 - Arms of Hadar
 - Banishing Smite
-- Banishment
-- Black Tentacles
+- Black Ribbons
 - Blade of Disaster
 - Call Lightning
+- Call Shadow Mastiff
 - Cloud of Daggers
 - Cloudkill
 - Conjure Animals
@@ -94,11 +99,14 @@ Conjuration:
 - Conjure Fey
 - Conjure Giant
 - Conjure Minor Elementals
+- Conjure Shadow Titan
 - Conjure the Deep Haze
 - Conjure Volley
 - Conjure Woodland Beings
 - Create Bonfire
 - Create Food and Water
+- Creeping Darkness
+- Dark Path
 - Demiplane
 - Dimension Door
 - Drawmij's Instant Summons
@@ -107,20 +115,22 @@ Conjuration:
 - Dust Devil
 - Ensnaring Strike
 - Entangle
+- Etherealness
 - Evard's Black Tentacles
-- Faithful Hound
 - Far Step
 - Find Familiar
 - Find Greater Steed
 - Find Steed
-- Floating Disk
+- Flaming Sphere
 - Flock of Familiars
 - Fog Cloud
 - Freedom of the Waves
 - Galder's Speedy Courier
 - Galder's Tower
 - Gate
+- Giant Insect
 - Globe of Twilight
+- Goodberry
 - Grasping Vine
 - Grease
 - Grim Shadows
@@ -134,17 +144,17 @@ Conjuration:
 - Infernal Calling
 - Infestation
 - Insect Plague
-- Instant Summons
 - Leomund's Secret Chest
 - Lunar Transfer
 - Mage Hand
-- Magnificent Mansion
 - Maze
 - Mighty Fortress
 - Misty Step
 - Moonlight Sending
 - Mordenkainen's Faithful Hound
 - Mordenkainen's Magnificent Mansion
+- Mote of Hell
+- Negative Image
 - Planar Ally
 - Plane Shift
 - Polychromatic Bubble
@@ -155,7 +165,6 @@ Conjuration:
 - Ride the Lightning
 - Ride the Rifts
 - Scatter
-- Secret Chest
 - Shadow Gateway
 - Shadow Portal
 - Shadow Step
@@ -172,7 +181,7 @@ Conjuration:
 - Summon Beast
 - Summon Celestial
 - Summon Construct
-- Summon Draconic Spirit
+- Summon Dragon
 - Summon Elemental
 - Summon Fey
 - Summon Fiend
@@ -198,6 +207,7 @@ Conjuration:
 - Wish
 - Word of Recall
 - Wristpocket
+
 Divination:
 - Arcane Eye
 - Augury
@@ -235,18 +245,20 @@ Divination:
 - See Invisibility
 - Sending
 - Speak with Animals
-- Telepathic Bond
 - Telepathy
 - Tongues
 - True Seeing
 - True Strike
 - Warp Sense
+
 Enchantment:
 - Animal Friendship
 - Animal Messenger
 - Antagonize
 - Antipathy/Sympathy
 - Bane
+- Become Nightwing
+- Befuddlement
 - Bless
 - Calm Emotions
 - Catnap
@@ -267,7 +279,6 @@ Enchantment:
 - Enemies Abound
 - Enthrall
 - Fast Friends
-- Feeblemind
 - Friends
 - Geas
 - Gift of Gab
@@ -275,10 +286,10 @@ Enchantment:
 - Hero of Fable
 - Heroism
 - Hex
-- Hideous Laughter
 - Hold Monster
 - Hold Person
 - Incite Greed
+- Infernal Challenge
 - Jim's Glowing Coin
 - Leiloch's Arduous Shuffle
 - Leiloch's Interminable Yarn
@@ -310,12 +321,10 @@ Enchantment:
 - Word of Misfortune
 - Yolande's Regal Presence
 - Zone of Truth
+
 Evocation:
-- Acid Arrow
 - Acid Splash
 - Aganazzar's Scorcher
-- Arcane Eruption
-- Arcane Hand
 - Bigby's Hand
 - Bitter Wind
 - Blade Barrier
@@ -327,10 +336,12 @@ Evocation:
 - Chain Lightning
 - Chaos Bolt
 - Chromatic Orb
+- Claws of Darkness
 - Cone of Cold
 - Continual Flame
 - Crown of Radiance
 - Crown of Stars
+- Crusader's Mantle
 - Dark Star
 - Darkbolt
 - Darkness
@@ -343,6 +354,7 @@ Evocation:
 - Destructive Wave
 - Divine Smite
 - Divine Word
+- Dying of the Light
 - Earth Tremor
 - Ebon Tide
 - Eldritch Blast
@@ -354,10 +366,8 @@ Evocation:
 - Fireflies
 - Flame Blade
 - Flame Strike
-- Flaming Sphere
 - Forcecage
 - Fount of Moonlight
-- Freezing Sphere
 - Frost Fingers
 - Frostbite
 - Gloaming
@@ -368,6 +378,8 @@ Evocation:
 - Gust Barrier
 - Gust of Wind
 - Heartseeker
+- Hell's Lash
+- Hellfire
 - Hellish Rebuke
 - Holy Weapon
 - Holy Word
@@ -382,6 +394,7 @@ Evocation:
 - Maddening Darkness
 - Maelstrom
 - Magic Missile
+- Maligned Weapon
 - Melf's Acid Arrow
 - Melf's Minute Meteors
 - Meteor Swarm
@@ -389,18 +402,17 @@ Evocation:
 - Mordenkainen's Sword
 - Octarine Spray
 - Otiluke's Freezing Sphere
-- Otiluke's Resilient Sphere
 - Phoenix Flames
 - Prismatic Spray
 - Pulse Wave
 - Radiant Beacon
 - Ravenous Void
 - Ray of Frost
-- Resilient Sphere
 - Rime's Binding Ice
 - Sacred Flame
 - Scorching Ray
 - Searing Smite
+- Shadow Hands
 - Shatter
 - Shocking Grasp
 - Sickening Radiance
@@ -417,7 +429,7 @@ Evocation:
 - Thunderclap
 - Thunderous Smite
 - Thunderwave
-- Tiny Hut
+- Vengeful Blade
 - Vitriolic Sphere
 - Void Strike
 - Wall of Fire
@@ -434,14 +446,15 @@ Evocation:
 - Witch Bolt
 - Word of Radiance
 - Wrath of Nature
+
 Illusion:
 - Ambush Prey
-- Arcanist's Magic Aura
 - Blur
 - Cloak of Shadow
 - Color Spray
 - Creation
 - Dancing Lights
+- Dark Dementing
 - Disguise Self
 - Distort Value
 - Dream
@@ -470,16 +483,22 @@ Illusion:
 - Programmed Illusion
 - Project Image
 - Seeming
+- Shadow Bite
 - Shadow Blade
+- Shadow Blindness
+- Shadow Puppets
 - Silence
 - Silent Image
 - Simulacrum
 - Weird
+
 Necromancy:
 - Abi-Dalzim's Horrid Wilting
 - Animate Dead
 - Astral Projection
 - Bestow Curse
+- Black Hand
+- Black Well
 - Blade of Blood and Bone
 - Blight
 - Bloodletter
@@ -527,6 +546,7 @@ Necromancy:
 - Revivify
 - Sapping Sting
 - Shadow of Moil
+- Shadow Tendrils
 - Soul Cage
 - Spare the Dying
 - Speak with Dead
@@ -538,10 +558,13 @@ Necromancy:
 - Time Ravage
 - Toll the Dead
 - True Resurrection
+- Umbral Storm
 - Vampiric Touch
+- Wall of Death
 - Wither and Bloom
 - Wrack
 - Wrathful Smite
+
 Transmutation:
 - Alter Self
 - Animal Shapes
@@ -553,7 +576,6 @@ Transmutation:
 - Blindness/Deafness
 - Blink
 - Bones of the Earth
-- Branding Smite
 - Catapult
 - Child of Light and Darkness
 - Contaminated Power
@@ -567,7 +589,6 @@ Transmutation:
 - Create or Destroy Water
 - Create Spelljamming Helm
 - Creeping Touch
-- Crusader's Mantle
 - Darkvision
 - Disintegrate
 - Divine Favor
@@ -586,7 +607,6 @@ Transmutation:
 - Enhance Ability
 - Enlarge/Reduce
 - Erupting Earth
-- Etherealness
 - Expeditious Retreat
 - Fabricate
 - Faerie Toast
@@ -599,12 +619,11 @@ Transmutation:
 - Fly
 - Forced Evolution
 - Gaseous Form
-- Giant Insect
-- Goodberry
 - Guardian of Nature
 - Gust
 - Haste
 - Heat Metal
+- Hide in One's Shadow
 - Immovable Object
 - Investiture of Flame
 - Investiture of Ice
@@ -638,6 +657,7 @@ Transmutation:
 - Rope Trick
 - Searing Sun
 - Sequester
+- Shadow Trove
 - Shape Plants
 - Shape Water
 - Shapechange
