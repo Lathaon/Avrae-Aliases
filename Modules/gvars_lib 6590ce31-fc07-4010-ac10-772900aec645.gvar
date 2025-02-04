@@ -1,0 +1,29 @@
+# gvars_lib = "6590ce31-fc07-4010-ac10-772900aec645"
+#
+# Ensures each gvar is only loaded once per execution of the alias, and allow for
+# either YAML or JSON format.
+
+_loaded_gvars = {}
+
+def load(address):
+    """
+    Loads a gvar that is in YAML or JSON format. If the gvar has already been loaded,
+    returns another copy of the already-loaded gvar.
+    """
+    if address not in _loaded_gvars:
+        gvar = get_gvar(address)
+        try:
+            _loaded_gvars[address] = load_yaml(gvar)
+        except "ScannerError":
+            try:
+                _loaded_gvars[address] = load_json(gvar)
+            except:
+                err(f"Couldn't load the gvar `{address}` as it isn't valid YAML.")
+        except ("ConstructorError","ParserError","ComposerError","ReaderError","ResolverError","YAMLError"):
+            err(f"Couldn't load the gvar `{address}` as it isn't valid YAML.")
+        except ("IterableTooLong","TooManyStatements","RecursionError"):
+            err(f"Couldn't load the gvar `{address}` as it would exceed Avrae's limits.")
+    try:
+        return _loaded_gvars[address].copy()
+    except "NotDefined":
+        return _loaded_gvars[address]
