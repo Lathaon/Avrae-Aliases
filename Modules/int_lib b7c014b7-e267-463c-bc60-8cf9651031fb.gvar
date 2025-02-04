@@ -22,6 +22,12 @@
 # iterative(number): Returns a corresponding iterative numeral
 #     (e.g. "twice") for an integer.
 #
+# delta(number): Returns the number as a comma-separated delta string (e.g. "+0"),
+#   rounded to 2 decimal places if it's not a whole number.
+#
+# pretty(number): Returns the number as a comma-separated string (e.g. "1,234.56"),
+#   rounded to 2 decimal places if it's not a whole number.
+#
 # median(*values): Returns the median of the args.
 
 
@@ -130,6 +136,34 @@ def iterative(number):
             return "twice"
         case _:
             return english(number) + " times"
+
+
+def delta(number):
+    """
+    Returns the number as a comma-separated delta string (e.g. "+0"),
+    rounded to 2 decimal places if it's not a whole number.
+    :arg int|float number:
+    :return: the number as a delta string.
+    :rtype: str
+    """
+    if float(number).is_integer():
+        return f"{int(number):+,}"
+    else:
+        return f"{number:+,.2F}"
+
+
+def pretty(number):
+    """
+    Returns the number as a comma-separated string (e.g. "1,234.56"),
+    rounded to 2 decimal places if it's not a whole number.
+    :arg int|float number:
+    :return: the number as a comma-separated string.
+    :rtype: str
+    """
+    if float(number).is_integer():
+        return f"{int(number):,}"
+    else:
+        return f"{number:,.2F}"
 
 
 def median(*values):
